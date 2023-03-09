@@ -11,5 +11,5 @@ updates:
       interval: "daily"
     labels:
       - "pip"
-      - "patch"
+      - "release:patch"
       - "dependencies"
