@@ -10,6 +10,4 @@ updates:
     schedule:
       interval: "daily"
     labels:
-      - "pip"
       - "release:patch"
-      - "dependencies"
