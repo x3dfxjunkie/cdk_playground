@@ -17,6 +17,8 @@ on:
 jobs:
   check-linting:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     strategy:
       fail-fast: true
     steps:
@@ -73,6 +75,8 @@ jobs:
 
   tests:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     strategy:
       fail-fast: true
     needs:
@@ -97,11 +101,13 @@ jobs:
 
   synth:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     strategy:
       fail-fast: true
     timeout-minutes: 5
     needs:
-      # - tests
+      - tests
       - check-linting
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -121,3 +127,15 @@ jobs:
           cd app
           pip install -r requirements.txt
           npx aws-cdk synth '**'
+
+  # approve:
+  #   runs-on: ubuntu-latest
+  #   needs:
+  #     - synth
+  #     - tests
+  #     - check-linting
+  #   steps:
+  #     - name: Auto Approve
+  #       uses: hmarr/auto-approve-action@v3.2.0
+  #       with:
+  #         github-token: ${{ secrets.GITHUB_TOKEN }}
