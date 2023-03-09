@@ -1,4 +1,4 @@
-name: CI
+name: Release
 
 # Controls when the workflow will run
 on:
@@ -21,4 +21,4 @@ jobs:
         with:
           bump_version_scheme: patch
           max_commits: 100
-          use_github_release_notes: false
+          use_github_release_notes: true
