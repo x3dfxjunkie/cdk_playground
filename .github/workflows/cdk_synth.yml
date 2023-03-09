@@ -47,7 +47,7 @@ jobs:
           all_changed_and_modified_files=(${{steps.changed-files.outputs.all_changed_and_modified_files}})
 
           # checks the formatting against black
-          result=$(python -m black $(echo ${all_changed_and_modified_files[@]}) --no-color --check 2>&1); status=$(echo $?)
+          result=$(python -m black -l 120 $(echo ${all_changed_and_modified_files[@]}) --no-color --check 2>&1); status=$(echo $?)
 
           # escape return values
           output="${result//'%'/'%25'}"
