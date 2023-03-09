@@ -17,6 +17,8 @@ on:
 jobs:
   check-linting:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     strategy:
       fail-fast: true
     steps:
@@ -73,6 +75,8 @@ jobs:
 
   tests:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     strategy:
       fail-fast: true
     needs:
@@ -97,6 +101,8 @@ jobs:
 
   synth:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     strategy:
       fail-fast: true
     timeout-minutes: 5
