@@ -10,17 +10,15 @@ from aws_cdk import (
 
 
 class AppStack(Stack):
-
     def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
 
         queue = sqs.Queue(
-            self, "AppQueue",
+            self,
+            "AppQueue",
             visibility_timeout=Duration.seconds(300),
         )
 
-        topic = sns.Topic(
-            self, "AppTopic"
-        )
+        topic = sns.Topic(self, "AppTopic")
 
         topic.add_subscription(subs.SqsSubscription(queue))
