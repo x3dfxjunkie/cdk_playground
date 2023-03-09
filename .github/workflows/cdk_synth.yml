@@ -57,7 +57,7 @@ jobs:
           echo "::set-output name=status::$status"
           set -e
       - name: Comment PR
-        uses: mshick/add-pr-comment@v3
+        uses: mshick/add-pr-comment@v2
         if: steps.changed-files.outputs.any_changed == 'true'
         with:
           message: |
@@ -65,7 +65,7 @@ jobs:
           message-id: lint_results
       - name: Comment PR skipped
         if: steps.changed-files.outputs.any_changed == 'false'
-        uses: mshick/add-pr-comment@v3
+        uses: mshick/add-pr-comment@v2
         with:
           message: |
             Lint Check Skipped since no files were changed
