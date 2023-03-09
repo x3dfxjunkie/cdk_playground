@@ -13,6 +13,8 @@ on:
 jobs:
   version:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Tag/Release on Push Action
         uses: rymndhng/release-on-push-action@v0.27.0
