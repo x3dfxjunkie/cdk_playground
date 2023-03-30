@@ -34,7 +34,7 @@ jobs:
         with:
           files: |
             **/*.py
-      - uses: actions/setup-python@v3
+      - uses: actions/setup-python@v4
         if: steps.changed-files.outputs.any_changed == 'true'
         with:
           python-version: '3.10'
@@ -86,7 +86,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - uses: actions/setup-python@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
@@ -110,7 +110,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - uses: actions/setup-python@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
