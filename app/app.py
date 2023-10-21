@@ -7,5 +7,6 @@ from app.app_stack import AppStack
 
 app = cdk.App()
 AppStack(app, "app")
+print 'yessir'
 
 app.synth()
