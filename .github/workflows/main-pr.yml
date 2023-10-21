@@ -30,6 +30,7 @@ jobs:
       - name: CodeGuru Reviewer
         uses: aws-actions/codeguru-reviewer@v1.1
         with:
+          source_path: app
           s3_bucket: codeguru-reviewer-x3dfxjunkie
 
       # Step 3: Upload results into GitHub
