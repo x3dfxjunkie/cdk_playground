@@ -1,9 +1,0 @@
-load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
-
-py_lambda_library(
-    name = "conftest_file",
-    srcs = ["conftest.py"],
-    data = ["__init__.py"],
-    visibility = ["//visibility:public"],
-    deps = [],
-)
