@@ -1,0 +1,175 @@
+version: 2
+
+models:
+  - name: sil__guest_experience__magic_band__magic_band_request_current
+    description: "{{ doc('sil__guest_experience__magic_band__magic_band_request_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=guest_experience
+        - sub_domain=magic_band
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: request_id
+        description: ""
+
+      - name: request_unique_identifier
+        description: ""
+
+      - name: parent_request_id
+        description: ""
+
+      - name: parent_request_unique_identifier
+        description: ""
+
+      - name: shipping_service_id
+        description: ""
+
+      - name: shipping_service_code
+        description: ""
+
+      - name: shipping_service_fulfillment_vendor_code
+        description: ""
+
+      - name: shipping_service_description
+        description: ""
+
+      - name: shipping_service_delivery_date_interval
+        description: ""
+
+      - name: request_type_id
+        description: ""
+
+      - name: request_type_code
+        description: ""
+
+      - name: request_type_description
+        description: ""
+
+      - name: address_id
+        description: ""
+
+      - name: country_id
+        description: ""
+
+      - name: country_code
+        description: ""
+
+      - name: country_iso_3166_alpha_3_code
+        description: ""
+
+      - name: country_name
+        description: ""
+
+      - name: address_1_value
+        description: ""
+
+      - name: address_2_value
+        description: ""
+
+      - name: address_3_value
+        description: ""
+
+      - name: address_4_value
+        description: ""
+
+      - name: address_city_name
+        description: ""
+
+      - name: address_state_name
+        description: ""
+
+      - name: address_postal_code
+        description: ""
+
+      - name: recipient_phone_number
+        description: ""
+
+      - name: recipient_name
+        description: ""
+
+      - name: request_reason_id
+        description: ""
+
+      - name: reason_code
+        description: ""
+
+      - name: reason_description
+        description: ""
+
+      - name: address_confirmed_indicator
+        description: ""
+
+      - name: current_request_status_id
+        description: ""
+
+      - name: status_category_id
+        description: ""
+
+      - name: status_category_code
+        description: ""
+
+      - name: status_category_description
+        description: ""
+
+      - name: status_code
+        description: ""
+
+      - name: status_description
+        description: ""
+
+      - name: parent_request_type_id
+        description: ""
+
+      - name: parent_request_type_code
+        description: ""
+
+      - name: parent_request_type_description
+        description: ""
+
+      - name: parent_request_reason_id
+        description: ""
+
+      - name: parent_request_reason_code
+        description: ""
+
+      - name: parent_request_reason_description
+        description: ""
+
+      - name: current_parent_request_status_id
+        description: ""
+
+      - name: parent_request_status_category_id
+        description: ""
+
+      - name: parent_request_status_category_code
+        description: ""
+
+      - name: parent_request_status_category_description
+        description: ""
+
+      - name: parent_request_status_code
+        description: ""
+
+      - name: parent_request_status_description
+        description: ""
+
+      - name: source_system_create_user_id
+        description: ""
+
+      - name: source_system_create_datetime
+        description: ""
+
+      - name: source_system_update_user_id
+        description: ""
+
+      - name: source_system_update_datetime
+        description: ""
+
+      - name: source_system_logical_delete_indicator
+        description: ""

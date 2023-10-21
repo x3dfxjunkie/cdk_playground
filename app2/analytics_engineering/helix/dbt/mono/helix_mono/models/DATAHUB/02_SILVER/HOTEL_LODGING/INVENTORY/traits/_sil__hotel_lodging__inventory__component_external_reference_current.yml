@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__inventory__component_external_reference_current
+    description: "{{ doc('sil__hotel_lodging__inventory__component_external_reference_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=inventory
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: resource_owner_id
+        description: ""
+
+      - name: assigned_owner_id
+        description: ""
+
+      - name: owner_description
+        description: ""
+
+      - name: owner_from_datetime
+        description: ""
+
+      - name: owner_end_datetime
+        description: ""
+
+      - name: external_owner_reference_value
+        description: ""
+
+      - name: owner_reference_type_name
+        description: ""
+
+      - name: original_share_occupant_indicator
+        description: ""
+
+      - name: online_checkin_indicator
+        description: ""
+
+      - name: source_update_datetime
+        description: ""

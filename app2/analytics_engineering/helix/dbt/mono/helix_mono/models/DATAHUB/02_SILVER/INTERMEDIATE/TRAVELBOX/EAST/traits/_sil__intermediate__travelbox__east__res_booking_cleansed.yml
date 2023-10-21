@@ -1,0 +1,802 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__east__res_booking_cleansed
+    description: '{{ doc("sil__intermediate__travelbox__east__res_booking_cleansed") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_cleansed
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_booking_id
+            - metadata_checksum
+
+    columns:
+      - name: data_dest_city
+        description: "Destination city for the items in the booking. Used only in packages. | example: LKBV"
+        meta:
+          checksum: True
+
+      - name: data_flight_only
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_act_dest_country
+        description: "Accounting destination country code of the booking used for tax calculations | example: US-LKBV"
+        meta:
+          checksum: True
+
+      - name: data_manual_acct_dest_calculation
+        description: "A flag to indicate whether to accounting destination of the booking [ACT_DEST_COUNTRY] is manually calculated or not._x000D_
+If it is manually calculated, it won&#39;t be overridden by the system booking properties calculations (e.g. by schedulers). | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_dep_airport
+        description: "NaN | example: rvYsYwquPQUtBAVrkJHP"
+        meta:
+          checksum: True
+
+      - name: data_return_date
+        description: "NaN | example: 1978-11-15 06:45:05"
+        meta:
+          checksum: True
+
+      - name: data_source_market
+        description: "The TravelBox code of the source market for which the discount group is visible | example: US"
+        meta:
+          checksum: True
+
+      - name: data_all_docs_dispatched
+        description: "Flag to identify whether all documents related to this booking are dispatched ( value is 1 ) or not ( value is 0 ) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_secondary_client_id
+        description: "Deprecated | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_secondary_commission
+        description: "Deprecated | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_secondary_com_percentage
+        description: "Deprecated | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_opec
+        description: "Deprecated | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_link_bookings
+        description: "NaN | example: uLnvjZKrSmhyaqzVGASX"
+        meta:
+          checksum: True
+
+      - name: data_reservation_time
+        description: "NaN | example: 2017-05-23 05:46:56"
+        meta:
+          checksum: True
+
+      - name: data_group_master_id
+        description: "NaN | example: 4788"
+        meta:
+          checksum: True
+
+      - name: data_invoice_status
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_cancellation_reference
+        description: "NaN | example: jfaLspYJvTjlUfJyVQiW"
+        meta:
+          checksum: True
+
+      - name: data_exclude_from_auto_refund
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_suppress_confirmation
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_selling_to_base_exchange_rate
+        description: "The rate for selling currency to the contract currency ( the currency defined in the contract) | example: 1.0"
+        meta:
+          checksum: True
+
+      - name: data_modified
+        description: "Indicate whether this payment is modified after insertion (Ex: for IBTX) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_price_diff
+        description: "NaN | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_tax_diff
+        description: "NaN | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_unavailable
+        description: "NaN | example: sPzacNRynQdAzcybTaWz"
+        meta:
+          checksum: True
+
+      - name: data_sales_order_id
+        description: "NaN | example: dMxxwnhukokmZksdMSKc"
+        meta:
+          checksum: True
+
+      - name: data_product_types
+        description: ""
+        meta:
+          checksum: True
+
+      - name: data_discount_on_commission
+        description: "Discount for the commission of the booking. In Reservation manager &gt; View commision details. | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_insurance_due
+        description: "Insurance due amount of the booking | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_total_tax_cost
+        description: "Total tax cost applied for the booking | example: 120.2"
+        meta:
+          checksum: True
+
+      - name: data_total_tax_price
+        description: "Total tax price applied for the booking | example: 144.76"
+        meta:
+          checksum: True
+
+      - name: data_tax_included
+        description: "Oracle managed system tables used for materialised views | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_refund_authorised
+        description: "A flag to indicate whether the booking refunds are authorized or not. Refer &#39;REFUND_AUTHORISED_AMOUNT&#39; | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_refund_authorised_amount
+        description: "Authorized refund amount. Refer &#39;REFUND_AUTHORISED&#39; | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_comm_refund_allowed_amt
+        description: "Deprecated | example: 94282.0"
+        meta:
+          checksum: True
+
+      - name: data_promotion_id
+        description: "Promotion id of the selected promotio for &#39;Promotion&#39; parameter  in discount scheme setup. | example: 1533"
+        meta:
+          checksum: True
+
+      - name: data_profit
+        description: "Total profit of the booking | example: 202.12"
+        meta:
+          checksum: True
+
+      - name: data_brochure_id
+        description: "Tbx id of the brochure associated with the address | example: 265"
+        meta:
+          checksum: True
+
+      - name: data_locale
+        description: "The TravelBox code of the locale | example: en"
+        meta:
+          checksum: True
+
+      - name: data_ledger_destination
+        description: "Deprecated | example: 3483"
+        meta:
+          checksum: True
+
+      - name: data_website_id
+        description: "Id of the website as defined in Setup | example: jBEMeLnEgpUDMoRnsfCv"
+        meta:
+          checksum: True
+
+      - name: data_vip_booking
+        description: "A flag to indicate whether the booking is a VIP booking or not | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_admin_booking
+        description: "Deprecated | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_admin_booking_authorization
+        description: "Deprecated | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_authorized_user
+        description: "Deprecated | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_agent_ref
+        description: "The agent reference | example: GAflDzLNCjTCHKVtsAgj"
+        meta:
+          checksum: True
+
+      - name: data_non_commissionable_price
+        description: "Non commissionable price component of the booking. | example: 20.76"
+        meta:
+          checksum: True
+
+      - name: data_destination
+        description: "Destination location code for flight booking items | example: YwhMMhJJhgwPinUSfGsv"
+        meta:
+          checksum: True
+
+      - name: data_location_id
+        description: "Location id is saved when the module configuration_x000D_
+&#39;STORE_LOCATION_ID&#39; is enabled, otherwise_x000D_
+-1 | example: 849"
+        meta:
+          checksum: True
+
+      - name: data_source_id
+        description: "System generated id of the brochure source | example: 9479"
+        meta:
+          checksum: True
+
+      - name: data_dont_collect_commission
+        description: "A flag to indicate whether to collect commission from the client or not. In Reservation manager &gt; View commision details but only visible when the trade clients collect payment is selected. | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_booking_style
+        description: "Deprecated | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_group_name
+        description: "Name of the group | example: omDzSkOFPohweHxUiyFh"
+        meta:
+          checksum: True
+
+      - name: data_main_dest_country
+        description: "Main destination country and city code. Format: &lt;country_code&gt;-&lt;city_code&gt; | example: US-LKBV"
+        meta:
+          checksum: True
+
+      - name: data_group_booking_margin
+        description: "Deprecated | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_ext_booking_id
+        description: "Used to keep a reference to an external system (e.g. H2H systems booking reference). | example: LkOFVXIosLLOsgEBuJxy"
+        meta:
+          checksum: True
+
+      - name: data_group_booking_pax_updated
+        description: "Deprecated | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_atol_type
+        description: "ATOL document type, saved when saving the booking and used when generating ATOL document | example: FiLYHSpkbFMJcyrqLziw"
+        meta:
+          checksum: True
+
+      - name: data_assigned_user
+        description: "Not in the disney scope | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_assigned_date
+        description: "Not in the disney scope | example: 2015-12-27 18:06:11"
+        meta:
+          checksum: True
+
+      - name: data_client_status
+        description: "Flag to indicate the client status associated with the Scheme Rule._x000D_
+1 - Active_x000D_
+0 - Inactive | example: qOBedifagbdunBtKOSnp"
+        meta:
+          checksum: True
+
+      - name: data_tc_pay_grp
+        description: "Trade client pay group id | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_rq_item_indc
+        description: "flag to denote whether at least one item is ON_REQUEST ( item is done without allocations ) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_manual_dest_calculation
+        description: "A flag to indicate whether the destination is calculated manually. if true, destination calculation is skipped. | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_auto_cancel
+        description: "Flag to indicate whether the booking is auto cancelled, error occured in auto cancellation. Possible values_x000D_
+0 = No Change,_x000D_
+1 = Auto Cancelled successfully,_x000D_
+2 = Error occured while cancelling,_x000D_
+3 = Cannot cancel some booking items | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_booking_source
+        description: "Accounting rule applicable booking source (booking source codes)_x000D_
+Ex: TravelBox(0), Bonotel(CAR), Hotelbeds(HTL) | example: WDPRO"
+        meta:
+          checksum: True
+
+      - name: data_dispatch_method
+        description: "Notification dispatch method code_x000D_
+MET = METRO_MAIL_x000D_
+FAX = FAX_x000D_
+PST = POST_x000D_
+EML = EMAIL_x000D_
+UPL = FILE_UPLOAD | example: ptgbLVZKFvFrnkoVBvhO"
+        meta:
+          checksum: True
+
+      - name: data_dispatch_address
+        description: "Dispatch address like email, postal address etc: | example: QHvGGOGdjcqoaCbJkCDu"
+        meta:
+          checksum: True
+
+      - name: data_insurance_excluded
+        description: "When the booking is cancelled, value of this column will indicate whether there are insurance items actively remains in the booking which were excluded from the cancellation | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_your_reference
+        description: "This property is used for store the Your Reference of the Booking. | example: ASnYjCpxcNMUyDlmpTvE"
+        meta:
+          checksum: True
+
+      - name: data_counselor_name
+        description: "This property is used for store the Counselor Name of the Booking. | example: Stephanie Jill Hanen"
+        meta:
+          checksum: True
+
+      - name: data_counselor_ref_key
+        description: "This property is used for store the Counselor Guest Reference Key of the Booking. | example: ouOljvLvzZNJgAXYhQzA"
+        meta:
+          checksum: True
+
+      - name: data_counselor_ref_value
+        description: "This property is used for store the Counselor Guest Reference Value of the Booking. | example: ZQhwacZQqQfuxdKJTBls"
+        meta:
+          checksum: True
+
+      - name: data_last_mod_source
+        description: "NaN | example: WDPRO"
+        meta:
+          checksum: True
+
+      - name: data_data_types
+        description: "List of Classes to Load Data in Bulk Loading | example: ptEzXJoqahssKCZcaMPp"
+        meta:
+          checksum: True
+
+      - name: data_manual_deposit_due_date
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_block_code
+        description: "Unique code of the block | example: 01825"
+        meta:
+          checksum: True
+
+      - name: data_booking_id
+        description: "The system generated id of the booking | example: 27858693"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_client_id
+        description: "The TravelBox id of the trade client for which the commission rule is applied to. This field is null if the rule is applied to any client | example: 7186204"
+        meta:
+          checksum: True
+
+      - name: data_company
+        description: "The TravelBox code of the company for which the limit is defined for | example: WDTC"
+        meta:
+          checksum: True
+
+      - name: data_division
+        description: "The TravelBox code of the division for which the limit is defined for | example: WDTCWDW"
+        meta:
+          checksum: True
+
+      - name: data_brand
+        description: "The TravelBox code of the brand for which the limit is defined for | example: CORE"
+        meta:
+          checksum: True
+
+      - name: data_booking_product
+        description: "Deprecated | example: CMP"
+        meta:
+          checksum: True
+
+      - name: data_booking_type
+        description: "Deprecated | example: STD"
+        meta:
+          checksum: True
+
+      - name: data_booking_status
+        description: "Not in the disney scope | example: 1000"
+        meta:
+          checksum: True
+
+      - name: data_option_status
+        description: "Oracle managed system tables used for materialised views | example: 600"
+        meta:
+          checksum: True
+
+      - name: data_quote_date
+        description: "If the booking is originally done as a quote then the quote creation date is populated in this field | example: 1989-05-18 07:41:59"
+        meta:
+          checksum: True
+
+      - name: data_booking_date
+        description: "Contract to selling exchange rate applicable booking date period start date | example: 1992-06-04 04:02:12"
+        meta:
+          checksum: True
+
+      - name: data_departure_date
+        description: "Departure date for bookings | example: 2000-08-08 19:11:51"
+        meta:
+          checksum: True
+
+      - name: data_definite_due_date
+        description: "System calculated date for a booking to become DEFINITE. The customer has to confirm the booking on or before this date. | example: 1982-03-31 16:17:49"
+        meta:
+          checksum: True
+
+      - name: data_definite_date
+        description: "The date a booking became DEFINITE. | example: 1990-07-05 02:45:45"
+        meta:
+          checksum: True
+
+      - name: data_firm_due_date
+        description: "System calculated date for a booking to become FIRM | example: 2010-05-12 23:11:37"
+        meta:
+          checksum: True
+
+      - name: data_firm_date
+        description: "Firm date of the booking | example: 1987-07-22 13:54:17"
+        meta:
+          checksum: True
+
+      - name: data_balance_due_date
+        description: "Balance due date of the firmed booking | example: 1985-05-26 15:19:23"
+        meta:
+          checksum: True
+
+      - name: data_full_payment_received_date
+        description: "The date the full payment received for a booking from the client | example: 2009-01-20 19:03:57"
+        meta:
+          checksum: True
+
+      - name: data_manual_comm
+        description: "A flag to indicate whether the commission is calculated manually. if true, commission calculation is skipped. | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_commission
+        description: "The commission percentage recieved by the tour operator | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_total_price
+        description: "Oracle managed system tables used for materialised views | example: 1866.3"
+        meta:
+          checksum: True
+
+      - name: data_total_cost
+        description: "The total cost of the booking | example: 1639.62"
+        meta:
+          checksum: True
+
+      - name: data_invoice_total
+        description: "Invoice total of the supplier invoice | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_manual_deposit
+        description: "A flag to indicate whether the deposit is calculated manually. if true, deposit calculation is skipped. | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_deposit
+        description: "Total depoist amount | example: 200.0"
+        meta:
+          checksum: True
+
+      - name: data_discount
+        description: "Invoice line Discount | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_booked_user
+        description: "Oracle managed system tables used for materialised views | example: 20629"
+        meta:
+          checksum: True
+
+      - name: data_media_code
+        description: "Code of the respective Media Code | example: gNzzWjYpKuHduPUrxCcZ"
+        meta:
+          checksum: True
+
+      - name: data_distribution_channel
+        description: "The TravelBox code of the distribution channel for which the limit is defined for | example: C"
+        meta:
+          checksum: True
+
+      - name: data_selling_currency
+        description: "Currrency using for selling | example: USD"
+        meta:
+          checksum: True
+
+      - name: data_locked
+        description: "THIS FILEDS INDICATE THAT BOOKING IS LOCKED AND NO MODIFICATIONS CAN BE DONE. | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_commission_adjustment
+        description: "ADJUSTMENT DONE TO THE COMMISSION ON REQUEST OF AGENT KEEPING OUR MARGINS CONSTANT | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_commission_percentage
+        description: "The percentage of the commission | example: -1.0"
+        meta:
+          checksum: True
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 2002-03-06 21:10:03"
+        meta:
+          checksum: True
+
+      - name: data_system_generated_expiry_date
+        description: "System generated expire date | example: 2001-07-28 01:18:53"
+        meta:
+          checksum: True
+
+      - name: data_constraints_exist
+        description: "Deprecated | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_journal_batch_no
+        description: "Deprecated | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_air_only_booking
+        description: "Oracle managed system tables used for materialised views | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_agent_id
+        description: "Credit agent id of the trade client | example: 7648"
+        meta:
+          checksum: True
+
+      - name: data_profile_id
+        description: "The system  generated id of the H2H profile | example: 9837"
+        meta:
+          checksum: True
+
+      - name: data_address_no
+        description: "Address no of the airline | example: 6948"
+        meta:
+          checksum: True
+
+      - name: data_contact_method
+        description: "Preferred contact method mentioned in the booking. Refer CONTACT_NUMBER as well. | example: IngKIRfpYAZalgXXqsIc"
+        meta:
+          checksum: True
+
+      - name: data_contact_number
+        description: "Contact number mentioned in the booking. Refer CONTACT_METHOD as well. | example: ZPUsYcmLvdFPRxbXDhxE"
+        meta:
+          checksum: True
+
+      - name: data_comm_chq_authorized
+        description: "Deprecated | example: WXTPyNpXokeVHVCzapgh"
+        meta:
+          checksum: True
+
+      - name: data_comm_chq_note
+        description: "Deprecated | example: tYgRGQOcCZehtmGjfbLU"
+        meta:
+          checksum: True
+
+      - name: data_client_self_billing
+        description: "A flag which is related to the trade client&#39;s &#39;self billing&#39; flag | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_gsa_join_date
+        description: "Grade Client GSA joined date | example: 2017-12-25 17:20:41"
+        meta:
+          checksum: True
+
+      - name: data_gsa_client
+        description: "Flag to indicate if the Trade Client is a GSA Client | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_total_commission
+        description: "Total commission for the trade client | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: min_metadata_timestamp
+        description: "The Minimum Metadata Timestamp field is used for updating the version end date of the active record in the target table"
+        tests:
+          - not_null
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

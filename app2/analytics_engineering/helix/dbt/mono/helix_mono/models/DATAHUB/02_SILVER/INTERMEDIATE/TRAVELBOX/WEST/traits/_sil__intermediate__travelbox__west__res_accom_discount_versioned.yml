@@ -1,0 +1,273 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__west__res_accom_discount_versioned
+    description: '{{ doc("sil__intermediate__travelbox__west__res_accom_discount_versioned") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_versioned
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_booking_id
+            - data_discount_no
+            - data_item_no
+            - data_product_code
+            - metadata_checksum
+
+    columns:
+      - name: data_nett_child
+        description: "The total child cost of this discount in selling currency | example: 0.0"
+
+      - name: data_payment_scheme
+        description: "If a payment scheme has specifically been defined for the discount, this field holds the TravelBox code of the payment scheme. Otherwise this is null meaning the payment scheme applied to the contract is considered for the discount. | example: 1109"
+
+      - name: data_ancillary_pax
+        description: "Deprecated | example: 0"
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 1992-08-09 02:18:10"
+
+      - name: data_booking_id
+        description: "The system generated id of the booking | example: 14970640"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_product_code
+        description: "Deprecated | example: HTL"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_item_no
+        description: "Deprecated | example: 1"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_discount_no
+        description: "The system generated number of the discount which belongs to the group | example: 9"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_discount_code
+        description: "The TravelBox code of the discount, possible values are_x000D_
+EBR - Early Bird_x000D_
+PRI - Price_x000D_
+FRN - Free Night_x000D_
+HNY - Honeymoon Offer_x000D_
+FAM - Family Offer_x000D_
+ANY - Wedding Anniversary_x000D_
+SNR - Senior Citizen_x000D_
+FRE - Free Traveller | example: PRI"
+
+      - name: data_description
+        description: "The TravelBox name of the board basis | example: CM 60 If booked from 06/07/2022 to 31/12/2023, receive 60.00 % discount per night per room. ( Subject to availability )"
+
+      - name: data_contract_adult_dis_cost
+        description: "The total adult cost of this discount in contract currency | example: 305.4"
+
+      - name: data_contract_child_dis_cost
+        description: "The total child cost of this discount in contract currency | example: 5616.0"
+
+      - name: data_contract_infant_dis_cost
+        description: "The total infant discount cost for this discount in contract currency | example: 9711.0"
+
+      - name: data_adult_dis_in_selling
+        description: "Deprecated | example: 56208.0"
+
+      - name: data_child_dis_in_selling
+        description: "Deprecated | example: 36990.0"
+
+      - name: data_infant_dis_in_selling
+        description: "Deprecated | example: 92720.0"
+
+      - name: data_contract_discount_cost
+        description: "The total cost of this discount in contract currency | example: 305.4"
+
+      - name: data_contract_discount_price
+        description: "The total price of this discount in contract currency | example: 305.4"
+
+      - name: data_nett_adult
+        description: "The total adult cost of this discount in selling currency | example: 305.4"
+
+      - name: data_nett_infant
+        description: "The total infant cost of this discount in selling currency | example: 0.0"
+
+      - name: data_gross_adult
+        description: "The total adult price of this discount in selling currency | example: 305.4"
+
+      - name: data_gross_child
+        description: "The total child price of this discount in selling currency | example: 0.0"
+
+      - name: data_gross_infant
+        description: "The total infant price of this discount in selling currency | example: 0.0"
+
+      - name: data_cnx_scheme
+        description: "If a supplier cancellation scheme has specifically been defined for the discount, this field holds the TravelBox code of the cancellation scheme. Otherwise this is null meaning the cancellation scheme applied to the contract is considered for the discount. | example: 3516"
+
+      - name: data_amd_scheme
+        description: "If a supplier amendment scheme has specifically been defined for the discount, this field holds the TravelBox code of the amendment scheme. Otherwise this is null meaning the amendment scheme applied to the contract is considered for the discount. | example: 9323"
+
+      - name: data_commissionable
+        description: "A flag indicating whether the discount is trade client commissionable ( value is 1 ) or not ( value is 0 ) | example: 1"
+
+      - name: data_non_paying_pax
+        description: "Deprecated | example: 0"
+
+      - name: data_manually_added
+        description: "Flag to check whether manually added or not | example: 0"
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: metadata_version_start_datetime
+        description: "Version start datetime"
+        tests:
+          - not_null
+
+      - name: metadata_version_end_datetime
+        description: "Version end datetime"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

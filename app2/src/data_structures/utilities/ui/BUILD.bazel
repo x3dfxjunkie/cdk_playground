@@ -1,0 +1,51 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+load("//app/tools/macros/zip_py_lambda_library:def.bzl", "zip_py_lambda_library")
+
+py_lambda_library(
+    name = "flask_backend",
+    srcs = glob(
+        ["dataclass_generator/**/*.py"],
+        exclude = [
+            "dataclass_generator/config/oidc_client.py",
+            "dataclass_generator/tests/*.py",
+        ],
+    ),
+    data = [
+        "//app/src:missing_init_files",
+    ] + glob(
+        ["**/*"],
+        exclude = [
+            "**/*.py",
+            "**/*.pyc",
+            "dataclass_generator/tests/**/*",
+        ],
+    ),
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("aws-wsgi"),
+        requirement("boto3"),
+        requirement("botocore"),
+        requirement("datamodel-code-generator"),
+        # requirement("flask-oidc"),
+        requirement("flask"),
+        requirement("Jinja2"),
+        requirement("xmltodict"),
+        requirement("pydantic"),
+        requirement("faker"),
+        requirement("pyairtable"),
+    ],
+)
+
+py_binary(
+    name = "data_contract_automater",
+    srcs = ["dataclass_generator/data_contract_automater.py"],
+    deps = [
+        ":flask_backend",
+    ],
+)
+
+zip_py_lambda_library(
+    name = "lambda_archive",
+    target = ":flask_backend",
+)

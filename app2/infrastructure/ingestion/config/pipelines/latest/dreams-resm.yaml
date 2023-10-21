@@ -1,0 +1,10 @@
+stack_extension: &se dreams-resm
+ingest_pattern: &ip kinesis2kinesis
+active: True
+pattern_instances:
+  - region: us-east-1
+    resources:
+      cross_account:
+        cross_account_type: &cat target
+        cross_account_id: &id 795965727170 
+        cross_account_role_name: lllingest-use1-lst-lllingest-lambda

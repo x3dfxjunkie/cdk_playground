@@ -1,0 +1,168 @@
+asyncapi: 2.6.0
+info:
+  title: Guest360 Events
+  version: 0.0.7
+  description: |
+    Guest360 events for an identified guest
+    0.0.7 - Added ProductDetails and GateClick enhancements
+    0.0.6 - Adding Facility Metadata / keep eventTime
+    0.0.5 - update channels leveraged for permission based output.  Change naming for variant schemas
+    0.0.4 - implement gate click using the Experience Paradigm Common schemas
+    0.0.3 - revision from Reset - schemas matches OpenApi (Review EventTime and EventStatus Needed)
+    0.0.2 - removed kafka / msk references
+    0.0.1 - Updated LL Schema, include multi-redemptions entitlements
+  contact:
+    name: Renan Pereira
+    email: renan.pereira@disney.com
+  license:
+    name: Apache 2.0
+    url: "https://www.apache.org/licenses/LICENSE-2.0"
+servers:
+  latest:
+    url: "arn:aws:kinesis:us-east-1:543276908693:stream/KINESIS_STREAM_NAME_HERE"
+    protocol: AWS::Kinesis::Stream
+    description: Kinesis Stream for Guest360 events belonging to the Experience paradigm
+    security:
+      - saslScram: []
+defaultContentType: application/json
+channels:
+  #by permissions
+  "guest360-events-full":
+    description: Guest360 Events for identified guest with all Paradigms
+    publish:
+      summary: Guest360 Events for identified guest
+      description: provide identified guest's events belonging to the Experience paradigm
+      operationId: publishGuestExperiencesEvents
+      #traits:
+      #  - $ref: '#/components/operationTraits/kafka'
+      message:
+        oneOf:
+          - $ref: "#/components/messages/lightningLaneEvent"
+          - $ref: "#/components/messages/gateClickEvent"
+          - $ref: "#/components/messages/ticketEvent"
+          - $ref: "#/components/messages/profileEvent"
+          - $ref: "#/components/messages/affiliationEvent"
+components:
+  messages:
+    profileEvent:
+      name: ProfileEvent
+      title: Guest Profile
+      summary: Inform about a guest
+      contentType: application/json
+      traits:
+        - $ref: "#/components/messageTraits/commonHeaders"
+      payload:
+        $ref: "#/components/schemas/profile"
+    lightningLaneEvent:
+      name: LightningLaneEvent
+      title: Guest Experience Event - Lightning Lane
+      summary: >-
+        Inform about a lightning lane reservation event for an identified
+        guest
+      contentType: application/json
+      traits:
+        - $ref: "#/components/messageTraits/commonHeaders"
+      payload:
+        $ref: "#/components/schemas/lightningLane"
+    gateClickEvent:
+      name: GateClickEvent
+      title: Guest Experience Event - Gate Click
+      summary: >-
+        Inform about a Gate Click event for an identified guest
+      contentType: application/json
+      traits:
+        - $ref: "#/components/messageTraits/commonHeaders"
+      payload:
+        $ref: "#/components/schemas/gateClick"
+    ticketEvent:
+      name: TicketEvent
+      title: Guest Ownership Event - Ticket
+      summary: >-
+        Inform about a Ticket event for an identified guest
+      contentType: application/json
+      traits:
+        - $ref: "#/components/messageTraits/commonHeaders"
+      payload:
+        $ref: "#/components/schemas/ticket"
+    affiliationEvent:
+      name: AffiliationEvent
+      title: Guest affiliation Event
+      summary: >-
+        Inform about guest affiliation
+      contentType: application/json
+      traits:
+        - $ref: "#/components/messageTraits/commonHeaders"
+      payload:
+        $ref: "#/components/schemas/affiliation"
+  schemas:
+    profile:
+      $ref: "./profile/profile.yaml#/profile"
+    affiliation:
+      $ref: "./profile/affiliation.yaml#/affiliation"
+    # Resuable components
+    swid:
+      $ref: "./global/swid.yaml#/swid"
+    guestIdentifiers:
+      $ref: "./global/guestIdentifiers.yaml#/guestIdentifiers"
+    created:
+      $ref: "./global/created.yaml#/created"
+    lastModified:
+      $ref: "./global/lastModified.yaml#/lastModified"
+    eventTime:
+      $ref: "./global/eventTime.yaml#/eventTime"
+    destination:
+      $ref: "./global/destination.yaml#/destination"
+    experienceStatus:
+      $ref: "./global/experienceStatus.yaml#/experienceStatus"
+    ownershipStatus:
+      $ref: "./global/ownershipStatus.yaml#/ownershipStatus"
+    statusConfidenceLabel:
+      $ref: "./global/statusConfidenceLabel.yaml#/statusConfidenceLabel"
+    experienceCategory:
+      $ref: "./global/experienceCategory.yaml#/experienceCategory"
+    productCategory:
+      $ref: "./global/productCategory.yaml#/productCategory"
+    lightningLaneType:
+      $ref: "./global/lightningLaneType.yaml#/lightningLaneType"
+    locationDetails:
+      $ref: "./global/locationDetails.yaml#/locationDetails"
+    ticketProductDetails:
+      $ref: "./global/ticketProductDetails.yaml#/ticketProductDetails"
+    # Paradigm Level Schemas
+    experienceCommon:
+      $ref: "./global/experienceCommon.yaml#/experienceCommon"
+    ownershipCommon:
+      $ref: "./global/ownershipCommon.yaml#/ownershipCommon"
+    lightningLane:
+      $ref: "./experience/lightningLane.yaml#/lightningLane"
+    gateClick:
+      $ref: "./experience/gateClick.yaml#/gateClick"
+    ticket:
+      $ref: "./ownership/ticket.yaml#/ticket"
+  securitySchemes:
+    saslScram:
+      type: scramSha256
+      description: Provide your username and password for SASL/SCRAM authentication
+  messageTraits:
+    commonHeaders:
+      headers:
+        type: object
+        properties:
+          Accept-Language:
+            type: string
+            enum:
+              - en-US
+          message-id:
+            type: string
+            format: uuid
+          conversation-id:
+            type: string
+            format: uuid
+          message-timestamp:
+            type: string
+            format: date-time
+  #operationTraits:
+  #  kafka:
+  #    bindings:
+  #      kafka:
+  #        clientId: guest360

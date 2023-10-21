@@ -1,0 +1,26 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+
+py_lambda_library(
+    name = "guest360_aspects",
+    srcs = glob(["**/*.py"]),
+    data = ["//app/src:missing_init_files"],
+    visibility = ["//visibility:public"],
+    deps = [requirement("aws-cdk-lib")],
+)
+
+pytest_test(
+    name = "test_guest360_aspects",
+    srcs = glob(["tests/test_*.py"]),
+    data = [
+        "//app:app_level_conftest_file",
+    ],
+    deps = [
+        ":guest360_aspects",
+        "//app/guest360_constructs",
+        "//app/src/reliability",
+        requirement("aws-cdk-lib"),
+        requirement("cdk-nag"),
+    ],
+)

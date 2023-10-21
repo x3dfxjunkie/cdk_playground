@@ -1,0 +1,152 @@
+[
+    {
+        "data": {
+            "PMT_ID": 999999235,
+            "MEAL_PRD_NM": null,
+            "CREATE_USR_ID_CD": "TESTA003",
+            "CREATE_DTS": "2015-12-19T02:18:07.813Z",
+            "UPDT_USR_ID_CD": "TESTB003",
+            "UPDT_DTS": "2015-12-19T02:18:07.813Z",
+            "JDO_SEQ_NB": 0,
+            "FFL_FAC_ID": null,
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:02:00.413880Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "EXPRNC_CARD_PMT"
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 999999889,
+            "MEAL_PRD_NM": null,
+            "CPN_TNDR_CD": "39",
+            "GST_CN": 2,
+            "CREATE_USR_ID_CD": "TESTA003",
+            "CREATE_DTS": "2015-12-19T03:30:59.440Z",
+            "UPDT_USR_ID_CD": "TESTB003",
+            "UPDT_DTS": "2015-12-19T03:30:59.440Z",
+            "JDO_SEQ_NB": 0,
+            "SLD_ID_VL": "0440",
+            "CRDT_DOC_NB": 1234567890,
+            "FFL_FAC_ID": null,
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:34:09.796620Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "EXPRNC_CARD_PMT",
+            "transaction-id": 983055
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 999999988,
+            "MEAL_PRD_NM": null,
+            "CPN_TNDR_CD": "39",
+            "GST_CN": 2,
+            "CREATE_USR_ID_CD": "TESTA003",
+            "CREATE_DTS": "2016-03-08T19:12:25.169Z",
+            "UPDT_USR_ID_CD": "TESTB003",
+            "UPDT_DTS": "2016-03-08T19:12:25.169Z",
+            "JDO_SEQ_NB": 0,
+            "SLD_ID_VL": "0441",
+            "CRDT_DOC_NB": 1234567890,
+            "FFL_FAC_ID": null,
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:50:38.177366Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "EXPRNC_CARD_PMT",
+            "transaction-id": 458786
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 999999698,
+            "MEAL_PRD_NM": null,
+            "CPN_TNDR_CD": "39",
+            "GST_CN": 1,
+            "CREATE_USR_ID_CD": "TESTA003",
+            "CREATE_DTS": "2016-03-09T17:52:32.851Z",
+            "UPDT_USR_ID_CD": "TESTB003",
+            "UPDT_DTS": "2016-03-09T17:52:32.851Z",
+            "JDO_SEQ_NB": 0,
+            "SLD_ID_VL": "0440",
+            "CRDT_DOC_NB": 1234567890,
+            "FFL_FAC_ID": null,
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:51:32.310602Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "EXPRNC_CARD_PMT",
+            "transaction-id": 1835051
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 999999974,
+            "MEAL_PRD_NM": null,
+            "CPN_TNDR_CD": "40",
+            "GST_CN": 1,
+            "CREATE_USR_ID_CD": "TESTA003",
+            "CREATE_DTS": "2016-03-09T21:18:59.923Z",
+            "UPDT_USR_ID_CD": "TESTB003",
+            "UPDT_DTS": "2016-03-09T21:18:59.923Z",
+            "JDO_SEQ_NB": 0,
+            "SLD_ID_VL": "0441",
+            "CRDT_DOC_NB": 1234567890,
+            "FFL_FAC_ID": null,
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T01:43:59.316378Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "EXPRNC_CARD_PMT",
+            "transaction-id": 1638444
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 999999518,
+            "MEAL_PRD_NM": null,
+            "CPN_TNDR_CD": "39",
+            "GST_CN": 5,
+            "CREATE_USR_ID_CD": "TESTA003",
+            "CREATE_DTS": "2016-03-09T21:56:50.038Z",
+            "UPDT_USR_ID_CD": "TESTB003",
+            "UPDT_DTS": "2016-03-09T21:56:50.038Z",
+            "JDO_SEQ_NB": 0,
+            "SLD_ID_VL": "0440",
+            "CRDT_DOC_NB": 1234567890,
+            "FFL_FAC_ID": null,
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T02:55:17.813713Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "EXPRNC_CARD_PMT"
+        }
+    }
+]

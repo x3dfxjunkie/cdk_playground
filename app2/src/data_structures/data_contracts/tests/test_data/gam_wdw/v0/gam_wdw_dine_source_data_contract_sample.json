@@ -1,0 +1,1354 @@
+[
+    {
+        "action": "MODIFY",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [],
+                "bookingDateTime": "2023-09-04T04:00:00Z",
+                "diningReservationNumber": "353247739309",
+                "eventDining": {
+                    "enterpriseProduct": "51630",
+                    "partyMix": {
+                        "adult": "1",
+                        "child": "0",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "54129",
+                    "productType": "ShowPackage",
+                    "servicePeriod": "51630",
+                    "startDateTime": "2023-09-05T16:00:00Z",
+                    "totalPrepaidAmount": {
+                        "amount": "67.1",
+                        "gratuity": "null",
+                        "prepaidAmount": [
+                            {
+                                "ageCount": "1",
+                                "ageType": "ADULT",
+                                "amount": "67.1",
+                                "subTotal": "63.0"
+                            }
+                        ],
+                        "subTotal": "63.0",
+                        "tax": "4.1"
+                    },
+                    "wdproServicePeriod": "51630"
+                },
+                "ownerParticipant": false,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "546517572",
+                        "value": "546517572"
+                    }
+                },
+                "reservationSource": "NONE",
+                "specialRequests": [
+                    {
+                        "code": "GRBS",
+                        "name": "Booster Seat",
+                        "type": "GUEST_REQUEST"
+                    },
+                    {
+                        "code": "SNLM",
+                        "name": "Limited mobility",
+                        "type": "SE_SPECIAL_NEED"
+                    }
+                ],
+                "status": "Booked",
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546517572"
+            }
+        ],
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "CREATE",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [],
+                "bookingDateTime": "2023-09-04T04:00:00Z",
+                "contactNumber": "",
+                "diningReservationNumber": "353247739346",
+                "eventDining": {
+                    "enterpriseProduct": "428710",
+                    "partyMix": {
+                        "adult": "1",
+                        "child": "0",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "79075",
+                    "productType": "ShowPackage",
+                    "servicePeriod": "428710",
+                    "startDateTime": "2023-09-06T15:00:00Z",
+                    "totalPrepaidAmount": {
+                        "amount": "77.75",
+                        "gratuity": "null",
+                        "prepaidAmount": [
+                            {
+                                "ageCount": "1",
+                                "ageType": "ADULT",
+                                "amount": "12.78",
+                                "subTotal": "12.0"
+                            }
+                        ],
+                        "subTotal": "73.0",
+                        "tax": "4.75"
+                    },
+                    "wdproServicePeriod": "428710"
+                },
+                "ownerParticipant": false,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "546518894",
+                        "value": "546518894"
+                    }
+                },
+                "reservationSource": "NONE",
+                "status": "Booked",
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546518894"
+            }
+        ],
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "DELETE",
+        "dining-reservation": {
+            "dining-reservation-number": "353252746370",
+            "guestList": [
+                {
+                    "type": "transactional-guest-id",
+                    "value": "546598122"
+                }
+            ]
+        },
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546598122"
+            }
+        ],
+        "timestamp": "2023-09-09T13:47:17Z",
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "CREATE",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [],
+                "bookingDateTime": "2023-09-09T04:00:00Z",
+                "diningReservationNumber": "353252746371",
+                "eventDining": {
+                    "enterpriseProduct": "428723",
+                    "partyMix": {
+                        "adult": "4",
+                        "child": "0",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "79077",
+                    "productType": "ShowPackage",
+                    "servicePeriod": "428723",
+                    "startDateTime": "2023-09-12T15:10:00Z",
+                    "totalPrepaidAmount": {
+                        "amount": "230.04",
+                        "gratuity": "null",
+                        "prepaidAmount": [
+                            {
+                                "ageCount": "4",
+                                "ageType": "ADULT",
+                                "amount": "12.78",
+                                "subTotal": "12.0"
+                            }
+                        ],
+                        "subTotal": "216.0",
+                        "tax": "14.04"
+                    },
+                    "wdproServicePeriod": "428723"
+                },
+                "ownerParticipant": false,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "546598125",
+                        "value": "546598125"
+                    }
+                },
+                "reservationSource": "NONE",
+                "status": "Booked",
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546598125"
+            }
+        ],
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "CREATE",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [],
+                "bookingDateTime": "2023-09-09T04:00:00Z",
+                "diningReservationNumber": "353252746649",
+                "eventDining": {
+                    "enterpriseProduct": "428723",
+                    "partyMix": {
+                        "adult": "4",
+                        "child": "0",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "79077",
+                    "productType": "ShowPackage",
+                    "servicePeriod": "428723",
+                    "startDateTime": "2023-09-12T15:10:00Z",
+                    "totalPrepaidAmount": {
+                        "amount": "230.04",
+                        "gratuity": "null",
+                        "prepaidAmount": [
+                            {
+                                "ageCount": "4",
+                                "ageType": "ADULT",
+                                "amount": "12.78",
+                                "subTotal": "12.0"
+                            }
+                        ],
+                        "subTotal": "216.0",
+                        "tax": "14.04"
+                    },
+                    "wdproServicePeriod": "428723"
+                },
+                "ownerParticipant": false,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "546598129",
+                        "value": "546598129"
+                    }
+                },
+                "reservationSource": "NONE",
+                "status": "Booked",
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546598129"
+            }
+        ],
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "CREATE",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [],
+                "bookingDateTime": "2023-08-30T04:00:00Z",
+                "diningReservationNumber": "353242731176",
+                "ownerParticipant": true,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "546431679",
+                        "value": "546431679"
+                    }
+                },
+                "reservationSource": "NONE",
+                "showDining": {
+                    "enterpriseProduct": "288962",
+                    "partyMix": {
+                        "adult": "2",
+                        "child": "1",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "54102",
+                    "productType": "ShowDiningProduct",
+                    "servicePeriod": "288962",
+                    "startDateTime": "2023-09-13T20:00:00Z",
+                    "ticketPickupIndicator": "false",
+                    "totalPrepaidAmount": {
+                        "amount": "192.00",
+                        "gratuity": "24.72",
+                        "prepaidAmount": [
+                            {
+                                "ageCount": "1",
+                                "ageType": "CHILD",
+                                "amount": "44.00",
+                                "subTotal": "36.01"
+                            },
+                            {
+                                "ageCount": "2",
+                                "ageType": "ADULT",
+                                "amount": "74.00",
+                                "subTotal": "60.51"
+                            }
+                        ],
+                        "subTotal": "157.03",
+                        "tax": "10.25"
+                    },
+                    "wdproServicePeriod": "288962"
+                },
+                "status": "Booked",
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546431679"
+            }
+        ],
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "CREATE",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [],
+                "bookingDateTime": "2023-08-31T04:00:00Z",
+                "contactNumber": "",
+                "diningReservationNumber": "353243734951",
+                "eventDining": {
+                    "enterpriseProduct": "51653",
+                    "partyMix": {
+                        "adult": "2",
+                        "child": "0",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "54159",
+                    "productType": "ShowPackage",
+                    "servicePeriod": "51653",
+                    "startDateTime": "2023-10-18T22:10:00Z",
+                    "totalPrepaidAmount": {
+                        "amount": "134.2",
+                        "gratuity": "null",
+                        "prepaidAmount": [
+                            {
+                                "ageCount": "2",
+                                "ageType": "ADULT",
+                                "amount": "67.1",
+                                "subTotal": "63.0"
+                            }
+                        ],
+                        "subTotal": "126.0",
+                        "tax": "8.2"
+                    },
+                    "wdproServicePeriod": "51653"
+                },
+                "ownerParticipant": false,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "546468318",
+                        "value": "546468318"
+                    }
+                },
+                "reservationSource": "NONE",
+                "status": "Booked",
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546468318"
+            }
+        ],
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "CREATE",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [],
+                "bookingDateTime": "2023-08-31T04:00:00Z",
+                "contactNumber": "",
+                "diningReservationNumber": "353243734996",
+                "eventDining": {
+                    "enterpriseProduct": "51875",
+                    "partyMix": {
+                        "adult": "1",
+                        "child": "0",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "54130",
+                    "productType": "ShowPackage",
+                    "servicePeriod": "51875",
+                    "startDateTime": "2023-09-01T19:55:00Z",
+                    "totalPrepaidAmount": {
+                        "amount": "52.19",
+                        "gratuity": "null",
+                        "prepaidAmount": [
+                            {
+                                "ageCount": "1",
+                                "ageType": "ADULT",
+                                "amount": "52.19",
+                                "subTotal": "49.0"
+                            }
+                        ],
+                        "subTotal": "49.0",
+                        "tax": "3.19"
+                    },
+                    "wdproServicePeriod": "51875"
+                },
+                "ownerParticipant": false,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "546468673",
+                        "value": "546468673"
+                    }
+                },
+                "reservationSource": "NONE",
+                "status": "Booked",
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546468673"
+            }
+        ],
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "MODIFY",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [],
+                "bookingDateTime": "2022-04-18T04:00:00Z",
+                "diningReservationNumber": "521081995342",
+                "eventDining": {
+                    "enterpriseProduct": "19509190",
+                    "partyMix": {
+                        "adult": "1",
+                        "child": "0",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "6208400",
+                    "productType": "ShowPackage",
+                    "servicePeriod": "19509190",
+                    "startDateTime": "2023-09-02T00:00:00Z",
+                    "totalPrepaidAmount": {
+                        "amount": "0.0",
+                        "gratuity": "null",
+                        "prepaidAmount": [
+                            {
+                                "ageCount": "1",
+                                "ageType": "ADULT",
+                                "amount": "0.0",
+                                "subTotal": "0.0"
+                            }
+                        ],
+                        "subTotal": "0.0",
+                        "tax": "0.0"
+                    },
+                    "wdproServicePeriod": "19509190"
+                },
+                "ownerParticipant": false,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    },
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "536928771",
+                        "value": "536928771"
+                    }
+                },
+                "reservationSource": "NONE",
+                "status": "Past Visit",
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "536928771"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "536928772"
+            }
+        ],
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "MODIFY",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [],
+                "bookingDateTime": "2023-08-28T04:00:00Z",
+                "contactNumber": "4072487137",
+                "diningReservationNumber": "353240729098",
+                "eventDining": {
+                    "enterpriseProduct": "90006970",
+                    "partyMix": {
+                        "adult": "1",
+                        "child": "0",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "149837",
+                    "productType": "ShowPackage",
+                    "servicePeriod": "90006970",
+                    "startDateTime": "2023-08-28T22:40:00Z",
+                    "totalPrepaidAmount": {
+                        "amount": "0.0",
+                        "gratuity": "null",
+                        "prepaidAmount": [
+                            {
+                                "ageCount": "1",
+                                "ageType": "ADULT",
+                                "amount": "0.0",
+                                "subTotal": "0.0"
+                            }
+                        ],
+                        "subTotal": "0.0",
+                        "tax": "0.0"
+                    },
+                    "wdproServicePeriod": "90006970"
+                },
+                "ownerParticipant": true,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "546392589",
+                        "value": "546392589"
+                    }
+                },
+                "reservationSource": "NONE",
+                "status": "Past Visit",
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546392589"
+            }
+        ],
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "CREATE",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [],
+                "bookingDateTime": "2023-09-08T04:00:00Z",
+                "contactNumber": "",
+                "diningReservationNumber": "353251745883",
+                "eventDining": {
+                    "enterpriseProduct": "15478579",
+                    "partyMix": {
+                        "adult": "1",
+                        "child": "0",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "149835",
+                    "productType": "ShowPackage",
+                    "servicePeriod": "15478579",
+                    "startDateTime": "2023-09-11T02:45:00Z",
+                    "totalPrepaidAmount": {
+                        "amount": "0.0",
+                        "gratuity": "null",
+                        "prepaidAmount": [
+                            {
+                                "ageCount": "1",
+                                "ageType": "ADULT",
+                                "amount": "0.0",
+                                "subTotal": "0.0"
+                            }
+                        ],
+                        "subTotal": "0.0",
+                        "tax": "0.0"
+                    },
+                    "wdproServicePeriod": "15478579"
+                },
+                "ownerParticipant": false,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "546593750",
+                        "value": "546593750"
+                    }
+                },
+                "reservationSource": "NONE",
+                "status": "Booked",
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546593750"
+            }
+        ],
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "CREATE",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [],
+                "bookingDateTime": "2023-09-08T04:00:00Z",
+                "contactNumber": "",
+                "diningReservationNumber": "353251745884",
+                "eventDining": {
+                    "enterpriseProduct": "90006983",
+                    "partyMix": {
+                        "adult": "1",
+                        "child": "0",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "149847",
+                    "productType": "ShowPackage",
+                    "servicePeriod": "90006983",
+                    "startDateTime": "2023-09-08T23:00:00Z",
+                    "totalPrepaidAmount": {
+                        "amount": "0.0",
+                        "gratuity": "null",
+                        "prepaidAmount": [
+                            {
+                                "ageCount": "1",
+                                "ageType": "ADULT",
+                                "amount": "0.0",
+                                "subTotal": "0.0"
+                            }
+                        ],
+                        "subTotal": "0.0",
+                        "tax": "0.0"
+                    },
+                    "wdproServicePeriod": "90006983"
+                },
+                "ownerParticipant": false,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "546593755",
+                        "value": "546593755"
+                    }
+                },
+                "reservationSource": "NONE",
+                "status": "Booked",
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546593755"
+            }
+        ],
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "CREATE",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [],
+                "bookingDateTime": "2023-09-08T04:00:00Z",
+                "cancellationDateTime": "2023-09-08T14:29:41Z",
+                "diningReservationNumber": "353251744643",
+                "eventDining": {
+                    "enterpriseProduct": "272257",
+                    "partyMix": {
+                        "adult": "1",
+                        "child": "0",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "149863",
+                    "productType": "ShowPackage",
+                    "servicePeriod": "272257",
+                    "startDateTime": "2023-10-06T23:15:00Z",
+                    "totalPrepaidAmount": {
+                        "amount": "0.0",
+                        "gratuity": "null",
+                        "prepaidAmount": [
+                            {
+                                "ageCount": "1",
+                                "ageType": "ADULT",
+                                "amount": "0.0",
+                                "subTotal": "0.0"
+                            }
+                        ],
+                        "subTotal": "0.0",
+                        "tax": "0.0"
+                    },
+                    "wdproServicePeriod": "272257"
+                },
+                "ownerParticipant": false,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    },
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "546585899",
+                        "value": "546585899"
+                    }
+                },
+                "reservationSource": "NONE",
+                "status": "No Show",
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546585900"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546585899"
+            }
+        ],
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "CREATE",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [],
+                "bookingDateTime": "2023-09-08T04:00:00Z",
+                "cancellationDateTime": "2023-09-08T14:30:34Z",
+                "diningReservationNumber": "353251744832",
+                "ownerParticipant": false,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    },
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "546586183",
+                        "value": "546586183"
+                    }
+                },
+                "reservationSource": "NONE",
+                "status": "No Show",
+                "tableDining": {
+                    "enterpriseProduct": "0",
+                    "partyMix": {
+                        "adult": "1",
+                        "child": "0",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "0",
+                    "productType": "TableServiceDiningProduct",
+                    "servicePeriod": "272257",
+                    "startDateTime": "2023-10-23T17:10:00Z",
+                    "wdproServicePeriod": "272257"
+                },
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546586183"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546586184"
+            }
+        ],
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "MODIFY",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [
+                    {
+                        "allergy": "No Fish"
+                    },
+                    {
+                        "allergy": "No Peanut"
+                    }
+                ],
+                "bookingDateTime": "2023-09-08T04:00:00Z",
+                "diningReservationNumber": "353251744980",
+                "eventDining": {
+                    "enterpriseProduct": "52244",
+                    "partyMix": {
+                        "adult": "1",
+                        "child": "0",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "53988",
+                    "productType": "ShowPackage",
+                    "servicePeriod": "52244",
+                    "startDateTime": "2023-09-09T23:30:00Z",
+                    "totalPrepaidAmount": {
+                        "amount": "62.84",
+                        "gratuity": "null",
+                        "prepaidAmount": [
+                            {
+                                "ageCount": "1",
+                                "ageType": "ADULT",
+                                "amount": "62.84",
+                                "subTotal": "59.0"
+                            }
+                        ],
+                        "subTotal": "59.0",
+                        "tax": "3.84"
+                    },
+                    "wdproServicePeriod": "52244"
+                },
+                "ownerParticipant": false,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "546586464",
+                        "value": "546586464"
+                    }
+                },
+                "reservationSource": "NONE",
+                "specialRequests": [
+                    {
+                        "code": "GRHC",
+                        "name": "High Chair",
+                        "type": "GUEST_REQUEST"
+                    },
+                    {
+                        "code": "SNSA",
+                        "name": "Service Animal",
+                        "type": "SE_SPECIAL_NEED"
+                    }
+                ],
+                "status": "Booked",
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546586464"
+            }
+        ],
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "CREATE",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [],
+                "bookingDateTime": "2023-09-04T04:00:00Z",
+                "diningReservationNumber": "353247738740",
+                "ownerParticipant": false,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    },
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "546510005",
+                        "value": "546510005"
+                    }
+                },
+                "reservationSource": "NONE",
+                "status": "Booked",
+                "tableDining": {
+                    "enterpriseProduct": "0",
+                    "partyMix": {
+                        "adult": "1",
+                        "child": "0",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "0",
+                    "productType": "TableServiceDiningProduct",
+                    "servicePeriod": "272257",
+                    "startDateTime": "2023-09-08T01:30:00Z",
+                    "wdproServicePeriod": "272257"
+                },
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546510006"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546510005"
+            }
+        ],
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "CREATE",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [],
+                "bookingDateTime": "2023-09-04T04:00:00Z",
+                "diningReservationNumber": "353247738730",
+                "ownerParticipant": false,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    },
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "546509964",
+                        "value": "546509964"
+                    }
+                },
+                "reservationSource": "NONE",
+                "showDining": {
+                    "enterpriseProduct": "288962",
+                    "partyMix": {
+                        "adult": "1",
+                        "child": "0",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "54102",
+                    "productType": "ShowDiningProduct",
+                    "servicePeriod": "288962",
+                    "startDateTime": "2023-10-19T21:30:00Z",
+                    "ticketPickupIndicator": "false",
+                    "totalPrepaidAmount": {
+                        "amount": "0.01",
+                        "gratuity": "0.0",
+                        "prepaidAmount": [
+                            {
+                                "ageCount": "1",
+                                "ageType": "ADULT",
+                                "amount": "0.01",
+                                "subTotal": "0.01"
+                            }
+                        ],
+                        "subTotal": "0.01",
+                        "tax": "0.0"
+                    },
+                    "wdproServicePeriod": "288962"
+                },
+                "status": "Booked",
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546509965"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546509964"
+            }
+        ],
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "CREATE",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [],
+                "bookingDateTime": "2023-09-04T04:00:00Z",
+                "diningReservationNumber": "353247738258",
+                "eventDining": {
+                    "enterpriseProduct": "22461",
+                    "partyMix": {
+                        "adult": "1",
+                        "child": "0",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "149354",
+                    "productType": "ShowPackage",
+                    "servicePeriod": "22461",
+                    "startDateTime": "2023-09-28T12:45:00Z",
+                    "totalPrepaidAmount": {
+                        "amount": "0.0",
+                        "gratuity": "null",
+                        "prepaidAmount": [
+                            {
+                                "ageCount": "1",
+                                "ageType": "ADULT",
+                                "amount": "0.0",
+                                "subTotal": "0.0"
+                            }
+                        ],
+                        "subTotal": "0.0",
+                        "tax": "0.0"
+                    },
+                    "wdproServicePeriod": "22461"
+                },
+                "ownerParticipant": true,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "546510634",
+                        "value": "546510634"
+                    }
+                },
+                "reservationSource": "NONE",
+                "status": "Booked",
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546510634"
+            }
+        ],
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "CREATE",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [],
+                "bookingDateTime": "2023-09-01T04:00:00Z",
+                "contactNumber": "",
+                "diningReservationNumber": "353244735827",
+                "ownerParticipant": false,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "546476888",
+                        "value": "546476888"
+                    }
+                },
+                "reservationSource": "NONE",
+                "showDining": {
+                    "enterpriseProduct": "284969",
+                    "partyMix": {
+                        "adult": "1",
+                        "child": "0",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "54022",
+                    "productType": "ShowDiningProduct",
+                    "servicePeriod": "284969",
+                    "startDateTime": "2023-09-03T00:30:00Z",
+                    "ticketPickupIndicator": "false",
+                    "totalPrepaidAmount": {
+                        "amount": "66.00",
+                        "gratuity": "9.54",
+                        "prepaidAmount": [
+                            {
+                                "ageCount": "1",
+                                "ageType": "ADULT",
+                                "amount": "66.00",
+                                "subTotal": "53.00"
+                            }
+                        ],
+                        "subTotal": "53.00",
+                        "tax": "3.46"
+                    },
+                    "wdproServicePeriod": "284969"
+                },
+                "status": "Booked",
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546476888"
+            }
+        ],
+        "type": "Dining Reservation"
+    },
+    {
+        "action": "MODIFY",
+        "diningReservations": [
+            {
+                "addOnComponents": [],
+                "allergies": [],
+                "bookingDateTime": "2023-09-01T04:00:00Z",
+                "contactNumber": "",
+                "diningReservationNumber": "353244735991",
+                "ownerParticipant": false,
+                "partyMembers": [
+                    {
+                        "ageGroup": "ADULT",
+                        "relationship": [
+                            "OWNER",
+                            "PARTICIPANT"
+                        ],
+                        "role": "Guest"
+                    }
+                ],
+                "primaryTransactionalGuest": {
+                    "id": {
+                        "type": "546489670",
+                        "value": "546489670"
+                    }
+                },
+                "reservationSource": "NONE",
+                "showDining": {
+                    "enterpriseProduct": "284969",
+                    "partyMix": {
+                        "adult": "1",
+                        "child": "0",
+                        "infant": "0",
+                        "unknown": "0"
+                    },
+                    "productID": "54022",
+                    "productType": "ShowDiningProduct",
+                    "servicePeriod": "284969",
+                    "startDateTime": "2023-09-03T00:30:00Z",
+                    "ticketPickupIndicator": "false",
+                    "totalPrepaidAmount": {
+                        "amount": "66.00",
+                        "gratuity": "9.54",
+                        "prepaidAmount": [
+                            {
+                                "ageCount": "1",
+                                "ageType": "ADULT",
+                                "amount": "66.00",
+                                "subTotal": "53.00"
+                            }
+                        ],
+                        "subTotal": "53.00",
+                        "tax": "3.46"
+                    },
+                    "wdproServicePeriod": "284969"
+                },
+                "status": "Auto Arrived",
+                "vipLevel": "0"
+            }
+        ],
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546489670"
+            }
+        ],
+        "type": "Dining Reservation"
+    }
+]

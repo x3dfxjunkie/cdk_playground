@@ -1,0 +1,109 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__credit_card_additional_info_external_reference_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__credit_card_additional_info_external_reference_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: payment_card_id
+        description: ""
+
+      - name: payment_id
+        description: ""
+
+      - name: settlement_method_id
+        description: ""
+
+      - name: payment_card_brand_name
+        description: ""
+
+      - name: stratus_retrieval_reference_number
+        description: ""
+
+      - name: partial_masked_card_number
+        description: ""
+
+      - name: payment_card_holder_name
+        description: ""
+
+      - name: payment_card_holder_address_line_1_value
+        description: ""
+
+      - name: payment_card_holder_address_line_2_value
+        description: ""
+
+      - name: payment_card_holder_city_name
+        description: ""
+
+      - name: payment_card_holder_region_code
+        description: ""
+
+      - name: payment_card_holder_region_name
+        description: ""
+
+      - name: payment_card_holder_postal_code
+        description: ""
+
+      - name: payment_card_holder_country_code
+        description: ""
+
+      - name: rrn_key_nb
+        description: ""
+
+      - name: payment_card_use_status_name
+        description: ""
+
+      - name: payment_device_terminal_id
+        description: ""
+
+      - name: stratus_card_class_code
+        description: ""
+
+      - name: card_authorization_code
+        description: ""
+
+      - name: credit_card_merchant_number
+        description: ""
+
+      - name: avs_resp_cd
+        description: ""
+
+      - name: stratus_authorization_type_name
+        description: ""
+
+      - name: payment_manual_authorization_indicator
+        description: ""
+
+      - name: visa_authorization_character_code
+        description: ""
+
+      - name: visa_transaction_id
+        description: ""
+
+      - name: visa_valid_code
+        description: ""
+
+      - name: mc_bnknt_dt
+        description: ""
+
+      - name: credit_card_merchant_category_number
+        description: ""
+
+      - name: create_user_id
+        description: ""
+
+      - name: create_datetime
+        description: ""
+
+      - name: create_date
+        description: ""

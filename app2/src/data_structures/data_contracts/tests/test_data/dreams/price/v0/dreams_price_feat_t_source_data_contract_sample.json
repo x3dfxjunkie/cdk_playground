@@ -1,0 +1,402 @@
+[
+	{
+		"data": {
+			"CREATE_DTS": "2009-02-01T23:01:53.549498Z",
+			"FEAT_DS": "Chocolate Buttercream",
+			"FEAT_FRQ_NM": "Visit",
+			"FEAT_ID": 281730,
+			"FEAT_NM": "Chocolate Buttercream",
+			"FEAT_TYP_NM": "Filling",
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2009-02-01T23:01:53.549498Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:07.006760Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2006-10-18T15:25:11.587144Z",
+			"FEAT_DS": "5 Days at ESPN Wide World of Sports Complex",
+			"FEAT_FRQ_NM": "Day",
+			"FEAT_ID": 80013071,
+			"FEAT_NM": "OGA",
+			"FEAT_TYP_NM": null,
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2006-10-18T15:25:11.587144Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:07.984328Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2006-10-18T15:25:11.498672Z",
+			"FEAT_DS": "Florida Resident Premium Annual Pass - Renewal",
+			"FEAT_FRQ_NM": "Day",
+			"FEAT_ID": 83964,
+			"FEAT_NM": "Main",
+			"FEAT_TYP_NM": null,
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2006-10-18T15:25:11.498672Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:06.442346Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2006-10-18T15:25:11.477304Z",
+			"FEAT_DS": "Florida Resident Annual Pass - Charter",
+			"FEAT_FRQ_NM": "Day",
+			"FEAT_ID": 83893,
+			"FEAT_NM": "Main",
+			"FEAT_TYP_NM": null,
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2006-10-18T15:25:11.477304Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:06.297342Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2007-07-26T12:20:10.881680Z",
+			"FEAT_DS": "9 Visits Water Park Fun & More",
+			"FEAT_FRQ_NM": "Day",
+			"FEAT_ID": 220109,
+			"FEAT_NM": "OGA",
+			"FEAT_TYP_NM": null,
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2007-07-26T12:20:10.881680Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:06.680942Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2010-05-10T15:59:16.665154Z",
+			"FEAT_DS": "ESPN Wide World of Sports Complex Annual Pass",
+			"FEAT_FRQ_NM": "Day",
+			"FEAT_ID": 15469690,
+			"FEAT_NM": "OGA",
+			"FEAT_TYP_NM": null,
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2010-05-10T15:59:16.665154Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:07.776882Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2006-10-18T15:25:11.349704Z",
+			"FEAT_DS": "8 Day No Expiration Option",
+			"FEAT_FRQ_NM": "Ticket",
+			"FEAT_ID": 73585,
+			"FEAT_NM": "Non-Expiring",
+			"FEAT_TYP_NM": null,
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2006-10-18T15:25:11.349704Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:05.936018Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2006-10-18T15:25:11.252736Z",
+			"FEAT_DS": "No Expiration Dates on Old/Unused Tickets",
+			"FEAT_FRQ_NM": "Ticket",
+			"FEAT_ID": 66689,
+			"FEAT_NM": "Non-Expiring",
+			"FEAT_TYP_NM": null,
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2006-10-18T15:25:11.252736Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:05.687381Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2009-02-01T23:01:55.936739Z",
+			"FEAT_DS": "Alice in Wonderland",
+			"FEAT_FRQ_NM": "Visit",
+			"FEAT_ID": 285362,
+			"FEAT_NM": "Alice in Wonderland",
+			"FEAT_TYP_NM": "Cake Decoration",
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2009-02-01T23:01:55.936739Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:07.358619Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2009-02-01T23:01:48.726195Z",
+			"FEAT_DS": "Happy Birthday Mickey",
+			"FEAT_FRQ_NM": "Visit",
+			"FEAT_ID": 281743,
+			"FEAT_NM": "Happy Birthday Mickey",
+			"FEAT_TYP_NM": "Cake Decoration",
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2009-02-01T23:01:48.726195Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:07.111639Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2006-10-18T15:25:11.132936Z",
+			"FEAT_DS": "10 Days at the Walt Disney World Theme Parks",
+			"FEAT_FRQ_NM": "Day",
+			"FEAT_ID": 2746,
+			"FEAT_NM": "Main",
+			"FEAT_TYP_NM": null,
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2006-10-18T15:25:11.132936Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:05.292874Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2006-10-18T15:25:11.388232Z",
+			"FEAT_DS": "Advance Purchase Savings - 4 Days / 1 Option",
+			"FEAT_FRQ_NM": "Ticket",
+			"FEAT_ID": 74134,
+			"FEAT_NM": "APS",
+			"FEAT_TYP_NM": null,
+			"JDO_SEQ_NB": 1,
+			"UPDT_DTS": "2006-10-18T15:25:11.388232Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:06.054845Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2019-05-10T13:13:05.201579Z",
+			"FEAT_DS": "3 Plus Visits -Florida Resident - 3-Day Get Your Ears On Ticket",
+			"FEAT_FRQ_NM": "Day",
+			"FEAT_ID": 19322823,
+			"FEAT_NM": "Plus",
+			"FEAT_TYP_NM": null,
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2019-05-10T13:13:05.201579Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:09.909117Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2006-10-18T15:25:11.204264Z",
+			"FEAT_DS": "1-Day Pleasure Island Single-Club",
+			"FEAT_FRQ_NM": "Day",
+			"FEAT_ID": 26051,
+			"FEAT_NM": "Main",
+			"FEAT_TYP_NM": null,
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2006-10-18T15:25:11.204264Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:05.486051Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2006-10-18T15:25:11.643152Z",
+			"FEAT_DS": "Nine Days at the Walt Disney World Theme Parks",
+			"FEAT_FRQ_NM": "Day",
+			"FEAT_ID": 80013087,
+			"FEAT_NM": "Main",
+			"FEAT_TYP_NM": null,
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2006-10-18T15:25:11.643152Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:08.138429Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2006-10-18T15:25:11.440728Z",
+			"FEAT_DS": "Free 3 Visits Water Park Fun & More",
+			"FEAT_FRQ_NM": "Day",
+			"FEAT_ID": 82059,
+			"FEAT_NM": "OGA",
+			"FEAT_TYP_NM": null,
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2006-10-18T15:25:11.440728Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:06.197558Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2015-10-03T22:02:06.749427Z",
+			"FEAT_DS": "Walt Disney World Resort Parking",
+			"FEAT_FRQ_NM": "Day",
+			"FEAT_ID": 18160180,
+			"FEAT_NM": "Parking",
+			"FEAT_TYP_NM": null,
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2015-10-03T22:02:06.749427Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:10.037599Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2015-12-08T10:47:07.434239Z",
+			"FEAT_DS": "Field Hockey Event Party - Epcot 7/24/16",
+			"FEAT_FRQ_NM": "Visit",
+			"FEAT_ID": 18300295,
+			"FEAT_NM": "Main",
+			"FEAT_TYP_NM": null,
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2015-12-08T10:47:07.434239Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:09.826158Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2009-12-17T15:04:51.447822Z",
+			"FEAT_DS": "4 Days at the Disney Theme Parks - Military Promo",
+			"FEAT_FRQ_NM": "Day",
+			"FEAT_ID": 9005783,
+			"FEAT_NM": "Main",
+			"FEAT_TYP_NM": null,
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2009-12-17T15:04:51.447822Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:07.595662Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2006-10-18T15:25:11.447816Z",
+			"FEAT_DS": "Free 5 Visits Water Park Fun & More",
+			"FEAT_FRQ_NM": "Day",
+			"FEAT_ID": 82087,
+			"FEAT_NM": "OGA",
+			"FEAT_TYP_NM": null,
+			"JDO_SEQ_NB": 0,
+			"UPDT_DTS": "2006-10-18T15:25:11.447816Z"
+		},
+		"metadata": {
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"record-type": "data",
+			"schema-name": "PRICING",
+			"table-name": "FEAT_T",
+			"timestamp": "2023-08-30T02:26:06.213565Z"
+		}
+	}
+]

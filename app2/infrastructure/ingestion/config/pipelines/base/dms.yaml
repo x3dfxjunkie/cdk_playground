@@ -1,0 +1,152 @@
+stack_extension: &se {{stack_extension}} # 12 Character Limit!
+ingest_pattern: &ip dms # DO NOT UPDATE must = dms for dms pattern
+active: True
+feature_branch: False # set to False unless you want to deploy DMS in ephemeral envs
+pattern_instances:
+  - region: &region-1 us-east-1 # DO NOT UPDATE
+    resources:
+      dms_repl_instance: # AWS DMS Replication Instance
+        name: &dn {{stack_extension}} # Name for the replication instance
+        instance_class: dms.r5.xlarge # Class size/type for replication instance e.g., dms.t2.micro. For more info see https://docs.aws.amazon.com/dms/latest/userguide/CHAP_ReplicationInstance.html#CHAP_ReplicationInstance.InDepth
+        storage: 100 # The amount of storage (in gigabytes) to be initially allocated for the replication instance.
+        engine_version: "3.4.7" # The engine version number of the replication instance, e.g., 3.4.6.
+        allow_major_version_upgrade: True # True/False if automatic major upgrade should be applied
+        auto_minor_version_upgrade: True # True/False if automatic minor upgrade should be applied
+        multi_az: False # True/False if multi AZ should be applied
+        maint_window: Mon:00:00-Mon:01:00 # The weekly time range during which system maintenance can occur, in UTC. Format e.g., "Mon:00:00-Mon:01:00"
+        instance_identifier: {{stack_extension}}-inst # The replication instance identifier
+        security_group_ids: # Not Required. Specify a list of the virtual private cloud (VPC) security group ids to be used with the replication instance.
+        subnet_props: # Subnet Group Properties. See app.guest360_constructs.dms.dms_replication_instance.SubnetGroupProps
+          group_name: {{stack_extension}}-subnet-group # Name of subnet group
+          description: subnet group for {{stack_extension}} DMS # Description of subnet group
+          subnet_identifer: {{stack_extension}}-subnet # Identifier for subnet group
+          subnet_list: # List of subnets to be included in subnet group
+            - subnet-0a28c8fdd2b6b3bdf
+      source_endpoint: # AWS DMS Source Endpoint.
+        endpoint_type: source # The type of endpoint. Valid value restricted to source
+        settings: # See https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Source.html
+          secrets_manager_access_role_arn: arn_placeholder #pragma: allowlist secret, ARN of the IAM role that specifies AWS DMS as the trusted entity and grants the required permissions to access the value in SecretsManagerSecret
+        database_name: # Not Required, The name of the endpoint database. For a MySQL source or target endpoint, don’t specify DatabaseName
+      dms_repl_task: # AWS DMS replication task
+        - replication_task_identifier: *se # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500}}' # Overall settings for the task, see: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TaskSettings.html
+      stack_extension: *se
+      event_bridge_pipe_validation: # AWS EventBridge Pipe - Validation
+        name: {{stack_extension}}-event-bridge-pipe-validation # Name of the pipe
+        role_arn: # ARN of the custom role that allows the pipe to send data to the target; not required
+        pipe_source_parameters: # Event Bridge Pipe source settings
+          kinesis_stream_parameters: # The parameters for using a Kinesis stream as a source. See https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_pipes/CfnPipe.html#pipesourcekinesisstreamparametersproperty
+            startingPosition: "TRIM_HORIZON" # The position in a stream from which to start reading. Allowed values: TRIM_HORIZON, LATEST
+            batchSize: 100 # Maximum number of records to include in each batch
+            maximumRetryAttempts: 3 # Discard records after the specified number of retries
+            parallelizationFactor: 3
+            deadLetterConfig: # Value managed by dms_ingest_event_pipe construct
+              arn:
+          sqs_queue_parameters: # The parameters for using an Amazon SQS stream as a source. See https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_pipes/CfnPipe.html#pipesourcesqsqueueparametersproperty
+        pipe_target_parameters: # Event Bridge Pipe target settings
+          kinesis_stream_parameters: # The parameters for using a Kinesis stream as a target. See https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_pipes/CfnPipe.html#pipetargetkinesisstreamparametersproperty
+            partitionKey: $.partition_key # Determines which shard in the stream the data record is assigned to
+          lambda_function_parameters: # The parameters for using a Lambda function as a target. See https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_pipes/CfnPipe.html#pipetargetlambdafunctionparametersproperty
+      event_bridge_pipe_dead_letter_queue: # AWS EventBridge Pipe - Dead Letter Queue
+        name: {{stack_extension}}-event-bridge-pipe-dlq # Name of the pipe
+        role_arn: # ARN of the custom role that allows the pipe to send data to the target; not required
+        pipe_source_parameters: # Event Bridge Pipe source settings
+          sqs_queue_parameters: # The parameters for using an Amazon SQS stream as a source. See https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_pipes/CfnPipe.html#pipesourcesqsqueueparametersproperty
+            batchSize: 5 # Maximum number of records to include in each batch
+        pipe_target_parameters: # Event Bridge Pipe target settings
+          lambda_function_parameters: # The parameters for using a Lambda function as a target. See https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_pipes/CfnPipe.html#pipetargetlambdafunctionparametersproperty
+      lambda_validator: # AWS Lambda Function properties of Event Bridge Pipe Validation enrichment. See app.guest360_constructs.lambda_function.LambdaFunctionProps
+        function_name: {{stack_extension}}-lambda-validator # A name for the function
+        handler: runner.lambda_handler # The name of the method within your code that Lambda calls to execute your function 
+        timeout: !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.duration.Duration # The function execution time aws_cdk.duration (in seconds) 
+          - seconds
+          - 60
+        memory_size: 256
+        code: bazel-bin/app/src/ingestion/event_pipes/validation/data_contract_lambda_validator.zip # Lambda code from local directory 
+      lambda_dead_letter: # AWS Lambda Function properties of Event Bridge Pipe Dead Letter target. See app.guest360_constructs.lambda_function.LambdaFunctionProps
+        function_name: {{stack_extension}}-lambda-dead-letter-processor # A name for the function
+        handler: runner.lambda_handler # The name of the method within your code that Lambda calls to execute your function 
+        code: bazel-bin/app/src/ingestion/event_pipes/dead_letter/data_contract_lambda_dead_letter.zip
+        timeout: !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.duration.Duration # The function execution time aws_cdk.duration (in seconds) 
+          - seconds
+          - 300
+      app_config: # AWS AppConfig properties. See app.guest360_constructs.app_config.AppConfigProps
+        hosted_configuration: # AWS AppConfig Hosted Configuration Version. See app.guest360_constructs.app_config.AppConfigHostedConfigurationVersionProps
+            content: # Managed by Guest360DMSIngest construct. A standard MIME type describing the format of the configuration content
+      sqs: &sqs # AWS SQS Queue properties of Event Bridge Pipe Dead Letter source. See app.guest360_constructs.sqs_queue.SQSQueueProps
+        queue_name: &sqs_queue_name {{stack_extension}}-sqs-dead-letter
+        encryption_key: NULL # Custom KMS key to use for encryption
+      kinesis_dmz: &kinesis_dmz # AWS Kinesis Data Stream properties of Event Bridge Pipe Validation Source. See app.guest360_constructs.kinesis_datastream.KinesisProps 
+        stream_name: &dmz_stream_name {{stack_extension}}-kinesis-dmz
+        retention_period: &kdr_dmz !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention # The number of hours for the data records that are stored in shards to remain accessible in aws_cdk.Duration format
+          - 14
+        stream_mode: &ksm_dmz !!python/object/apply:aws_cdk.aws_kinesis.StreamMode # The capacity mode of this stream. Default: StreamMode.PROVISIONED
+          - PROVISIONED
+        shard_count: &ksc_dmz 1 # The number of shards for the stream. Can only be provided if streamMode is Provisioned
+        encryption_key: NULL # Custom KMS key to use for stream encryption
+      kinesis: &kinesis # AWS Kinesis Data Stream properties of Event Bridge Pipe Validation target
+        stream_name: &stream_name {{stack_extension}}-kinesis
+        retention_period: &kdr !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention # The number of hours for the data records that are stored in shards to remain accessible in aws_cdk.Duration format
+          - 14
+        stream_mode: &ksm !!python/object/apply:aws_cdk.aws_kinesis.StreamMode # The capacity mode of this stream. Default: StreamMode.PROVISIONED
+          - PROVISIONED
+        shard_count: &ksc 1 # The number of shards for the stream. Can only be provided if streamMode is Provisioned
+        encryption_key: NULL # Custom KMS key to use for stream encryption
+      kinesis_firehose: # AWS Kinesis Firehose Delivery Stream properties. See app.guest360_constructs.kinesis_firehose.KinesisFirehoseProps
+        enabled: True # True/False Kinesis Firehose
+        bucket_name: raw # Name of the bucket which will store the data from kinesis streams
+        buffering_hints: # See app.guest360_constructs.kinesis_firehose.KinesisFirehoseBufferingHintsProps
+          interval: 60 # How often the unit time is polled to push new Firehose data to the target (S3). Defaults to 60.
+          unit_of_time: SECONDS # SECONDS or MINUTES, which indicate the size allocated to each interval. Defaults to SECONDS.
+        partitioning: # See app.guest360_constructs.kinesis_firehose.KinesisFirehosePartitioningProps
+          dynamic:
+            enabled: True # True/False Kinesis firehose dynamic partitioning
+            keys: NULL # If no keys are specified defaults values will be set [ ".router_database", ".router_schema",  ".router_table", ".stream" ]
+          custom_keys: NULL # If NULL is specified for partitioning static keys, default value will be set as "snowpipe"
+      source_iam: # AWS IAM Role properties for source DMS secrets manager permissions. See app.guest360_constructs.iam_role.IAMProps
+        role_name: source-endpoint-{{stack_extension}}
+        assumed_by: !!python/object/apply:aws_cdk.aws_iam.ServicePrincipal
+          - dms.us-east-1.amazonaws.com
+        description: IAM Role to be used for the secrets manager for {{stack_extension}} mariadb
+      target_iam: # AWS IAM Role properties for target DMS kinesis permissions. See app.guest360_constructs.iam_role.IAMProps
+        role_name: target-endpoint-{{stack_extension}}
+        assumed_by: !!python/object/apply:aws_cdk.aws_iam.ServicePrincipal
+          - dms.amazonaws.com
+        description: IAM Role to be used for the DMS kinesis target endpoint for {{stack_extension}}
+      target_endpoint: # AWS DMS Endpoint target kinesis properties. See app.guest360_constructs.dms.dms_endpoint.DMSEndpointProps
+        endpoint_type: target # Endpoint type, required value target
+        engine_name: kinesis # The type of engine for the endpoint, depending on the EndpointType value. Valid values : mysql | oracle | mariadb | kinesis
+        settings: #  Props for Oracle, Kinesis and MySQL - see app.guest360_constructs.dms.dms_endpoint.[MysqlSettingsProps,OracleSettingsProps,KinesisSettingsProps]
+          include_control_details: False # Shows detailed control information for table definition, column definition, and table and column changes in the Kinesis message output
+          include_null_and_empty: True # Include NULL and empty columns for records migrated to the endpoint 
+          include_partition_value: False # Shows the partition value within the Kinesis message output, unless the partition type is schema-table-type
+          include_table_alter_operations: False # Includes any data definition language (DDL) operations that change the table in the control data, such as rename-table , drop-table , add-column , drop-column , and rename-column
+          include_transaction_details: True # Provides detailed transaction information from the source database.
+          message_format: JSON # The output format for the records created on the endpoint. The message format is JSON (default) or JSON_UNFORMATTED (a single line with no tab)
+          no_hex_prefix: False # Set this optional parameter to true to avoid adding a ‘0x’ prefix to raw data in hexadecimal format
+          partition_include_schema_table: False # Prefixes schema and table names to partition values, when the partition type is primary-key-type . Doing this increases data distribution among Kinesis shards.
+      networking: # VPC Security groups definitions for DMS replications, egress and local traffic.
+        allowlist:
+          egress:
+            cidrs:
+              - "0.0.0.0/0"
+            ports:
+              - 443
+          local_egress:
+            cidr:
+              "10.0.0.0/8"
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_DATABASE_LANDING
+      default_table: DEFAULT_ROUTER_TABLE
+      default_schema: DEFAULT_ROUTER_SCHEMA
+      table_path: metadata.table-name
+      schema_path: metadata.schema-name
+      data_mapper_type: nested
+      metrics:
+        error:
+            namespace: event_pipes_validation_errors
+            value: 1 # A metric per type of error will be generated, this is the value
+            unit: Count # A metric per type of error will be generated, this is the unit

@@ -1,0 +1,56 @@
+ownershipTicket:
+  allOf:
+    - type: object
+      properties:
+        guestIdentifiers:
+          $ref: "../openapi.yaml#/components/schemas/guestIdentifiers"
+    - $ref: "../openapi.yaml#/components/schemas/ownershipCommon"
+    - type: object
+      properties:
+        transactionItemId:
+          type: string
+          description: Unique ticket identifier to each ticket purchased by a guest.  Also known as TCOD (WDW) or ticket Visual ID (DLR)
+          example: 11100008888899999
+        productCategory:
+          allOf:
+            - $ref: "../openapi.yaml#/components/schemas/productCategory"
+            - type: string
+              example: "Ticket"
+        status:
+          $ref: "../openapi.yaml#/components/schemas/ownershipStatus"
+      required:
+        - transactionItemId
+        - productId
+        - productCatgory
+        - status
+    - type: object
+      properties:
+        productDetails:
+          $ref: "../openapi.yaml#/components/schemas/ticketProductDetails"
+        transactionDetails:
+          type: object
+          properties:
+            validityStartDate:
+              type: string
+              format: date
+              description: ticket validity start date
+            validityEndDate:
+              type: string
+              format: date
+              description: ticket validity end date
+            claimTime:
+              type: string
+              format: date-time
+              description: Date/Time of ticket being linked
+            paidValue:
+              type: number
+              description: value effectively paid for the ticket
+              example: 444.26              
+            ticketStatus:
+              type: string
+              description: ticket status from source, provides insight to inactive status, such as upgrade / downgrade
+              example: "BLOCKED"
+            previousTicketId:
+              type: string
+              description: For lookup if current ticket relates to a previous ticket, such as upgrade / downgrade
+              example: 11100008887999999

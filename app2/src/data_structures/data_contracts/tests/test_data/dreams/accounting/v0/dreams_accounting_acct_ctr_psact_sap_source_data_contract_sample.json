@@ -1,0 +1,144 @@
+[
+    {
+        "data": {
+            "ACCT_CTR_PST_ACCT_SAP_ID": 200001,
+            "ACCT_CTR_PST_ACCT_ID": 100007,
+            "SAP_GL_REF_ID": 55387,
+            "TXN_TYP_NM": "SALE",
+            "DFLT_CFIG_IN": "Y",
+            "TX_EXMPT_IN": "Y",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T06:42:52.324Z",
+            "UPDT_USR_ID_CD": "SC5_SS1_BHM",
+            "UPDT_DTS": "2010-03-24T18:55:43.792Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.431588Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "ACCT_CTR_PSACT_SAP"
+        }
+    },
+    {
+        "data": {
+            "ACCT_CTR_PST_ACCT_SAP_ID": 200002,
+            "ACCT_CTR_PST_ACCT_ID": 100007,
+            "SAP_GL_REF_ID": 55387,
+            "TXN_TYP_NM": "REV",
+            "DFLT_CFIG_IN": "N",
+            "TX_EXMPT_IN": "Y",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T06:42:52.324Z",
+            "UPDT_USR_ID_CD": "SC5_SS1_BHM",
+            "UPDT_DTS": "2010-03-24T18:55:44.061Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.460274Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "ACCT_CTR_PSACT_SAP",
+            "transaction-id": 1264
+        }
+    },
+    {
+        "data": {
+            "ACCT_CTR_PST_ACCT_SAP_ID": 200003,
+            "ACCT_CTR_PST_ACCT_ID": 100007,
+            "SAP_GL_REF_ID": 55387,
+            "TXN_TYP_NM": "ADJ",
+            "DFLT_CFIG_IN": "N",
+            "TX_EXMPT_IN": "Y",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T06:42:52.324Z",
+            "UPDT_USR_ID_CD": "SC5_SS1_BHM",
+            "UPDT_DTS": "2010-03-24T18:55:44.330Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.479165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "ACCT_CTR_PSACT_SAP",
+            "transaction-id": 1297
+        }
+    },
+    {
+        "data": {
+            "ACCT_CTR_PST_ACCT_SAP_ID": 200004,
+            "ACCT_CTR_PST_ACCT_ID": 100008,
+            "SAP_GL_REF_ID": 7120,
+            "TXN_TYP_NM": "SALE",
+            "DFLT_CFIG_IN": "Y",
+            "TX_EXMPT_IN": "Y",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T06:42:52.324Z",
+            "UPDT_USR_ID_CD": "UAT1_S1_BHM",
+            "UPDT_DTS": "2010-07-27T19:33:47.415Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.604399Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "ACCT_CTR_PSACT_SAP",
+            "transaction-id": 12894
+        }
+    },
+    {
+        "data": {
+            "ACCT_CTR_PST_ACCT_SAP_ID": 200005,
+            "ACCT_CTR_PST_ACCT_ID": 100008,
+            "SAP_GL_REF_ID": 7120,
+            "TXN_TYP_NM": "REV",
+            "DFLT_CFIG_IN": "N",
+            "TX_EXMPT_IN": "Y",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T06:42:52.324Z",
+            "UPDT_USR_ID_CD": "UAT1_S1_BHM",
+            "UPDT_DTS": "2010-07-27T19:33:47.079Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.479165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "ACCT_CTR_PSACT_SAP",
+            "transaction-id": 1297
+        }
+    },
+    {
+        "data": {
+            "ACCT_CTR_PST_ACCT_SAP_ID": 200006,
+            "ACCT_CTR_PST_ACCT_ID": 100008,
+            "SAP_GL_REF_ID": 7120,
+            "TXN_TYP_NM": "ADJ",
+            "DFLT_CFIG_IN": "N",
+            "TX_EXMPT_IN": "Y",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T06:42:52.324Z",
+            "UPDT_USR_ID_CD": "UAT1_S1_BHM",
+            "UPDT_DTS": "2010-07-27T19:33:46.737Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.604399Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "ACCT_CTR_PSACT_SAP"
+        }
+    }
+]

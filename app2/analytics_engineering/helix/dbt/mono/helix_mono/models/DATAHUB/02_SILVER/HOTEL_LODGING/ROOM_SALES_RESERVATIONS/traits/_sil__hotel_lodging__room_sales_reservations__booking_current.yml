@@ -1,0 +1,379 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_sales_reservations__booking_current
+    description: "{{ doc('sil__hotel_lodging__room_sales_reservations__booking_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_sales_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: booking_id
+        description: ""
+
+      - name: booking_company
+        description: ""
+
+      - name: booking_division
+        description: ""
+
+      - name: booking_brand
+        description: ""
+
+      - name: booking_type
+        description: ""
+
+      - name: booking_client_id
+        description: ""
+
+      - name: booking_status
+        description: ""
+
+      - name: booking_option_status
+        description: ""
+
+      - name: company_name
+        description: ""
+
+      - name: division_name
+        description: ""
+
+      - name: brand_name
+        description: ""
+
+      - name: booking_type_name
+        description: ""
+
+      - name: client_group_code
+        description: ""
+
+      - name: client_group_name
+        description: ""
+
+      - name: client_type
+        description: ""
+
+      - name: client_reference
+        description: ""
+
+      - name: client_name
+        description: ""
+
+      - name: booking_status_name
+        description: ""
+
+      - name: res_option_status_name
+        description: ""
+
+      - name: booking_arrival_date
+        description: ""
+
+      - name: booking_departure_date
+        description: ""
+
+      - name: booking_quote_date
+        description: ""
+
+      - name: booking_date
+        description: ""
+
+      - name: booking_definite_due_date
+        description: ""
+
+      - name: booking_definite_date
+        description: ""
+
+      - name: booking_firm_due_date
+        description: ""
+
+      - name: booking_firm_date
+        description: ""
+
+      - name: booking_balance_due_date
+        description: ""
+
+      - name: booking_full_payment_received_date
+        description: ""
+
+      - name: booking_manual_commission
+        description: ""
+
+      - name: booking_commission
+        description: ""
+
+      - name: booking_total_price
+        description: ""
+
+      - name: booking_total_cost
+        description: ""
+
+      - name: booking_manual_deposit
+        description: ""
+
+      - name: booking_deposit_amount
+        description: ""
+
+      - name: booking_discount
+        description: ""
+
+      - name: booking_booked_user
+        description: ""
+
+      - name: booking_media_code
+        description: ""
+
+      - name: booking_distribution_channel
+        description: ""
+
+      - name: distribution_channel_name
+        description: ""
+
+      - name: booking_selling_currency
+        description: ""
+
+      - name: booking_selling_to_base_exchange_rate
+        description: ""
+
+      - name: booking_locked
+        description: ""
+
+      - name: booking_commission_adjustment
+        description: ""
+
+      - name: booking_commission_percentage
+        description: ""
+
+      - name: booking_last_modified_time
+        description: ""
+
+      - name: booking_system_generated_expiry_date
+        description: ""
+
+      - name: booking_agent_id
+        description: ""
+
+      - name: booking_profile_id
+        description: ""
+
+      - name: booking_address_number
+        description: ""
+
+      - name: booking_contact_method
+        description: ""
+
+      - name: booking_contact_number
+        description: ""
+
+      - name: booking_client_self_billing
+        description: ""
+
+      - name: booking_gsa_join_date
+        description: ""
+
+      - name: booking_gsa_client
+        description: ""
+
+      - name: booking_total_commission
+        description: ""
+
+      - name: booking_discount_on_commission
+        description: ""
+
+      - name: booking_insurance_due
+        description: ""
+
+      - name: booking_total_tax_cost
+        description: ""
+
+      - name: booking_total_tax_price
+        description: ""
+
+      - name: booking_tax_included
+        description: ""
+
+      - name: booking_refund_authorized
+        description: ""
+
+      - name: booking_refund_authorized_amount
+        description: ""
+
+      - name: booking_promotion_id
+        description: ""
+
+      - name: booking_profit
+        description: ""
+
+      - name: booking_non_commissionable_price
+        description: ""
+
+      - name: booking_brochure_id
+        description: ""
+
+      - name: booking_locale
+        description: ""
+
+      - name: locale_language
+        description: ""
+
+      - name: locale_country
+        description: ""
+
+      - name: locale_name
+        description: ""
+
+      - name: locale_font
+        description: ""
+
+      - name: locale_iso_code
+        description: ""
+
+      - name: booking_vip_booking
+        description: ""
+
+      - name: booking_destination
+        description: ""
+
+      - name: booking_location_id
+        description: ""
+
+      - name: booking_source_id
+        description: ""
+
+      - name: booking_dont_collect_commission
+        description: ""
+
+      - name: booking_group_name
+        description: ""
+
+      - name: booking_main_destination_country
+        description: ""
+
+      - name: booking_external_booking_id
+        description: ""
+
+      - name: booking_atol_type
+        description: ""
+
+      - name: booking_client_status
+        description: ""
+
+      - name: booking_trade_client_pay_group
+        description: ""
+
+      - name: booking_request_item_indc
+        description: ""
+
+      - name: booking_manual_destination_calculation
+        description: ""
+
+      - name: booking_destination_city
+        description: ""
+
+      - name: booking_flight_only
+        description: ""
+
+      - name: booking_accounting_destination_country
+        description: ""
+
+      - name: booking_manual_accounting_destination_calculation
+        description: ""
+
+      - name: booking_departure_airport
+        description: ""
+
+      - name: booking_source_market
+        description: ""
+
+      - name: booking_all_docs_dispatched
+        description: ""
+
+      - name: booking_link_bookings
+        description: ""
+
+      - name: booking_reservation_time
+        description: ""
+
+      - name: booking_auto_cancel
+        description: ""
+
+      - name: booking_booking_source
+        description: ""
+
+      - name: booking_dispatch_method
+        description: ""
+
+      - name: booking_dispatch_address
+        description: ""
+
+      - name: booking_insurance_excluded
+        description: ""
+
+      - name: booking_your_reference
+        description: ""
+
+      - name: booking_counselor_name
+        description: ""
+
+      - name: booking_counselor_ref_key
+        description: ""
+
+      - name: booking_counselor_ref_value
+        description: ""
+
+      - name: booking_last_mod_source
+        description: ""
+
+      - name: booking_manual_deposit_due_date
+        description: ""
+
+      - name: booking_block_code
+        description: ""
+
+      - name: booking_cancellation_reason_id
+        description: ""
+
+      - name: booking_cancellation_user
+        description: ""
+
+      - name: booking_cancellation_date
+        description: ""
+
+      - name: booking_cancellation_charge
+        description: ""
+
+      - name: booking_cancellation_charge_commissionable
+        description: ""
+
+      - name: booking_cancellation_no
+        description: ""
+
+      - name: booking_cancellation_calculated_date
+        description: ""
+
+      - name: booking_cancellation_cause_id
+        description: ""
+
+      - name: booking_cancellation_reason_type
+        description: ""
+
+      - name: booking_cancellation_reason
+        description: ""
+
+      - name: booking_cancellation_reason_conf_doc_required
+        description: ""
+
+      - name: booking_cancellation_reason_status
+        description: ""
+
+      - name: booking_cancellation_reason_repricing_date
+        description: ""
+
+      - name: booking_cancellation_reason_applicable_products
+        description: ""

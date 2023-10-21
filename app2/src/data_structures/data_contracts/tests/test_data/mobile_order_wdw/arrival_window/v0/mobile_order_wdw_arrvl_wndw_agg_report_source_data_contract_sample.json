@@ -1,0 +1,81 @@
+[
+    {
+        "data": {
+            "avail_invtry": 2,
+            "booked": 2,
+            "business_date": "2023-09-13",
+            "cancelled": 0,
+            "consumed": 2,
+            "end_time": "2023-09-13T12:40:00Z",
+            "last_booked_time": "2023-09-13T12:16:52.772836Z",
+            "location": "The Market at Ale & Compass - Temporarily Unavailable",
+            "meal_period": "Market at Ale & Compass Lunch/Dinner",
+            "mobile_order": 100,
+            "modified": 0,
+            "park": "Disney's Yacht and Beach Club Resorts",
+            "planned_unit": 1,
+            "start_time": "2023-09-13T12:10:00Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "gxpwdw",
+            "table-name": "agg_report",
+            "timestamp": "2023-09-15T08:01:40.911184Z",
+            "transaction-id": 528401236500917
+        }
+    },
+    {
+        "data": {
+            "avail_invtry": 7,
+            "booked": 1,
+            "business_date": "2023-09-13",
+            "cancelled": 0,
+            "consumed": 1,
+            "end_time": "2023-09-13T12:40:00Z",
+            "location": "World Premiere Food Court - Temporarily Unavailable",
+            "meal_period": "World Premiere Food Court Lunch/Dinner",
+            "mobile_order": 100,
+            "modified": 0,
+            "park": "Disney's All-Star Movies Resort",
+            "planned_unit": 1,
+            "start_time": "2023-09-13T12:10:00Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "gxpwdw",
+            "table-name": "agg_report",
+            "timestamp": "2023-09-15T08:01:40.902082Z"
+        }
+    },
+    {
+        "data": {
+            "avail_invtry": 9,
+            "booked": 1,
+            "business_date": "2023-09-13",
+            "cancelled": 0,
+            "consumed": 1,
+            "end_time": "2023-09-13T12:25:00Z",
+            "last_booked_time": "2023-09-13T12:09:30.356868Z",
+            "location": "Sunshine Tree Terrace",
+            "meal_period": "Sunshine Tree Terrace Daily",
+            "mobile_order": 100,
+            "modified": 0,
+            "park": "Magic Kingdom Park",
+            "planned_unit": 1,
+            "start_time": "2023-09-13T12:10:00Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "gxpwdw",
+            "table-name": "agg_report",
+            "timestamp": "2023-09-15T08:01:40.892704Z",
+            "transaction-id": 528401236500917
+        }
+    }
+]

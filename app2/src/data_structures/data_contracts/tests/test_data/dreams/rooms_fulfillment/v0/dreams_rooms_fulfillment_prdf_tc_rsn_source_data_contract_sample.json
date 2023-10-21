@@ -1,0 +1,2102 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "CXLINS",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Cancel Insurance",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.857767Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "INT",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Internet",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.878937Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "INTAUTO",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Do not use Internet automation only",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.884084Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "INTCXL",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Internet cancel do not use",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.889306Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "JOB",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Lost job",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.897316Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "MEDIA",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Non-company sponsored events",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.913520Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "NON",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Canceled for Non-Payment",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.918780Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "PKG",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Cheaper package price",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.931263Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "RATE",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Rate resistance",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.940196Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "RBK",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Rebooked on another client file",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.947412Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "SECUPD",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Security tax update",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.954258Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "TGX",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Tour Guide cancel",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.967788Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "TSX",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Tour Source cancel",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.975944Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "UPSUR",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Automatic update of fuel surcharge",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.990574Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "WTHR",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Weather causing cancelled flights",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.001520Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "INVMOD",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Modification",
+            "TC_RSN_TYP_NM": "Inventory Override",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.012733Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "INVGSTINC",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Guest Inconvenience",
+            "TC_RSN_TYP_NM": "Inventory Override",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.024409Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "INVERROR",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Cancelled in Error",
+            "TC_RSN_TYP_NM": "Inventory Override",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.030210Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "INVRMAPV",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Revenue Mgt Approved",
+            "TC_RSN_TYP_NM": "Inventory Override",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.037680Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "RTGSTINC",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Guest Inconvenience",
+            "TC_RSN_TYP_NM": "Rate Override",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.059725Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "RTCNTRCT",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Group Contract",
+            "TC_RSN_TYP_NM": "Rate Override",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.067142Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "RTRMAPV",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Revenue Mgt Approved",
+            "TC_RSN_TYP_NM": "Rate Override",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.088662Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "RTOTHER",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Other",
+            "TC_RSN_TYP_NM": "Rate Override",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.096514Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "CHGDTH",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Death or Serious Illness in Family",
+            "TC_RSN_TYP_NM": "Change",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.103835Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "CHGWTHR",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Weather causing cancelled flights",
+            "TC_RSN_TYP_NM": "Change",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.117810Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "CHGBUSC",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Business conflicts",
+            "TC_RSN_TYP_NM": "Change",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.125341Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "CHGPERSL",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Personal or change of plans",
+            "TC_RSN_TYP_NM": "Change",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.130692Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "CHGRATE",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Rate resistance",
+            "TC_RSN_TYP_NM": "Change",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.138222Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "CHGMOD",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Modification of Existing Reservation",
+            "TC_RSN_TYP_NM": "Change",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.162336Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "CHGAIR",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Air not available",
+            "TC_RSN_TYP_NM": "Change",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.171639Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "CHGRBK",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Rebooked on another client file",
+            "TC_RSN_TYP_NM": "Change",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.177673Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "CHGPKG",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Cheaper package price",
+            "TC_RSN_TYP_NM": "Change",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.183864Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "CHGUNBL",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Unable to extend existing reservation",
+            "TC_RSN_TYP_NM": "Change",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.189184Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "ACGIN",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Guest Inconvenience",
+            "TC_RSN_TYP_NM": "A la Carte Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.207846Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "AIR",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Air not available",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.834915Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "BUSC",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Business conflicts",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.851737Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "DTH",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Death or Serious Illness in Family",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.862847Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "DUP",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Duplicate Res (except for RSA error)",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.871507Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "LSX",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Leisure Shopper cancel",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.904678Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "PERSL",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Personal or change of plans",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.924939Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "SFTY",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Safety or Crime concerns",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.960271Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "UNBL",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Unable to extend existing reservation",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:15.983850Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "CXL-SBCMOD",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Cancel SBC Modification",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.006918Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "INVSHARE",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Create Sharemember",
+            "TC_RSN_TYP_NM": "Inventory Override",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.018332Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "INVBLOCK",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Manage Block Counts",
+            "TC_RSN_TYP_NM": "Inventory Override",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.046819Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "INVOTHER",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Other",
+            "TC_RSN_TYP_NM": "Inventory Override",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.053646Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "RTSHARE",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Sharemember Rate",
+            "TC_RSN_TYP_NM": "Rate Override",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.073904Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "RTRSR",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "RSR",
+            "TC_RSN_TYP_NM": "Rate Override",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.081331Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "CHGJOB",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Lost job",
+            "TC_RSN_TYP_NM": "Change",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.110800Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "CHGSFTY",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Safety or Crime concerns",
+            "TC_RSN_TYP_NM": "Change",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.150119Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "CHGMEDIA",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Non-company sponsored events",
+            "TC_RSN_TYP_NM": "Change",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.156301Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2007-09-06T02:58:58.843008Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "CXL-TVLPAR",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Cancelled by Travel Partner",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2007-09-06T02:58:58.843008Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.196898Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "ACMOD",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Modification to Resort arrival date",
+            "TC_RSN_TYP_NM": "A la Carte Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.202776Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "ACOTH",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Other",
+            "TC_RSN_TYP_NM": "A la Carte Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.216316Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "ACBCF",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Business conflicts",
+            "TC_RSN_TYP_NM": "A la Carte Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.223212Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "ACDRE",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Duplicate Res (dont use for agent error)",
+            "TC_RSN_TYP_NM": "A la Carte Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.232821Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "ACLJB",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Lost job",
+            "TC_RSN_TYP_NM": "A la Carte Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.238250Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "ACNSE",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Non-company sponsored events",
+            "TC_RSN_TYP_NM": "A la Carte Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.244815Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "ACPCP",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Personal or change of plans",
+            "TC_RSN_TYP_NM": "A la Carte Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.250117Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "ACRTR",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Rate resistance",
+            "TC_RSN_TYP_NM": "A la Carte Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.259156Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "ACSCC",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Safety or Crime concerns",
+            "TC_RSN_TYP_NM": "A la Carte Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.266061Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "MCHUR",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Hurricane",
+            "TC_RSN_TYP_NM": "Mass Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.272377Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "MCTMP",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Temperature",
+            "TC_RSN_TYP_NM": "Mass Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.280695Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "MCVCL",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Venue Closed",
+            "TC_RSN_TYP_NM": "Mass Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.310168Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "ACAER",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Agent Error",
+            "TC_RSN_TYP_NM": "A la Carte Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.353456Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "ACSIH",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Death or Serious illness in Family",
+            "TC_RSN_TYP_NM": "A la Carte Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.360487Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "ACWCF",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Weather causing cancelled transportation",
+            "TC_RSN_TYP_NM": "A la Carte Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.368026Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2021-06-10T03:20:47Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "PARK-CLSR",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Park Closure for Hurricane, pandemic etc",
+            "TC_RSN_TYP_NM": "Cancel",
+            "UPDT_DTS": "2021-06-10T03:20:47Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.374822Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2022-06-14T00:15:41.710668Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "NULL",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Hotel/Resort booking window benefit",
+            "TC_RSN_TYP_NM": "A la Carte Cancel",
+            "UPDT_DTS": "2022-06-14T00:15:41.710668Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.381871Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:34:06.733057Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "TKTEXREPL",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Tickets Exchange/Replace",
+            "TC_RSN_TYP_NM": "Complimentary Ticket",
+            "UPDT_DTS": "2009-08-06T10:34:06.733057Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.417603Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:34:06.733057Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "ILL",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Illness",
+            "TC_RSN_TYP_NM": "Early Checkout",
+            "UPDT_DTS": "2009-08-06T10:34:06.733057Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.431449Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "MCSTM",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Storm (lightning,high winds,heavy rain)",
+            "TC_RSN_TYP_NM": "Mass Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.289678Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "MCNOP",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "No Performance",
+            "TC_RSN_TYP_NM": "Mass Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.297403Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "MCOPC",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Operational Concern",
+            "TC_RSN_TYP_NM": "Mass Cancel",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.304551Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "TRPHF",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Hardware Failure",
+            "TC_RSN_TYP_NM": "Ticket Reprint",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.317775Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "TRPPJ",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Paper Jam",
+            "TC_RSN_TYP_NM": "Ticket Reprint",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.327448Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "TRPIP",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Incorrect Paper",
+            "TC_RSN_TYP_NM": "Ticket Reprint",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.333697Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "TRPLT",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Lost Ticket",
+            "TC_RSN_TYP_NM": "Ticket Reprint",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.340709Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-01-30T23:53:33.824843Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "TRPLR",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Ticket left in room",
+            "TC_RSN_TYP_NM": "Ticket Reprint",
+            "UPDT_DTS": "2009-01-30T23:53:33.824843Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.345938Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:34:06.733057Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "GDWL/ILL",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Goodwill/Illness",
+            "TC_RSN_TYP_NM": "Complimentary Ticket",
+            "UPDT_DTS": "2009-08-06T10:34:06.733057Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.391009Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:34:06.733057Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "INCTINFGST",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Incorrect Info to Guest",
+            "TC_RSN_TYP_NM": "Complimentary Ticket",
+            "UPDT_DTS": "2009-08-06T10:34:06.733057Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.398428Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:34:06.733057Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "PREXPPRK",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Poor Experience Parks",
+            "TC_RSN_TYP_NM": "Complimentary Ticket",
+            "UPDT_DTS": "2009-08-06T10:34:06.733057Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.406436Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:34:06.733057Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "PREXPRSRT",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Poor Experience Resorts",
+            "TC_RSN_TYP_NM": "Complimentary Ticket",
+            "UPDT_DTS": "2009-08-06T10:34:06.733057Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.412725Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:34:06.733057Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "TKTLSTSTLN",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Tickets Lost/Stolen",
+            "TC_RSN_TYP_NM": "Complimentary Ticket",
+            "UPDT_DTS": "2009-08-06T10:34:06.733057Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.424046Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:34:06.733057Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "FAMEM",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Family Emergency",
+            "TC_RSN_TYP_NM": "Early Checkout",
+            "UPDT_DTS": "2009-08-06T10:34:06.733057Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.438353Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:34:06.733057Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "LVNOUTWDW",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Leaving property outside WDW",
+            "TC_RSN_TYP_NM": "Early Checkout",
+            "UPDT_DTS": "2009-08-06T10:34:06.733057Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.452368Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:34:06.733057Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "WTHRCKO",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Weather",
+            "TC_RSN_TYP_NM": "Early Checkout",
+            "UPDT_DTS": "2009-08-06T10:34:06.733057Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.480678Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:34:06.733057Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "DUPRES",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Duplicate Reservations",
+            "TC_RSN_TYP_NM": "Early Checkout",
+            "UPDT_DTS": "2009-08-06T10:34:06.733057Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.485981Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:34:06.733057Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "RIN1",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Incorrect Booking Dates",
+            "TC_RSN_TYP_NM": "Reinstate",
+            "UPDT_DTS": "2009-08-06T10:34:06.733057Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.492845Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:34:06.733057Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "RIN4",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Verified with help desk",
+            "TC_RSN_TYP_NM": "Reinstate",
+            "UPDT_DTS": "2009-08-06T10:34:06.733057Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.515406Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-12-10T10:44:46.341298Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "RIN8",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "By guest request",
+            "TC_RSN_TYP_NM": "Reinstate",
+            "UPDT_DTS": "2009-12-10T10:44:46.341298Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.542030Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-25T14:01:09.835840Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "IOADJRC",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Adjust Room Counts",
+            "TC_RSN_TYP_NM": "Inventory Override",
+            "UPDT_DTS": "2009-08-25T14:01:09.835840Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.562222Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2010-06-09T13:11:04.235823Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "COUNT",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "For Counts",
+            "TC_RSN_TYP_NM": "Upgrade",
+            "UPDT_DTS": "2010-06-09T13:11:04.235823Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.579690Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "RTFAMILY",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Family of the Day",
+            "TC_RSN_TYP_NM": "Rate Override",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.599847Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "RTUP",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Upgraded for Counts",
+            "TC_RSN_TYP_NM": "Rate Override",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.620856Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "RTWLK",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Walked Guest",
+            "TC_RSN_TYP_NM": "Rate Override",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.627130Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2006-10-18T15:43:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "RTWHSL",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Wholesale Rebook",
+            "TC_RSN_TYP_NM": "Rate Override",
+            "UPDT_DTS": "2006-10-18T15:43:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.634232Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-06-15T14:44:28.690546Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "RTPPTS",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Manually Processed Points",
+            "TC_RSN_TYP_NM": "Rate Override",
+            "UPDT_DTS": "2012-06-15T14:44:28.690546Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.641517Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:34:06.733057Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "BEREAV",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Bereavement",
+            "TC_RSN_TYP_NM": "Early Checkout",
+            "UPDT_DTS": "2009-08-06T10:34:06.733057Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.445640Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:34:06.733057Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "LGCY_RSN_CD": "DOMDISP",
+            "PRDF_TC_RSN_ID": 0,
+            "TC_RSN_NM": "Domestic Dispute",
+            "TC_RSN_TYP_NM": "Early Checkout",
+            "UPDT_DTS": "2009-08-06T10:34:06.733057Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "prdf_tc_rsn",
+            "timestamp": "2023-07-26T01:12:16.458405Z"
+        }
+    }
+]

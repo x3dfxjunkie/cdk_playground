@@ -1,0 +1,28 @@
+policies:
+  - actions:
+      - "kinesis:List*"
+      - "kinesis:PutRecord*"
+      - "kinesis:Get*"
+      - "kinesis:Describe*"
+    resources:
+      - "arn:aws:kinesis:us-*:543276908693:stream/${prefix}*"
+  - actions:
+      - "kms:Encrypt*"
+      - "kms:GenerateDataKey*"
+      - "kms:ReEncrypt*"
+    resources:
+      - "arn:aws:kms:us-*:543276908693:key/*"
+  - actions:
+      - "appconfig:Get*"
+      - "appconfig:List*"
+    resources:
+      - "arn:aws:appconfig:us-*:543276908693:application/*"
+  - actions:
+      - "secretsmanager:DescribeSecret" # pragma: allowlist secret
+      - "secretsmanager:GetSecretValue" # pragma: allowlist secret
+    resources:
+      - "arn:aws:secretsmanager:us-*:543276908693:secret:*" # pragma: allowlist secret
+  - actions:
+      - "ssm:GetParameter*"
+    resources:
+      - "arn:aws:ssm:us-*:543276908693:*rds-secret-parameter"

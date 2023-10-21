@@ -1,0 +1,100 @@
+[
+    {
+        "data": {
+            "DOW_NM": "Friday",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "dow",
+            "timestamp": "2023-08-23T19:21:49.429129Z"
+        }
+    },
+    {
+        "data": {
+            "DOW_NM": "Tuesday",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "dow",
+            "timestamp": "2023-08-23T19:21:49.482984Z"
+        }
+    },
+    {
+        "data": {
+            "DOW_NM": "Wednesday",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "dow",
+            "timestamp": "2023-08-23T19:21:49.495068Z"
+        }
+    },
+    {
+        "data": {
+            "DOW_NM": "Saturday",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "dow",
+            "timestamp": "2023-08-23T19:21:49.453531Z"
+        }
+    },
+    {
+        "data": {
+            "DOW_NM": "Monday",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "dow",
+            "timestamp": "2023-08-23T19:21:49.439932Z"
+        }
+    },
+    {
+        "data": {
+            "DOW_NM": "Sunday",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "dow",
+            "timestamp": "2023-08-23T19:21:49.462971Z"
+        }
+    },
+    {
+        "data": {
+            "DOW_NM": "Thursday",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "dow",
+            "timestamp": "2023-08-23T19:21:49.470582Z"
+        }
+    }
+]

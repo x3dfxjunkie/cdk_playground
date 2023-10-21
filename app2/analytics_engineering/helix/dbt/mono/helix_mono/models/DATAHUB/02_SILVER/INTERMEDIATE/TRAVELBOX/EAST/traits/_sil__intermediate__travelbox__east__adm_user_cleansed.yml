@@ -1,0 +1,328 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__east__adm_user_cleansed
+    description: '{{ doc("sil__intermediate__travelbox__east__adm_user_cleansed") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_cleansed
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_user_id
+            - metadata_checksum
+
+    columns:
+      - name: data_created_user
+        description: "Task created user | example: 2455"
+        meta:
+          checksum: True
+
+      - name: data_last_modified_user
+        description: "Queue record last modified user | example: 3431"
+        meta:
+          checksum: True
+
+      - name: data_created_time
+        description: "NaN | example: 2022-04-10 21:19:39"
+        meta:
+          checksum: True
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 1994-11-15 00:06:51"
+        meta:
+          checksum: True
+
+      - name: data_notes
+        description: "Notes for the tax invoice | example: gaPdTVZBTWQxXzFNPpWH"
+        meta:
+          checksum: True
+
+      - name: data_created_by_agent
+        description: "A flag to indicate whether user was created from TravelBox Agent or OTA flow. 1 for TravelBox Agent and 0 for OTA. | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_default_answer
+        description: "Whether the user use default security question answer or not | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_default_currency
+        description: "Default currency code of the user | example: USD"
+        meta:
+          checksum: True
+
+      - name: data_default_div
+        description: "Default division code of the user | example: WDTCWDW"
+        meta:
+          checksum: True
+
+      - name: data_default_com
+        description: "Default company code of the user | example: WDTC"
+        meta:
+          checksum: True
+
+      - name: data_agent_initials
+        description: "Deprecated | example: vRKkbpzfmsVoztZRbUcb"
+        meta:
+          checksum: True
+
+      - name: data_agent_sign
+        description: "Deprecated | example: FntDezZMYSMeOCZSaoXR"
+        meta:
+          checksum: True
+
+      - name: data_psudo_city
+        description: "Deprecated | example: CVAiOHMbZHuCpSiFHtaU"
+        meta:
+          checksum: True
+
+      - name: data_b2_b_user
+        description: "whether the user is B2B user or not : 1 or 0 value | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_user_id
+        description: "Deprecated | example: 15055"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_username
+        description: "The username of the user | example: disney"
+        meta:
+          checksum: True
+
+      - name: data_password
+        description: "Hashed value of the user&#39;s password | example: gkPDC7ddcxbaRyWUOmGWLx7NnZc="
+        meta:
+          checksum: True
+
+      - name: data_firstname
+        description: "The first name of the user | example: Disney"
+        meta:
+          checksum: True
+
+      - name: data_lastname
+        description: "The last name of the user | example: DisneyW"
+        meta:
+          checksum: True
+
+      - name: data_initials
+        description: "The initials of the user | example: DW"
+        meta:
+          checksum: True
+
+      - name: data_sex
+        description: "Sex of the user  M or F_x000D_
+ | example: M"
+        meta:
+          checksum: True
+
+      - name: data_dob
+        description: "The date of birth of the user | example: 1977-09-19 21:56:04"
+        meta:
+          checksum: True
+
+      - name: data_logins
+        description: "Maximum allowed number of simultaneous logins for the user account | example: 200"
+        meta:
+          checksum: True
+
+      - name: data_agent_preference
+        description: "Deprecated | example: GbEdMRLoCPlOcsUjWAEE"
+        meta:
+          checksum: True
+
+      - name: data_telephone
+        description: "The telephone number of the user | example: 407 934 3000"
+        meta:
+          checksum: True
+
+      - name: data_email
+        description: "The email address of the user | example: lWkHRfRkwHzVxVGYSZWy"
+        meta:
+          checksum: True
+
+      - name: data_extension
+        description: "Telephone extension of the user | example: rFLXvrHNotSNlqaBUmwF"
+        meta:
+          checksum: True
+
+      - name: data_status
+        description: "The TravelBox code of the status of the contract | example: A"
+        meta:
+          checksum: True
+
+      - name: data_display_name
+        description: "The name which will be displayed to other users | example: Disney"
+        meta:
+          checksum: True
+
+      - name: data_question_id
+        description: "Id of the Security question | example: 282"
+        meta:
+          checksum: True
+
+      - name: data_answer
+        description: "Hashed value of the user&#39;s security question answer | example: BbeSGnCgx95wV6oQ8CtsWp+5uRY="
+        meta:
+          checksum: True
+
+      - name: data_pwd_change_date
+        description: "Changed date of the last password | example: 2004-12-01 04:15:08"
+        meta:
+          checksum: True
+
+      - name: data_default_password
+        description: "Whether the user use default password or not | example: 0"
+        meta:
+          checksum: True
+
+      - name: min_metadata_timestamp
+        description: "The Minimum Metadata Timestamp field is used for updating the version end date of the active record in the target table"
+        tests:
+          - not_null
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

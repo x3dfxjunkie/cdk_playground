@@ -1,0 +1,154 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__group_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__group_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: group_code
+        description: ""
+
+      - name: group_name
+        description: ""
+
+      - name: group_wholesale_indicator
+        description: ""
+
+      - name: group_stage_name
+        description: ""
+
+      - name: opportunity_type_name
+        description: ""
+
+      - name: group_business_source_name
+        description: ""
+
+      - name: sales_dept_name
+        description: ""
+
+      - name: sales_manager_name
+        description: ""
+
+      - name: role_name
+        description: ""
+
+      - name: transactional_party_id
+        description: ""
+
+      - name: group_arrival_date
+        description: ""
+
+      - name: group_departure_date
+        description: ""
+
+      - name: group_peak_arrival_date
+        description: ""
+
+      - name: group_peak_departure_date
+        description: ""
+
+      - name: group_run_of_house_indicator
+        description: ""
+
+      - name: group_attrition_day_count
+        description: ""
+
+      - name: group_attrition_date
+        description: ""
+
+      - name: group_attrition_percentage
+        description: ""
+
+      - name: group_attrition_notes
+        description: ""
+
+      - name: group_peak_room_count
+        description: ""
+
+      - name: group_total_room_count
+        description: ""
+
+      - name: home_facility_id
+        description: ""
+
+      - name: group_book_home_facility_first_indicator
+        description: ""
+
+      - name: room_block_code
+        description: ""
+
+      - name: group_block_property_sync_indicator
+        description: ""
+
+      - name: group_delegate_booking_method_name
+        description: ""
+
+      - name: confirmation_delivery_method_name
+        description: ""
+
+      - name: group_confirmation_destination_name
+        description: ""
+
+      - name: group_office_name
+        description: ""
+
+      - name: group_office_agent_name
+        description: ""
+
+      - name: service_manager_name
+        description: ""
+
+      - name: sales_phone_number
+        description: ""
+
+      - name: service_manager_name
+        description: ""
+
+      - name: group_peak_arrival_team_notes
+        description: ""
+
+      - name: group_express_check_out_indicator
+        description: ""
+
+      - name: group_hide_rate_indicator
+        description: ""
+
+      - name: group_commission_allow_indicator
+        description: ""
+
+      - name: group_bypass_auto_cancel_indicator
+        description: ""
+
+      - name: group_bypass_deposit_indicator
+        description: ""
+
+      - name: group_bypass_cancellation_fee_indicator
+        description: ""
+
+      - name: group_bypass_modification_fee_indicator
+        description: ""
+
+      - name: group_reservation_guaranteed_indicator
+        description: ""
+
+      - name: group_delegate_writeoff_indicator
+        description: ""
+
+      - name: group_additional_adult_amount
+        description: ""
+
+      - name: create_datetime
+        description: ""
+
+      - name: source_update_datetime
+        description: ""

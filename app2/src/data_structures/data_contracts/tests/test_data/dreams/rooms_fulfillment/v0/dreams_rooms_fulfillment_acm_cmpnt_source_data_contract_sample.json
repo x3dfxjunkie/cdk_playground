@@ -1,0 +1,133 @@
+[
+    {
+        "data": {
+            "ACM_TC_ID": 12091804160,
+            "DVC_RES_TYP_NM": "Member Points",
+            "SHR_IN": "N",
+            "LT_CHKOT_IN": "N",
+            "SPCL_NEED_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-03T17:00:25.070000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-03T17:00:25.070000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": null,
+            "transact_seq": "20230603210032000000000002089712469"
+        },
+        "metadata": {
+            "timestamp": "2023-06-03T21:00:36.266856Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "acm_cmpnt",
+            "transaction-id": null
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12089054831,
+            "DVC_RES_TYP_NM": "Non Member Cash",
+            "TRMS_CNDTNS_VERS_NB": "11.27.2012_4_1.0",
+            "ONST_PHN_NB": "6094778724",
+            "SHR_IN": "N",
+            "LT_CHKOT_IN": "N",
+            "SPCL_NEED_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-05-11T09:35:36.749000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-03T17:00:28.833000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-03T21:00:32Z",
+            "transact_seq": "20230603210032000000000002089713445"
+        },
+        "metadata": {
+            "timestamp": "2023-06-03T21:00:38.016585Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "acm_cmpnt",
+            "transaction-id": 73061766537607
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12090413526,
+            "DVC_RES_TYP_NM": "Member Points",
+            "TRMS_CNDTNS_VERS_NB": "11.27.2012_4_1.0",
+            "ONST_PHN_NB": "6143560527",
+            "SHR_IN": "N",
+            "LT_CHKOT_IN": "N",
+            "SPCL_NEED_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-05-30T23:20:43.448000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-03T17:00:29.004000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-03T21:00:32Z",
+            "transact_seq": "20230603210032000000000002089713501"
+        },
+        "metadata": {
+            "timestamp": "2023-06-03T21:00:38.125113Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "acm_cmpnt",
+            "transaction-id": 73061766537607
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 22087464712,
+            "DVC_RES_TYP_NM": "Non Member Cash",
+            "SHR_IN": "N",
+            "LT_CHKOT_IN": "N",
+            "SPCL_NEED_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-03T17:00:28.889000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-03T17:00:28.889000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-03T21:00:36Z",
+            "transact_seq": "20230603210036000000000002089713653"
+        },
+        "metadata": {
+            "timestamp": "2023-06-03T21:00:38.438377Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "acm_cmpnt",
+            "transaction-id": 73061766607355
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 2042274107,
+            "DVC_RES_TYP_NM": "Non Member Cash",
+            "TRMS_CNDTNS_VERS_NB": "11.27.2012_4_1.0",
+            "ONST_PHN_NB": "7075836927",
+            "SHR_IN": "N",
+            "LT_CHKOT_IN": "N",
+            "SPCL_NEED_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2022-07-31T16:48:01.263000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-03T17:00:30.294000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-03T21:00:36Z",
+            "transact_seq": "20230603210036000000000002089714421"
+        },
+        "metadata": {
+            "timestamp": "2023-06-03T21:00:39.586532Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "acm_cmpnt",
+            "transaction-id": 73061766607355
+        }
+    }
+]

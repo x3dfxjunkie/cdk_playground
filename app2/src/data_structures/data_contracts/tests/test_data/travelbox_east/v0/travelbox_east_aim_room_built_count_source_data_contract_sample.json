@@ -1,0 +1,106 @@
+[
+
+	{	
+		"data":{
+			"SUPPLIER_ID" : 30103,
+			"ROOM_CODE" : "AA",
+			"INDEX_NO" : 1,
+			"FROM_DATE" : "2016-06-20T06:30:00.000Z",
+			"TO_DATE" : "2019-12-06T06:30:00.000Z",
+			"LAST_MODIFIED_TIME" : "2023-03-15T11:02:32.000Z"
+		},
+		"metadata": {
+            "timestamp": "1982-04-25 21:29:30",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "AIM_ROOM_BUILT_COUNT",
+            "transaction-id": 8352,
+            "transaction_record_id": 70974432245344,
+            "prev_transaction_id": 70974432245344,
+            "prev_transaction_record_id": 70974432245344,
+            "commit_timestamp": "2023-03-29T15:30:19.109655Z",
+            "stream_position": ""
+        }
+	},
+	{
+		"data": {
+			"SUPPLIER_ID" : 30103,
+			"ROOM_CODE" : "AG",
+			"INDEX_NO" : 1,
+			"FROM_DATE" : "2016-06-20T06:30:00.000Z",
+			"TO_DATE" : "2019-12-06T06:30:00.000Z",
+			"BUILT_COUNT" : 14,
+			"LAST_MODIFIED_TIME" : "2023-03-15T11:03:37.000Z"
+		},
+		"metadata": {
+            "timestamp": "1970-06-15 15:48:34",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "AIM_ROOM_BUILT_COUNT"
+        }
+	},
+	{
+			"data":{
+			"SUPPLIER_ID" : 30103,
+			"ROOM_CODE" : "AH",
+			"INDEX_NO" : 1,
+			"FROM_DATE" : "2016-06-20T06:30:00.000Z",
+			"TO_DATE" : "2021-09-15T06:30:00.000Z",
+			"BUILT_COUNT" : 24,
+			"LAST_MODIFIED_TIME" : "2023-03-15T11:03:29.000Z"
+		},
+		"metadata": {
+            "timestamp": "1993-07-27 13:51:41",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "AIM_ROOM_BUILT_COUNT",
+            "transaction-id": 3440
+        }
+    },
+	{
+			"data": {
+			"SUPPLIER_ID" : 30103,
+			"ROOM_CODE" : "AI",
+			"INDEX_NO" : 1,
+			"FROM_DATE" : "2016-06-20T06:30:00.000Z",
+			"TO_DATE" : "2019-12-06T06:30:00.000Z",
+			"BUILT_COUNT" : 1,
+			"LAST_MODIFIED_TIME" : "2023-03-15T11:02:29.000Z"
+		},
+        "metadata": {
+            "timestamp": "1990-08-31 01:37:13",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "AIM_ROOM_BUILT_COUNT",
+            "transaction-id": 4304
+        }
+    },
+	{	
+			"data": {
+			"SUPPLIER_ID" : 30103,
+			"ROOM_CODE" : "AL",
+			"INDEX_NO" : 1,
+			"FROM_DATE" : "2016-06-20T06:30:00.000Z",
+			"TO_DATE" : "2019-11-28T06:30:00.000Z",
+			"BUILT_COUNT" : 1,
+			"LAST_MODIFIED_TIME" : "2023-03-15T11:03:29.000Z"
+		},
+        "metadata": {
+            "timestamp": "1979-04-29 14:22:17",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "AIM_ROOM_BUILT_COUNT"
+        }
+    }
+]
+	

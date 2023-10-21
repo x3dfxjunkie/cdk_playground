@@ -1,0 +1,323 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__east__act_client_cc_receipt_versioned
+    description: '{{ doc("sil__intermediate__travelbox__east__act_client_cc_receipt_versioned") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_versioned
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_booking_id
+            - data_receipt_index
+            - metadata_checksum
+
+    columns:
+      - name: data_city
+        description: "The TravelBox code of the city for which the rule is defined | example: JTsKKAvIDYOPYgHUZHMl"
+
+      - name: data_credit_card_brand
+        description: "NaN | example: aOdanumfLunoPwSJdNOt"
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 2016-12-19 19:20:37"
+
+      - name: data_card_category
+        description: "Card category of the payment | example: CreditCard"
+
+      - name: data_future_payment
+        description: "NaN | example: 0"
+
+      - name: data_card_token
+        description: "NaN | example: EvlkYwzvEXBFjNdRTZNx"
+
+      - name: data_token_vault
+        description: "NaN | example: VPewNbIAsPFuhNzLVKJE"
+
+      - name: data_ext_transaction_id
+        description: "NaN | example: hDXQnzZeVHyRgnUCsEUG"
+
+      - name: data_state
+        description: "State of the given credit card details address | example: CegxzlHeuHnRGBfoGdPI"
+
+      - name: data_subscription_no_deleted
+        description: "Flag to check whether the Subscription_x000D_
+number is deleted or not. There is a job called_x000D_
+Subscription  Deletion.  | example: 0"
+
+      - name: data_remittance_no
+        description: "Payment remittance number | example: 8110"
+
+      - name: data_remt_date
+        description: "Payment remitted date | example: 2016-07-18 00:05:32"
+
+      - name: data_hash_card_no
+        description: "This is used to store the credit card number_x000D_
+information in hashed format. The format_x000D_
+is vary depending_x000D_
+on the client requirment and the gateway._x000D_
+Not the plain text of the card number it self. | example: JovGEpLknbWcCYvpecnC"
+
+      - name: data_merchant
+        description: "Code of the merchant | example: DlrfbAxFwjMnNeJUKmGu"
+
+      - name: data_booking_id
+        description: "The system generated id of the booking | example: 27140033"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_receipt_index
+        description: "A foreign key which refers to the field RECEIPT_INDEX of the ACT_CLIENT_ACCOUNT_RECEIPT table | example: 2"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_cc_fee_price
+        description: "Price for credit card feee | example: 0.0"
+
+      - name: data_card_no
+        description: "Credit card number (stores only gateway have permissions to store those data) | example: tt+v/cjtvY18u7t00mM3Q/JRaBwEPWMDEw44VV01du9cw6y6WkHeaqC+D+YT7dSF"
+
+      - name: data_issue_date
+        description: "Issue date of the credit card for credit card batch payment | example: 2004-08-07 02:38:50"
+
+      - name: data_expiry_date
+        description: "Credit card expire date | example: 2004-04-01 01:34:42"
+
+      - name: data_gateway_ref
+        description: "Credit card payment gateway reference/code | example: DSN_APP"
+
+      - name: data_transaction_ref
+        description: "Transaction reference for the credit card transaction | example: 275c78e8abe744359f2d838f412b12ba"
+
+      - name: data_card_type
+        description: "Accounting rule applicable credit card types | example: MAS"
+
+      - name: data_name_of_card
+        description: "Credit card holders name (encrypted or plain text) | example: R4jXZK6zm6+ON/6ueLeGraQOymSUC8e0ZsrGHe3a3SCBBV6HjabbX+9go3Dx"
+
+      - name: data_post_code
+        description: "Postal code of the credit card holder for credit card batch payment | example: ZEbgHoqFOgjiINQZCgnI"
+
+      - name: data_address
+        description: "Address of the credit card holder for credit card batch payment | example: FbsPQzsxVRCtsBdBwboP"
+
+      - name: data_cc_fee_included
+        description: "Whether credit card fee is included in the charging amount or not | example: 0"
+
+      - name: data_authorised_to_take_balance
+        description: "Whether it is authorized to take the balance for credit card batch payment | example: 0"
+
+      - name: data_transaction_status
+        description: "State of the transaction (Ex: SUCCESS, FAILED, etc...) | example: SUCCESS"
+
+      - name: data_auth_code
+        description: "Auth code for the credit card (provided from bank) | example: CREDIT"
+
+      - name: data_transaction_ref_id_returned
+        description: "Returned transaction reference id for the transaction from the credit card payment gateway | example: 217185252508"
+
+      - name: data_transaction_ref_no_returned
+        description: "Returned transaction reference number for the transaction from the credit card payment gateway | example: rXW27w"
+
+      - name: data_cc_last_five_digits
+        description: "Last 5 digits of the credit card number (only if the system allows to store those) | example: *"
+
+      - name: data_settlement_date
+        description: "Settlement date for the credit card payment | example: 1972-06-18 19:25:55"
+
+      - name: data_cc_fee_cost
+        description: "Cost for credit card feee | example: 0.0"
+
+      - name: data_airline_merchant
+        description: "Whether rule is only for airline merchants or not | example: 0"
+
+      - name: data_cc_fee_price_tax
+        description: "Tax for the price of credit card feee | example: 95412.0"
+
+      - name: data_cc_fee_cost_tax
+        description: "Tax for the cost of credit card feee | example: 62403.0"
+
+      - name: data_house_no
+        description: "House number of the credit card holder for credit card batch payment | example: fQmfDbuJPrPaybPRRzNx"
+
+      - name: data_airline_commission_amount
+        description: "If you pay with the airline merchant commission charged for that facility | example: 0.0"
+
+      - name: data_company_credit_card
+        description: "Whether this is a company credit card or not | example: 0"
+
+      - name: data_card_no_first_six_digits
+        description: "First 6 digits of the credit card number | example: *"
+
+      - name: data_issue_no
+        description: "Issue number of the credit card details | example: wvwpeHfcNxpqSsQfVpmL"
+
+      - name: data_passenger_no
+        description: "Passnger number of the details entered passenger | example: 4"
+
+      - name: data_product_code
+        description: "Deprecated | example: BoxueoAKlQSFQlTQWnsn"
+
+      - name: data_item_no
+        description: "Deprecated | example: 8332"
+
+      - name: data_security_no
+        description: "Security no of the credit card (stores only system allows to store credit card details) | example: fwYuKlbDPFJhDUMHnTjS"
+
+      - name: data_address2
+        description: "Second section of the given credit card details address | example: KYYZRhPzXAPufdvIyLWV"
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: metadata_version_start_datetime
+        description: "Version start datetime"
+        tests:
+          - not_null
+
+      - name: metadata_version_end_datetime
+        description: "Version end datetime"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

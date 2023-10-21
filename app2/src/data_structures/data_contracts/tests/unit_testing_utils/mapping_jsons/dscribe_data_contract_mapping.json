@@ -1,0 +1,292 @@
+{
+    "DScribeMenuOfferingModel": {
+        "data-source-folder": "dscribe/v0",
+        "data-contract-name": "dscribe_menu_offering_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "MenuOffering"
+            }
+        }
+    },
+    "DScribeCharacterModel": {
+        "data-source-folder": "dscribe/v0",
+        "data-contract-name": "dscribe_character_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "Character"
+            }
+        }
+    },
+    "DScribeCategoryAdminModel": {
+        "data-source-folder": "dscribe/v0",
+        "data-contract-name": "dscribe_category_admin_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "CategoryAdmin"
+            }
+        }
+    },
+    "DScribeFoodBeverageFacilityModel": {
+        "data-source-folder": "dscribe/v0",
+        "data-contract-name": "dscribe_food_beverage_facility_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "FoodBeverageFacility"
+            }
+        }
+    },
+    "DScribeAttractionModel": {
+        "data-source-folder": "dscribe/v0",
+        "data-contract-name": "dscribe_attraction_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "Attraction"
+            }
+        }
+    },
+    "DScribeEntertainmentModel": {
+        "data-source-folder": "dscribe/v0",
+        "data-contract-name": "dscribe_entertainment_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "Entertainment"
+            }
+        }
+    },
+    "DScribeFacilitiesModel": {
+        "data-source-folder": "dscribe/v0",
+        "data-contract-name": "dscribe_facilities_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "Facility"
+            }
+        }
+    },
+    "DScribeMenuItemModifierModel": {
+        "data-source-folder": "/dscribe/v0",
+        "data-contract-name": "dscribe_menu_item_modifier_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "MenuItemModifier"
+            }
+        }
+    },
+    "DScribeAmenityModel": {
+        "data-source-folder": "/dscribe/v0",
+        "data-contract-name": "dscribe_amenity_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "Amenity"
+            }
+        }
+    },
+    "DScribeContactModel": {
+        "data-source-folder": "/dscribe/v0",
+        "data-contract-name": "dscribe_contact_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "Contact"
+            }
+        }
+    },
+    "DScribeGolfCourseModel": {
+        "data-source-folder": "/dscribe/v0",
+        "data-contract-name": "dscribe_golf_course_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "GolfCourse"
+            }
+        }
+    },
+    "DScribeMembershipAffiliationModel": {
+        "data-source-folder": "/dscribe/v0",
+        "data-contract-name": "dscribe_membership_affiliation_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "MembershipAffiliation"
+            }
+        }
+    },
+    "DScribeMenuGroupModel": {
+        "data-source-folder": "/dscribe/v0",
+        "data-contract-name": "dscribe_menu_group_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "MenuGroup"
+            }
+        }
+    },
+    "DScribeMarketingMessageModel": {
+        "data-source-folder": "dscribe/v0",
+        "data-contract-name": "dscribe_marketing_message_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "marketing_message"
+            }
+        }
+    },
+    "DScribeRoomCategoryModel": {
+        "data-source-folder": "dscribe/v0",
+        "data-contract-name": "dscribe_room_category_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "RoomCategory"
+            }
+        }
+    },
+    "DScribeProductModel": {
+        "data-source-folder": "dscribe/v0",
+        "data-contract-name": "dscribe_product_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "Product"
+            }
+        }
+    },
+        "DScribeMerchandiseFacilityModel": {
+        "data-source-folder": "/dscribe/v0",
+        "data-contract-name": "dscribe_merchandise_facility_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "MerchandiseFacility"
+            }
+        }
+    },
+    "DScribePackageModel": {
+        "data-source-folder": "/dscribe/v0",
+        "data-contract-name": "dscribe_package_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "Package"
+            }
+        }
+    },
+    "DScribeNameModel": {
+        "data-source-folder": "/dscribe/v0",
+        "data-contract-name": "dscribe_name_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "Name"
+            }
+        }
+    },
+    "DScribePolicyModel": {
+        "data-source-folder": "/dscribe/v0",
+        "data-contract-name": "dscribe_policy_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "Policy"
+            }
+        }
+    },
+    "DScribeResortModel": {
+        "data-source-folder": "/dscribe/v0",
+        "data-contract-name": "dscribe_resort_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "Resort"
+            }
+        }
+    },
+    "DScribeMealPeriodModel": {
+        "data-source-folder": "/dscribe/v0",
+        "data-contract-name": "dscribe_meal_period_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "MealPeriod"
+            }
+        }
+    },
+    "DScribeFacetModel": {
+        "data-source-folder": "/dscribe/v0",
+        "data-contract-name": "dscribe_facet_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "Facet"
+            }
+        }
+    },
+    "DScribeEventModel": {
+        "data-source-folder": "/dscribe/v0",
+        "data-contract-name": "dscribe_event_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "Event"
+            }
+        }
+    },
+    "DScribeServicesModel": {
+        "data-source-folder": "/dscribe/v0",
+        "data-contract-name": "dscribe_services_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "Services"
+            }
+        }
+    },
+    "DScribeAccommodationModel": {
+        "data-source-folder": "/dscribe/v0",
+        "data-contract-name": "dscribe_accommodation_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "Accommodation"
+            }
+        }
+    },
+    "DScribeServiceProductModel": {
+        "data-source-folder": "/dscribe/v0",
+        "data-contract-name": "dscribe_service_product_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "ServiceProduct"
+            }
+        }
+    },
+        "DScribePointOfInterestModel": {
+        "data-source-folder": "/dscribe/v0",
+        "data-contract-name": "dscribe_point_of_interest_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "PointOfInterest"
+            }
+        }
+    },
+    "DScribeActivityProductModel": {
+        "data-source-folder": "dscribe/v0",
+        "data-contract-name": "dscribe_activity_product_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dscribe-stream": {
+                "key-path-name": "contentType",
+                "key-path-value": "ActivityProduct"
+            }
+        }
+    }
+}

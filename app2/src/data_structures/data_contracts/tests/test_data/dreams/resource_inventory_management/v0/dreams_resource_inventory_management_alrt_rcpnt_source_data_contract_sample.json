@@ -1,0 +1,77 @@
+[
+    {
+        "data": {
+            "ALRT_RCPNT_ID": 12345,
+            "ALRT_RCPNT_RL_NM": "HOUSEKEEPING_MANAGER",
+            "RSRC_INVTRY_STS_ID": 12345
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "alrt_rcpnt",
+            "timestamp": "2023-07-26T01:12:16.945700Z"
+        }
+    },
+    {
+        "data": {
+            "ALRT_RCPNT_ID": 12345,
+            "ALRT_RCPNT_RL_NM": "ROOM_ASSIGNER",
+            "RSRC_INVTRY_STS_ID": 12345
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "alrt_rcpnt",
+            "timestamp": "2023-07-26T01:12:16.962255Z"
+        }
+    },
+    {
+        "data": {
+            "ALRT_RCPNT_ID": 12345,
+            "ALRT_RCPNT_RL_NM": "RESORT_MANAGER",
+            "RSRC_INVTRY_STS_ID": 12345
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "alrt_rcpnt",
+            "timestamp": "2023-07-26T01:12:16.937217Z"
+        }
+    },
+    {
+        "data": {
+            "ALRT_RCPNT_ID": 12345,
+            "ALRT_RCPNT_RL_NM": "ROOM_ASSIGNER",
+            "RSRC_INVTRY_STS_ID": 12345
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "alrt_rcpnt",
+            "timestamp": "2023-07-26T01:12:16.954202Z"
+        }
+    },
+    {
+        "data": {
+            "ALRT_RCPNT_ID": 12345,
+            "ALRT_RCPNT_RL_NM": "HOUSEKEEPING_MANAGER",
+            "RSRC_INVTRY_STS_ID": 12345
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "alrt_rcpnt",
+            "timestamp": "2023-07-26T01:12:16.968375Z"
+        }
+    }
+]

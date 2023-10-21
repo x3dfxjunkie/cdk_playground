@@ -1,0 +1,100 @@
+[
+	{
+		"data": {
+			"EXPRNC_BAND_ID": 1928813,
+			"EXPRNC_BAND_DSNY_PROD_ID": 505302,
+			"EXPRNC_BAND_UNIQ_ID": "0xF7309EC4C7114A7AADCF1F1004CD71DD",
+			"EXPRNC_BAND_REQ_ID": 714002,
+			"EXPRNC_BAND_GST_CNFIRM_IN": "N",
+			"EXPRNC_BAND_CSTM_PRT_NM_IN": "N",
+			"CREATE_USR_ID": "XBANDAPP",
+			"CREATE_DTS": "2014-09-08 23:27:25.484000",
+			"UPDT_USR_ID": "XBANDAPP",
+			"UPDT_DTS": "2014-09-08 23:27:25.484000",
+			"LOGICAL_DEL_IN": "N",
+			"EXPRNC_BAND_RTL_IN": "N",
+			"OPT_OUT_IN": "N",
+			"EXPRNC_BAND_GST_SKU_OVRD_IN": "N"
+		},
+		"metadata": {
+			"timestamp": "2023-08-31T17:59:46.305746Z",
+			"record-type": "data",
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"schema-name": "xbandmd",
+			"table-name": "exprnc_band"
+		}
+	},
+	{
+		"data": {
+			"EXPRNC_BAND_ID": 1929485,
+			"EXPRNC_BAND_DSNY_PROD_ID": 505302,
+			"EXPRNC_BAND_UNIQ_ID": "0x3EAE8983FC8E41BB8DDE32F9194FF8C5",
+			"EXPRNC_BAND_REQ_ID": 714002,
+			"EXPRNC_BAND_ORD_ID": 549750,
+			"FFLMT_SHIPMT_ID": 524650,
+			"EXPRNC_BAND_PKG_ID": 12345,
+			"EXPRNC_BAND_PRT_NM": "Mickey",
+			"EXPRNC_BAND_GST_CNFIRM_IN": "N",
+			"EXPRNC_BAND_SEQ_NB": 12345,
+			"EXPRNC_BAND_CSTM_PRT_NM_IN": "N",
+			"CREATE_USR_ID": "XBANDAPP",
+			"CREATE_DTS": "2014-09-08 23:27:32.127000",
+			"UPDT_USR_ID": "XBANDAPP",
+			"UPDT_DTS": "2014-09-08 23:27:32.127000",
+			"LOGICAL_DEL_IN": "N",
+			"CURR_EXPRNC_BAND_LNK_ID": 12345,
+			"EXPRNC_BAND_RTL_IN": "N",
+			"EXPRNC_BAND_OVRD_PRT_NM": "Mouse",
+			"ORIG_EXPRNC_BAND_LNK_ID": 12345,
+			"OPT_OUT_IN": "N",
+			"EXPRNC_BAND_OPT_OUT_RSN_ID": 12345,
+			"EXPRNC_BAND_GST_SKU_OVRD_IN": "N",
+			"INCOG_REQ_ID": 12345
+		},
+		"metadata": {
+			"timestamp": "2023-08-31T17:59:54.862186Z",
+			"record-type": "data",
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"schema-name": "xbandmd",
+			"table-name": "exprnc_band"
+		}
+	},
+	{
+		"data": {
+			"EXPRNC_BAND_ID": 1927981,
+			"EXPRNC_BAND_DSNY_PROD_ID": 505302,
+			"EXPRNC_BAND_UNIQ_ID": "0x9191AC0186364D58B68809D766C0D63C",
+			"EXPRNC_BAND_REQ_ID": 714002,
+			"EXPRNC_BAND_ORD_ID": 549750,
+			"FFLMT_SHIPMT_ID": 524650,
+			"EXPRNC_BAND_PKG_ID": 12345,
+			"EXPRNC_BAND_PRT_NM": "Mickey",
+			"EXPRNC_BAND_GST_CNFIRM_IN": "N",
+			"EXPRNC_BAND_SEQ_NB": 12345,
+			"EXPRNC_BAND_CSTM_PRT_NM_IN": "N",
+			"CREATE_USR_ID": "XBANDAPP",
+			"CREATE_DTS": "2014-09-08 23:27:16.321000",
+			"UPDT_USR_ID": "XBANDAPP",
+			"UPDT_DTS": "2014-09-08 23:27:16.321000",
+			"LOGICAL_DEL_IN": "N",
+			"CURR_EXPRNC_BAND_LNK_ID": 12345,
+			"EXPRNC_BAND_RTL_IN": "N",
+			"EXPRNC_BAND_OVRD_PRT_NM": "Mouse",
+			"ORIG_EXPRNC_BAND_LNK_ID": 12345,
+			"OPT_OUT_IN": "N",
+			"EXPRNC_BAND_OPT_OUT_RSN_ID": 12345,
+			"EXPRNC_BAND_GST_SKU_OVRD_IN": "N",
+			"INCOG_REQ_ID": 12345
+		},
+		"metadata": {
+			"timestamp": "2023-08-31T17:59:34.498631Z",
+			"record-type": "data",
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"schema-name": "xbandmd",
+			"table-name": "exprnc_band"
+		}
+	}
+]

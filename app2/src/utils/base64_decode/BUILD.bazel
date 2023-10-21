@@ -1,0 +1,28 @@
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+library_name = "base64_decode"
+
+py_lambda_library(
+    name = library_name,
+    srcs = glob([library_name + "/*.py"]),
+    data = [
+        "__init__.py",
+        "//app/src/data_structures",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+    ],
+)
+
+#using pytest
+pytest_test(
+    name = library_name + "_tests",
+    srcs = glob([
+        "tests/**/*.py",
+    ]),
+    visibility = ["//visibility:public"],
+    deps = [
+        ":" + library_name,
+    ],
+)

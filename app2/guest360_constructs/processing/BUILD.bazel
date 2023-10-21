@@ -1,0 +1,25 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+py_lambda_library(
+    name = "processing_constructs",
+    srcs = glob(["*.py"]),
+    data = ["//app/src:missing_init_files"],
+    visibility = ["//visibility:public"],
+    deps = [
+        "//app/guest360_constructs/identity:identity_constructs",
+        requirement("aws-cdk-lib"),
+    ],
+)
+
+pytest_test(
+    name = "processing_constructs_tests",
+    srcs = glob(["tests/**/test_*.py"]),
+    deps = [
+        ":processing_constructs",
+        "//app/guest360_constructs",
+        "//app/src/processing/firehose_transformer",
+        "//app/src/reliability",
+    ],
+)

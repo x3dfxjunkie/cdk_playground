@@ -1,0 +1,18 @@
+ownershipParadigm:
+  type: object
+  properties:
+    guestIdentifers:
+      $ref: "../openapi.yaml#/components/schemas/guestIdentifiers"
+    productsList:
+      type: array
+      items:
+        anyOf:
+          - $ref: "../openapi.yaml#/components/schemas/ownershipTicket"
+          #              - $ref: "#/components/schemas/ownershipMerchandise"
+          - $ref: "../openapi.yaml#/components/schemas/ownershipMemoryMaker"
+          #              - $ref: "#/components/schemas/ownershipPlayApp"
+          - $ref: "../openapi.yaml#/components/schemas/ownershipMagicBand"
+    _links:
+      $ref: "../openapi.yaml#/components/schemas/links"
+  required:
+    - guestIdentifers

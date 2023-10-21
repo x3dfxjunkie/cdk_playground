@@ -1,0 +1,64 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__product_charge_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__product_charge_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: package_component_id
+        description: ""
+
+      - name: product_charge_id
+        description: ""
+
+      - name: product_charge_upgrade_type_name
+        description: ""
+
+      - name: product_id
+        description: ""
+
+      - name: product_code
+        description: ""
+
+      - name: product_description
+        description: ""
+
+      - name: charge_market_package_id
+        description: ""
+
+      - name: package_id
+        description: ""
+
+      - name: package_description
+        description: ""
+
+      - name: package_channel_id
+        description: ""
+
+      - name: product_type_name
+        description: ""
+
+      - name: communication_channel_name
+        description: ""
+
+      - name: sales_channel_name
+        description: ""
+
+      - name: travel_agent_id
+        description: ""
+
+      - name: override_product_charge_indicator
+        description: ""
+
+      - name: data_updt_dts
+        description: ""

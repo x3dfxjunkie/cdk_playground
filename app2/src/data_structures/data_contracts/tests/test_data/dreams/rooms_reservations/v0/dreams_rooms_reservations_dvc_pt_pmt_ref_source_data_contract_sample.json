@@ -1,0 +1,2201 @@
+[
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-17T08:49:29Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3361497.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-17T08:49:29Z",
+            
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:21:39.880428Z"
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T18:21:27Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3361497.2",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-17T08:49:29Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:21:39.901038Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T18:22:17.049000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377267.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T18:22:17.049000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:22:19.876047Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-19T11:22:13Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3357356.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-19T11:22:13Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:22:25.419121Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T18:22:12Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3357356.2",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T18:22:12Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:22:25.427164Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-03T09:11:32.444000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:2952293.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-03T09:11:32.444000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:22:25.445949Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T18:22:14Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:2952293.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T18:22:14Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:22:25.455295Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-06-04T02:01:28.616000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3208822.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-06-04T02:01:28.616000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:22:36.737519Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T18:22:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3208822.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T18:22:23Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:22:36.746522Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T18:04:51.338000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377219.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T18:04:51.338000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:04:58.381083Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T18:05:07.881000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377224.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T18:05:07.881000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:05:15.433971Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T11:36:33.700000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3379064.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T11:36:33.700000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:36:37.777095Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T16:51:50.662000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3376966.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T16:51:50.662000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:37:00.431123Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T11:36:54.397000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3376966.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T11:36:54.397000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:37:00.437373Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T11:37:02.250000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3379063.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T11:37:02.250000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:37:06.149956Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T11:18:31.420000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3378981.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T11:18:31.420000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:18:36.920859Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T12:16:47.154000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3375939.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T12:16:47.154000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:18:42.639503Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T11:18:26Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3375939.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T11:18:26Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:18:42.648043Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-19T10:18:57Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3305977.9",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-19T10:18:57Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:19:28.019724Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T11:19:11Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3305977.10",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T11:19:11Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:19:28.030304Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T11:16:18.761000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3378966.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T11:16:18.761000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:19:28.045583Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T11:19:22.998000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3378966.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T11:19:22.998000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:19:28.054843Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T11:19:21.986000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3378987.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T11:19:21.986000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:19:28.082133Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-06-29T07:58:41Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:2924819.3",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-06-29T07:58:41Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:19:39.404512Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T11:19:22Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:2924819.4",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T11:19:22Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:19:39.412961Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T10:02:14Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3356871.5",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T10:02:14Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:19:39.478067Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T11:19:25Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3356871.6",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T11:19:25Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:19:39.489630Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T18:16:21.075000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377242.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T18:16:21.075000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:16:27.088290Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-12T10:04:52.929000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:2638875.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-12T10:04:52.929000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:16:44.137553Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T18:16:37.522000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:2638875.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T18:16:37.522000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:16:44.168289Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T18:16:58.237000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377239.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T18:16:58.237000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:17:01.247112Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-05-17T19:20:16.648000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3154869.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-05-17T19:20:16.648000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:17:28.729490Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T11:17:15Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3154869.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T11:17:15Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:17:28.738568Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T07:29:44Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3330132.16",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T07:29:44Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:18:14.247310Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T11:18:09Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3330132.17",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T11:18:09Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:18:14.255158Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T09:24:19.871000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3378578.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T09:24:19.871000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T13:24:22.458597Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T09:24:58.293000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3378580.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T09:24:58.293000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T13:25:02.227615Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-19T08:25:57Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3341333.4",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-19T08:25:57Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T13:25:13.585637Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T09:24:56Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3341333.5",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T09:24:56Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T13:25:13.594193Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T01:29:53.785000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3378143.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T01:29:53.785000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T05:38:18.724988Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T01:38:03Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3378143.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T01:38:03Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T05:38:18.732579Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T01:56:56.200000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3378157.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T01:56:56.200000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T05:56:59.335564Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-03-02T22:35:19Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:2876006.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-03-02T22:35:19Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T05:57:33.443852Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T01:57:31.431000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:2876006.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T01:57:31.431000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T05:57:33.451003Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T01:58:02.188000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3378158.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T01:58:02.188000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T05:58:07.662882Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2022-09-11T23:49:43.266000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:2274729.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2022-09-11T23:49:43.266000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T05:58:36.068432Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T01:58:32.286000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:2274729.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T01:58:32.286000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T05:58:36.087839Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T02:23:35.422000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3378172.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T02:23:35.422000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T06:23:42.150576Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T02:34:23.925000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3378175.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T02:34:23.925000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T06:34:27.457202Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-19T16:02:08.689000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3373398.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-19T16:02:08.689000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T06:34:33.227489Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T02:34:19Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3373398.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T02:34:19Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T06:34:33.233398Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T03:01:41.145000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3378178.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T03:01:41.145000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T07:01:45.812264Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T18:17:41.637000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377252.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T18:17:41.637000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:17:46.705022Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T18:19:10.494000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377258.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T18:19:10.494000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:19:17.675747Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-06-25T19:37:10.328000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3286792.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-06-25T19:37:10.328000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:19:17.749078Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T18:19:05Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3286792.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T18:19:05Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:19:17.779992Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T18:19:39.073000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377259.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T18:19:39.073000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:19:46.161504Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T17:59:38Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3376737.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T17:59:38Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:19:46.352570Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T18:19:36Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3376737.2",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T18:19:36Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-20T22:19:46.374778Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-05-18T12:46:34.373000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3156697.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-05-18T12:46:34.373000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:23:49.748481Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T11:23:43.317000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3156697.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T11:23:43.317000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:23:49.757772Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T11:23:54.748000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3379004.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T11:23:54.748000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:24:01.158720Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T11:24:08.465000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3379014.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T11:24:08.465000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:24:12.553900Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-03-28T22:43:53.367000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:2829381.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-03-28T22:43:53.367000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:24:23.973007Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T11:24:20.411000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:2829381.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T11:24:20.411000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T15:24:23.978701Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-18T17:31:50.144000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3369863.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-18T17:31:50.144000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T05:27:40.761246Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T01:27:25Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3369863.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T01:27:25Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T05:27:40.770847Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T01:29:53.785000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3378143.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T01:29:53.785000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T05:29:57.266005Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T09:26:01.847000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3378557.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T09:26:01.847000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T13:26:04.942380Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-21T09:26:33.601000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3378586.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-21T09:26:33.601000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T13:26:38.932750Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T22:02:50.880000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377887.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T22:02:50.880000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T02:04:29.482132Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T22:04:25Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377887.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T22:04:25Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T02:04:29.488941Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T22:04:25.867000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377857.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T22:04:25.867000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T02:04:29.518250Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T22:05:37.579000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377891.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T22:05:37.579000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T02:05:43.464238Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T22:06:14.684000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377894.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T22:06:14.684000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T02:06:17.637493Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T22:06:18.546000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377890.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T22:06:18.546000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T02:06:23.277823Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T22:06:27.538000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377896.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T22:06:27.538000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T02:06:34.649344Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T22:06:54.585000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377898.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T22:06:54.585000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T02:06:57.391592Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T20:12:54.416000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377585.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T20:12:54.416000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T00:13:01.465770Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T20:12:58.798000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377598.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T20:12:58.798000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T00:13:01.496784Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T20:12:59.125000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377599.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T20:12:59.125000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T00:13:01.525096Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T20:47:12.047000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377684.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T20:47:12.047000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T00:47:15.066606Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T20:47:14.785000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377679.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T20:47:14.785000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T00:47:20.714538Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T20:48:19.566000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377698.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T20:48:19.566000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T00:48:23.315637Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T20:48:39.196000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377700.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T20:48:39.196000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T00:48:46.045325Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-09T21:45:15.495000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3335051.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-09T21:45:15.495000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T00:49:31.485255Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T20:49:25.416000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3335051.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T20:49:25.416000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T00:49:31.493827Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T20:49:27.451000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377694.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T20:49:27.451000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T00:49:31.618361Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T20:18:06.815000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377608.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T20:18:06.815000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T00:18:14.312590Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T20:18:34.982000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377610.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T20:18:34.982000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T00:18:42.733704Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-19T19:47:39Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3035875.11",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-19T19:47:39Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T01:44:30.633252Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T21:44:16Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3035875.12",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T21:44:16Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T01:44:30.640717Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-15T10:47:59.357000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3356768.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-15T10:47:59.357000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T01:44:59.044687Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T21:44:49Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3356768.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T21:44:49Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T01:44:59.052749Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T21:45:15.348000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377851.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T21:45:15.348000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T01:45:21.721990Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T21:55:05.297000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377868.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T21:55:05.297000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T01:55:13.201287Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T21:55:45.495000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377874.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T21:55:45.495000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T01:55:53.007230Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T21:57:28.188000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377873.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T21:57:28.188000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T01:57:35.341444Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T22:00:55.545000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377880.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T22:00:55.545000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T02:00:59.093316Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "ACM_TC_ID": 12345678912,
+            "CREATE_DTS": "2023-07-20T22:01:02.060000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DVC_PT_PMT_REF_ID": 123456789,
+            "DVC_PT_PMT_REF_VL": "I:3377879.1",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2023-07-20T22:01:02.060000Z",
+            "PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "dvc_pt_pmt_ref",
+            "timestamp": "2023-07-21T02:01:04.807568Z",
+            "transaction-id": 12345678912345
+        }
+    }
+]

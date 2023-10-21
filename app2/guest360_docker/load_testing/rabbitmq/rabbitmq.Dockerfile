@@ -1,0 +1,4 @@
+ARG REPO_NAME
+ARG IMAGE_TAG
+# Test comment
+FROM ${REPO_NAME}:${IMAGE_TAG}

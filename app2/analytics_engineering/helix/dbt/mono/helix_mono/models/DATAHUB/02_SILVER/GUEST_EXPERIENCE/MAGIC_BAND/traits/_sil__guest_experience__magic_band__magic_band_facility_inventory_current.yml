@@ -1,0 +1,262 @@
+version: 2
+
+models:
+  - name: sil__guest_experience__magic_band__magic_band_facility_inventory_current
+    description: "{{ doc('sil__guest_experience__magic_band__magic_band_facility_inventory_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=guest_experience
+        - sub_domain=magic_band
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: facility_band_inventory_id
+        description: ""
+
+      - name: facility_id
+        description: ""
+
+      - name: address_id
+        description: ""
+
+      - name: country_id
+        description: ""
+
+      - name: country_code
+        description: ""
+
+      - name: country_iso_3166_alpha_3_code
+        description: ""
+
+      - name: country_name
+        description: ""
+
+      - name: address_1_value
+        description: ""
+
+      - name: address_2_value
+        description: ""
+
+      - name: address_3_value
+        description: ""
+
+      - name: address_4_value
+        description: ""
+
+      - name: city_name
+        description: ""
+
+      - name: state_name
+        description: ""
+
+      - name: postal_code
+        description: ""
+
+      - name: recipient_phone_number
+        description: ""
+
+      - name: recipient_name
+        description: ""
+
+      - name: facility_type_id
+        description: ""
+
+      - name: facility_type_code
+        description: ""
+
+      - name: facility_type_description
+        description: ""
+
+      - name: shipment_contact_id
+        description: ""
+
+      - name: enterprise_id
+        description: ""
+
+      - name: facility_name
+        description: ""
+
+      - name: available_for_bulk_order_indicator
+        description: ""
+
+      - name: guest_order_indicator
+        description: ""
+
+      - name: fulfilled_magic_band_id
+        description: ""
+
+      - name: magic_band_id
+        description: ""
+
+      - name: product_id
+        description: ""
+
+      - name: product_type_id
+        description: ""
+
+      - name: product_type_code
+        description: ""
+
+      - name: product_type_description
+        description: ""
+
+      - name: product_type_available_to_guest_indicator
+        description: ""
+
+      - name: top_color_id
+        description: ""
+
+      - name: top_color_code
+        description: ""
+
+      - name: top_color_name
+        description: ""
+
+      - name: top_color_available_to_guest_indicator
+        description: ""
+
+      - name: bottom_color_id
+        description: ""
+
+      - name: bottom_color_code
+        description: ""
+
+      - name: bottom_color_name
+        description: ""
+
+      - name: bottom_color_available_to_guest_indicator
+        description: ""
+
+      - name: minimum_fulfillment_day_count
+        description: ""
+
+      - name: ship_to_resort_indicator
+        description: ""
+
+      - name: availability_start_date
+        description: ""
+
+      - name: availability_end_date
+        description: ""
+
+      - name: magic_band_unique_identifier
+        description: ""
+
+      - name: printed_name
+        description: ""
+
+      - name: guest_confirmation_indicator
+        description: ""
+
+      - name: sequence_number
+        description: ""
+
+      - name: custom_printed_name_indicator
+        description: ""
+
+      - name: current_guest_link_id
+        description: ""
+
+      - name: magic_band_link_unique_identifier
+        description: ""
+
+      - name: guest_source_system_native_id
+        description: ""
+
+      - name: source_system_value
+        description: ""
+
+      - name: guest_profile_first_name
+        description: ""
+
+      - name: guest_profile_last_name
+        description: ""
+
+      - name: retail_indicator
+        description: ""
+
+      - name: current_status_id
+        description: ""
+
+      - name: current_status_category_id
+        description: ""
+
+      - name: current_status_category_code
+        description: ""
+
+      - name: current_status_category_description
+        description: ""
+
+      - name: current_status_code
+        description: ""
+
+      - name: current_status_description
+        description: ""
+
+      - name: current_facility_id
+        description: ""
+
+      - name: current_enterprise_facility_id
+        description: ""
+
+      - name: current_facility_name
+        description: ""
+
+      - name: public_id
+        description: ""
+
+      - name: external_number
+        description: ""
+
+      - name: secure_id
+        description: ""
+
+      - name: short_range_tag_number
+        description: ""
+
+      - name: long_range_tag_number
+        description: ""
+
+      - name: lot_number
+        description: ""
+
+      - name: transaction_id
+        description: ""
+
+      - name: facility_inventory_start_datetime
+        description: ""
+
+      - name: facility_inventory_start_date
+        description: ""
+
+      - name: facility_inventory_start_time
+        description: ""
+
+      - name: facility_inventory_end_datetime
+        description: ""
+
+      - name: facility_inventory_end_date
+        description: ""
+
+      - name: facility_inventory_end_time
+        description: ""
+
+      - name: facility_shipment_case_nb
+        description: ""
+
+      - name: source_system_create_user_id
+        description: ""
+
+      - name: source_system_create_datetime
+        description: ""
+
+      - name: source_system_update_user_id
+        description: ""
+
+      - name: source_system_udpate_datetime
+        description: ""

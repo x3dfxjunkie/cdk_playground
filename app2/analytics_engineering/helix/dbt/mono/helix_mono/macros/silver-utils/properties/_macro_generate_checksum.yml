@@ -1,0 +1,15 @@
+version: 2
+
+macros:
+  - name: macro_generate_checksum
+    description: Generate a checksum based on the input field list. This is a clone of the dbt-utils.generate_surrogate_key macro with TRIM functionality added.
+    docs:
+      show: true
+    arguments:
+      - name: field_list
+        type: list (array of strings)
+        description: A list of fields for generating checksum.
+    returns:
+      - name: metadata_checksum
+        type: string
+        description: Checksum value generated from the input field values.

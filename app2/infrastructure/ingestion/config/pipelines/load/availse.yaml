@@ -1,0 +1,773 @@
+stack_extension: &se availse # 12 Character Limit!
+ingest_pattern: &ip dms # DO NOT UPDATE must = dms for dms pattern
+active: True
+pattern_instances:
+  - region: &region-1 us-east-1 # DO NOT UPDATE
+    resources:
+      kinesis_dmz:
+        retention_period: !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+        stream_mode: !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      kinesis:
+        retention_period: !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+        stream_mode: !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      dms_repl_instance:
+        engine_version: "3.5.1"
+        multi_az: True
+      dms_repl_task: # AWS DMS replication task
+        - &replication_task_definitions
+          replication_task_identifier: full1 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: &dms_task_schema "availse"
+                  table-name: "%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "2" # Unique numeric value to identify the rule.
+                rule-name: "2" # Unique name to identify the rule.
+                rule-action: exclude # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *dms_task_schema
+                  table-name: "metric_adt" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "3" # Unique numeric value to identify the rule.
+                rule-name: "3" # Unique name to identify the rule.
+                rule-action: exclude # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *dms_task_schema
+                  table-name: "invtry_updt_adt" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "4" # Unique numeric value to identify the rule.
+                rule-name: "4" # Unique name to identify the rule.
+                rule-action: exclude # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *dms_task_schema
+                  table-name: "fsell_invtry" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "5" # Unique numeric value to identify the rule.
+                rule-name: "5" # Unique name to identify the rule.
+                rule-action: exclude # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *dms_task_schema
+                  table-name: "bid_price_ctrl" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc1
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - &replication_task_definitions2
+          replication_task_identifier: f-mtrc # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: explicit # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *dms_task_schema
+                  table-name: "metric_adt" #Table qualifier
+        - <<: *replication_task_definitions2 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: c-mtrc
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - &replication_task_definitions3
+          replication_task_identifier: f-invup # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: explicit # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *dms_task_schema
+                  table-name: "invtry_updt_adt" #Table qualifier
+        - <<: *replication_task_definitions3 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: c-invup
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - &replication_task_definitions4
+          replication_task_identifier: f-fsel # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: explicit # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *dms_task_schema
+                  table-name: "fsell_invtry" #Table qualifier
+        - <<: *replication_task_definitions4 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: c-fsel
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - &replication_task_definitions5
+          replication_task_identifier: f-bid # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: explicit # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *dms_task_schema
+                  table-name: "bid_price_ctrl" #Table qualifier
+        - <<: *replication_task_definitions5 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: c-bid
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - <<: *replication_task_definitions
+          replication_task_identifier: low  #Low volume tables needing data for Contract Creation
+          migration_type: full-load
+          table_mappings:
+            rules:
+              - &low_rule_definitions
+                rule-type: selection
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1"
+                rule-action: explicit
+                object-locator:
+                  schema-name: &low_rule_schema "availse"
+                  table-name: "built_invtry"
+              - <<: *low_rule_definitions
+                rule-id: "2"
+                rule-name: "2"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "built_invtry_adj"
+              - <<: *low_rule_definitions
+                rule-id: "3"
+                rule-name: "3"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "built_invtry_adj_series"
+              - <<: *low_rule_definitions
+                rule-id: "4"
+                rule-name: "4"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "chan_mtrx"
+              - <<: *low_rule_definitions
+                rule-id: "5"
+                rule-name: "5"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "comnctn_chan"
+              - <<: *low_rule_definitions
+                rule-id: "6"
+                rule-name: "6"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "cpcty"
+              - <<: *low_rule_definitions
+                rule-id: "7"
+                rule-name: "7"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "dow"
+              - <<: *low_rule_definitions
+                rule-id: "8"
+                rule-name: "8"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "dsny_ctrl_config"
+              - <<: *low_rule_definitions
+                rule-id: "9"
+                rule-name: "9"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "dsny_ctrl_excpt"
+              - <<: *low_rule_definitions
+                rule-id: "10"
+                rule-name: "10"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "freeze"
+              - <<: *low_rule_definitions
+                rule-id: "11"
+                rule-name: "11"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "freeze_fsell_invtry"
+              - <<: *low_rule_definitions
+                rule-id: "12"
+                rule-name: "12"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "invtry_hrzn"
+              - <<: *low_rule_definitions
+                rule-id: "13"
+                rule-name: "13"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "lst_release_run"
+              - <<: *low_rule_definitions
+                rule-id: "14"
+                rule-name: "14"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "ovrbk_alrt_track"
+              - <<: *low_rule_definitions
+                rule-id: "15"
+                rule-name: "15"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "phys_rsrc"
+              - <<: *low_rule_definitions
+                rule-id: "16"
+                rule-name: "16"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "phys_rsrc_sts"
+              - <<: *low_rule_definitions
+                rule-id: "17"
+                rule-name: "17"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "prod_rsrvbl_rsrc_xref"
+              - <<: *low_rule_definitions
+                rule-id: "18"
+                rule-name: "18"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "prtcpnt_tmplt"
+              - <<: *low_rule_definitions
+                rule-id: "19"
+                rule-name: "19"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "prtcpnt_tmplt_invtry"
+              - <<: *low_rule_definitions
+                rule-id: "20"
+                rule-name: "20"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "prtcpnt_tmplt_sch"
+              - <<: *low_rule_definitions
+                rule-id: "21"
+                rule-name: "21"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "rsn"
+              - <<: *low_rule_definitions
+                rule-id: "22"
+                rule-name: "22"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "rsn_typ"
+              - <<: *low_rule_definitions
+                rule-id: "23"
+                rule-name: "23"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "rsrc_feat"
+              - <<: *low_rule_definitions
+                rule-id: "24"
+                rule-name: "24"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "rsrc_feat_typ"
+              - <<: *low_rule_definitions
+                rule-id: "25"
+                rule-name: "25"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "rsrc_sts"
+              - <<: *low_rule_definitions
+                rule-id: "26"
+                rule-name: "26"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "rsrc_typ"
+              - <<: *low_rule_definitions
+                rule-id: "27"
+                rule-name: "27"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "rsrt_gst_hldbck_config"
+              - <<: *low_rule_definitions
+                rule-id: "28"
+                rule-name: "28"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "rsrvbl_rsrc"
+              - <<: *low_rule_definitions
+                rule-id: "29"
+                rule-name: "29"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "rsrvbl_rsrc_cpcty"
+              - <<: *low_rule_definitions
+                rule-id: "30"
+                rule-name: "30"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "rsrvbl_rsrc_feat"
+              - <<: *low_rule_definitions
+                rule-id: "31"
+                rule-name: "31"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "rsrvbl_rsrc_lnk"
+              - <<: *low_rule_definitions
+                rule-id: "32"
+                rule-name: "32"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "rsrvbl_rsrc_typ"
+              - <<: *low_rule_definitions
+                rule-id: "33"
+                rule-name: "33"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "rsrvbl_rsrc_uom"
+              - <<: *low_rule_definitions
+                rule-id: "34"
+                rule-name: "34"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "sls_chan"
+              - <<: *low_rule_definitions
+                rule-id: "35"
+                rule-name: "35"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "tbl_combo_invtry_rule"
+              - <<: *low_rule_definitions
+                rule-id: "36"
+                rule-name: "36"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "tbl_combo_qty_rule"
+              - <<: *low_rule_definitions
+                rule-id: "37"
+                rule-name: "37"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "tbl_combo_utlz_rule"
+              - <<: *low_rule_definitions
+                rule-id: "38"
+                rule-name: "38"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "uom"
+              - <<: *low_rule_definitions
+                rule-id: "39"
+                rule-name: "39"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "uom_typ"
+      source_endpoint: # AWS DMS Source Endpoint.
+        engine_name: mariadb # The type of engine for the endpoint, depending on the EndpointType value. Valid values : mysql | oracle | mariadb | kinesis
+        ssl_mode: verify-ca #Enable Secure Sockets Layer (SSL) mode to use for the SSL connection. Allowed values: verify-ca,verify-full
+        settings: # See https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Source.html
+#          server_timezone: US/Eastern # #Specifies the time zone for the target MySQL-compatible database, e.g., US/Eastern, US/Pacific, UTC / remove if UTC
+          secrets_manager_secret_id: arn:aws:secretsmanager:us-east-1:863175788676:secret:lod-use1-dreams-availse-ca-secret-iWektN #pragma: allowlist secret, The ARN, or display name of the SecretsManagerSecret that contains the MySQL endpoint connection details.
+      source_kms_key: bdd188d7-b604-49c0-b320-5751cb4f321c # Update for the secrets_manager_secret_id kms key
+      source_ssl_cert: rds-global-bundle # Update for the appropriate source dms certificate, most AWS DBs will use the rds-global-bundle by default
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_LOAD_LANDING # Needs update to appropriate default routing
+      data_contracts:
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_bid_price_ctrl_source_data_contract
+          class_name: AvailSEBidPriceCtrlModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: bid_price_ctrl
+          router_database: &database LOAD_LANDING # these need to be updated before I publish them
+          router_schema: &schema LND_AVAILSE # these need to be updated before I publish them
+          router_table: BID_PRICE_CTRL
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_built_invtry_source_data_contract
+          class_name: AvailSEBuiltInvtryModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: built_invtry
+          router_database: *database
+          router_schema: *schema
+          router_table: BUILT_INVTRY
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_built_invtry_adj_source_data_contract
+          class_name: AvailSEBuiltInvtryAdjModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: built_invtry_adj
+          router_database: *database
+          router_schema: *schema
+          router_table: BUILT_INVTRY_ADJ
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_built_invtry_adj_series_source_data_contract
+          class_name: AvailSEBuiltInvtryAdjSeriesModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: built_invtry_adj_series
+          router_database: *database
+          router_schema: *schema
+          router_table: BUILT_INVTRY_ADJ_SERIES
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_chan_mtrx_source_data_contract
+          class_name: AvailSEChanMtrxModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: chan_mtrx
+          router_database: *database
+          router_schema: *schema
+          router_table: CHAN_MTRX
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_comnctn_chan_source_data_contract
+          class_name: AvailSEComnctnChanModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: comnctn_chan
+          router_database: *database
+          router_schema: *schema
+          router_table: COMNCTN_CHAN
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_cpcty_source_data_contract
+          class_name: AvailSECpctyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: cpcty
+          router_database: *database
+          router_schema: *schema
+          router_table: CPCTY
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_dow_source_data_contract
+          class_name: AvailSEDowModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: dow
+          router_database: *database
+          router_schema: *schema
+          router_table: DOW
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_dsny_ctrl_config_source_data_contract
+          class_name: AvailSEDsnyCtrlConfigModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: dsny_ctrl_config
+          router_database: *database
+          router_schema: *schema
+          router_table: DSNY_CTRL_CONFIG
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_freeze_source_data_contract
+          class_name: AvailSEFreezeModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: freeze
+          router_database: *database
+          router_schema: *schema
+          router_table: FREEZE
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_freeze_fsell_invtry_source_data_contract
+          class_name: AvailSEFreezeFsellInvtryModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: freeze_fsell_invtry
+          router_database: *database
+          router_schema: *schema
+          router_table: FREEZE_FSELL_INVTRY
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_fsell_invtry_source_data_contract
+          class_name: AvailSEFsellInvtryModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: fsell_invtry
+          router_database: *database
+          router_schema: *schema
+          router_table: FSELL_INVTRY
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_invtry_hrzn_source_data_contract
+          class_name: AvailSEInvtryHrznModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: invtry_hrzn
+          router_database: *database
+          router_schema: *schema
+          router_table: INVTRY_HRZN
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_invtry_updt_adt_source_data_contract
+          class_name: AvailSEInvtryUpdtAdtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: invtry_updt_adt
+          router_database: *database
+          router_schema: *schema
+          router_table: INVTRY_UPDT_ADT
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_lst_release_run_source_data_contract
+          class_name: AvailSELstReleaseRunModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: lst_release_run
+          router_database: *database
+          router_schema: *schema
+          router_table: LST_RELEASE_RUN
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_metric_adt_source_data_contract
+          class_name: AvailSEMetricAdtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: metric_adt
+          router_database: *database
+          router_schema: *schema
+          router_table: METRIC_ADT
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_ovrbk_alrt_track_source_data_contract
+          class_name: AvailSEOvrbkAlrtTrackModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: ovrbk_alrt_track
+          router_database: *database
+          router_schema: *schema
+          router_table: OVRBK_ALRT_TRACK
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_phys_rsrc_source_data_contract
+          class_name: AvailSEPhysRsrcModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: phys_rsrc
+          router_database: *database
+          router_schema: *schema
+          router_table: PHYS_RSRC
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_phys_rsrc_sts_source_data_contract
+          class_name: AvailSEPhysRsrcStsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: phys_rsrc_sts
+          router_database: *database
+          router_schema: *schema
+          router_table: PHYS_RSRC_STS
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_prod_rsrvbl_rsrc_xref_source_data_contract
+          class_name: AvailSEProdRsrvblRsrcXrefModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: prod_rsrvbl_rsrc_xref
+          router_database: *database
+          router_schema: *schema
+          router_table: PROD_RSRVBL_RSRC_XREF
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_prtcpnt_tmplt_source_data_contract
+          class_name: AvailSEPrtcpntTmpltModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: prtcpnt_tmplt
+          router_database: *database
+          router_schema: *schema
+          router_table: PRTCPNT_TMPLT
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_prtcpnt_tmplt_invtry_source_data_contract
+          class_name: AvailSEPrtcpntTmpltInvtryModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: prtcpnt_tmplt_invtry
+          router_database: *database
+          router_schema: *schema
+          router_table: PRTCPNT_TMPLT_INVTRY
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_prtcpnt_tmplt_sch_source_data_contract
+          class_name: AvailSEPrtcpntTmpltSchModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: prtcpnt_tmplt_sch
+          router_database: *database
+          router_schema: *schema
+          router_table: PRTCPNT_TMPLT_SCH
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_rsn_source_data_contract
+          class_name: AvailSERsnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsn
+          router_database: *database
+          router_schema: *schema
+          router_table: RSN
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_rsn_typ_source_data_contract
+          class_name: AvailSERsnTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsn_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: RSN_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_rsrc_feat_source_data_contract
+          class_name: AvailSERsrcFeatModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrc_feat
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRC_FEAT
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_rsrc_feat_typ_source_data_contract
+          class_name: AvailSERsrcFeatTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrc_feat_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRC_FEAT_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_rsrc_sts_source_data_contract
+          class_name: AvailSERsrcStsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrc_sts
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRC_STS
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_rsrc_typ_source_data_contract
+          class_name: AvailSERsrcTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrc_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRC_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_rsrt_gst_hldbck_config_source_data_contract
+          class_name: AvailSERsrtGstHldbckConfigModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrt_gst_hldbck_config
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRT_GST_HLDBCK_CONFIG
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_rsrvbl_rsrc_source_data_contract
+          class_name: AvailSERsrvblRsrcModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrvbl_rsrc
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRVBL_RSRC
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_rsrvbl_rsrc_cpcty_source_data_contract
+          class_name: AvailSERsrvblRsrcCpctyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrvbl_rsrc_cpcty
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRVBL_RSRC_CPCTY
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_rsrvbl_rsrc_feat_source_data_contract
+          class_name: AvailSERsrvblRsrcFeatModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrvbl_rsrc_feat
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRVBL_RSRC_FEAT
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_rsrvbl_rsrc_lnk_source_data_contract
+          class_name: AvailSERsrvblRsrcLnkModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrvbl_rsrc_lnk
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRVBL_RSRC_LNK
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_rsrvbl_rsrc_typ_source_data_contract
+          class_name: AvailSERsrvblRsrcTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrvbl_rsrc_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRVBL_RSRC_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_rsrvbl_rsrc_uom_source_data_contract
+          class_name: AvailSERsrvblRsrcUomModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrvbl_rsrc_uom
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRVBL_RSRC_UOM
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_sls_chan_source_data_contract
+          class_name: AvailSESlsChanModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: sls_chan
+          router_database: *database
+          router_schema: *schema
+          router_table: SLS_CHAN
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_tbl_combo_invtry_rule_source_data_contract
+          class_name: AvailSETblComboInvtryRuleModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tbl_combo_invtry_rule
+          router_database: *database
+          router_schema: *schema
+          router_table: TBL_COMBO_INVTRY_RULE
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_tbl_combo_qty_rule_source_data_contract
+          class_name: AvailSETblComboQtyRuleModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tbl_combo_qty_rule
+          router_database: *database
+          router_schema: *schema
+          router_table: TBL_COMBO_QTY_RULE
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_tbl_combo_utlz_rule_source_data_contract
+          class_name: AvailSETblComboUtlzRuleModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tbl_combo_utlz_rule
+          router_database: *database
+          router_schema: *schema
+          router_table: TBL_COMBO_UTLZ_RULE
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_uom_source_data_contract
+          class_name: AvailSEUomModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: uom
+          router_database: *database
+          router_schema: *schema
+          router_table: UOM
+        - data_contract: app.src.data_structures.data_contracts.source.availse.v0.availse_uom_typ_source_data_contract
+          class_name: AvailSEUomTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: uom_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: UOM_TYP

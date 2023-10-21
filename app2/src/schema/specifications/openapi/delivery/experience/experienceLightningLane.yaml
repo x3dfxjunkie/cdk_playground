@@ -1,0 +1,73 @@
+experienceLightningLane:
+  allOf:
+    - $ref: "../openapi.yaml#/components/schemas/experienceCommon"
+    - type: object
+      properties:
+        transactionId:
+          type: string
+          format: uuid
+          description: unique identifier for the lightning lane experience transaction
+        experienceId:
+          type: string
+          description: Attraction / Entainment Enterprise ID referencing the Lightning Lane experience.  This can be referenced via Facility / Entertainment APIs for additional facililty metadata
+          example: "17842841"
+        experienceName:
+          type: string
+          description: Attraction / Entainment Enterprise Name referencing the Lightning Lane experience.  This is obtained via D-Scribe Facility / Entertainment APIs
+          example: "For the First Time in Forever: A Frozen Sing-Along Celebration"
+        experienceEnterpriseType:
+          allOf:
+            - $ref: "../openapi.yaml#/components/schemas/experienceEnterpriseType"
+            - type: string
+              example: "Entertainment"
+        locationDetails:
+          $ref: "../openapi.yaml#/components/schemas/locationDetails"
+        experienceCategory:
+          allOf:
+            - $ref: "../openapi.yaml#/components/schemas/experienceCategory"
+            - type: string
+              example: "Lightning Lane"
+        status:
+          "$ref": "../openapi.yaml#/components/schemas/experienceStatus"
+        businessDate:
+          type: string
+          format: date
+          description: Date of the experience that guest is entitled for
+        experienceStart:
+          type: string
+          format: date-time
+          description: UTC start date/Time of the corresponding Lightning Lane redemption window
+        experienceEnd:
+          type: string
+          format: date-time
+          description: UTC end date/time of the corresponding Lightning Lane redemption window
+      required:
+        - transactionId
+        - experienceId
+        - experienceCategory
+        - status
+        - businessDate
+        - experienceStart
+        - experienceEnd
+    - type: object
+      properties:
+        reservationDetails:
+          type: object
+          properties:
+            experienceType:
+              $ref: "../openapi.yaml#/components/schemas/lightningLaneType"
+            multiRedemptionEntitlement:
+              type: boolean
+              example: false
+              description: indicates if this experience is part of special Lightning Lane pass that allows multiple uses
+            multiRedemptionDetails:
+              type: object
+              properties:
+                currentUsageNumber:
+                  type: integer
+                  format: int32
+                  description: current usage number in the multi-redemption entitlement. This updates as completions flow through
+                totalRedemptionsAllowed:
+                  type: integer
+                  format: int32
+                  description: total redeems allowed in this multi-redemption entitlement

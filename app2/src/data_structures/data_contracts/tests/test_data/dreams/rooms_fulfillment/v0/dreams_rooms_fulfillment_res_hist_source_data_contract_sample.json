@@ -1,0 +1,2655 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:43.540000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:43.668000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Rate Overridden",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097474461,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:43.540000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:25:49.841396Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:43.975000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:43.975000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:43.975000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:25:49.846855Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:47.926000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:47.951000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "On Line Check In",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 2000477324,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:47.926000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:25:49.886824Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:46.220000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:46.544000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "10069",
+            "RES_HIST_PROC_DS": "Modified",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097622084,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:46.220000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:25:49.985134Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:48.108000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:48.108000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:48.108000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:25:49.992119Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:49.044000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:49.237000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Modified",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097627062,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:49.044000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:25:54.912439Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:49.458000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:49.458000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:49.458000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:25:54.919823Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:49.865000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:49.865000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:49.865000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:25:55.007591Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:50.824000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:50.825000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:50.824000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:25:55.108653Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:46.889000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:47.512000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Modified",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 2070484390,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:46.889000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:25:55.142267Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:50.852000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:50.852000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:50.852000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:25:55.147339Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:48.914000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:49.619000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "10069",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097624691,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:48.914000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:25:55.208164Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:51.709000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:51.709000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:51.709000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:25:55.219610Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:51.836000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:51.836000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:51.836000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:25:55.240906Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:51.471000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:51.762000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "10069",
+            "RES_HIST_PROC_DS": "Modified",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097624691,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:51.471000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:25:55.332222Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:52.550000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:52.550000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:52.550000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:25:55.339310Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:53.929000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:53.939000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Status Update Inhouse",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 2067081480,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:53.929000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:25:55.365067Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:51.288000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:51.650000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Modified",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097474461,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:51.288000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:00.096356Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:54.971000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:54.971000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:54.971000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:00.105753Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:52.160000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:53.110000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097627238,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:52.160000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:00.151137Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:57.050000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:57.050000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:57.050000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:00.158918Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:56.653000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:56.918000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "10069",
+            "RES_HIST_PROC_DS": "Modified",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097619829,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:56.653000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:00.245763Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:57.875000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:57.875000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:57.875000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:00.255883Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:57.222000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:57.623000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Modified",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097392873,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:57.222000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:00.317949Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:58.229000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:58.230000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:58.229000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:00.327785Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:55.015000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:55.818000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Modified",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12095378986,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:55.015000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:00.356896Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:58.553000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:58.553000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:58.553000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:00.369513Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:59.477000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:59.484000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "0",
+            "RES_HIST_PROC_DS": "Room Number Changed",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097531520,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:59.477000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:00.398251Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:59.746000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:59.756000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "On Line Check In",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 2058963574,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:59.746000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:00.409216Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:25:59.125000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:25:59.125000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:25:59.125000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:00.510814Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:00.533000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:00.549000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "15067",
+            "RES_HIST_PROC_DS": "Checked In",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12093034503,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:00.533000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:05.033525Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:00.572000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:00.587000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "45",
+            "RES_HIST_PROC_DS": "Check In Completed",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12093034503,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:00.572000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:05.041221Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:00.470000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:00.896000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097627155,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:00.470000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:05.079807Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:01.415000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:01.415000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:01.415000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:05.089284Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:01.926000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:01.926000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:01.926000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:05.113093Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:03.065000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:03.065000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:03.065000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:05.183769Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:01.255000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:03.074000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097627240,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:01.255000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:05.222739Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:03.527000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:03.527000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:03.527000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:05.230254Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:08.861000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:08.871000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "42",
+            "RES_HIST_PROC_DS": "Upgrade",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12096571213,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:08.861000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:10.115306Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:04Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:08.402000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097627072,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:04Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:10.146204Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:08.902000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:08.902000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:08.902000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:10.155801Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:04.930000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:05.407000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Modified",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12096709507,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:04.930000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:10.184486Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:08.984000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:08.985000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:08.984000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:10.196703Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:09.753000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:09.767000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "66",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 22087863741,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:09.753000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:10.211962Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:09.556000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:09.556000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:09.556000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.182118Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:08.020000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:08.649000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "10069",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097622096,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:08.020000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.225659Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:09.824000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:09.824000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:09.824000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.233359Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:09.714000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:09.825000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Rate Overridden",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097478601,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:09.714000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.300237Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:10.415000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:10.415000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:10.415000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.309164Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:10.701000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:10.701000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:10.701000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.329191Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:08.286000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:08.941000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "10069",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097619833,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:08.286000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.369941Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:10.968000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:10.968000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:10.968000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.379517Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:11.047000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:11.047000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:11.047000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.403294Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:08.171000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:08.915000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Modified",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12092410735,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:08.171000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.473777Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:11.695000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:11.695000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:11.695000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.483284Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:11.063000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:11.451000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "10069",
+            "RES_HIST_PROC_DS": "Modified",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097619833,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:11.063000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.590963Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:11.873000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:11.873000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:11.873000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.602010Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:11.105000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:11.423000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "10069",
+            "RES_HIST_PROC_DS": "Modified",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097619829,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:11.105000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.731271Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:11.944000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:11.944000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:11.944000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.741024Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:08.395000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:09.147000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Modified",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097626793,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:08.395000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.774364Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:12.250000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:12.250000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:12.250000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.784035Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:13.688000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:13.699000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "On Line Check In",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097626233,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:13.688000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.809561Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:12.084000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:12.716000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097627074,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:12.084000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.851479Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:13.132000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:13.132000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:13.132000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:15.861196Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:15.237000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:15.248000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "On Line Check In",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 2000477324,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:15.237000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:20.241986Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:15.812000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:15.824000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "On Line Check In",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 2083023164,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:15.812000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:20.275118Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:16.372000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:16.391000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "On Line Check In",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 22087859233,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:16.372000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:20.297187Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:16.977000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:17.274000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Modified",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097478601,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:16.977000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:20.394642Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:17.538000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:17.538000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:17.538000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:20.401365Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:18.461000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:18.476000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "On Line Check In",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 22087859838,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:18.461000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:20.418532Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:18.461000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:18.495000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "On Line Check In",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 22087859838,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:18.461000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:20.425651Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:18.996000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:19.010000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "25072",
+            "RES_HIST_PROC_DS": "Checked Out",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 22087812768,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:18.996000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:20.462946Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:19.528000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:19.540000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "15067",
+            "RES_HIST_PROC_DS": "Checked In",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 22087859233,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:19.528000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:20.489998Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:19.530000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:19.556000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "On Line Check In",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 22087859233,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:19.530000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:20.496920Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:19.125000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:19.396000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "10069",
+            "RES_HIST_PROC_DS": "Modified",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097624691,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:19.125000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:25.377962Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:19.885000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:19.885000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:19.885000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:25.384907Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:18.286000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:20.374000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "66",
+            "RES_HIST_PROC_DS": "Modified",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 2076998478,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:18.286000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:25.403705Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:20.559000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:20.900000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Modified",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097313493,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:20.559000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:25.444544Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:21.248000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:21.248000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:21.248000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:25.453935Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:21.143000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:21.728000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "10069",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097619835,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:21.143000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:25.542831Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:22.962000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:22.962000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:22.962000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:25.551850Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:21.578000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:22.179000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "10069",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097624695,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:21.578000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:25.596812Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:23.629000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:23.629000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:23.629000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:25.607055Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:23.796000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:23.796000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:23.796000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:25.622780Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:24.492000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:24.493000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:24.492000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:25.648069Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:25.972000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:26.003000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "On Line Check In",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 2085447621,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:25.972000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:30.389687Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:24.117000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:24.462000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "10069",
+            "RES_HIST_PROC_DS": "Modified",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097624695,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:24.117000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:30.454696Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:25.334000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:25.335000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:25.334000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:30.461890Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:22.718000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:22.966000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097627284,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:22.718000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:30.487302Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:25.354000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:25.354000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:25.354000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:30.496771Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:26.769000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:26.782000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "0",
+            "RES_HIST_PROC_DS": "Room Number Changed",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12089783167,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:26.769000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:30.524268Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:26.192000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:26.552000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097627161,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:26.192000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:30.576840Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:27.866000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:27.866000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:27.866000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:30.588811Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:25.924000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:26.430000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "10069",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12097622098,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:25.924000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:30.645846Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:27.875000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:27.876000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:27.875000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:30.815744Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:28.695000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:28.748000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "On Line Check In",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12088146958,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:28.695000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:30.843168Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:28.751000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:28.799000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "On Line Check In",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TC_ID": 12095084520,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:28.751000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:30.866483Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:28.751000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:28.751000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:28.751000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:30.881630Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:28.904000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:28.904000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:28.904000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:30.906858Z",
+            "transaction-id": 12345678912345
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:26:29.360000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "PROC_DTS": "2023-07-21T16:26:29.360000Z",
+            "RES_HIST_ID": 1234567891,
+            "RES_HIST_LOC_NM": "1",
+            "RES_HIST_PROC_DS": "Sync",
+            "RES_HIST_TX": "MASKED",
+            "TC_GRP_NM": 123456789123,
+            "TPS_ID": 123456789123,
+            "TP_ID": 123456789123,
+            "UPDT_DTS": "2023-07-21T16:26:29.360000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-07-21T20:26:30.964008Z"
+        }
+    }
+]

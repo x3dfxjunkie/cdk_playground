@@ -1,0 +1,92 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "2010-10-09T12:44:27.207889Z",
+            "CREATE_USR_ID_CD": null,
+            "KTTW_DS": "LENGTH-OF-STAY TICKET MEDIA",
+            "KTTW_SHRT_DS": null,
+            "KTTW_TYP_ID": 10,
+            "UPDT_DTS": "2010-10-09T12:44:27.207889Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "KTTW_TYP_T",
+            "timestamp": "2023-08-25T20:37:28.226253Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2010-10-09T12:44:27.144689Z",
+            "CREATE_USR_ID_CD": null,
+            "KTTW_DS": "LOS + PACKET",
+            "KTTW_SHRT_DS": null,
+            "KTTW_TYP_ID": 4,
+            "UPDT_DTS": "2010-10-09T12:44:27.144689Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "KTTW_TYP_T",
+            "timestamp": "2023-08-25T20:37:28.195505Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2014-10-20T12:46:54Z",
+            "CREATE_USR_ID_CD": "RM13399957",
+            "KTTW_DS": "HOMEYMOON",
+            "KTTW_SHRT_DS": "HOMEYMOON PKG",
+            "KTTW_TYP_ID": 31,
+            "UPDT_DTS": "2014-10-20T12:46:54Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "KTTW_TYP_T",
+            "timestamp": "2023-08-30T02:26:21.208852Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2014-10-20T12:46:54Z",
+            "CREATE_USR_ID_CD": "RM13399957",
+            "KTTW_DS": "MAKAHIKI MEAL",
+            "KTTW_SHRT_DS": "MAKAHIKI MEAL",
+            "KTTW_TYP_ID": 33,
+            "UPDT_DTS": "2014-10-20T12:46:54Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "KTTW_TYP_T",
+            "timestamp": "2023-08-30T02:26:21.226469Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2011-11-09T08:45:33.589634Z",
+            "CREATE_USR_ID_CD": null,
+            "KTTW_DS": "SPECIAL 10%",
+            "KTTW_SHRT_DS": "SPECIAL10%",
+            "KTTW_TYP_ID": 22,
+            "UPDT_DTS": "2014-06-05T17:15:16Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "KTTW_TYP_T",
+            "timestamp": "2023-08-30T02:26:21.121382Z"
+        }
+    }
+]

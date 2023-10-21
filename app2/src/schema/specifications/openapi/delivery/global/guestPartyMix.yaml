@@ -1,0 +1,16 @@
+guestPartyMix:
+  type: object
+  description: Guest Party members count by age type
+  properties:
+    adultCount:
+      type: integer
+      example: 2
+    juniorCount:
+      type: integer
+      example: 1
+    childCount:
+      type: integer
+      example: 1
+    infantCount:
+      type: integer
+      example: 1

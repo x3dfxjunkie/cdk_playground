@@ -1,0 +1,74 @@
+stack_extension: &se test
+ingest_pattern: kinesis2kinesis
+active: True
+pattern_instances:
+  - region: us-east-1
+    resources:
+      event_bridge_pipe_validation:
+        name: test-event-bridge-pipe-validation
+        role_arn:
+        pipe_source_parameters:
+          kinesis_stream_parameters:
+            startingPosition: "LATEST"
+            batchSize: 100
+            maximumRetryAttempts: 3
+            parallelizationFactor: 3
+            deadLetterConfig:
+              arn:
+        pipe_target_parameters:
+          kinesis_stream_parameters:
+            partitionKey: $.partition_key
+      event_bridge_pipe_dead_letter_queue:
+        name: test-event-bridge-pipe-dlq
+        role_arn: 
+        pipe_source_parameters:
+          sqs_queue_parameters:
+        pipe_target_parameters:
+          lambda_function_parameters:
+      lambda_validator:
+        function_name: test-lambda-validator
+        handler: runner.lambda_handler
+        code: bazel-bin/app/src/ingestion/event_pipes/validation/data_contract_lambda_validator.zip
+      lambda_dead_letter:
+        function_name: test-lambda-dead-letter-processor
+        handler: runner.lambda_handler
+        code: bazel-bin/app/src/ingestion/event_pipes/dead_letter/data_contract_lambda_dead_letter.zip
+      app_config:
+        deployment:
+          configuration_version: "1"
+        hosted_configuration:
+            content:
+      sqs: &sqs
+        queue_name: &sqs_queue_name test-sqs-dead-letter
+        encryption_key: NULL
+      kinesis_dmz: &kinesis_dmz
+        stream_name: &dmz_stream_name test-kinesis-dmz
+        retention_period: &kdr_dmz !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 14
+        stream_mode: &ksm_dmz !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - PROVISIONED
+        shard_count: &ksc_dmz 1
+        encryption_key: NULL
+      stack_extension: *se
+      kinesis:
+        retention_period: &kdr !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 7
+        stream_mode: &ksm !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - PROVISIONED
+        shard_count: &ksc 1
+        encryption_key: NULL
+      kinesis_firehose:
+        enabled: True
+        bucket_name: test
+        buffering_hints:
+          interval: 60
+          unit_of_time: SECONDS
+        partitioning:
+          dynamic:
+            enabled: True
+            keys: NULL
+          custom_keys: NULL
+      cross_account:
+        cross_account_type: target
+        cross_account_id: 795965727170
+        cross_account_role_name: lllingest-use1-lst-lllingest-lambda

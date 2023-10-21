@@ -1,0 +1,2001 @@
+[
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994852303466605705",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:08:19.596000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:08:26.480122Z"
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "62528162-5766-4b3e-9b41-eff14f10e302",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:41:35.412000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:41:39.773930Z",
+            "transaction-id": 1966091
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "62528162-5766-4b3e-9b41-eff14f10e302",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:41:35.412000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:41:39.832702Z",
+            "transaction-id": 1966091
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994875312683106202",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:22:45.385000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T14:22:50.373447Z",
+            "transaction-id": 720897
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "ebf22599-18ea-40a7-9d14-c5db75664ebc",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:11:49.997000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T17:11:57.024745Z",
+            "transaction-id": 720907
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "ebf22599-18ea-40a7-9d14-c5db75664ebc",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:11:49.997000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T17:11:57.107667Z",
+            "transaction-id": 720907
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994853073184037101",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:49:10.052000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:49:12.430050Z",
+            "transaction-id": 2031623
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994875312076904701",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:24:26.969000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:24:34.739328Z",
+            "transaction-id": 1114119
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994875312076904701",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:24:33.922000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:24:40.726949Z",
+            "transaction-id": 1441803
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994853025564851101",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:48:57.301000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:49:02.711890Z",
+            "transaction-id": 589835
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "2fd8fbd5-36c3-4419-a821-69435334a29f",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:49:25.776000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:49:28.743344Z",
+            "transaction-id": 2097153
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "2fd8fbd5-36c3-4419-a821-69435334a29f",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:49:25.776000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:49:28.811112Z",
+            "transaction-id": 2097153
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "2fd8fbd5-36c3-4419-a821-69435334a29f",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:49:25.776000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:49:28.880993Z",
+            "transaction-id": 2097153
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994853025564851102",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:49:55.554000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:49:59.988286Z",
+            "transaction-id": 1769483
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994875321083467204",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:49:44.450000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T14:49:48.332599Z",
+            "transaction-id": 65547
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "0000010610",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T09:36:51.707000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "DPMSGroupProfile",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T13:36:57.309730Z",
+            "transaction-id": 131077
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "58f59f87-8a47-4bd0-9f6f-e73794d993ff",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:53:29.672000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:53:33.538934Z",
+            "transaction-id": 720902
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "58f59f87-8a47-4bd0-9f6f-e73794d993ff",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:53:29.672000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:53:33.621173Z",
+            "transaction-id": 720902
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "58f59f87-8a47-4bd0-9f6f-e73794d993ff",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:53:29.672000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:53:33.690932Z",
+            "transaction-id": 720902
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "1983a273-f7a6-4966-b8a2-162345882be9",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:47:40.120000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:47:41.785607Z",
+            "transaction-id": 131080
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "c16ab56c-b68c-4ed6-86da-31ef86c53359",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:48:21.329000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:48:23.917139Z",
+            "transaction-id": 262155
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "c16ab56c-b68c-4ed6-86da-31ef86c53359",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:48:21.329000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:48:23.996431Z",
+            "transaction-id": 262155
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "c16ab56c-b68c-4ed6-86da-31ef86c53359",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:48:21.329000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:48:24.077193Z",
+            "transaction-id": 262155
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "c16ab56c-b68c-4ed6-86da-31ef86c53359",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:48:21.329000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:48:24.156475Z",
+            "transaction-id": 262155
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "40d85413-8928-4648-8c9a-57c75d8780f9",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:04:53.507000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:04:56.391968Z",
+            "transaction-id": 1245187
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "40d85413-8928-4648-8c9a-57c75d8780f9",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:04:53.507000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:04:56.451471Z",
+            "transaction-id": 1245187
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "40d85413-8928-4648-8c9a-57c75d8780f9",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:04:53.507000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:04:56.512357Z",
+            "transaction-id": 1245187
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "40d85413-8928-4648-8c9a-57c75d8780f9",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:04:53.507000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:04:56.577970Z",
+            "transaction-id": 1245187
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994875314602364303",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:10:30.085000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:10:36.425113Z",
+            "transaction-id": 65547
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994875314602364303",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:10:42.363000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:10:48.215078Z",
+            "transaction-id": 524289
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994852244307586101",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:16:58.847000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:17:01.036694Z",
+            "transaction-id": 1835019
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994852244307586101",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:17:09.532000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:17:13.011361Z",
+            "transaction-id": 131074
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994852244307586101",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:17:37.207000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:17:42.605362Z",
+            "transaction-id": 983051
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994852244307586101",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:17:41.683000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:17:48.497941Z",
+            "transaction-id": 393227
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "9a9a3c6e-fc91-4051-bb88-559958d76dd5",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:37:31.545000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:37:36.802996Z",
+            "transaction-id": 1572869
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "bc2c0eca-3a13-4d7f-a8f6-66f6bafbcf77",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:38:29.512000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:38:31.557393Z",
+            "transaction-id": 1114120
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "d426df29-d762-42b9-843a-0c9d1fe5e2a7",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:38:46.894000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:38:49.717237Z",
+            "transaction-id": 262155
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "3d571ff3-6157-4548-8d9b-096f3468141d",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:03:36.877000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:03:39.882114Z",
+            "transaction-id": 1703947
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "3d571ff3-6157-4548-8d9b-096f3468141d",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:03:36.877000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:03:39.979913Z",
+            "transaction-id": 1703947
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "292ec51d-09b8-4a2c-98ad-b783b2881de4",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:41:20.269000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:41:24.591945Z",
+            "transaction-id": 1507332
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "292ec51d-09b8-4a2c-98ad-b783b2881de4",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:41:20.269000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:41:24.658267Z",
+            "transaction-id": 1507332
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994875314602085602",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:21:36.535000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:21:40.472007Z",
+            "transaction-id": 1245195
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994875322600176801",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:02:45.898000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T17:02:52.097968Z",
+            "transaction-id": 1114123
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994875322600176802",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:03:43.129000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T17:03:46.523397Z",
+            "transaction-id": 327683
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994853022518776601",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:44:52.161000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:44:52.908365Z",
+            "transaction-id": 2031627
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994852266080946101",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:23:30.582000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:23:37.421872Z",
+            "transaction-id": 655371
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994875314602444901",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:55:50.737000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T17:55:57.813600Z",
+            "transaction-id": 1114121
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "9a15f267-6f8a-4b2a-9dca-daccaf4c7d97",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:29:57.819000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:30:02.883833Z",
+            "transaction-id": 1900555
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "f77dc9e8-3b1e-443b-99e5-61ce8fb8ef97",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:30:34.574000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:30:39.277890Z",
+            "transaction-id": 786433
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994852281633033102",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:26:57.701000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T17:27:02.059694Z",
+            "transaction-id": 655364
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994875311976199801",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:21:21.613000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T17:21:23.332706Z",
+            "transaction-id": 2097161
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994852338909699101",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:00:54.089000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T17:00:57.258350Z",
+            "transaction-id": 196617
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "52a92341-71b2-46fb-92d1-1e7a5f37adc6",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:01:54.170000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T17:01:57.762407Z",
+            "transaction-id": 11
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "52a92341-71b2-46fb-92d1-1e7a5f37adc6",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:01:54.170000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T17:01:57.838524Z",
+            "transaction-id": 11
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "52a92341-71b2-46fb-92d1-1e7a5f37adc6",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:01:54.170000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T17:01:57.895935Z",
+            "transaction-id": 11
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994875314602364301",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:28:11.898000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:28:16.799985Z",
+            "transaction-id": 983045
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "4b21631c-202c-44e6-bc36-5b0f823766ae",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:35:14.028000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:35:14.935146Z",
+            "transaction-id": 1900549
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "443edbaf-8ddf-49a4-8c87-b3efce01c9fb",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:35:47.577000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:35:51.345397Z",
+            "transaction-id": 1572875
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994853013393083604",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:40:17.426000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:40:20.769801Z",
+            "transaction-id": 1507334
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994853013393083603",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:41:08.824000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:41:15.418371Z",
+            "transaction-id": 1835014
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "9fa38e4b-fe8a-4844-b5b4-ec031b76b726",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:28:09.082000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:28:13.764669Z",
+            "transaction-id": 1048583
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "9311467e-44fe-41a4-b520-5f9269c6a9b5",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:28:18.217000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:28:18.909681Z",
+            "transaction-id": 2031627
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "80d45a98-85e1-4244-931f-d40a3d5eea7e",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:40:02.129000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:40:06.355492Z",
+            "transaction-id": 1835015
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994875312582483502",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:40:49.610000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:40:53.301980Z",
+            "transaction-id": 1441802
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "7612fe5f-3f1b-4176-8f0e-79cfa7e1316d",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:15:13.352000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:15:19.285340Z",
+            "transaction-id": 11
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "7612fe5f-3f1b-4176-8f0e-79cfa7e1316d",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:15:13.352000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:15:19.372374Z",
+            "transaction-id": 11
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "7612fe5f-3f1b-4176-8f0e-79cfa7e1316d",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:15:13.352000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:15:19.437387Z",
+            "transaction-id": 11
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "f5eacd77-c0cf-46f3-b8fb-2696843b8ea2",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:15:33.107000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:15:34.604979Z",
+            "transaction-id": 1376267
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "f5eacd77-c0cf-46f3-b8fb-2696843b8ea2",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:15:33.107000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:15:34.682003Z",
+            "transaction-id": 1376267
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "f5eacd77-c0cf-46f3-b8fb-2696843b8ea2",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:15:33.107000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:15:34.756206Z",
+            "transaction-id": 1376267
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "d9a4a01a-f405-4597-8879-1ae31f868b2c",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:47:42.261000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:47:44.651420Z",
+            "transaction-id": 65541
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "d9a4a01a-f405-4597-8879-1ae31f868b2c",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:47:42.261000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:47:44.714875Z",
+            "transaction-id": 65541
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "53256ea0-dc9a-420e-aed2-36c023b0c859",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:25:41.132000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T14:25:46.042418Z",
+            "transaction-id": 196619
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "53256ea0-dc9a-420e-aed2-36c023b0c859",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:25:41.132000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T14:25:46.104228Z",
+            "transaction-id": 196619
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994875321083467201",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:47:52.019000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T14:47:56.423359Z",
+            "transaction-id": 2097156
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "86e462c6-00d9-4661-9b12-0c30172d41aa",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:15:10.198000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:15:14.610983Z",
+            "transaction-id": 1966090
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994852244307586101",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:15:40.279000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:15:44.151283Z",
+            "transaction-id": 65547
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994852244307586101",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:15:50.072000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:15:55.950565Z",
+            "transaction-id": 1507339
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "064fcf2f-8d9c-45fe-aca6-f6200cd33128",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:15:51.318000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:15:56.033310Z",
+            "transaction-id": 1835010
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "be3cdbd1-5892-4be4-9d53-2085198ecd8d",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:16:09.367000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:16:13.687848Z",
+            "transaction-id": 2162689
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994852244307586101",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:16:23.740000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:16:25.497101Z",
+            "transaction-id": 1572875
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "7b5b8dfd-703e-4e01-a5ce-011d3bac8111",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:32:11.645000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T14:32:15.766071Z",
+            "transaction-id": 983049
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994875312683106201",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:33:20.126000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T14:33:21.839164Z",
+            "transaction-id": 1507337
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994875313188496401",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:01:51.028000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:01:54.813316Z",
+            "transaction-id": 393227
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994875312279086301",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:02:35.420000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T16:02:36.553944Z",
+            "transaction-id": 589825
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "2a85c021-015a-4d53-b2c1-fccf82c3087f",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:07:06.388000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:07:09.122611Z",
+            "transaction-id": 983051
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "2a85c021-015a-4d53-b2c1-fccf82c3087f",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:07:06.388000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:07:09.194969Z",
+            "transaction-id": 983051
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "2a85c021-015a-4d53-b2c1-fccf82c3087f",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:07:06.388000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:07:09.254233Z",
+            "transaction-id": 983051
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "fa9dd5af-923a-4014-ac5a-a99dcdd5fc58",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:07:31.539000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:07:34.660338Z",
+            "transaction-id": 196618
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "08d60189-c951-400b-b543-1bd17bb155c9",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:07:32.367000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:07:34.726708Z",
+            "transaction-id": 1900550
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "e1a2fe9c-2a5b-486d-8c44-e1194c776533",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:51:57.111000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T14:52:00.766483Z",
+            "transaction-id": 1376266
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "e1a2fe9c-2a5b-486d-8c44-e1194c776533",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:51:57.111000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T14:52:00.842670Z",
+            "transaction-id": 1376266
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "617a921f-8675-4358-a4e4-d883044c8bea",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:44:24.015000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T14:44:27.970811Z",
+            "transaction-id": 393224
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "a6a9d57f-9efe-427f-baea-7c2ab957b2e3",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:08:33.333000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T17:08:37.448957Z",
+            "transaction-id": 2031626
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "a6a9d57f-9efe-427f-baea-7c2ab957b2e3",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:08:33.333000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T17:08:37.550079Z",
+            "transaction-id": 2031626
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "994875322600176804",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:33:36.385000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "KTTW",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:33:41.315038Z",
+            "transaction-id": 720901
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "60649b24-2823-4c6a-b082-eba798e9a878",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:34:12.730000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:34:17.691058Z",
+            "transaction-id": 1769478
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "60649b24-2823-4c6a-b082-eba798e9a878",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:34:12.730000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:34:17.749790Z",
+            "transaction-id": 1769478
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "779b1266-b26e-49d6-8a3e-bd6e21e3dc96",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:34:18.694000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:34:22.912804Z",
+            "transaction-id": 1114121
+        }
+    },
+    {
+        "data": {
+            "CHRG_EXTNL_REF_ID": 123456789,
+            "CHRG_EXTNL_REF_VAL": "779b1266-b26e-49d6-8a3e-bd6e21e3dc96",
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:34:18.694000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "EXTNL_SRC_NM": "MOBILE_TXN_ID",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_CHRG_EXTNL_REF_T",
+            "timestamp": "2023-08-22T15:34:22.968582Z",
+            "transaction-id": 1114121
+        }
+    }
+]

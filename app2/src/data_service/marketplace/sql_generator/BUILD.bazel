@@ -1,0 +1,34 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+py_lambda_library(
+    name = "sql_generators",
+    srcs = glob(["*.py"]),
+    data = [
+        "__init__.py",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("jinja2"),
+        requirement("jsonref"),
+        requirement("pydantic"),
+    ],
+)
+
+pytest_test(
+    name = "test_sql_generators",
+    srcs = glob([
+        "tests/unit_tests/*.py",
+    ]),
+    deps = [
+        ":sql_generators",
+        requirement("jinja2"),
+        requirement("jsonref"),
+        requirement("pydantic"),
+        "//app/infrastructure/data_service/configs/snowflake_static_resources",
+        "//app/src/data_structures/data_contracts",
+        "//app/src/reliability",
+        "//app/src/reliability:reliability_yamlhandler",
+    ],
+)

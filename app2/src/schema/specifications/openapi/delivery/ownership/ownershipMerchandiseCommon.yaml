@@ -1,0 +1,23 @@
+ownershipMerchandiseCommon:
+  type: object
+  properties:
+    transactionItemId:
+      type: string
+      description: ID to uniquely identify a purchased line item within a merchandise order by joining the order's OrderHeaderKey+ OrderLineKey
+      example: "202208272300035745242164~202208272300035745242174"
+    productId:
+      type: string
+      description: Item ID, link to product master for metadata of the product item
+      example: "400933513606"
+    productCategory:
+      allOf:
+        - $ref: "../openapi.yaml#/components/schemas/productCategory"
+        - type: string
+          example: "Merchandise"
+    status:
+      $ref: "../openapi.yaml#/components/schemas/ownershipStatus"
+  required:
+    - transactionItemId
+    - productId
+    - productCatgory
+    - status

@@ -1,0 +1,195 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/src/data_structures/data_contracts:tests/defs.bzl", "contracts_unit_tests")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+
+py_lambda_library(
+    name = "data_contracts",
+    srcs = glob(["**/*.py"]),
+    data = [
+        "__init__.py",
+        "//app/src/data_structures",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("pydantic"),
+    ],
+)
+
+pytest_test(
+    name = "data_contracts_coverage",
+    srcs = glob(["tests/**/test_contracts_coverage.py"]),
+    data = glob(["tests/**/**/*.json"]) + ["BUILD.bazel"],
+    deps = [":data_contracts"],
+)
+
+contracts_unit_tests(
+    name = "CME_data_contracts",
+    args = ["--model_name CME*"],
+)
+
+contracts_unit_tests(
+    name = "DREAMSAccounting_data_contracts",
+    args = ["--model_name DREAMSAccounting*"],
+)
+
+contracts_unit_tests(
+    name = "DREAMSChargeAccount_data_contracts",
+    args = ["--model_name DREAMSChargeAccount*"],
+)
+
+contracts_unit_tests(
+    name = "DREAMSDining_data_contracts",
+    args = ["--model_name DREAMSDining*"],
+)
+
+contracts_unit_tests(
+    name = "DREAMSEntitlements_data_contracts",
+    args = ["--model_name DREAMSEntitlements*"],
+)
+
+contracts_unit_tests(
+    name = "DREAMSFolio_data_contracts",
+    args = ["--model_name DREAMSFolio*"],
+)
+
+contracts_unit_tests(
+    name = "DREAMSGroupManagement_data_contracts",
+    args = ["--model_name DREAMSGroupManagement*"],
+)
+
+contracts_unit_tests(
+    name = "DREAMSGuest_data_contracts",
+    args = ["--model_name DREAMSGuest*"],
+)
+
+contracts_unit_tests(
+    name = "DREAMSGuestLink_data_contracts",
+    args = ["--model_name DREAMSGuestLink*"],
+)
+
+contracts_unit_tests(
+    name = "DREAMSPrice_data_contracts",
+    args = ["--model_name DREAMSPrice*"],
+)
+
+contracts_unit_tests(
+    name = "DREAMSProfile_data_contracts",
+    args = ["--model_name DREAMSProfile*"],
+)
+
+contracts_unit_tests(
+    name = "DREAMSRIM_data_contracts",
+    args = ["--model_name DREAMSResourceInventoryManagement*"],
+)
+
+contracts_unit_tests(
+    name = "DREAMSRoomsFulfillment_data_contracts",
+    args = ["--model_name DREAMSRoomsFulfillment*"],
+)
+
+contracts_unit_tests(
+    name = "DREAMSRoomsReservations_data_contracts",
+    args = ["--model_name DREAMSRoomsReservations*"],
+)
+
+contracts_unit_tests(
+    name = "Dscribe_data_contracts",
+    args = ["--model_name DScribe*"],
+)
+
+contracts_unit_tests(
+    name = "EA_data_contracts",
+    args = ["--model_name EA*"],
+)
+
+contracts_unit_tests(
+    name = "GAM_data_contracts",
+    args = ["--model_name GAM*"],
+)
+
+contracts_unit_tests(
+    name = "PlayApp_data_contracts",
+    args = ["--model_name PlayApp*"],
+)
+
+contracts_unit_tests(
+    name = "TravelBoxEast_data_contracts",
+    args = ["--model_name TravelBoxEast*"],
+)
+
+contracts_unit_tests(
+    name = "TravelBoxWest_data_contracts",
+    args = ["--model_name TravelBoxWest*"],
+)
+
+contracts_unit_tests(
+    name = "XBMS_data_contracts",
+    args = ["--model_name XBMSWDW*"],
+)
+
+contracts_unit_tests(
+    name = "SnApp_data_contracts",
+    args = ["--model_name SnApp*"],
+)
+
+contracts_unit_tests(
+    name = "DineTime_data_contracts",
+    args = ["--model_name DineTime*"],
+)
+
+contracts_unit_tests(
+    name = "VirtualQueue_data_contracts",
+    args = ["--model_name VirtualQueue*"],
+)
+
+contracts_unit_tests(
+    name = "DPIEast_data_contracts",
+    args = ["--model_name DPIEast*"],
+)
+
+contracts_unit_tests(
+    name = "DPIWest_data_contracts",
+    args = ["--model_name DPIWest*"],
+)
+
+contracts_unit_tests(
+    name = "DAS_data_contracts",
+    args = ["--model_name DASWDW*"],
+)
+
+contracts_unit_tests(
+    name = "level_n_data_contracts",
+    args = ["--model_name LevelNWDW*"],
+)
+
+contracts_unit_tests(
+    name = "SARGInteractionServices_data_contracts",
+    args = ["--model_name SARGInteractionServices*"],
+)
+
+contracts_unit_tests(
+    name = "AvailSE_data_contracts",
+    args = ["--model_name AvailSE*"],
+)
+
+contracts_unit_tests(
+    name = "MobileOrder_ArrivalWindow_data_contracts",
+    args = ["--model_name MobileOrder*"],
+)
+
+contracts_unit_tests(
+    name = "SARGLocationServices_data_contracts",
+    args = ["--model_name SARGLocationServices*"],
+)
+
+contracts_unit_tests(
+    name = "Opera_data_contracts",
+    args = ["--model_name Opera*"],
+)
+
+filegroup(
+    name = "test_data",
+    srcs = glob(["**/*.json"]),
+    visibility = ["//visibility:public"],
+)

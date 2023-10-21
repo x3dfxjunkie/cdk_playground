@@ -1,0 +1,98 @@
+[
+    {
+        "data": {
+            "RSRVBL_RSRC_UOM_ID": "1c17c0f4-3703-442e-8449-d0c0a8b4be71",
+            "UOM_CN": 1,
+            "UOM_TYP_NM": "Hour",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "rsrvbl_rsrc_uom",
+            "timestamp": "2023-08-23T19:22:20.264345Z"
+        }
+    },
+    {
+        "data": {
+            "RSRVBL_RSRC_UOM_ID": "5DB23C68-EB1A-4270-E043-9906F4D14270",
+            "UOM_CN": 15,
+            "UOM_TYP_NM": "Minute",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "rsrvbl_rsrc_uom",
+            "timestamp": "2023-08-23T19:22:20.303363Z"
+        }
+    },
+    {
+        "data": {
+            "RSRVBL_RSRC_UOM_ID": "239df46e-ac89-4658-9754-c57cc37344ba",
+            "UOM_CN": 0,
+            "UOM_TYP_NM": "Minute",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "rsrvbl_rsrc_uom",
+            "timestamp": "2023-08-23T19:22:20.274666Z"
+        }
+    },
+    {
+        "data": {
+            "RSRVBL_RSRC_UOM_ID": "37370bb5-f318-4c8b-88fb-478740d18036",
+            "UOM_CN": 30,
+            "UOM_TYP_NM": "Minute",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "rsrvbl_rsrc_uom",
+            "timestamp": "2023-08-23T19:22:20.286425Z"
+        }
+    },
+    {
+        "data": {
+            "RSRVBL_RSRC_UOM_ID": "3f0d8ca4-982d-4510-be1c-3c3ff99a3e0d",
+            "UOM_CN": 5,
+            "UOM_TYP_NM": "Minute",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "rsrvbl_rsrc_uom",
+            "timestamp": "2023-08-23T19:22:20.296005Z"
+        }
+    },
+    {
+        "data": {
+            "RSRVBL_RSRC_UOM_ID": "6474AD20-C44D-4114-E043-8B681C564114",
+            "UOM_CN": 10,
+            "UOM_TYP_NM": "Minute",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "rsrvbl_rsrc_uom",
+            "timestamp": "2023-08-23T19:22:20.311339Z"
+        }
+    }
+]

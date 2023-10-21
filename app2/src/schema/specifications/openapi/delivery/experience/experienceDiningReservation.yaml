@@ -1,0 +1,58 @@
+experienceDiningReservation:
+  allOf:
+    - $ref: "../openapi.yaml#/components/schemas/experienceCommon"
+    - type: object
+      properties:
+        transactionId:
+          type: string
+          description: unique identifier for the Bookable Experence Reservation transaction
+          example: 479999999999
+        experienceId:
+          type: string
+          description: Enterprise ID for the Bookable Exerperience, also referenced as Activity Product.  This can be referenced via D-Scribe APIs for additional product metadata
+          example: "107726"
+        experienceCategory:
+          allOf:
+            - $ref: "../openapi.yaml#/components/schemas/experienceCategory"
+            - type: string
+              example: "Dining Reservation"
+        status:
+          $ref: "../openapi.yaml#/components/schemas/experienceStatus"
+        businessDate:
+          type: string
+          format: date
+          description: Date of the Dining Reservation
+        experienceStart:
+          type: string
+          format: date-time
+          description: UTC start date/Time of the Dining Reservation or Check-in time if available
+        experienceEnd:
+          type: string
+          format: date-time
+          description: UTC end date/Time of the Dining Reservation if Check-out time is available
+      required:
+        - transactionId
+        - experienceId
+        - experienceCategory
+        - status
+        - businessDate
+        - experienceStart
+    - type: object
+      properties:
+        reservationDetails:
+          type: object
+          description: reservation details
+          properties:
+            cancelByDate:
+              type: string
+              format: date
+              description: The date the Reservation must be cancelled by to avoid any cancellation fees / penalties
+            guestCount:
+              type: integer
+              example: 5
+            guestPartyMix:
+              $ref: "../openapi.yaml#/components/schemas/guestPartyMix"
+            bookingChannel:
+              type: string
+              description: The channel used to book the reservation - Contact Center | Internet | Guest Facing | Unknown | etc
+              example: Internet

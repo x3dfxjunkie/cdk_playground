@@ -1,0 +1,834 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:05:51Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Room Access"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.710385Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:05:51Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Connecting Room Access"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.719341Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:05:51Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Club Level Access"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.729678Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:05:51Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Laundry Room Access"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.740377Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:05:51Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Health Club Access"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.747441Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:05:51Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Convention Room Access"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.758248Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-14T16:53:16.041426Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Building 6 - Sugar Loaf"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.783674Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-14T16:53:16.371106Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Concierge Main Door"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.813045Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-14T16:53:16.494627Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Gate"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.824851Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-14T16:53:17.188050Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Main Building"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.852192Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-14T16:53:17.439202Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Treehouses"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.870732Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-14T16:53:18.030139Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "16th Floor"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.906395Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-14T16:53:18.137943Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "5th Floor"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.914794Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-11-21T00:04:48.893254Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Bldg 6 Main Entrance"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.934978Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-11-21T00:04:48.948185Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Bldg 6 Marina Side Entrance"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.943824Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2013-09-16T03:26:09.416998Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Secondary Lobby Entrance"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.974268Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2013-09-16T03:26:09.576938Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Exterior Stairwell"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.984038Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2013-09-16T03:26:09.938874Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Exterior Stairwell 3"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.014226Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2013-09-16T03:26:10.062660Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Laundry Room VGF"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.023643Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2014-06-18T18:50:55Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Poly Building 5 East Floor 3"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.079386Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2018-03-22T10:34:32Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "PARKING GATE OLANI ENTRANCE"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.168027Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2018-03-22T10:34:32Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "PARKING GATE UPPER ENTRANCE"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.184364Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2018-03-22T10:34:32Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "PARKING GATE UPPER EXIT"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.192442Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2018-04-17T22:59:25Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Reunion Station"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.200558Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2019-05-23T04:50:40.715401Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Chronos Club Lounge"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.216127Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-14T16:53:15.490580Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "7th Floor"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.769287Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-14T16:53:16.143398Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Business Level"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.793893Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-14T16:53:16.250219Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Concierge"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.805013Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-14T16:53:16.922382Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Laundry Only"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.833038Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-14T16:53:17.037508Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Laundry, Attic and Concierge"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.843110Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-14T16:53:17.319899Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Park"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.861632Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-14T16:53:17.552724Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "12th Floor"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.879468Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-14T16:53:17.668346Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "14th Floor"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.889258Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-14T16:53:17.906491Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "15th Floor"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.897115Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2011-06-07T09:58:26.179599Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Parking Garage"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.925879Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-11-21T00:04:48.987790Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Bldg 6 North 1st floor"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.953045Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-11-21T00:04:49.027251Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Bldg 6 South 1st floor"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.961320Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2013-09-16T03:26:09.704309Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Porte Cochere"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:18.993523Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2013-09-16T03:26:09.830000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Exterior Stairwell 2"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.006326Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2013-09-16T03:26:10.193201Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Vehicle Entrance Gate"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.034034Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2014-06-18T18:50:54Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Poly Building 5 Main Entrance Floor 2"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.043566Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2014-06-18T18:50:55Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Poly Building 5 Main Entrance Floor 3"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.054555Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2014-06-18T18:50:55Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Poly Building 5 East Floor 2"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.070025Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-01-16T12:23:33.179329Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Poly Building 1 Entrances"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.089451Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-02-24T03:14:52.993786Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Poly Villas Bungalow Gates"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.097583Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-07-01T11:44:03Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Concierge Stairwell 1"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.106987Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-07-01T11:44:03Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Concierge Stairwell 2"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.117621Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2016-11-10T11:55:38Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Bldg 6 South 3rd Floor"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.127241Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2016-11-10T11:55:38Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Bldg 6 South 4th Floor"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.135263Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2016-11-10T11:55:38Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Bldg 6 North 2nd Floor"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.149901Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2016-11-10T11:55:38Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "Bldg 6 South 2nd Floor"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.159266Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2018-03-22T10:34:32Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "EXPRNC_CARD_ACCS_ID": 0,
+            "EXP_CARD_ACSS_NM": "PARKING GATE OLANI EXIT"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "exp_card_acss",
+            "timestamp": "2023-07-26T01:12:19.176880Z"
+        }
+    }
+]

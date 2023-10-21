@@ -1,0 +1,19 @@
+stack_extension: &se dlr-venuenext-arrivalwin
+ingest_pattern: &ip kinesis2kinesis
+active: True
+pattern_instances:
+  - region: us-east-1
+    resources:
+      kinesis_firehose:
+        enabled: True
+        partitioning:
+          dynamic: 
+            enabled: false
+            keys: null
+          custom_keys:
+            source: *ip 
+            data_entity: *se           
+      cross_account:
+        cross_account_type: &cat target
+        cross_account_id: &id 795965727170 
+        cross_account_role_name: guest360-local-dlr-venuenext-arrivalwin/lambda/guest360-local-dlr-venuenext-arrivalwin-lambda-latest_role

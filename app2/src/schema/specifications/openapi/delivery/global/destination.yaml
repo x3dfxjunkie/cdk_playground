@@ -1,0 +1,9 @@
+destination:
+  type: string
+  description: Determines destination of the experience.  Values to be confirmed
+  enum:
+    - wdw
+    - dlr
+    - aul
+    - dcl
+    - wdpr

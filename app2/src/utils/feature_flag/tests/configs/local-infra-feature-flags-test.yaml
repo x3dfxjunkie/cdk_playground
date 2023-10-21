@@ -1,0 +1,37 @@
+# Add your feature flag declarations below
+# See docs/getting_started/feature_flags.md for examples
+---
+#idea 1
+data_services:
+  kinesis:
+    kinesis-resource-name: False
+    kinesis-resource-name-two: True
+
+#idea 2
+feature_group:
+  data_services_lambda_api_gateway_ll: True
+  processing_lambda_dynamodb_ll: True
+
+# single feature uses the name of the resource to enable and disable 
+# this component/feature    
+single_feature:
+    firehose-name: False #name of the firehose to enable/disable
+
+#idea 3
+processing_lambda_dynamodb_ll: False
+
+
+stack_extension: &se dlr-location-services
+ingest_pattern: kinesis2kinesis
+active: True
+pattern_instances:
+  - region: us-east-1
+    resources:
+      stack_extension: *se
+      kinesis:
+        kinesis_firehose:
+          enabled: False
+          bucket_name: raw
+          data_transformation:
+            enabled: False
+#We are starting with targeted resources then integrate into wildcard search for resources 

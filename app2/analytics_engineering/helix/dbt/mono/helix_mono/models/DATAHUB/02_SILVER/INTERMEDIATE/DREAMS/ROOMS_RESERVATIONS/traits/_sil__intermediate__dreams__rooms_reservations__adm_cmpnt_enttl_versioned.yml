@@ -1,0 +1,205 @@
+version: 2
+
+models:
+  - name: sil__intermediate__dreams__rooms_reservations__adm_cmpnt_enttl_versioned
+    description: '{{ doc("sil__intermediate__dreams__rooms_reservations__adm_cmpnt_enttl_versioned") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_versioned
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_adm_enttl_id
+            - metadata_checksum
+
+    columns:
+      - name: data_create_usr_id_cd
+        description: "The identification value for the user or application that created a row in this table. | example: WDPRO"
+
+      - name: data_create_dts
+        description: "The month day century year hour minute and second when a row was created in this table. | example: 2023-03-29T11:30:10.669000Z"
+
+      - name: data_updt_usr_id_cd
+        description: "The identification value for the user or application that updated this row in this table. | example: WDPRO"
+
+      - name: data_updt_dts
+        description: "The month day century year hour minute and second when a row in this table was updated. | example: 2023-03-29T11:30:10.669000Z"
+
+      - name: data_jdo_seq_nb
+        description: "A Java Data Object structure used to ensure that optimistic locking of rows in the database do not occur. | example: 1"
+
+      - name: data_adm_enttl_id
+        description: "Uniquely identifies an admission entitlement for a particular admission travel component. | example: 33525799"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_adm_tc_id
+        description: "The unique identification of a travel component that is an admission to gain access to the likes of a Disney attraction, dining experience, theatrical experience, special occasion, etc. | example: 2075207822"
+
+      - name: data_brcd_vl
+        description: "The barcode representation of the entitlement information for a Admission Travel Component. | example: LPBQRT1SCVSCKZ65D3"
+
+      - name: data_mag_strp_vl
+        description: "The entitlement information as encoded on the magnetic strip for an Admission Travel Component. | example: CJ5FF1F3FLCBC63C2CJT0FFFBFL2BCDTCZC0FF4F2B8LC0CDTCZ0JTF12FBFLCBCDTCZ0JT"
+
+      - name: data_serial_nb_vl
+        description: "The serial number of the entitlement as recorded for an Admission Travel Component. | example: 25100003042328126"
+
+      - name: data_e_enttl_in
+        description: "Identifies that the ticketing entitlement is either an Electronic Entitlement (Y) or is not an Electronic Entitlement (N).  Default is that the ticketing entitlement is not (N) an Electronic Entitlement. | example: Y"
+
+      - name: data_tkt_bank_in
+        description: "Identifies that when the Automated Ticketing Service (ATS) is not operational, tickets are obtained from the ticket bank.  The valid values are (Y)es - ATS is not operational, so tickets are fulfilled from the Ticket Bank, (N)o - ATS is operational, tickets are not fulfilled from theTicket Bank.  Default value is (N)o - ATS is operational, tickets are not fulfilled from theTicket Bank but from ATS. | example:"
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp for when the record was sent in the stream | example: 2023-03-29T15:30:19.109655Z"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "data | example: data"
+
+      - name: metadata_operation
+        description: ""
+
+      - name: metadata_partition_key_type
+        description: ""
+
+      - name: metadata_schema_name
+        description: "Name of the schema in snowflake | example: res_mgmt"
+
+      - name: metadata_table_name
+        description: "name of the table in snowflake | example: tc"
+
+      - name: metadata_transaction_id
+        description: "unique ID for the stream record | example: 70974432245344"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: metadata_version_start_datetime
+        description: "Version start datetime"
+        tests:
+          - not_null
+
+      - name: metadata_version_end_datetime
+        description: "Version end datetime"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

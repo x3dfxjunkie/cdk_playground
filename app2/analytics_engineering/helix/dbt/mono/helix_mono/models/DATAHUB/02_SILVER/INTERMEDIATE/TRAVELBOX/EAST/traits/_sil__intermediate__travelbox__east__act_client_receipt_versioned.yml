@@ -1,0 +1,313 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__east__act_client_receipt_versioned
+    description: '{{ doc("sil__intermediate__travelbox__east__act_client_receipt_versioned") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_versioned
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_booking_id
+            - data_receipt_index
+            - metadata_checksum
+
+    columns:
+      - name: data_booking_id
+        description: "The system generated id of the booking | example: 28088647"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_receipt_index
+        description: "A foreign key which refers to the field RECEIPT_INDEX of the ACT_CLIENT_ACCOUNT_RECEIPT table | example: 1"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_currency
+        description: "The TravelBox code of the currency in which the board basis fares are defined | example: USD"
+
+      - name: data_amount
+        description: "Deprecated | example: 595.12"
+
+      - name: data_pay_or_refund
+        description: "RECEIPTS - THIS FLAG IS SET TO 1_x000D_
+ REFUNDS - THIS FLAG IS SET TO 0 | example: 1"
+
+      - name: data_note
+        description: "The note of Special Rate | example: null
+Set as unreconciled on 25/01/2023"
+
+      - name: data_realised
+        description: "Indicate whether payment is realized or not | example: 1"
+
+      - name: data_receipt_date
+        description: "The date of the receipt | example: 1984-11-05 11:03:12"
+
+      - name: data_realised_date
+        description: "Payment realized date | example: 2016-07-26 22:22:37"
+
+      - name: data_authorised
+        description: "Whether this is an authorized payment or not | example: 1"
+
+      - name: data_receipt_to_selling_ex_rate
+        description: "Payment currency to selling currency exchange rate | example: 1.0"
+
+      - name: data_receipt_to_base_ex_rate
+        description: "EX. RATE CAN BE MODIFIED IN CLIENT BATCH RECEIPTS PANEL. CHANDANA: NOT USED IN DOCUMENT RECEIPT. WE SAVE THIS INTO CLIENT_RECEIPT TABLE. | example: 1.0"
+
+      - name: data_receipt_type
+        description: "A foreign key which refers to the field CODE of the_x000D_
+ACT_TRANSACTION_TYPE table | example: CRCD"
+
+      - name: data_batch_no
+        description: "Batch number for credit card batch payment | example: McahRRCGqGCThORDJPKW"
+
+      - name: data_valid
+        description: "If there is no blackout for the date, the valus is 0._x000D_
+If there is a blackout for the date, the value is 1. | example: 1"
+
+      - name: data_pending
+        description: "Indicates whether this is a pending payment or not | example: 0"
+
+      - name: data_ibtx_exist
+        description: "Whether Inter Booking Tansactions exist | example: 0"
+
+      - name: data_reconciled
+        description: "Deprecated | example: 0"
+
+      - name: data_reconciled_date
+        description: "Deprecated | example: 2023-05-15 12:14:33"
+
+      - name: data_journal_batch_no
+        description: "Deprecated | example: 9263"
+
+      - name: data_modified
+        description: "Indicate whether this payment is modified after insertion (Ex: for IBTX) | example: 0"
+
+      - name: data_statement_id
+        description: "Unique id to identify the bank statement - system generated | example: 1087"
+
+      - name: data_reverse_journal_batch_no
+        description: "Deprecated | example: -1"
+
+      - name: data_reversed_for_journal_batch_no
+        description: "Deprecated | example: -1"
+
+      - name: data_bank_transaction_id
+        description: "Bank transaction id for the payment | example: 5588"
+
+      - name: data_entered_user
+        description: "A foreign key which refers to the field USER_ID of the ADM_USER table | example: 46698"
+
+      - name: data_temp_user
+        description: "Deprecated | example: BMdIgddiiRkdcnsGdYVi"
+
+      - name: data_deposited_by
+        description: "Deprecated | example: 1600"
+
+      - name: data_bank_code
+        description: "A Foreign key which refers to the CODE field of the ACT_BANK table | example: rxXIxnLCtZEMkpzHRYkj"
+
+      - name: data_account_no
+        description: "Bank account number | example: DsDPqHzMsgLRRYAngxKL"
+
+      - name: data_bounced_rcpts_exist
+        description: "Flag to check whether there is a bounced receipt exists(TRUE)_x000D_
+or not (FALSE) | example: 0"
+
+      - name: data_bounced_receipt_index
+        description: "If there is bound receipts, then the bounced receipt index_x000D_
+will be set, else null value is saved | example: 5025"
+
+      - name: data_deposit_batch_no
+        description: "Deprecated | example: 4858"
+
+      - name: data_batch_id
+        description: "Batch Id for the credit card batch payment | example: 9695"
+
+      - name: data_doc_exists
+        description: "IF PAYMENTS DONE AS DOCUMENT PAYMENT THIS FLAG WILL BE SET TO 1 | example: 0"
+
+      - name: data_remittance_id
+        description: "The Remittance number | example: mcRzeWfMrcxyCgrKLIzM"
+
+      - name: data_location_id
+        description: "Location id is saved when the module configuration_x000D_
+&#39;STORE_LOCATION_ID&#39; is enabled, otherwise_x000D_
+-1 | example: 343"
+
+      - name: data_ext_int_reconsiled
+        description: "Whether the payment was written to an external interface file or not. | example: 1"
+
+      - name: data_transaction_id
+        description: "A foreign key which refers to the field TRANSACTION_ID of the ACT_CLIENT_ADVANCE_RECEIPT table | example: BxpEqIdXiBeXsTkdHkou"
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 2000-05-06 10:24:06"
+
+      - name: data_pay_details
+        description: "NaN | example: UXluetqfJePDyqqduyBY"
+
+      - name: data_slip_ref
+        description: "NaN | example: OlkgzydaVWKoinNcSEZo"
+
+      - name: data_balance_due_his
+        description: "NaN | example: 0.0"
+
+      - name: data_receipt_category
+        description: "NaN | example: AptPEbZjUxohuptzrlUJ"
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: metadata_version_start_datetime
+        description: "Version start datetime"
+        tests:
+          - not_null
+
+      - name: metadata_version_end_datetime
+        description: "Version end datetime"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

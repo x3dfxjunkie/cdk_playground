@@ -1,0 +1,67 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__inventory__daily_room_assignment_current
+    description: "{{ doc('sil__hotel_lodging__inventory__daily_room_assignment_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=inventory
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: room_id
+        description: ""
+
+      - name: assigned_owner_id
+        description: ""
+
+      - name: room_assigned_request_id
+        description: ""
+
+      - name: assigned_request_date
+        description: ""
+
+      - name: room_assigned_request_id
+        description: ""
+
+      - name: assigned_request_date
+        description: ""
+
+      - name: assigned_status_name
+        description: ""
+
+      - name: room_rate_category
+        description: ""
+
+      - name: temporary_assignment_status_end_datetime
+        description: ""
+
+      - name: assignment_locked_indicator
+        description: ""
+
+      - name: temporary_status_user_id
+        description: ""
+
+      - name: create_user_id
+        description: ""
+
+      - name: create_datetime
+        description: ""
+
+      - name: create_date
+        description: ""
+
+      - name: update_user_id
+        description: ""
+
+      - name: source_update_datetime
+        description: ""
+
+      - name: source_update_date
+        description: ""

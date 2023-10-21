@@ -1,0 +1,65 @@
+pattern_instances:
+  - region: &region-1 us-east-1
+    data_pipe:
+      target:
+        - type: snowflake
+          default_router_database: default_router_database
+          bronze_database: DATAHUB
+          bronze_schema_prefix: BRZ
+          managed_artifacts_database: MA
+          managed_artifacts_schema: LND_GUEST360
+
+          external_stage: LANDING.WRK_GUEST360.EXT_GUEST360_STAGE_JSON
+
+          environments:
+            - name: LATEST
+              short_name: LST
+              is_uploaded_to_s3: True
+            - name: STAGE
+              short_name: STG
+            - name: LOAD
+              short_name: LOD
+            - name: PROD
+              short_name: PRD
+
+          #data_contracts:
+            #  - name: GAMDLRGuestIdModel
+          #  - name: EADLRLightningLaneModel
+            
+          contracts2skip:
+            - name: GAMWDWActivityReservationModel
+            - name: GAMDLRActivityReservationModel
+            - name: DineTimeTablesModel
+            - name: DScribeMealPeriodModel
+
+          recreate_if_exists:
+            landing_table: False
+            landing_table_pipe: False
+
+          timestamp_validation:
+            self_validation: true
+            function_definitions:
+              function_name: CUSTOM_DATETIME_CASTER
+              database_name: UTILITY_DB
+              schema_name: UTILITY_SCHEMA
+            not_recognized_formats:
+              - YYYY-MM-DDTHH24:MI:SS.FF TZHTZM
+
+    data_schema_generation:
+      static_info:
+        values:
+          - role_name: GUEST360_L3
+          - warehouse_name: GUEST360_WH
+          - ia_unit: DSNE PROJECTS
+          - ia_owner_email: RENAN.PEREIRA@DISNEY.COM
+          - bu_unit:
+          - bu_owner_email:
+          - access_type: RW
+          - etl_user_name:
+          - add_role_master: Y
+          - schema_approval_ind: Y
+          - bappid:
+          - proc_name:
+
+
+

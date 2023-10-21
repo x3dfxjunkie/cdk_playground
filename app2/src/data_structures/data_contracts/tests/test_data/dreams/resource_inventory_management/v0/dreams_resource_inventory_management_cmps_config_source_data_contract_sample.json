@@ -1,0 +1,76 @@
+[
+    {
+        "data": {
+            "ALLOW_RPST_IN": "Y",
+            "BYPS_BAL_DUE_IN": "N",
+            "CMPS_CONFIG_ID": 0,
+            "CREATE_DTS": "2009-09-10T14:08:19Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "DFTL_CRNCY_CD": "USD",
+            "DFTL_LANG_CD": "eng",
+            "DT_FMT_VL": "MM/dd/yyyy",
+            "JDO_SEQ_NB": 10,
+            "TM_ZN_NM": "America/New_York",
+            "UPDT_DTS": "2023-02-22T01:22:51.272000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "cmps_config",
+            "timestamp": "2023-07-26T01:12:17.968147Z"
+        }
+    },
+    {
+        "data": {
+            "ALLOW_RPST_IN": "N",
+            "BYPS_BAL_DUE_IN": "N",
+            "CMPS_CONFIG_ID": 0,
+            "CMPS_ID": 0,
+            "CREATE_DTS": "2009-09-25T10:09:49.502000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "DFTL_CRNCY_CD": "USD",
+            "DFTL_LANG_CD": "eng",
+            "DT_FMT_VL": "MM/dd/yyyy",
+            "JDO_SEQ_NB": 0,
+            "TM_ZN_NM": "America/Los_Angeles",
+            "UPDT_DTS": "2010-06-24T13:42:27.043522Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "cmps_config",
+            "timestamp": "2023-07-26T01:12:17.975327Z"
+        }
+    },
+    {
+        "data": {
+            "ALLOW_RPST_IN": "Y",
+            "BYPS_BAL_DUE_IN": "N",
+            "CMPS_CONFIG_ID": 0,
+            "CMPS_ID": 0,
+            "CREATE_DTS": "2010-06-18T10:40:45.263000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "DFTL_CRNCY_CD": "USD",
+            "DFTL_LANG_CD": "eng",
+            "DT_FMT_VL": "MM/dd/yyyy",
+            "JDO_SEQ_NB": 1,
+            "TM_ZN_NM": "Pacific/Honolulu",
+            "UPDT_DTS": "2012-10-22T16:06:17.922000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "cmps_config",
+            "timestamp": "2023-07-26T01:12:17.982191Z"
+        }
+    }
+]

@@ -1,0 +1,20 @@
+policies:
+  - actions:
+      - "kinesis:List*"
+      - "kinesis:Get*"
+      - "kinesis:Describe*"
+    resources:
+      - "arn:aws:kinesis:us-*:000000000000:stream/*"
+  - actions:
+      - "kms:Encrypt*"
+      - "kms:Decrypt*"
+      - "kms:GenerateDataKey*"
+      - "kms:ReEncrypt*"
+    resources:
+      - "arn:aws:kms:us-*:000000000000:key/*"
+  - actions:
+      - "s3:Get*"
+      - "s3:List*"
+      - "s3:Put*"
+    resources:
+      - "arn:aws:s3:::*"

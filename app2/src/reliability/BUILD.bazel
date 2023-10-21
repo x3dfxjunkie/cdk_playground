@@ -1,0 +1,34 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+py_lambda_library(
+    name = "reliability",
+    srcs = glob(["*.py"]),
+    data = ["//app/src:missing_init_files"],
+    visibility = ["//visibility:public"],
+    deps = [],
+)
+
+pytest_test(
+    name = "test_reliability",
+    srcs = glob(["tests/**/test_*.py"]),
+    deps = [
+        ":reliability",
+        requirement("pyyaml"),
+    ],
+)
+
+py_lambda_library(
+    name = "reliability_config_infra",
+    srcs = glob(["Guest360ConfigInfra/*.py"]),
+    visibility = ["//visibility:public"],
+    deps = [],
+)
+
+py_lambda_library(
+    name = "reliability_yamlhandler",
+    srcs = glob(["Guest360YamlHandler/aws_cdk/*.py"]),
+    visibility = ["//visibility:public"],
+    deps = [],
+)

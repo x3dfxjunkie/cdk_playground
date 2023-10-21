@@ -1,0 +1,8 @@
+experienceStatus:
+  type: string
+  description: Curated status viable to Experience Paradigm
+  enum:
+    - Booked
+    - Experienced
+    - Not Experienced
+  example: Experienced

@@ -1,0 +1,52 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__group_comments_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__group_comments_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: group_code
+        description: ""
+
+      - name: group_comment_id
+        description: ""
+
+      - name: group_comment_notes
+        description: ""
+
+      - name: group_comment_type_route_id
+        description: ""
+
+      - name: group_comment_level_name
+        description: ""
+
+      - name: group_comment_section_name
+        description: ""
+
+      - name: group_comment_type_name
+        description: ""
+
+      - name: route_name
+        description: ""
+
+      - name: create_datetime
+        description: ""
+
+      - name: source_update_datetime
+        description: ""
+
+      - name: create_user_id
+        description: ""
+
+      - name: update_user_id
+        description: ""

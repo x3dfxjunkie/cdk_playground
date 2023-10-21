@@ -1,0 +1,2102 @@
+[
+    {
+        "data": {
+            "campuscode": "WDWPRSPORTS",
+            "code": "STADIUM",
+            "id": 66164,
+            "isenabled": 1,
+            "name": "Stadium - Event",
+            "prettyname": "ESPN Wide World of Sports",
+            "venuecode": "ESPNWWOS",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:21.138528Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "HTPLAZATOP2",
+            "id": 66168,
+            "isenabled": 1,
+            "name": "HT Plaza Top 2 - Icon",
+            "prettyname": "The Plaza Restaurant",
+            "venuecode": "MK",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:21.170183Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLCSTEAMBOATWILLIEMAGIC",
+            "id": 66174,
+            "isenabled": 1,
+            "name": "C Steamboat Willie - Magic",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLWONDER",
+            "xcoord": 13,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:21.218219Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLDECKSMAGICMARVEL",
+            "id": 66179,
+            "isenabled": 1,
+            "name": "Decks Magic - Marvel",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLWONDER",
+            "xcoord": 17,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:21.261001Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLDECKSMAGICSTARWARS",
+            "id": 66184,
+            "isenabled": 1,
+            "name": "Decks Magic - Star Wars",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLWONDER",
+            "xcoord": 17,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:21.305492Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLDECKSMAGICSTARWARS",
+            "id": 66185,
+            "isenabled": 1,
+            "name": "Decks Magic - Star Wars",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLWISH",
+            "xcoord": 17,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:21.313905Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "FALLICON1",
+            "id": 66186,
+            "isenabled": 1,
+            "name": "Fall 1- Icon",
+            "prettyname": "Disney Springs",
+            "venuecode": "DOWNTOWN",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:21.322472Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLHHSMICKEY",
+            "id": 66188,
+            "isenabled": 1,
+            "name": "HHS Mickey",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 24,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:21.337942Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLHHSMINNIE",
+            "id": 66195,
+            "isenabled": 1,
+            "name": "HHS Minnie",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLFANTASY",
+            "xcoord": 24,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:21.400891Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLHHSMINNIE",
+            "id": 66196,
+            "isenabled": 1,
+            "name": "HHS Minnie",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLWONDER",
+            "xcoord": 24,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:21.409506Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLHHSDONALD",
+            "id": 66200,
+            "isenabled": 1,
+            "name": "HHS Donald",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLFANTASY",
+            "xcoord": 24,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:21.438241Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLHHSDONALD",
+            "id": 66201,
+            "isenabled": 1,
+            "name": "HHS Donald",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLWONDER",
+            "xcoord": 24,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:21.448349Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLHHSCHIPANDDALE",
+            "id": 66203,
+            "isenabled": 1,
+            "name": "HHS Chip and Dale",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 24,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:21.465914Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLHHSGOOFY",
+            "id": 66208,
+            "isenabled": 1,
+            "name": "HHS Goofy",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 24,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:21.506463Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLHHSJACKSKELLINGTON",
+            "id": 66219,
+            "isenabled": 1,
+            "name": "HHS  Jack Skellington",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLDREAM",
+            "xcoord": 24,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:21.604098Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLHHSJACKSKELLINGTON",
+            "id": 66221,
+            "isenabled": 1,
+            "name": "HHS  Jack Skellington",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLWONDER",
+            "xcoord": 24,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:21.621910Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLCSWGROGUMAGIC",
+            "id": 64643,
+            "isenabled": 1,
+            "name": "C SW Grogu Magic",
+            "prettyname": "Disney Dream",
+            "venuecode": "DCLDREAM",
+            "xcoord": 13,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:08.446845Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLCSWROYALCOURT",
+            "id": 64645,
+            "isenabled": 1,
+            "name": "C SW Royal Court",
+            "prettyname": "Disney Dream",
+            "venuecode": "DCLDREAM",
+            "xcoord": 14,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:08.462710Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLMVGROOTANDSTARLORD",
+            "id": 64652,
+            "isenabled": 1,
+            "name": "MV Groot and Star Lord",
+            "prettyname": "Disney Fantasy",
+            "venuecode": "DCLFANTASY",
+            "xcoord": 23,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:08.520437Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLMVGROOTANDGAMORA",
+            "id": 64653,
+            "isenabled": 1,
+            "name": "MV Groot and Gamora",
+            "prettyname": "Disney Fantasy",
+            "venuecode": "DCLFANTASY",
+            "xcoord": 23,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:08.526337Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLCBLACKLOKIMAGIC",
+            "id": 64658,
+            "isenabled": 1,
+            "name": "C Black Loki Magic",
+            "prettyname": "Disney Fantasy",
+            "venuecode": "DCLFANTASY",
+            "xcoord": 13,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:08.567482Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLCMVANIMATORS",
+            "id": 64661,
+            "isenabled": 1,
+            "name": "C MV Animators",
+            "prettyname": "Disney Fantasy",
+            "venuecode": "DCLFANTASY",
+            "xcoord": 14,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:08.586862Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLCDARKSIDEMAGIC",
+            "id": 64673,
+            "isenabled": 1,
+            "name": "C Dark Side Magic",
+            "prettyname": "Disney Fantasy",
+            "venuecode": "DCLFANTASY",
+            "xcoord": 13,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:08.677176Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLCSWROYALCOURT",
+            "id": 64676,
+            "isenabled": 1,
+            "name": "C SW Royal Court",
+            "prettyname": "Disney Fantasy",
+            "venuecode": "DCLFANTASY",
+            "xcoord": 14,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:08.700876Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLDMAGICSTARWARS",
+            "id": 64678,
+            "isenabled": 1,
+            "name": "D Magic Star Wars",
+            "prettyname": "Disney Fantasy",
+            "venuecode": "DCLFANTASY",
+            "xcoord": 17,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:08.718002Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLMARVELHAWKEYE",
+            "id": 64682,
+            "isenabled": 1,
+            "name": "Marvel Hawkeye",
+            "prettyname": "Disney Wonder",
+            "venuecode": "DCLWONDER",
+            "xcoord": 23,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:08.758934Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLDMAGICMVPOWERS",
+            "id": 64690,
+            "isenabled": 1,
+            "name": "D Magic MV Powers",
+            "prettyname": "Disney Wonder",
+            "venuecode": "DCLWONDER",
+            "xcoord": 17,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:08.819410Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLCMVRAPUNZEL",
+            "id": 64694,
+            "isenabled": 1,
+            "name": "C MV Rapunzel",
+            "prettyname": "Disney Wonder",
+            "venuecode": "DCLWONDER",
+            "xcoord": 14,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:08.848370Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLCRESISTANCESHIPMAGIC",
+            "id": 64703,
+            "isenabled": 1,
+            "name": "C Resistance Ship Magic",
+            "prettyname": "Disney Wonder",
+            "venuecode": "DCLWONDER",
+            "xcoord": 13,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:08.929425Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLCSWANIMATORS",
+            "id": 64706,
+            "isenabled": 1,
+            "name": "C SW Animators",
+            "prettyname": "Disney Wonder",
+            "venuecode": "DCLWONDER",
+            "xcoord": 14,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:08.953201Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLDMAGICSTARWARS",
+            "id": 64709,
+            "isenabled": 1,
+            "name": "D Magic Star Wars",
+            "prettyname": "Disney Wonder",
+            "venuecode": "DCLWONDER",
+            "xcoord": 17,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:08.976437Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLMARVELIRONMAN",
+            "id": 64710,
+            "isenabled": 1,
+            "name": "Marvel Ironman",
+            "prettyname": "Disney Wish",
+            "venuecode": "DCLWISH",
+            "xcoord": 23,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:08.982615Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLMARVELCAPTAMERICA",
+            "id": 64712,
+            "isenabled": 1,
+            "name": "Marvel CaptAmerica",
+            "prettyname": "Disney Wish",
+            "venuecode": "DCLWISH",
+            "xcoord": 23,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:08.995258Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLCMARVELICON",
+            "id": 64718,
+            "isenabled": 1,
+            "name": "C Marvel Icon",
+            "prettyname": "Disney Wish",
+            "venuecode": "DCLWISH",
+            "xcoord": 13,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.038380Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLCMVANIMATORS",
+            "id": 64723,
+            "isenabled": 1,
+            "name": "C MV Animators",
+            "prettyname": "Disney Wish",
+            "venuecode": "DCLWISH",
+            "xcoord": 14,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.076303Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLCSWANIMATORS",
+            "id": 64737,
+            "isenabled": 1,
+            "name": "C SW Animators",
+            "prettyname": "Disney Wish",
+            "venuecode": "DCLWISH",
+            "xcoord": 14,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.191139Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLDMAGICSTARWARS",
+            "id": 64740,
+            "isenabled": 1,
+            "name": "D Magic Star Wars",
+            "prettyname": "Disney Wish",
+            "venuecode": "DCLWISH",
+            "xcoord": 17,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.213147Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "CSCOUTHUBLEFTICON",
+            "id": 64745,
+            "isenabled": 0,
+            "name": "CSC - Outer Hub Left - Icon",
+            "prettyname": "Cinderella Castle",
+            "venuecode": "MK",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.249411Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "CSCCASTDOOR",
+            "id": 64750,
+            "isenabled": 0,
+            "name": "CSC - Casting Door - Icon",
+            "prettyname": "Magic Kingdom Park",
+            "venuecode": "MK",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.286136Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "CSCBOKEHROVER",
+            "id": 64762,
+            "isenabled": 0,
+            "name": "CSC - Bokeh - Rover",
+            "prettyname": "Magic Kingdom Park",
+            "venuecode": "MK",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.377013Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "RAINBLOCKSICON",
+            "id": 64764,
+            "isenabled": 1,
+            "name": "Rain Loc - Toy Story Blocks Icon - Icon",
+            "prettyname": "Toy Story Land",
+            "venuecode": "STUDIO",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.393167Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "DCLAUTOAPPLY",
+            "id": 64766,
+            "isenabled": 1,
+            "name": "DCL AutoApply",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "TEST",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.408779Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "PIXELSTICK",
+            "id": 64768,
+            "isenabled": 1,
+            "name": "Pixel Stick - SC",
+            "prettyname": "Disney Springs",
+            "venuecode": "DOWNTOWN",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.426888Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "WSCCYM4",
+            "id": 64772,
+            "isenabled": 1,
+            "name": "WSC CYM 4 - Rover",
+            "prettyname": "World Showcase",
+            "venuecode": "EPCOT",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.458243Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "CYMPARKSIDE2",
+            "id": 64774,
+            "isenabled": 1,
+            "name": "CYM Parkside 2 - Rover",
+            "prettyname": "Disney's Hollywood Studios",
+            "venuecode": "STUDIO",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.474817Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "TREEHOUSEICON",
+            "id": 64778,
+            "isenabled": 1,
+            "name": "Treehouse - Icon",
+            "prettyname": "Swiss Family Treehouse",
+            "venuecode": "MK",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.505179Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPRSPORTS",
+            "code": "WDWMARACOURSEREUNIONLOT",
+            "id": 64781,
+            "isenabled": 0,
+            "name": "Icon Reunion Lot",
+            "prettyname": "runDisney",
+            "venuecode": "WDWMARATHONCOURSE",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.531269Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "STORYBKMARQUEE",
+            "id": 64783,
+            "isenabled": 1,
+            "name": "Storybook Circus Marquee - Icon",
+            "prettyname": "Storybook Circus",
+            "venuecode": "MK",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.545004Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLJACKSPARROW",
+            "id": 64784,
+            "isenabled": 1,
+            "name": "Jack Sparrow",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 24,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.554701Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "BELLESCOTTAGECHAR",
+            "id": 64790,
+            "isenabled": 1,
+            "name": "Belle's Cottage - Character",
+            "prettyname": "Belle's Cottage",
+            "venuecode": "MK",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.600297Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "RLINNEROUTERHUBRIGHT",
+            "id": 64793,
+            "isenabled": 1,
+            "name": "Rain Loc Inner/Outer Hub Right - Icon",
+            "prettyname": "Castle Hub Right",
+            "venuecode": "MK",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.622622Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "RLLIBERTYSQUAREBRIDGE",
+            "id": 64799,
+            "isenabled": 1,
+            "name": "Rain Loc Liberty Square Bridge - Rain Loc",
+            "prettyname": "Liberty Square",
+            "venuecode": "MK",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.671140Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "RLRIVERWALK",
+            "id": 64801,
+            "isenabled": 1,
+            "name": "Rain Loc Riverwalk - Rain Loc",
+            "prettyname": "Liberty Square",
+            "venuecode": "MK",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.686564Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "RLTREEHOUSE",
+            "id": 64803,
+            "isenabled": 1,
+            "name": "Rain Loc Treehouse - Rain Loc",
+            "prettyname": "Adventureland",
+            "venuecode": "MK",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.703311Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "CSCTTCSTUDIO4",
+            "id": 64807,
+            "isenabled": 0,
+            "name": "CSC - TTC 4 - Studio",
+            "prettyname": "Cast Celebration",
+            "venuecode": "MK",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.733725Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "CSCLOTSOGATE",
+            "id": 64809,
+            "isenabled": 0,
+            "name": "CSC - Lotso Gate - Character",
+            "prettyname": "Magic Kingdom Park",
+            "venuecode": "MK",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.749675Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "CSCGROTTOEXIT",
+            "id": 64811,
+            "isenabled": 0,
+            "name": "CSC - Grotto Exit - Character",
+            "prettyname": "Fantasyland",
+            "venuecode": "MK",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.765481Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "CSCUPPERHUBLEFT1",
+            "id": 64816,
+            "isenabled": 0,
+            "name": "CSC - Upper Hub Left 1 - Icon",
+            "prettyname": "Cinderella Castle",
+            "venuecode": "MK",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.808234Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGCIVITAVECCHIA",
+            "id": 64822,
+            "isenabled": 1,
+            "name": "G Civitavecchia",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.860259Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGCANNES",
+            "id": 64824,
+            "isenabled": 1,
+            "name": "G Cannes",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.875605Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGVILLEFRANCHE",
+            "id": 64825,
+            "isenabled": 1,
+            "name": "G Villefranche",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.884143Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGGENOA",
+            "id": 64826,
+            "isenabled": 1,
+            "name": "G Genoa",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.894149Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGMESSINA",
+            "id": 64827,
+            "isenabled": 1,
+            "name": "G Messina",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.909405Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGPIRAEUS",
+            "id": 64829,
+            "isenabled": 1,
+            "name": "G Piraeus",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:09.926361Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGBILBAO",
+            "id": 64840,
+            "isenabled": 1,
+            "name": "G Bilbao",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.027316Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGAMSTERDAM",
+            "id": 64841,
+            "isenabled": 1,
+            "name": "G Amsterdam",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.034141Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGWARNEMUNDE",
+            "id": 64845,
+            "isenabled": 1,
+            "name": "G Warnemunde",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.065524Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGFREDERICIA",
+            "id": 64847,
+            "isenabled": 1,
+            "name": "G Fredericia",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.082255Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGOLDEN",
+            "id": 64850,
+            "isenabled": 1,
+            "name": "G Olden",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.105532Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGREYKJAVIK",
+            "id": 64852,
+            "isenabled": 1,
+            "name": "G Reykjavik",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.120715Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGKIRKWALL",
+            "id": 64853,
+            "isenabled": 1,
+            "name": "G Kirkwall",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.128236Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGPORTLAND",
+            "id": 64858,
+            "isenabled": 1,
+            "name": "G Portland",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.168723Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGBELFAST",
+            "id": 64861,
+            "isenabled": 1,
+            "name": "G Belfast",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.194077Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLFCHALKBOARDNIGHTSHIP",
+            "id": 64866,
+            "isenabled": 1,
+            "name": "F Chalkboard Night Ship",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 20,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.240770Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLFCHOCOLATEBOKEH",
+            "id": 64867,
+            "isenabled": 1,
+            "name": "F Chocolate Bokeh",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLMAGIC",
+            "xcoord": 20,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.246971Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGCANNES",
+            "id": 64872,
+            "isenabled": 1,
+            "name": "G Cannes",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLDREAM",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.293167Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGVILLEFRANCHE",
+            "id": 64873,
+            "isenabled": 1,
+            "name": "G Villefranche",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLDREAM",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.300426Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGSANTORINI",
+            "id": 64876,
+            "isenabled": 1,
+            "name": "G Santorini",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLDREAM",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.326143Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGPIRAEUS",
+            "id": 64877,
+            "isenabled": 1,
+            "name": "G Piraeus",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLDREAM",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.333593Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGMYKONOS",
+            "id": 64878,
+            "isenabled": 1,
+            "name": "G Mykonos",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLDREAM",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.343419Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGBILBAO",
+            "id": 64888,
+            "isenabled": 1,
+            "name": "G Bilbao",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLDREAM",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.422099Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGAMSTERDAM",
+            "id": 64889,
+            "isenabled": 1,
+            "name": "G Amsterdam",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLDREAM",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.431917Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGZEEBRUGGE",
+            "id": 64890,
+            "isenabled": 1,
+            "name": "G Zeebrugge",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLDREAM",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.437969Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGSTAVANGER",
+            "id": 64894,
+            "isenabled": 1,
+            "name": "G Stavanger",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLDREAM",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.473403Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGGOTHENBURG",
+            "id": 64896,
+            "isenabled": 1,
+            "name": "G Gothenburg",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLDREAM",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.486286Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGMALOY",
+            "id": 64899,
+            "isenabled": 1,
+            "name": "G Maloy",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLDREAM",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.511976Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGREYKJAVIK",
+            "id": 64900,
+            "isenabled": 1,
+            "name": "G Reykjavik",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLDREAM",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.517807Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGNORDFJORDEID",
+            "id": 64904,
+            "isenabled": 1,
+            "name": "G Nordfjordeid",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLDREAM",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.547325Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLCCHALKBOARDNIGHTSHIP",
+            "id": 64911,
+            "isenabled": 1,
+            "name": "C Chalkboard Night Ship",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLDREAM",
+            "xcoord": 13,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.600432Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLCCHOCOLATEBOKEH",
+            "id": 64912,
+            "isenabled": 1,
+            "name": "C Chocolate Bokeh",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLDREAM",
+            "xcoord": 13,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.606741Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGNAPLES",
+            "id": 64917,
+            "isenabled": 1,
+            "name": "G Naples",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLFANTASY",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.646861Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGCARTAGENA",
+            "id": 64933,
+            "isenabled": 1,
+            "name": "G Cartagena",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLFANTASY",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.775330Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGSTAVANGER",
+            "id": 64942,
+            "isenabled": 1,
+            "name": "G Stavanger",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLFANTASY",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.839269Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGMALOY",
+            "id": 64947,
+            "isenabled": 1,
+            "name": "G Maloy",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLFANTASY",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.877111Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGEIDFJORD",
+            "id": 64953,
+            "isenabled": 1,
+            "name": "G Eidfjord",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLFANTASY",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.956600Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGCOBH",
+            "id": 64955,
+            "isenabled": 1,
+            "name": "G Cobh",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLFANTASY",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:10.971476Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLCCHALKBOARDNIGHTSHIP",
+            "id": 64959,
+            "isenabled": 1,
+            "name": "C Chalkboard Night Ship",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLFANTASY",
+            "xcoord": 13,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:11.001306Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGCANNES",
+            "id": 64968,
+            "isenabled": 1,
+            "name": "G Cannes",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLWONDER",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:11.079457Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGSANTORINI",
+            "id": 64972,
+            "isenabled": 1,
+            "name": "G Santorini",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLWONDER",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:11.110008Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLGMYKONOS",
+            "id": 64974,
+            "isenabled": 1,
+            "name": "G Mykonos",
+            "prettyname": "Disney Cruise Line",
+            "venuecode": "DCLWONDER",
+            "xcoord": 22,
+            "ycoord": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:11.125994Z"
+        }
+    }
+]

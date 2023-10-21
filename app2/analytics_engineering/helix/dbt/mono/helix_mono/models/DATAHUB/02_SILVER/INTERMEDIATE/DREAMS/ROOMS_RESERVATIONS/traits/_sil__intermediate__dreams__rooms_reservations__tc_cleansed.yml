@@ -1,0 +1,330 @@
+version: 2
+
+models:
+  - name: sil__intermediate__dreams__rooms_reservations__tc_cleansed
+    description: '{{ doc("sil__intermediate__dreams__rooms_reservations__tc_cleansed") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_cleansed
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_tc_id
+            - metadata_checksum
+
+    columns:
+      - name: data_create_usr_id_cd
+        description: "The identification value for the user or application that created a row in this table. | example: WDPRO"
+        meta:
+          checksum: True
+
+      - name: data_create_dts
+        description: "The month day century year hour minute and second when a row was created in this table. | example: 2023-03-29T11:30:10.669000Z"
+        meta:
+          checksum: True
+
+      - name: data_updt_usr_id_cd
+        description: "The identification value for the user or application that updated this row in this table. | example: WDPRO"
+        meta:
+          checksum: True
+
+      - name: data_updt_dts
+        description: "The month day century year hour minute and second when a row in this table was updated. | example: 2023-03-29T11:30:10.669000Z"
+
+      - name: data_jdo_seq_nb
+        description: "A Java Data Object structure used to ensure that optimistic locking of rows in the database do not occur. | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_tc_id
+        description: "System generated identification value. The unique identifier for a Travel Component. | example: 32097276021"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_tc_typ_nm
+        description: "The designation for the kind of travel component. | example: AccommodationComponent"
+        meta:
+          checksum: True
+
+      - name: data_prnt_tc_id
+        description: "The unique identifier for a Travel Component.  Identifies the parent Travel Component for a Travel Component that has been combined with one or more travel components to form a complete travel component. | example: 2085313432"
+        meta:
+          checksum: True
+
+      - name: data_upgrd_tc_id
+        description: "The unique identifier for a Travel Component.  Identifies the travel component that was upgraded to this instance of a travel component. | example:"
+        meta:
+          checksum: True
+
+      - name: data_tc_grp_nb
+        description: "A unique sequential numeric identifier for a Travel Component Grouping. | example:"
+        meta:
+          checksum: True
+
+      - name: data_prod_id
+        description: "A unique sequential numeric identifier for a product. | example: 106091"
+        meta:
+          checksum: True
+
+      - name: data_tc_chkot_dts
+        description: "The timestamp when the guest no longer used the product. | example: 2023-05-04T00:00:00Z"
+        meta:
+          checksum: True
+
+      - name: data_tc_strt_dts
+        description: "Effective date and time for when a travel component, a product or service, can be used | example: 2023-06-22T00:00:00Z"
+        meta:
+          checksum: True
+
+      - name: data_tc_end_dts
+        description: "Last date and time that a product or service can be actively used. | example: 2023-07-06T00:00:00Z"
+        meta:
+          checksum: True
+
+      - name: data_tc_bk_dts
+        description: "The date and time that the travel component was booked with Disney. | example: 2023-03-29T15:30:10Z"
+        meta:
+          checksum: True
+
+      - name: data_tc_slct_in
+        description: "Determines whether (Y) or not (N) that a Travel Component can be selected by the guest as opposed to being a fixed component for the package. | example:"
+        meta:
+          checksum: True
+
+      - name: data_tc_chkin_dts
+        description: "The month day century and year hour minute and second when a guest checked in for a particular travel component | example: 2023-03-29T15:30:11Z"
+        meta:
+          checksum: True
+
+      - name: data_prod_typ_nm
+        description: "Designation that uniquely identifies a kind of product. | example: AccommodationProduct"
+        meta:
+          checksum: True
+
+      - name: data_blk_cd
+        description: "The unique identifier of a Block.  | example: 01825"
+        meta:
+          checksum: True
+
+      - name: data_comnctn_chan_id
+        description: "A unique sequential numeric identifier for a Communication Channel. | example: 2"
+        meta:
+          checksum: True
+
+      - name: data_sls_chan_id
+        description: "A unique sequential numeric identifier for a Sales Channel. | example: 3"
+        meta:
+          checksum: True
+
+      - name: data_fac_id
+        description: "The identification of the facility (place) that is associated with this instance of a travel component. | example: 80010397"
+        meta:
+          checksum: True
+
+      - name: data_trvl_sts_nm
+        description: "The name of the state of the Travel Status.  For example, one status is Booked, which means that a reservation has been created for the guest.  Another example is Auto Cancelled, which means that the system cancelled the reservation because deposit requirements were not met. | example: Booked"
+        meta:
+          checksum: True
+
+      - name: data_upgrd_typ_nm
+        description: "Identifies the kind of upgrade that occurred on a travel component. | example: None"
+        meta:
+          checksum: True
+
+      - name: data_trvl_agcy_pty_id
+        description: "The unique identification of an individual / organization who performs a particular role or function. | example: 14869011"
+        meta:
+          checksum: True
+
+      - name: data_tc_lst_sty_dt
+        description: "The last time that the guest stayed at the resort that was booked. | example: 2023-03-29"
+        meta:
+          checksum: True
+
+      - name: data_tc_req_fac_tx
+        description: "Free form text from the Booking Client capturing what resort or category (tier) was requested by the guest.  Examples include ANIMAL KINGDOM LODGE, ANIMAL KINGDOM LODGE RESORT, ANY DISNEYLAND PARIS RESORT, ANY DLP SELECT HOTEL, BAHAMA HOUSE, BEACH CLUB, BEACH CLUB RESORT, BEACH CLUB VILLAS, BEACH RESORTS. | example:"
+        meta:
+          checksum: True
+
+      - name: data_tc_cncl_dts
+        description: "The month day century and year hour minute and second when a particular travel component was cancelled. | example: 2023-03-29T15:30:20Z"
+        meta:
+          checksum: True
+
+      - name: data_tc_chrg_in
+        description: "Identifies that a travel component has (Y) or has not (N) charges on the travel component.  Default setting is Y, the travel component has charges. | example: Y"
+        meta:
+          checksum: True
+
+      - name: data_asgn_own_id
+        description: "The unique identification for the assignment of ownership for the corresponding inventory for a component. | example: 336576209"
+        meta:
+          checksum: True
+
+      - name: data_tc_invtry_in
+        description: "Identifies that a travel component has (Y) or has not (N) an equivalent inventory.  Default setting is Y, the travel component has an equivalent inventory. | example: Y"
+        meta:
+          checksum: True
+
+      - name: data_srvc_prd_id
+        description: "The identification value for a particular service period for which this instance of a travel component is valid. | example:"
+        meta:
+          checksum: True
+
+      - name: data_rev_cls_id
+        description: "The unique identifier of Revenue Classification. | example:"
+        meta:
+          checksum: True
+
+      - name: data_prge_dts
+        description: ""
+        meta:
+          checksum: True
+
+      - name: min_metadata_timestamp
+        description: "The Minimum Metadata Timestamp field is used for updating the version end date of the active record in the target table"
+        tests:
+          - not_null
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp for when the record was sent in the stream | example: 2023-03-29T15:30:19.109655Z"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "data | example: data"
+
+      - name: metadata_operation
+        description: ""
+
+      - name: metadata_partition_key_type
+        description: ""
+
+      - name: metadata_schema_name
+        description: "Name of the schema in snowflake | example: res_mgmt"
+
+      - name: metadata_table_name
+        description: "name of the table in snowflake | example: tc"
+
+      - name: metadata_transaction_id
+        description: "unique ID for the stream record | example: 70974432245344"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

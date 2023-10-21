@@ -1,0 +1,1528 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_sales_reservations__booking_package_current
+    description: "{{ doc('sil__hotel_lodging__room_sales_reservations__booking_package_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_sales_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: booking_package_id
+        description: ""
+
+      - name: booking_package_no
+        description: ""
+
+      - name: booking_package_type_value
+        description: ""
+
+      - name: booking_package_status
+        description: ""
+
+      - name: booking_package_adult_count
+        description: ""
+
+      - name: booking_package_child_count
+        description: ""
+
+      - name: booking_package_infant_count
+        description: ""
+
+      - name: booking_package_adult_cost
+        description: ""
+
+      - name: booking_package_child_cost
+        description: ""
+
+      - name: booking_package_infant_cost
+        description: ""
+
+      - name: booking_package_adult_price
+        description: ""
+
+      - name: booking_package_child_price
+        description: ""
+
+      - name: booking_package_infant_price
+        description: ""
+
+      - name: booking_package_total_cost
+        description: ""
+
+      - name: booking_package_total_price
+        description: ""
+
+      - name: booking_package_description
+        description: ""
+
+      - name: booking_package_manually_added
+        description: ""
+
+      - name: booking_package_price_overridden
+        description: ""
+
+      - name: booking_package_departure_date
+        description: ""
+
+      - name: booking_package_overall_margin
+        description: ""
+
+      - name: booking_package_id
+        description: ""
+
+      - name: booking_package_itinerary_no
+        description: ""
+
+      - name: booking_package_product_group
+        description: ""
+
+      - name: booking_package_product_type
+        description: ""
+
+      - name: booking_package_holiday_type
+        description: ""
+
+      - name: booking_package_code
+        description: ""
+
+      - name: booking_package_name
+        description: ""
+
+      - name: booking_package_nights
+        description: ""
+
+      - name: booking_package_stop_sale
+        description: ""
+
+      - name: booking_package_stop_sale_reason
+        description: ""
+
+      - name: booking_package_brand
+        description: ""
+
+      - name: booking_package_commission
+        description: ""
+
+      - name: booking_package_commission_percentage
+        description: ""
+
+      - name: booking_package_manual_commission
+        description: ""
+
+      - name: booking_package_markup_individually
+        description: ""
+
+      - name: booking_package_discount
+        description: ""
+
+      - name: booking_package_occ_scheme_key
+        description: ""
+
+      - name: booking_package_booked_date
+        description: ""
+
+      - name: booking_package_adult_price_adjustment
+        description: ""
+
+      - name: booking_package_child_price_adjustment
+        description: ""
+
+      - name: booking_package_infant_price_adjustment
+        description: ""
+
+      - name: booking_package_cf_score
+        description: ""
+
+      - name: booking_package_widesearch_session_id
+        description: ""
+
+      - name: booking_package_adult_package_markup
+        description: ""
+
+      - name: booking_package_child_package_markup
+        description: ""
+
+      - name: booking_package_infant_package_markup
+        description: ""
+
+      - name: booking_package_adult_package_discount
+        description: ""
+
+      - name: booking_package_child_package_discount
+        description: ""
+
+      - name: booking_package_infant_package_discount
+        description: ""
+
+      - name: booking_package_discount_scheme_id
+        description: ""
+
+      - name: booking_package_calculation_type
+        description: ""
+
+      - name: booking_package_package_discount
+        description: ""
+
+      - name: booking_package_price_grid_code
+        description: ""
+
+      - name: booking_package_commission_rate
+        description: ""
+
+      - name: booking_package_commission_override
+        description: ""
+
+      - name: booking_package_appealing
+        description: ""
+
+      - name: booking_package_threshold_value
+        description: ""
+
+      - name: booking_package_promotion
+        description: ""
+
+      - name: booking_package_removed_item_itinerary_numbers
+        description: ""
+
+      - name: booking_package_itinerary_name
+        description: ""
+
+      - name: booking_package_manually_combined_package
+        description: ""
+
+      - name: booking_package_cms_package_code
+        description: ""
+
+      - name: booking_package_cms_itinerary_code
+        description: ""
+
+      - name: booking_package_cms_grid_code
+        description: ""
+
+      - name: booking_package_round_err_on_tot_price
+        description: ""
+
+      - name: booking_package_reservation_id
+        description: ""
+
+      - name: booking_package_sub_type
+        description: ""
+
+      - name: booking_package_associate_package_no
+        description: ""
+
+      - name: booking_package_associate_session_id
+        description: ""
+
+      - name: booking_package_last_modified_time
+        description: ""
+
+      - name: booking_package_item_booking_source
+        description: ""
+
+      - name: booking_package_nightly_prices
+        description: ""
+
+      - name: booking_company
+        description: ""
+
+      - name: booking_division
+        description: ""
+
+      - name: booking_brand
+        description: ""
+
+      - name: booking_type
+        description: ""
+
+      - name: booking_type_name
+        description: ""
+
+      - name: booking_client_id
+        description: ""
+
+      - name: client_type
+        description: ""
+
+      - name: client_reference
+        description: ""
+
+      - name: client_name
+        description: ""
+
+      - name: booking_status
+        description: ""
+
+      - name: booking_status_name
+        description: ""
+
+      - name: booking_option_status
+        description: ""
+
+      - name: option_status_name
+        description: ""
+
+      - name: booking_arrival_date
+        description: ""
+
+      - name: booking_departure_date
+        description: ""
+
+      - name: booking_quote_date
+        description: ""
+
+      - name: booking_booking_date
+        description: ""
+
+      - name: booking_definite_due_date
+        description: ""
+
+      - name: booking_definite_date
+        description: ""
+
+      - name: booking_firm_due_date
+        description: ""
+
+      - name: booking_firm_date
+        description: ""
+
+      - name: booking_balance_due_date
+        description: ""
+
+      - name: booking_full_payment_received_date
+        description: ""
+
+      - name: booking_manual_commission
+        description: ""
+
+      - name: booking_commission
+        description: ""
+
+      - name: booking_total_price
+        description: ""
+
+      - name: booking_total_cost
+        description: ""
+
+      - name: booking_manual_deposit
+        description: ""
+
+      - name: booking_deposit_amount
+        description: ""
+
+      - name: booking_discount_amount
+        description: ""
+
+      - name: booking_booked_user
+        description: ""
+
+      - name: booking_media_code
+        description: ""
+
+      - name: booking_distribution_channel
+        description: ""
+
+      - name: booking_selling_currency
+        description: ""
+
+      - name: booking_selling_to_base_exchange_rate
+        description: ""
+
+      - name: booking_locked_booking
+        description: ""
+
+      - name: booking_commission_adjustment
+        description: ""
+
+      - name: booking_commission_percentage
+        description: ""
+
+      - name: booking_last_modified_time
+        description: ""
+
+      - name: booking_agent_id
+        description: ""
+
+      - name: booking_profile_id
+        description: ""
+
+      - name: booking_address_no
+        description: ""
+
+      - name: booking_contact_method
+        description: ""
+
+      - name: booking_contact_number
+        description: ""
+
+      - name: booking_client_self_billing
+        description: ""
+
+      - name: booking_general_sales_agent_join_date
+        description: ""
+
+      - name: booking_general_sales_agent_client
+        description: ""
+
+      - name: booking_total_commission
+        description: ""
+
+      - name: booking_discount_on_commission
+        description: ""
+
+      - name: booking_insurance_due
+        description: ""
+
+      - name: booking_total_tax_cost
+        description: ""
+
+      - name: booking_total_tax_price
+        description: ""
+
+      - name: booking_tax_included
+        description: ""
+
+      - name: booking_refund_authorized
+        description: ""
+
+      - name: booking_refund_authorised_amount
+        description: ""
+
+      - name: booking_promotion_id
+        description: ""
+
+      - name: booking_profit
+        description: ""
+
+      - name: booking_non_commissionable_price
+        description: ""
+
+      - name: booking_brochure_id
+        description: ""
+
+      - name: booking_locale
+        description: ""
+
+      - name: booking_vip_booking
+        description: ""
+
+      - name: booking_destination
+        description: ""
+
+      - name: booking_location_id
+        description: ""
+
+      - name: booking_source_id
+        description: ""
+
+      - name: booking_dont_collect_commission
+        description: ""
+
+      - name: booking_main_destination_country
+        description: ""
+
+      - name: booking_external_booking_id
+        description: ""
+
+      - name: booking_atol_type
+        description: ""
+
+      - name: booking_client_status
+        description: ""
+
+      - name: booking_trade_client_payment_group_id
+        description: ""
+
+      - name: booking_item_on_request_indicator
+        description: ""
+
+      - name: booking_manual_destestination_calculation
+        description: ""
+
+      - name: booking_destination_city
+        description: ""
+
+      - name: booking_flight_only
+        description: ""
+
+      - name: booking_tax_calculation_destination_country
+        description: ""
+
+      - name: booking_manual_tax_destination_calculation
+        description: ""
+
+      - name: booking_departure_airport
+        description: ""
+
+      - name: booking_source_market
+        description: ""
+
+      - name: booking_all_docs_dispatched
+        description: ""
+
+      - name: booking_link_bookings
+        description: ""
+
+      - name: booking_reservation_time
+        description: ""
+
+      - name: booking_auto_cancel
+        description: ""
+
+      - name: booking_source
+        description: ""
+
+      - name: booking_dispatch_method
+        description: ""
+
+      - name: booking_dispatch_address
+        description: ""
+
+      - name: booking_insurance_excluded
+        description: ""
+
+      - name: booking_your_reference
+        description: ""
+
+      - name: booking_counselor_name
+        description: ""
+
+      - name: booking_counselor_reference_key
+        description: ""
+
+      - name: booking_counselor_reference_value
+        description: ""
+
+      - name: booking_last_modification_source
+        description: ""
+
+      - name: booking_manual_deposit_due_date
+        description: ""
+
+      - name: booking_block_code
+        description: ""
+
+      - name: booking_group_name
+        description: ""
+
+      - name: trade_client_id
+        description: ""
+
+      - name: trade_client_remit_commission_headoffice
+        description: ""
+
+      - name: trade_client_division
+        description: ""
+
+      - name: trade_client_town
+        description: ""
+
+      - name: trade_client_multiple
+        description: ""
+
+      - name: trade_client_promotion
+        description: ""
+
+      - name: trade_client_web
+        description: ""
+
+      - name: trade_client_agreement_status
+        description: ""
+
+      - name: trade_client_comission_from_headoffice
+        description: ""
+
+      - name: trade_client_commission_group
+        description: ""
+
+      - name: trade_client_net_rate
+        description: ""
+
+      - name: trade_client_rating
+        description: ""
+
+      - name: trade_client_deposit_scheme
+        description: ""
+
+      - name: trade_client_company_registration_number
+        description: ""
+
+      - name: trade_client_issue_invoice
+        description: ""
+
+      - name: trade_client_collect_from_client
+        description: ""
+
+      - name: trade_client_issue_itinerary
+        description: ""
+
+      - name: trade_client_issue_voucher
+        description: ""
+
+      - name: trade_client_show_commission
+        description: ""
+
+      - name: trade_client_general_sales_agent_number
+        description: ""
+
+      - name: trade_client_general_sales_agent_join_date
+        description: ""
+
+      - name: trade_client_self_billing
+        description: ""
+
+      - name: trade_client_amendement_scheme
+        description: ""
+
+      - name: trade_client_cancellation_scheme
+        description: ""
+
+      - name: trade_client_option_scheme
+        description: ""
+
+      - name: trade_client_booking_reference_type
+        description: ""
+
+      - name: trade_client_booking_reference_compulsary
+        description: ""
+
+      - name: trade_client_search_in_call_center
+        description: ""
+
+      - name: trade_client_logo
+        description: ""
+
+      - name: trade_client_credit_limit_headoffice
+        description: ""
+
+      - name: trade_client_wholesale_remittance_advice_agents
+        description: ""
+
+      - name: trade_client_general_sales_agent_client
+        description: ""
+
+      - name: trade_client_payment_group
+        description: ""
+
+      - name: trade_client_tax_registration_number
+        description: ""
+
+      - name: trade_client_area
+        description: ""
+
+      - name: trade_client_language_code
+        description: ""
+
+      - name: trade_client_payment_method
+        description: ""
+
+      - name: trade_client_credit_agent_id
+        description: ""
+
+      - name: trade_client_include_tax_on_commission
+        description: ""
+
+      - name: trade_client_sales_allowed
+        description: ""
+
+      - name: trade_client_documents_allowed
+        description: ""
+
+      - name: trade_client_exclude_partner_emailing
+        description: ""
+
+      - name: trade_client_type
+        description: ""
+
+      - name: trade_client_type_type_id
+        description: ""
+
+      - name: trade_client_type_name
+        description: ""
+
+      - name: trade_client_accept_edocs
+        description: ""
+
+      - name: trade_client_accept_ebook_details
+        description: ""
+
+      - name: trade_client_atol_cert_not_required
+        description: ""
+
+      - name: trade_client_atol_name
+        description: ""
+
+      - name: trade_client_mail_method
+        description: ""
+
+      - name: trade_client_level
+        description: ""
+
+      - name: trade_client_last_modified_time
+        description: ""
+
+      - name: package_itinerary_itinerary_no
+        description: ""
+
+      - name: package_itinerary_code
+        description: ""
+
+      - name: package_itinerary_name
+        description: ""
+
+      - name: package_itinerary_nights
+        description: ""
+
+      - name: package_itinerary_status
+        description: ""
+
+      - name: package_itinerary_stage
+        description: ""
+
+      - name: package_itinerary_stage_reason
+        description: ""
+
+      - name: package_itinerary_extra_stays_only
+        description: ""
+
+      - name: package_itinerary_package_stage
+        description: ""
+
+      - name: package_itinerary_calc_pax_base
+        description: ""
+
+      - name: package_itinerary_push_sales_exist
+        description: ""
+
+      - name: package_itinerary_special_offer_exist
+        description: ""
+
+      - name: package_itinerary_blackout_exist
+        description: ""
+
+      - name: package_itinerary_visa_exist
+        description: ""
+
+      - name: package_itinerary_destination_city
+        description: ""
+
+      - name: package_itinerary_country
+        description: ""
+
+      - name: package_itinerary_tour_region
+        description: ""
+
+      - name: package_itinerary_supplier_id
+        description: ""
+
+      - name: package_itinerary_resort
+        description: ""
+
+      - name: package_itinerary_min_bkg_to_dep_days
+        description: ""
+
+      - name: package_itinerary_set_number
+        description: ""
+
+      - name: package_itinerary_hotel_code
+        description: ""
+
+      - name: package_itinerary_last_modified_time
+        description: ""
+
+      - name: product_type_code
+        description: ""
+
+      - name: product_type_product_group
+        description: ""
+
+      - name: product_type_name
+        description: ""
+
+      - name: package_sellable_membership_type
+        description: ""
+
+      - name: package_sellable_membership_id
+        description: ""
+
+      - name: package_sellable_last_modified_time
+        description: ""
+
+      - name: product_group_name
+        description: ""
+
+      - name: client_freq_member_type_description
+        description: ""
+
+      - name: client_freq_member_type_category_code
+        description: ""
+
+      - name: client_freq_member_type_is_passenger_type
+        description: ""
+
+      - name: client_freq_member_type_agency_id
+        description: ""
+
+      - name: client_freq_member_type_last_modified_time
+        description: ""
+
+      - name: booking_package_no
+        description: ""
+
+      - name: booking_package_type_value
+        description: ""
+
+      - name: booking_package_status
+        description: ""
+
+      - name: booking_package_adult_count
+        description: ""
+
+      - name: booking_package_child_count
+        description: ""
+
+      - name: booking_package_infant_count
+        description: ""
+
+      - name: booking_package_adult_cost
+        description: ""
+
+      - name: booking_package_child_cost
+        description: ""
+
+      - name: booking_package_infant_cost
+        description: ""
+
+      - name: booking_package_adult_price
+        description: ""
+
+      - name: booking_package_child_price
+        description: ""
+
+      - name: booking_package_infant_price
+        description: ""
+
+      - name: booking_package_total_cost
+        description: ""
+
+      - name: booking_package_total_price
+        description: ""
+
+      - name: booking_package_description
+        description: ""
+
+      - name: booking_package_manually_added
+        description: ""
+
+      - name: booking_package_price_overridden
+        description: ""
+
+      - name: booking_package_departure_date
+        description: ""
+
+      - name: booking_package_overall_margin
+        description: ""
+
+      - name: booking_package_id
+        description: ""
+
+      - name: booking_package_itinerary_no
+        description: ""
+
+      - name: booking_package_product_group
+        description: ""
+
+      - name: booking_package_product_type
+        description: ""
+
+      - name: booking_package_holiday_type
+        description: ""
+
+      - name: booking_package_code
+        description: ""
+
+      - name: booking_package_name
+        description: ""
+
+      - name: booking_package_nights
+        description: ""
+
+      - name: booking_package_stop_sale
+        description: ""
+
+      - name: booking_package_stop_sale_reason
+        description: ""
+
+      - name: booking_package_brand
+        description: ""
+
+      - name: booking_package_commission
+        description: ""
+
+      - name: booking_package_commission_percentage
+        description: ""
+
+      - name: booking_package_manual_commission
+        description: ""
+
+      - name: booking_package_markup_individually
+        description: ""
+
+      - name: booking_package_discount
+        description: ""
+
+      - name: booking_package_occ_scheme_key
+        description: ""
+
+      - name: booking_package_booked_date
+        description: ""
+
+      - name: booking_package_adult_price_adjustment
+        description: ""
+
+      - name: booking_package_child_price_adjustment
+        description: ""
+
+      - name: booking_package_infant_price_adjustment
+        description: ""
+
+      - name: booking_package_cf_score
+        description: ""
+
+      - name: booking_package_widesearch_session_id
+        description: ""
+
+      - name: booking_package_adult_package_markup
+        description: ""
+
+      - name: booking_package_child_package_markup
+        description: ""
+
+      - name: booking_package_infant_package_markup
+        description: ""
+
+      - name: booking_package_adult_package_discount
+        description: ""
+
+      - name: booking_package_child_package_discount
+        description: ""
+
+      - name: booking_package_infant_package_discount
+        description: ""
+
+      - name: booking_package_discount_scheme_id
+        description: ""
+
+      - name: booking_package_calculation_type
+        description: ""
+
+      - name: booking_package_package_discount
+        description: ""
+
+      - name: booking_package_price_grid_code
+        description: ""
+
+      - name: booking_package_commission_rate
+        description: ""
+
+      - name: booking_package_commission_override
+        description: ""
+
+      - name: booking_package_appealing
+        description: ""
+
+      - name: booking_package_threshold_value
+        description: ""
+
+      - name: booking_package_promotion
+        description: ""
+
+      - name: booking_package_removed_item_itinerary_numbers
+        description: ""
+
+      - name: booking_package_itinerary_name
+        description: ""
+
+      - name: booking_package_manually_combined_package
+        description: ""
+
+      - name: booking_package_cms_package_code
+        description: ""
+
+      - name: booking_package_cms_itinerary_code
+        description: ""
+
+      - name: booking_package_cms_grid_code
+        description: ""
+
+      - name: booking_package_round_err_on_tot_price
+        description: ""
+
+      - name: booking_package_reservation_id
+        description: ""
+
+      - name: booking_package_sub_type
+        description: ""
+
+      - name: booking_package_associate_package_no
+        description: ""
+
+      - name: booking_package_associate_session_id
+        description: ""
+
+      - name: booking_package_last_modified_time
+        description: ""
+
+      - name: booking_package_item_booking_source
+        description: ""
+
+      - name: booking_package_nightly_prices
+        description: ""
+
+      - name: booking_company
+        description: ""
+
+      - name: booking_division
+        description: ""
+
+      - name: booking_brand
+        description: ""
+
+      - name: booking_type
+        description: ""
+
+      - name: booking_type_name
+        description: ""
+
+      - name: booking_client_id
+        description: ""
+
+      - name: client_type
+        description: ""
+
+      - name: client_reference
+        description: ""
+
+      - name: client_name
+        description: ""
+
+      - name: booking_status
+        description: ""
+
+      - name: booking_status_name
+        description: ""
+
+      - name: booking_option_status
+        description: ""
+
+      - name: option_status_name
+        description: ""
+
+      - name: booking_arrival_date
+        description: ""
+
+      - name: booking_departure_date
+        description: ""
+
+      - name: booking_quote_date
+        description: ""
+
+      - name: booking_booking_date
+        description: ""
+
+      - name: booking_definite_due_date
+        description: ""
+
+      - name: booking_definite_date
+        description: ""
+
+      - name: booking_firm_due_date
+        description: ""
+
+      - name: booking_firm_date
+        description: ""
+
+      - name: booking_balance_due_date
+        description: ""
+
+      - name: booking_full_payment_received_date
+        description: ""
+
+      - name: booking_manual_commission
+        description: ""
+
+      - name: booking_commission
+        description: ""
+
+      - name: booking_total_price
+        description: ""
+
+      - name: booking_total_cost
+        description: ""
+
+      - name: booking_manual_deposit
+        description: ""
+
+      - name: booking_deposit_amount
+        description: ""
+
+      - name: booking_discount_amount
+        description: ""
+
+      - name: booking_booked_user
+        description: ""
+
+      - name: booking_media_code
+        description: ""
+
+      - name: booking_distribution_channel
+        description: ""
+
+      - name: booking_selling_currency
+        description: ""
+
+      - name: booking_selling_to_base_exchange_rate
+        description: ""
+
+      - name: booking_locked_booking
+        description: ""
+
+      - name: booking_commission_adjustment
+        description: ""
+
+      - name: booking_commission_percentage
+        description: ""
+
+      - name: booking_last_modified_time
+        description: ""
+
+      - name: booking_agent_id
+        description: ""
+
+      - name: booking_profile_id
+        description: ""
+
+      - name: booking_address_no
+        description: ""
+
+      - name: booking_contact_method
+        description: ""
+
+      - name: booking_contact_number
+        description: ""
+
+      - name: booking_client_self_billing
+        description: ""
+
+      - name: booking_general_sales_agent_join_date
+        description: ""
+
+      - name: booking_general_sales_agent_client
+        description: ""
+
+      - name: booking_total_commission
+        description: ""
+
+      - name: booking_discount_on_commission
+        description: ""
+
+      - name: booking_insurance_due
+        description: ""
+
+      - name: booking_total_tax_cost
+        description: ""
+
+      - name: booking_total_tax_price
+        description: ""
+
+      - name: booking_tax_included
+        description: ""
+
+      - name: booking_refund_authorized
+        description: ""
+
+      - name: booking_refund_authorised_amount
+        description: ""
+
+      - name: booking_promotion_id
+        description: ""
+
+      - name: booking_profit
+        description: ""
+
+      - name: booking_non_commissionable_price
+        description: ""
+
+      - name: booking_brochure_id
+        description: ""
+
+      - name: booking_locale
+        description: ""
+
+      - name: booking_vip_booking
+        description: ""
+
+      - name: booking_destination
+        description: ""
+
+      - name: booking_location_id
+        description: ""
+
+      - name: booking_source_id
+        description: ""
+
+      - name: booking_dont_collect_commission
+        description: ""
+
+      - name: booking_main_destination_country
+        description: ""
+
+      - name: booking_external_booking_id
+        description: ""
+
+      - name: booking_atol_type
+        description: ""
+
+      - name: booking_client_status
+        description: ""
+
+      - name: booking_trade_client_payment_group_id
+        description: ""
+
+      - name: booking_item_on_request_indicator
+        description: ""
+
+      - name: booking_manual_destestination_calculation
+        description: ""
+
+      - name: booking_destination_city
+        description: ""
+
+      - name: booking_flight_only
+        description: ""
+
+      - name: booking_tax_calculation_destination_country
+        description: ""
+
+      - name: booking_manual_tax_destination_calculation
+        description: ""
+
+      - name: booking_departure_airport
+        description: ""
+
+      - name: booking_source_market
+        description: ""
+
+      - name: booking_all_docs_dispatched
+        description: ""
+
+      - name: booking_link_bookings
+        description: ""
+
+      - name: booking_reservation_time
+        description: ""
+
+      - name: booking_auto_cancel
+        description: ""
+
+      - name: booking_source
+        description: ""
+
+      - name: booking_dispatch_method
+        description: ""
+
+      - name: booking_dispatch_address
+        description: ""
+
+      - name: booking_insurance_excluded
+        description: ""
+
+      - name: booking_your_reference
+        description: ""
+
+      - name: booking_counselor_name
+        description: ""
+
+      - name: booking_counselor_reference_key
+        description: ""
+
+      - name: booking_counselor_reference_value
+        description: ""
+
+      - name: booking_last_modification_source
+        description: ""
+
+      - name: booking_manual_deposit_due_date
+        description: ""
+
+      - name: booking_block_code
+        description: ""
+
+      - name: booking_group_name
+        description: ""
+
+      - name: trade_client_id
+        description: ""
+
+      - name: trade_client_remit_commission_headoffice
+        description: ""
+
+      - name: trade_client_division
+        description: ""
+
+      - name: trade_client_town
+        description: ""
+
+      - name: trade_client_multiple
+        description: ""
+
+      - name: trade_client_promotion
+        description: ""
+
+      - name: trade_client_web
+        description: ""
+
+      - name: trade_client_agreement_status
+        description: ""
+
+      - name: trade_client_comission_from_headoffice
+        description: ""
+
+      - name: trade_client_commission_group
+        description: ""
+
+      - name: trade_client_net_rate
+        description: ""
+
+      - name: trade_client_rating
+        description: ""
+
+      - name: trade_client_deposit_scheme
+        description: ""
+
+      - name: trade_client_company_registration_number
+        description: ""
+
+      - name: trade_client_issue_invoice
+        description: ""
+
+      - name: trade_client_collect_from_client
+        description: ""
+
+      - name: trade_client_issue_itinerary
+        description: ""
+
+      - name: trade_client_issue_voucher
+        description: ""
+
+      - name: trade_client_show_commission
+        description: ""
+
+      - name: trade_client_general_sales_agent_number
+        description: ""
+
+      - name: trade_client_general_sales_agent_join_date
+        description: ""
+
+      - name: trade_client_self_billing
+        description: ""
+
+      - name: trade_client_amendement_scheme
+        description: ""
+
+      - name: trade_client_cancellation_scheme
+        description: ""
+
+      - name: trade_client_option_scheme
+        description: ""
+
+      - name: trade_client_booking_reference_type
+        description: ""
+
+      - name: trade_client_booking_reference_compulsary
+        description: ""
+
+      - name: trade_client_search_in_call_center
+        description: ""
+
+      - name: trade_client_logo
+        description: ""
+
+      - name: trade_client_credit_limit_headoffice
+        description: ""
+
+      - name: trade_client_wholesale_remittance_advice_agents
+        description: ""
+
+      - name: trade_client_general_sales_agent_client
+        description: ""
+
+      - name: trade_client_payment_group
+        description: ""
+
+      - name: trade_client_tax_registration_number
+        description: ""
+
+      - name: trade_client_area
+        description: ""
+
+      - name: trade_client_language_code
+        description: ""
+
+      - name: trade_client_payment_method
+        description: ""
+
+      - name: trade_client_credit_agent_id
+        description: ""
+
+      - name: trade_client_include_tax_on_commission
+        description: ""
+
+      - name: trade_client_sales_allowed
+        description: ""
+
+      - name: trade_client_documents_allowed
+        description: ""
+
+      - name: trade_client_exclude_partner_emailing
+        description: ""
+
+      - name: trade_client_type
+        description: ""
+
+      - name: trade_client_type_type_id
+        description: ""
+
+      - name: trade_client_type_name
+        description: ""
+
+      - name: trade_client_accept_edocs
+        description: ""
+
+      - name: trade_client_accept_ebook_details
+        description: ""
+
+      - name: trade_client_atol_cert_not_required
+        description: ""
+
+      - name: trade_client_atol_name
+        description: ""
+
+      - name: trade_client_mail_method
+        description: ""
+
+      - name: trade_client_level
+        description: ""
+
+      - name: package_itinerary_itinerary_no
+        description: ""
+
+      - name: package_itinerary_code
+        description: ""
+
+      - name: package_itinerary_name
+        description: ""
+
+      - name: package_itinerary_nights
+        description: ""
+
+      - name: package_itinerary_status
+        description: ""
+
+      - name: package_itinerary_stage
+        description: ""
+
+      - name: package_itinerary_stage_reason
+        description: ""
+
+      - name: package_itinerary_extra_stays_only
+        description: ""
+
+      - name: package_itinerary_package_stage
+        description: ""
+
+      - name: package_itinerary_calc_pax_base
+        description: ""
+
+      - name: package_itinerary_push_sales_exist
+        description: ""
+
+      - name: package_itinerary_special_offer_exist
+        description: ""
+
+      - name: package_itinerary_blackout_exist
+        description: ""
+
+      - name: package_itinerary_visa_exist
+        description: ""
+
+      - name: package_itinerary_destination_city
+        description: ""
+
+      - name: package_itinerary_country
+        description: ""
+
+      - name: package_itinerary_tour_region
+        description: ""
+
+      - name: package_itinerary_supplier_id
+        description: ""
+
+      - name: package_itinerary_resort
+        description: ""
+
+      - name: package_itinerary_min_bkg_to_dep_days
+        description: ""
+
+      - name: package_itinerary_set_number
+        description: ""
+
+      - name: package_itinerary_hotel_code
+        description: ""
+
+      - name: package_itinerary_last_modified_time
+        description: ""
+
+      - name: product_type_code
+        description: ""
+
+      - name: product_type_product_group
+        description: ""
+
+      - name: product_type_name
+        description: ""
+
+      - name: package_sellable_membership_type
+        description: ""
+
+      - name: package_sellable_membership_id
+        description: ""
+
+      - name: package_sellable_last_modified_time
+        description: ""
+
+      - name: product_group_name
+        description: ""
+
+      - name: client_freq_member_type_description
+        description: ""
+
+      - name: client_freq_member_type_category_code
+        description: ""
+
+      - name: client_freq_member_type_is_passenger_type
+        description: ""
+
+      - name: client_freq_member_type_agency_id
+        description: ""
+
+      - name: client_freq_member_type_last_modified_time
+        description: ""

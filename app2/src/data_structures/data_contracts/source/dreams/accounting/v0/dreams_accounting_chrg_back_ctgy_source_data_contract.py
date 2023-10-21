@@ -1,0 +1,142 @@
+"""Source Data Contract for DREAMS Charge Back Category"""
+
+from __future__ import annotations
+from datetime import datetime
+from pydantic import BaseModel, Field
+from app.src.data_structures.data_contracts.source.dreams.global_dreams_source_data_contract import GlobalDreamsMetadata
+
+
+class Data(BaseModel):
+    """Class for Dreams Charge Back Category Data"""
+
+    chrg_back_ctgy_id: int = Field(
+        ...,
+        alias="CHRG_BACK_CTGY_ID",
+        name="",
+        description="",
+        example=1,
+        guest_identifier=False,
+        transaction_identifier=False,
+        identifier_tag="",
+    )
+    chrg_back_ctgy_nm: str = Field(
+        ...,
+        alias="CHRG_BACK_CTGY_NM",
+        name="",
+        description="",
+        example="Comp Tickets",
+        guest_identifier=False,
+        transaction_identifier=False,
+        identifier_tag="",
+    )
+    chrg_back_ctgy_strt_dt: datetime = Field(
+        ...,
+        alias="CHRG_BACK_CTGY_STRT_DT",
+        name="",
+        description="",
+        example="1999-01-01T05:00:00.000Z",
+        guest_identifier=False,
+        transaction_identifier=False,
+        identifier_tag="",
+    )
+    chrg_back_ctgy_end_dt: datetime = Field(
+        ...,
+        alias="CHRG_BACK_CTGY_END_DT",
+        name="",
+        description="",
+        example="2099-01-01T05:00:00.000Z",
+        guest_identifier=False,
+        transaction_identifier=False,
+        identifier_tag="",
+    )
+    create_usr_id_cd: str = Field(
+        ...,
+        alias="CREATE_USR_ID_CD",
+        name="",
+        description="",
+        example="LILOCONV",
+        guest_identifier=False,
+        transaction_identifier=False,
+        identifier_tag="",
+    )
+    create_dts: datetime = Field(
+        ...,
+        alias="CREATE_DTS",
+        name="",
+        description="",
+        example="2010-01-20T07:07:32.305Z",
+        guest_identifier=False,
+        transaction_identifier=False,
+        identifier_tag="",
+    )
+    updt_usr_id_cd: str = Field(
+        ...,
+        alias="UPDT_USR_ID_CD",
+        name="",
+        description="",
+        example="PEREB049",
+        guest_identifier=False,
+        transaction_identifier=False,
+        identifier_tag="",
+    )
+    updt_dts: datetime = Field(
+        ...,
+        alias="UPDT_DTS",
+        name="",
+        description="",
+        example="2012-11-14T14:10:24.105Z",
+        guest_identifier=False,
+        transaction_identifier=False,
+        identifier_tag="",
+    )
+    jdo_seq_nb: int = Field(
+        ...,
+        alias="JDO_SEQ_NB",
+        name="",
+        description="",
+        example=0,
+        guest_identifier=False,
+        transaction_identifier=False,
+        identifier_tag="",
+    )
+
+
+class DREAMSAccountingChrgBackCtgyModel(BaseModel):
+    """Payload class for DREAMSAccountingChrgBackCtgyModel"""
+
+    class Config:
+        """Payload Level Metadata"""
+
+        title = "Charge Back Category"
+        stream_name = ""
+        description = """Provides the categories that can be charged back:
+Disney's Magical Express
+Tickets
+Comp Tickets
+Rollaway Bed
+Resort Service Inconvenience
+Refrigerator Rental
+Self Parking Fee
+Phone - Long Distance
+Phone - Local
+Pager Rental
+Laundry
+Room Rate Adjustment
+Phone - 800/Toll Free
+a la carte
+Minibars
+Newspaper
+Room Defect
+POS Adjustment
+Transportation"""
+        unique_identifier = ["data.CHRG_BACK_CTGY_ID"]
+        timezone = "UTC"
+        pi_category = [""]
+        isps = "Internal Use"
+        financial_data = ""
+        version = "0.0.1"
+        key_path_name = "metadata.table-name"
+        key_path_value = "CHRG_BACK_CTGY"
+
+    data: Data = Field(..., alias="data")
+    metadata: GlobalDreamsMetadata = Field(..., alias="metadata")

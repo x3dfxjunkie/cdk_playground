@@ -1,0 +1,7 @@
+statusConfidenceLabel:
+  type: string
+  description: Confidence level of the inference and derivation of the status
+  enum:
+    - High
+    - Medium
+    - Low

@@ -1,0 +1,23 @@
+stack_extension: &se titus-wdw
+ingest_pattern: &ip kinesis2kinesis
+active: True
+pattern_instances:
+  - region: us-east-1
+    resources:
+      cross_account:  # include this section if your kinesis stream is a non Guest-360 account
+        cross_account_type: &cat target
+        cross_account_id: &id 733845942410 # provide the target account where your source kinesis stream is
+        cross_account_role_name: wdpr-fastpass-S0001539-use1-lst-titus-iam_role  # Name of IAM role your cross-account lambda is using
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_LATEST_LANDING # Needs update to appropriate default routing
+      default_schema: &schema LND_TITUS_WDW
+#      data_contracts:
+#        - data_contract: 
+#          class_name: 
+#          data_contract_version: 0.0.1
+#          key_path:
+#            - name: 
+#              value: 
+#          router_database: LATEST_LANDING
+#          router_schema: *schema
+#          router_table: 

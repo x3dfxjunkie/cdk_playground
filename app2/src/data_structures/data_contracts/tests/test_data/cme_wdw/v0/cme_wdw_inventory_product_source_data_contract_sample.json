@@ -1,0 +1,196 @@
+[
+    {
+        "data": {
+            "id": "WDW_AP",
+            "name": "Annual Pass",
+            "destination_id": "WDW",
+            "category_id": "AP",
+            "last_updated": "2021-05-06T17:10:11Z",
+            "created_on": "2021-05-06T17:10:11Z",
+            "created_usr": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-22T15:23:53.358724Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "WDW_AP1",
+            "name": "DELETE-AP1",
+            "destination_id": "WDW",
+            "category_id": "AP1",
+            "last_updated": "2022-01-11T09:39:21Z",
+            "update_usr": "MICKEY01",
+            "created_on": "2021-05-06T17:12:51Z",
+            "created_usr": "DUCK01"
+        },
+        "metadata": {
+            "timestamp": "2023-06-22T15:23:53.365195Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "WDW_APBONUS",
+            "name": "AP Bonus",
+            "destination_id": "WDW",
+            "category_id": "APBONUS",
+            "last_updated": "2023-02-23T13:56:07Z",
+            "created_on": "2023-02-23T13:56:07Z",
+            "created_usr": "DUCK01"
+        },
+        "metadata": {
+            "timestamp": "2023-06-22T15:23:53.380196Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "WDW_BUFFER",
+            "name": "Buffer Inventory",
+            "destination_id": "WDW",
+            "category_id": "BUFFER",
+            "last_updated": "2022-01-11T10:27:07Z",
+            "created_on": "2022-01-11T10:27:07Z",
+            "created_usr": "DUCK01"
+        },
+        "metadata": {
+            "timestamp": "2023-06-22T15:23:53.387363Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "WDW_CASTCOMP",
+            "name": "Cast Comp Ticket",
+            "destination_id": "WDW",
+            "category_id": "CASTCOMP",
+            "last_updated": "2022-01-11T10:13:35Z",
+            "created_on": "2022-01-11T10:13:35Z",
+            "created_usr": "DUCK01"
+        },
+        "metadata": {
+            "timestamp": "2023-06-22T15:23:53.394374Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "WDW_GROUPS",
+            "name": "Non-Leisure Products",
+            "destination_id": "WDW",
+            "category_id": "GROUPS",
+            "last_updated": "2022-01-11T09:43:51Z",
+            "created_on": "2022-01-11T09:43:51Z",
+            "created_usr": "DUCK01"
+        },
+        "metadata": {
+            "timestamp": "2023-06-22T15:23:53.400474Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "WDW_MEP",
+            "name": "Cast Main Entrance Pass",
+            "destination_id": "WDW",
+            "category_id": "MEP",
+            "last_updated": "2022-04-11T16:37:42Z",
+            "update_usr": "MICKEY01",
+            "created_on": "2021-11-16T19:07:21Z",
+            "created_usr": "DUCK01"
+        },
+        "metadata": {
+            "timestamp": "2023-06-22T15:23:53.407873Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "WDW_MEPBONUS",
+            "name": "MEP Bonus",
+            "destination_id": "WDW",
+            "category_id": "MEPBONUS",
+            "last_updated": "2023-04-17T13:39:50Z",
+            "created_on": "2023-04-17T13:39:50Z",
+            "created_usr": "DUCK01"
+        },
+        "metadata": {
+            "timestamp": "2023-06-22T15:23:53.415709Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "WDW_RESORT",
+            "name": "Resort Guest Inventory",
+            "destination_id": "WDW",
+            "category_id": "RESORT",
+            "last_updated": "2021-07-13T20:51:31Z",
+            "update_usr": "MICKEY01",
+            "created_on": "2021-07-13T16:48:17Z",
+            "created_usr": "DUCK01"
+        },
+        "metadata": {
+            "timestamp": "2023-06-22T15:23:53.422608Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "WDW_TICKET",
+            "name": "Day Tickets",
+            "destination_id": "WDW",
+            "category_id": "TICKET",
+            "last_updated": "2022-01-11T09:43:04Z",
+            "update_usr": "MICKEY01",
+            "created_on": "2021-11-16T18:22:23Z",
+            "created_usr": "DUCK01"
+        },
+        "metadata": {
+            "timestamp": "2023-06-22T15:23:53.428274Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    }
+]

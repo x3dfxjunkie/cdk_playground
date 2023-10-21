@@ -1,0 +1,15 @@
+filegroup(
+    name = "missing_init_files",
+    srcs = [
+        "__init__.py",
+        "//app:missing_init_files",
+    ],
+    visibility = ["//visibility:public"],
+)
+
+filegroup(
+    name = "otel_config",
+    srcs = ["otel-config.yaml"],
+    data = ["otel-config.yaml"],
+    visibility = ["//visibility:public"],
+)

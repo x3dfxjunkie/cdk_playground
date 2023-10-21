@@ -1,0 +1,84 @@
+[
+    {
+        "data": {
+            "REF_CODE": "AvrzKZHTvqVzCYqgkWjI",
+            "STATUS_ID": 6432,
+            "NAME": "HGMbOkJHxLtUfWouUeAW"
+        },
+        "metadata": {
+            "timestamp": "1977-02-12 03:49:16",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "STATUS",
+            "transaction-id": 3839,
+            "transaction_record_id": 70974432245344,
+            "prev_transaction_id": 70974432245344,
+            "prev_transaction_record_id": 70974432245344,
+            "commit_timestamp": "2023-03-29T15:30:19.109655Z",
+            "stream_position": ""
+        }
+    },
+    {
+        "data": {
+            "REF_CODE": "pxuLLpLaEdUrkUqtbbBA",
+            "STATUS_ID": 8530,
+            "NAME": "tOKEgvWRqJAZFpOZLSpe"
+        },
+        "metadata": {
+            "timestamp": "2017-04-20 09:45:43",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "STATUS",
+            "transaction-id": 7435
+        }
+    },
+    {
+        "data": {
+            "REF_CODE": "LWPYtrlUrcaiUAhtDnGw",
+            "STATUS_ID": 8947,
+            "NAME": "MgUMnbRJRGnwEIKDvkKs"
+        },
+        "metadata": {
+            "timestamp": "2008-11-09 14:44:38",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "STATUS",
+            "transaction-id": 1176
+        }
+    },
+    {
+        "data": {
+            "REF_CODE": "HrMUHXtPMfwBtMnDhwxN",
+            "STATUS_ID": 4412,
+            "NAME": "mrvyEBVDechEJiWrolDA"
+        },
+        "metadata": {
+            "timestamp": "1973-04-27 07:58:31",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "STATUS",
+            "transaction-id": 2727
+        }
+    },
+    {
+        "data": {
+            "STATUS_ID": 1903
+        },
+        "metadata": {
+            "timestamp": "1994-06-27 19:21:42",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "STATUS"
+        }
+    }
+]

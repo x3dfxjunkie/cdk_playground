@@ -1,0 +1,119 @@
+[
+    {
+        "data": {
+            "PMT_ID": 281062082,
+            "FOLIO_SETTL_METH_ID": 62724462,
+            "CHRG_GRP_FOLIO_ID": 269646470,
+            "CREATE_USR_ID_CD": "SttlGPFol_15",
+            "CREATE_DTS": "2023-06-09T02:23:06.403000Z",
+            "transact_seq": "20230609062851000000000000004544201"
+        },
+        "metadata": {
+            "timestamp": "2023-06-09T20:52:48.637108Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_PMT",
+            "transaction-id": 65565
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 281062175,
+            "FOLIO_SETTL_METH_ID": 208495139,
+            "CHRG_GRP_FOLIO_ID": 274157863,
+            "CREATE_USR_ID_CD": "SttlGPFol_15",
+            "CREATE_DTS": "2023-06-09T02:23:06.403000Z",
+            "transact_commit_timestamp": "2023-06-09T06:28:52Z",
+            "transact_seq": "20230609062852000000000000004544485"
+        },
+        "metadata": {
+            "timestamp": "2023-06-09T20:52:49.108165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_PMT",
+            "transaction-id": 2031644
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 281062200,
+            "FOLIO_SETTL_METH_ID": 62724491,
+            "CHRG_GRP_FOLIO_ID": 276407989,
+            "CREATE_USR_ID_CD": "SttlGPFol_15",
+            "CREATE_DTS": "2023-06-09T02:23:06.403000Z",
+            "transact_commit_timestamp": "2023-06-09T06:28:52Z"
+        },
+        "metadata": {
+            "timestamp": "2023-06-09T20:52:49.442584Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_PMT",
+            "transaction-id": 2097185
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 281062083,
+            "FOLIO_SETTL_METH_ID": 379450388,
+            "CHRG_GRP_FOLIO_ID": 271448084,
+            "CREATE_USR_ID_CD": "SttlGPFol_15",
+            "CREATE_DTS": "2023-06-09T02:23:06.403000Z",
+            "transact_commit_timestamp": "2023-06-09T06:28:52Z",
+            "transact_seq": "20230609062852000000000000004544765"
+        },
+        "metadata": {
+            "timestamp": "2023-06-09T20:52:49.608098Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_PMT",
+            "transaction-id": 1900584
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 281062176,
+            "FOLIO_SETTL_METH_ID": 62724395,
+            "CHRG_GRP_FOLIO_ID": 269441615,
+            "CREATE_USR_ID_CD": "SttlGPFol_15",
+            "CREATE_DTS": "2023-06-09T02:23:06.403000Z",
+            "transact_commit_timestamp": "2023-06-09T06:28:52Z",
+            "transact_seq": "20230609062852000000000000004545037"
+        },
+        "metadata": {
+            "timestamp": "2023-06-09T20:52:49.922539Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_PMT",
+            "transaction-id": 1310741
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 281062201,
+            "FOLIO_SETTL_METH_ID": 379450388,
+            "CHRG_GRP_FOLIO_ID": 271448148,
+            "CREATE_USR_ID_CD": "SttlGPFol_15",
+            "CREATE_DTS": "2023-06-09T02:23:06.403000Z",
+            "transact_commit_timestamp": "2023-06-09T06:28:52Z",
+            "transact_seq": "20230609062852000000000000004545289"
+        },
+        "metadata": {
+            "timestamp": "2023-06-09T20:52:50.372447Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_PMT"
+        }
+    }
+]

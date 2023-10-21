@@ -1,0 +1,104 @@
+stack_extension: &se dlr-cme
+ingest_pattern: &ip dms
+active: False # turning off until DMS certificates are implemented to enable SSL certs
+feature_branch: False # set to False unless you want to deploy DMS in ephemeral envs
+pattern_instances:
+  - region: &region-1 us-east-1
+    resources:
+      dms_repl_instance: 
+        name: &dn dlr-cme
+        instance_class: dms.t2.micro
+        storage: 10
+        engine_version: "3.4.6"
+        minor_upgrade: True
+        multi_az: False
+        maint_window: Mon:00:00-Mon:01:00
+        instance_identifier: dlr-cme-inst
+        security_group_ids:
+        subnet_props:
+          group_name: dlr-cme-subnet-group
+          description: subnet group for dlr cme DMS
+          subnet_identifer: dlr-cme-subnet
+          subnet_list:
+            - subnet-0a28c8fdd2b6b3bdf
+      source_endpoint:
+        endpoint_type: source
+        engine_name: mariadb #need to update
+        settings:
+          events_poll_interval: 5
+          server_timezone: US/Pacific
+          clean_source_metadata_on_mismatch: False
+          secrets_manager_access_role_arn: arn placeholder #pragma: allowlist secret
+          secrets_manager_secret_id: arn:aws:secretsmanager:us-east-1:543276908693:secret:lst-use1-cme-dlr-ca-secret-hpAN24 #pragma: allowlist secret
+        database_name: awakening
+      dms_repl_task:
+        replication_task_identifier: *se
+        source_endpoint_arn: source_arn
+        target_endpoint_arn: target_arn
+        replication_instance_arn: instance_arn
+        migration_type: full-load-and-cdc
+        table_mappings:
+          rules:
+            - rule-type: selection
+              rule-id: "1"
+              rule-name: "1"
+              rule-action: include
+              object-locator:
+                schema-name: "awakening"
+                table-name: "%"
+        replication_task_settings: '{"Logging": {"EnableLogging": true}}'
+      stack_extension: *se
+      kinesis: &kinesis
+        stream_name: &stream_name dlr-cme-kinesis
+        retention_period: &kdr !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 14
+        stream_mode: &ksm !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - PROVISIONED
+        shard_count: &ksc 1
+        encryption_key: NULL
+      kinesis_firehose:
+        enabled: False
+        bucket_name: raw
+        buffering_hints:
+          interval: 60
+          unit_of_time: SECONDS
+        partitioning:
+          dynamic:
+            enabled: True
+            keys:
+              type: .type
+          custom_keys:
+            data_entity: *se
+      source_iam:
+        role_name: source-endpoint-dlr-cme
+        assumed_by: !!python/object/apply:aws_cdk.aws_iam.ServicePrincipal
+          - dms.us-east-1.amazonaws.com
+        description: IAM Role to be used for the secrets manager for dlr cme mariadb
+      source_kms_key: b502d39f-5276-4554-8b42-2c841a52e3a5
+      target_iam:
+        role_name: target-endpoint-dlr-cme
+        assumed_by: !!python/object/apply:aws_cdk.aws_iam.ServicePrincipal
+          - dms.amazonaws.com
+        description: IAM Role to be used for the DMS kinesis target endpoint for dlr cme
+      target_endpoint:
+        endpoint_type: target
+        engine_name: kinesis
+        settings:
+          include_control_details: False
+          include_null_and_empty: False
+          include_partition_value: False
+          include_table_alter_operations: False
+          include_transaction_details: False
+          message_format: JSON
+          no_hex_prefix: False
+          partition_include_schema_table: False
+      networking:
+        allowlist:
+          egress:
+            cidrs:
+              - "0.0.0.0/0"
+            ports:
+              - 443
+          local_egress:
+            cidr:
+              "10.0.0.0/8"

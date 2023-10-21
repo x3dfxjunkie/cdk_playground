@@ -1,0 +1,35 @@
+# couldn't figure out all the dependency issues
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+py_lambda_library(
+    name = "kinesis_consumer_construct",
+    srcs = glob(["kinesis_consumer/*.py"]),
+    data = ["//app/src:missing_init_files"],
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("aws-cdk-lib"),
+    ],
+)
+
+pytest_test(
+    name = "test_kinesis_consumer_construct",
+    srcs = glob([
+        "tests/**/*.py",
+        "tests/*.py",
+    ]),
+    deps = [
+        ":kinesis_consumer_construct",
+        "//app/guest360_constructs",
+        "//app/src/reliability",
+        requirement("cdk-nag"),
+        requirement("pyyaml"),
+        requirement("moto"),
+        requirement("mock"),
+        requirement("boto3"),
+        requirement("botocore"),
+        requirement("pytest-timeout"),
+        # requirement("aws_cdk.aws_apigatewayv2_alpha"),
+    ],
+)

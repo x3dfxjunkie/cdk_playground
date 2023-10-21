@@ -1,0 +1,60 @@
+stack_extension: &se testing
+region: &region-1 us-east-1
+resources:
+    kinesis: &kinesis
+      stream_name: &stream_name guest360-load-testing-test-stream
+      retention_period: &kdr !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+        - 14
+      stream_mode: &ksm !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+        - PROVISIONED
+      shard_count: &ksc 1
+      encryption_key: NULL
+    guest360_execute_load_test_scenario:
+      name: "guest360_execute_load_test_scenario"
+      description: "ecs orchestrator StateMachine"
+      definition_file: "guest360_execute_load_test.yaml"
+      iam:
+        role_name: execute_load_test_scenario_stepfunction_role
+        assumed_by: !!python/object/apply:aws_cdk.aws_iam.ServicePrincipal
+         - states.amazonaws.com
+        description: Statemachine guest360_execute_load_test_scenario role
+      step_function_parameters:
+        fargate_cluster_arn: ""
+        locust_service_main_name: ""
+        locust_service_worker_name: ""
+
+    guest360_execute_all_load_test_scenarios:
+      name: "guest360_execute_all_load_test_scenarios"
+      description: "main orchestrator statemachine"
+      definition_file: "guest360_execute_all_load_test_scenarios.yaml"
+      iam:
+        role_name: execute_all_load_test_scenarios_stepfunction_role
+        assumed_by: !!python/object/apply:aws_cdk.aws_iam.ServicePrincipal
+         - states.amazonaws.com
+        description: Statemachine guest360_execute_all_load_test_scenarios role
+      step_function_parameters:
+        guest360_execution_status_table: ""
+        guest360_execute_load_test_scenario_arn: ""
+    rds:
+      engine: !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.rds.instance_engine
+        kwds: { engine_name: "MARIADB", version: "10.6" }
+      database_name: db_load_testing
+      iam_authentication: true
+    roles:
+      role_name: execute_load_test_scenario_stepfunction_role
+      assumed_by: !!python/object/apply:aws_cdk.aws_iam.ServicePrincipal
+        - states.amazonaws.com
+      description: Statemachine guest360_execute_load_test_scenario role
+    glue_job:
+      job_name: glue-s3-evaluator
+      script:
+        bucket: load-testing
+        prefix: glue-jobs/latest/
+        artifact_name: glue_s3_evaluator.py
+      resources:
+        buckets:
+          ingestion:
+            - ingestion-raw
+        dynamodb:
+          - guest360-load-testing-sfn-exec-eval
+        log_group:   glue-s3-evaluator/logs/

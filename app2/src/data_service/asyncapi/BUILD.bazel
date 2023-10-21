@@ -1,0 +1,9 @@
+# load("@external_python_packages//:requirements.bzl", "requirement")
+# load("//app/tools/build_rules/asyncapi_generator:asyncapi_generator.bzl", "asyncapi_generator")
+
+# print("Generating AsyncAPI HTML Docs from YAML")
+# asyncapi_generator(
+#     name="ag_html",
+#     template="@asyncapi/html-template",
+#     srcs=glob(["*.yml", "*.yaml"])
+# )

@@ -1,0 +1,88 @@
+[
+	{
+		"data": {
+			"EXPRNC_BAND_ORD_ID": 577501,
+			"EXPRNC_BAND_REQ_ID": 857056,
+			"EXPRNC_BAND_FFLMT_ORD_ID": 567900,
+			"EXPRNC_BAND_ORD_UNIQ_ID": "0x6B22C145F7DE43C2892011D5C43403E1",
+			"CREATE_USR_ID": "XBANDAPP",
+			"CREATE_DTS": "2015-08-14 02:07:15.860000",
+			"UPDT_USR_ID": "XBANDAPP",
+			"UPDT_DTS": "2015-08-14 02:07:15.860000",
+			"LOGICAL_DEL_IN": "N",
+			"SHIP_SRVC_ID": 10010,
+			"CURR_EXPRNC_BAND_ORD_STS_ID": 10012,
+			"REDIR_SHIPMT_TO_RSRT": "N"
+		},
+		"metadata": {
+			"timestamp": "2023-08-21T18:12:09.501265Z",
+			"record-type": "data",
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"schema-name": "xbandmd",
+			"table-name": "exprnc_band_ord"
+		}
+	},
+	{
+		"data": {
+			"EXPRNC_BAND_ORD_ID": 569651,
+			"EXPRNC_BAND_REQ_ID": 830945,
+			"EXPRNC_BAND_FFLMT_ORD_ID": 560050,
+			"EXPRNC_BAND_ORD_UNIQ_ID": "0xEC01505CEE2247C2BBC0F65CC62C0995",
+			"ADDR_ID": 724289,
+			"EXPRNC_BAND_ORD_EXPECT_SHIP_DT": "2015-06-20",
+			"EXPRNC_BAND_ORD_ACTL_DLVR_DT": "2015-06-20",
+			"CREATE_USR_ID": "XBANDAPP",
+			"CREATE_DTS": "2015-06-18 03:42:28.206000",
+			"UPDT_USR_ID": "XBANDAPP",
+			"UPDT_DTS": "2015-06-18 03:42:28.206000",
+			"LOGICAL_DEL_IN": "N",
+			"SHIP_SRVC_ID": 10014,
+			"EXPRNC_BAND_ORD_EXPECT_DLVR_DT": "2015-06-25",
+			"RSRT_SHIPMT_DSNY_FAC_ID": 503271,
+			"CURR_EXPRNC_BAND_ORD_STS_ID": 10012,
+			"REDIR_SHIPMT_TO_RSRT": "N",
+			"FFLMT_LOC_ID": 12345,
+			"GRP_MSTR_REC_SORT_TYP_ID": 12345
+		},
+		"metadata": {
+			"timestamp": "2023-08-21T18:11:52.143226Z",
+			"record-type": "data",
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"schema-name": "xbandmd",
+			"table-name": "exprnc_band_ord"
+		}
+	},
+	{
+		"data": {
+			"EXPRNC_BAND_ORD_ID": 576251,
+			"EXPRNC_BAND_REQ_ID": 852938,
+			"EXPRNC_BAND_FFLMT_ORD_ID": 566650,
+			"EXPRNC_BAND_ORD_UNIQ_ID": "0x5C5EA5B4C6A14206A11C1988A18E6638",
+			"ADDR_ID": 811315,
+			"EXPRNC_BAND_ORD_EXPECT_SHIP_DT": "2015-08-06",
+			"EXPRNC_BAND_ORD_ACTL_DLVR_DT": "2015-06-20",
+			"CREATE_USR_ID": "XBANDAPP",
+			"CREATE_DTS": "2015-08-04 01:52:13.747000",
+			"UPDT_USR_ID": "XBANDAPP",
+			"UPDT_DTS": "2015-08-04 07:27:54.264000",
+			"LOGICAL_DEL_IN": "N",
+			"SHIP_SRVC_ID": 10015,
+			"EXPRNC_BAND_ORD_EXPECT_DLVR_DT": "2015-08-07",
+			"RSRT_SHIPMT_DSNY_FAC_ID": 504106,
+			"CURR_EXPRNC_BAND_ORD_STS_ID": 10017,
+			"REDIR_SHIPMT_TO_RSRT": "N",
+			"FFLMT_LOC_ID": 12345,
+			"GRP_MSTR_REC_SORT_TYP_ID": 12345
+		},
+		"metadata": {
+			"timestamp": "2023-08-21T18:12:04.683713Z",
+			"record-type": "data",
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"schema-name": "xbandmd",
+			"table-name": "exprnc_band_ord"
+		}
+	}
+]

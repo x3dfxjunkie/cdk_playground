@@ -1,0 +1,9 @@
+experienceCategoriesParam:
+  type: string
+  enum:
+    - lightning-lane
+    - gate-click
+    - resort-reservation
+    - experience-reservation
+    - dining-reservation
+    - park-reservation

@@ -1,0 +1,112 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__payment_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__payment_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: payment_id
+        description: ""
+
+      - name: bank_account_center_id
+        description: ""
+
+      - name: bank_account_center_name
+        description: ""
+
+      - name: payment_reference_value
+        description: ""
+
+      - name: folio_id
+        description: ""
+
+      - name: folio_item_id
+        description: ""
+
+      - name: folio_item_type_name
+        description: ""
+
+      - name: data_folio_item_amount
+        description: ""
+
+      - name: tender_amount
+        description: ""
+
+      - name: payment_datetime
+        description: ""
+
+      - name: payment_date
+        description: ""
+
+      - name: account_date
+        description: ""
+
+      - name: payment_post_datetime
+        description: ""
+
+      - name: payment_post_date
+        description: ""
+
+      - name: regognition_status_name
+        description: ""
+
+      - name: payment_method_name
+        description: ""
+
+      - name: payment_method_type_name
+        description: ""
+
+      - name: folio_transaction_type_code
+        description: ""
+
+      - name: payment_post_state_name
+        description: ""
+
+      - name: bank_in_id
+        description: ""
+
+      - name: tender_currency_code
+        description: ""
+
+      - name: payment_exchange_rate
+        description: ""
+
+      - name: supress_payment_id
+        description: ""
+
+      - name: override_refund_payment_method_indicator
+        description: ""
+
+      - name: work_location_id
+        description: ""
+
+      - name: applied_by_name
+        description: ""
+
+      - name: create_datetime
+        description: ""
+
+      - name: create_date
+        description: ""
+
+      - name: create_user_id
+        description: ""
+
+      - name: source_update_datetime
+        description: ""
+
+      - name: source_system_update_date
+        description: ""
+
+      - name: source_update_user_id
+        description: ""

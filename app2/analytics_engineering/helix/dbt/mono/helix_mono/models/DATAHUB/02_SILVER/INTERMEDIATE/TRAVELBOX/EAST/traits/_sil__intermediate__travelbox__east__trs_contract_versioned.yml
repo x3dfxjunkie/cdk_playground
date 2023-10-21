@@ -1,0 +1,259 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__east__trs_contract_versioned
+    description: '{{ doc("sil__intermediate__travelbox__east__trs_contract_versioned") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_versioned
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_contract_id
+            - metadata_checksum
+
+    columns:
+      - name: data_tax_exempt
+        description: "A flag indicating whether the contract is excempt from tax ( value is 1 ) or not ( value is 0 ) | example: 1"
+
+      - name: data_voucher_code
+        description: "Voucher Code assigned to the contract | example: gKuTfbCyMWpZMYqSSAsT"
+
+      - name: data_last_modified_timestamp
+        description: "The time at which the last modification has done. | example: 2015-09-02 19:29:26"
+
+      - name: data_fulfillment_freq
+        description: "Specify the frequency type of gategory, P: per Person, I: Per Item | example: I"
+
+      - name: data_prod_defn_id
+        description: "NaN | example: 9873"
+
+      - name: data_prod_defn_temp_grp_code
+        description: "NaN | example: XWuLNnWcWaNVlHXPIZaS"
+
+      - name: data_contract_id
+        description: "The system generated id of the contract | example: 19238"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_contract_group_id
+        description: "The system generated id of the contract group | example: 63652"
+
+      - name: data_version
+        description: "The version of the contract | example: 1"
+
+      - name: data_parent_version
+        description: "Deprecated | example: -1"
+
+      - name: data_status
+        description: "The TravelBox code of the status of the contract | example: 503"
+
+      - name: data_stage
+        description: "The TravelBox code of the stage of the contract | example: 50301"
+
+      - name: data_valid_from
+        description: "The start date of the valid stay date period of the contract. A booking from this contract needs to be within this range. | example: 1988-11-12 20:05:42"
+
+      - name: data_valid_to
+        description: "The end date of the valid stay date period of the contract. A booking from this contract needs to be within this range. | example: 1994-04-22 00:17:37"
+
+      - name: data_sales_from
+        description: "The start date of the valid sales period of this contract | example: 2010-11-04 13:23:23"
+
+      - name: data_sales_to
+        description: "The end date of the valid sales period of this contract | example: 2006-01-03 20:40:27"
+
+      - name: data_entered_on
+        description: "The date/time on which this accomodation contract is entered into the system | example: 2020-08-05 12:14:56"
+
+      - name: data_entered_by
+        description: "The TravelBox user id of the user who has entered this accomodation contract in to system | example: 15075"
+
+      - name: data_modified_on
+        description: "The date on which the contract get modified. If no modifications done after the creation, this field holds the contract created date. | example: 1999-02-03 14:53:48"
+
+      - name: data_modified_by
+        description: "The TravelBox user id of the user who modified the contract. If no modification done after the creation, this field holds the user id of the user who created the contract | example: 17512"
+
+      - name: data_nett_currency
+        description: "If the contract is a nett contract, this field holds the TravelBox code of the currency in which the costs are defined | example: USD"
+
+      - name: data_rate_type
+        description: "NM = NETT AND MARKUP, GC = GROSS AND COMMISSION, NG = GROSS OEM_sqlplus_input_finished, GO = GROSS ONLY | example: NG"
+
+      - name: data_gross_default_currency
+        description: "If the contract is a gross contract, this field holds the TravelBox code of the currency in which the prices are defined | example: USD"
+
+      - name: data_pay_supplier_gross
+        description: "Deprecated | example: 0"
+
+      - name: data_errata_group
+        description: "Refers to the errata_group_id of errata_group table when user adds Free Text Conditions in contract level.  The option is available in &#39;Free Text Conditions&#39; node in contract. | example: 289399"
+
+      - name: data_stage_reason
+        description: "The TravelBox name of the reason for the stage of the contract | example: MhuligbObFdaZnZoKjGR"
+
+      - name: data_tax_override
+        description: "A flag indicating whether the tax is overriden at the contract ( value is 1 ) or not ( value is 0 ) | example: 1"
+
+      - name: data_group_rates
+        description: "A flag indicating the group rates are enabled for the contract ( value is 1 ) or not ( value is 0 ) | example: 0"
+
+      - name: data_date_wise_supplier
+        description: "Flag for Date wise Suplier Enable (1) or not (0) | example: 0"
+
+      - name: data_trackable
+        description: "Whether the voucher code is trackable or not | example: 0"
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: metadata_version_start_datetime
+        description: "Version start datetime"
+        tests:
+          - not_null
+
+      - name: metadata_version_end_datetime
+        description: "Version end datetime"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

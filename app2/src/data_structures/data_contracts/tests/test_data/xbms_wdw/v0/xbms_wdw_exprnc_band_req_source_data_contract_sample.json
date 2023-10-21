@@ -1,0 +1,78 @@
+[
+	{
+		"data": {
+			"EXPRNC_BAND_REQ_ID": 734422,
+			"EXPRNC_BAND_REQ_UNIQ_ID": "0x80C605E012B4441F9901B82F16914425",
+			"SHIP_SRVC_ID": null,
+			"EXPRNC_BAND_REQ_TYP_ID": 10004,
+			"EXPRNC_BAND_REQ_RSN_ID": 10003,
+			"CREATE_USR_ID": "XBANDAPP",
+			"CREATE_DTS": "2014-11-05 11:58:27.445000",
+			"UPDT_USR_ID": "XBANDAPP",
+			"UPDT_DTS": "2015-01-06 06:10:09.683000",
+			"LOGICAL_DEL_IN": "N",
+			"EXPRNC_BAND_ADDR_CONFIRMED_IN": "N",
+			"CURR_EXPRNC_BAND_REQ_STS_ID": 10024,
+			"EXPRNC_BAND_REQ_STS_OVRD_IN": "N"
+		},
+		"metadata": {
+			"timestamp": "2023-08-31T17:46:35.371134Z",
+			"record-type": "data",
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"schema-name": "xbandmd",
+			"table-name": "exprnc_band_req"
+		}
+	},
+	{
+		"data": {
+			"EXPRNC_BAND_REQ_ID": 735587,
+			"EXPRNC_BAND_REQ_UNIQ_ID": "0x01548C5925E34F99AA61B278CB1F6BE9",
+			"EXPRNC_BAND_REQ_TYP_ID": 10004,
+			"ADDR_ID": 748838,
+			"EXPRNC_BAND_REQ_RSN_ID": 10003,
+			"CREATE_USR_ID": "XBANDAPP",
+			"CREATE_DTS": "2014-11-07 14:23:31.445000",
+			"UPDT_USR_ID": "XBANDAPP",
+			"UPDT_DTS": "2015-01-12 08:15:44.859000",
+			"LOGICAL_DEL_IN": "N",
+			"EXPRNC_BAND_ADDR_CONFIRMED_IN": "N",
+			"CURR_EXPRNC_BAND_REQ_STS_ID": 10024,
+			"EXPRNC_BAND_REQ_STS_OVRD_IN": "N"
+		},
+		"metadata": {
+			"timestamp": "2023-08-31T17:46:49.887373Z",
+			"record-type": "data",
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"schema-name": "xbandmd",
+			"table-name": "exprnc_band_req"
+		}
+	},
+	{
+		"data": {
+			"EXPRNC_BAND_REQ_ID": 736009,
+			"EXPRNC_BAND_REQ_UNIQ_ID": "0xAAC6015584354259A690C096C699D210",
+			"SHIP_SRVC_ID": null,
+			"EXPRNC_BAND_REQ_TYP_ID": 10004,
+			"ADDR_ID": 749205,
+			"EXPRNC_BAND_REQ_RSN_ID": 10003,
+			"CREATE_USR_ID": "XBANDAPP",
+			"CREATE_DTS": "2014-11-10 07:09:41.380000",
+			"UPDT_USR_ID": "XBANDAPP",
+			"UPDT_DTS": "2014-11-17 10:30:11.703000",
+			"LOGICAL_DEL_IN": "N",
+			"EXPRNC_BAND_ADDR_CONFIRMED_IN": "N",
+			"CURR_EXPRNC_BAND_REQ_STS_ID": 10026,
+			"EXPRNC_BAND_REQ_STS_OVRD_IN": "N"
+		},
+		"metadata": {
+			"timestamp": "2023-08-31T17:46:55.227558Z",
+			"record-type": "data",
+			"operation": "load",
+			"partition-key-type": "primary-key",
+			"schema-name": "xbandmd",
+			"table-name": "exprnc_band_req"
+		}
+	}
+]

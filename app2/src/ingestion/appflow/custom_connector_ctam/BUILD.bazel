@@ -1,0 +1,13 @@
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+py_lambda_library(
+    name = "custom_connector_ctam",
+    srcs = glob(["*.py"]),
+    data = [
+        "__init__.py",
+        "//app/src/ingestion/appflow",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+    ],
+)

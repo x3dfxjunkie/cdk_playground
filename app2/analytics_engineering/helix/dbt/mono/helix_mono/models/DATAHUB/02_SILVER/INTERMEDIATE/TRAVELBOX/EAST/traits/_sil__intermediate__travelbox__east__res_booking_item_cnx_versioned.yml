@@ -1,0 +1,290 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__east__res_booking_item_cnx_versioned
+    description: '{{ doc("sil__intermediate__travelbox__east__res_booking_item_cnx_versioned") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_versioned
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_booking_id
+            - data_index_no
+            - data_item_no
+            - data_product_code
+            - metadata_checksum
+
+    columns:
+      - name: data_cnx_user
+        description: "The id of the user who cancelled the booking | example: 20629"
+
+      - name: data_cnx_notification_sent_user
+        description: "Deprecated | example: 2073"
+
+      - name: data_cnx_confirmation_received_user
+        description: "Deprecated | example: 879"
+
+      - name: data_cnx_conf_received_user
+        description: "Deprecated | example: 1843"
+
+      - name: data_cnx_adt_cost
+        description: "Cancellation cost of Adults of the booking item | example: 0.0"
+
+      - name: data_cnx_chd_cost
+        description: "Cancellation cost of children of the booking item | example: 0.0"
+
+      - name: data_cnx_inf_cost
+        description: "Cancellation cost of infants of the booking item | example: 0.0"
+
+      - name: data_cnx_calculated_date
+        description: "The date on which cancellation charges calculated | example: 1971-03-07 22:42:59"
+
+      - name: data_tbx_only
+        description: "Constant value 1 | example: 0"
+
+      - name: data_cause_id
+        description: "Booking amendment charges: Reservation Manager &gt; View Booking Amendment/Cancellation Charges._x000D_
+The TravelBox id of the cause for booking amendment | example: 960"
+
+      - name: data_charge_type
+        description: "P = PERCENTAGE, A = AMOUNT | example: CEitMVOQAlrIQyDJfqgC"
+
+      - name: data_reason_type
+        description: "Booking amendment charges: Reservation Manager &gt; View Booking Amendment/Cancellation Charges._x000D_
+The amendment reason type. Whether it is amendment or cancellation. | example: qlnDFNoOFdQWvpfvDjlI"
+
+      - name: data_booking_id
+        description: "The system generated id of the booking | example: 27740227"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_product_code
+        description: "Deprecated | example: GEN"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_item_no
+        description: "Deprecated | example: 6"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_index_no
+        description: "The system generated number for the discount rate | example: 1"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_cnx_reason_id
+        description: "The id of the reason for cancelling the booking | example: 7"
+
+      - name: data_cnx_date
+        description: "Booking item cancelled date | example: 2006-12-04 06:00:47"
+
+      - name: data_cnx_cost
+        description: "Total cancellation cost of the booking item | example: 0.0"
+
+      - name: data_cnx_price
+        description: "Total cancellation price of the booking item | example: 0.0"
+
+      - name: data_cnx_notification_sent
+        description: "Deprecated | example: 0"
+
+      - name: data_cnx_notification_sent_method
+        description: "Deprecated | example: oRUzLYPZAJHLwfFeSdfj"
+
+      - name: data_cnx_notification_sent_date
+        description: "Deprecated | example: 1990-06-06 21:55:40"
+
+      - name: data_cnx_confirmation_received
+        description: "Deprecated | example: 0"
+
+      - name: data_cnx_confirmation_received_date
+        description: "Deprecated | example: 2006-08-07 17:20:26"
+
+      - name: data_cnx_confirmation_received_meth
+        description: "Deprecated | example: awHFtoyzXehHotyRyAAx"
+
+      - name: data_note
+        description: "The note of Special Rate | example: DBrfrciCMriJqiESFeXy"
+
+      - name: data_cnx_conf_received
+        description: "Deprecated | example: 0"
+
+      - name: data_cnx_conf_received_date
+        description: "Deprecated | example: 2002-04-25 00:02:25"
+
+      - name: data_cnx_conf_received_method
+        description: "Deprecated | example: uBBOZeMgfAuDnaFkNSDc"
+
+      - name: data_passenger_no
+        description: "Passnger number of the details entered passenger | example: 8597"
+
+      - name: data_cost_in_contract
+        description: "Cost of the booking item in contract currency | example: 0.0"
+
+      - name: data_cnx_charge_commissionable
+        description: "Flag to specify if the cancellation charge is commissionable._x000D_
+1 - commissionable_x000D_
+0 - not commissionable | example: 0"
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 2001-07-17 15:27:48"
+
+      - name: data_reversible
+        description: "NaN | example: 1"
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: metadata_version_start_datetime
+        description: "Version start datetime"
+        tests:
+          - not_null
+
+      - name: metadata_version_end_datetime
+        description: "Version end datetime"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

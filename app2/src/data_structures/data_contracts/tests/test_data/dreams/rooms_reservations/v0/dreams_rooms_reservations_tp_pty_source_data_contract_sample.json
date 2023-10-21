@@ -1,0 +1,2498 @@
+[
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-13T21:53:38.786000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-13T21:53:38.786000Z",
+			
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.406380Z"
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-13T21:53:38.786000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-13T21:53:38.786000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.413273Z",
+			"transaction-id": 19069772259999
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-13T21:53:38.786000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-13T21:53:38.786000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.422483Z",
+			"transaction-id": 19069772259999
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:26:56.073000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:26:56.073000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.431014Z",
+			"transaction-id": 19069772259999
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:26:56.073000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:26:56.073000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.439975Z",
+			"transaction-id": 19069772259999
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:26:56.073000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:26:56.073000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.450233Z",
+			"transaction-id": 19069772259999
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:26:34.832000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:26:34.832000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.475010Z",
+			"transaction-id": 19069772270978
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:26:34.832000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:26:34.832000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.481672Z",
+			"transaction-id": 19069772270978
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:26:34.832000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:26:34.832000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.490886Z",
+			"transaction-id": 19069772270978
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:26:57.353000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:26:57.353000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.500840Z",
+			"transaction-id": 19069772270978
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:26:57.353000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:26:57.353000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.509377Z",
+			"transaction-id": 19069772270978
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:26:57.353000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:26:57.353000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.516961Z",
+			"transaction-id": 19069772270978
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:26:41.926000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:26:41.926000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.565006Z",
+			"transaction-id": 19069772277278
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:26:57.819000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:26:57.819000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.591212Z",
+			"transaction-id": 19069772277278
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-19T12:19:01Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-19T12:19:01Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.646049Z",
+			"transaction-id": 19069772282221
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-19T12:19:01Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-19T12:19:01Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.653885Z",
+			"transaction-id": 19069772282221
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:26:50Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:26:50Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.664645Z",
+			"transaction-id": 19069772282221
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:26:50Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:26:50Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.673374Z",
+			"transaction-id": 19069772282221
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:01.494000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:01.494000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.785492Z",
+			"transaction-id": 19069772299385
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:01.494000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:01.494000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:02.794399Z",
+			"transaction-id": 19069772299385
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:26:57.819000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:26:57.819000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:13.815418Z",
+			"transaction-id": 19069772310950
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:07.736000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:07.736000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:13.823595Z",
+			"transaction-id": 19069772310950
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-03-13T15:16:49.436000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-03-13T15:16:49.436000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:13.895102Z",
+			"transaction-id": 19069772315921
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-03-13T15:16:49.436000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-03-13T15:16:49.436000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:13.902090Z",
+			"transaction-id": 19069772315921
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:04.877000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:04.877000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:13.909738Z",
+			"transaction-id": 19069772315921
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:04.877000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:04.877000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:13.918069Z",
+			"transaction-id": 19069772315921
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-02-24T21:19:14.664000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-02-24T21:19:14.664000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:13.959424Z",
+			"transaction-id": 19069772329208
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-02-24T21:19:14.664000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-02-24T21:19:14.664000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:13.967924Z",
+			"transaction-id": 19069772329208
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:09.481000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:09.481000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:13.977517Z",
+			"transaction-id": 19069772329208
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:09.481000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:09.481000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:13.984760Z",
+			"transaction-id": 19069772329208
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T15:23:08.593000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T15:23:08.593000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:14.037302Z",
+			"transaction-id": 19069772336864
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T15:23:08.593000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T15:23:08.593000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:14.044996Z",
+			"transaction-id": 19069772336864
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:10.224000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:10.224000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:14.054259Z",
+			"transaction-id": 19069772336864
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:10.224000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:10.224000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:14.062694Z",
+			"transaction-id": 19069772336864
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T15:56:41.632000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T15:56:41.632000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:14.113482Z",
+			"transaction-id": 19069772354577
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:12.177000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:12.177000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:14.121374Z",
+			"transaction-id": 19069772354577
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-06-26T18:01:11.825000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-06-26T18:01:11.825000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.514836Z",
+			"transaction-id": 19069772356113
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-06-26T18:01:11.825000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-06-26T18:01:11.825000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.523355Z",
+			"transaction-id": 19069772356113
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-06-26T18:01:11.825000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-06-26T18:01:11.825000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.532360Z",
+			"transaction-id": 19069772356113
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-06-26T18:01:11.825000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-06-26T18:01:11.825000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.541474Z",
+			"transaction-id": 19069772356113
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:07.730000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:07.730000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.548444Z",
+			"transaction-id": 19069772356113
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:07.730000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:07.730000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.558053Z",
+			"transaction-id": 19069772356113
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:07.730000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:07.730000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.565125Z",
+			"transaction-id": 19069772356113
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:07.730000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:07.730000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.575820Z",
+			"transaction-id": 19069772356113
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T11:15:29.311000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T11:15:29.311000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.626359Z",
+			"transaction-id": 19069772373964
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T11:15:29.311000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T11:15:29.311000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.633324Z",
+			"transaction-id": 19069772373964
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:14.283000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:14.283000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.640747Z",
+			"transaction-id": 19069772373964
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:14.283000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:14.283000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.649295Z",
+			"transaction-id": 19069772373964
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2022-11-06T09:19:04.804000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2022-11-06T09:19:04.804000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.712305Z",
+			"transaction-id": 19069772380973
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2022-11-06T09:19:04.804000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2022-11-06T09:19:04.804000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.722838Z",
+			"transaction-id": 19069772380973
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2022-11-06T09:19:04.804000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2022-11-06T09:19:04.804000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.730620Z",
+			"transaction-id": 19069772380973
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:14.118000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:14.118000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.740728Z",
+			"transaction-id": 19069772380973
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:14.118000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:14.118000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.748019Z",
+			"transaction-id": 19069772380973
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:14.118000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:14.118000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.764672Z",
+			"transaction-id": 19069772380973
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:16.084000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:16.084000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:19.838595Z",
+			"transaction-id": 19069772395951
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:21:13.184000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:21:13.184000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:25.221879Z",
+			"transaction-id": 19069772406089
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:21:13.184000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:21:13.184000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:25.230676Z",
+			"transaction-id": 19069772406089
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:21:13.184000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:21:13.184000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:25.237313Z",
+			"transaction-id": 19069772406089
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:21:13.184000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:21:13.184000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:25.246171Z",
+			"transaction-id": 19069772406089
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:21.679000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:21.679000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:25.255264Z",
+			"transaction-id": 19069772406089
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:21.679000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:21.679000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:25.262040Z",
+			"transaction-id": 19069772406089
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:21.679000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:21.679000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:25.268566Z",
+			"transaction-id": 19069772406089
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:21.679000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:21.679000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:25.275221Z",
+			"transaction-id": 19069772406089
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:22.935000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:22.935000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:30.893215Z",
+			"transaction-id": 19069772422334
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:25.573000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:25.573000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:30.971693Z",
+			"transaction-id": 19069772431470
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-05-21T08:03:38.137000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-05-21T08:03:38.137000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:31.034491Z",
+			"transaction-id": 19069772441426
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-05-21T08:03:38.137000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-05-21T08:03:38.137000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:31.043866Z",
+			"transaction-id": 19069772441426
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:26.474000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:26.474000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:31.050679Z",
+			"transaction-id": 19069772441426
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T16:27:26.474000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T16:27:26.474000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:31.058999Z",
+			"transaction-id": 19069772441426
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-18T16:28:26.154000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-18T16:28:26.154000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:31.107687Z",
+			"transaction-id": 19069772448178
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-18T16:28:26.154000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-18T16:28:26.154000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T20:27:31.114838Z",
+			"transaction-id": 19069772448178
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:17:56.033000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:17:56.033000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:02.463821Z",
+			"transaction-id": 19069726769294
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:17:56.033000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:17:56.033000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:02.473011Z",
+			"transaction-id": 19069726769294
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:17:57.663000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:17:57.663000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:02.530950Z",
+			"transaction-id": 19069726775761
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:18:00.779000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:18:00.779000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:02.572209Z",
+			"transaction-id": 19069726780303
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:18:00.779000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:18:00.779000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:02.580769Z",
+			"transaction-id": 19069726780303
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:18:00.779000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:18:00.779000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:02.587881Z",
+			"transaction-id": 19069726780303
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:17:54.827000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:17:54.827000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:08.175448Z",
+			"transaction-id": 19069726795803
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:17:54.827000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:17:54.827000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:08.181967Z",
+			"transaction-id": 19069726795803
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:18:04.753000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:18:04.753000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:08.191459Z",
+			"transaction-id": 19069726795803
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:18:04.753000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:18:04.753000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:08.198291Z",
+			"transaction-id": 19069726795803
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:18:04.651000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:18:04.651000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:08.248775Z",
+			"transaction-id": 19069726802800
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:18:04.651000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:18:04.651000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:08.257385Z",
+			"transaction-id": 19069726802800
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:18:04.651000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:18:04.651000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:08.266580Z",
+			"transaction-id": 19069726802800
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-03-25T17:15:25.533000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-03-25T17:15:25.533000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:13.859491Z",
+			"transaction-id": 19069726817722
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-03-25T17:15:25.533000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-03-25T17:15:25.533000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:13.867328Z",
+			"transaction-id": 19069726817722
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-03-25T17:15:25.533000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-03-25T17:15:25.533000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:13.875673Z",
+			"transaction-id": 19069726817722
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-03-25T17:15:25.533000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-03-25T17:15:25.533000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:13.883038Z",
+			"transaction-id": 19069726817722
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-03-25T17:15:25.533000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-03-25T17:15:25.533000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:13.888966Z",
+			"transaction-id": 19069726817722
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-03-25T17:15:25.533000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-03-25T17:15:25.533000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:13.896223Z",
+			"transaction-id": 19069726817722
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-03-25T17:15:25.533000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-03-25T17:15:25.533000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:13.908780Z",
+			"transaction-id": 19069726817722
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:18:02.170000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:18:02.170000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:13.914790Z",
+			"transaction-id": 19069726817722
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:18:02.170000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:18:02.170000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:13.921001Z",
+			"transaction-id": 19069726817722
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:18:02.170000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:18:02.170000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:13.927012Z",
+			"transaction-id": 19069726817722
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-01-10T14:20:13.699000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-01-10T14:20:13.699000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:13.974040Z",
+			"transaction-id": 19069726835929
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:18:08.677000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:18:08.677000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:13.980921Z",
+			"transaction-id": 19069726835929
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:18:08.677000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:18:08.677000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:13.992531Z",
+			"transaction-id": 19069726835929
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:18:08.929000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "Y",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:18:08.929000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:14.039143Z",
+			"transaction-id": 19069726842507
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:18:08.929000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:18:08.929000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:14.046333Z",
+			"transaction-id": 19069726842507
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-21T14:18:08.929000Z",
+			"CREATE_USR_ID_CD": "MMOUSE001",
+			"GST_FST_NM": "Mickey",
+			"GST_LST_NM": "Mouse",
+			"IDVL_PTY_IN": "Y",
+			"JDO_SEQ_NB": 0,
+			"PRMY_PTY_IN": "N",
+			"TP_ID": 123456789012,
+			"TXN_PTY_ID": 123456789,
+			"UPDT_DTS": "2023-07-21T14:18:08.929000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MOUSEM001"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "res_mgmt",
+			"table-name": "tp_pty",
+			"timestamp": "2023-07-21T18:18:14.054213Z"
+		}
+	}
+]

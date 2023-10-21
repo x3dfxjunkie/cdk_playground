@@ -1,0 +1,107 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "2009-07-13T18:51:52Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TXN_PROC_TYP_NM": "Created"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "TXN_PROC_TYP_T",
+            "timestamp": "2023-08-21T18:51:29.990976Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-05T10:18:03Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TXN_PROC_TYP_NM": "SettleFrom"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "TXN_PROC_TYP_T",
+            "timestamp": "2023-08-21T18:51:30.029420Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-05T10:18:03Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TXN_PROC_TYP_NM": "SettleTo"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "TXN_PROC_TYP_T",
+            "timestamp": "2023-08-21T18:51:30.040005Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-07-13T18:51:52Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TXN_PROC_TYP_NM": "Affected"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "TXN_PROC_TYP_T",
+            "timestamp": "2023-08-21T18:51:30.000832Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-07-13T18:51:52Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TXN_PROC_TYP_NM": "TransferTo"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "TXN_PROC_TYP_T",
+            "timestamp": "2023-08-21T18:51:30.011321Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-07-13T18:51:52Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TXN_PROC_TYP_NM": "TransferFrom"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "TXN_PROC_TYP_T",
+            "timestamp": "2023-08-21T18:51:30.020843Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-02T11:03:44.522995Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TXN_PROC_TYP_NM": "Reversed"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "TXN_PROC_TYP_T",
+            "timestamp": "2023-08-21T18:51:30.048800Z"
+        }
+    }
+]

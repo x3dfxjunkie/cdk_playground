@@ -1,0 +1,95 @@
+[
+    {
+        "data": {
+            "TPS_CNFIRM_RCPNT_ID": 165935409,
+            "TPS_ID": 123456789123,
+            "DLVR_METH_NM": "Print",
+            "PTY_ID": 123456,
+            "LCTR_ID": 50612056,
+            "DFLT_CNFIRM_IN": "Y",
+            "DVC_MBRSHP_IN": "N",
+            "CNFIRM_SENT_IN": "N",
+            "CNFIRM_SPRS_IN": "Y",
+            "CNTCT_NM": "Mickey, Mouse",
+            "CREATE_USR_ID_CD": "MOUSM001",
+            "CREATE_DTS": "2023-05-22T12:23:22.842000Z",
+            "UPDT_USR_ID_CD": "MOUSM001",
+            "UPDT_DTS": "2023-05-22T12:23:22.842000Z",
+            "JDO_SEQ_NB": 0,
+            "LACD_IN": "N",
+            "transact_commit_timestamp": null,
+            "transact_seq": "20230522162331000000000001886982237"
+        },
+        "metadata": {
+            "timestamp": "2023-05-22T16:23:33.804395Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tps_cnfirm_rcpnt",
+            "transaction-id": null
+        }
+    },
+    {
+        "data": {
+            "TPS_CNFIRM_RCPNT_ID": 165933923,
+            "TPS_ID": 123456789123,
+            "DLVR_METH_NM": "Print",
+            "PTY_ID": 123456789,
+            "LCTR_ID": 705607786,
+            "DFLT_CNFIRM_IN": "Y",
+            "DVC_MBRSHP_IN": "N",
+            "CNFIRM_SENT_IN": "Y",
+            "CNFIRM_SPRS_IN": "Y",
+            "CNTCT_NM": "Mickey, Mouse",
+            "CREATE_USR_ID_CD": "MOUSM001",
+            "CREATE_DTS": "2023-05-22T10:44:44.328000Z",
+            "UPDT_USR_ID_CD": "MOUSM001",
+            "UPDT_DTS": "2023-05-22T10:44:44.328000Z",
+            "JDO_SEQ_NB": 0,
+            "LACD_IN": "N",
+            "transact_commit_timestamp": "2023-05-22T16:23:31Z",
+            "transact_seq": "20230522162331000000000001886982241"
+        },
+        "metadata": {
+            "timestamp": "2023-05-22T16:23:33.812739Z",
+            "record-type": "data",
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tps_cnfirm_rcpnt",
+            "transaction-id": 72666612040885
+        }
+    },
+    {
+        "data": {
+            "TPS_CNFIRM_RCPNT_ID": 165934970,
+            "TPS_ID": 123456789123,
+            "DLVR_METH_NM": "Print",
+            "PTY_ID": 123456789,
+            "LCTR_ID": 705607786,
+            "DFLT_CNFIRM_IN": "Y",
+            "DVC_MBRSHP_IN": "N",
+            "CNFIRM_SENT_IN": "Y",
+            "CNFIRM_SPRS_IN": "Y",
+            "CNTCT_NM": "Mickey, Mouse",
+            "CREATE_USR_ID_CD": "MOUSM001",
+            "CREATE_DTS": "2023-05-22T12:23:24.695000Z",
+            "UPDT_USR_ID_CD": "MOUSM001",
+            "UPDT_DTS": "2023-05-22T12:23:24.695000Z",
+            "JDO_SEQ_NB": 0,
+            "LACD_IN": "N",
+            "transact_commit_timestamp": "2023-05-22T16:23:31Z",
+            "transact_seq": "20230522162331000000000001886982245"
+        },
+        "metadata": {
+            "timestamp": "2023-05-22T16:23:33.823391Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tps_cnfirm_rcpnt",
+            "transaction-id": 72666612040885
+        }
+    }
+]

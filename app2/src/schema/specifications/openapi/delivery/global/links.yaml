@@ -1,0 +1,4 @@
+links:
+  allOf:
+    - $ref: "../openapi.yaml#/components/schemas/nextPage"
+  type: object

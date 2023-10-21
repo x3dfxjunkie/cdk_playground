@@ -1,0 +1,463 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__west__cli_passenger_profile_cleansed
+    description: '{{ doc("sil__intermediate__travelbox__west__cli_passenger_profile_cleansed") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_cleansed
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_profile_id
+            - metadata_checksum
+
+    columns:
+      - name: data_unavailable
+        description: "NaN | example: aFfcjcVDipDIAzGOAHLG"
+        meta:
+          checksum: True
+
+      - name: data_maide_nname
+        description: "Deprecated | example: VEtjvHDtYgGobqXBazRz"
+        meta:
+          checksum: True
+
+      - name: data_redress_number
+        description: "Redress Number | example: agZXDfULGqPiODgBngJP"
+        meta:
+          checksum: True
+
+      - name: data_maiden_name
+        description: "Maiden Name | example: wrtVNQJVnshFURHoxwpv"
+        meta:
+          checksum: True
+
+      - name: data_known_traveller_number
+        description: "Known Traveller Number | example: nUcpcCMbyxXCBMTQaeYH"
+        meta:
+          checksum: True
+
+      - name: data_sanitize
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_ptoi_info
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_profile_id
+        description: "The system  generated id of the H2H profile | example: 29191"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_title
+        description: "The title of the accommodation image | example: Mstr."
+        meta:
+          checksum: True
+
+      - name: data_first_name
+        description: "First Name of the person associated with the contact | example: XXXXXXXXXX"
+        meta:
+          checksum: True
+
+      - name: data_last_name
+        description: "Last Name of the person associated with the contact | example: XXXXXXXXXX"
+        meta:
+          checksum: True
+
+      - name: data_date_of_birth
+        description: "Date of Birth | example: 2000-05-11 05:20:03"
+        meta:
+          checksum: True
+
+      - name: data_sex
+        description: "Sex of the user  M or F_x000D_
+ | example: M"
+        meta:
+          checksum: True
+
+      - name: data_type
+        description: "The availbility type (1 = Available 2 = Free Sell) | example: C"
+        meta:
+          checksum: True
+
+      - name: data_note
+        description: "The note of Special Rate | example: N/A"
+        meta:
+          checksum: True
+
+      - name: data_profession
+        description: "Deprecated | example: LaxjRnIAWDynJbMZrPRG"
+        meta:
+          checksum: True
+
+      - name: data_marital_status
+        description: "Flag to specify the marital status | example: 6589"
+        meta:
+          checksum: True
+
+      - name: data_smoker
+        description: "Flag to specify if the passenger is a smoker (1) or not (0) | example: YtCCknwROAjoSOuygBHo"
+        meta:
+          checksum: True
+
+      - name: data_citizanship1
+        description: "Deprecated | example: GtymWvWlSKhhUxlPFDcz"
+        meta:
+          checksum: True
+
+      - name: data_citizenship2
+        description: "Deprecated | example: iwmnIeuePehNAlvhDozB"
+        meta:
+          checksum: True
+
+      - name: data_primary_pp_no
+        description: "Primary Passport Number | example: XXXXXXXXXX"
+        meta:
+          checksum: True
+
+      - name: data_primary_pp_isue_date
+        description: "Primary Passport Issued Date | example: 1986-01-06 23:15:34"
+        meta:
+          checksum: True
+
+      - name: data_primary_pp_exp_date
+        description: "Primary Passport Expiry Date | example: 1989-01-31 00:13:59"
+        meta:
+          checksum: True
+
+      - name: data_primary_pp_issue_city
+        description: "Primary Passport Issued City | example: UTcLfLuOveGgqbIHkQDG"
+        meta:
+          checksum: True
+
+      - name: data_primary_pp_issue_country
+        description: "Primary Passport Issued Country | example: OkNViYevuTnNDNhWrnyd"
+        meta:
+          checksum: True
+
+      - name: data_secondary_pp_no
+        description: "Secondary Passport Number | example: XXXXXXXXXX"
+        meta:
+          checksum: True
+
+      - name: data_secondary_pp_issue_date
+        description: "Secondary Passport Issued Date | example: 1988-09-22 00:52:07"
+        meta:
+          checksum: True
+
+      - name: data_secondary_pp_exp_date
+        description: "Secondary Passport Expiry Date | example: 2000-10-20 06:26:25"
+        meta:
+          checksum: True
+
+      - name: data_secondary_pp_issue_city
+        description: "Secondary Passport Issued City | example: axcoahPrOAeqKOvxHHGm"
+        meta:
+          checksum: True
+
+      - name: data_secondary_pp_issue_country
+        description: "Secondary Passport Issued Country | example: MXFyHzwCkGuRcCzFneSa"
+        meta:
+          checksum: True
+
+      - name: data_self_employed
+        description: "Deprecated | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_company_name
+        description: "Deprecated | example: jQfnzabevCsbCmaTKfPq"
+        meta:
+          checksum: True
+
+      - name: data_income
+        description: "Deprecated | example: hdlLpnJKLkQiJUpnXKhF"
+        meta:
+          checksum: True
+
+      - name: data_salutation
+        description: "Salutation | example: lpHxcPeKMLeJbLBkOaFt"
+        meta:
+          checksum: True
+
+      - name: data_cti_reference
+        description: "Deprecated | example: 1614"
+        meta:
+          checksum: True
+
+      - name: data_club_member
+        description: "Deprecated | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_primary_citizenship
+        description: "Country Code of the primary citizenship country | example: TqxmXTQGWNnTsQYxEdBj"
+        meta:
+          checksum: True
+
+      - name: data_secondary_pp_first_name
+        description: "Secondary Passport First Name | example: XXXXXXXXXX"
+        meta:
+          checksum: True
+
+      - name: data_secondary_pp_last_name
+        description: "Secondary Passport Last Name | example: XXXXXXXXXX"
+        meta:
+          checksum: True
+
+      - name: data_primary_pp_first_name
+        description: "Primary Passport First Name | example: XXXXXXXXXX"
+        meta:
+          checksum: True
+
+      - name: data_primary_pp_last_name
+        description: "Primary Passport Last Name | example: XXXXXXXXXX"
+        meta:
+          checksum: True
+
+      - name: data_alien_reg_no
+        description: "Deprecated | example: flskVaEvdhhLLlvROYtw"
+        meta:
+          checksum: True
+
+      - name: data_seat_request
+        description: "Deprecated | example: qYVyRQYuvVUWHjWZQeaw"
+        meta:
+          checksum: True
+
+      - name: data_meal_request
+        description: "Deprecated | example: iMlMbAGxdCFXsZkXJrmw"
+        meta:
+          checksum: True
+
+      - name: data_other_request
+        description: "Deprecated | example: ClOkrpddfJjnkBFFoEpd"
+        meta:
+          checksum: True
+
+      - name: data_secondary_citizenship
+        description: "Country Code of the secondary citizenship country | example: xypNRwDGShQDZxdThEvD"
+        meta:
+          checksum: True
+
+      - name: data_primary_issuing_office
+        description: "Primary Passport Issued Office | example: aKRrHDeTNIdcWmzRTuMp"
+        meta:
+          checksum: True
+
+      - name: data_secondary_issuing_office
+        description: "Secondary Passport Issued Office | example: ZNihaACxcYsnAtecQSrZ"
+        meta:
+          checksum: True
+
+      - name: data_pref_holiday
+        description: "Deprecated | example: ZiFafVnXCvvpkrsHGBtd"
+        meta:
+          checksum: True
+
+      - name: data_pref_destination
+        description: "Deprecated | example: 1694"
+        meta:
+          checksum: True
+
+      - name: data_visa_output
+        description: "Deprecated | example: WhhJBGDdpMGktnNiIRGM"
+        meta:
+          checksum: True
+
+      - name: data_date_of_birth_unknown
+        description: "Flag to indicate if the passenger&#39;s birthday is unknown (1) or not (0) | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_locale
+        description: "The TravelBox code of the locale | example: vhreBALhprjWJIXWvylv"
+        meta:
+          checksum: True
+
+      - name: data_user_set_dob
+        description: "Flag to specify if the user set the Date of Birth (1) or not (0) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_middle_name
+        description: "Middle Name of the person associated with the contact | example: GJwJxvmHEzJRjcWQAoUk"
+        meta:
+          checksum: True
+
+      - name: data_primary_pp_middle_name
+        description: "Primary Passport Middle Name | example: uDPuFYOScuMAlbNsNwCT"
+        meta:
+          checksum: True
+
+      - name: data_secondary_pp_middle_name
+        description: "Secondary Passport Middle Name | example: UjjPnBCViysnJRhjgxiw"
+        meta:
+          checksum: True
+
+      - name: data_dummypasenger
+        description: "Flag to indicate if the passenger is a Dummy Passenger (1) or not (0) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_care_of
+        description: "Deprecated | example: reVYzhGVVxrYHCvnLDRO"
+        meta:
+          checksum: True
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 1980-06-07 13:48:23"
+        meta:
+          checksum: True
+
+      - name: min_metadata_timestamp
+        description: "The Minimum Metadata Timestamp field is used for updating the version end date of the active record in the target table"
+        tests:
+          - not_null
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

@@ -1,0 +1,22 @@
+table_name: task-manager-failure
+lambda_manual_task:
+  description: "Lambda to handle manual DMS events"
+  timeout_seconds: 60
+lambda_event_bridge:
+  description: "Lambda to handle DMS Event Bridge events"
+  timeout_seconds: 300
+  env_variables:
+    NAMESPACE: DMSTaskFailed # Same that namespace in app/guest360_constructs/ingestion/dms/dms_replication_task.py
+    REP_TASK_MAX_RETRIES_FOR_FAILED_STATUS: "20" # # suggested range [15-25], check if a task is running x times every REP_TASK_TIME_TO_WAIT_IN_SECONDS with no errors before clearing history of previous errors
+    REP_TASK_TIME_TO_WAIT_IN_SECONDS: "10"
+    REP_TASK_FAILURE_METRIC: CustomDMSTaskFailure # Same that metric_name in app/guest360_constructs/ingestion/dms/dms_replication_task.py
+task_manager_state_machine:
+  comment: "This is the state machine to handle manual and event bridge events for DMS Replication Tasks"
+  timeout_seconds: 600
+  tracing_enabled: true
+  wait_finish_dms_task_creation_seconds: 60 # Wait "x" seconds to finish the dms task creation before auto starting
+  start_dms_task_api_call:
+    retry_params: # Retry parameters if the action dms:StartReplicationTask fails
+      max_attempts: 2
+      backoff_rate: 1
+      interval_seconds: 30

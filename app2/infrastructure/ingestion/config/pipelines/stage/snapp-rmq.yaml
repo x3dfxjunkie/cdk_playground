@@ -1,0 +1,262 @@
+stack_extension: &se snapp-rmq
+ingest_pattern: &ip messaging
+active: true
+pattern_instances:
+  - region: &region-1 us-east-1
+    resources:
+      cluster_name: *se
+      kinesis:
+        stream_name: &stream_name snapp-rmq-kinesis
+      ecs:
+        ecr:
+          repository_name: guest360/ingestion/rabbitmq_consumer
+        secret_name: &secret_name stg-use1-snapp-rabbitmq-secret
+        s3:
+          bucket_name: *se
+        services:
+          - service_name: SNAPP-ENTITLEMENT-GUEST360
+            image_tag: &image v0.2.x
+            desired_count : 1
+            cloudmap: false
+            environment: &environment
+              DEFAULT_BATCH_SIZE : 400                                    # Integer value gather than 0  Required: No  Default Value =  400
+              DEFAULT_MAX_RETRY_ATTEMPT : 3                               # Integer value gather than 0  Required: No  Default Value =  3
+              DEFAULT_RETRY_BATCH_SIZE :  5                               # Integer value gather than 0  Required: No  Default Value =  5
+              DEFAULT_MAX_WAIT_MILLISECS : 100                            # Integer value gather than 0  Required: No  Default Value =  1000
+              MAX_BATCH_SIZE : 500                                        # This is batch size limit from Kinesis. # Integer value gather than 0  Required: No  Default Value =  500
+              MAX_WAIT_MILLISECS : 300                                    # This is batch size limit from Kinesis. # Integer value gather than 0  Required: No  Default Value =  500
+              LOGLEVEL : INFO                                             # Required: No  , Default Value = INFO  Python logging package severity level. [DEBUG, INFO, WARNING, ERROR, CRITICAL]
+              ENVIRONMENT :  stage                                        # Required: Yes , Default Value = “” ,Environment value (latest,stage,prod)
+              REGION : *region-1                                          # Required: No  , Default Value = us-east-1     , AWS region
+              KINESIS_STREAM :  *stream_name                              # Required: Yes , Default Value = “”, Kinesis stream name
+              KINESIS_PARTITIONS : 10000                                  # Required: No  , Default Value =  10000 , Number of distinct unique partition keys generated when sending data to kinesis
+              KINESIS_BATCH_SIZE :   400                                  # Required: No  , Default Value =  400 , Max number of records to send in each api put_records request to Kinesis stream
+              KINESIS_RETRY_BATCH_SIZE : 5050                             # Required: No  , Default Value = DEFAULT_RETRY_BATCH_SIZE  , Max number of records to send in each api put_records request to Kinesis stream
+              KINESIS_MAX_WAIT_MILLISECS : 100                            # Required: No  , Default Value = 1000 , Maximum amount to wait send data in batch even when records to be sent are less than batch size
+              FAILED_MSG_BUCKET_NAME : stage-fail-objects-0               # Required: Yes , S3 bucket name to store records after exhausting max retry attempt
+              FAILED_MSG_BUCKET_PATH : /SNAPP-ENTITLEMENT-GUEST360/       # Required: Yes , Default Value = no have, “/”
+              MAX_RETRY_ATTEMPT :   3                                     # Required: Yes , Default Value =  3  Number of attempts to send record to kinesis before writing to failed records S3 bucket
+              RABBITMQ_SECRET_PATH : *secret_name                         # pragma: allowlist secret # Required: Yes , Secret manager secret path. value is prepended to this path value by connector code , “Secretname”
+              RABBITMQ_HOST : stage.entitlement-rmq.wdprapps.disney.com   # Required: Yes , Default Value = “localhost”  RabbitMQ server host name or IP address
+              RABBITMQ_VHOST : trp-mma-rmq-vhl                            # Required: No  , Default Value = “/” RabbitMQ virtual host name
+              RABBITMQ_PORT :  5671                                       # Required: No  , Default Value = 5762  RabbitMQ port
+              RABBITMQ_QUEUE : SNAPP.ENTITLEMENT.GUEST360                 # Required: Yes , RabbitMQ queue name
+              RABBITMQ_QUEUE_DURABLE : true                               # Required:no ,  Default Value False RabbitMQ queue “durable” flag
+              RABBITMQ_QOS_PREFETCH_COUNT :  65535                        # Required:no , default value KINESIS_BATCH_SIZE Queue prefetch count value
+              RABBITMQ_ROUTING_KEY :                                      # Required:no , Default Value RABBITMQ_QUEUE RabbitMQ routing key
+              RABBITMQ_EXCHANGE :                                         # Required:no ,Default Value  <empty string>  ,  RabbitMQ exchange name
+              RABBITMQ_EXCHANGE_TYPE :                                    # Required:no , Default Value direct  RabbitMQ exchange type. Valid vlaues [direct, fanout, headers, topic]
+              RABBITMQ_EXCHANGE_PASSIVE : true                            # Bool Required:no ,  Default Value False RabbitMQ exchange config value for passive flag
+              RABBITMQ_EXCHANGE_DURABLE : true                            # Bool Required:no , default Value False
+              RABBITMQ_EXCHANGE_AUTO_DELETE : true                        # Bool Required:no , Default Value False
+              USE_SSL: true
+          # Additional services/queues
+          #- service_name: <SERVICE_NAME>
+          #  image_tag: *image
+          #  desired_count : 1
+          #  cloudmap: False
+          #  environment:
+          #    <<: *environment
+          #    FAILED_MSG_BUCKET_PATH : /<SEVICE_NAME>/
+          #    RABBITMQ_QUEUE : <QUEUE_NAME>
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_STAGE_LANDING # Needs update to appropriate default routing
+      default_schema: &schema LND_SNAPP
+      table_path: Header.Namespace # This should match key_path_name
+      data_contracts:
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_account_source_data_contract
+          class_name: SnAppAccountModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: &key_path_name Header.Namespace
+              value: SnApp.Account
+          router_database: &database STAGE_LANDING
+          router_schema: *schema
+          router_table: ACCOUNT
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_attendance_source_data_contract
+          class_name: SnAppAttendanceModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.Attendance
+          router_database: *database
+          router_schema: *schema
+          router_table: ATTENDANCE
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_entitlement_source_data_contract
+          class_name: SnAppEntitlementModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.Entitlement.Update
+            - name: *key_path_name
+              value: SnApp.Entitlement.PartialRefund
+            - name: *key_path_name
+              value: SnApp.Entitlement.Expire
+            - name: *key_path_name
+              value: SnApp.Entitlement.Void
+            - name: *key_path_name
+              value: SnApp.Entitlement.Renew
+            - name: *key_path_name
+              value: SnApp.Entitlement.Blocked
+            - name: *key_path_name
+              value: SnApp.Entitlement.TicketSale
+            - name: *key_path_name
+              value: SnApp.Entitlement.Unblocked
+            - name: *key_path_name
+              value: SnApp.Entitlement.Snapshot
+            - name: *key_path_name
+              value: SnApp.Entitlement.PrioritizeRedemptionOrder
+            - name: *key_path_name
+              value: SnApp.Entitlement.Transfer
+            - name: *key_path_name
+              value: SnApp.Entitlement.UpgradeDowngrade
+            - name: *key_path_name
+              value: SnApp.Entitlement.Refund 
+          router_database: *database
+          router_schema: *schema
+          router_table: ENTITLEMENT
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_entitlement_redemption_source_data_contract
+          class_name: SnAppEntitlementRedemptionModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.Entitlement.Redemption
+          router_database: *database
+          router_schema: *schema
+          router_table: ENTITLEMENT_REDEMPTION
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_payment_method_source_data_contract
+          class_name: SnAppPaymentMethodModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.PaymentMethod
+          router_database: *database
+          router_schema: *schema
+          router_table: PAYMENT_METHOD
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_tax_profile_source_data_contract
+          class_name: SnAppTaxProfileModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.TaxProfile
+          router_database: *database
+          router_schema: *schema
+          router_table: TAX_PROFILE
+        #20230925
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_guest_account_source_data_contract
+          class_name: SnAppGuestAccountModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.GuestAccount.UpdateDemographics
+          router_database: *database
+          router_schema: *schema
+          router_table: GUEST_ACCOUNT
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_media_source_data_contract
+          class_name: SnAppMediaModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.Media.Assign
+            - name: *key_path_name
+              value: SnApp.Media.Disable
+            - name: *key_path_name
+              value: SnApp.Media.Enabled
+          router_database: *database
+          router_schema: *schema
+          router_table: MEDIA
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_workstation_source_data_contract
+          class_name: SnAppWorkstationModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.Workstation
+          router_database: *database
+          router_schema: *schema
+          router_table: WORKSTATION
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_redemption_source_data_contract
+          class_name: SnAppRedemptionModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.Redemption.ReEntry
+            - name: *key_path_name
+              value: SnApp.Redemption.Crossover
+            - name: *key_path_name
+              value: SnApp.Redemption.Entry
+          router_database: *database
+          router_schema: *schema
+          router_table: REDEMPTION
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_transaction_source_data_contract
+          class_name: SnAppTransactionModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.Transaction.AccountChangeStatus
+            - name: *key_path_name
+              value: SnApp.Transaction.ChangePerformance
+            - name: *key_path_name
+              value: SnApp.Transaction.FailedSaleVoidCancellation
+            - name: *key_path_name
+              value: SnApp.Transaction.ForeignCurrencyExchange
+            - name: *key_path_name
+              value: SnApp.Transaction.GiftCardActivation
+            - name: *key_path_name
+              value: SnApp.Transaction.GiftCardCashout
+            - name: *key_path_name
+              value: SnApp.Transaction.GiftCardReload
+            - name: *key_path_name
+              value: SnApp.Transaction.InstallmentContractVoid
+            - name: *key_path_name
+              value: SnApp.Transaction.ManualRedemption
+            - name: *key_path_name
+              value: SnApp.Transaction.MediaAssign
+            - name: *key_path_name
+              value: SnApp.Transaction.MediaChangeStatus
+            - name: *key_path_name
+              value: SnApp.Transaction.NegativeTransaction
+            - name: *key_path_name
+              value: SnApp.Transaction.Normal
+            - name: *key_path_name
+              value: SnApp.Transaction.OrderAbort
+            - name: *key_path_name
+              value: SnApp.Transaction.OrderVoid
+            - name: *key_path_name
+              value: SnApp.Transaction.PortfolioMerge
+            - name: *key_path_name
+              value: SnApp.Transaction.ProductRefund
+            - name: *key_path_name
+              value: SnApp.Transaction.RecycleMedia
+            - name: *key_path_name
+              value: SnApp.Transaction.RedemptionVoid
+            - name: *key_path_name
+              value: SnApp.Transaction.Renewal
+            - name: *key_path_name
+              value: SnApp.Transaction.TicketChangePriority
+            - name: *key_path_name
+              value: SnApp.Transaction.TicketTransfer
+            - name: *key_path_name
+              value: SnApp.Transaction.TicketUpdate
+            - name: *key_path_name
+              value: SnApp.Transaction.UpgradeDowngrade
+          router_database: *database
+          router_schema: *schema
+          router_table: TRANSACTION
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_ledger_log_source_data_contract
+          class_name: SnAppLedgerLogModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.LedgerLog.Manual
+          router_database: *database
+          router_schema: *schema
+          router_table: LEDGER_LOG
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_product_source_data_contract
+          class_name: SnAppProductModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.Product
+          router_database: *database
+          router_schema: *schema
+          router_table: PRODUCT

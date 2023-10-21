@@ -1,0 +1,310 @@
+version: 2
+
+sources:
+  - name: brz_ea_dlr
+    description: ""
+    database: '{{ env_var("DBT_HELIX_MONO_SOURCE_DATABASE", "STAGE_DATAHUB") }}'
+    schema: brz_ea_dlr
+    loader: firehose/snowpipe-microbatch
+    loaded_at_field: LANDING_TIMESTAMP
+    freshness: # default freshness
+      warn_after: {count: 12, period: hour}
+      error_after: {count: 24, period: hour}
+    meta:
+      owner: ""
+      tags: [""]
+      subscribers: ["@data-team"]
+    tables:
+      - name: lightning_lane
+        columns:
+          - name: correlation_id
+            description: "correlation_id (snowflake data type: text)"
+
+          - name: event_type
+            description: "event_type (snowflake data type: text)"
+
+          - name: item_entitlement_activities
+            description: "item_entitlement_activities (snowflake data type: variant)"
+
+          - name: item_entitlement_booking_guest_id
+            description: "item_entitlement_booking_guest_id (snowflake data type: text)"
+
+          - name: item_entitlement_booking_id
+            description: "item_entitlement_booking_id (snowflake data type: text)"
+
+          - name: item_entitlement_created_date
+            description: "item_entitlement_created_date (snowflake data type: timestamp_ntz)"
+
+          - name: item_entitlement_create_user_id
+            description: "item_entitlement_create_user_id (snowflake data type: text)"
+
+          - name: item_entitlement_das_parent_entitlement_id
+            description: "item_entitlement_das_parent_entitlement_id (snowflake data type: text)"
+
+          - name: item_entitlement_das_primary_indicator
+            description: "item_entitlement_das_primary_indicator (snowflake data type: boolean)"
+
+          - name: item_entitlement_entitlement_key
+            description: "item_entitlement_entitlement_key (snowflake data type: text)"
+
+          - name: item_entitlement_enttl_end_date
+            description: "item_entitlement_enttl_end_date (snowflake data type: timestamp_ntz)"
+
+          - name: item_entitlement_enttl_id
+            description: "item_entitlement_enttl_id (snowflake data type: text)"
+
+          - name: item_entitlement_enttl_start_date
+            description: "item_entitlement_enttl_start_date (snowflake data type: timestamp_ntz)"
+
+          - name: item_entitlement_experience_id
+            description: "item_entitlement_experience_id (snowflake data type: text)"
+
+          - name: item_entitlement_experience_list
+            description: "item_entitlement_experience_list (snowflake data type: variant)"
+
+          - name: item_entitlement_experience_type
+            description: "item_entitlement_experience_type (snowflake data type: text)"
+
+          - name: item_entitlement_gsr_code
+            description: "item_entitlement_gsr_code (snowflake data type: text)"
+
+          - name: item_entitlement_gsr_type
+            description: "item_entitlement_gsr_type (snowflake data type: text)"
+
+          - name: item_entitlement_guest_id
+            description: "item_entitlement_guest_id (snowflake data type: text)"
+
+          - name: item_entitlement_inventory_id
+            description: "item_entitlement_inventory_id (snowflake data type: text)"
+
+          - name: item_entitlement_item_id
+            description: "item_entitlement_item_id (snowflake data type: text)"
+
+          - name: item_entitlement_location_id
+            description: "item_entitlement_location_id (snowflake data type: text)"
+
+          - name: item_entitlement_location_type
+            description: "item_entitlement_location_type (snowflake data type: text)"
+
+          - name: item_entitlement_offer_id
+            description: "item_entitlement_offer_id (snowflake data type: text)"
+
+          - name: item_entitlement_operational_date
+            description: "item_entitlement_operational_date (snowflake data type: date)"
+
+          - name: item_entitlement_operational_date_park_id
+            description: "item_entitlement_operational_date_park_id (snowflake data type: text)"
+
+          - name: item_entitlement_operational_date_park_id_product_type_status
+            description: "item_entitlement_operational_date_park_id_product_type_status (snowflake data type: text)"
+
+          - name: item_entitlement_order_id
+            description: "item_entitlement_order_id (snowflake data type: text)"
+
+          - name: item_entitlement_original_create_date_time
+            description: "item_entitlement_original_create_date_time (snowflake data type: text)"
+
+          - name: item_entitlement_original_entitlement_id
+            description: "item_entitlement_original_entitlement_id (snowflake data type: text)"
+
+          - name: item_entitlement_original_experience_id
+            description: "item_entitlement_original_experience_id (snowflake data type: text)"
+
+          - name: item_entitlement_original_experience_type
+            description: "item_entitlement_original_experience_type (snowflake data type: text)"
+
+          - name: item_entitlement_park_id
+            description: "item_entitlement_park_id (snowflake data type: text)"
+
+          - name: item_entitlement_passenger_id
+            description: "item_entitlement_passenger_id (snowflake data type: text)"
+
+          - name: item_entitlement_passenger_id_type
+            description: "item_entitlement_passenger_id_type (snowflake data type: text)"
+
+          - name: item_entitlement_product_content_id
+            description: "item_entitlement_product_content_id (snowflake data type: text)"
+
+          - name: item_entitlement_product_id
+            description: "item_entitlement_product_id (snowflake data type: text)"
+
+          - name: item_entitlement_product_type
+            description: "item_entitlement_product_type (snowflake data type: text)"
+
+          - name: item_entitlement_reason
+            description: "item_entitlement_reason (snowflake data type: text)"
+
+          - name: item_entitlement_remaining_count
+            description: "item_entitlement_remaining_count (snowflake data type: number)"
+
+          - name: item_entitlement_sector_name
+            description: "item_entitlement_sector_name (snowflake data type: text)"
+
+          - name: item_entitlement_status
+            description: "item_entitlement_status (snowflake data type: text)"
+
+          - name: item_entitlement_ttl_time
+            description: "item_entitlement_ttl_time (snowflake data type: number)"
+
+          - name: item_entitlement_type
+            description: "item_entitlement_type (snowflake data type: text)"
+
+          - name: item_entitlement_updated_date
+            description: "item_entitlement_updated_date (snowflake data type: timestamp_ntz)"
+
+          - name: item_entitlement_update_user_id
+            description: "item_entitlement_update_user_id (snowflake data type: text)"
+
+          - name: item_entitlement_uses_allowed
+            description: "item_entitlement_uses_allowed (snowflake data type: number)"
+
+          - name: item_entitlement_window_override
+            description: "item_entitlement_window_override (snowflake data type: boolean)"
+
+          - name: item_event_id
+            description: "item_event_id (snowflake data type: text)"
+
+          - name: item_event_name
+            description: "item_event_name (snowflake data type: text)"
+
+          - name: key
+            description: "key (snowflake data type: text)"
+
+          - name: landing_cloudevent_check_sum
+            description: "landing_cloudevent_check_sum (snowflake data type: text)"
+
+          - name: landing_cloudevent_datacontenttype
+            description: "landing_cloudevent_datacontenttype (snowflake data type: text)"
+
+          - name: landing_cloudevent_dataschema
+            description: "landing_cloudevent_dataschema (snowflake data type: text)"
+
+          - name: landing_cloudevent_data_contract_version
+            description: "landing_cloudevent_data_contract_version (snowflake data type: text)"
+
+          - name: landing_cloudevent_exception_error
+            description: "landing_cloudevent_exception_error (snowflake data type: text)"
+
+          - name: landing_cloudevent_id
+            description: "landing_cloudevent_id (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_database
+            description: "landing_cloudevent_router_database (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_schema
+            description: "landing_cloudevent_router_schema (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_table
+            description: "landing_cloudevent_router_table (snowflake data type: text)"
+
+          - name: landing_cloudevent_source
+            description: "landing_cloudevent_source (snowflake data type: text)"
+
+          - name: landing_cloudevent_specversion
+            description: "landing_cloudevent_specversion (snowflake data type: text)"
+
+          - name: landing_cloudevent_stream
+            description: "landing_cloudevent_stream (snowflake data type: text)"
+
+          - name: landing_cloudevent_subject
+            description: "landing_cloudevent_subject (snowflake data type: text)"
+
+          - name: landing_cloudevent_time
+            description: "landing_cloudevent_time (snowflake data type: timestamp_ntz)"
+
+          - name: landing_cloudevent_traceparent
+            description: "landing_cloudevent_traceparent (snowflake data type: text)"
+
+          - name: landing_cloudevent_tracestate
+            description: "landing_cloudevent_tracestate (snowflake data type: text)"
+
+          - name: landing_cloudevent_type
+            description: "landing_cloudevent_type (snowflake data type: text)"
+
+          - name: landing_cloudevent_validated
+            description: "landing_cloudevent_validated (snowflake data type: boolean)"
+
+          - name: landing_file_last_modified
+            description: "landing_file_last_modified (snowflake data type: timestamp_ntz)"
+
+          - name: landing_file_name
+            description: "landing_file_name (snowflake data type: text)"
+
+          - name: landing_file_row_number
+            description: "landing_file_row_number (snowflake data type: number)"
+
+          - name: landing_id
+            description: "landing_id (snowflake data type: text)"
+
+          - name: landing_timestamp
+            description: "landing_timestamp (snowflake data type: timestamp_ntz)"
+
+      - name: lightning_lane_item_entitlement_activities
+        columns:
+          - name: item_entitlement_activities_activity_date_time
+            description: "item_entitlement_activities_activity_date_time (snowflake data type: timestamp_ntz)"
+
+          - name: item_entitlement_activities_activity_reason
+            description: "item_entitlement_activities_activity_reason (snowflake data type: text)"
+
+          - name: item_entitlement_activities_activity_status
+            description: "item_entitlement_activities_activity_status (snowflake data type: text)"
+
+          - name: item_entitlement_activities_activity_user
+            description: "item_entitlement_activities_activity_user (snowflake data type: text)"
+
+          - name: item_entitlement_activities_correlation_id
+            description: "item_entitlement_activities_correlation_id (snowflake data type: text)"
+
+          - name: item_entitlement_activities_redemption_date_time
+            description: "item_entitlement_activities_redemption_date_time (snowflake data type: timestamp_ntz)"
+
+          - name: item_entitlement_activities_redemption_experience_id
+            description: "item_entitlement_activities_redemption_experience_id (snowflake data type: text)"
+
+          - name: item_entitlement_activities_redemption_location_id
+            description: "item_entitlement_activities_redemption_location_id (snowflake data type: text)"
+
+          - name: item_entitlement_activities_redemption_touch_device_id
+            description: "item_entitlement_activities_redemption_touch_device_id (snowflake data type: text)"
+
+          - name: item_entitlement_activities_related_entitlement
+            description: "item_entitlement_activities_related_entitlement (snowflake data type: text)"
+
+          - name: lightning_lane_id
+            description: "lightning_lane_id (snowflake data type: text)"
+
+      - name: lightning_lane_item_entitlement_experience_list
+        columns:
+          - name: item_entitlement_experience_list_experience_id
+            description: "item_entitlement_experience_list_experience_id (snowflake data type: text)"
+
+          - name: item_entitlement_experience_list_experience_type
+            description: "item_entitlement_experience_list_experience_type (snowflake data type: text)"
+
+          - name: item_entitlement_experience_list_location_list
+            description: "item_entitlement_experience_list_location_list (snowflake data type: variant)"
+
+          - name: item_entitlement_experience_list_park_id
+            description: "item_entitlement_experience_list_park_id (snowflake data type: text)"
+
+          - name: item_entitlement_experience_list_remaining_count
+            description: "item_entitlement_experience_list_remaining_count (snowflake data type: number)"
+
+          - name: item_entitlement_experience_list_uses_allowed
+            description: "item_entitlement_experience_list_uses_allowed (snowflake data type: number)"
+
+          - name: lightning_lane_id
+            description: "lightning_lane_id (snowflake data type: text)"
+
+      - name: lightning_lane_item_entitlement_experience_list_location_list
+        columns:
+          - name: item_entitlement_experience_list_location_list_location_id
+            description: "item_entitlement_experience_list_location_list_location_id (snowflake data type: text)"
+
+          - name: item_entitlement_experience_list_location_list_location_type
+            description: "item_entitlement_experience_list_location_list_location_type (snowflake data type: text)"
+
+          - name: lightning_lane_item_entitlement_experience_list_id
+            description: "lightning_lane_item_entitlement_experience_list_id (snowflake data type: text)"
+

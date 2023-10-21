@@ -1,0 +1,82 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__cashier_banking_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__cashier_banking_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: bank_in_id
+        description: ""
+
+      - name: bank_in_account_date
+        description: ""
+
+      - name: bank_in_date_time
+        description: ""
+
+      - name: bank_account_center_id
+        description: ""
+
+      - name: account_center_name
+        description: ""
+
+      - name: bank_out_id
+        description: ""
+
+      - name: bank_out_type_name
+        description: ""
+
+      - name: bank_out_account_date
+        description: ""
+
+      - name: deposit_bag_id
+        description: ""
+
+      - name: bank_out_completed_date_time
+        description: ""
+
+      - name: register_amount
+        description: ""
+
+      - name: disney_system_code
+        description: ""
+
+      - name: disney_system_name
+        description: ""
+
+      - name: tcr_location_indicator
+        description: ""
+
+      - name: guest_facing_indicator
+        description: ""
+
+      - name: data_bank_out_indicator
+        description: ""
+
+      - name: over_short_cash_amount
+        description: ""
+
+      - name: over_short_currency_code
+        description: ""
+
+      - name: barcode_print_indicator
+        description: ""
+
+      - name: till_dispensed_indicator
+        description: ""
+
+      - name: stratus_terminal_number
+        description: ""
+
+      - name: register_number_value
+        description: ""

@@ -1,0 +1,39 @@
+system_test:
+  name: SystemTestLatest
+  description: System Test Latest
+pattern:
+  dms:
+    data_mocker:
+      active_injection: True
+      data_contract_test_data_path: None
+      only_payload_data: True
+      change_fields: 0.0
+      omit_fields: 0.0
+      use_alias: False
+      add_data_contract: True
+    sql_transaction_generator:
+      add_prefix: False
+      drop_existing: True
+      only_payload_data: True
+      all_columns_as_varchar: False
+      number_of_items: 100
+      prob_update: 0.0
+      prob_delete: 0.0
+  kinesis:
+    data_mocker:
+      active_injection: True
+      data_contract_test_data_path: None
+      only_payload_data: False
+      change_fields: 0.0
+      omit_fields: 0.0
+      use_alias: True
+      add_data_contract: False
+  messaging:
+    data_mocker:
+      active_injection: True
+      data_contract_test_data_path: None
+      only_payload_data: False
+      change_fields: 0.0
+      omit_fields: 0.0
+      use_alias: False
+      add_data_contract: False

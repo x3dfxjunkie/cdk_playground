@@ -1,0 +1,274 @@
+version: 2
+
+models:
+  - name: sil__guest_experience__magic_band__magic_band_current
+    description: "{{ doc('sil__guest_experience__magic_band__magic_band_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=guest_experience
+        - sub_domain=magic_band
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: magic_band_id
+        description: ""
+
+      - name: product_id
+        description: ""
+
+      - name: product_type_id
+        description: ""
+
+      - name: product_type_code
+        description: ""
+
+      - name: product_type_description
+        description: ""
+
+      - name: product_type_available_to_guest_indicator
+        description: ""
+
+      - name: top_color_id
+        description: ""
+
+      - name: top_color_code
+        description: ""
+
+      - name: top_color_name
+        description: ""
+
+      - name: top_color_available_to_guest_indicator
+        description: ""
+
+      - name: bottom_color_id
+        description: ""
+
+      - name: bottom_color_code
+        description: ""
+
+      - name: bottom_color_name
+        description: ""
+
+      - name: bottom_color_available_to_guest_indiactor
+        description: ""
+
+      - name: product_minimum_fulfillment_day_count
+        description: ""
+
+      - name: product_ship_to_resort_indicator
+        description: ""
+
+      - name: product_availability_start_date
+        description: ""
+
+      - name: product_availability_end_datetime
+        description: ""
+
+      - name: magic_band_unique_identifier
+        description: ""
+
+      - name: request_id
+        description: ""
+
+      - name: request_type_id
+        description: ""
+
+      - name: request_type_code
+        description: ""
+
+      - name: request_type_description
+        description: ""
+
+      - name: request_reason_id
+        description: ""
+
+      - name: request_reason_code
+        description: ""
+
+      - name: request_reason_description
+        description: ""
+
+      - name: current_request_status_id
+        description: ""
+
+      - name: current_request_status_category_id
+        description: ""
+
+      - name: current_request_status_category_code
+        description: ""
+
+      - name: current_request_status_category_description
+        description: ""
+
+      - name: current_request_status_code
+        description: ""
+
+      - name: current_request_status_description
+        description: ""
+
+      - name: order_unique_identifier
+        description: ""
+
+      - name: order_expected_shipping_date
+        description: ""
+
+      - name: order_expected_delivery_date
+        description: ""
+
+      - name: order_actual_delivery_date
+        description: ""
+
+      - name: order_status_id
+        description: ""
+
+      - name: order_status_category_id
+        description: ""
+
+      - name: order_status_category_code
+        description: ""
+
+      - name: order_status_category_description
+        description: ""
+
+      - name: order_status_code
+        description: ""
+
+      - name: order_status_description
+        description: ""
+
+      - name: package_id
+        description: ""
+
+      - name: package_component_id
+        description: ""
+
+      - name: package_component_type_id
+        description: ""
+
+      - name: package_component_role_id
+        description: ""
+
+      - name: package_component_role_cd
+        description: ""
+
+      - name: package_component_role_description
+        description: ""
+
+      - name: package_component_construction_rule_id
+        description: ""
+
+      - name: package_component_construction_rule_code
+        description: ""
+
+      - name: package_component_construction_rule_description
+        description: ""
+
+      - name: package_component_type_name
+        description: ""
+
+      - name: package_component_type_active_indicator
+        description: ""
+
+      - name: package_component_name
+        description: ""
+
+      - name: package_component_available_to_guest_indicator
+        description: ""
+
+      - name: package_component_minimum_capacity_count
+        description: ""
+
+      - name: package_component_maximum_capacity_count
+        description: ""
+
+      - name: package_component_active_indicator
+        description: ""
+
+      - name: package_sequence_number
+        description: ""
+
+      - name: printed_name
+        description: ""
+
+      - name: guest_confirmation_indicator
+        description: ""
+
+      - name: magic_band_sequence_number
+        description: ""
+
+      - name: customized_print_name_indicator
+        description: ""
+
+      - name: current_guest_link_id
+        description: ""
+
+      - name: current_guest_link_unique_identifier
+        description: ""
+
+      - name: current_guest_source_system_native_id
+        description: ""
+
+      - name: current_guest_source_system_value
+        description: ""
+
+      - name: current_guest_profile_first_name
+        description: ""
+
+      - name: current_guest_profile_last_name
+        description: ""
+
+      - name: original_guest_link_id
+        description: ""
+
+      - name: original_guest_link_unique_identifier
+        description: ""
+
+      - name: original_guest_source_system_native_id
+        description: ""
+
+      - name: original_guest_source_system_value
+        description: ""
+
+      - name: original_guest_profile_first_name
+        description: ""
+
+      - name: original_guest_profile_last_name
+        description: ""
+
+      - name: retail_indicator
+        description: ""
+
+      - name: guest_opt_out_indicator
+        description: ""
+
+      - name: opt_out_reason_id
+        description: ""
+
+      - name: opt_out_reason_code
+        description: ""
+
+      - name: opt_out_reason_description
+        description: ""
+
+      - name: override_printed_name
+        description: ""
+
+      - name: source_system_create_user_id
+        description: ""
+
+      - name: source_system_create_datetime
+        description: ""
+
+      - name: source_system_update_user_id
+        description: ""
+
+      - name: source_system_update_datetime
+        description: ""
+
+      - name: source_system_logical_delete_indicator
+        description: ""

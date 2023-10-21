@@ -1,0 +1,71 @@
+ownership:
+  get:
+    tags:
+      - Guest Product Ownerships
+    description: Get a list of  products explicitly linked to the guest by ID type
+    operationId: getGuestOwnership
+    parameters:
+      - name: id
+        in: query
+        description: specify the guest identifier for lookup
+        required: true
+        schema:
+          type: string
+      - name: idType
+        in: query
+        description: specify the guest identifier type, ex - swid
+        required: true
+        schema:
+          $ref: "../openapi.yaml#/components/schemas/idTypes"
+        example: swid
+      - name: productCategories
+        in: query
+        description: specify the list of owned products linked to the guest. If unspecified, all categories are returned.
+        required: false
+        explode: false
+        allowEmptyValue: false
+        schema:
+          type: array
+          items:
+            $re": "../openapi.yaml#/components/schemas/productCategoriesParam"
+      - name: validityDate
+        in: query
+        description: specify date for ownership products that are valid on or after the validity date.  This applies to products that have validity range - Tickets, Memory Maker, PhotoPass.  Does not affect other product ownership categories.
+        required: false
+        schema:
+          type: string
+          format: date
+          example: "2021-11-28"
+      - name: limit
+        in: query
+        schema:
+          type: integer
+          maximum: 50 #example value, maximum to be determined
+        description: The maximum number of entries to return. If the value exceeds the maximum, then the maximum value will be used.
+      - name: offset
+        in: query
+        schema:
+          type: integer
+        description: The number of items to skip before starting to collect the result set
+    responses:
+      "200":
+        description: successful operation
+        content:
+          application/json:
+            schema:
+              $ref: "../openapi.yaml#/components/schemas/ownershipParadigm"
+      "400":
+        description: Invalid request
+      "401":
+        description: Unauthorized request
+      "404":
+        description: ID / ID Type not found
+      "405":
+        description: Method not allowed
+    x-amazon-apigateway-integration:
+      credentials: "${ApiGatewayLambdaRole.Arn}"
+      type: aws_proxy
+      httpMethod: POST
+      uri: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${APILambda.Arn}/invocations
+      passthroughBehavior: when_no_templates
+      payloadFormatVersion: "1.0"

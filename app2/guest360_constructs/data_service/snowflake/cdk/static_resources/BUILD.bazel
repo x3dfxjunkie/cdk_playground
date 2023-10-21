@@ -1,0 +1,43 @@
+# couldn't figure out all the dependency issues
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+library_name = "static_resources"
+
+py_lambda_library(
+    name = library_name,
+    srcs = glob([library_name + "/*.py"]),
+    data = [
+        "__init__.py",
+        "//app/guest360_constructs/data_service/snowflake/cdk",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("aws-cdk-lib"),
+    ],
+)
+
+pytest_test(
+    name = library_name + "_tests",
+    srcs = glob([
+        "tests/**/*.py",
+        "tests/*.py",
+    ]),
+    deps = [
+        ":" + library_name,
+        "//app/guest360_constructs",
+        "//app/guest360_constructs/data_service/snowflake/cdk/external_stage",
+        "//app/guest360_constructs/data_service/snowflake/cdk/external_stage:external_stage_tests",
+        "//app/guest360_constructs/data_service/snowflake/cdk/notification_integration",
+        "//app/guest360_constructs/data_service/snowflake/cdk/notification_integration:notification_integration_tests",
+        "//app/src/reliability",
+        requirement("cdk-nag"),
+        requirement("pyyaml"),
+        requirement("moto"),
+        requirement("mock"),
+        requirement("boto3"),
+        requirement("botocore"),
+        requirement("pytest-timeout"),
+    ],
+)

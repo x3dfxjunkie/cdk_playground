@@ -1,0 +1,125 @@
+[
+    {
+        "data": {
+            "TC_EXTNL_REF_ID": 298278216,
+            "TC_ID": 2063905541,
+            "TC_EXTNL_REF_TYP_NM": "RESERVATION",
+            "TC_EXTNL_SRC_NM": "Accovia",
+            "TC_EXTNL_REF_VL": "27295249#PBP#9",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2022-10-16T15:38:45.339000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-03T18:23:42.082000Z",
+            "JDO_SEQ_NB": 9,
+            "transact_commit_timestamp": "2023-06-03T22:23:51.784843000Z",
+            "transact_seq": "20230603222351780000000002090746721"
+        },
+        "metadata": {
+            "timestamp": "2023-06-03T22:23:53.124262Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_extnl_ref",
+            "transaction-id": 73065987724351
+        }
+    },
+    {
+        "data": {
+            "TC_EXTNL_REF_ID": 298278218,
+            "TC_ID": 2063905541,
+            "TC_EXTNL_REF_TYP_NM": "REQUEST_ID",
+            "TC_EXTNL_SRC_NM": "Sales_Offer",
+            "TC_EXTNL_REF_VL": "2",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2022-10-16T15:38:45.339000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-03T18:23:42.082000Z",
+            "JDO_SEQ_NB": 5,
+            "transact_commit_timestamp": "2023-06-03T22:23:51.784843000Z",
+            "transact_seq": "20230603222351780000000002090746729"
+        },
+        "metadata": {
+            "timestamp": "2023-06-03T22:23:53.133758Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_extnl_ref",
+            "transaction-id": 73065987724351
+        }
+    },
+    {
+        "data": {
+            "TC_EXTNL_REF_ID": 298278220,
+            "TC_ID": 2063905541,
+            "TC_EXTNL_REF_TYP_NM": "CONVERSATION_ID",
+            "TC_EXTNL_SRC_NM": "Sales_Offer",
+            "TC_EXTNL_REF_VL": "22703d9e-a870-4d0c-a046-111593710b04",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2022-10-16T15:38:45.339000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-03T18:23:42.082000Z",
+            "JDO_SEQ_NB": 7,
+            "transact_commit_timestamp": "2023-06-03T22:23:51.784843000Z",
+            "transact_seq": "20230603222351780000000002090746737"
+        },
+        "metadata": {
+            "timestamp": "2023-06-03T22:23:53.143523Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_extnl_ref",
+            "transaction-id": 73065987724351
+        }
+    },
+    {
+        "data": {
+            "TC_EXTNL_REF_ID": 1325656652,
+            "TC_ID": 12091815373,
+            "TC_EXTNL_REF_TYP_NM": "RESERVATION",
+            "TC_EXTNL_SRC_NM": "DVC",
+            "TC_EXTNL_REF_VL": "M:623142717128221861",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-03T18:23:43.027000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-03T18:23:43.027000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-03T22:23:51.784843000Z",
+            "transact_seq": "20230603222351780000000002090746821"
+        },
+        "metadata": {
+            "timestamp": "2023-06-03T22:23:53.362435Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_extnl_ref",
+            "transaction-id": 73065987724351
+        }
+    },
+    {
+        "data": {
+            "TC_EXTNL_REF_ID": 1325661421,
+            "TC_ID": 12091820459,
+            "TC_EXTNL_REF_TYP_NM": "RESERVATION",
+            "TC_EXTNL_SRC_NM": "Accovia",
+            "TC_EXTNL_REF_VL": "30114723#PBP#5",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-03T18:23:43.396000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-03T18:23:43.396000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_seq": "20230603222351780000000002090747161"
+        },
+        "metadata": {
+            "timestamp": "2023-06-03T22:23:54.040224Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_extnl_ref"
+        }
+    }
+]

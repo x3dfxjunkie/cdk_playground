@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+
+{% block title %}Sample Load{% endblock %}
+
+{% block css %}{% endblock %}
+{% block js %}{% endblock %}
+
+{% block content %}
+<section class="text-center">
+    <div class="row">
+        <img class src="{{lambda_url_for('static', filename = 'img/Data-Contract-Auto-Mater.png') }}">
+        <h5 class="row header col-sm-12 light">
+            The Data Contract Auto-Mater tool allows users to load JSON, CSV, XML, or
+            openAPI (Yaml) files and process them to generate data contract framework.
+        </h5>
+    </div>
+    <div class="p-1 py-2">
+        <div class="py-2">
+            <h6 class="p-1">
+                Load Sample Data File (JSON, CSV, XML, or YAML)
+            </h6>
+            <form action="/sample-load/contract" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+                <div class="input-group">
+                    <input type="file" name="file" class="form-control form-control-lg" id="inputGroupFile04"
+                        aria-describedby="inputGroupFileAddon04" aria-label="Upload" accept=".csv, .json, .yaml, .xml"
+                        multiple required>
+                    <button class="btn btn-outline-secondary" name="action" id="inputGroupFileAddon04">Upload</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <img src="https://cdn11.bigcommerce.com/s-5ylnei6or5/products/528/images/1025/1753_Mater_CarsRefresh_46__37747.1514658593.500.750.jpg?c=2"
+        alt="Mater image" width="125" height="133.5">
+</section>
+{% if data_contract is defined and synthetic_data is defined and model_name is defined%}
+<!--This form action redirects directly to synthetic data section after loading the number of samples required-->
+<form action="/sample-load/refresh-samples#synthetic-data-output-container" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+    <!--This hidden input allows to pass the model name as parameter between Flask functions-->
+    <input type="hidden" name="model_name" value="{{ model_name }}" />
+    <section id="output-container" class="py-2">
+        <h4 id="header-output">Data Contract:</h4>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Data Contract" id="output-box" name="data-contract-output-box"
+                style="height: 500px">{{data_contract}}</textarea>
+            <label for="output-box">Data Contract</label>
+        </div>
+        <div class="d-grid gap-2 mt-2">
+            <button class="btn btn-primary btn-lg" type="button" id="copy-button"
+                onclick="copyToClipboard()">Copy</button>
+        </div>
+    </section>
+    <section id="synthetic-data-output-container" class="py-2">
+        <h4 id="header-output">Synthetic Data:</h4>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Synthetic Data" id="synthetic-data-output-box"
+                style="height: 500px">{{synthetic_data}}</textarea>
+            <label for="synthetic-data-output-box">Synthetic Data</label>
+        </div>
+        <div class="d-flex align-items-center gap-2 mt-2">
+            <div class="input-group">
+                <span class="input-group-text border-dark">
+                    Samples
+                </span>
+                <input type="number" id="quantity" name="number_of_samples" min="1" max="30" value="{{ quantity }}"
+                    class="form-control-sm border-1 " />
+                <button class="btn btn-outline-secondary" name="refresh_samples" id="refresh_samples">
+                    <i class="fas fa-sync"></i>
+                </button>
+            </div>
+        </div>
+        <div class="d-grid gap-2 mt-2">
+            <!--When Synthetic Data is specified as argument will copy the content from 'synthetic-data-output-box' text area -->
+            <button class="btn btn-primary btn-lg" type="button" id="copy-button"
+                onclick="copyToClipboard('Synthetic Data')">Copy</button>
+        </div>
+    </section>
+</form>
+{% endif %}
+
+
+<section class="section py-2">
+    <!--   Icon Section   -->
+    <div class="row">
+        <div class="col-sm-12 col-md-4">
+            <div class="icon-block">
+                <h4 class="text-center">Step 1</h4>
+                <h5 class="text-center">Find Sample Data</h5>
+                <p class="text-justify">
+                    Before this Auto-Mater can be run. User must have sufficient sample file(s).
+                    This can be either openAPI documentation saved as .YAML, .CSV, .XML or .JSON with payload samples.
+                    With any option the data should provide a clear overview of all the possible payloads and data
+                    situations we could incur.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4">
+            <div class="icon-block">
+                <h4 class="text-center">Step 2</h4>
+                <h5 class="text-center">Choose File(s)</h5>
+                <p class="text-justify">
+                    Use the file explorer button to load the files you wish to process.
+                    Functionality will allow multiple files to be loaded at once. Do not load multiple types of file
+                    extensions on the same load.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4">
+            <div class="icon-block">
+                <h4 class="text-center">Step 3</h4>
+                <h5 class="text-center">Upload</h5>
+                <p class="text-justify">
+                    After the files have been chosen, click the upload button to run the generator to create the data
+                    contract template and synthetic data.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

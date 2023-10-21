@@ -1,0 +1,480 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__east__res_flight_sector_cleansed
+    description: '{{ doc("sil__intermediate__travelbox__east__res_flight_sector_cleansed") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_cleansed
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_booking_id
+            - data_item_no
+            - data_product_code
+            - data_sector_no
+            - metadata_checksum
+
+    columns:
+      - name: data_booking_token
+        description: "NaN | example: dcWFYgWoFWnpYBRRPnHk"
+        meta:
+          checksum: True
+
+      - name: data_flight_no
+        description: "The Flight number returned by Amadeus. (Ex: 510) | example: 691"
+        meta:
+          checksum: True
+
+      - name: data_des
+        description: "IATA code of destination airport | example: MCO"
+        meta:
+          checksum: True
+
+      - name: data_dep_date
+        description: "Booking departure date | example: 2017-11-10 02:21:48"
+        meta:
+          checksum: True
+
+      - name: data_des_date
+        description: "Destination arrival date | example: 1998-02-22 06:53:11"
+        meta:
+          checksum: True
+
+      - name: data_dep_terminal
+        description: "Departure terminal after changing the flight item | example: -"
+        meta:
+          checksum: True
+
+      - name: data_arr_terminal
+        description: "Arrival terminal after changing the flight item | example:"
+        meta:
+          checksum: True
+
+      - name: data_equipment
+        description: "Aircraft details associated with the flight sector | example: 321"
+        meta:
+          checksum: True
+
+      - name: data_status_code
+        description: "Code that specifies the status of the sector for GDS reserved flights | example: HK"
+        meta:
+          checksum: True
+
+      - name: data_held_by
+        description: "Deprecated | example:"
+        meta:
+          checksum: True
+
+      - name: data_crs_seats
+        description: "Number of seats reserved in CRS, associated with the sector | example: 2"
+        meta:
+          checksum: True
+
+      - name: data_alloc_contract_id
+        description: "Reference to the Contract_Id field of the contract where allocation is taken from. In a scenario where a  contract does not have allocations within itself but is getting allocations from another contract through shared allocations, this will refer the contract having the allocations. | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_alloc_leg_no
+        description: "System generated id of the allocation leg | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_alloc_block_no
+        description: "Allocation Block number of the Allocation contract. Field reference to the table FA_ALLOCATION_BLOCK, column BLOCK_NO | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_alloc_sector_no
+        description: "Sector number of the allocation contract. Field reference to the FA_SECTOR table, SECTOR_NO column. | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_alloc_brand
+        description: "Deprecated | example:"
+        meta:
+          checksum: True
+
+      - name: data_alloc_seats
+        description: "ALLOC_SEATS IN THE RES_FLIGHT_SECTOR | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_alloc_package_no
+        description: "Copy of the RES_FLIGHT_SECTOR table same column name before a schedule change process | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_alloc_package_seats
+        description: "Copy of the RES_FLIGHT_SECTOR table same column name before a schedule change process | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_baggage
+        description: "Baggage information is specified either in pieces(PC) or kilograms(K). All baggage information is specified here in a comma separated manner for each pax type._x000D_
+1 PC - 1 piece_x000D_
+1 K - 1 Kg | example:"
+        meta:
+          checksum: True
+
+      - name: data_not_valid_after
+        description: "Deprecated | example: 2006-06-19 11:12:01"
+        meta:
+          checksum: True
+
+      - name: data_checkin_before
+        description: "Time on or before the passengers are supposed to check in | example:"
+        meta:
+          checksum: True
+
+      - name: data_touchdown
+        description: "Touchdown airport codes between departure airport and destination airport | example:"
+        meta:
+          checksum: True
+
+      - name: data_note
+        description: "The note of Special Rate | example:"
+        meta:
+          checksum: True
+
+      - name: data_addon_id
+        description: "Oracle managed system tables used for materialised views | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_addon_sector
+        description: "The sector number that is associated with a particular addon id | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_addon_charge_no
+        description: "System generated number of addon charge | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_alloc_group_id
+        description: "System generated id of the allocation contract group | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_fare_basis
+        description: "Fare basis rule in free text | example: MbcpCiokhGRCrYAcZxLo"
+        meta:
+          checksum: True
+
+      - name: data_pub_fare_type_code
+        description: "Deprecated | example: QYibZcaVsBlONggFDUpl"
+        meta:
+          checksum: True
+
+      - name: data_operating_airline
+        description: "IATA code of operating airline | example: AA"
+        meta:
+          checksum: True
+
+      - name: data_cabin_class
+        description: "Cabin class of the cabin | example: ZHhRKSoQLKqNgVWDYTJp"
+        meta:
+          checksum: True
+
+      - name: data_duration
+        description: "Duration of the booking item | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_mapping_fare_basis
+        description: "This is the equivalent Published fare fare basis for a particular Private fare fare basis | example: VdhzvPnFioJGOTRCmQyR"
+        meta:
+          checksum: True
+
+      - name: data_no_of_stops
+        description: "Specifies the number of touchdowns associated with the sector | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_pkg_item_order
+        description: "If the booking item belongs to a package, the order number of the booking item within the package. | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_airline_locator
+        description: "Airline locator code associated with the respective flight booking | example: QGFUOZ"
+        meta:
+          checksum: True
+
+      - name: data_pub_ticket_info_id
+        description: "Ticket info from the Published fare overriding contract. | example: 3298"
+        meta:
+          checksum: True
+
+      - name: data_price_combination
+        description: "Deprecated | example: 2913"
+        meta:
+          checksum: True
+
+      - name: data_pub_contract_id
+        description: "Published fare override contract id. System generated Id of the overriding contract. | example: 1126"
+        meta:
+          checksum: True
+
+      - name: data_baggage_chd
+        description: "Deprecated | example: pFxaqBHqcbGUSEkDBznL"
+        meta:
+          checksum: True
+
+      - name: data_baggage_inf
+        description: "Deprecated | example: BAQelqcGNwYrTUCrGtjf"
+        meta:
+          checksum: True
+
+      - name: data_designator
+        description: "Ticket Designator returned from GDS for Cat 25 fares. Only saved if available, otherwise null. (for published and nett fares this would be null) | example: KPjEhhWbGmYzINlRSHRX"
+        meta:
+          checksum: True
+
+      - name: data_operating_airline_flt_no
+        description: "Flight no specified by the operating airline | example: eqGpyzIZVmyghgRVSAwk"
+        meta:
+          checksum: True
+
+      - name: data_seat_released
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_info_only_key
+        description: "NaN | example: XVykWMNddMkULzgOzdJz"
+        meta:
+          checksum: True
+
+      - name: data_meal_code
+        description: "Meal codes returned by Amadeus. | example: iAEclBVpqwaNMyKHDCVJ"
+        meta:
+          checksum: True
+
+      - name: data_change_of_gauge
+        description: "Specifies whether the flight sector has a change of equipment | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 1977-03-26 04:41:05"
+        meta:
+          checksum: True
+
+      - name: data_operating_airline_info
+        description: "When Shared Airline Designator or Wet Leas Airline Designation situation, operating carrier is not coming from Amadeus. but it&#39;s received operating carrier information. this column use for this purpose  | example: MqfZxgPjUBIqqTyjVqRs"
+        meta:
+          checksum: True
+
+      - name: data_co2_info
+        description: "NaN | example: VTNOvzDrvZrrYBBUWQYR"
+        meta:
+          checksum: True
+
+      - name: data_booking_id
+        description: "The system generated id of the booking | example: 11598913"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_product_code
+        description: "Deprecated | example: FLT"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_item_no
+        description: "Deprecated | example: 1"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_sector_no
+        description: "Oracle managed system tables used for materialised views | example: 2"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_itinerary_order
+        description: "position in the itinerary order of all items within the booking. By Clicking on Reservation Client &#39;Itinerary&#39; node will show the itinerary in this order. User can change the order (position) manually. This is -1 for Transfer items | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_leg_no
+        description: "Flight leg number | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_direction
+        description: "Not in the disney scope | example: O"
+        meta:
+          checksum: True
+
+      - name: data_airline
+        description: "Unique IATA code of the airline | example: AA"
+        meta:
+          checksum: True
+
+      - name: data_booking_class
+        description: "This is a temporary table. | example: N"
+        meta:
+          checksum: True
+
+      - name: data_allocation_class
+        description: "ALLOCATION CLASS IN THE RES_FLIGHT_SECTOR | example:"
+        meta:
+          checksum: True
+
+      - name: data_dep
+        description: "IATA code of departure airport | example: CLT"
+        meta:
+          checksum: True
+
+      - name: min_metadata_timestamp
+        description: "The Minimum Metadata Timestamp field is used for updating the version end date of the active record in the target table"
+        tests:
+          - not_null
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

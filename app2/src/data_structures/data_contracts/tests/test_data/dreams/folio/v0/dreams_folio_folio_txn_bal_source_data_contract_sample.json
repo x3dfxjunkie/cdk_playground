@@ -1,0 +1,71 @@
+[
+    {
+        "data": {
+            "FOLIO_ID": 2,
+            "FOLIO_TXN_ID": 1234567890,
+            "FOLIO_BAL_AM": 0,
+            "FOLIO_BAL_CRNCY_CD": "USD",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T05:32:41.962000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T05:32:41.962000Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-09T22:45:35.681073Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_BAL"
+        }
+    },
+    {
+        "data": {
+            "FOLIO_ID": 2,
+            "FOLIO_TXN_ID": 1234567890,
+            "FOLIO_BAL_AM": 0,
+            "FOLIO_BAL_CRNCY_CD": "USD",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T05:32:41.962000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T05:32:41.962000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T09:46:15Z",
+            "transact_seq": "20230609094615000000000000008820917"
+        },
+        "metadata": {
+            "timestamp": "2023-06-09T22:46:51.989679Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_BAL",
+            "transaction-id": 65589
+        }
+    },
+    {
+        "data": {
+            "FOLIO_ID": 2,
+            "FOLIO_TXN_ID": 1234567890,
+            "FOLIO_BAL_AM": 692,
+            "FOLIO_BAL_CRNCY_CD": "USD",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-08T20:36:19.081000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-08T20:36:19.081000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T00:37:37Z",
+            "transact_seq": "20230609003737000000000000003290485"
+        },
+        "metadata": {
+            "timestamp": "2023-06-09T00:37:45.094637Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_BAL",
+            "transaction-id": 1769500
+        }
+    }
+]

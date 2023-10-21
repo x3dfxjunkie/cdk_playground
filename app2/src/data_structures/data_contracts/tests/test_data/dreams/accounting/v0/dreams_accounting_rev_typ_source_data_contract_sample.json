@@ -1,0 +1,126 @@
+[
+    {
+        "data": {
+            "REV_TYP_ID": 1,
+            "REV_TYP_NM": "Additional Adult",
+            "REV_TYP_ACTV_IN": "Y",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T05:13:45.412Z",
+            "UPDT_USR_ID_CD": "LILOCONV",
+            "UPDT_DTS": "2010-01-20T05:13:45.412Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.431588Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "REV_TYP"
+        }
+    },
+    {
+        "data": {
+            "REV_TYP_ID": 2,
+            "REV_TYP_NM": "Anaheim Room Occupancy Tax",
+            "REV_TYP_ACTV_IN": "Y",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T05:13:45.412Z",
+            "UPDT_USR_ID_CD": "LILOCONV",
+            "UPDT_DTS": "2010-01-20T05:13:45.412Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.460274Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "REV_TYP",
+            "transaction-id": 1264
+        }
+    },
+    {
+        "data": {
+            "REV_TYP_ID": 3,
+            "REV_TYP_NM": "Base",
+            "REV_TYP_ACTV_IN": "Y",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T05:13:45.412Z",
+            "UPDT_USR_ID_CD": "LILOCONV",
+            "UPDT_DTS": "2010-01-20T05:13:45.412Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.479165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "REV_TYP",
+            "transaction-id": 1297
+        }
+    },
+    {
+        "data": {
+            "REV_TYP_ID": 4,
+            "REV_TYP_NM": "Brevard County Sales Tax",
+            "REV_TYP_ACTV_IN": "Y",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T05:13:45.412Z",
+            "UPDT_USR_ID_CD": "LILOCONV",
+            "UPDT_DTS": "2010-01-20T05:13:45.412Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.604399Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "REV_TYP",
+            "transaction-id": 12894
+        }
+    },
+    {
+        "data": {
+            "REV_TYP_ID": 5,
+            "REV_TYP_NM": "Deposit Requirement",
+            "REV_TYP_ACTV_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T05:13:45.412Z",
+            "UPDT_USR_ID_CD": "SC4_SS_BHM",
+            "UPDT_DTS": "2010-03-02T02:31:13.606Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.479165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "REV_TYP",
+            "transaction-id": 1297
+        }
+    },
+    {
+        "data": {
+            "REV_TYP_ID": 6,
+            "REV_TYP_NM": "Discount",
+            "REV_TYP_ACTV_IN": "Y",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T05:13:45.412Z",
+            "UPDT_USR_ID_CD": "LILOCONV",
+            "UPDT_DTS": "2010-01-20T05:13:45.412Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.604399Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "REV_TYP"
+        }
+    }
+]

@@ -1,0 +1,132 @@
+[
+    {
+        "data": {
+            "TXN_RSN_CD": "ADDL_CHG",
+            "TXN_RSN_TYP_NM": "CHARGE",
+            "TXN_RSN_NM": "Additional Charge",
+            "RSN_DSPL_SEQ_NB": 1,
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:49.172Z",
+            "UPDT_USR_ID_CD": "ADMINUID",
+            "UPDT_DTS": "2007-04-26T08:27:30.971Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:02:00.413880Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "TXN_RSN"
+        }
+    },
+    {
+        "data": {
+            "TXN_RSN_CD": "ADDL_COMM",
+            "TXN_RSN_TYP_NM": "SYSTEM",
+            "TXN_RSN_NM": "Additional Comment",
+            "RSN_DSPL_SEQ_NB": 1,
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:49.221Z",
+            "UPDT_USR_ID_CD": "ADMINUID",
+            "UPDT_DTS": "2007-04-26T08:27:30.971Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:34:09.796620Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "TXN_RSN",
+            "transaction-id": 983055
+        }
+    },
+    {
+        "data": {
+            "TXN_RSN_CD": "AUTH_LESS",
+            "TXN_RSN_TYP_NM": "AUTHORIZATION",
+            "TXN_RSN_NM": "Authorized for a lesser amount",
+            "RSN_DSPL_SEQ_NB": 1,
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:49.225Z",
+            "UPDT_USR_ID_CD": "ADMINUID",
+            "UPDT_DTS": "2007-04-26T08:27:30.971Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:50:38.177366Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "TXN_RSN",
+            "transaction-id": 458786
+        }
+    },
+    {
+        "data": {
+            "TXN_RSN_CD": "BK_ADJ",
+            "TXN_RSN_TYP_NM": "BANK RETURN",
+            "TXN_RSN_NM": "Bank Adjustment",
+            "RSN_DSPL_SEQ_NB": 1,
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:49.229Z",
+            "UPDT_USR_ID_CD": "ADMINUID",
+            "UPDT_DTS": "2007-04-26T08:27:30.971Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:51:32.310602Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "TXN_RSN",
+            "transaction-id": 1835051
+        }
+    },
+    {
+        "data": {
+            "TXN_RSN_CD": "CC_CRG_BK",
+            "TXN_RSN_TYP_NM": "BANK RETURN",
+            "TXN_RSN_NM": "Credit Card Charge Back",
+            "RSN_DSPL_SEQ_NB": 1,
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:49.233Z",
+            "UPDT_USR_ID_CD": "test1212",
+            "UPDT_DTS": "2009-09-15T03:49:56.494Z",
+            "JDO_SEQ_NB": 1
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T01:43:59.316378Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "TXN_RSN",
+            "transaction-id": 1638444
+        }
+    },
+    {
+        "data": {
+            "TXN_RSN_CD": "EX_REF_TPS",
+            "TXN_RSN_TYP_NM": "UNAPPLIED",
+            "TXN_RSN_NM": "External Ref not Associated with TPS",
+            "RSN_DSPL_SEQ_NB": 1,
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:49.241Z",
+            "UPDT_USR_ID_CD": "ADMINUID",
+            "UPDT_DTS": "2007-04-26T08:27:30.971Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T02:55:17.813713Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "TXN_RSN"
+        }
+    }
+]

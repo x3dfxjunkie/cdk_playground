@@ -1,0 +1,132 @@
+{
+    "DREAMSGuestCntryModel": {
+        "data-source-folder": "dreams/guest/v0",
+        "data-contract-name": "dreams_guest_cntry_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CNTRY"
+            }
+        }
+    },
+    "DREAMSGuestRgnModel": {
+        "data-source-folder": "dreams/guest/v0",
+        "data-contract-name": "dreams_guest_rgn_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "RGN"
+            }
+        }
+    },
+    "DREAMSGuestTxnIdvlPtyMbshpModel": {
+        "data-source-folder": "dreams/guest/v0",
+        "data-contract-name": "dreams_guest_txn_idvl_pty_mbshp_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "TXN_IDVL_PTY_MBSHP"
+            }
+        }
+    },
+    "DREAMSGuestTxnIdvlPtyModel": {
+        "data-source-folder": "dreams/guest/v0",
+        "data-contract-name": "dreams_guest_txn_idvl_pty_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "TXN_IDVL_PTY"
+            }
+        }
+    },
+    "DREAMSGuestTxnOrgPtyModel": {
+        "data-source-folder": "dreams/guest/v0",
+        "data-contract-name": "dreams_guest_txn_org_pty_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "TXN_ORG_PTY"
+            }
+        }
+    },
+    "DREAMSGuestTxnPtyAddrLctrModel": {
+        "data-source-folder": "dreams/guest/v0",
+        "data-contract-name": "dreams_guest_txn_pty_addr_lctr_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "TXN_PTY_ADDR_LCTR"
+            }
+        }
+    },
+    "DREAMSGuestTxnPtyEmlLctrModel": {
+        "data-source-folder": "dreams/guest/v0",
+        "data-contract-name": "dreams_guest_txn_pty_eml_lctr_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "TXN_PTY_EML_LCTR"
+            }
+        }
+    },
+    "DREAMSGuestTxnPtyLctrModel": {
+        "data-source-folder": "dreams/guest/v0",
+        "data-contract-name": "dreams_guest_txn_pty_lctr_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "TXN_PTY_LCTR"
+            }
+        }
+    },
+    "DREAMSGuestTxnPtyLctrXrefModel": {
+        "data-source-folder": "dreams/guest/v0",
+        "data-contract-name": "dreams_guest_txn_pty_lctr_xref_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "TXN_PTY_LCTR_XREF"
+            }
+        }
+    },
+    "DREAMSGuestTxnPtyPhnLctrModel": {
+        "data-source-folder": "dreams/guest/v0",
+        "data-contract-name": "dreams_guest_txn_pty_phn_lctr_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "TXN_PTY_PHN_LCTR"
+            }
+        }
+    },
+    "DREAMSGuestTxnPtyRlModel": {
+        "data-source-folder": "dreams/guest/v0",
+        "data-contract-name": "dreams_guest_txn_pty_rl_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "TXN_PTY_RI"
+            }
+        }
+    },
+    "DREAMSGuestTxnPtyModel": {
+        "data-source-folder": "dreams/guest/v0",
+        "data-contract-name": "dreams_guest_txn_pty_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "TXN_PTY"
+            }
+        }
+    },
+    "DREAMSGuestTxnPtyExtnlRefModel": {
+        "data-source-folder": "dreams/guest/v0",
+        "data-contract-name": "dreams_guest_txn_pty_extnl_ref_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "TXN_PTY_EXTNL_REF"
+            }
+        }
+    }
+}

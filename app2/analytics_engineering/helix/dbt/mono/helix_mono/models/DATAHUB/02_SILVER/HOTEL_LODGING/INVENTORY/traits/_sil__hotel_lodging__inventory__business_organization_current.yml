@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__inventory__business_organization_current
+    description: "{{ doc('sil__hotel_lodging__inventory__business_organization_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=inventory
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: campus_id
+        description: ""
+
+      - name: campus_name
+        description: ""
+
+      - name: business_organization_id
+        description: ""
+
+      - name: business_organization_name
+        description: ""
+
+      - name: current_account_date
+        description: ""
+
+      - name: time_zone_name
+        description: ""
+
+      - name: bypass_balance_due_indicator
+        description: ""
+
+      - name: date_format_value
+        description: ""

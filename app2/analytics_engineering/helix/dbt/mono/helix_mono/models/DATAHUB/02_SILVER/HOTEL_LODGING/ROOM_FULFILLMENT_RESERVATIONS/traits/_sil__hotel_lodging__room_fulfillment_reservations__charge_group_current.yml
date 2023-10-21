@@ -1,0 +1,67 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__charge_group_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__charge_group_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: charge_group_id
+        description: ""
+
+      - name: charge_type_name
+        description: ""
+
+      - name: data_chrg_grp_strt_dts
+        description: ""
+
+      - name: data_chrg_grp_end_dts
+        description: ""
+
+      - name: charge_group_status_name
+        description: ""
+
+      - name: charge_group_description
+        description: ""
+
+      - name: charge_group_start_datetime
+        description: ""
+
+      - name: charge_group_start_date
+        description: ""
+
+      - name: charge_group_end_datetime
+        description: ""
+
+      - name: charge_group_end_date
+        description: ""
+
+      - name: transaction_facility_id
+        description: ""
+
+      - name: source_account_center_id
+        description: ""
+
+      - name: group_delegate_small_balance_writeoff_indicator
+        description: ""
+
+      - name: bill_charge_group_id
+        description: ""
+
+      - name: ancestor_charge_group_id
+        description: ""
+
+      - name: guarantee_type_name
+        description: ""
+
+      - name: package_exception_indicator
+        description: ""

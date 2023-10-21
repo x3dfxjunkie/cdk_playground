@@ -1,0 +1,319 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__west__res_accom_room_versioned
+    description: '{{ doc("sil__intermediate__travelbox__west__res_accom_room_versioned") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_versioned
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_booking_id
+            - data_item_no
+            - data_product_code
+            - data_room_no
+            - metadata_checksum
+
+    columns:
+      - name: data_pppn_infant_price
+        description: "Per Person Per Night Infant Price | example: 0.0"
+
+      - name: data_pppn_adult_cost
+        description: "Per Person Per Night Adult cost (manual item prices are recorded PPPN) | example: 0.0"
+
+      - name: data_pppn_child_cost
+        description: "Per Person Per Night Child cost | example: 0.0"
+
+      - name: data_pppn_infant_cost
+        description: "Per Person Per Night Infant Cost | example: 0.0"
+
+      - name: data_bedding
+        description: "Bed type in the room eg: Standard Bedding | example: N/A"
+
+      - name: data_occupancy_code
+        description: "The code specified for the custom occupancy | example: AD"
+
+      - name: data_markup_ref
+        description: "The TravelBox reference of the applied markup for the room | example: qoBjZjFQaoufJsZetbxt"
+
+      - name: data_availability_type
+        description: "Deprecated | example: 0"
+
+      - name: data_non_paying_pax
+        description: "Deprecated | example: 0"
+
+      - name: data_ancillary_pax
+        description: "Deprecated | example: 0"
+
+      - name: data_manually_added
+        description: "Flag to check whether manually added or not | example: 0"
+
+      - name: data_unit_cost
+        description: "Flag to indicate if the fare is specified per person ( 0 ) or as a unit cost ( 1 ) when fare defined method is selected as &#39;Amount&#39; | example: 0.0"
+
+      - name: data_unit_price
+        description: "Unit Price | example: 0.0"
+
+      - name: data_adt_manual_override_price
+        description: "Manually added price for adults of room through TravelBox | example: 0.0"
+
+      - name: data_chd_manual_override_price
+        description: "Manually added price for children of room through TravelBox | example: 0.0"
+
+      - name: data_inf_manual_override_price
+        description: "Manually added price for infants of room through TravelBox | example: 0.0"
+
+      - name: data_adt_manual_override_cost
+        description: "Manually added cost for adults of room through TravelBox | example: 0.0"
+
+      - name: data_chd_manual_override_cost
+        description: "Manually added cost for children of room through TravelBox | example: 0.0"
+
+      - name: data_inf_manual_override_cost
+        description: "Manually added cost for infants of room through TravelBox | example: 0.0"
+
+      - name: data_special_rate_applied
+        description: "Whether it&#39;s apply special rate which is setup | example: 0"
+
+      - name: data_on_request
+        description: "Specifies whether car is On Request or not_x000D_
+On Request - 1, Not - 0 | example: 1"
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 2011-07-17 19:32:33"
+
+      - name: data_booking_id
+        description: "The system generated id of the booking | example: 14698470"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_product_code
+        description: "Deprecated | example: HTL"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_item_no
+        description: "Deprecated | example: 1"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_room_no
+        description: "The system generated number for the room of the reservation | example: 1"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_room_type
+        description: "The TravelBox code of the room type of the booking | example: CS4"
+
+      - name: data_allocation_contract
+        description: "Deprecated | example: -1"
+
+      - name: data_contract_id
+        description: "The system generated id of the contract | example: 0"
+
+      - name: data_adult
+        description: "Number of  Adult passengers of the sharing rule | example: 2"
+
+      - name: data_child
+        description: "Number of  Child passengers of the sharing rule | example: 0"
+
+      - name: data_infant
+        description: "Number of  Infant passengers of the sharing rule | example: 0"
+
+      - name: data_cost
+        description: "Debit credit note cost amount_x000D_
+- If credit negative value_x000D_
+- If debit positive value | example: 1817.32"
+
+      - name: data_price
+        description: "Oracle managed system tables used for materialised views | example: 2138.0"
+
+      - name: data_rooms
+        description: "Number of rooms reserved | example: 1"
+
+      - name: data_discount
+        description: "Invoice line Discount | example: 0.0"
+
+      - name: data_adult_cost
+        description: "Reserved for future implementations | example: 1817.32"
+
+      - name: data_child_cost
+        description: "Per Child cost for a particuler Other Cost | example: 0.0"
+
+      - name: data_infant_cost
+        description: "Infant cost for a particuler Other Cost | example: 0.0"
+
+      - name: data_adult_price
+        description: "Reserved for future implementations | example: 2138.0"
+
+      - name: data_child_price
+        description: "Reserved for future implementations | example: 0.0"
+
+      - name: data_infant_price
+        description: "Reserved for future implementations | example: 0.0"
+
+      - name: data_allot_group_no
+        description: "The system generated number of the allocation group from which the reservation has been done | example: 0"
+
+      - name: data_pppn_adult_price
+        description: "Per Person Per Night Adult Price | example: 0.0"
+
+      - name: data_pppn_child_price
+        description: "Per Person Per Night Child Price | example: 0.0"
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: metadata_version_start_datetime
+        description: "Version start datetime"
+        tests:
+          - not_null
+
+      - name: metadata_version_end_datetime
+        description: "Version end datetime"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

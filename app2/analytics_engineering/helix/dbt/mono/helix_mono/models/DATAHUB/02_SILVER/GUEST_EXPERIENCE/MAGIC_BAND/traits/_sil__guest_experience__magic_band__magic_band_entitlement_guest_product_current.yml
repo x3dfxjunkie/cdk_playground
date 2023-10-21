@@ -1,0 +1,175 @@
+version: 2
+
+models:
+  - name: sil__guest_experience__magic_band__magic_band_entitlement_guest_product_current
+    description: "{{ doc('sil__guest_experience__magic_band__magic_band_entitlement_guest_product_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=guest_experience
+        - sub_domain=magic_band
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: magic_band_entitlement_id
+        description: ""
+
+      - name: magic_band_entitlement_code
+        description: ""
+
+      - name: default_product_id
+        description: ""
+
+      - name: default_product_type_id
+        description: ""
+
+      - name: default_product_type_code
+        description: ""
+
+      - name: default_product_type_description
+        description: ""
+
+      - name: default_product_type_available_to_guest_indicator
+        description: ""
+
+      - name: default_product_top_color_id
+        description: ""
+
+      - name: default_product_top_color_code
+        description: ""
+
+      - name: default_product_top_color_name
+        description: ""
+
+      - name: default_product_top_color_available_to_guest_indicator
+        description: ""
+
+      - name: default_product_bottom_color_id
+        description: ""
+
+      - name: default_product_bottom_color_code
+        description: ""
+
+      - name: default_product_bottom_color_name
+        description: ""
+
+      - name: default_product_bottom_color_available_to_guest_indicator
+        description: ""
+
+      - name: default_product_minimum_fulfillment_day_count
+        description: ""
+
+      - name: default_product_ship_to_resort_indicator
+        description: ""
+
+      - name: default_product_availability_start_date
+        description: ""
+
+      - name: default_product_availability_end_date
+        description: ""
+
+      - name: entitlement_description
+        description: ""
+
+      - name: entitlement_rank_number
+        description: ""
+
+      - name: entitlement_shipping_immediately_available_indicator
+        description: ""
+
+      - name: entitlement_guest_link_id
+        description: ""
+
+      - name: guest_link_reason_id
+        description: ""
+
+      - name: guest_link_reason_code
+        description: ""
+
+      - name: guest_link_reason_description
+        description: ""
+
+      - name: guest_link_unique_id
+        description: ""
+
+      - name: supplemental_guest_identifier
+        description: ""
+
+      - name: supplemental_guest_identifier_name
+        description: ""
+
+      - name: guest_profile_first_name
+        description: ""
+
+      - name: guest_profile_last_name
+        description: ""
+
+      - name: entitlement_product_id
+        description: ""
+
+      - name: entitlement_product_type_id
+        description: ""
+
+      - name: entitlement_product_type_code
+        description: ""
+
+      - name: entitlement_product_type_description
+        description: ""
+
+      - name: entitlement_product_type_available_to_guest_indicator
+        description: ""
+
+      - name: entitlement_product_top_color_id
+        description: ""
+
+      - name: entitlement_product_top_color_code
+        description: ""
+
+      - name: entitlement_product_top_color_name
+        description: ""
+
+      - name: entitlement_product_top_color_available_to_guest_indicator
+        description: ""
+
+      - name: entitlement_product_bottom_color_id
+        description: ""
+
+      - name: entitlement_product_bottom_color_code
+        description: ""
+
+      - name: entitlement_product_bottom_color_name
+        description: ""
+
+      - name: entitlement_product_bottom_color_available_to_guest_indicator
+        description: ""
+
+      - name: entitlement_product_minimum_fulfillment_day_count
+        description: ""
+
+      - name: entitlement_product_ship_to_resort_indicator
+        description: ""
+
+      - name: entitlement_product_availability_start_date
+        description: ""
+
+      - name: entitlement_product_availability_end_date
+        description: ""
+
+      - name: source_system_create_user_id
+        description: ""
+
+      - name: source_system_create_datetime
+        description: ""
+
+      - name: source_system_update_user_id
+        description: ""
+
+      - name: source_system_update_datetime
+        description: ""
+
+      - name: source_system_logical_delete_indicator
+        description: ""

@@ -1,0 +1,54 @@
+[
+    {
+        "data": {
+            "PRICE_CALC_TYP_NM": "Package Calculator"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_CALC_TYP_T",
+            "timestamp": "2023-09-08T00:48:23.769144Z"
+        }
+    },
+    {
+        "data": {
+            "PRICE_CALC_TYP_NM": "Package Component Calculator"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_CALC_TYP_T",
+            "timestamp": "2023-09-08T00:48:23.780366Z"
+        }
+    },
+    {
+        "data": {
+            "PRICE_CALC_TYP_NM": "Party Mix Calculator"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_CALC_TYP_T",
+            "timestamp": "2023-09-08T00:48:23.789801Z"
+        }
+    },
+    {
+        "data": {
+            "PRICE_CALC_TYP_NM": "Individual Calculator"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_CALC_TYP_T",
+            "timestamp": "2023-09-08T00:48:23.757706Z"
+        }
+    }
+]

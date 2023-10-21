@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__inventory__room_features_current
+    description: "{{ doc('sil__hotel_lodging__inventory__room_features_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=inventory
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: reservable_resource_id
+        description: ""
+
+      - name: data_rsrt_fac_id
+        description: ""
+
+      - name: data_rsrc_invtry_typ_id
+        description: ""
+
+      - name: feature_id
+        description: ""
+
+      - name: feature_type_name
+        description: ""
+
+      - name: feature_name
+        description: ""
+
+      - name: feature_description
+        description: ""

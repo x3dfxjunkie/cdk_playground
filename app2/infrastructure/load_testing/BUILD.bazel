@@ -1,0 +1,11 @@
+py_library(
+    name = "load_testing",
+    srcs = glob([
+        "*.py",
+        "*/static/*.py",
+    ]),
+    data = ["static"],
+    visibility = ["//visibility:public"],
+    deps = [
+    ],
+)

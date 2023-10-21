@@ -1,0 +1,67 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__transactional_individual_party_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__transactional_individual_party_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: transaction_individual_party_id
+        description: ""
+
+      - name: transaction_party_id
+        description: ""
+
+      - name: transaction_party_type_name
+        description: ""
+
+      - name: individual_party_active_indicator
+        description: ""
+
+      - name: party_role_name
+        description: ""
+
+      - name: salutation_code
+        description: ""
+
+      - name: first_name
+        description: ""
+
+      - name: last_name
+        description: ""
+
+      - name: middle_name
+        description: ""
+
+      - name: suffix_code
+        description: ""
+
+      - name: age_number
+        description: ""
+
+      - name: pos_last_name_code
+        description: ""
+
+      - name: disney_vacaction_club_type_name
+        description: ""
+
+      - name: disney_cruise_line_transfer_code
+        description: ""
+
+      - name: membership
+        description: ""
+
+      - name: policy_id
+        description: ""
+
+      - name: product_channel_id
+        description: ""

@@ -1,0 +1,30 @@
+stack_extension: &se dlr-lightning-lane
+ingest_pattern: kinesis2kinesis
+active: True
+pattern_instances:
+  - region: us-east-1
+    resources:
+      kinesis:
+        retention_period: &kdr !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+        stream_mode: &ksm !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      kinesis_dmz:
+        retention_period: &kdr_dmz !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+        stream_mode: &ksm_dmz !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      cross_account:
+        cross_account_type: &cat target
+        cross_account_id: &id 536797260050
+        cross_account_role_name: lllingest-use1-lod-lllingest-lambda
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_LOAD_LANDING # Needs update to appropriate default routing
+      data_mapper_type: singleton
+      data_contracts: # This section needs to be updated for all data contracts for the source
+        - data_contract: app.src.data_structures.data_contracts.source.ea_dlr.v0.ea_dlr_lightning_lane_source_data_contract
+          class_name: EADLRLightningLaneModel
+          data_contract_version: 0.0.1
+          router_database: LOAD_LANDING
+          router_schema: LND_EA_DLR
+          router_table: LIGHTNING_LANE

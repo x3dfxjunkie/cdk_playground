@@ -1,0 +1,27 @@
+stack_extension: load_test_kinesis_ingest
+region: &region-1 us-east-1 # DO NOT UPDATE
+resources:        
+    guest360_execute_all_system_test:
+      name: "execute_all_system_test"
+      description: "main orchestrator statemachine"
+      definition_file: "execute_all_system_test.yaml"
+      iam:
+        role_name: execute_all_system_test_stepfunction_role
+        assumed_by: !!python/object/apply:aws_cdk.aws_iam.ServicePrincipal
+         - states.amazonaws.com
+        description: Statemachine execute_all_system_tests role
+      step_function_parameters:
+        guest360_execution_status_table: ""
+        guest360_execute_load_test_scenario_arn: ""
+
+    guest360_system_test_kinesis_ingest:
+      name: "execute_system_test_kinesis_ingest"
+      description: "system test executor statemachine"
+      definition_file: "execute_system_test_kinesis_ingest.yaml"
+      iam:
+        role_name: execute_system_test_kinesis_ingest_sfn_role
+        assumed_by: !!python/object/apply:aws_cdk.aws_iam.ServicePrincipal
+         - states.amazonaws.com
+        description: Statemachine execute_system_test_kinesis_ingest role
+      step_function_parameters:
+        limit_records: "500"

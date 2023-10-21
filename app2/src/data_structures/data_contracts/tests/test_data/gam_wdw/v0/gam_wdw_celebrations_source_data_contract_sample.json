@@ -1,0 +1,863 @@
+[
+    {
+        "type": "CELEBRATION",
+        "action": "CREATE",
+        "timestamp": "2023-04-26T15:04:54Z",
+        "nativeGuestIds": [
+            {
+                "type": "celebration-link-id",
+                "value": "6051258"
+            }
+        ],
+        "celebration": {
+            "celebrationId": 50895082,
+            "celebrationName": "Birthday Celebration",
+            "celebrationType": 411753226,
+            "celebrationTypeName": "Birthday",
+            "status": "ACTIVE",
+            "surprise": false,
+            "startDateTime": "2023-09-09T04:00:00Z",
+            "endDateTime": "2023-09-16T03:59:59Z",
+            "externalReferences": [
+                {
+                    "type": "travel-plan-segment-id",
+                    "value": "153111270908"
+                }
+            ],
+            "guests": [
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051258"
+                    }
+                }
+            ]
+        },
+        "resortReservations": [
+            {
+                "entitlementIdType": "travel-plan-segment-id",
+                "entitlementIdValue": "153111270908",
+                "guests": [
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "749515948"
+                        },
+                        "role": "CELEBRANT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "CELEBRATION",
+        "action": "CREATE",
+        "timestamp": "2023-04-26T15:05:07Z",
+        "nativeGuestIds": [
+            {
+                "type": "celebration-link-id",
+                "value": "6051258"
+            }
+        ],
+        "celebration": {
+            "celebrationId": 50895084,
+            "celebrationName": "Personal Triumph Celebration",
+            "celebrationType": 411753241,
+            "celebrationTypeName": "Personal Triumph",
+            "status": "ACTIVE",
+            "surprise": false,
+            "startDateTime": "2023-09-09T04:00:00Z",
+            "endDateTime": "2023-09-16T03:59:59Z",
+            "externalReferences": [
+                {
+                    "type": "travel-plan-segment-id",
+                    "value": "153111270908"
+                }
+            ],
+            "guests": [
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051258"
+                    }
+                }
+            ]
+        },
+        "resortReservations": [
+            {
+                "entitlementIdType": "travel-plan-segment-id",
+                "entitlementIdValue": "153111270908",
+                "guests": [
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "749515948"
+                        },
+                        "role": "CELEBRANT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "CELEBRATION",
+        "action": "CREATE",
+        "timestamp": "2023-04-26T15:06:58Z",
+        "nativeGuestIds": [
+            {
+                "type": "celebration-link-id",
+                "value": "6049104"
+            }
+        ],
+        "celebration": {
+            "celebrationId": 50895087,
+            "celebrationName": "Birthday Celebration",
+            "celebrationType": 411753226,
+            "celebrationTypeName": "Birthday",
+            "status": "ACTIVE",
+            "surprise": false,
+            "startDateTime": "2023-08-01T04:00:00Z",
+            "endDateTime": "2023-08-16T03:59:59Z",
+            "externalReferences": [
+                {
+                    "type": "travel-plan-segment-id",
+                    "value": "153114322112"
+                }
+            ],
+            "guests": [
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6049104"
+                    }
+                }
+            ]
+        },
+        "resortReservations": [
+            {
+                "entitlementIdType": "travel-plan-segment-id",
+                "entitlementIdValue": "153114322112",
+                "guests": [
+                    {
+                        "firstName": "Jane",
+                        "lastName": "Doe",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "750467777"
+                        },
+                        "role": "CELEBRANT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "CELEBRATION",
+        "action": "CREATE",
+        "timestamp": "2023-04-26T15:09:07Z",
+        "nativeGuestIds": [
+            {
+                "type": "celebration-link-id",
+                "value": "6051265"
+            }
+        ],
+        "celebration": {
+            "celebrationId": 50895089,
+            "celebrationName": "Mickey's Birthday Celebration",
+            "celebrationType": 411753226,
+            "celebrationTypeName": "Birthday",
+            "celebrationDate": "2023-05-10",
+            "milestone": 7,
+            "status": "Active",
+            "surprise": false,
+            "startDateTime": "2023-05-27T04:00:00Z",
+            "endDateTime": "2023-06-01T03:59:59Z",
+            "externalReferences": [
+                {
+                    "type": "travel-plan-segment-id",
+                    "value": "530631518109"
+                }
+            ],
+            "guests": [
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051265"
+                    }
+                }
+            ]
+        },
+        "resortReservations": [
+            {
+                "entitlementIdType": "travel-plan-segment-id",
+                "entitlementIdValue": "530631518109",
+                "guests": [
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "737239670"
+                        },
+                        "role": "CELEBRANT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "CELEBRATION",
+        "action": "CREATE",
+        "timestamp": "2023-04-26T15:13:39Z",
+        "nativeGuestIds": [
+            {
+                "type": "celebration-link-id",
+                "value": "6051277"
+            }
+        ],
+        "celebration": {
+            "celebrationId": 50895097,
+            "celebrationName": "Mickey's Birthday Celebration",
+            "celebrationType": 411753226,
+            "celebrationTypeName": "Birthday",
+            "celebrationDate": "2023-04-29",
+            "status": "Active",
+            "surprise": false,
+            "startDateTime": "2023-04-29T04:00:00Z",
+            "endDateTime": "2023-05-02T03:59:59Z",
+            "externalReferences": [
+                {
+                    "type": "travel-plan-segment-id",
+                    "value": "153115340610"
+                }
+            ],
+            "guests": [
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051277"
+                    }
+                }
+            ]
+        },
+        "resortReservations": [
+            {
+                "entitlementIdType": "travel-plan-segment-id",
+                "entitlementIdValue": "153115340610",
+                "guests": [
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "750663946"
+                        },
+                        "role": "CELEBRANT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "CELEBRATION",
+        "action": "CREATE",
+        "timestamp": "2023-04-26T15:13:39Z",
+        "nativeGuestIds": [
+            {
+                "type": "celebration-link-id",
+                "value": "6051278"
+            }
+        ],
+        "celebration": {
+            "celebrationId": 50895098,
+            "celebrationName": "Mickey's Birthday Celebration",
+            "celebrationType": 411753226,
+            "celebrationTypeName": "Birthday",
+            "celebrationDate": "2023-05-19",
+            "status": "Active",
+            "surprise": false,
+            "startDateTime": "2023-05-19T04:00:00Z",
+            "endDateTime": "2023-05-22T03:59:59Z",
+            "externalReferences": [
+                {
+                    "type": "travel-plan-segment-id",
+                    "value": "153116350089"
+                }
+            ],
+            "guests": [
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051278"
+                    }
+                }
+            ]
+        },
+        "resortReservations": [
+            {
+                "entitlementIdType": "travel-plan-segment-id",
+                "entitlementIdValue": "153116350089",
+                "guests": [
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "750854001"
+                        },
+                        "role": "CELEBRANT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "CELEBRATION",
+        "action": "CREATE",
+        "timestamp": "2023-04-26T15:13:51Z",
+        "nativeGuestIds": [
+            {
+                "type": "celebration-link-id",
+                "value": "6051282"
+            },
+            {
+                "type": "celebration-link-id",
+                "value": "6051281"
+            },
+            {
+                "type": "celebration-link-id",
+                "value": "6051280"
+            },
+            {
+                "type": "celebration-link-id",
+                "value": "6051279"
+            }
+        ],
+        "celebration": {
+            "celebrationId": 50895099,
+            "celebrationName": "Your First Disney Visit",
+            "celebrationType": 411753235,
+            "celebrationTypeName": "First Visit",
+            "celebrationDate": "2023-05-12",
+            "status": "Active",
+            "surprise": false,
+            "startDateTime": "2023-05-12T04:00:00Z",
+            "endDateTime": "2023-05-20T03:59:59Z",
+            "externalReferences": [
+                {
+                    "type": "travel-plan-segment-id",
+                    "value": "523391059727"
+                }
+            ],
+            "guests": [
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051279"
+                    }
+                },
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051280"
+                    }
+                },
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051282"
+                    }
+                },
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051281"
+                    }
+                }
+            ]
+        },
+        "resortReservations": [
+            {
+                "entitlementIdType": "travel-plan-segment-id",
+                "entitlementIdValue": "523391059727",
+                "guests": [
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "713881276"
+                        },
+                        "role": "CELEBRANT"
+                    },
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "713881272"
+                        },
+                        "role": "CELEBRANT"
+                    },
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "713881273"
+                        },
+                        "role": "CELEBRANT"
+                    },
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "713881274"
+                        },
+                        "role": "CELEBRANT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "CELEBRATION",
+        "action": "CREATE",
+        "timestamp": "2023-04-26T15:14:13Z",
+        "nativeGuestIds": [
+            {
+                "type": "celebration-link-id",
+                "value": "6051283"
+            }
+        ],
+        "celebration": {
+            "celebrationId": 50895101,
+            "celebrationName": "Mickeys's Birthday Celebration",
+            "celebrationType": 411753226,
+            "celebrationTypeName": "Birthday",
+            "celebrationDate": "2023-05-11",
+            "milestone": 10,
+            "status": "Active",
+            "surprise": false,
+            "startDateTime": "2023-05-04T04:00:00Z",
+            "endDateTime": "2023-05-07T03:59:59Z",
+            "externalReferences": [
+                {
+                    "type": "travel-plan-segment-id",
+                    "value": "153116350146"
+                }
+            ],
+            "guests": [
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051283"
+                    }
+                }
+            ]
+        },
+        "resortReservations": [
+            {
+                "entitlementIdType": "travel-plan-segment-id",
+                "entitlementIdValue": "153116350146",
+                "guests": [
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "750855086"
+                        },
+                        "role": "CELEBRANT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "CELEBRATION",
+        "action": "CREATE",
+        "timestamp": "2023-04-26T15:15:10Z",
+        "nativeGuestIds": [
+            {
+                "type": "celebration-link-id",
+                "value": "6051285"
+            },
+            {
+                "type": "celebration-link-id",
+                "value": "6051284"
+            }
+        ],
+        "celebration": {
+            "celebrationId": 50895102,
+            "celebrationName": "Your Anniversary",
+            "celebrationType": 411753234,
+            "celebrationTypeName": "Anniversary",
+            "celebrationDate": "2023-06-16",
+            "milestone": 20,
+            "status": "Active",
+            "surprise": false,
+            "startDateTime": "2023-06-16T04:00:00Z",
+            "endDateTime": "2023-06-19T03:59:59Z",
+            "externalReferences": [
+                {
+                    "type": "travel-plan-segment-id",
+                    "value": "153116350321"
+                }
+            ],
+            "guests": [
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051284"
+                    }
+                },
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051285"
+                    }
+                }
+            ]
+        },
+        "resortReservations": [
+            {
+                "entitlementIdType": "travel-plan-segment-id",
+                "entitlementIdValue": "153116350321",
+                "guests": [
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "750856706"
+                        },
+                        "role": "CELEBRANT"
+                    },
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "750856707"
+                        },
+                        "role": "CELEBRANT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "CELEBRATION",
+        "action": "CREATE",
+        "timestamp": "2023-04-26T15:18:32Z",
+        "nativeGuestIds": [
+            {
+                "type": "celebration-link-id",
+                "value": "6051293"
+            }
+        ],
+        "celebration": {
+            "celebrationId": 50895109,
+            "celebrationName": "Jessica's Celebration (Personal Triumph)",
+            "celebrationType": 411753241,
+            "celebrationTypeName": "Personal Triumph",
+            "celebrationDate": "2023-06-08",
+            "status": "Active",
+            "surprise": false,
+            "startDateTime": "2023-06-08T04:00:00Z",
+            "endDateTime": "2023-06-13T03:59:59Z",
+            "externalReferences": [
+                {
+                    "type": "travel-plan-segment-id",
+                    "value": "153113301821"
+                }
+            ],
+            "guests": [
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051293"
+                    }
+                }
+            ]
+        },
+        "resortReservations": [
+            {
+                "entitlementIdType": "travel-plan-segment-id",
+                "entitlementIdValue": "153113301821",
+                "guests": [
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "750040187"
+                        },
+                        "role": "CELEBRANT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "CELEBRATION",
+        "action": "CREATE",
+        "timestamp": "2023-04-26T15:19:00Z",
+        "nativeGuestIds": [
+            {
+                "type": "celebration-link-id",
+                "value": "6051295"
+            },
+            {
+                "type": "celebration-link-id",
+                "value": "6051294"
+            }
+        ],
+        "celebration": {
+            "celebrationId": 50895110,
+            "celebrationName": "Your Anniversary",
+            "celebrationType": 411753234,
+            "celebrationTypeName": "Anniversary",
+            "celebrationDate": "2023-10-10",
+            "status": "Active",
+            "surprise": false,
+            "startDateTime": "2023-10-23T04:00:00Z",
+            "endDateTime": "2023-10-26T03:59:59Z",
+            "externalReferences": [
+                {
+                    "type": "travel-plan-segment-id",
+                    "value": "530881923889"
+                }
+            ],
+            "guests": [
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051294"
+                    }
+                },
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051295"
+                    }
+                }
+            ]
+        },
+        "resortReservations": [
+            {
+                "entitlementIdType": "travel-plan-segment-id",
+                "entitlementIdValue": "530881923889",
+                "guests": [
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "743657732"
+                        },
+                        "role": "CELEBRANT"
+                    },
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "743657731"
+                        },
+                        "role": "CELEBRANT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "CELEBRATION",
+        "action": "CREATE",
+        "timestamp": "2023-04-26T15:21:21Z",
+        "nativeGuestIds": [
+            {
+                "type": "celebration-link-id",
+                "value": "6051297"
+            },
+            {
+                "type": "celebration-link-id",
+                "value": "2424886"
+            }
+        ],
+        "celebration": {
+            "celebrationId": 50895114,
+            "celebrationName": "Anniversary Celebration",
+            "celebrationType": 411753234,
+            "celebrationTypeName": "Anniversary",
+            "status": "ACTIVE",
+            "surprise": false,
+            "startDateTime": "2023-10-08T04:00:00Z",
+            "endDateTime": "2023-10-15T03:59:59Z",
+            "externalReferences": [
+                {
+                    "type": "travel-plan-segment-id",
+                    "value": "530541375680"
+                }
+            ],
+            "guests": [
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "2424886"
+                    }
+                },
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051297"
+                    }
+                }
+            ]
+        },
+        "resortReservations": [
+            {
+                "entitlementIdType": "travel-plan-segment-id",
+                "entitlementIdValue": "530541375680",
+                "guests": [
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "734982494"
+                        },
+                        "role": "CELEBRANT"
+                    },
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "734982492"
+                        },
+                        "role": "CELEBRANT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "CELEBRATION",
+        "action": "MODIFY",
+        "timestamp": "2023-04-26T15:21:36Z",
+        "nativeGuestIds": [
+            {
+                "type": "celebration-link-id",
+                "value": "6051296"
+            },
+            {
+                "type": "celebration-link-id",
+                "value": "6051299"
+            },
+            {
+                "type": "celebration-link-id",
+                "value": "6051298"
+            }
+        ],
+        "celebration": {
+            "celebrationId": 50895112,
+            "celebrationName": "Mickeys's Birthday Celebration",
+            "celebrationType": 411753226,
+            "celebrationTypeName": "Birthday",
+            "celebrationDate": "2023-08-29",
+            "status": "Active",
+            "surprise": false,
+            "startDateTime": "2023-08-27T04:00:00Z",
+            "endDateTime": "2023-09-03T03:59:59Z",
+            "externalReferences": [
+                {
+                    "type": "travel-plan-segment-id",
+                    "value": "153116350177"
+                }
+            ],
+            "guests": [
+                {
+                    "celebrationRole": "CELEBRANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051296"
+                    }
+                },
+                {
+                    "celebrationRole": "PARTICIPANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051299"
+                    }
+                },
+                {
+                    "celebrationRole": "PARTICIPANT",
+                    "guestIdentifier": {
+                        "type": "celebration-link-id",
+                        "value": "6051298"
+                    }
+                }
+            ]
+        },
+        "resortReservations": [
+            {
+                "entitlementIdType": "travel-plan-segment-id",
+                "entitlementIdValue": "153116350177",
+                "guests": [
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "750857857"
+                        },
+                        "role": "CELEBRANT"
+                    },
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "750857865"
+                        },
+                        "role": "PARTICIPANT"
+                    },
+                    {
+                        "firstName": "Mickey",
+                        "lastName": "Mouse",
+                        "guestIdentifier": {
+                            "type": "transactional-guest-id",
+                            "value": "750857864"
+                        },
+                        "role": "PARTICIPANT"
+                    }
+                ]
+            }
+        ]
+    }
+]

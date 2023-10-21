@@ -1,0 +1,24 @@
+engine_type: mariadb
+resources:
+    rds:
+      engine: !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.rds.instance_engine
+        kwds: { engine_name: "MARIADB", version: "10.6" }
+      database_name: db_load_testing
+      iam_authentication: true
+      parameters:
+        binlog_format: ROW
+    network_config:
+      allowlist:
+        ingress:
+          cidrs:
+            - "10.0.0.0/8"
+            - "127.0.0.0/8"
+    dms_table_mappings: # Ovveride table-mappings from ingestion config file for load-testing if needed
+        rules:
+            - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+              rule-id: "1" # Unique numeric value to identify the rule.
+              rule-name: "1" # Unique name to identify the rule.
+              rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+              object-locator: # The name of each schema and table or view to which the rule applies
+                schema-name: "%"
+                table-name: "%" #Table qualifier

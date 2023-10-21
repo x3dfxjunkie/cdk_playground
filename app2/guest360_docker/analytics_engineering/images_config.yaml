@@ -1,0 +1,25 @@
+---
+dbt_helix_mono:
+  enabled: true
+  ephemeral_enabled: true
+  file: Dockerfile.production
+  base_repo: guest360/infrastructure/base_image
+  base_tag: latest    
+  directory: ../../../app/analytics_engineering
+  platform: aws_ecr_assets.Platform.LINUX_AMD64
+  target_version: v0.2.0
+  special_replication: true
+  special_replication_props:
+    - destination_account_id: "795965727170"  # wdpr-ia-dev
+      destination_region: us-east-1
+      source_environments:
+        - latest
+    - destination_account_id: "536797260050"  # wdpr-ia-test
+      destination_region: us-east-1
+      source_environments:
+        - stage
+    - destination_account_id: "830296027592"  # wdpr-ia-prod
+      destination_region: us-east-1
+      source_environments:
+        - stage
+...

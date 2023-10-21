@@ -1,0 +1,100 @@
+[
+    {
+        "data": {
+            "RSRC_TYP_NM": "Room",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "rsrc_typ",
+            "timestamp": "2023-08-23T19:22:06.159406Z"
+        }
+    },
+    {
+        "data": {
+            "RSRC_TYP_NM": "Table",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "rsrc_typ",
+            "timestamp": "2023-08-23T19:22:06.186929Z"
+        }
+    },
+    {
+        "data": {
+            "RSRC_TYP_NM": "Cabana",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "rsrc_typ",
+            "timestamp": "2023-08-23T19:22:06.143075Z"
+        }
+    },
+    {
+        "data": {
+            "RSRC_TYP_NM": "Seat",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "rsrc_typ",
+            "timestamp": "2023-08-23T19:22:06.170608Z"
+        }
+    },
+    {
+        "data": {
+            "RSRC_TYP_NM": "Slot",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "rsrc_typ",
+            "timestamp": "2023-08-23T19:22:06.178678Z"
+        }
+    },
+    {
+        "data": {
+            "RSRC_TYP_NM": "Boat",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "rsrc_typ",
+            "timestamp": "2023-08-23T19:22:06.132940Z"
+        }
+    },
+    {
+        "data": {
+            "RSRC_TYP_NM": "Carriage",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "rsrc_typ",
+            "timestamp": "2023-08-23T19:22:06.152217Z"
+        }
+    }
+]

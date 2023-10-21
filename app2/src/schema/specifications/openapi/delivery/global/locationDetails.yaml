@@ -1,0 +1,24 @@
+locationDetails:
+  type: object
+  description: provides additional location detail where applicable
+  properties:
+    locationId:
+      type: string
+      description: Experience location ID when experienceId is not a physical location
+      example: 411525059
+    locationName:
+      type: string
+      description: Experience location name when experienceId is not a physical location
+      example: Town Square Theater
+    parkOrResortId:
+      type: string
+      description: Park or Resort (hierarchy level 3) facility ID of the location
+      example: 80007944
+    parkOrResortName:
+      type: string
+      description: Park or Resort (hierarchy level 3) facility Name of the location
+      example: Magic Kingdom Park
+    parentType:
+      type: string
+      description: curated type of Park or Resort (hierarchy level 3)
+      example: Theme Park

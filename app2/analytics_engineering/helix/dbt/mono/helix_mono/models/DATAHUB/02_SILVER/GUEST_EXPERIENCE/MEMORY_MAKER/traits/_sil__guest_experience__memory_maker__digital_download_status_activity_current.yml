@@ -1,0 +1,139 @@
+version: 2
+
+models:
+  - name: sil__guest_experience__memory_maker__digital_download_status_activity_current
+    description: "{{ doc('sil__guest_experience__memory_maker__digital_download_status_activity_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=guest_experience
+        - sub_domain=memory_maker
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: digital_download_entitlement_id
+        description: ""
+
+      - name: entitlement_type
+        description: ""
+
+      - name: issue_type_id
+        description: ""
+
+      - name: ticket_void_type_code
+        description: ""
+
+      - name: purchase_date
+        description: ""
+
+      - name: sales_price
+        description: ""
+
+      - name: sales_tax
+        description: ""
+
+      - name: issue_reason_value
+        description: ""
+
+      - name: resort_reservation_start_date
+        description: ""
+
+      - name: resort_reservation_end_date
+        description: ""
+
+      - name: change_datetime
+        description: ""
+
+      - name: change_date
+        description: ""
+
+      - name: change_time
+        description: ""
+
+      - name: status_id
+        description: ""
+
+      - name: status_name
+        description: ""
+
+      - name: guest_role_id
+        description: ""
+
+      - name: guest_id
+        description: ""
+
+      - name: entitlement_start_timestamp
+        description: ""
+
+      - name: entitlement_start_date
+        description: ""
+
+      - name: entitlement_start_time
+        description: ""
+
+      - name: entitlement_end_date
+        description: ""
+
+      - name: entitlement_expiration_date
+        description: ""
+
+      - name: settlement_datetime
+        description: ""
+
+      - name: settlement_date
+        description: ""
+
+      - name: settlement_time
+        description: ""
+
+      - name: initial_online_engagement_datetime
+        description: ""
+
+      - name: initial_online_engagement_date
+        description: ""
+
+      - name: initial_online_engagement_time
+        description: ""
+
+      - name: initial_capture_date
+        description: ""
+
+      - name: redemption_datetime
+        description: ""
+
+      - name: redemption_date
+        description: ""
+
+      - name: redemption_time
+        description: ""
+
+      - name: entitlement_revenue_status_id
+        description: ""
+
+      - name: entitlement_revenue_status_name
+        description: ""
+
+      - name: entitlement_revenue_datetime
+        description: ""
+
+      - name: entitlement_revenue_recognition_indicator
+        description: ""
+
+      - name: source_system_create_datetime
+        description: ""
+
+      - name: source_system_create_user_id
+        description: ""
+
+      - name: source_system_update_datetime
+        description: ""
+
+      - name: source_system_update_user_id
+        description: ""
+
+      - name: source_system_logical_delete_indicator
+        description: ""

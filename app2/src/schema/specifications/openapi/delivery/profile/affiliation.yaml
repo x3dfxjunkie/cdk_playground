@@ -1,0 +1,43 @@
+affiliation:
+  type: object
+  properties:
+    swid:
+      type: string
+      description: Registered Guest Starwave ID
+      example: "{BAC7FD2A-CFC6-4F09-AAB6-4102F9BA8861}"
+    category:
+      type: string
+      description: Category of the Guest affiliation
+      example: CAST
+    type:
+      type: string
+      description: Type of the Guest affiliation
+      example: CAST_MEMBER
+    subtype:
+      type: string
+      description: Subtype of the Guest affiliation, if applicable
+      example: PRIMARY
+    created:
+      type: string
+      description: Create datetime of the record in Guest 360
+      example: "2022-10-10T18:00:02Z"
+    lastModified:
+      type: string
+      description: Last modified datetime of the record in Guest 360
+      example: "2022-10-10T18:00:02Z"
+    start:
+      type: string
+      description: Start datetime
+      example: "2022-10-10T18:00:00Z"
+    end:
+      type: string
+      description: End datetime
+      example: "2023-10-10T17:59:00Z"
+    site:
+      type: string
+      description: Site associated with
+      example: WDW
+    status:
+      type: string
+      description: Affiliation status
+      example: WDW

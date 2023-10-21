@@ -1,0 +1,9 @@
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+py_lambda_library(
+    name = "test_data",
+    srcs = glob(["*.py"]),
+    visibility = ["//visibility:public"],
+    deps = [
+    ],
+)

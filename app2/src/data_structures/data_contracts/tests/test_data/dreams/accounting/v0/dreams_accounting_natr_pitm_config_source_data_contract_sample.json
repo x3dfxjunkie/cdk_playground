@@ -1,0 +1,150 @@
+[
+    {
+        "data": {
+            "NATR_PST_ITEM_CONFIG_ID": 1,
+            "PST_ITEM_ID": 20228,
+            "SRC_ACCT_CTR_ID": 3,
+            "NATR_PST_ITEM_CONFIG_STRT_DT": "1999-01-01T05:00:00.000Z",
+            "NATR_PST_ITEM_CONFIG_END_DT": null,
+            "PST_ST_NM": "Earned",
+            "FOLIO_TYP_NM": "INDIVIDUAL",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T06:28:38.945Z",
+            "UPDT_USR_ID_CD": "SC5a_S2P_BHM",
+            "UPDT_DTS": "2010-05-26T13:36:24.545Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.431588Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "NATR_PITM_CONFIG"
+        }
+    },
+    {
+        "data": {
+            "NATR_PST_ITEM_CONFIG_ID": 2,
+            "PST_ITEM_ID": 20459,
+            "SRC_ACCT_CTR_ID": 3,
+            "NATR_PST_ITEM_CONFIG_STRT_DT": "1999-01-01T05:00:00.000Z",
+            "NATR_PST_ITEM_CONFIG_END_DT": null,
+            "PST_ST_NM": "UnEarned",
+            "FOLIO_TYP_NM": "INDIVIDUAL",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T06:28:38.945Z",
+            "UPDT_USR_ID_CD": "LILOCONV",
+            "UPDT_DTS": "2010-01-20T06:28:38.945Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.460274Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "NATR_PITM_CONFIG",
+            "transaction-id": 1264
+        }
+    },
+    {
+        "data": {
+            "NATR_PST_ITEM_CONFIG_ID": 3,
+            "PST_ITEM_ID": 20228,
+            "SRC_ACCT_CTR_ID": 2,
+            "NATR_PST_ITEM_CONFIG_STRT_DT": "1999-01-01T05:00:00.000Z",
+            "NATR_PST_ITEM_CONFIG_END_DT": null,
+            "PST_ST_NM": "Earned",
+            "FOLIO_TYP_NM": "EXTERNAL_ORGANIZATION",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T06:28:38.945Z",
+            "UPDT_USR_ID_CD": "LILOCONV",
+            "UPDT_DTS": "2010-01-20T06:28:38.945Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.479165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "NATR_PITM_CONFIG",
+            "transaction-id": 1297
+        }
+    },
+    {
+        "data": {
+            "NATR_PST_ITEM_CONFIG_ID": 4,
+            "PST_ITEM_ID": 20228,
+            "SRC_ACCT_CTR_ID": 2,
+            "NATR_PST_ITEM_CONFIG_STRT_DT": "1999-01-01T05:00:00.000Z",
+            "NATR_PST_ITEM_CONFIG_END_DT": null,
+            "PST_ST_NM": "Earned",
+            "FOLIO_TYP_NM": "INDIVIDUAL",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T06:28:38.945Z",
+            "UPDT_USR_ID_CD": "LILOCONV",
+            "UPDT_DTS": "2010-01-20T06:28:38.945Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.479165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "NATR_PITM_CONFIG",
+            "transaction-id": 1297
+        }
+    },
+    {
+        "data": {
+            "NATR_PST_ITEM_CONFIG_ID": 5,
+            "PST_ITEM_ID": 20228,
+            "SRC_ACCT_CTR_ID": 2,
+            "NATR_PST_ITEM_CONFIG_STRT_DT": "1999-01-01T05:00:00.000Z",
+            "NATR_PST_ITEM_CONFIG_END_DT": null,
+            "PST_ST_NM": "Earned",
+            "FOLIO_TYP_NM": "INTERNAL_ORGANIZATION",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T06:28:38.945Z",
+            "UPDT_USR_ID_CD": "LILOCONV",
+            "UPDT_DTS": "2010-01-20T06:28:38.945Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.479165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "NATR_PITM_CONFIG",
+            "transaction-id": 1297
+        }
+    },
+    {
+        "data": {
+            "NATR_PST_ITEM_CONFIG_ID": 6,
+            "PST_ITEM_ID": 20228,
+            "SRC_ACCT_CTR_ID": 2,
+            "NATR_PST_ITEM_CONFIG_STRT_DT": "1999-01-01T05:00:00.000Z",
+            "NATR_PST_ITEM_CONFIG_END_DT": null,
+            "PST_ST_NM": "Earned",
+            "FOLIO_TYP_NM": "THIRD_PARTY_PAY",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T06:28:38.945Z",
+            "UPDT_USR_ID_CD": "LILOCONV",
+            "UPDT_DTS": "2010-01-20T06:28:38.945Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.604399Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "NATR_PITM_CONFIG"
+        }
+    }
+]

@@ -1,0 +1,43 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/build_rules/lambda_packaging:lambda.bzl", "contains", "endswith", "startswith")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+load("//app/tools/macros/zip_py_lambda_library:def.bzl", "zip_py_lambda_library")
+
+py_lambda_library(
+    name = "lambda_shredder",
+    srcs = glob(["lambda_shredder/**/*.py"]),
+    data = [
+        "__init__.py",
+        "//app/src/ingestion",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("boto3"),
+        requirement("pandas"),
+        requirement("smart-open"),
+        requirement("xmltodict"),
+    ],
+)
+
+zip_py_lambda_library(
+    name = "lambda_archive",
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+
+        # Ignore boto since it's provided by Lambda.
+        startswith("boto3"),
+        startswith("botocore"),
+        # startswith("numpy"),
+        # startswith("pandas"),
+        startswith("s3transfer"),
+        startswith("setuptools"),
+
+        # With the move to hermetic toolchains, the zip gets a lib/ directory containing the
+        # python runtime. We don't need that.
+        startswith("lib/"),
+        startswith("__init__.py"),
+    ],
+    target = ":lambda_shredder",
+)

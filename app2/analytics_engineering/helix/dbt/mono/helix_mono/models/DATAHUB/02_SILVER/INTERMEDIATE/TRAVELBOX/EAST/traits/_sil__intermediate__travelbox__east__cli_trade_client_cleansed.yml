@@ -1,0 +1,489 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__east__cli_trade_client_cleansed
+    description: '{{ doc("sil__intermediate__travelbox__east__cli_trade_client_cleansed") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_cleansed
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_client_id
+            - metadata_checksum
+
+    columns:
+      - name: data_client_id
+        description: "The TravelBox id of the trade client for which the commission rule is applied to. This field is null if the rule is applied to any client | example: 245267"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_head_office
+        description: "Trade client&#39;s Head office ID (Trade Client ID) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_head_office_ref
+        description: "Deprecated | example: EZTioQIKgTnZuLJfaONt"
+        meta:
+          checksum: True
+
+      - name: data_remit_commission_ho
+        description: "Flag to indicate that the Client&#39;s payments are done through their head offices (1) or not (0) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_division
+        description: "The TravelBox code of the division for which the limit is defined for | example: cCtnmrDdGLEEeFGHDrLQ"
+        meta:
+          checksum: True
+
+      - name: data_town
+        description: "Town | example: uJUDAdARbXlBIZbYkMcv"
+        meta:
+          checksum: True
+
+      - name: data_multiple
+        description: "Multiple | example: DcTcnoUFEwlQzOsSbaVv"
+        meta:
+          checksum: True
+
+      - name: data_promotion
+        description: "The selected promotion of the package | example: 545"
+        meta:
+          checksum: True
+
+      - name: data_web
+        description: "Whether this transaction is initialized from web or TravelBox agent_x000D_
+ - web site : true_x000D_
+ - TravelBox agent : false | example: VMzRjcpKBeQisNdhhpeh"
+        meta:
+          checksum: True
+
+      - name: data_brochure_request
+        description: "Deprecated | example: LAAUWsJGISURaTZsUFkj"
+        meta:
+          checksum: True
+
+      - name: data_agreement_status
+        description: "Flag to indicate ATOL Agreement status (1) or not (0) | example: 745"
+        meta:
+          checksum: True
+
+      - name: data_comission_from_ho
+        description: "Flag to indicate if the Head Office Commission group is used for Trade Client (1) or not (0) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_comm_group
+        description: "Id of the Commission Group associated with the Trade Client | example: 1946"
+        meta:
+          checksum: True
+
+      - name: data_self_billing
+        description: "Flag to indicate by whom the tax on commission is handled._x000D_1 - by the tour operator_x000D_0 - by the client  | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_wra_agents
+        description: "Flag to indicate if the Trade Client is a Wholesaler Remittance Advice agent (1) or not (0) | example: wQoYamAGkZzbwlisxNEg"
+        meta:
+          checksum: True
+
+      - name: data_accept_edocs
+        description: "Flag to indicate if the Trade Client accepts Elect Documents (1) or not (0) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 1976-11-08 23:04:03"
+        meta:
+          checksum: True
+
+      - name: data_com_nett_gross_override
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_profile_type
+        description: "NaN | example: STD"
+        meta:
+          checksum: True
+
+      - name: data_block_code
+        description: "Unique code of the block | example: wHiSSgXjDKdlzicNeyzq"
+        meta:
+          checksum: True
+
+      - name: data_hybrid_market_id
+        description: "Hybrid Market ID of the Direct Connect Parameter | example: 64633.0"
+        meta:
+          checksum: True
+
+      - name: data_atol_agent
+        description: "Flag to indicate if the Trade Client is specified as an agent of ATOL (1) or not (0) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_nett_rate
+        description: "A flag indicating the fares defined for the board basis are costs ( value is 1 ) or prices ( value is 0 ) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_client_rating
+        description: "Client rating value | example: wzhSWZNaZJvusfSIeNev"
+        meta:
+          checksum: True
+
+      - name: data_tal_no
+        description: "Deprecated | example: TYVgVFmjyOfRdmEmCQfB"
+        meta:
+          checksum: True
+
+      - name: data_abn_no
+        description: "Deprecated | example: VWRUcUQfvTGAyGNBqlXE"
+        meta:
+          checksum: True
+
+      - name: data_deposit_scheme
+        description: "Id of the Deposit Scheme associated with the Trade Client | example: 5095"
+        meta:
+          checksum: True
+
+      - name: data_comp_reg
+        description: "Company registration number | example: 00363402"
+        meta:
+          checksum: True
+
+      - name: data_issue_invoice
+        description: "Flag to indicate Invoices are assigned to be issued (1) to the Trade Client or not (0) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_collect_from_client
+        description: "Flag to indicate if the Tour Agent is who collects the payments from clients (1) or not (0) | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_issue_itinerary
+        description: "Flag to indicate Itineraries are assigned to be issued (1) to the Trade Client or not (0) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_issue_voucher
+        description: "If the check box is enabled a Voucher will be issued to customer_x000D_
+when a booking is made from the contract. 1 - enable , 0 disable | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_show_commission
+        description: "Flag to indicate the commissions are shown on generated documents. | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_gsa_number
+        description: "the trade client?s GSA number | example: ZnylOizOIIAUQFKMQDay"
+        meta:
+          checksum: True
+
+      - name: data_gsa_join_date
+        description: "Grade Client GSA joined date | example: 1997-03-03 03:33:55"
+        meta:
+          checksum: True
+
+      - name: data_amendement_scheme
+        description: "Deprecated | example: 3085"
+        meta:
+          checksum: True
+
+      - name: data_canx_scheme
+        description: "Id of the Cancellation Scheme associated with the Trade Client | example: 8112"
+        meta:
+          checksum: True
+
+      - name: data_option_scheme
+        description: "Id of the Option Rule associated with the Trade Client | example: 715"
+        meta:
+          checksum: True
+
+      - name: data_booking_ref_type
+        description: "The terminology used by the Grade Client to name the booking reference | example: lrowEbQUQMObvocGMVru"
+        meta:
+          checksum: True
+
+      - name: data_booking_ref_compulsary
+        description: "Flag to indicate if the Booking Ref Type is Compulsory | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_partner
+        description: "Flag to specify whether the Grade is applicable for Partners (1) or not (0) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_search_in_call_centre
+        description: "Flag to indicate if the Trade Client has the ability of making call center bookings as well._x000D_
+1 - can make call center bookings_x000D_
+0 - web bookings only | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_logo
+        description: "Path of the Logo associated with the client | example: rzqUCjoExjClagNtYCpJ"
+        meta:
+          checksum: True
+
+      - name: data_credit_limit_ho
+        description: "Flag to indicate if the Head Office Credit Limit is used for Trade Client (1) or not (0) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_gsa_client
+        description: "Flag to indicate if the Trade Client is a GSA Client | example: GvBKQOVEOHHblQtaOeEG"
+        meta:
+          checksum: True
+
+      - name: data_payment_group
+        description: "Name of the payment group associated with the scheme rule. | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_head_office_id
+        description: "Deprecated | example: 1926"
+        meta:
+          checksum: True
+
+      - name: data_tax_reg_no
+        description: "Tax Register number of the Trade Client | example: 463909332"
+        meta:
+          checksum: True
+
+      - name: data_area
+        description: "The name of the Area | example: 4584"
+        meta:
+          checksum: True
+
+      - name: data_language_code
+        description: "The code of the primary language used by the client | example: en"
+        meta:
+          checksum: True
+
+      - name: data_payment_method
+        description: "Payment methods associated with the Trade Client, as comma separated string | example: BTRF,CHEQ,CRCD"
+        meta:
+          checksum: True
+
+      - name: data_credit_agent_id
+        description: "The client&#39;s reference if the Payment Group is Credit Agent | example: TlxMBpDWleDBhrjlQYbn"
+        meta:
+          checksum: True
+
+      - name: data_include_tax_on_comm
+        description: "Flag to indicate if Tax on Commission should be added when calculating the balance due amount for Non-Self-Billing trade clients._x000D_
+1 - Should be added_x000D_
+0 - Not | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_sales_allowed
+        description: "Flag to indicate if sales are allowed for the specific client (1) or not (0) | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_documents_allowed
+        description: "Flag to indicate if documents are allowed for the specific client (1) or not (0) | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_exclude_partner_emailing
+        description: "Flag to indicate if the direct client is Excluded from Partner E-mailings_x000D_
+1 - Excluded_x000D_
+0 - Not Excluded | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_trade_client_type
+        description: "Code of the Trade Client Type associated with the Trade Client | example: IND"
+        meta:
+          checksum: True
+
+      - name: data_accept_ebook_details
+        description: "Flag to indicate if the Trade Client accepts Elect Booking Details (1) or not (0) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_atol_cert_not_required
+        description: "Flag to indicate if ATOL Certificate is note required (1) or not (0) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_atol_name
+        description: "ATOL License Name | example: vLbmWtmcXIjVgxkEMGNk"
+        meta:
+          checksum: True
+
+      - name: data_mail_method
+        description: "Code of the Preferred Mail Method is included here | example: bYTnOaEGKAJZChszdWWv"
+        meta:
+          checksum: True
+
+      - name: data_enable_client_markup
+        description: "Deprecated | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_client_level
+        description: "Flag to specify the client level_x000D_
+I - Independent Client_x000D_
+S - Secondary Client_x000D_
+P - Primary Client | example: I"
+        meta:
+          checksum: True
+
+      - name: min_metadata_timestamp
+        description: "The Minimum Metadata Timestamp field is used for updating the version end date of the active record in the target table"
+        tests:
+          - not_null
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

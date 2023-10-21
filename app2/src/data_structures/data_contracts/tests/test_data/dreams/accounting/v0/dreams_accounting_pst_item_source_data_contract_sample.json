@@ -1,0 +1,102 @@
+[
+    {
+        "data": {
+            "PST_ITEM_ID": 20001,
+            "PST_ITEM_TYP_NM": "Accounts Receivable",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T06:00:30.101Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.431588Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "PST_ITEM"
+        }
+    },
+    {
+        "data": {
+            "PST_ITEM_ID": 5301,
+            "PST_ITEM_TYP_NM": "Room",
+            "CREATE_USR_ID_CD": "SC5_SS3P_BHM",
+            "CREATE_DTS": "2010-04-09T15:27:20.207Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.460274Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "PST_ITEM",
+            "transaction-id": 1264
+        }
+    },
+    {
+        "data": {
+            "PST_ITEM_ID": 20003,
+            "PST_ITEM_TYP_NM": "Accounts Receivable",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T06:00:30.101Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.479165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "PST_ITEM",
+            "transaction-id": 1297
+        }
+    },
+    {
+        "data": {
+            "PST_ITEM_ID": 20004,
+            "PST_ITEM_TYP_NM": "Deposit Adjustments",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T06:00:30.101Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.604399Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "PST_ITEM",
+            "transaction-id": 12894
+        }
+    },
+    {
+        "data": {
+            "PST_ITEM_ID": 20005,
+            "PST_ITEM_TYP_NM": "Room",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T06:00:30.101Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.479165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "PST_ITEM",
+            "transaction-id": 1297
+        }
+    },
+    {
+        "data": {
+            "PST_ITEM_ID": 20006,
+            "PST_ITEM_TYP_NM": "Admission Tickets",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2010-01-20T06:00:30.101Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.604399Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "PST_ITEM"
+        }
+    }
+]

@@ -1,0 +1,14 @@
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+py_lambda_library(
+    name = "configs",
+    srcs = glob(["*.py"]),
+    data = [
+        "__init__.py",
+        "setup_dynamodb_table_configs.py",
+        "//app/src:missing_init_files",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+    ],
+)

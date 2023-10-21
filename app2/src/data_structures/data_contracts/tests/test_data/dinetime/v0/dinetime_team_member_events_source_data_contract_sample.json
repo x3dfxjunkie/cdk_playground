@@ -1,0 +1,117 @@
+[
+    {
+        "DownloadCutoff": "2023-02-25T04:10:37.916+00:00",
+        "Events": [
+            {
+                "Category": "TeamMemberEvent",
+                "Content": {
+                    "FloorPlan": {
+                        "Key": "99999999-389e-41b3-8e03-87a2e940a400",
+                        "Name": "Blue Bayou",
+                        "UID": "99999999-389e-41b3-8e03-87a2e940a400"
+                    },
+                    "Shift": {
+                        "Key": "99999999-2438-48ff-8ba3-71d924dd7f6b",
+                        "Name": "11 Servers",
+                        "UID": "99999999-2438-48ff-8ba3-71d924dd7f6b"
+                    },
+                    "Stations": [
+                        {
+                            "Key": "99999999-a22e-4823-ac29-f4bfdc2e4ff6",
+                            "Name": "Station 10",
+                            "UID": "99999999-a22e-4823-ac29-f4bfdc2e4ff6"
+                        }
+                    ],
+                    "TeamMember": {
+                        "FirstName": "Mickey",
+                        "Id": 0,
+                        "LastName": "Cruel",
+                        "Notes": "",
+                        "SiteId": 0,
+                        "UID": "99999999-6fa0-45b4-aa40-2313ca5a25d9"
+                    }
+                },
+                "LastUpdate": "2023-02-24T19:20:53.4503407-08:00",
+                "ServerLastUpdate": "2023-02-25T03:25:37.343+00:00",
+                "SyncSource": "Backoffice",
+                "Type": "TeamMemberStationAssigned",
+                "UID": "99999999-9ac6-49d8-b2a8-6aa1264bfc5b",
+                "Version": 0
+            },
+            {
+                "Category": "TeamMemberEvent",
+                "Content": {
+                    "FloorPlan": {
+                        "Key": "99999999-389e-41b3-8e03-87a2e940a400",
+                        "Name": "Blue Bayou",
+                        "UID": "99999999-389e-41b3-8e03-87a2e940a400"
+                    },
+                    "Shift": {
+                        "Key": "99999999-2438-48ff-8ba3-71d924dd7f6b",
+                        "Name": "11 Servers",
+                        "UID": "99999999-2438-48ff-8ba3-71d924dd7f6b"
+                    },
+                    "Stations": [
+                        {
+                            "Key": "99999999-a22e-4823-ac29-f4bfdc2e4ff6",
+                            "Name": "Station 10",
+                            "UID": "99999999-a22e-4823-ac29-f4bfdc2e4ff6"
+                        }
+                    ],
+                    "TeamMember": {
+                        "FirstName": "Mickey",
+                        "Id": 0,
+                        "LastName": "Mouse",
+                        "Notes": "",
+                        "SiteId": 0,
+                        "UID": "99999999-4375-464c-b671-94dce8c5463d"
+                    }
+                },
+                "LastUpdate": "2023-02-24T19:20:53.8264317-08:00",
+                "ServerLastUpdate": "2023-02-25T03:25:37.349+00:00",
+                "SyncSource": "Backoffice",
+                "Type": "TeamMemberStationUnassigned",
+                "UID": "99999999-f366-4eba-8156-68fb25b25595",
+                "Version": 0
+            },
+            {
+                "Category": "TeamMemberEvent",
+                "Content": {
+                    "FloorPlan": {
+                        "Key": "99999999-6fe5-4a3f-86e7-30939ca07f4a",
+                        "Name": "Carnation Cafe",
+                        "UID": "99999999-6fe5-4a3f-86e7-30939ca07f4a"
+                    },
+                    "Shift": {
+                        "Key": "99999999-d17c-4515-b879-26db855232df",
+                        "Name": "Daily - 8 Servers",
+                        "UID": "99999999-d17c-4515-b879-26db855232df"
+                    },
+                    "Stations": [
+                        {
+                            "Key": "99999999-9844-4280-abc7-d696bd212eea",
+                            "Name": "7 - Disney",
+                            "UID": "99999999-9844-4280-abc7-d696bd212eea"
+                        }
+                    ],
+                    "TeamMember": {
+                        "FirstName": "Mickey",
+                        "Id": 0,
+                        "LastName": "Mouse",
+                        "Notes": "",
+                        "SiteId": 0,
+                        "UID": "99999999-7cd0-419e-b907-d15889c39a93"
+                    }
+                },
+                "LastUpdate": "2023-02-28T14:52:13.2254611-08:00",
+                "ServerLastUpdate": "2023-02-28T22:56:40.673+00:00",
+                "SyncSource": "Backoffice",
+                "Type": "TeamMemberStationUnassigned",
+                "UID": "99999999-3837-4ad1-aa4c-f9b3a26574ac",
+                "Version": 0
+            }
+        ],
+        "MoreData": false,
+        "SiteId": "99999999-5d47-4bad-bee8-3143dcc1f7c9"
+    }
+]

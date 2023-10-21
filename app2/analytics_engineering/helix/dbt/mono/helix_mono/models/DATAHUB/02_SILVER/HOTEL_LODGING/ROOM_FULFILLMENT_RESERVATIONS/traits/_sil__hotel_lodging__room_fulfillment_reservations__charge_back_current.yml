@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__charge_back_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__charge_back_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: auto_charge_back_charge_id
+        description: ""
+
+      - name: charge_back_category_id
+        description: ""
+
+      - name: charge_back_category_name
+        description: ""
+
+      - name: charge_back_reason_id
+        description: ""
+
+      - name: charge_back_reason_name
+        description: ""
+
+      - name: charge_back_location_name
+        description: ""
+
+      - name: create_datetime
+        description: ""
+
+      - name: create_user_id
+        description: ""

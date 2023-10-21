@@ -1,0 +1,62 @@
+{
+    "DREAMSGuestLinkExprncMediaModel": {
+        "data-source-folder": "/dreams/guest_link/v0",
+        "data-contract-name": "dreams_guest_link_exprnc_media_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "exprnc_media"
+            }
+        }
+    },
+    "DREAMSGuestLinkGstLnkModel": {
+        "data-source-folder": "/dreams/guest_link/v0",
+        "data-contract-name": "dreams_guest_link_gst_lnk_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "gst_lnk"
+            }
+        }
+    },
+    "DREAMSGuestLinkGstLnkTxnGstModel": {
+        "data-source-folder": "/dreams/guest_link/v0",
+        "data-contract-name": "dreams_guest_link_gst_lnk_txn_gst_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "gst_lnk_txn_gst"
+            }
+        }
+    },
+    "DREAMSGuestLinkTxnGstXrefModel": {
+        "data-source-folder": "/dreams/guest_link/v0",
+        "data-contract-name": "dreams_guest_link_txn_gst_xref_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "txn_gst_xref"
+            }
+        }
+    },
+    "DREAMSGuestLinkXbandModel": {
+        "data-source-folder": "/dreams/guest_link/v0",
+        "data-contract-name": "dreams_guest_link_xband_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "xband"
+            }
+        }
+    },
+    "DREAMSGuestLinkXbandIdModel": {
+        "data-source-folder": "/dreams/guest_link/v0",
+        "data-contract-name": "dreams_guest_link_xband_id_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "xband_id"
+            }
+        }
+    }
+}

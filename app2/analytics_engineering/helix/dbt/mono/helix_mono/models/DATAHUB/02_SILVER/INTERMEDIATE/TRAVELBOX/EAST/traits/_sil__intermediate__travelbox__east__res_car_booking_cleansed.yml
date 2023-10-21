@@ -1,0 +1,358 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__east__res_car_booking_cleansed
+    description: '{{ doc("sil__intermediate__travelbox__east__res_car_booking_cleansed") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_cleansed
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_booking_id
+            - data_item_no
+            - data_product_code
+            - metadata_checksum
+
+    columns:
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 1979-06-06 09:55:22"
+        meta:
+          checksum: True
+
+      - name: data_booking_id
+        description: "The system generated id of the booking | example: 27649477"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_product_code
+        description: "Deprecated | example: CAR"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_item_no
+        description: "Deprecated | example: 1"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_pickup_location_id
+        description: "pickup location id of the booking - from&#39;LOCATION&#39; table | example: 33699"
+        meta:
+          checksum: True
+
+      - name: data_dropoff_location_id
+        description: "dropoff location id of the booking - from&#39;LOCATION&#39; table | example: 33704"
+        meta:
+          checksum: True
+
+      - name: data_car_id
+        description: "System generated id of the car | example: 3716"
+        meta:
+          checksum: True
+
+      - name: data_car_product
+        description: "Car Product Item Code if user has selected &#39;Car Product&#39; from markup rules. | example: RENT"
+        meta:
+          checksum: True
+
+      - name: data_oneway_fee
+        description: "costs when a car is hired for a one way trip | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_multihire_no
+        description: "Multi Hire number coming from booking constraints. | example: 3122"
+        meta:
+          checksum: True
+
+      - name: data_car_name
+        description: "combination of the car name and the car model from :: | example: Mid Size - Car"
+        meta:
+          checksum: True
+
+      - name: data_pickup_location
+        description: "pickup location name of the booking -  from&#39;LOCATION&#39; table | example: DISNEY CAR CARE CENTER"
+        meta:
+          checksum: True
+
+      - name: data_dropoff_location
+        description: "dropoff location name of the booking -  from&#39;LOCATION&#39; table | example: MIAMI"
+        meta:
+          checksum: True
+
+      - name: data_pickup_time
+        description: "time of the pickup for the booking | example: 10:00"
+        meta:
+          checksum: True
+
+      - name: data_dropoff_time
+        description: "drop off of the pickup for the booking | example: 08:00"
+        meta:
+          checksum: True
+
+      - name: data_car_class
+        description: "Car class is one of the rule parameters in component markup schemes. When car class is selected as the rule parameter, user can mark multiple car classes valid for the mark-up scheme. For each car class selected there will be a separate entry in this table. If user selects other car parameters such as car product, then the number of entries will be selected car classes X selected car products(i.e.For each car class car product combination, there will be a separate entry)_x000D_
+This column represents the car class code | example: Alamo Car Rental"
+        meta:
+          checksum: True
+
+      - name: data_car_type
+        description: "Car type code if user has selected &#39;Car Type&#39; from markup rules. | example: Mid Size Car"
+        meta:
+          checksum: True
+
+      - name: data_contract_type
+        description: "H = HOTEL, A = APARTMENT, G = GROUP | example: 2.0"
+        meta:
+          checksum: True
+
+      - name: data_calculated_rented_days
+        description: "No of rented days of that particular car | example: 9.0"
+        meta:
+          checksum: True
+
+      - name: data_pay_supplier_directly
+        description: "Flag for differenciate play supplier directly (1) or not (0) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_foreign_reference
+        description: "Deprecated | example: fseobQsZOGyyUGeTIzKP"
+        meta:
+          checksum: True
+
+      - name: data_air_conditioned
+        description: "Specifies whether car is air conditioned or not_x000D_
+Air conditioned - 1, Not air conditioned - 0 | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_transmission_type
+        description: "Deprecated | example: kvjZZpZkxtnYwONGcZAo"
+        meta:
+          checksum: True
+
+      - name: data_door_count
+        description: "Deprecated | example: 4.0"
+        meta:
+          checksum: True
+
+      - name: data_milege_property
+        description: "Deprecated | example: fAKiEZOhqmnOotCcgenr"
+        meta:
+          checksum: True
+
+      - name: data_image_url
+        description: "always null and no valid usage in TBX search | example: mOjhhARBwZlVIQiGXzcg"
+        meta:
+          checksum: True
+
+      - name: data_fuel_type
+        description: "Deprecated | example: nxvAbgunxfWjOLVFfHAm"
+        meta:
+          checksum: True
+
+      - name: data_baggages
+        description: "No of baggages that car can carried | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_drive_type
+        description: "Deprecated | example: BZdwbtkWkOSsheKsqIpu"
+        meta:
+          checksum: True
+
+      - name: data_car_class_id
+        description: "NaN | example: -1.0"
+        meta:
+          checksum: True
+
+      - name: data_seat_count
+        description: "No of seats available in the car | example: 5.0"
+        meta:
+          checksum: True
+
+      - name: data_no_of_cars
+        description: "No of cars for the booking | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_car_voucher_id
+        description: "Used by Britz and Hertz to store car voucher id. | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_driver_passenger_no
+        description: "Deprecated | example: 4348"
+        meta:
+          checksum: True
+
+      - name: data_driver_age_min
+        description: "Allowed drivers Minimum age | example: 18"
+        meta:
+          checksum: True
+
+      - name: data_driver_age_max
+        description: "Allowed drivers Maximum age | example: 120"
+        meta:
+          checksum: True
+
+      - name: data_car_booking_group
+        description: "NaN | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_car_product_name
+        description: "car product name of the contact from &#39;CAR_MAIN_PRODUCT&#39; table | example: Rental Car"
+        meta:
+          checksum: True
+
+      - name: min_metadata_timestamp
+        description: "The Minimum Metadata Timestamp field is used for updating the version end date of the active record in the target table"
+        tests:
+          - not_null
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

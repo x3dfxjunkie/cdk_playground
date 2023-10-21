@@ -1,0 +1,161 @@
+stack_extension: &se dpi-west # TODO: we need to add limits to identifier names; Character Limit!
+ingest_pattern: &ip dms # DO NOT UPDATE must = dms for dms pattern
+active: True
+feature_branch: False # set to False unless you want to deploy DMS in ephemeral envs
+pattern_instances:
+  - region: &region-1 us-east-1 # DO NOT UPDATE
+    resources:
+      dms_repl_instance:
+        engine_version: "3.5.1"
+        multi_az: True
+      dms_repl_task: # AWS DMS replication task
+        - &replication_task_definitions
+          replication_task_identifier: ful1 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - &rule_definition
+                rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: explicit # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: &schema-name "dlr_photopass"
+                  table-name: "ASSOCIATIONS" #Table qualifier
+              - <<: *rule_definition
+                rule-id: "2"
+                rule-name: "2"
+                object-locator: 
+                  schema-name: *schema-name
+                  table-name: "ASSOCIATIONS_MSG"
+              - <<: *rule_definition
+                rule-id: "3"
+                rule-name: "3"
+                object-locator: 
+                  schema-name: *schema-name
+                  table-name: "MEDIA"
+              - <<: *rule_definition
+                rule-id: "4"
+                rule-name: "4"
+                object-locator: 
+                  schema-name: *schema-name
+                  table-name: "MEDIADOWNLOADS"
+              - <<: *rule_definition
+                rule-id: "5"
+                rule-name: "5"
+                object-locator: 
+                  schema-name: *schema-name
+                  table-name: "SUBJECTS"
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc1
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - <<: *replication_task_definitions
+          replication_task_identifier: meta-fl # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - <<: *rule_definition
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "META_%" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: meta-ch
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - <<: *rule_definition
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "META_%" #Table qualifier
+      source_endpoint: # AWS DMS Source Endpoint.
+        engine_name: mariadb # The type of engine for the endpoint, depending on the EndpointType value. Valid values : mysql | oracle | mariadb | kinesis
+        ssl_mode: verify-ca #Enable Secure Sockets Layer (SSL) mode to use for the SSL connection. Allowed values: verify-ca,verify-full
+        settings: # See https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Source.html
+          server_timezone: US/Pacific # #Specifies the time zone for the target MySQL-compatible database, e.g., US/Eastern, US/Pacific, UTC / remove if UTC
+          secrets_manager_secret_id: arn:aws:secretsmanager:us-east-1:863175788676:secret:stg-use1-photopass-dlr-ca-secret-PrM6RL #pragma: allowlist secret, The ARN, or display name of the SecretsManagerSecret that contains the MySQL endpoint connection details.
+      source_kms_key: 247728c7-63b9-4494-8b2a-2251caf5d7ce # Update for the secrets_manager_secret_id kms key
+      source_ssl_cert: rds-global-bundle # Update for the appropriate source dms certificate, most AWS DBs will use the rds-global-bundle by default
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_STAGE_LANDING # Needs update to appropriate default routing
+      data_contracts: # This section needs to be updated for all data contracts for the source
+        - data_contract: app.src.data_structures.data_contracts.source.dpi_west.v0.dpi_west_associations_source_data_contract
+          class_name: DPIWestAssociationsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: associations
+          router_database: &database STAGE_LANDING # these need to be updated before I publish them
+          router_schema: &schema LND_DPI_WEST # these need to be updated before I publish them
+          router_table: ASSOCIATIONS
+        - data_contract: app.src.data_structures.data_contracts.source.dpi_west.v0.dpi_west_associations_msg_source_data_contract
+          class_name: DPIWestAssociationsMsgModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: associations_msg
+          router_database: *database
+          router_schema: *schema
+          router_table: ASSOCIATIONS_MSG
+        - data_contract: app.src.data_structures.data_contracts.source.dpi_west.v0.dpi_west_media_source_data_contract
+          class_name: DPIWestMediaModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: media
+          router_database: *database
+          router_schema: *schema
+          router_table: MEDIA
+        - data_contract: app.src.data_structures.data_contracts.source.dpi_west.v0.dpi_west_mediadownloads_source_data_contract
+          class_name: DPIWestMediadownloadsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: mediadownloads
+          router_database: *database
+          router_schema: *schema
+          router_table: MEDIADOWNLOADS
+        - data_contract: app.src.data_structures.data_contracts.source.dpi_west.v0.dpi_west_meta_location_source_data_contract
+          class_name: DPIWestMetaLocationModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: meta_location
+          router_database: *database
+          router_schema: *schema
+          router_table: META_LOCATION
+        - data_contract: app.src.data_structures.data_contracts.source.dpi_west.v0.dpi_west_meta_subject_source_data_contract
+          class_name: DPIWestMetaSubjectModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: meta_subject
+          router_database: *database
+          router_schema: *schema
+          router_table: META_SUBJECT
+        - data_contract: app.src.data_structures.data_contracts.source.dpi_west.v0.dpi_west_meta_venue_source_data_contract
+          class_name: DPIWestMetaVenueModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: meta_venue
+          router_database: *database
+          router_schema: *schema
+          router_table: META_VENUE
+        - data_contract: app.src.data_structures.data_contracts.source.dpi_west.v0.dpi_west_subjects_source_data_contract
+          class_name: DPIWestSubjectsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: subjects
+          router_database: *database
+          router_schema: *schema
+          router_table: SUBJECTS

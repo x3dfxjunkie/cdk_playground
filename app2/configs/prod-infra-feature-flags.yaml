@@ -1,0 +1,26 @@
+---
+#Implemented for kinesis_firehose_k2K and kinesis_firehose_messaging
+messaging_stream_global:
+  kinesis_firehose_messaging: True
+  dead_letter_queue_pipe: True
+
+
+k2k_stream_global:
+  kinesis_firehose_k2k: True
+  dead_letter_queue_pipe: True
+
+
+# RDS instances
+rds_instances:
+  rds_load_testing: False
+
+# DMS instances
+dms_stream_global:
+  kinesis_firehose_dms: True
+  dead_letter_queue_pipe: True
+
+# DMS Stacks
+dms_stacks:
+  ingestion_dms_task_manager: False # Enable just for testing purposes, never merge enabled.
+  create_snow_tickets_in_event_of_failure: False # Create service now tickets for dms failed tasks
+  autostart_created_dms_tasks: False # Enable to autostart new created DMS Tasks - Implemented within the DMSTaskManager Stack

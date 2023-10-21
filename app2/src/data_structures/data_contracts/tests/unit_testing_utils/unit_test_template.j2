@@ -1,0 +1,85 @@
+# pylint: disable-all
+
+"""pytest unit tests for the {{ model_name }} class."""
+
+import logging
+import pytest
+import sys
+{% if exec_sample_tests %}from typing import List{% endif %}
+from pydantic import parse_obj_as
+from app.src.data_structures.data_contracts.tests.unit_testing_utils.unit_tests import (
+    {% if exec_sample_tests %}ContractsAgainstSampleTests,{% endif %}
+    FieldSyntaxTests,
+    RootModelTests,
+)
+from app.src.data_structures.data_contracts.tests.unit_testing_utils.global_unit_test_utils import (
+    get_model_class,
+    {% if exec_sample_tests %}get_model_sample{% endif %}
+)
+
+@pytest.mark.parametrize('model_name', ["{{ model_name }}"])
+class TestClass:
+    """Test Class"""
+
+    @pytest.fixture
+    def logger(self, model_name):
+        logger = logging.getLogger(f"{model_name}_test_logger")
+        logger.setLevel(logging.INFO)
+        stream_handler = logging.StreamHandler(sys.stdout)
+        formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+        stream_handler.setFormatter(formatter)
+        logger.addHandler(stream_handler)
+        return logger
+    {% if exec_sample_tests %}
+    @pytest.fixture
+    def sample(self, model_name):
+        """Fixture for loading the sample to be tested."""
+        sample_object = get_model_sample(model_name)
+        return sample_object
+    {% endif %}
+    @pytest.fixture
+    def contract_model(self, model_name):
+        """Fixture for loading the contract model to be tested."""
+        model_class = get_model_class(model_name)
+        return model_class
+
+    @pytest.fixture
+    def field_syntax_tests(self, contract_model):
+        """Fixture for loading FieldSyntaxTests."""
+        return FieldSyntaxTests(contract_model)
+    {% if exec_sample_tests %}
+    @pytest.fixture
+    def contract_against_sample_tests(self, sample, contract_model, logger):
+        """Fixture for loading ContractsAgainstSampleTests."""
+        return ContractsAgainstSampleTests(contract_model, sample, logger)
+    {% endif %}
+    @pytest.fixture
+    def root_model_tests(self, contract_model, logger):
+        """Fixture for loading RootModelTests."""
+        return RootModelTests(contract_model, logger)
+    {% if exec_sample_tests %}
+    def test_source_data_contract(self, contract_model, sample, logger):
+        """Test that the data contract can be parsed."""
+        contract_model.update_forward_refs()
+        data_contract = parse_obj_as(List[contract_model], sample)
+        logger.info(data_contract[0].json(indent=4, by_alias=True))
+
+    def test_optional_fields_are_optional(self, contract_against_sample_tests):
+        """Test that optional fields are optional."""
+        contract_against_sample_tests.assert_optional_fields()
+    {% endif %}
+    def test_assert_optional_default_is_none(self, field_syntax_tests):
+        """Test that optional fields have a default of None."""
+        field_syntax_tests.assert_optional_default_is_none()
+
+    def test_assert_field_parameters_exist(self, field_syntax_tests):
+        """Test that all fields have the required tags."""
+        field_syntax_tests.assert_field_parameters_exist()
+
+    def test_assert_example_type(self, field_syntax_tests):
+        """Test example field types."""
+        field_syntax_tests.assert_example_type()
+
+    def test_root_model_config_tags(self, root_model_tests):
+        """Test if the root model has the correct config tags."""
+        root_model_tests.assert_root_model_config_tags()

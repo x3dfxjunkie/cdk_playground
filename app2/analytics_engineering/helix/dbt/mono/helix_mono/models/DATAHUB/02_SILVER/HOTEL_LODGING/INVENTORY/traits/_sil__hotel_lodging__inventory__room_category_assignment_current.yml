@@ -1,0 +1,103 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__inventory__room_category_assignment_current
+    description: "{{ doc('sil__hotel_lodging__inventory__room_category_assignment_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=inventory
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: room_id
+        description: ""
+
+      - name: assigned_owner_id
+        description: ""
+
+      - name: room_owner_id
+        description: ""
+
+      - name: room_assignment_request_id
+        description: ""
+
+      - name: facility_id
+        description: ""
+
+      - name: fac_short_nm
+        description: ""
+
+      - name: room_type_code
+        description: ""
+
+      - name: automatic_assignment_room_id
+        description: ""
+
+      - name: room_inventory_type_id
+        description: ""
+
+      - name: disney_vacation_club_owner_link_id
+        description: ""
+
+      - name: wholesaler_indicator
+        description: ""
+
+      - name: assignment_owner_type_name
+        description: ""
+
+      - name: disney_vacation_club_reservation_type_name
+        description: ""
+
+      - name: owner_status_name
+        description: ""
+
+      - name: owner_start_dts
+        description: ""
+
+      - name: data_vip_in
+        description: ""
+
+      - name: owner_resort_transfer_indicator
+        description: ""
+
+      - name: owner_end_dts
+        description: ""
+
+      - name: group_id
+        description: ""
+
+      - name: block_code
+        description: ""
+
+      - name: special_needs_requested_indicator
+        description: ""
+
+      - name: owner_description
+        description: ""
+
+      - name: owner_from_dts
+        description: ""
+
+      - name: owner_to_dts
+        description: ""
+
+      - name: original_sharewith_occupant_indicator
+        description: ""
+
+      - name: online_checkin_indicator
+        description: ""
+
+      - name: adult_count
+        description: ""
+
+      - name: child_count
+        description: ""
+
+      - name: booking_date
+        description: ""

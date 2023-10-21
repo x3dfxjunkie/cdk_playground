@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__folio_transaction_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__folio_transaction_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: folio_transaction_id
+        description: ""
+
+      - name: folio_item_id_value
+        description: ""
+
+      - name: folio_transaction_type_item_name
+        description: ""
+
+      - name: folio_transaction_type_name
+        description: ""
+
+      - name: folio_transaction_datetime
+        description: ""
+
+      - name: folio_transaction_date
+        description: ""
+
+      - name: transaction_procedure_type_name
+        description: ""
+
+      - name: create_user_id
+        description: ""
+
+      - name: create_datetime
+        description: ""
+
+      - name: create_date
+        description: ""

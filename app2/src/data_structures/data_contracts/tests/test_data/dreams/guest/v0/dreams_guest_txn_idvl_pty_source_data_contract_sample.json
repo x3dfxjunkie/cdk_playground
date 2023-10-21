@@ -1,0 +1,282 @@
+[
+    {
+        "data": {
+            "AGE_NB": 0,
+            "CREATE_DTS": "2023-07-14T17:04:04Z",
+            "CREATE_USR_ID_CD": "COBBL002",
+            "IDVL_FST_NM": "IDVL_FST_NM",
+            "IDVL_LST_NM": "Guest Last Name",
+            "IDVL_MID_NM": "J.",
+            "IDVL_PTY_ACTV_IN": "Y",
+            "JDO_SEQ_NB": 0,
+            "POS_LST_NM_CD": 25,
+            "PRMY_LANG_CD": "eng",
+            "SALUT_CD": "Mr.",
+            "TXN_IDVL_PTY_ID": 768895423,
+            "UPDT_DTS": "2023-07-14T17:04:04Z",
+            "UPDT_USR_ID_CD": "COBBL002"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "guest",
+            "table-name": "txn_idvl_pty",
+            "timestamp": "2023-07-14T21:04:07.313684Z",
+            "transaction-id": 53489592578438
+        }
+    },
+    {
+        "data": {
+            "AGE_NB": 0,
+            "CREATE_DTS": "2023-07-14T17:04:04Z",
+            "CREATE_USR_ID_CD": "COBBL002",
+            "IDVL_FST_NM": null,
+            "IDVL_LST_NM": null,
+            "IDVL_MID_NM": "J.",
+            "IDVL_PTY_ACTV_IN": "Y",
+            "JDO_SEQ_NB": 0,
+            "POS_LST_NM_CD": null,
+            "SALUT_CD": "Mr.",
+            "TXN_IDVL_PTY_ID": 768895423,
+            "UPDT_DTS": "2023-07-14T17:04:04Z",
+            "UPDT_USR_ID_CD": "COBBL002"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "guest",
+            "table-name": "txn_idvl_pty",
+            "timestamp": "2023-07-14T21:04:07.313684Z",
+            "transaction-id": null
+        }
+    },
+    {
+        "data": {
+            "AGE_NB": 0,
+            "CREATE_DTS": "2023-07-14T17:03:40Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "IDVL_FST_NM": "IDVL_FST_NM",
+            "IDVL_LST_NM": "Guest Last Name",
+            "IDVL_PTY_ACTV_IN": "Y",
+            "JDO_SEQ_NB": 1,
+            "POS_LST_NM_CD": 16,
+            "PRMY_LANG_CD": "eng",
+            "SALUT_CD": "Mr.",
+            "TXN_IDVL_PTY_ID": 768895299,
+            "UPDT_DTS": "2023-07-14T17:04:03Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "guest",
+            "table-name": "txn_idvl_pty",
+            "timestamp": "2023-07-14T21:04:07.364678Z",
+            "transaction-id": 53489592581609
+        }
+    },
+    {
+        "data": {
+            "AGE_NB": 0,
+            "CREATE_DTS": "2023-07-14T17:04:03Z",
+            "CREATE_USR_ID_CD": "BRAGZ002",
+            "IDVL_FST_NM": "IDVL_FST_NM",
+            "IDVL_LST_NM": "Guest Last Name",
+            "IDVL_PTY_ACTV_IN": "Y",
+            "JDO_SEQ_NB": 0,
+            "POS_LST_NM_CD": 31,
+            "PRMY_LANG_CD": "eng",
+            "SALUT_CD": "Mr.",
+            "TXN_IDVL_PTY_ID": 768895424,
+            "UPDT_DTS": "2023-07-14T17:04:03Z",
+            "UPDT_USR_ID_CD": "BRAGZ002"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "guest",
+            "table-name": "txn_idvl_pty",
+            "timestamp": "2023-07-14T21:04:07.484057Z",
+            "transaction-id": 53489592582068
+        }
+    },
+    {
+        "data": {
+            "AGE_NB": 46,
+            "CREATE_DTS": "2023-07-14T17:04:03Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "IDVL_FST_NM": "IDVL_FST_NM",
+            "IDVL_LST_NM": "Guest Last Name",
+            "IDVL_PTY_ACTV_IN": "Y",
+            "JDO_SEQ_NB": 0,
+            "POS_LST_NM_CD": 45,
+            "PRMY_LANG_CD": "eng",
+            "TXN_IDVL_PTY_ID": 768895425,
+            "UPDT_DTS": "2023-07-14T17:04:03Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "guest",
+            "table-name": "txn_idvl_pty",
+            "timestamp": "2023-07-14T21:04:07.547573Z",
+            "transaction-id": 53489592584714
+        }
+    },
+    {
+        "data": {
+            "AGE_NB": 47,
+            "CREATE_DTS": "2023-07-14T17:04:03Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "IDVL_FST_NM": "IDVL_FST_NM",
+            "IDVL_LST_NM": "Guest Last Name",
+            "IDVL_PTY_ACTV_IN": "Y",
+            "JDO_SEQ_NB": 0,
+            "POS_LST_NM_CD": 16,
+            "PRMY_LANG_CD": "eng",
+            "TXN_IDVL_PTY_ID": 768895426,
+            "UPDT_DTS": "2023-07-14T17:04:03Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "guest",
+            "table-name": "txn_idvl_pty",
+            "timestamp": "2023-07-14T21:04:07.582738Z",
+            "transaction-id": 53489592586367
+        }
+    },
+    {
+        "data": {
+            "AGE_NB": 18,
+            "CREATE_DTS": "2023-07-14T17:04:03Z",
+            "CREATE_USR_ID_CD": "BRAGZ002",
+            "IDVL_FST_NM": "IDVL_FST_NM",
+            "IDVL_LST_NM": "Guest Last Name",
+            "IDVL_PTY_ACTV_IN": "Y",
+            "JDO_SEQ_NB": 0,
+            "POS_LST_NM_CD": 31,
+            "PRMY_LANG_CD": "eng",
+            "TXN_IDVL_PTY_ID": 768895427,
+            "UPDT_DTS": "2023-07-14T17:04:03Z",
+            "UPDT_USR_ID_CD": "BRAGZ002"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "guest",
+            "table-name": "txn_idvl_pty",
+            "timestamp": "2023-07-14T21:04:07.606048Z",
+            "transaction-id": 53489592587262
+        }
+    },
+    {
+        "data": {
+            "AGE_NB": 46,
+            "CREATE_DTS": "2023-07-14T17:04:03Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "IDVL_FST_NM": "Guest",
+            "IDVL_LST_NM": "1",
+            "IDVL_PTY_ACTV_IN": "Y",
+            "JDO_SEQ_NB": 0,
+            "POS_LST_NM_CD": 0,
+            "PRMY_LANG_CD": "eng",
+            "TXN_IDVL_PTY_ID": 768895428,
+            "UPDT_DTS": "2023-07-14T17:04:03Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "guest",
+            "table-name": "txn_idvl_pty",
+            "timestamp": "2023-07-14T21:04:07.632277Z",
+            "transaction-id": 53489592587965
+        }
+    },
+    {
+        "data": {
+            "AGE_NB": 47,
+            "CREATE_DTS": "2023-07-14T17:04:03Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "IDVL_FST_NM": "IDVL_FST_NM",
+            "IDVL_LST_NM": "Guest Last Name",
+            "IDVL_PTY_ACTV_IN": "Y",
+            "JDO_SEQ_NB": 0,
+            "POS_LST_NM_CD": 16,
+            "PRMY_LANG_CD": "eng",
+            "TXN_IDVL_PTY_ID": 768895430,
+            "UPDT_DTS": "2023-07-14T17:04:03Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "guest",
+            "table-name": "txn_idvl_pty",
+            "timestamp": "2023-07-14T21:04:07.664154Z",
+            "transaction-id": 53489592588644
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-14T17:04:04Z",
+            "CREATE_USR_ID_CD": "2057040.1",
+            "DVC_MBR_TYP_NM": "MEMBER",
+            "IDVL_FST_NM": "IDVL_FST_NM",
+            "IDVL_LST_NM": "Guest Last Name",
+            "IDVL_PTY_ACTV_IN": "Y",
+            "JDO_SEQ_NB": 0,
+            "POS_LST_NM_CD": 13,
+            "PRMY_LANG_CD": "eng",
+            "TXN_IDVL_PTY_ID": 768895429,
+            "UPDT_DTS": "2023-07-14T17:04:04Z",
+            "UPDT_USR_ID_CD": "2057040.1"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "guest",
+            "table-name": "txn_idvl_pty",
+            "timestamp": "2023-07-14T21:04:07.735553Z",
+            "transaction-id": 53489592589533
+        }
+    },
+    {
+        "data": {
+            "AGE_NB": 46,
+            "CREATE_DTS": "2023-07-14T17:04:03Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "IDVL_FST_NM": "Guest",
+            "IDVL_LST_NM": "2",
+            "IDVL_PTY_ACTV_IN": "Y",
+            "JDO_SEQ_NB": 0,
+            "POS_LST_NM_CD": 0,
+            "PRMY_LANG_CD": "eng",
+            "TXN_IDVL_PTY_ID": 768895432,
+            "UPDT_DTS": "2023-07-14T17:04:03Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "guest",
+            "table-name": "txn_idvl_pty",
+            "timestamp": "2023-07-14T21:04:07.770806Z",
+            "transaction-id": 53489592591650
+        }
+    }
+]

@@ -1,0 +1,1062 @@
+{
+    "TravelBoxEastStateModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_state_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "state"
+            }
+        }
+    },
+    "TravelBoxEastAccContractModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_acc_contract_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "acc_contract"
+            }
+        }
+    },
+    "TravelBoxEastPkgHolidayModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_pkg_holiday_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "pkg_holiday"
+            }
+        }
+    },
+    "TravelBoxEastGenUsrDefinedTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_gen_usr_defined_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "gen_usr_defined_type"
+            }
+        }
+    },
+    "TravelBoxEastResPaxItemModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_pax_item_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_pax_item"
+            }
+        }
+    },
+    "TravelBoxEastProductModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_product_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "product"
+            }
+        }
+    },
+    "TravelBoxEastResAccomRoomModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_accom_room_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_accom_room"
+            }
+        }
+    },
+    "TravelBoxEastGenCategoryModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_gen_category_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "gen_category"
+            }
+        }
+    },
+    "TravelBoxEastResTrsExcBookingItemModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_trs_exc_booking_item_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_trs_exc_booking_item"
+            }
+        }
+    },
+    "TravelBoxEastAccRoomApartmentTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_acc_room_apartment_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "acc_room_apartment_type"
+            }
+        }
+    },
+    "TravelBoxEastLocationModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_location_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "location"
+            }
+        }
+    },
+    "TravelBoxEastResBookingCnxModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_booking_cnx_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_booking_cnx"
+            }
+        }
+    },
+    "TravelBoxEastProductTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_product_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "product_type"
+            }
+        }
+    },
+    "TravelBoxEastResBookingCnxReasonModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_booking_cnx_reason_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_booking_cnx_reason"
+            }
+        }
+    },
+    "TravelBoxEastResBookingAmndModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_booking_amnd_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_booking_amnd"
+            }
+        }
+    },
+    "TravelBoxEastFeeTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_fee_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "fee_type"
+            }
+        }
+    },
+    "TravelBoxEastResBookingStatusModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_booking_status_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_booking_status"
+            }
+        }
+    },
+    "TravelBoxEastCarTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_car_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "car_type"
+            }
+        }
+    },
+    "TravelBoxEastCliPaymentGroupModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_cli_payment_group_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "cli_payment_group"
+            }
+        }
+    },
+    "TravelBoxEastResBookingFeeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_booking_fee_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_booking_fee"
+            }
+        }
+    },
+    "TravelBoxEastActClientIbtxModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_act_client_ibtx_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "act_client_ibtx"
+            }
+        }
+    },
+    "TravelBoxEastAccFareModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_acc_fare_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "acc_fare"
+            }
+        }
+    },
+    "TravelBoxEastResBookingItemAmndModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_booking_item_amnd_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_booking_item_amnd"
+            }
+        }
+    },
+    "TravelBoxEastAirportModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_airport_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "airport"
+            }
+        }
+    },
+    "TravelBoxEastCityModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_city_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "city"
+            }
+        }
+    },
+    "TravelBoxEastActCcCardTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_act_cc_card_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "act_cc_card_type"
+            }
+        }
+    },
+    "TravelBoxEastActClientRefundTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_act_client_refund_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "act_client_refund_type"
+            }
+        }
+    },
+    "TravelBoxEastCmpDivisionModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_cmp_division_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "cmp_division"
+            }
+        }
+    },
+    "TravelBoxEastResTrsItemModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_trs_item_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_trs_item"
+            }
+        }
+    },
+    "TravelBoxEastCancellationSchemeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_cancellation_scheme_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "cancellation_scheme"
+            }
+        }
+    },
+    "TravelBoxEastCountryModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_country_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "country"
+            }
+        }
+    },
+    "TravelBoxEastGenProductTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_gen_product_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "gen_product_type"
+            }
+        }
+    },
+    "TravelBoxEastResBookingItemModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_booking_item_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_booking_item"
+            }
+        }
+    },
+    "TravelBoxEastInsContractModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_ins_contract_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ins_contract"
+            }
+        }
+    },
+    "TravelBoxEastResInsuranceBookingModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_insurance_booking_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_insurance_booking"
+            }
+        }
+    },
+    "TravelBoxEastProductGroupModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_product_group_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "product_group"
+            }
+        }
+    },
+    "TravelBoxEastCarContractModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_car_contract_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "car_contract"
+            }
+        }
+    },
+    "TravelBoxEastAimRoomModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_aim_room_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "aim_room"
+            }
+        }
+    },
+    "TravelBoxEastBrandModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_brand_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "brand"
+            }
+        }
+    },
+    "TravelBoxEastGenProductGroupModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_gen_product_group_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "gen_product_group"
+            }
+        }
+    },
+    "TravelBoxEastAmdcnxCauseModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_amdcnx_cause_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "amdcnx_cause"
+            }
+        }
+    },
+    "TravelBoxEastResBookingItemCnxModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_booking_item_cnx_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_booking_item_cnx"
+            }
+        }
+    },
+    "TravelBoxEastPkgGroupModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_pkg_group_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "pkg_group"
+            }
+        }
+    },
+    "TravelBoxEastCliProfileAttributeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_cli_profile_attribute_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "cli_profile_attribute"
+            }
+        }
+    },
+    "TravelBoxEastCliCommGroupModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_cli_comm_group_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "cli_comm_group"
+            }
+        }
+    },
+    "TravelBoxEastResAccomBookingModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_accom_booking_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_accom_booking"
+            }
+        }
+    },
+    "TravelBoxEastCliProfileAddressModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_cli_profile_address_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "cli_profile_address"
+            }
+        }
+    },
+    "TravelBoxEastCliClientModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_cli_client_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "cli_client"
+            }
+        }
+    },
+    "TravelBoxEastCliDirectClientModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_cli_direct_client_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "cli_direct_client"
+            }
+        }
+    },
+    "TravelBoxEastGenContractModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_gen_contract_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "gen_contract"
+            }
+        }
+    },
+    "TravelBoxEastHolidayTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_holiday_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "holiday_type"
+            }
+        }
+    },
+    "TravelBoxEastActTransactionTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_act_transaction_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "act_transaction_type"
+            }
+        }
+    },
+    "TravelBoxEastStatusModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_status_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "status"
+            }
+        }
+    },
+    "TravelBoxEastPaxSubTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_pax_sub_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "pax_sub_type"
+            }
+        }
+    },
+    "TravelBoxEastCarLocationModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_car_location_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "car_location"
+            }
+        }
+    },
+    "TravelBoxEastResBkgUsrDefinedTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_bkg_usr_defined_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_bkg_usr_defined_type"
+            }
+        }
+    },
+    "TravelBoxEastSuppAdditionalAttributeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_supp_additional_attribute_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "supp_additional_attribute"
+            }
+        }
+    },
+    "TravelBoxEastCliAddressModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_cli_address_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "cli_address"
+            }
+        }
+    },
+    "TravelBoxEastResBookingModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_booking_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_booking"
+            }
+        }
+    },
+    "TravelBoxEastCliPassengerProfileModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_cli_passenger_profile_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "passenger_profile"
+            }
+        }
+    },
+    "TravelBoxEastResFlightSectorModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_flight_sector_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_flight_sector"
+            }
+        }
+    },
+    "TravelBoxEastSupplierModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_supplier_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "supplier"
+            }
+        }
+    },
+    "TravelBoxEastDistributionChannelModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_distribution_channel_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "distribution_channel"
+            }
+        }
+    },
+    "TravelBoxEastResFlightBookingModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_flight_booking_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_flight_booking"
+            }
+        }
+    },
+    "TravelBoxEastUdaApplicableValueModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_uda_applicable_value_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "uda_applicable_value"
+            }
+        }
+    },
+    "TravelBoxEastResCarBookingModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_car_booking_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_car_booking"
+            }
+        }
+    },
+    "TravelBoxEastCliTradeClientModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_cli_trade_client_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "cli_trade_client"
+            }
+        }
+    },
+    "TravelBoxEastCliFreqMemberTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_cli_freq_member_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "cli_freq_member_type"
+            }
+        }
+    },
+    "TravelBoxEastAccDiscountModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_acc_discount_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "acc_discount"
+            }
+        }
+    },
+    "TravelBoxEastActClientReceiptModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_act_client_receipt_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "act_client_receipt"
+            }
+        }
+    },
+    "TravelBoxEastResGenericBookingModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_generic_booking_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_generic_booking"
+            }
+        }
+    },
+    "TravelBoxEastActClientCcReceiptModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_act_client_cc_receipt_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "act_client_cc_receipt"
+            }
+        }
+    },
+    "TravelBoxEastResAccomDiscountModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_accom_discount_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_accom_discount"
+            }
+        }
+    },
+    "TravelBoxEastResPassengerModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_passenger_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_passenger"
+            }
+        }
+    },
+    "TravelBoxEastResGenericSupplementModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_generic_supplement_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_generic_supplement"
+            }
+        }
+    },
+    "TravelBoxEastActClientRefundModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_act_client_refund_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "act_client_refund"
+            }
+        }
+    },
+    "TravelBoxEastResOptionStatusModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_option_status_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_option_status"
+            }
+        }
+    },
+    "TravelBoxEastGenSupplementCategoryModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_gen_supplement_category_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "gen_supplement_category"
+            }
+        }
+    },
+    "TravelBoxEastCliContactModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_cli_contact_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "cli_contact"
+            }
+        }
+    },
+    "TravelBoxEastResGenericDiscountModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_generic_discount_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_generic_discount"
+            }
+        }
+    },
+    "TravelBoxEastRateTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_rate_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "rate_type"
+            }
+        }
+    },
+    "TravelBoxEastPaymentSchemeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_payment_scheme_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "payment_scheme"
+            }
+        }
+    },
+    "TravelBoxEastResBookingTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_booking_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_booking_type"
+            }
+        }
+    },
+    "TravelBoxEastResortModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_resort_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "resort"
+            }
+        }
+    },
+    "TravelBoxEastCmpCompanyModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_cmp_company_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "cmp_company"
+            }
+        }
+    },
+    "TravelBoxEastLocaleModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_locale_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "locale"
+            }
+        }
+    },
+    "TravelBoxEastAccDiscountTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_acc_discount_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "acc_discount_type"
+            }
+        }
+    },
+    "TravelBoxEastGenDiscountTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_gen_discount_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "gen_discount_type"
+            }
+        }
+    },
+    "TravelBoxEastAdmUserModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_adm_user_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "adm_user"
+            }
+        }
+    },
+    "TravelBoxEastCliMaritalStatusModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_cli_marital_status_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "cli_marital_status"
+            }
+        }
+    },
+    "TravelBoxEastInsPolicyTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_ins_policy_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ins_policy_type"
+            }
+        }
+    },
+    "TravelBoxEastCliTradeClientTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_cli_trade_client_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "cli_trade_client_type"
+            }
+        }
+    },
+    "TravelBoxEastPkgItineraryModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_pkg_itinerary_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "pkg_itinerary"
+            }
+        }
+    },
+    "TravelBoxEastGenDiscountModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_gen_discount_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "gen_discount"
+            }
+        }
+    },
+    "TravelBoxEastPkgSellableMembershipTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_pkg_sellable_membership_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "pkg_sellable_membership_type"
+            }
+        }
+    },
+    "TravelBoxEastResBookingPackageModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_res_booking_package_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_booking_package"
+            }
+        }
+    },
+    "TravelBoxEastContractGroupModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_contract_group_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "contract_group"
+            }
+        }
+    },
+    "TravelBoxEastTrsContractModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_trs_contract_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "trs_contract"
+            }
+        }
+    },
+    "TravelBoxEastTrsModeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_trs_mode_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "trs_mode"
+            }
+        }
+    },
+    "TravelBoxEastClientGroupModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_client_group_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxe-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "client_group"
+            }
+        }
+    },
+    "TravelBoxEastAimAccReservationModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_aim_acc_reservation_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "aim_acc_reservation"
+            }
+        }
+    },
+    "TravelBoxEastAimBaseInventoryModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_aim_base_inventory_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "aim_base_inventory"
+            }
+        }
+    },
+    "TravelBoxEastAimBlockInventoryModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_aim_block_inventory_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "aim_block_inventoryg"
+            }
+        }
+    },
+    "TravelBoxEastAimRoomBuiltCountModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_aim_room_built_count_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "aim_room_built_count"
+            }
+        }
+    },
+    "TravelBoxEastPkgUsrDefinedTypeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_pkg_usr_defined_type_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "pkg_usr_defined_type"
+            }
+        }
+    },
+    "TravelBoxEastUdaAttributeModel": {
+        "data-source-folder": "travelbox_east/v0",
+        "data-contract-name": "travelbox_east_uda_attribute_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-tbxw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "uda_attribute"
+            }
+        }
+    }
+}

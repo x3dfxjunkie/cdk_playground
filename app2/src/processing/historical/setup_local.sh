@@ -1,0 +1,17 @@
+export IDENTITY_PREFIX='lcl-use1-guest360'
+export ENDPOINT_URL='http://localstack:4566'
+export AWS_PROFILE_NAME='default'
+export EXPERIENCE_EVENT_TABLE_NAME="${IDENTITY_PREFIX}-curated-experiences"
+export IDENTITY_TABLE_NAME="${IDENTITY_PREFIX}-identity"
+export IDENTITY_NODES_TABLE_NAME="${IDENTITY_PREFIX}-identity-nodes"
+export IDENTITY_EDGES_TABLE_NAME="${IDENTITY_PREFIX}-identity-edges"
+export PROFILE_TABLENAME="${IDENTITY_PREFIX}-profile-table"
+export IDENTITY_NOTIFICATION_STREAM_NAME="${IDENTITY_PREFIX}-identity-notification"
+
+export SNOWFLAKE_WAREHOUSE_NAME='WH_NAME'
+export SNOWFLAKE_DB_NAME='SB_NAME'
+export SNOWFLAKE_SCHEMA_NAME='SCHEMA_NAME'
+export SNOWFLAKE_TABLE_NAME='GAM_DLR_TABLE_NAME'
+
+export RAW_LL_STREAM_NAME="${IDENTITY_PREFIX}-wdw-lightning-lane-stream"
+export RAW_GAM_STREAM_NAME='tbd'

@@ -1,0 +1,119 @@
+[
+    {
+        "data": {
+            "CHRG_GRP_TRVL_GST_ID": 564082031,
+            "ROOT_CHRG_GRP_ID": 983317311,
+            "TXN_IDVL_PTY_ID": 760603142,
+            "CREATE_USR_ID_CD": "TradeOrderSv",
+            "CREATE_DTS": "2023-06-09T09:16:04.868000Z",
+            "transact_commit_timestamp": "2023-06-09T13:16:06Z",
+            "transact_seq": "20230609131606000000000000013232565"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T01:11:28.876367Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CHRG_GRP_TRVL_GST",
+            "transaction-id": 1703964
+        }
+    },
+    {
+        "data": {
+            "CHRG_GRP_TRVL_GST_ID": 564082032,
+            "ROOT_CHRG_GRP_ID": 983317311,
+            "TXN_IDVL_PTY_ID": 760603143,
+            "CREATE_USR_ID_CD": "TradeOrderSv",
+            "CREATE_DTS": "2023-06-09T09:16:04.868000Z",
+            "transact_seq": "20230609131606000000000000013232569"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T01:11:28.883356Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CHRG_GRP_TRVL_GST",
+            "transaction-id": 1703964
+        }
+    },
+    {
+        "data": {
+            "CHRG_GRP_TRVL_GST_ID": 562709398,
+            "ROOT_CHRG_GRP_ID": 973190050,
+            "TXN_IDVL_PTY_ID": 743745812,
+            "CREATE_USR_ID_CD": "TbxSyncUser",
+            "CREATE_DTS": "2023-05-26T14:55:37.078000Z",
+            "transact_commit_timestamp": "2023-06-09T13:16:12Z",
+            "transact_seq": "20230609131612000000000000013233733"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T01:11:31.011446Z",
+            "record-type": "data",
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CHRG_GRP_TRVL_GST",
+            "transaction-id": 1441819
+        }
+    },
+    {
+        "data": {
+            "CHRG_GRP_TRVL_GST_ID": 562709399,
+            "ROOT_CHRG_GRP_ID": 973190050,
+            "TXN_IDVL_PTY_ID": 743745815,
+            "CREATE_USR_ID_CD": "TbxSyncUser",
+            "CREATE_DTS": "2023-05-26T14:55:37.078000Z",
+            "transact_commit_timestamp": "2023-06-09T13:16:12Z",
+            "transact_seq": "20230609131612000000000000013233737"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T01:11:31.019535Z",
+            "record-type": "data",
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CHRG_GRP_TRVL_GST",
+            "transaction-id": 1441819
+        }
+    },
+    {
+        "data": {
+            "CHRG_GRP_TRVL_GST_ID": 562709400,
+            "ROOT_CHRG_GRP_ID": 973190050,
+            "TXN_IDVL_PTY_ID": 743745821,
+            "CREATE_USR_ID_CD": "TbxSyncUser",
+            "CREATE_DTS": "2023-05-26T14:55:37.078000Z",
+            "transact_commit_timestamp": "2023-06-09T13:16:12Z"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T01:11:31.026850Z",
+            "record-type": "data",
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CHRG_GRP_TRVL_GST",
+            "transaction-id": 1441819
+        }
+    },
+    {
+        "data": {
+            "CHRG_GRP_TRVL_GST_ID": 562709401,
+            "ROOT_CHRG_GRP_ID": 973190050,
+            "TXN_IDVL_PTY_ID": 748136246,
+            "CREATE_USR_ID_CD": "TbxSyncUser",
+            "CREATE_DTS": "2023-05-26T14:55:37.078000Z",
+            "transact_commit_timestamp": "2023-06-09T13:16:12Z",
+            "transact_seq": "20230609131612000000000000013233745"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T01:11:31.034242Z",
+            "record-type": "data",
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CHRG_GRP_TRVL_GST"
+        }
+    }
+]

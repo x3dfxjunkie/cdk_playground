@@ -1,0 +1,620 @@
+[
+    {
+        "action": "CREATE",
+        "planningParty": {
+            "endDateTime": "2023-09-12T04:00:00Z",
+            "id": 1100975,
+            "location": "330339",
+            "manager": {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "members": [
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580556084255385675"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580556084235058225"
+                    }
+                }
+            ],
+            "startDateTime": "2023-09-11T16:00:00Z",
+            "type": "DEFAULT"
+        },
+        "type": "PlanningParty"
+    },
+    {
+        "action": "CREATE",
+        "planningParty": {
+            "endDateTime": "2023-09-10T07:00:00Z",
+            "id": 1100972,
+            "location": "330339",
+            "manager": {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "members": [
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580551049388472597"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580551049269223890"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580551049294304664"
+                    }
+                }
+            ],
+            "startDateTime": "2023-09-09T16:00:00Z",
+            "type": "DEFAULT"
+        },
+        "type": "PlanningParty"
+    },
+    {
+        "action": "CREATE",
+        "planningParty": {
+            "endDateTime": "2023-09-12T04:00:00Z",
+            "id": 1100979,
+            "location": "330339",
+            "manager": {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "members": [
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705700556084473639273"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705700551053080233044"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705700551053101861658"
+                    }
+                }
+            ],
+            "startDateTime": "2023-09-11T16:00:00Z",
+            "type": "DEFAULT"
+        },
+        "type": "PlanningParty"
+    },
+    {
+        "action": "CREATE",
+        "planningParty": {
+            "endDateTime": "2023-09-17T07:00:00Z",
+            "id": 1100980,
+            "location": "330339",
+            "manager": {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "members": [
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580556084444494947"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580556084550579197"
+                    }
+                }
+            ],
+            "startDateTime": "2023-09-16T16:00:00Z",
+            "type": "DEFAULT"
+        },
+        "type": "PlanningParty"
+    },
+    {
+        "action": "CREATE",
+        "planningParty": {
+            "endDateTime": "2023-09-17T07:00:00Z",
+            "id": 1100976,
+            "location": "330339",
+            "manager": {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "members": [
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580556084305250319"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580551053087025216"
+                    }
+                }
+            ],
+            "startDateTime": "2023-09-16T16:00:00Z",
+            "type": "DEFAULT"
+        },
+        "type": "PlanningParty"
+    },
+    {
+        "action": "CREATE",
+        "planningParty": {
+            "endDateTime": "2023-09-12T04:00:00Z",
+            "id": 1100986,
+            "location": "330339",
+            "manager": {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "members": [
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705660556084671019646"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705660551053193502087"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705660551053181262285"
+                    }
+                }
+            ],
+            "startDateTime": "2023-09-11T16:30:00Z",
+            "type": "DEFAULT"
+        },
+        "type": "PlanningParty"
+    },
+    {
+        "action": "CREATE",
+        "planningParty": {
+            "endDateTime": "2023-09-20T07:00:00Z",
+            "id": 1100982,
+            "location": "330339",
+            "manager": {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "members": [
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705720556084430268811"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705730556084449068514"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705720556084478069224"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705730556084538713541"
+                    }
+                }
+            ],
+            "startDateTime": "2023-09-19T16:00:00Z",
+            "type": "DEFAULT"
+        },
+        "type": "PlanningParty"
+    },
+    {
+        "action": "CREATE",
+        "planningParty": {
+            "endDateTime": "2023-09-12T04:00:00Z",
+            "id": 1100981,
+            "location": "330339",
+            "manager": {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "members": [
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "706080556084544883292"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "706080551053175115137"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "706080551053283936583"
+                    }
+                }
+            ],
+            "startDateTime": "2023-09-11T16:00:00Z",
+            "type": "DEFAULT"
+        },
+        "type": "PlanningParty"
+    },
+    {
+        "action": "CREATE",
+        "planningParty": {
+            "endDateTime": "2023-09-10T07:00:00Z",
+            "id": 1100970,
+            "location": "330339",
+            "manager": {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "members": [
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580556080071198153"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580556080025625068"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580556080634561401"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580556080562334838"
+                    }
+                }
+            ],
+            "startDateTime": "2023-09-09T16:00:00Z",
+            "type": "DEFAULT"
+        },
+        "type": "PlanningParty"
+    },
+    {
+        "action": "CREATE",
+        "planningParty": {
+            "endDateTime": "2023-09-10T07:00:00Z",
+            "id": 1100971,
+            "location": "330339",
+            "manager": {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "members": [
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580551049327775838"
+                    }
+                }
+            ],
+            "startDateTime": "2023-09-09T16:00:00Z",
+            "type": "DEFAULT"
+        },
+        "type": "PlanningParty"
+    },
+    {
+        "action": "CREATE",
+        "planningParty": {
+            "endDateTime": "2023-09-10T07:00:00Z",
+            "id": 1100973,
+            "location": "330339",
+            "manager": {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "members": [
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580556074658435667"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580556074704393302"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580556079761591222"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580556079736652732"
+                    }
+                }
+            ],
+            "startDateTime": "2023-09-09T16:00:00Z",
+            "type": "DEFAULT"
+        },
+        "type": "PlanningParty"
+    },
+    {
+        "action": "CREATE",
+        "planningParty": {
+            "endDateTime": "2023-09-12T04:00:00Z",
+            "id": 1100985,
+            "location": "330339",
+            "manager": {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "members": [
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "706080556084547770434"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "706080556084479777270"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "706080556084455626236"
+                    }
+                }
+            ],
+            "startDateTime": "2023-09-11T16:30:00Z",
+            "type": "DEFAULT"
+        },
+        "type": "PlanningParty"
+    },
+    {
+        "action": "CREATE",
+        "planningParty": {
+            "endDateTime": "2023-09-12T04:00:00Z",
+            "id": 1100974,
+            "location": "330339",
+            "manager": {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "members": [
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580551083258618493"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580551083286981603"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580551083220527479"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580551083317702129"
+                    }
+                }
+            ],
+            "startDateTime": "2023-09-11T16:00:00Z",
+            "type": "DEFAULT"
+        },
+        "type": "PlanningParty"
+    },
+    {
+        "action": "CREATE",
+        "planningParty": {
+            "endDateTime": "2023-09-12T04:00:00Z",
+            "id": 1100987,
+            "location": "330339",
+            "manager": {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "members": [
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "706080556084588898732"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "706080551053367176774"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "706080556084681942194"
+                    }
+                }
+            ],
+            "startDateTime": "2023-09-11T17:00:00Z",
+            "type": "DEFAULT"
+        },
+        "type": "PlanningParty"
+    },
+    {
+        "action": "CREATE",
+        "planningParty": {
+            "endDateTime": "2023-09-12T04:00:00Z",
+            "id": 1100977,
+            "location": "330339",
+            "manager": {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "members": [
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705700551053148750560"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705700556084552941077"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705700551053022591590"
+                    }
+                }
+            ],
+            "startDateTime": "2023-09-11T16:00:00Z",
+            "type": "DEFAULT"
+        },
+        "type": "PlanningParty"
+    },
+    {
+        "action": "CREATE",
+        "planningParty": {
+            "endDateTime": "2023-09-17T07:00:00Z",
+            "id": 1100978,
+            "location": "330339",
+            "manager": {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "members": [
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580551053064958316"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "705580551053091110130"
+                    }
+                }
+            ],
+            "startDateTime": "2023-09-16T16:00:00Z",
+            "type": "DEFAULT"
+        },
+        "type": "PlanningParty"
+    },
+    {
+        "action": "CREATE",
+        "planningParty": {
+            "endDateTime": "2023-09-12T04:00:00Z",
+            "id": 1100983,
+            "location": "330339",
+            "manager": {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "members": [
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "706080551053238940821"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "706080551053209614555"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "706080556084510049046"
+                    }
+                }
+            ],
+            "startDateTime": "2023-09-11T16:00:00Z",
+            "type": "DEFAULT"
+        },
+        "type": "PlanningParty"
+    },
+    {
+        "action": "CREATE",
+        "planningParty": {
+            "endDateTime": "2023-09-12T04:00:00Z",
+            "id": 1100984,
+            "location": "330339",
+            "manager": {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "members": [
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "706080556084491833632"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "706080556084462408742"
+                    }
+                },
+                {
+                    "identifier": {
+                        "type": "ticket-visual-id",
+                        "value": "706080551053156433641"
+                    }
+                }
+            ],
+            "startDateTime": "2023-09-11T16:00:00Z",
+            "type": "DEFAULT"
+        },
+        "type": "PlanningParty"
+    }
+]

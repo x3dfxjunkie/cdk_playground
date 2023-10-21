@@ -1,0 +1,2595 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:08:15Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILO CONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 0,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-09-10T14:08:15Z",
+            "RSRC_INVTRY_STS_TYP_NM": "HOUSEKEEPING",
+            "STS_DS": "Inspector in Room",
+            "STS_NM": "Inspector in Room",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.673043Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:08:15Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILO CONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 0,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-09-10T14:08:15Z",
+            "RSRC_INVTRY_STS_TYP_NM": "HOUSEKEEPING",
+            "STS_DS": "Housekeeper in Room",
+            "STS_NM": "Housekeeper in Room",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.682251Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:08:15Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILO CONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 0,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-09-10T14:08:15Z",
+            "RSRC_INVTRY_STS_TYP_NM": "HOUSEKEEPING",
+            "STS_DS": "DIRTY",
+            "STS_NM": "DIRTY",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.692916Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:08:15Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILO CONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 2,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-09-10T14:08:15Z",
+            "RSRC_INVTRY_STS_TYP_NM": "HOUSEKEEPING",
+            "STS_DS": "TRASH AND TOWEL",
+            "STS_NM": "TRASH AND TOWEL",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.722098Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:08:15Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILO CONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 0,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-09-10T14:08:15Z",
+            "RSRC_INVTRY_STS_TYP_NM": "OCCUPANCY",
+            "STS_DS": "VACANT",
+            "STS_NM": "VACANT",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.741003Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:08:15Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILO CONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 0,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-09-10T14:08:15Z",
+            "RSRC_INVTRY_STS_TYP_NM": "OCCUPANCY",
+            "STS_DS": "OCCUPIED",
+            "STS_NM": "OCCUPIED",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.750730Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:08:15Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILO CONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 0,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-09-10T14:08:15Z",
+            "RSRC_INVTRY_STS_TYP_NM": "HK_OCCUPANCY",
+            "STS_DS": "VACANT",
+            "STS_NM": "VACANT",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.762901Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-12T12:16:15Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 2,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-12T12:16:15Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Closet Doors Off Track",
+            "STS_NM": "Closet Doors off Track",
+            "UPDT_DTS": "2019-04-25T08:22:00.461000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.782802Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-12T12:16:15Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 2,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-12T12:16:15Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Door Lock Not Working",
+            "STS_NM": "Door lock not working",
+            "UPDT_DTS": "2019-04-25T08:39:06.733000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.797992Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-12T12:16:15Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 2,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-12T12:16:15Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Phone is Not Working",
+            "STS_NM": "Phone is not working",
+            "UPDT_DTS": "2019-04-25T08:47:21.364000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.814697Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-12T12:16:15Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 2,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-12T12:16:15Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "TV Not Working",
+            "STS_NM": "TV not working",
+            "UPDT_DTS": "2019-04-25T08:51:14.397000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.823131Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Door-Closet",
+            "STS_NM": "Door-Closet",
+            "UPDT_DTS": "2019-04-25T08:39:54.508000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.872241Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 5,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Curtain System",
+            "STS_NM": "Curtain System",
+            "UPDT_DTS": "2019-04-25T08:22:21.970000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.884814Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Door-Lock",
+            "STS_NM": "Door-Lock",
+            "UPDT_DTS": "2019-04-25T08:40:30.328000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.918771Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Door-Patio",
+            "STS_NM": "Door-Patio",
+            "UPDT_DTS": "2019-04-25T08:41:06.398000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.938615Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Drapery/Sheer/Blind/Rod",
+            "STS_NM": "Drapery/Sheer/Blind/Rod",
+            "UPDT_DTS": "2019-04-25T08:41:33.079000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.947980Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Lighting-Wall",
+            "STS_NM": "Lighting-Wall",
+            "UPDT_DTS": "2019-04-25T08:46:02.248000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.013275Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Night Stand",
+            "STS_NM": "Night Stand",
+            "UPDT_DTS": "2019-04-25T08:47:00.967000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.047776Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Microwave Oven",
+            "STS_NM": "Microwave Oven",
+            "UPDT_DTS": "2019-04-25T08:46:29.027000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.065593Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Safe Key",
+            "STS_NM": "Safe Key",
+            "UPDT_DTS": "2019-04-25T08:49:14.186000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.072274Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Fire Sprinkler",
+            "STS_NM": "Fire Sprinkler",
+            "UPDT_DTS": "2019-04-25T08:42:03.303000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.117754Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Tub",
+            "STS_NM": "Tub",
+            "UPDT_DTS": "2019-04-25T08:51:06.035000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.143717Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 3,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Television",
+            "STS_NM": "Television",
+            "UPDT_DTS": "2019-04-25T08:50:29.308000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.155699Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Washer",
+            "STS_NM": "Washer",
+            "UPDT_DTS": "2019-04-25T08:51:41.806000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.164043Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Tile-Ceramic",
+            "STS_NM": "Tile-Ceramic",
+            "UPDT_DTS": "2019-04-25T08:50:37.845000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.177942Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Safe",
+            "STS_NM": "Safe",
+            "UPDT_DTS": "2019-04-25T08:47:52.114000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.210306Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Door-Bathroom",
+            "STS_NM": "Door-Bathroom",
+            "UPDT_DTS": "2019-04-25T08:39:44.140000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.229070Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Door-Night Latch",
+            "STS_NM": "Door-Night Latch",
+            "UPDT_DTS": "2019-04-25T08:40:55.546000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.236138Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Touch-up",
+            "STS_NM": "Touch-up",
+            "UPDT_DTS": "2019-04-25T08:50:46.858000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.263936Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 5,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Disability Assistance Device",
+            "STS_NM": "Disability Assistance Device",
+            "UPDT_DTS": "2019-04-25T08:22:47.980000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.278253Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 5,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Washer/Dryer Combo",
+            "STS_NM": "Washer/Dryer Combo",
+            "UPDT_DTS": "2019-04-25T08:52:14.206000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.288719Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Jacuzzi",
+            "STS_NM": "Jacuzzi",
+            "UPDT_DTS": "2019-04-25T08:43:05.017000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.296792Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-10-09T10:49:25.801576Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 1,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-10-09T10:49:25.801000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Blocked for Group",
+            "STS_NM": "Blocked for Group",
+            "UPDT_DTS": "2019-04-25T08:21:05.340000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.306217Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-11-09T17:40:01.732000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "test2621.use",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 1,
+            "RSRC_INVTRY_STS_END_DTS": "2009-11-10T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-11-09T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "HK_OCCUPANCY",
+            "STS_DS": "TRASH",
+            "STS_NM": "TRASH",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.315450Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-11-13T10:08:09.876000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "NUNED009",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 2,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-11-13T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "HOUSEKEEPING",
+            "STS_DS": "Room Assigner Email",
+            "STS_NM": "Room Assigner Test",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.331668Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-11-18T20:51:36.422000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "RANGH002",
+            "DFLT_DY_CN": 1,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "OUT_OF_INVENTORY",
+            "JDO_SEQ_NB": 1,
+            "RSRC_INVTRY_STS_END_DTS": "2018-07-23T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-11-18T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Does not go to Maximo",
+            "STS_NM": "Dont goto Maximo",
+            "UPDT_DTS": "2018-07-23T08:41:08.485000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.362795Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-12-02T09:58:09.161000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "test2621.use",
+            "DFLT_DY_CN": 14,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "OUT_OF_INVENTORY",
+            "JDO_SEQ_NB": 2,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-12-02T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Pest Management",
+            "STS_NM": "Pest Management",
+            "UPDT_DTS": "2021-05-02T20:52:27.058000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.386712Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-12-03T14:27:10.043000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "test2621.use",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 5,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-12-03T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Room Change",
+            "STS_NM": "Room Change",
+            "UPDT_DTS": "2019-04-19T14:36:18.740000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.396208Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2013-04-26T13:56:54.593000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "SCHNE004",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 3,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2013-04-26T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Show Room",
+            "STS_NM": "Show Room",
+            "UPDT_DTS": "2019-04-25T08:49:23.491000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.410950Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-09-01T12:49:50.994000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "VAYIC001",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 2,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2015-09-01T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Hold for Group",
+            "STS_NM": "Hold for Group",
+            "UPDT_DTS": "2019-04-25T08:42:54.631000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.418150Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2018-03-28T10:39:53.299000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "ALFAJ005",
+            "DFLT_DY_CN": 1,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "OUT_OF_INVENTORY",
+            "JDO_SEQ_NB": 5,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2018-03-28T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Planned Maintenance",
+            "STS_NM": "Planned Maintenance",
+            "UPDT_DTS": "2018-07-23T08:55:04.820000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.444240Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2019-04-10T13:53:09.420000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "EDSER001",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2019-04-10T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Preventative Maintenance",
+            "STS_NM": "Preventative Maintenance",
+            "UPDT_DTS": "2019-04-24T10:06:06.567000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.461093Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2019-04-10T13:59:04.851000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "EDSER001",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 3,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2019-04-10T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Unplanned Maintenance",
+            "STS_NM": "Unplanned Maintenance",
+            "UPDT_DTS": "2019-04-25T08:53:56.254000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.469508Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2021-03-15T17:30:05.011000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "MCMUJ008",
+            "DFLT_DY_CN": 1,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "OUT_OF_INVENTORY",
+            "JDO_SEQ_NB": 1,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2021-03-15T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Out of Inventory",
+            "STS_NM": "Out of Inventory",
+            "UPDT_DTS": "2021-03-15T17:30:44.796000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.480979Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2021-03-17T14:12:45.498000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "MCMUJ008",
+            "DFLT_DY_CN": 1,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 1,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2021-03-17T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Carry Dirty",
+            "STS_NM": "Carry Dirty",
+            "UPDT_DTS": "2021-03-22T12:04:40.411000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.488847Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2021-04-07T08:32:13.272000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "ELGD001",
+            "DFLT_DY_CN": 3,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "OUT_OF_INVENTORY",
+            "JDO_SEQ_NB": 1,
+            "RSRC_INVTRY_STS_END_DTS": "2023-01-31T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2021-04-07T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "No Access - See General Manager",
+            "STS_NM": "No Access - See General Manager",
+            "UPDT_DTS": "2023-01-31T11:55:17.157000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.496510Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2021-06-18T07:44:03.061000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "ELGD001",
+            "DFLT_DY_CN": 1,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "OUT_OF_INVENTORY",
+            "JDO_SEQ_NB": 1,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2021-06-18T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Category Hold",
+            "STS_NM": "Category Hold",
+            "UPDT_DTS": "2021-06-18T11:26:23.533000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.505633Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2021-06-18T08:46:46.937000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "ELGD001",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 0,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2021-06-18T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Front Desk Room Hold",
+            "STS_NM": "Front Desk Room Hold",
+            "UPDT_DTS": "2021-06-18T08:46:46.937000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.514565Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2021-06-18T07:51:39.461000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "ELGD001",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 1,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2021-06-18T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Pre Inspection – 724",
+            "STS_NM": "Pre Inspection – 724",
+            "UPDT_DTS": "2021-06-18T08:25:03.317000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.523959Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2021-06-18T08:45:27.635000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "ELGD001",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 0,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2021-06-18T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Housekeeping Room Hold",
+            "STS_NM": "Housekeeping Room Hold",
+            "UPDT_DTS": "2021-06-18T08:45:27.635000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.530842Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-01-31T10:55:06.857000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "ELGD001",
+            "DFLT_DY_CN": 1,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "OUT_OF_INVENTORY",
+            "JDO_SEQ_NB": 2,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2023-01-31T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "DVC Show/Office Room",
+            "STS_NM": "DVC Show/Office Room",
+            "UPDT_DTS": "2023-02-23T15:51:14.898000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.548561Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:08:15Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILO CONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 3,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-09-10T14:08:15Z",
+            "RSRC_INVTRY_STS_TYP_NM": "HOUSEKEEPING",
+            "STS_DS": "Clean",
+            "STS_NM": "CLEAN",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.664624Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:08:15Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILO CONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 0,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-09-10T14:08:15Z",
+            "RSRC_INVTRY_STS_TYP_NM": "HOUSEKEEPING",
+            "STS_DS": "PICK UP",
+            "STS_NM": "PICK UP",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.702963Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:08:15Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILO CONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 0,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-09-10T14:08:15Z",
+            "RSRC_INVTRY_STS_TYP_NM": "HOUSEKEEPING",
+            "STS_DS": "LINEN CHANGE",
+            "STS_NM": "LINEN CHANGE",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.712451Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:08:15Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILO CONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 0,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-09-10T14:08:15Z",
+            "RSRC_INVTRY_STS_TYP_NM": "HOUSEKEEPING",
+            "STS_DS": "INSPECTED",
+            "STS_NM": "INSPECTED",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.730438Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:08:15Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILO CONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 0,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-09-10T14:08:15Z",
+            "RSRC_INVTRY_STS_TYP_NM": "HK_OCCUPANCY",
+            "STS_DS": "OCCUPIED",
+            "STS_NM": "OCCUPIED",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.773955Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-12T12:16:15Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 2,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-12T12:16:15Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Sliding Door Not Locking",
+            "STS_NM": "Sliding Door not locking",
+            "UPDT_DTS": "2019-04-25T08:49:53.139000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.790554Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-12T12:16:15Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 2,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-12T12:16:15Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Relamp Room",
+            "STS_NM": "Relamp Room",
+            "UPDT_DTS": "2019-04-25T08:47:40.650000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.806360Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 6,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Air Conditioner",
+            "STS_NM": "Air Conditioner",
+            "UPDT_DTS": "2019-04-25T08:17:14.730000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.831068Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 5,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Air Filter",
+            "STS_NM": "Air Filter",
+            "UPDT_DTS": "2019-04-25T08:17:26.485000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.838974Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 5,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Armoire/Dresser",
+            "STS_NM": "Armoire/Dresser",
+            "UPDT_DTS": "2019-04-25T08:18:35.690000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.849405Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 5,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Chair",
+            "STS_NM": "Chair",
+            "UPDT_DTS": "2019-04-25T08:21:29.447000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.858825Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Door-Entrance",
+            "STS_NM": "Door-Entrance",
+            "UPDT_DTS": "2019-04-25T08:40:15.639000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.896440Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Garbage Disposal",
+            "STS_NM": "Garbage Disposal",
+            "UPDT_DTS": "2019-04-25T08:42:25.815000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.904704Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 2,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Door-Manual",
+            "STS_NM": "Door-Manual",
+            "UPDT_DTS": "2019-04-25T08:40:45.668000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.928589Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Dryer",
+            "STS_NM": "Dryer",
+            "UPDT_DTS": "2019-04-25T08:41:52.653000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.956714Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Furnishings",
+            "STS_NM": "Furnishings",
+            "UPDT_DTS": "2019-04-25T08:42:14.912000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.965255Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Lighting-Bathroom",
+            "STS_NM": "Lighting-Bathroom",
+            "UPDT_DTS": "2019-04-25T08:44:22.782000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.975234Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Lighting-Ceiling",
+            "STS_NM": "Lighting-Ceiling",
+            "UPDT_DTS": "2019-04-25T08:44:58.894000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.982804Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Lighting-Lamp",
+            "STS_NM": "Lighting-Lamp",
+            "UPDT_DTS": "2019-04-25T08:45:21.855000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.991413Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Lighting-Vanity",
+            "STS_NM": "Lighting-Vanity",
+            "UPDT_DTS": "2019-04-25T08:45:32.582000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:20.998692Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Lock-General",
+            "STS_NM": "Lock-General",
+            "UPDT_DTS": "2019-04-25T08:46:11.609000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.021234Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Door-Ving Lock",
+            "STS_NM": "Door-Ving Lock",
+            "UPDT_DTS": "2019-04-25T08:41:16.946000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.030811Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Mirror",
+            "STS_NM": "Mirror",
+            "UPDT_DTS": "2019-04-25T08:46:41.816000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.038658Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Oven",
+            "STS_NM": "Oven",
+            "UPDT_DTS": "2019-04-25T08:47:10.059000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.057113Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Shower",
+            "STS_NM": "Shower",
+            "UPDT_DTS": "2019-04-25T08:49:32.879000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.082416Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Sink",
+            "STS_NM": "Sink",
+            "UPDT_DTS": "2019-04-25T08:49:41.750000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.088777Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Smoke Detector",
+            "STS_NM": "Smoke Detector",
+            "UPDT_DTS": "2019-04-25T08:50:02.805000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.098690Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Sofa Bed",
+            "STS_NM": "Sofa Bed",
+            "UPDT_DTS": "2019-04-25T08:50:12.057000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.106885Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Table",
+            "STS_NM": "Table",
+            "UPDT_DTS": "2019-04-25T08:50:20.880000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.126779Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Towel Bar",
+            "STS_NM": "Towel Bar",
+            "UPDT_DTS": "2019-04-25T08:50:55.222000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.135515Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Dishwasher",
+            "STS_NM": "Dishwasher",
+            "UPDT_DTS": "2019-04-25T08:38:43.907000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.170056Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Key-Card Reader",
+            "STS_NM": "Key-Card Reader",
+            "UPDT_DTS": "2019-04-25T08:43:28.089000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.190339Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Refrigerator Unit",
+            "STS_NM": "Refrigerator Unit",
+            "UPDT_DTS": "2019-04-25T08:47:31.250000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.200855Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Wall/Surface",
+            "STS_NM": "Wall/Surface",
+            "UPDT_DTS": "2019-04-25T08:51:32.825000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.218592Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2018-07-23T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Bunk Bed",
+            "STS_NM": "Bunk Bed",
+            "UPDT_DTS": "2018-07-23T10:08:29.411000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.244864Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Light Switch",
+            "STS_NM": "Light Switch",
+            "UPDT_DTS": "2019-04-25T08:44:13.675000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.254419Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-24T10:22:31.089468Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 1,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 4,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-08-24T10:22:31.089000Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Valance/Shade/Curtain",
+            "STS_NM": "Valance/Shade/Curtain",
+            "UPDT_DTS": "2019-04-25T08:51:24.115000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.269939Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-11-10T16:00:35.103000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "test2621.use",
+            "DFLT_DY_CN": 1,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 1,
+            "RSRC_INVTRY_STS_END_DTS": "2009-11-23T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-11-10T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Sink",
+            "STS_NM": "Sink (Copy)",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.322016Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-11-13T10:10:02.236000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "NUNED009",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 0,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-11-13T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "HOUSEKEEPING",
+            "STS_DS": "Resort Manager Email",
+            "STS_NM": "Resort Manager Test",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.344368Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-11-13T10:09:02.791000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "NUNED009",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 2,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-11-13T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "HOUSEKEEPING",
+            "STS_DS": "HSKP Manager Email",
+            "STS_NM": "HSKP Manager Test",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.354558Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-11-19T16:58:30.372000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "DIPPM001",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 3,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-11-19T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "HOUSEKEEPING",
+            "STS_DS": "Clean as dueout",
+            "STS_NM": "Clean as Check Out",
+            "UPDT_DTS": "2010-04-23T08:35:49.340118Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.369972Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-11-19T16:59:19.108000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "DIPPM001",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 0,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-11-19T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "HOUSEKEEPING",
+            "STS_DS": "Clean as Occupied",
+            "STS_NM": "Clean as Occupied",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.378552Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-12-04T11:20:36.545000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "DIPPM001",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "JDO_SEQ_NB": 0,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2009-12-04T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "HOUSEKEEPING",
+            "STS_DS": "VIP Clean",
+            "STS_NM": "VIP Clean",
+            "UPDT_DTS": "2010-02-11T08:29:53.768519Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.404040Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-09-01T12:55:54.467000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "VAYIC001",
+            "DFLT_DY_CN": 0,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+            "JDO_SEQ_NB": 2,
+            "RSRC_INVTRY_STS_END_DTS": "2019-04-25T00:00:00Z",
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2015-09-01T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Low Occupancy",
+            "STS_NM": "Low Occupancy",
+            "UPDT_DTS": "2019-04-25T08:46:20.355000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.428251Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2018-03-28T10:37:35.660000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "ALFAJ005",
+            "DFLT_DY_CN": 1,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "OUT_OF_INVENTORY",
+            "JDO_SEQ_NB": 3,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2018-03-28T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Planned Rehab",
+            "STS_NM": "Planned Rehab",
+            "UPDT_DTS": "2018-05-29T11:03:39.459000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.436526Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2018-03-28T10:40:43.987000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "ALFAJ005",
+            "DFLT_DY_CN": 1,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "OUT_OF_INVENTORY",
+            "JDO_SEQ_NB": 5,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2018-03-28T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Unplanned Maintenance",
+            "STS_NM": "Unplanned Maintenance",
+            "UPDT_DTS": "2018-07-23T09:21:36.356000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.453572Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2021-06-18T08:48:28.613000Z",
+            "CREATE_SRVC_REQ_IN": "N",
+            "CREATE_USR_ID_CD": "ELGD001",
+            "DFLT_DY_CN": 1,
+            "DFLT_HR_CN": 0,
+            "INVTRY_REQ_TYP_NM": "OUT_OF_INVENTORY",
+            "JDO_SEQ_NB": 0,
+            "RSRC_INVTRY_STS_ID": 0,
+            "RSRC_INVTRY_STS_STRT_DTS": "2021-06-18T00:00:00Z",
+            "RSRC_INVTRY_STS_TYP_NM": "INVENTORY",
+            "STS_DS": "Housekeeping &amp; GM Approval",
+            "STS_NM": "Housekeeping & GM Approval",
+            "UPDT_DTS": "2021-06-18T08:48:28.613000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_invtry_sts",
+            "timestamp": "2023-07-26T01:12:21.537928Z"
+        }
+    }
+]

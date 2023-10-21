@@ -1,0 +1,202 @@
+version: 2
+
+models:
+  - name: sil__intermediate__dreams__rooms_fulfillment__tc_exprnc_enhnc_crtr_versioned
+    description: '{{ doc("sil__intermediate__dreams__rooms_fulfillment__tc_exprnc_enhnc_crtr_versioned") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_versioned
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_elig_crtr_nm
+            - metadata_checksum
+
+    columns:
+      - name: data_transact_commit_timestamp
+        description: "Transact Commit Timestamp | example: 2023-03-29T15:30:15Z"
+
+      - name: data_create_usr_id_cd
+        description: "The identification value for the user or application that created a row in this table. | example: WDPRO"
+
+      - name: data_create_dts
+        description: "The month day century year hour minute and second when a row was created in this table. | example: 2023-03-29T11:30:10.669000Z"
+
+      - name: data_updt_usr_id_cd
+        description: "The identification value for the user or application that updated this row in this table. | example: WDPRO"
+
+      - name: data_updt_dts
+        description: "The month day century year hour minute and second when a row in this table was updated. | example: 2023-03-29T11:30:10.669000Z"
+
+      - name: data_jdo_seq_nb
+        description: "A Java Data Object structure used to ensure that optimistic locking of rows in the database do not occur. | example: 1"
+
+      - name: data_tc_id
+        description: "System generated identification value. The unique identifier for a Travel Component. | example: 32097276021"
+
+      - name: data_elig_crtr_nm
+        description: "The name for a grouping of principles that govern qualifications and/or applicability | example: Experience Media"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_exprnc_enhnc_nm
+        description: "The name of the enhancement to the participation in an event or activity | example: Bypass Front Desk"
+
+      - name: data_exprnc_enhnc_crtr_vl
+        description: "The value that is the principle that governs the qualification and/or applicability on an enhancement to a Disney experience | example: Yes"
+
+      - name: data_tc_exprnc_enhnc_crtr_dts
+        description: "The date and time when a particular criterium for the enhancement of an experience has been met for a travel component. | example: 2023-04-03T14:22:55.173000Z"
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp for when the record was sent in the stream | example: 2023-03-29T15:30:19.109655Z"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "data | example: data"
+
+      - name: metadata_operation
+        description: ""
+
+      - name: metadata_partition_key_type
+        description: ""
+
+      - name: metadata_schema_name
+        description: "Name of the schema in snowflake | example: res_mgmt"
+
+      - name: metadata_table_name
+        description: "name of the table in snowflake | example: tc"
+
+      - name: metadata_transaction_id
+        description: "unique ID for the stream record | example: 70974432245344"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: metadata_version_start_datetime
+        description: "Version start datetime"
+        tests:
+          - not_null
+
+      - name: metadata_version_end_datetime
+        description: "Version end datetime"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

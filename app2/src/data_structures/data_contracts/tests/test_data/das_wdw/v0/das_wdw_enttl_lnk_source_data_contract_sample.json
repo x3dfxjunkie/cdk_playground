@@ -1,0 +1,1239 @@
+[
+    {
+        "data": {
+            "ENTTL_ID": 10001,
+            "LNK_ID": "B3D19259F6484D84871ED8BF2996CA65",
+            "ENTTL_LNK_STRT_DTS": "2015-03-17 14:49:05",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-17 14:49:05",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-17 14:49:05",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.340078",
+            "transaction-id": 45692351028639
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10021,
+            "LNK_ID": "B3D19259F6484D84871ED8BF2996CA65",
+            "ENTTL_LNK_STRT_DTS": "2015-03-17 17:26:49",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-17 17:26:49",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-17 17:26:49",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.340230",
+            "transaction-id": 67197928301977
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10022,
+            "LNK_ID": "045F3867E30D4EF78268E5ABE66BFFB5",
+            "ENTTL_LNK_STRT_DTS": "2015-03-17 17:43:34",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-17 17:43:34",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-17 17:43:34",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.340341",
+            "transaction-id": 22633393424307
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10041,
+            "LNK_ID": "77D949B075F94ED4B148ADEDC4BB4FAD",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 04:59:40",
+            "GWD_RL": "Y",
+            "UNDER3": "Y",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 04:59:40",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 04:59:40",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.340446",
+            "transaction-id": 55499984875514
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10061,
+            "LNK_ID": "77D949B075F94ED4B148ADEDC4BB4FAD",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 07:13:50",
+            "GWD_RL": "Y",
+            "UNDER3": "Y",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 07:13:50",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 07:13:50",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.340542",
+            "transaction-id": 43559529829619
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10082,
+            "LNK_ID": "A3CFC915238E4A87858798A416E50AFD",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 09:30:26",
+            "ENTTL_LNK_END_DTS": "2015-03-18 09:38:02",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 09:30:26",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 09:38:02",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.340636",
+            "transaction-id": 25030433393849
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10082,
+            "LNK_ID": "F68BDF04BC96408DBC3F6A44ADE6DB98",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 09:32:41",
+            "ENTTL_LNK_END_DTS": "2015-03-18 09:38:02",
+            "GWD_RL": "N",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 09:32:41",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 09:38:02",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.340726",
+            "transaction-id": 46855269157743
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10083,
+            "LNK_ID": "318829A5C8E34FD8867D4EEBEFCB55B0",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 09:37:18",
+            "ENTTL_LNK_END_DTS": "2015-03-18 10:47:17",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 09:37:18",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:47:17",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.340818",
+            "transaction-id": 89210376133951
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10084,
+            "LNK_ID": "1B76451DC60F43A09BEB24F40D901A9E",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 09:39:15",
+            "ENTTL_LNK_END_DTS": "2015-03-18 11:03:39",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 09:39:15",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:03:39",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.340909",
+            "transaction-id": 11490120821686
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10084,
+            "LNK_ID": "587A4B1A11DE469FB51205C10BD79B0F",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 09:43:31",
+            "ENTTL_LNK_END_DTS": "2015-03-18 11:03:39",
+            "GWD_RL": "N",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 09:43:31",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:03:39",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.341001",
+            "transaction-id": 71778356870157
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10085,
+            "LNK_ID": "A3CFC915238E4A87858798A416E50AFD",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 09:40:25",
+            "GWD_RL": "N",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 09:40:25",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 09:40:25",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.341091",
+            "transaction-id": 92259947164455
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10085,
+            "LNK_ID": "F68BDF04BC96408DBC3F6A44ADE6DB98",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 09:39:48",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 09:39:48",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 09:39:48",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.341167",
+            "transaction-id": 85201163591116
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10086,
+            "LNK_ID": "A3CF555704A44053A3D626AA1ED2F626",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 10:00:46",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:00:46",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:00:46",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.341240",
+            "transaction-id": 77229982212933
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10087,
+            "LNK_ID": "D999387EB4EE46E6B6CFC1D89F4DB2B6",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 10:16:58",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:16:58",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:16:58",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.341314",
+            "transaction-id": 38124130388300
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10088,
+            "LNK_ID": "1BBA9FC59DDF4828BBCE3B6E09475023",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 10:21:20",
+            "GWD_RL": "N",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:21:20",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:21:20",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.341388",
+            "transaction-id": 53480388795312
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10088,
+            "LNK_ID": "5748E35A2B5049FDBFBA93015397685A",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 10:20:47",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:20:47",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:20:47",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.341462",
+            "transaction-id": 34782635587588
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10088,
+            "LNK_ID": "8D9D74B2A83B4E7090067A9713AB3111",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 10:21:20",
+            "GWD_RL": "N",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:21:20",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:21:20",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.341536",
+            "transaction-id": 92078809955558
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10088,
+            "LNK_ID": "9ABBAC35CE0F430F8C8004DF650E8379",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 10:21:20",
+            "GWD_RL": "N",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:21:20",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:21:20",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.341609",
+            "transaction-id": 32965021518836
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10089,
+            "LNK_ID": "77E3F1B45A2041FDA6A34CED006DBDF7",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 10:22:08",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:22:08",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:22:08",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.341683",
+            "transaction-id": 65456132882197
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10089,
+            "LNK_ID": "9ABBAC35CE0F430F8C8004DF650E8379",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 11:31:08",
+            "GWD_RL": "N",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:31:08",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:31:08",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.341756",
+            "transaction-id": 77156857417085
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10090,
+            "LNK_ID": "1A20D94903214017815E994F23F9F889",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 10:42:40",
+            "ENTTL_LNK_END_DTS": "2015-03-18 10:46:59",
+            "GWD_RL": "N",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:42:40",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:46:59",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.341829",
+            "transaction-id": 55099220934556
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10090,
+            "LNK_ID": "FEA57B58CC09414087532D76733B4FDD",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 10:39:10",
+            "ENTTL_LNK_END_DTS": "2015-03-18 10:46:59",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:39:10",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:46:59",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.341902",
+            "transaction-id": 16148931313565
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10091,
+            "LNK_ID": "C8E2BAB5E1E340D8B83F9D8813D45592",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 10:48:40",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:48:40",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:48:40",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.341975",
+            "transaction-id": 20833736769021
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10092,
+            "LNK_ID": "FFE006E386BD40C486A3B13A6B423031",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 10:54:57",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:54:57",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:54:57",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.342048",
+            "transaction-id": 51601813262449
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10093,
+            "LNK_ID": "318829A5C8E34FD8867D4EEBEFCB55B0",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 10:56:06",
+            "ENTTL_LNK_END_DTS": "2015-03-18 11:02:23",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:56:06",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:02:23",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.342120",
+            "transaction-id": 68486195286676
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10093,
+            "LNK_ID": "587A4B1A11DE469FB51205C10BD79B0F",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 10:56:24",
+            "ENTTL_LNK_END_DTS": "2015-03-18 11:02:23",
+            "GWD_RL": "N",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:56:24",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:02:23",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.342194",
+            "transaction-id": 36276670312776
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10094,
+            "LNK_ID": "E186D47B06BF4D70818EAEC91C74D68A",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 11:01:39",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:01:39",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:01:39",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.342267",
+            "transaction-id": 77747692626891
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10095,
+            "LNK_ID": "52CEE462586A4EBC96F9CA5F04FAF149",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 11:01:53",
+            "ENTTL_LNK_END_DTS": "2015-03-18 11:20:01",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:01:53",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:20:01",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.342341",
+            "transaction-id": 50931816229019
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10095,
+            "LNK_ID": "70872E541A74449D83035B4257D1E599",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 11:02:48",
+            "ENTTL_LNK_END_DTS": "2015-03-18 11:20:01",
+            "GWD_RL": "N",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:02:48",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:20:01",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.342413",
+            "transaction-id": 36069144134645
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10095,
+            "LNK_ID": "802F3239FEFB49E1BF232A5D2C2334F8",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 11:02:48",
+            "ENTTL_LNK_END_DTS": "2015-03-18 11:20:01",
+            "GWD_RL": "N",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:02:48",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:20:01",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.342487",
+            "transaction-id": 51391480764420
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10095,
+            "LNK_ID": "BE53F7CA57BB40269C4C9A9C5CC81A39",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 11:02:48",
+            "ENTTL_LNK_END_DTS": "2015-03-18 11:20:01",
+            "GWD_RL": "N",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:02:48",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:20:01",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.342562",
+            "transaction-id": 20029716892895
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10096,
+            "LNK_ID": "318829A5C8E34FD8867D4EEBEFCB55B0",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 11:04:18",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:04:18",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:04:18",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.342637",
+            "transaction-id": 26954237128763
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10096,
+            "LNK_ID": "587A4B1A11DE469FB51205C10BD79B0F",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 11:04:36",
+            "GWD_RL": "N",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:04:36",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:04:36",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.342710",
+            "transaction-id": 68636049971114
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10097,
+            "LNK_ID": "FEA57B58CC09414087532D76733B4FDD",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 11:15:24",
+            "GWD_RL": "Y",
+            "UNDER3": "Y",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:15:24",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:15:24",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.342785",
+            "transaction-id": 98320767381188
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10098,
+            "LNK_ID": "52CEE462586A4EBC96F9CA5F04FAF149",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 11:20:36",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:20:36",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:20:36",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.342865",
+            "transaction-id": 50128142575572
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10099,
+            "LNK_ID": "1B76451DC60F43A09BEB24F40D901A9E",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 11:20:58",
+            "GWD_RL": "Y",
+            "UNDER3": "Y",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:20:58",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:20:58",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.342940",
+            "transaction-id": 28796178929905
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10099,
+            "LNK_ID": "1DACA336EDB94182BE2A3769558AF6E6",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 11:21:27",
+            "GWD_RL": "N",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:21:27",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:21:27",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.343013",
+            "transaction-id": 31052415915153
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10099,
+            "LNK_ID": "F704F4FD98FB4777892713FBF58BF402",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 11:21:27",
+            "GWD_RL": "N",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:21:27",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:21:27",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.343086",
+            "transaction-id": 36403448688688
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10100,
+            "LNK_ID": "1A20D94903214017815E994F23F9F889",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 11:46:57",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:46:57",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:46:57",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.343158",
+            "transaction-id": 11646638893998
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10100,
+            "LNK_ID": "FEA57B58CC09414087532D76733B4FDD",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 11:48:24",
+            "GWD_RL": "N",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:48:24",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:48:24",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.343231",
+            "transaction-id": 80724011895405
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10101,
+            "LNK_ID": "045F3867E30D4EF78268E5ABE66BFFB5",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 12:10:01",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 12:10:01",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 12:10:01",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.343305",
+            "transaction-id": 29846075001807
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10121,
+            "LNK_ID": "B3D19259F6484D84871ED8BF2996CA65",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 13:15:47",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 13:15:47",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 13:15:47",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.343378",
+            "transaction-id": 76236048074593
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10122,
+            "LNK_ID": "38CD623C6E9C4CA3AFAED59FCA8D0AC2",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 13:42:54",
+            "ENTTL_LNK_END_DTS": "2015-03-18 14:00:30",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 13:42:54",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 14:00:30",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.343455",
+            "transaction-id": 89040697159005
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10141,
+            "LNK_ID": "38CD623C6E9C4CA3AFAED59FCA8D0AC2",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 14:02:35",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 14:02:35",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 14:02:35",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.343529",
+            "transaction-id": 44396497234748
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10161,
+            "LNK_ID": "B3D19259F6484D84871ED8BF2996CA65",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 20:46:54",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 20:46:54",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 20:46:54",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.343603",
+            "transaction-id": 25601317939024
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10181,
+            "LNK_ID": "9A68D14225664DE8BAAA9A9DED0ECFEA",
+            "ENTTL_LNK_STRT_DTS": "2015-03-19 03:14:36",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 03:14:36",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 03:14:36",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.343677",
+            "transaction-id": 98211429033624
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10201,
+            "LNK_ID": "6A8A08B120984FDFB2AFE16BD93691FB",
+            "ENTTL_LNK_STRT_DTS": "2015-03-19 05:12:20",
+            "GWD_RL": "N",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 05:12:20",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 05:12:20",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.343750",
+            "transaction-id": 73346680712174
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10201,
+            "LNK_ID": "F68BDF04BC96408DBC3F6A44ADE6DB98",
+            "ENTTL_LNK_STRT_DTS": "2015-03-19 05:10:59",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 05:10:59",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 05:10:59",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.343824",
+            "transaction-id": 52250639231328
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10221,
+            "LNK_ID": "9A68D14225664DE8BAAA9A9DED0ECFEA",
+            "ENTTL_LNK_STRT_DTS": "2015-03-19 06:15:51",
+            "GWD_RL": "N",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "N",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 06:15:51",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 06:15:51",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.343897",
+            "transaction-id": 12886434349916
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10221,
+            "LNK_ID": "CADDC4702D7C45E48F4D92DB7A232DE9",
+            "ENTTL_LNK_STRT_DTS": "2015-03-19 06:09:58",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 06:09:58",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 06:09:58",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.343976",
+            "transaction-id": 74126377871319
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10100,
+            "LNK_ID": "1A20D94903214017815E994F23F9F889",
+            "ENTTL_LNK_STRT_DTS": "2015-03-18 11:46:57",
+            "GWD_RL": "Y",
+            "UNDER3": "N",
+            "HS_OPT_OUT": "Y",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:46:57",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:46:57",
+            "LGCL_DEL_IN": "N"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl_lnk",
+            "timestamp": "2023-07-14 11:46:49.343158"
+        }
+    }
+]

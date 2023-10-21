@@ -1,0 +1,94 @@
+[
+    {
+        "data": {
+            "lnk_arch_exprnc_band_id": 9013,
+            "EXPRNC_BAND_ID": 3811,
+            "ARCH_CREATE_DTS": "1987-07-10 06:44:26",
+            "CURR_EXPRNC_BAND_LNK_ID": 4335,
+            "ORIG_EXPRNC_BAND_LNK_ID": 8823
+        },
+        "metadata": {
+            "timestamp": "1984-05-24 20:37:47",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "XBANDMD",
+            "table-name": "LNK_ARCH_EXPRNC_BAND",
+            "transaction-id": 9594,
+            "transaction_record_id": 70974432245344,
+            "prev_transaction_id": 70974432245344,
+            "prev_transaction_record_id": 70974432245344,
+            "commit_timestamp": "2023-03-29T15:30:19.109655Z",
+            "stream_position": ""
+        }
+    },
+    {
+        "data": {
+            "lnk_arch_exprnc_band_id": 6585,
+            "EXPRNC_BAND_ID": 3564,
+            "ARCH_CREATE_DTS": "1996-07-13 12:49:58",
+            "CURR_EXPRNC_BAND_LNK_ID": 8148,
+            "ORIG_EXPRNC_BAND_LNK_ID": 5062
+        },
+        "metadata": {
+            "timestamp": "1990-12-07 16:40:31",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "XBANDMD",
+            "table-name": "LNK_ARCH_EXPRNC_BAND",
+            "transaction-id": 5509
+        }
+    },
+    {
+        "data": {
+            "lnk_arch_exprnc_band_id": 2749,
+            "EXPRNC_BAND_ID": 6279,
+            "ARCH_CREATE_DTS": "1976-09-25 11:08:23",
+            "CURR_EXPRNC_BAND_LNK_ID": 9780,
+            "ORIG_EXPRNC_BAND_LNK_ID": 3636
+        },
+        "metadata": {
+            "timestamp": "2014-04-04 07:35:47",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "XBANDMD",
+            "table-name": "LNK_ARCH_EXPRNC_BAND",
+            "transaction-id": 7819
+        }
+    },
+    {
+        "data": {
+            "lnk_arch_exprnc_band_id": 8166,
+            "EXPRNC_BAND_ID": 3103,
+            "ARCH_CREATE_DTS": "1979-04-03 15:39:24",
+            "CURR_EXPRNC_BAND_LNK_ID": 463,
+            "ORIG_EXPRNC_BAND_LNK_ID": 973
+        },
+        "metadata": {
+            "timestamp": "1970-08-22 14:25:02",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "XBANDMD",
+            "table-name": "LNK_ARCH_EXPRNC_BAND",
+            "transaction-id": 8686
+        }
+    },
+    {
+        "data": {
+            "lnk_arch_exprnc_band_id": 212,
+            "EXPRNC_BAND_ID": 5358,
+            "ARCH_CREATE_DTS": "2019-05-01 09:30:05"
+        },
+        "metadata": {
+            "timestamp": "1983-05-26 22:38:23",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "XBANDMD",
+            "table-name": "LNK_ARCH_EXPRNC_BAND"
+        }
+    }
+]

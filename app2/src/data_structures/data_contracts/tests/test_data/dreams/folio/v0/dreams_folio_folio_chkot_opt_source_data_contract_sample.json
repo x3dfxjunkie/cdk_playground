@@ -1,0 +1,161 @@
+[
+    {
+        "data": {
+            "FOLIO_CHKOT_OPT_ID": 76466929,
+            "CHRG_GRP_FOLIO_ID": 276655250,
+            "CHKOT_OPT_TYP_NM": "EMAIL",
+            "CREATE_USR_ID_CD": "MOUSM001",
+            "CREATE_DTS": "2023-06-10T16:24:32.285000Z",
+            "transact_commit_timestamp": "2023-06-10T20:24:58Z",
+            "transact_seq": "20230610202458000000000000068083049"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T06:08:07.610772Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_CHKOT_OPT",
+            "transaction-id": 1703976
+        }
+    },
+    {
+        "data": {
+            "FOLIO_CHKOT_OPT_ID": 76466930,
+            "CHRG_GRP_FOLIO_ID": 276655250,
+            "CHKOT_OPT_TYP_NM": "EXPRESS_CHECK_OUT",
+            "CREATE_USR_ID_CD": "MOUSM001",
+            "CREATE_DTS": "2023-06-10T16:24:32.285000Z",
+            "transact_commit_timestamp": "2023-06-10T20:24:58Z",
+            "transact_seq": "20230610202458000000000000068083053"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T06:08:07.618490Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_CHKOT_OPT",
+            "transaction-id": 1703976
+        }
+    },
+    {
+        "data": {
+            "FOLIO_CHKOT_OPT_ID": 76466883,
+            "CHRG_GRP_FOLIO_ID": 234373799,
+            "CHKOT_OPT_TYP_NM": "EMAIL",
+            "TXN_PTY_LCTR_ID": 908671452,
+            "CREATE_USR_ID_CD": "WDW-MDX-IOS-",
+            "CREATE_DTS": "2023-06-10T16:25:02.473000Z",
+            "transact_commit_timestamp": "2023-06-10T20:25:04Z",
+            "transact_seq": "20230610202504000000000000068086317"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T06:08:14.465864Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_CHKOT_OPT",
+            "transaction-id": 131125
+        }
+    },
+    {
+        "data": {
+            "FOLIO_CHKOT_OPT_ID": 76466884,
+            "CHRG_GRP_FOLIO_ID": 234373799,
+            "CHKOT_OPT_TYP_NM": "EXPRESS_CHECK_OUT",
+            "CREATE_USR_ID_CD": "WDW-MDX-IOS-",
+            "CREATE_DTS": "2023-06-10T16:25:02.473000Z",
+            "transact_commit_timestamp": "2023-06-10T20:25:04Z",
+            "transact_seq": "20230610202504000000000000068086321"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T06:08:14.474165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_CHKOT_OPT",
+            "transaction-id": 131125
+        }
+    },
+    {
+        "data": {
+            "FOLIO_CHKOT_OPT_ID": 76465203,
+            "CHRG_GRP_FOLIO_ID": 274935919,
+            "CHKOT_OPT_TYP_NM": "EMAIL",
+            "CREATE_USR_ID_CD": "MOUSM001",
+            "CREATE_DTS": "2023-06-10T15:16:16.461000Z",
+            "transact_commit_timestamp": "2023-06-10T20:25:05Z",
+            "transact_seq": "20230610202505000000000000068086405"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T06:08:14.603210Z",
+            "record-type": "data",
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_CHKOT_OPT",
+            "transaction-id": 1376263
+        }
+    },
+    {
+        "data": {
+            "FOLIO_CHKOT_OPT_ID": 76465204,
+            "CHRG_GRP_FOLIO_ID": 274935919,
+            "CHKOT_OPT_TYP_NM": "EXPRESS_CHECK_OUT",
+            "CREATE_USR_ID_CD": "MOUSM001",
+            "CREATE_DTS": "2023-06-10T15:16:16.461000Z",
+            "transact_seq": "20230610202505000000000000068086409"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T06:08:14.611629Z",
+            "record-type": "data",
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_CHKOT_OPT",
+            "transaction-id": 1376263
+        }
+    },
+    {
+        "data": {
+            "FOLIO_CHKOT_OPT_ID": 76466931,
+            "CHRG_GRP_FOLIO_ID": 274935919,
+            "CHKOT_OPT_TYP_NM": "EXPRESS_CHECK_OUT",
+            "CREATE_USR_ID_CD": "MOUSM001",
+            "CREATE_DTS": "2023-06-10T16:25:04.995000Z",
+            "transact_commit_timestamp": "2023-06-10T20:25:05Z"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T06:08:14.619338Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_CHKOT_OPT",
+            "transaction-id": 1376263
+        }
+    },
+    {
+        "data": {
+            "FOLIO_CHKOT_OPT_ID": 76466932,
+            "CHRG_GRP_FOLIO_ID": 274935919,
+            "CHKOT_OPT_TYP_NM": "EMAIL",
+            "TXN_PTY_LCTR_ID": 908667707,
+            "CREATE_USR_ID_CD": "MOUSM001",
+            "CREATE_DTS": "2023-06-10T16:25:04.995000Z",
+            "transact_commit_timestamp": "2023-06-10T20:25:05Z",
+            "transact_seq": "20230610202505000000000000068086417"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T06:08:14.627147Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_CHKOT_OPT"
+        }
+    }
+]

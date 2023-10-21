@@ -1,0 +1,122 @@
+[
+    {
+        "data": {
+            "PKG_TC_ID": 2086473630,
+            "RSR_IN": "N",
+            "RM_ONLY_PKG_IN": "Y",
+            "WHLS_PKG_IN": "N",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-04-11T11:12:50.840000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-03T17:13:39.715000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": null,
+            "transact_seq": "20230603211345000000000002089921317"
+        },
+        "metadata": {
+            "timestamp": "2023-06-03T21:13:48.725107Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "pkg_tc",
+            "transaction-id": null
+        }
+    },
+    {
+        "data": {
+            "PKG_TC_ID": 12091799035,
+            "RSR_IN": "N",
+            "RM_ONLY_PKG_IN": "Y",
+            "WHLS_PKG_IN": "N",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-03T17:13:38.866000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-03T17:13:38.866000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-03T21:13:45Z",
+            "transact_seq": "20230603211345000000000002089921413"
+        },
+        "metadata": {
+            "timestamp": "2023-06-03T21:13:48.896116Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "pkg_tc",
+            "transaction-id": 73061778862862
+        }
+    },
+    {
+        "data": {
+            "PKG_TC_ID": 12091807625,
+            "RSR_IN": "N",
+            "RM_ONLY_PKG_IN": "N",
+            "WHLS_PKG_IN": "Y",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-03T17:13:42.443000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-03T17:13:42.443000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-03T21:13:50Z",
+            "transact_seq": "20230603211350000000000002089921865"
+        },
+        "metadata": {
+            "timestamp": "2023-06-03T21:13:52.867097Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "pkg_tc",
+            "transaction-id": 73061778931541
+        }
+    },
+    {
+        "data": {
+            "PKG_TC_ID": 12091807133,
+            "RSR_IN": "N",
+            "RM_ONLY_PKG_IN": "Y",
+            "WHLS_PKG_IN": "N",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-03T17:13:52Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-03T17:13:52Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-03T21:14:00Z",
+            "transact_seq": "20230603211400000000000002089923213"
+        },
+        "metadata": {
+            "timestamp": "2023-06-03T21:14:02.840094Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "pkg_tc",
+            "transaction-id": 73061779010095
+        }
+    },
+    {
+        "data": {
+            "PKG_TC_ID": 12091807635,
+            "RSR_IN": "N",
+            "RM_ONLY_PKG_IN": "N",
+            "WHLS_PKG_IN": "Y",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-03T17:13:54.682000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-03T17:13:54.682000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-03T21:14:00Z",
+            "transact_seq": "20230603211400000000000002089924213"
+        },
+        "metadata": {
+            "timestamp": "2023-06-03T21:14:04.544150Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "pkg_tc",
+            "transaction-id": 73061779010095
+        }
+    }
+]

@@ -1,0 +1,47 @@
+scenario:
+  name: OrionEADefaultScenario
+  description: OrionEA Default Test Scenario
+input:
+  endpoint:
+    type: kinesis
+    stream_name: guest360-load-testing-test-stream
+    region: us-east-1
+  data:
+    schema: path/to/dataclass/schema
+    schema_name: orion_ea
+    active_injection: false
+    samples:
+      source: local
+      local_path: data_mocker/samples
+metrics:
+  namespace_name: locust-load-tests  
+  cw_log_group_name: locust-load-tests-logs
+  dimensions:
+    - name: Source
+      value: Orion_EA_nv
+    - name: Target
+      value: Kinesis_nv  
+evaluation:
+  metrics:
+  - label: DataMockerRecords
+    metric_name: DataMockerRecords
+    statistic: SUM
+  - label: PutRecordsSuccess
+    metric_name: KinesisPutRecordsSuccess
+    statistic: SUM
+  - label: PutLatency
+    metric_name: KinesisPutLatency
+    statistic: p99
+  tests:
+  - name: success_factor
+    condition: B/A > 0.99
+  - name: records_posted
+    condition: C < 100
+phases:
+- name: normal
+  duration_minutes: 60
+  arrival_rate: 5000
+- name: peak
+  duration_minutes: 30
+  arrival_rate: 50000
+

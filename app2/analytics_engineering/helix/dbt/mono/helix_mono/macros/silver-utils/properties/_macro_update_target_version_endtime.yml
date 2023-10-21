@@ -1,0 +1,21 @@
+version: 2
+
+macros:
+  - name: macro_update_target_version_endtime
+    description: Update metadata_version_end_datetime in the target table for the active record (for a given primary key) with the metadata_timestamp.
+    docs:
+      show: true
+    arguments:
+      - name: field_list
+        type: string
+        description: Name of the cleansed table.
+      - name: join_column
+        type: string
+        description: Column used for joining the source & the target tables.
+      - name: timestamp_column
+        type: string
+        description: The name of the timestamp column.
+#    returns:
+#      - name: <field_name>
+#        type: <string>
+#        description: <description of the field>

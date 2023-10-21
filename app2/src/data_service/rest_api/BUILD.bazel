@@ -1,0 +1,34 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+library_name = "rest_api"
+
+py_lambda_library(
+    name = library_name,
+    srcs = glob([library_name + "/*.py"]),
+    data = [
+        "__init__.py",
+        "//app/src/data_service",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        "//app/src/data_structures/identity",
+        "//app/src/data_structures/object_lookup",
+    ],
+)
+
+pytest_test(
+    name = library_name + "_libraries",
+    srcs = glob([
+        "tests/**/*.py",
+        "tests/*.py",
+    ]),
+    deps = [
+        "//app/src/data_service/" + library_name,
+        requirement("pyyaml"),
+        requirement("moto"),
+        requirement("mock"),
+        requirement("boto3"),
+    ],
+)

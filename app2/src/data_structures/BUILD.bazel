@@ -1,0 +1,35 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+py_lambda_library(
+    name = "data_structures",
+    data = [
+        "__init__.py",
+        "//app/src:missing_init_files",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("boto3"),
+        requirement("dataclasses-json"),
+    ],
+)
+
+#using pytest
+pytest_test(
+    name = "test_data_structures",
+    srcs = glob([
+        "tests/*.py",
+    ]),
+    visibility = ["//visibility:public"],
+    deps = [
+        "//app/src/data_structures/events",
+        "//app/src/data_structures/identity",
+        "//app/src/data_structures/object_lookup",
+        "//app/src/data_structures/profiles",
+        "//app/src/data_structures/tests/utils",
+        requirement("moto"),
+        requirement("boto3"),
+        requirement("marshmallow-jsonschema"),
+    ],
+)

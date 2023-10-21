@@ -1,0 +1,474 @@
+[
+    {
+        "action": "CREATE",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 2132170758468,
+            "invitationType": "managedGuest",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "swid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Pending"
+        },
+        "issuedDateTime": "2023-09-06T16:10:49.742971099Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "REMOVE",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 967133290250096,
+            "invitationType": "convert",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "swid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "relationshipClassification": "friend",
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Revoked"
+        },
+        "issuedDateTime": "2023-09-06T16:09:06.374171883Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "REMOVE",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 493519812037042,
+            "invitationType": "convert",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "swid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "relationshipClassification": "friend",
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Revoked"
+        },
+        "issuedDateTime": "2023-09-06T16:09:30.379186663Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "CREATE",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 472362305568811,
+            "invitationType": "convert",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "swid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Pending"
+        },
+        "issuedDateTime": "2023-09-13T16:14:26.165524074Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "CREATE",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 370390222797816,
+            "invitationType": "convert",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "swid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Pending"
+        },
+        "issuedDateTime": "2023-09-06T15:25:09.436345272Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "REMOVE",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 815134758771826,
+            "invitationType": "convert",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "swid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "relationshipClassification": "friend",
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Revoked"
+        },
+        "issuedDateTime": "2023-09-11T19:09:24.221770671Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "MODIFY",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 210522080080052,
+            "invitationType": "convert",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "swid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "relationshipClassification": "friend",
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Pending"
+        },
+        "issuedDateTime": "2023-09-08T17:33:38.174331940Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "REMOVE",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 974946241915766,
+            "invitationType": "convert",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "swid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "relationshipClassification": "friend",
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Revoked"
+        },
+        "issuedDateTime": "2023-09-08T18:32:20.361164228Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "REMOVE",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 676966953399008,
+            "invitationType": "convert",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "relationshipClassification": "friendsManaged",
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Revoked"
+        },
+        "issuedDateTime": "2023-09-08T18:32:31.674286077Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "REMOVE",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 550170266781599,
+            "invitationType": "managedGuest",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "swid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "relationshipClassification": "friend",
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Revoked"
+        },
+        "issuedDateTime": "2023-09-08T18:32:36.596130248Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "MODIFY",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 919938805340327,
+            "invitationType": "managedGuest",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "swid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "relationshipClassification": "friend",
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Accepted"
+        },
+        "issuedDateTime": "2023-09-08T20:30:10.905909492Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "MODIFY",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 386376555097943,
+            "invitationType": "managedGuest",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "swid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "relationshipClassification": "friend",
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Accepted"
+        },
+        "issuedDateTime": "2023-09-08T20:30:13.920086177Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "MODIFY",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 359860708852007,
+            "invitationType": "managedGuest",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "swid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "relationshipClassification": "friend",
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Accepted"
+        },
+        "issuedDateTime": "2023-09-08T20:30:12.508143831Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "MODIFY",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 722099154095087,
+            "invitationType": "convert",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "swid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "relationshipClassification": "friend",
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Accepted"
+        },
+        "issuedDateTime": "2023-09-08T20:30:18.293252296Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "CREATE",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "FRIENDS",
+            "groupClassificationDescription": "Friends",
+            "id": 805181406547979,
+            "invitationType": "convert",
+            "issuedBy": {
+                "guestIdType": "swid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Pending"
+        },
+        "issuedDateTime": "2023-09-13T16:57:22.685192189Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "CREATE",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 405399219626500,
+            "invitationType": "managedGuest",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "swid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Pending"
+        },
+        "issuedDateTime": "2023-09-11T14:35:19.419942523Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "CREATE",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 131822433625267,
+            "invitationType": "managedGuest",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "swid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Pending"
+        },
+        "issuedDateTime": "2023-09-11T14:35:19.407986189Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "CREATE",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 135180373979019,
+            "invitationType": "convert",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Pending"
+        },
+        "issuedDateTime": "2023-09-06T17:48:32.586274006Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "MODIFY",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 622223674406790,
+            "invitationType": "convert",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "swid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "relationshipClassification": "friend",
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Pending"
+        },
+        "issuedDateTime": "2023-09-06T18:47:09.314612643Z",
+        "type": "Invitation"
+    },
+    {
+        "action": "CREATE",
+        "invitation": {
+            "accessClassificationCode": "PLAN_VIEW_ALL",
+            "accessClassificationDescription": "Plan and View All",
+            "groupClassificationCode": "TRAVELLING_PARTY",
+            "groupClassificationDescription": "Travelling Party",
+            "id": 863777906139298,
+            "invitationType": "convert",
+            "issuedBy": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "issuedTo": {
+                "guestIdType": "guid",
+                "guestIdValue": "9test999-99t9-9t99-99t9-99999tt99tt9"
+            },
+            "senderSwid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "status": "Pending"
+        },
+        "issuedDateTime": "2023-09-06T15:39:51.868005066Z",
+        "type": "Invitation"
+    }
+]

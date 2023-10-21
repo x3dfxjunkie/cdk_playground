@@ -1,0 +1,319 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_sales_reservations__booking_trade_client_current
+    description: "{{ doc('sil__hotel_lodging__room_sales_reservations__booking_trade_client_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_sales_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: trade_client_id
+        description: ""
+
+      - name: trade_client_remit_commission_headoffice
+        description: ""
+
+      - name: trade_client_division
+        description: ""
+
+      - name: trade_client_town
+        description: ""
+
+      - name: trade_client_multiple
+        description: ""
+
+      - name: trade_client_promotion
+        description: ""
+
+      - name: trade_client_web
+        description: ""
+
+      - name: trade_client_agreement_status
+        description: ""
+
+      - name: trade_client_commission_from_headoffice
+        description: ""
+
+      - name: trade_client_commission_group
+        description: ""
+
+      - name: trade_client_net_rate
+        description: ""
+
+      - name: trade_client_rating
+        description: ""
+
+      - name: trade_client_deposit_scheme
+        description: ""
+
+      - name: trade_client_company_registration_number
+        description: ""
+
+      - name: trade_client_issue_invoice
+        description: ""
+
+      - name: trade_client_collect_from_client
+        description: ""
+
+      - name: trade_client_issue_itinerary
+        description: ""
+
+      - name: trade_client_issue_voucher
+        description: ""
+
+      - name: trade_client_show_commission
+        description: ""
+
+      - name: trade_client_general_sales_agent_number
+        description: ""
+
+      - name: trade_client_general_sales_agent_join_date
+        description: ""
+
+      - name: trade_client_self_billing
+        description: ""
+
+      - name: trade_client_cancellation_scheme
+        description: ""
+
+      - name: trade_client_option_scheme
+        description: ""
+
+      - name: trade_client_booking_reference_type
+        description: ""
+
+      - name: trade_client_booking_reference_compulsary
+        description: ""
+
+      - name: trade_client_search_in_call_center
+        description: ""
+
+      - name: trade_client_logo
+        description: ""
+
+      - name: trade_client_credit_limit_headoffice
+        description: ""
+
+      - name: trade_client_wholesale_remittance_advice_agents
+        description: ""
+
+      - name: trade_client_general_sales_agent_client
+        description: ""
+
+      - name: trade_client_payment_group
+        description: ""
+
+      - name: payment_group_name
+        description: ""
+
+      - name: trade_client_tax_registration_number
+        description: ""
+
+      - name: trade_client_area
+        description: ""
+
+      - name: trade_client_language_code
+        description: ""
+
+      - name: trade_client_payment_method
+        description: ""
+
+      - name: trade_client_credit_agent_id
+        description: ""
+
+      - name: trade_client_include_tax_on_commission
+        description: ""
+
+      - name: trade_client_sales_allowed
+        description: ""
+
+      - name: trade_client_documents_allowed
+        description: ""
+
+      - name: trade_client_exclude_partner_emailing
+        description: ""
+
+      - name: trade_client_type
+        description: ""
+
+      - name: trade_client_type_id
+        description: ""
+
+      - name: trade_client_type_name
+        description: ""
+
+      - name: trade_client_accept_edocs
+        description: ""
+
+      - name: trade_client_accept_ebook_details
+        description: ""
+
+      - name: trade_client_atol_cert_not_required
+        description: ""
+
+      - name: trade_client_atol_name
+        description: ""
+
+      - name: trade_client_mail_method
+        description: ""
+
+      - name: trade_client_level
+        description: ""
+
+      - name: trade_client_last_modified_time
+        description: ""
+
+      - name: client_type
+        description: ""
+
+      - name: client_reference
+        description: ""
+
+      - name: client_name
+        description: ""
+
+      - name: client_status
+        description: ""
+
+      - name: client_media
+        description: ""
+
+      - name: client_registered_date
+        description: ""
+
+      - name: client_group
+        description: ""
+
+      - name: client_group_name
+        description: ""
+
+      - name: client_entered_on
+        description: ""
+
+      - name: client_modified_on
+        description: ""
+
+      - name: client_registered_channel
+        description: ""
+
+      - name: distribution_channel_name
+        description: ""
+
+      - name: client_modified_by
+        description: ""
+
+      - name: client_entered_by
+        description: ""
+
+      - name: client_primary_sales_agent
+        description: ""
+
+      - name: client_status_message
+        description: ""
+
+      - name: client_tax_exempt
+        description: ""
+
+      - name: client_tax_override
+        description: ""
+
+      - name: client_grade_id
+        description: ""
+
+      - name: client_dealing_company
+        description: ""
+
+      - name: client_dealing_division
+        description: ""
+
+      - name: client_currency
+        description: ""
+
+      - name: client_active
+        description: ""
+
+      - name: client_dealing_brand
+        description: ""
+
+      - name: client_locale
+        description: ""
+
+      - name: address_number
+        description: ""
+
+      - name: address_title
+        description: ""
+
+      - name: address_first_name
+        description: ""
+
+      - name: address_middle_name
+        description: ""
+
+      - name: address_last_name
+        description: ""
+
+      - name: address_department
+        description: ""
+
+      - name: address_designation
+        description: ""
+
+      - name: address_street
+        description: ""
+
+      - name: address_city
+        description: ""
+
+      - name: address_county
+        description: ""
+
+      - name: address_post_code
+        description: ""
+
+      - name: address_country
+        description: ""
+
+      - name: address_contact_type
+        description: ""
+
+      - name: address_main
+        description: ""
+
+      - name: address_middle_name
+        description: ""
+
+      - name: address_contact_category
+        description: ""
+
+      - name: commission_group_name
+        description: ""
+
+      - name: commission_group_sales_priority
+        description: ""
+
+      - name: commission_group_currency
+        description: ""
+
+      - name: commission_group_applicable_date_type
+        description: ""
+
+      - name: commission_group_applicable_product
+        description: ""
+
+      - name: commission_group_applicable_limit_booking
+        description: ""
+
+      - name: commission_group_external_reference
+        description: ""
+
+      - name: commission_group_priority
+        description: ""

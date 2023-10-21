@@ -1,0 +1,37 @@
+sns_snow_settings:
+    chatbot_topic: &cbt 'f"{self._prefix}-alarm-notifications"'
+    local:
+        p2: "wdpr-guest360-dev-snow-pri4"
+        p3: "wdpr-guest360-dev-snow-pri4"
+        default_topic: *cbt
+        chatbot_topic: *cbt
+        snow_assignment_group: "app-global-Guest360"
+        snow_configuration_items: "WDPR Guest360 - AWS Latest"
+    latest:
+        p2: "wdpr-guest360-dev-snow-pri4"
+        p3: "wdpr-guest360-dev-snow-pri4"
+        default_topic: *cbt
+        chatbot_topic: *cbt
+        snow_assignment_group: "app-global-Guest360"
+        snow_configuration_items: "WDPR Guest360 - AWS Latest"
+    load:
+        p2: "wdpr-guest360-tst-snow-pri4"
+        p3: "wdpr-guest360-tst-snow-pri4"
+        default_topic: *cbt
+        chatbot_topic: *cbt
+        snow_assignment_group: "app-global-Guest360"
+        snow_configuration_items: "WDPR Guest360 - AWS Load Test"
+    stage:
+        p2: "wdpr-guest360-tst-snow-pri4"
+        p3: "wdpr-guest360-tst-snow-pri4"
+        default_topic: *cbt
+        chatbot_topic: *cbt
+        snow_assignment_group: "app-global-Guest360"
+        snow_configuration_items: "WDPR Guest360 - AWS Staging"
+    prod:
+        p2: "wdpr-guest360-prd-snow-pri2"
+        p3: "wdpr-guest360-prd-snow-pri3"
+        default_topic: *cbt
+        chatbot_topic: *cbt
+        snow_assignment_group: "app-global-Guest360"
+        snow_configuration_items: "WDPR Guest360 - AWS Production"

@@ -1,0 +1,13 @@
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+py_lambda_library(
+    name = "kinesis2kinesis",
+    srcs = glob(["*.py"]),
+    data = [
+        "__init__.py",
+        "//app/src/ingestion",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+    ],
+)

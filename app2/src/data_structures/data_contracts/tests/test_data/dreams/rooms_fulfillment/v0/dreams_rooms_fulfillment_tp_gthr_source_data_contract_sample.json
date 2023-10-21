@@ -1,0 +1,122 @@
+[
+    {
+        "data": {
+            "TP_ID": 753166302218,
+            "GTHR_CD": "TW16727512",
+            "GTHR_TYP_NM": "TW",
+            "GTHR_NM": "Magical",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-16T20:00:04.531000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-16T20:00:04.531000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": null,
+            "transact_seq": "20230617000008000000000002323232297"
+        },
+        "metadata": {
+            "timestamp": "2023-06-17T00:00:11.476593Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tp_gthr",
+            "transaction-id": null
+        }
+    },
+    {
+        "data": {
+            "TP_ID": 753166302176,
+            "GTHR_CD": "TW16727512",
+            "GTHR_TYP_NM": "TW",
+            "GTHR_NM": "Magical",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-16T20:00:04.642000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-16T20:00:04.642000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-17T00:00:08Z",
+            "transact_seq": "20230617000008000000000002323232513"
+        },
+        "metadata": {
+            "timestamp": "2023-06-17T00:00:11.718575Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tp_gthr",
+            "transaction-id": 73538467874114
+        }
+    },
+    {
+        "data": {
+            "TP_ID": 753167337504,
+            "GTHR_CD": "TW16717334",
+            "GTHR_TYP_NM": "TW",
+            "GTHR_NM": "Magical",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-16T20:00:24.078000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-16T20:00:24.078000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-17T00:00:29Z",
+            "transact_seq": "20230617000029000000000002323236185"
+        },
+        "metadata": {
+            "timestamp": "2023-06-17T00:00:32.255438Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tp_gthr",
+            "transaction-id": 73538468082297
+        }
+    },
+    {
+        "data": {
+            "TP_ID": 753167337959,
+            "GTHR_CD": "TW16717334",
+            "GTHR_TYP_NM": "TW",
+            "GTHR_NM": "Magical",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-16T20:00:24.201000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-16T20:00:24.201000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-17T00:00:29Z",
+            "transact_seq": "20230617000029000000000002323236225"
+        },
+        "metadata": {
+            "timestamp": "2023-06-17T00:00:32.323727Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tp_gthr",
+            "transaction-id": 73538468082297
+        }
+    },
+    {
+        "data": {
+            "TP_ID": 753166302148,
+            "GTHR_CD": "TW16727512",
+            "GTHR_TYP_NM": "TW",
+            "GTHR_NM": "Magical",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-16T20:00:39.044000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-16T20:00:39.044000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-17T00:00:44Z",
+            "transact_seq": "20230617000044000000000002323238761"
+        },
+        "metadata": {
+            "timestamp": "2023-06-17T00:00:47.907333Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tp_gthr",
+            "transaction-id": 73538468230466
+        }
+    }
+]

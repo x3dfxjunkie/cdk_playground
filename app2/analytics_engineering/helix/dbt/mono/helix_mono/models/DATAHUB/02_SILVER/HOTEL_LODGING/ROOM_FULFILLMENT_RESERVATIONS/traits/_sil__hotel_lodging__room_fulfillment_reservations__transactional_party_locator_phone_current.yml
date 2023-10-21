@@ -1,0 +1,55 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__transactional_party_locator_phone_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__transactional_party_locator_phone_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: transactional_party_id
+        description: ""
+
+      - name: transactional_locator_id
+        description: ""
+
+      - name: transaction_type_name
+        description: ""
+
+      - name: locator_type_name
+        description: ""
+
+      - name: primary_locator_indicator
+        description: ""
+
+      - name: confirmation_indicator
+        description: ""
+
+      - name: allow_bill_indicator
+        description: ""
+
+      - name: phone_number
+        description: ""
+
+      - name: phone_device_type_name
+        description: ""
+
+      - name: locator_usage_type_name
+        description: ""
+
+      - name: locator_extnl_src_nm
+        description: ""
+
+      - name: reference_id
+        description: ""
+
+      - name: allow_phone_indicator
+        description: ""

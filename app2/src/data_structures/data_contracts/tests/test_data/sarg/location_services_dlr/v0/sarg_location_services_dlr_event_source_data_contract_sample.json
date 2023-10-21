@@ -1,0 +1,1201 @@
+[
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111118E59}",
+        "regionId": "disneyland",
+        "regionLevel": "DESTINATION",
+        "sourceId": "80008297",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685576388,
+        "lastSeen": 1685576388,
+        "processTimestamp": 1685576389847,
+        "publishTimestamp": 1685576389913,
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-2222222208db"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111E3DD}",
+        "regionId": "disneyland-park-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "360314",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685576316,
+        "lastSeen": 1685576316,
+        "processTimestamp": 1685576389929,
+        "publishTimestamp": 1685576389940,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "disneyland-park",
+                "lastSeen": 1685576316,
+                "sourceId": "00000000",
+                "additionalSourceIds": null
+            },
+            "ZONE": {
+                "regionId": "town-square",
+                "lastSeen": 1685576316,
+                "sourceId": "00000000",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576316,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576316,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "disneyland-park-entrance",
+                "lastSeen": 1685576316,
+                "sourceId": "360314",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111E3DD}",
+        "regionId": "disneyland-park",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "330339",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685576643,
+        "lastSeen": 1685576316,
+        "processTimestamp": 1685576389929,
+        "publishTimestamp": 1685576389940,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "disneyland-park",
+                "lastSeen": 1685576316,
+                "sourceId": "330339",
+                "additionalSourceIds": null
+            },
+            "ZONE": {
+                "regionId": "town-square",
+                "lastSeen": 1685576316,
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576316,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576316,
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "disneyland-park-entrance",
+                "lastSeen": 1685576316,
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222d939"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111E3DD}",
+        "regionId": "california-adventure-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "360515",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685576378,
+        "lastSeen": 1685576378,
+        "processTimestamp": 1685576389929,
+        "publishTimestamp": 1685576389956,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "disneyland-park",
+                "lastSeen": 1685576316,
+                "sourceId": "330339",
+                "additionalSourceIds": null
+            },
+            "ZONE": {
+                "regionId": "town-square",
+                "lastSeen": 1685576316,
+                "sourceId": "00000000",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576316,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576316,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "california-adventure-entrance",
+                "lastSeen": 1685576378,
+                "sourceId": "360515",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111E3DD}",
+        "regionId": "disney-california-adventure",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "336894",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685576378,
+        "lastSeen": 1685576378,
+        "processTimestamp": 1685576389929,
+        "publishTimestamp": 1685576389959,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "disney-california-adventure",
+                "lastSeen": 1685576378,
+                "sourceId": "336894",
+                "additionalSourceIds": null
+            },
+            "ZONE": {
+                "regionId": "town-square",
+                "lastSeen": 1685576316,
+                "sourceId": "00000000",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576316,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576316,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "california-adventure-entrance",
+                "lastSeen": 1685576378,
+                "sourceId": "360515",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222c97c"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111116322}",
+        "regionId": "disneyland-park",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "330339",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685576305,
+        "lastSeen": 1685576305,
+        "processTimestamp": 1685576389847,
+        "publishTimestamp": 1685576390120,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "disneyland-park",
+                "lastSeen": 1685576322,
+                "sourceId": "330339",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576382,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576382,
+                "sourceId": null,
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222d939"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111116322}",
+        "regionId": "downtown-disney",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "336978",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685576383,
+        "lastSeen": 1685576383,
+        "processTimestamp": 1685576389847,
+        "publishTimestamp": 1685576390129,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "downtown-disney",
+                "lastSeen": 1685576383,
+                "sourceId": "336978",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576313,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576313,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222a739"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111115425}",
+        "regionId": "disneyland-park-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "360314",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685576334,
+        "lastSeen": 1685576337,
+        "processTimestamp": 1685576390195,
+        "publishTimestamp": 1685576390224,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "disneyland-park",
+                "lastSeen": 1685576334,
+                "sourceId": "330339",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685575787,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "disneyland-park-entrance",
+                "lastSeen": 1685576337,
+                "sourceId": "360314",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111115F36}",
+        "regionId": "disneys-grand-californian-hotel",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "336979",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685575992,
+        "lastSeen": 1685575992,
+        "processTimestamp": 1685576390196,
+        "publishTimestamp": 1685576390299,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "disneys-grand-californian-hotel",
+                "lastSeen": 1685575992,
+                "sourceId": "336979",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685570350,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685575992,
+                "sourceId": null,
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222191f"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111115F36}",
+        "regionId": "disneys-grand-californian-hotel",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "336979",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685575992,
+        "lastSeen": 1685575992,
+        "processTimestamp": 1685576390196,
+        "publishTimestamp": 1685576390321,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "disneys-grand-californian-hotel",
+                "lastSeen": 1685575992,
+                "sourceId": "336979",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685575992,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685575992,
+                "sourceId": null,
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222191f"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111115F36}",
+        "regionId": "disney-california-adventure",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "336894",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685576388,
+        "lastSeen": 1685576388,
+        "processTimestamp": 1685576390196,
+        "publishTimestamp": 1685576390328,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "disney-california-adventure",
+                "lastSeen": 1685576388,
+                "sourceId": "336894",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685570350,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685575992,
+                "sourceId": null,
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222c97c"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111D07A}",
+        "regionId": "disneyland-park",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "330339",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685575882,
+        "lastSeen": 1685575882,
+        "processTimestamp": 1685576384780,
+        "publishTimestamp": 1685576384837,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "disneyland-park",
+                "lastSeen": 1685575882,
+                "sourceId": "330339",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685575875,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685575879,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "disneyland-park-entrance",
+                "lastSeen": 1685575879,
+                "sourceId": "360314",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222d939"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111118DA1}",
+        "regionId": "disney-california-adventure",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "336894",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685578814,
+        "lastSeen": 1685576298,
+        "processTimestamp": 1685576384847,
+        "publishTimestamp": 1685576384876,
+        "activeRegions": {
+            "LOCATION": {
+                "regionId": "grizzly-river-run",
+                "lastSeen": 1685576051,
+                "sourceId": "353345",
+                "additionalSourceIds": null
+            },
+            "AREA": {
+                "regionId": "disney-california-adventure",
+                "lastSeen": 1685576298,
+                "sourceId": "336894",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576298,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576298,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "grizzly-peak",
+                "lastSeen": 1685576051,
+                "sourceId": "336974",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222c97c"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111118DA1}",
+        "regionId": "disneys-grand-californian-hotel",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "336979",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685576263,
+        "lastSeen": 1685576263,
+        "processTimestamp": 1685576384847,
+        "publishTimestamp": 1685576384884,
+        "activeRegions": {
+            "LOCATION": {
+                "regionId": "grizzly-river-run",
+                "lastSeen": 1685576051,
+                "sourceId": "353345",
+                "additionalSourceIds": null
+            },
+            "AREA": {
+                "regionId": "disneys-grand-californian-hotel",
+                "lastSeen": 1685576263,
+                "sourceId": "336979",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576298,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576298,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "grizzly-peak",
+                "lastSeen": 1685576051,
+                "sourceId": "336974",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222191f"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111118DA1}",
+        "regionId": "disney-california-adventure",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "336894",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685578814,
+        "lastSeen": 1685576298,
+        "processTimestamp": 1685576384847,
+        "publishTimestamp": 1685576384912,
+        "activeRegions": {
+            "LOCATION": {
+                "regionId": "grizzly-river-run",
+                "lastSeen": 1685576051,
+                "sourceId": "353345",
+                "additionalSourceIds": null
+            },
+            "AREA": {
+                "regionId": "disneys-grand-californian-hotel",
+                "lastSeen": 1685576263,
+                "sourceId": "336979",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576268,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576268,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "grizzly-peak",
+                "lastSeen": 1685576268,
+                "sourceId": "336974",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222c97c"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111118DA1}",
+        "regionId": "disneys-grand-californian-hotel",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "336979",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685576263,
+        "lastSeen": 1685576263,
+        "processTimestamp": 1685576384847,
+        "publishTimestamp": 1685576384918,
+        "activeRegions": {
+            "LOCATION": {
+                "regionId": "grizzly-river-run",
+                "lastSeen": 1685576051,
+                "sourceId": "353345",
+                "additionalSourceIds": null
+            },
+            "AREA": {
+                "regionId": "disneys-grand-californian-hotel",
+                "lastSeen": 1685576263,
+                "sourceId": "336979",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576268,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576268,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "grizzly-peak",
+                "lastSeen": 1685576268,
+                "sourceId": "336974",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222191f"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111118DA1}",
+        "regionId": "disney-california-adventure",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "336894",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685578814,
+        "lastSeen": 1685576298,
+        "processTimestamp": 1685576384847,
+        "publishTimestamp": 1685576384949,
+        "activeRegions": {
+            "LOCATION": {
+                "regionId": "grizzly-river-run",
+                "lastSeen": 1685576051,
+                "sourceId": "353345",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576268,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576268,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "grizzly-peak",
+                "lastSeen": 1685576271,
+                "sourceId": "336974",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222c97c"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111118DA1}",
+        "regionId": "disneys-grand-californian-hotel",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "336979",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685576263,
+        "lastSeen": 1685576263,
+        "processTimestamp": 1685576384847,
+        "publishTimestamp": 1685576384956,
+        "activeRegions": {
+            "LOCATION": {
+                "regionId": "grizzly-river-run",
+                "lastSeen": 1685576051,
+                "sourceId": "353345",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576271,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576271,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "grizzly-peak",
+                "lastSeen": 1685576271,
+                "sourceId": "336974",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222191f"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-1111111175E8}",
+        "regionId": "disneyland-park-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "360314",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685576382,
+        "lastSeen": 1685576382,
+        "processTimestamp": 1685576384912,
+        "publishTimestamp": 1685576384932,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "disneyland-park",
+                "lastSeen": 1685572877,
+                "sourceId": "330339",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685572877,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "disneyland-park-entrance",
+                "lastSeen": 1685576382,
+                "sourceId": "360314",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111118DA1}",
+        "regionId": "disney-california-adventure",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "336894",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685578814,
+        "lastSeen": 1685576298,
+        "processTimestamp": 1685576384847,
+        "publishTimestamp": 1685576385045,
+        "activeRegions": {
+            "LOCATION": {
+                "regionId": "grizzly-river-run",
+                "lastSeen": 1685576051,
+                "sourceId": "353345",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576271,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576271,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "grizzly-peak",
+                "lastSeen": 1685576271,
+                "sourceId": "336974",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222c97c"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111822A}",
+        "regionId": "disneyland-park-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "360314",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685576357,
+        "lastSeen": 1685576357,
+        "processTimestamp": 1685576384956,
+        "publishTimestamp": 1685576385047,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "disneyland-park",
+                "lastSeen": 1685576350,
+                "sourceId": "330339",
+                "additionalSourceIds": null
+            },
+            "ZONE": {
+                "regionId": "town-square",
+                "lastSeen": 1685576357,
+                "sourceId": "00000000",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576356,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576347,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111117231}",
+        "regionId": "disneyland-east-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "00000000",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685576382,
+        "lastSeen": 1685576382,
+        "processTimestamp": 1685576384944,
+        "publishTimestamp": 1685576385053,
+        "activeRegions": {
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576382,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576382,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "disneyland-east-entrance",
+                "lastSeen": 1685576382,
+                "sourceId": "00000000",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-1111111178DF}",
+        "regionId": "disneyland",
+        "regionLevel": "DESTINATION",
+        "regionTags": [],
+        "sourceId": "80008297",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685576383,
+        "lastSeen": 1685576383,
+        "processTimestamp": 1685576384943,
+        "publishTimestamp": 1685576385065,
+        "activeRegions": {
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576383,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576383,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-2222222208db"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111118DA1}",
+        "regionId": "disneys-grand-californian-hotel",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "336979",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685576263,
+        "lastSeen": 1685576263,
+        "processTimestamp": 1685576384847,
+        "publishTimestamp": 1685576385052,
+        "activeRegions": {
+            "LOCATION": {
+                "regionId": "grizzly-river-run",
+                "lastSeen": 1685576051,
+                "sourceId": "353345",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576272,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576272,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "grizzly-peak",
+                "lastSeen": 1685576272,
+                "sourceId": "336974",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222191f"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111822A}",
+        "regionId": "disneyland-park-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "360314",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685576357,
+        "lastSeen": 1685576357,
+        "processTimestamp": 1685576384847,
+        "publishTimestamp": 1685576385064,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "disneyland-park",
+                "lastSeen": 1685576350,
+                "sourceId": "330339",
+                "additionalSourceIds": null
+            },
+            "ZONE": {
+                "regionId": "town-square",
+                "lastSeen": 1685576357,
+                "sourceId": "00000000",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576360,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576360,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "disneyland-east-entrance",
+                "lastSeen": 1685576347,
+                "sourceId": "00000000",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111822A}",
+        "regionId": "disneyland-park-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "360314",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685576357,
+        "lastSeen": 1685576360,
+        "processTimestamp": 1685576384847,
+        "publishTimestamp": 1685576385079,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "disneyland-park",
+                "lastSeen": 1685576357,
+                "sourceId": "330339",
+                "additionalSourceIds": null
+            },
+            "ZONE": {
+                "regionId": "town-square",
+                "lastSeen": 1685576357,
+                "sourceId": "00000000",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576357,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576357,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "disneyland-park-entrance",
+                "lastSeen": 1685576360,
+                "sourceId": "360314",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111822A}",
+        "regionId": "disneyland-east-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "00000000",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685576347,
+        "lastSeen": 1685576347,
+        "processTimestamp": 1685576384956,
+        "publishTimestamp": 1685576385062,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "disneyland-park",
+                "lastSeen": 1685576350,
+                "sourceId": "330339",
+                "additionalSourceIds": null
+            },
+            "ZONE": {
+                "regionId": "town-square",
+                "lastSeen": 1685576357,
+                "sourceId": "00000000",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "dlr-socal-anaheim",
+                "lastSeen": 1685576352,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "disneyland",
+                "lastSeen": 1685576352,
+                "sourceId": "80008297",
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "disneyland-east-entrance",
+                "lastSeen": 1685576347,
+                "sourceId": "00000000",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    }
+]

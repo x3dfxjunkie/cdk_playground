@@ -1,0 +1,52 @@
+ownershipMerchandise:
+  allOf:
+    - $ref: "../openapi.yaml#/components/schemas/ownershipCommon"
+    - $ref: "../openapi.yaml#/components/schemas/ownershipMerchandiseVariant"
+    - type: object
+      properties:
+        productDetails:
+          type: object
+          properties:
+            customized:
+              type: boolean
+              description: indicates if the merchandise product was customized by the guest
+              example: false
+        transactionDetails:
+          type: object
+          properties:
+            orderType:
+              type: string
+              description: Order type Purchase or Return
+              enum:
+                - Purchase
+                - Return
+            orderNumber:
+              type: string
+              description: Merchandise transaction number where item was sold under, customer facing order number
+              example: MBDW00522399
+            orderHeaderKey:
+              type: string
+              description: Internal number to identify Order Number and part of the transactinItemId compound key, also needed for linking returns
+              example: "202208272300035745242164"
+            orderLineKey:
+              type: string
+              description: Internal number to identify line item with in the order and part of the transactinItemId compound key, also needed for linking returns
+              example: "202208272300035745242174"
+            quantity:
+              type: number
+              description: line item quantity
+              example: 2
+            deliveryStatus:
+              type: string
+              description: status of the delivery.  Enum pending data analysis, currently - Created | In Progress | Shipped | Completed
+              example: Shipped
+            returnDetails:
+              type: object
+              properties:
+                originalOrderHeaderKey:
+                  type: string
+                  description: if the order is a return, indicates the original sales transaction
+                  example: "202208272300035745242999"
+                originalOrderLineKey:
+                  type: string
+                  description: if the order is a return, indicates the original sales transaction line item key

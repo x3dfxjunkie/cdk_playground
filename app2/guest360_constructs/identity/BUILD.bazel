@@ -1,0 +1,12 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+py_lambda_library(
+    name = "identity_constructs",
+    srcs = glob(["*.py"]),
+    data = ["//app/src:missing_init_files"],
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("aws-cdk-lib"),
+    ],
+)

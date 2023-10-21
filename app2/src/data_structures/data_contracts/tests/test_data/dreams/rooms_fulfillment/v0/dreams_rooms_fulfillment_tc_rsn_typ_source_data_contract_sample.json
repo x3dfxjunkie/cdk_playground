@@ -1,0 +1,182 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:36:30Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_RSN_TYP_NM": "A la Carte Cancel"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_rsn_typ",
+            "timestamp": "2023-07-26T01:12:18.251299Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:36:30Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_RSN_TYP_NM": "Change"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_rsn_typ",
+            "timestamp": "2023-07-26T01:12:18.268509Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:36:30Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_RSN_TYP_NM": "Early Checkout"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_rsn_typ",
+            "timestamp": "2023-07-26T01:12:18.285508Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:36:30Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_RSN_TYP_NM": "Fee Waive"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_rsn_typ",
+            "timestamp": "2023-07-26T01:12:18.292067Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:36:30Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_RSN_TYP_NM": "Inventory Override"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_rsn_typ",
+            "timestamp": "2023-07-26T01:12:18.301724Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:36:30Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_RSN_TYP_NM": "Mass Cancel"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_rsn_typ",
+            "timestamp": "2023-07-26T01:12:18.308070Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:36:30Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_RSN_TYP_NM": "Reinstate"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_rsn_typ",
+            "timestamp": "2023-07-26T01:12:18.322175Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:36:30Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_RSN_TYP_NM": "Ticket Reprint"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_rsn_typ",
+            "timestamp": "2023-07-26T01:12:18.327898Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:36:30Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_RSN_TYP_NM": "Cancel"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_rsn_typ",
+            "timestamp": "2023-07-26T01:12:18.259020Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:36:30Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_RSN_TYP_NM": "Complimentary Ticket"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_rsn_typ",
+            "timestamp": "2023-07-26T01:12:18.276948Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:36:30Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_RSN_TYP_NM": "Rate Override"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_rsn_typ",
+            "timestamp": "2023-07-26T01:12:18.315665Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-06T10:36:30Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_RSN_TYP_NM": "Upgrade"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_rsn_typ",
+            "timestamp": "2023-07-26T01:12:18.334299Z"
+        }
+    }
+]

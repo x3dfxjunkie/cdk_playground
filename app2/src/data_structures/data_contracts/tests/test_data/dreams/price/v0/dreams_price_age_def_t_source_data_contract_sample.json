@@ -1,0 +1,422 @@
+[
+    {
+        "data": {
+            "AGE_DEF_ID": 2,
+            "AGE_DEF_MAX_AGE_NB": 100,
+            "AGE_DEF_MIN_AGE_NB": 0,
+            "AGE_TYP_NM": "Adult",
+            "CREATE_DTS": "2006-10-18T15:25:12.074112Z",
+            "ENTRPRS_AGE_TYP_ID": 7003,
+            "ENTRPRS_AGE_TYP_NM": "General Services",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2006-10-18T15:25:12.074112Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.343872Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 11,
+            "AGE_DEF_MAX_AGE_NB": 100,
+            "AGE_DEF_MIN_AGE_NB": 5,
+            "AGE_TYP_NM": "Adult",
+            "CREATE_DTS": "2006-10-18T15:25:12.107880Z",
+            "ENTRPRS_AGE_TYP_ID": 134974,
+            "ENTRPRS_AGE_TYP_NM": "Ages 5+",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2006-10-18T15:25:12.107880Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.414249Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 12,
+            "AGE_DEF_MAX_AGE_NB": 100,
+            "AGE_DEF_MIN_AGE_NB": 8,
+            "AGE_TYP_NM": "Adult",
+            "CREATE_DTS": "2006-10-18T15:25:12.111984Z",
+            "ENTRPRS_AGE_TYP_ID": 57478,
+            "ENTRPRS_AGE_TYP_NM": "Programs and Tours 8+",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2006-10-18T15:25:12.111984Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.424091Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 19,
+            "AGE_DEF_MAX_AGE_NB": 100,
+            "AGE_DEF_MIN_AGE_NB": 12,
+            "AGE_TYP_NM": "Adult",
+            "CREATE_DTS": "2006-10-18T15:25:12.137928Z",
+            "ENTRPRS_AGE_TYP_ID": 57481,
+            "ENTRPRS_AGE_TYP_NM": "Programs and Tours 12+",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2006-10-18T15:25:12.137928Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.479303Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 21,
+            "AGE_DEF_MAX_AGE_NB": 100,
+            "AGE_DEF_MIN_AGE_NB": 12,
+            "AGE_TYP_NM": "Adult",
+            "CREATE_DTS": "2006-10-18T15:25:12.145608Z",
+            "ENTRPRS_AGE_TYP_ID": 6970,
+            "ENTRPRS_AGE_TYP_NM": "WDTC Transfers Adult 12+",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2006-10-18T15:25:12.145608Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.495069Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 23,
+            "AGE_DEF_MAX_AGE_NB": 100,
+            "AGE_DEF_MIN_AGE_NB": 13,
+            "AGE_TYP_NM": "Adult",
+            "CREATE_DTS": "2006-10-18T15:25:12.152872Z",
+            "ENTRPRS_AGE_TYP_ID": 6998,
+            "ENTRPRS_AGE_TYP_NM": "Children Activity Centers Adult 13-100",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2006-10-18T15:25:12.152872Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.511880Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 32,
+            "AGE_DEF_MAX_AGE_NB": 100,
+            "AGE_DEF_MIN_AGE_NB": 18,
+            "AGE_TYP_NM": "Adult",
+            "CREATE_DTS": "2006-10-18T15:25:12.186128Z",
+            "ENTRPRS_AGE_TYP_ID": 7152,
+            "ENTRPRS_AGE_TYP_NM": "Spa & Health Club Adult",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2006-10-18T15:25:12.186128Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.591625Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 34,
+            "AGE_DEF_MAX_AGE_NB": 11,
+            "AGE_DEF_MIN_AGE_NB": 2,
+            "AGE_TYP_NM": "Child",
+            "CREATE_DTS": "2006-10-18T15:25:12.193568Z",
+            "ENTRPRS_AGE_TYP_ID": 6976,
+            "ENTRPRS_AGE_TYP_NM": "WDTC Air Promotions Child 2-11",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2006-10-18T15:25:12.193568Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.605552Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 41,
+            "AGE_DEF_MAX_AGE_NB": 9,
+            "AGE_DEF_MIN_AGE_NB": 3,
+            "AGE_TYP_NM": "Child",
+            "CREATE_DTS": "2006-10-18T15:25:12.220512Z",
+            "ENTRPRS_AGE_TYP_ID": 7000,
+            "ENTRPRS_AGE_TYP_NM": "F&B Child 03-09",
+            "JDO_SEQ_NB": 2,
+            "UPDT_DTS": "2006-10-18T15:25:12.220512Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.659000Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 43,
+            "AGE_DEF_MAX_AGE_NB": 9,
+            "AGE_DEF_MIN_AGE_NB": 4,
+            "AGE_TYP_NM": "Child",
+            "CREATE_DTS": "2006-10-18T15:25:12.227768Z",
+            "ENTRPRS_AGE_TYP_ID": 2328,
+            "ENTRPRS_AGE_TYP_NM": "Child (Ages 4-9)",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2006-10-18T15:25:12.227768Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.674757Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 45,
+            "AGE_DEF_MAX_AGE_NB": 11,
+            "AGE_DEF_MIN_AGE_NB": 4,
+            "AGE_TYP_NM": "Child",
+            "CREATE_DTS": "2006-10-18T15:25:12.235040Z",
+            "ENTRPRS_AGE_TYP_ID": 6968,
+            "ENTRPRS_AGE_TYP_NM": "WDTC Transfers Child 4-11",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2006-10-18T15:25:12.235040Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.695490Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 46,
+            "AGE_DEF_MAX_AGE_NB": 12,
+            "AGE_DEF_MIN_AGE_NB": 4,
+            "AGE_TYP_NM": "Child",
+            "CREATE_DTS": "2006-10-18T15:25:12.238808Z",
+            "ENTRPRS_AGE_TYP_ID": 6997,
+            "ENTRPRS_AGE_TYP_NM": "Children's Activity Centers Child 4-12",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2006-10-18T15:25:12.238808Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.704723Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 49,
+            "AGE_DEF_MAX_AGE_NB": 9,
+            "AGE_DEF_MIN_AGE_NB": 6,
+            "AGE_TYP_NM": "Child",
+            "CREATE_DTS": "2006-10-18T15:25:12.249608Z",
+            "ENTRPRS_AGE_TYP_ID": 2330,
+            "ENTRPRS_AGE_TYP_NM": "Child (Ages 6-9)",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2006-10-18T15:25:12.249608Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.733854Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 50,
+            "AGE_DEF_MAX_AGE_NB": 14,
+            "AGE_DEF_MIN_AGE_NB": 7,
+            "AGE_TYP_NM": "Child",
+            "CREATE_DTS": "2006-10-18T15:25:12.253136Z",
+            "ENTRPRS_AGE_TYP_ID": 123410,
+            "ENTRPRS_AGE_TYP_NM": "Ages 7-14",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2006-10-18T15:25:12.253136Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.741976Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 51,
+            "AGE_DEF_MAX_AGE_NB": 9,
+            "AGE_DEF_MIN_AGE_NB": 8,
+            "AGE_TYP_NM": "Child",
+            "CREATE_DTS": "2006-10-18T15:25:12.256680Z",
+            "ENTRPRS_AGE_TYP_ID": 2331,
+            "ENTRPRS_AGE_TYP_NM": "Child (Ages 8-9)",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2006-10-18T15:25:12.256680Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.755103Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 56,
+            "AGE_DEF_MAX_AGE_NB": 2,
+            "AGE_DEF_MIN_AGE_NB": 0,
+            "AGE_TYP_NM": "Infant",
+            "CREATE_DTS": "2006-10-18T15:25:12.276928Z",
+            "ENTRPRS_AGE_TYP_ID": 2325,
+            "ENTRPRS_AGE_TYP_NM": "Infant (Ages 0-2)",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2006-10-18T15:25:12.276928Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.792888Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 67,
+            "AGE_DEF_MAX_AGE_NB": 17,
+            "AGE_DEF_MIN_AGE_NB": 10,
+            "AGE_TYP_NM": "Junior",
+            "CREATE_DTS": "2006-10-18T15:25:12.319000Z",
+            "ENTRPRS_AGE_TYP_ID": 80007061,
+            "ENTRPRS_AGE_TYP_NM": "Junior Component",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2006-10-18T15:25:12.319000Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.880797Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 68,
+            "AGE_DEF_MAX_AGE_NB": 17,
+            "AGE_DEF_MIN_AGE_NB": 10,
+            "AGE_TYP_NM": "Junior",
+            "CREATE_DTS": "2006-10-18T15:25:12.322544Z",
+            "ENTRPRS_AGE_TYP_ID": 7147,
+            "ENTRPRS_AGE_TYP_NM": "Resorts Junior",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2006-10-18T15:25:12.322544Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.886952Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 71,
+            "AGE_DEF_MAX_AGE_NB": 100,
+            "AGE_DEF_MIN_AGE_NB": 6,
+            "AGE_TYP_NM": "Adult",
+            "CREATE_DTS": "2009-02-01T22:36:24.994580Z",
+            "ENTRPRS_AGE_TYP_ID": 280639,
+            "ENTRPRS_AGE_TYP_NM": "Ages 6+",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2009-02-01T22:36:24.994580Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.909790Z"
+        }
+    },
+    {
+        "data": {
+            "AGE_DEF_ID": 76,
+            "AGE_DEF_MAX_AGE_NB": 9,
+            "AGE_DEF_MIN_AGE_NB": 8,
+            "AGE_TYP_NM": "Child",
+            "CREATE_DTS": "2009-02-01T22:36:26.181774Z",
+            "ENTRPRS_AGE_TYP_ID": 318140,
+            "ENTRPRS_AGE_TYP_NM": "Programs and Tours 8-9",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2009-02-01T22:36:26.181774Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "AGE_DEF_T",
+            "timestamp": "2023-08-25T20:35:21.948685Z"
+        }
+    }
+]

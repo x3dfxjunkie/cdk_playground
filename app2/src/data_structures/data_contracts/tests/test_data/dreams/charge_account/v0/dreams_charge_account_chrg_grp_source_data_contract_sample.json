@@ -1,0 +1,293 @@
+[
+    {
+        "data": {
+            "AUTH_PIN_ENCRPT_HASH_VL": "testteST1234Test45string",
+            "CHRG_GRP_ACTV_IN": "Y",
+            "CHRG_GRP_DS": "From Booking",
+            "CHRG_GRP_END_DTS": "2123-07-20T20:00:00Z",
+            "CHRG_GRP_ID": 57708333,
+            "CHRG_GRP_STRT_DTS": "2023-07-20T20:00:00Z",
+            "CHRG_GRP_STS_NM": "UnEarned",
+            "CHRG_GRP_TYP_NM": "Root",
+            "CREATE_DTS": "2023-07-20T22:15:03Z",
+            "CREATE_USR_ID_CD": "CREATEKTTW",
+            "GRP_DLGT_SML_BAL_WRTOFF_IN": "N",
+            "GUAR_TYP_NM": "NONE",
+            "INVALID_PIN_CNT": 0,
+            "JDO_SEQ_NB": 1,
+            "SRC_ACCT_CTR_ID": 2,
+            "TXN_FAC_ID": 80010383,
+            "UPDT_DTS": "2023-07-21T15:17:05.921000Z",
+            "UPDT_USR_ID_CD": "WDW-MDX-IOS-"
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "gst_chrg_acct",
+            "table-name": "chrg_grp",
+            "timestamp": "2023-07-21T19:17:09.455286Z",
+            "transaction-id": 3564862871582
+        }
+    },
+    {
+        "data": {
+            "AUTH_PIN_ENCRPT_HASH_VL": "testteST1234Test45string",
+            "CHRG_GRP_ACTV_IN": "Y",
+            "CHRG_GRP_DS": "From Booking",
+            "CHRG_GRP_END_DTS": "2114-02-19T23:00:00Z",
+            "CHRG_GRP_ID": 7418099,
+            "CHRG_GRP_STRT_DTS": "2014-02-19T23:00:00Z",
+            "CHRG_GRP_STS_NM": "UnEarned",
+            "CHRG_GRP_TYP_NM": "Root",
+            "CREATE_DTS": "2014-02-20T20:40:25Z",
+            "CREATE_USR_ID_CD": "NGEONEVIEW",
+            "GRP_DLGT_SML_BAL_WRTOFF_IN": "N",
+            "GUAR_TYP_NM": "NONE",
+            "INVALID_PIN_CNT": 1,
+            "INVALID_PIN_DTS": "2023-07-21T15:17:09.702000Z",
+            "JDO_SEQ_NB": 15,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-07-21T15:17:09.705000Z",
+            "UPDT_USR_ID_CD": "FREEDOM-POS"
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "gst_chrg_acct",
+            "table-name": "chrg_grp",
+            "timestamp": "2023-07-21T19:17:14.513585Z",
+            "transaction-id": 3564862875521
+        }
+    },
+    {
+        "data": {
+            "CHRG_GRP_ACTV_IN": "Y",
+            "CHRG_GRP_DS": "Created as merge process",
+            "CHRG_GRP_END_DTS": "2123-07-21T15:17:15.218000Z",
+            "CHRG_GRP_ID": 57717721,
+            "CHRG_GRP_STRT_DTS": "2023-07-21T15:17:15.218000Z",
+            "CHRG_GRP_STS_NM": "UnEarned",
+            "CHRG_GRP_TYP_NM": "Root",
+            "CREATE_DTS": "2023-07-21T15:17:15.201000Z",
+            "CREATE_USR_ID_CD": "xNOTIFIER",
+            "GRP_DLGT_SML_BAL_WRTOFF_IN": "N",
+            "GUAR_TYP_NM": "NONE",
+            "JDO_SEQ_NB": 0,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-07-21T15:17:15.201000Z",
+            "UPDT_USR_ID_CD": "xNOTIFIER"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "gst_chrg_acct",
+            "table-name": "chrg_grp",
+            "timestamp": "2023-07-21T19:17:19.628652Z",
+            "transaction-id": 3564862876203
+        }
+    },
+    {
+        "data": {
+            "AUTH_PIN_ENCRPT_HASH_VL": "testteST1234Test45string",
+            "CHRG_GRP_ACTV_IN": "N",
+            "CHRG_GRP_DS": "From Booking",
+            "CHRG_GRP_END_DTS": "2113-05-30T00:00:00Z",
+            "CHRG_GRP_ID": 2759143,
+            "CHRG_GRP_STRT_DTS": "2013-05-30T00:00:00Z",
+            "CHRG_GRP_STS_NM": "UnEarned",
+            "CHRG_GRP_TYP_NM": "Root",
+            "CREATE_DTS": "2013-05-30T09:03:14.105000Z",
+            "CREATE_USR_ID_CD": "OCONK015",
+            "GRP_DLGT_SML_BAL_WRTOFF_IN": "N",
+            "GUAR_TYP_NM": "NONE",
+            "JDO_SEQ_NB": 3,
+            "SRC_ACCT_CTR_ID": 2,
+            "TXN_FAC_ID": 80010397,
+            "UPDT_DTS": "2023-07-21T15:17:15.201000Z",
+            "UPDT_USR_ID_CD": "xNOTIFIER"
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "gst_chrg_acct",
+            "table-name": "chrg_grp",
+            "timestamp": "2023-07-21T19:17:19.663919Z",
+            "transaction-id": 3564862876203
+        }
+    },
+    {
+        "data": {
+            "AUTH_PIN_ENCRPT_HASH_VL": "testteST1234Test45string",
+            "CHRG_GRP_ACTV_IN": "N",
+            "CHRG_GRP_DS": "From Booking",
+            "CHRG_GRP_END_DTS": "2123-06-22T00:00:00Z",
+            "CHRG_GRP_ID": 20684941,
+            "CHRG_GRP_STRT_DTS": "2023-06-22T00:00:00Z",
+            "CHRG_GRP_STS_NM": "UnEarned",
+            "CHRG_GRP_TYP_NM": "Root",
+            "CREATE_DTS": "2016-04-02T17:51:16.780000Z",
+            "CREATE_USR_ID_CD": "NGEONEVIEW",
+            "GRP_DLGT_SML_BAL_WRTOFF_IN": "N",
+            "GUAR_TYP_NM": "NONE",
+            "JDO_SEQ_NB": 4,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-07-21T15:17:15.201000Z",
+            "UPDT_USR_ID_CD": "xNOTIFIER"
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "gst_chrg_acct",
+            "table-name": "chrg_grp",
+            "timestamp": "2023-07-21T19:17:19.674163Z",
+            "transaction-id": 3564862876203
+        }
+    },
+    {
+        "data": {
+            "AUTH_PIN_ENCRPT_HASH_VL": "testteST1234Test45string",
+            "CHRG_GRP_ACTV_IN": "Y",
+            "CHRG_GRP_DS": "Created as merge process",
+            "CHRG_GRP_END_DTS": "2123-07-21T15:17:15.218000Z",
+            "CHRG_GRP_ID": 57717721,
+            "CHRG_GRP_STRT_DTS": "2023-07-21T15:17:15.218000Z",
+            "CHRG_GRP_STS_NM": "UnEarned",
+            "CHRG_GRP_TYP_NM": "Root",
+            "CREATE_DTS": "2023-07-21T15:17:15.201000Z",
+            "CREATE_USR_ID_CD": "xNOTIFIER",
+            "GRP_DLGT_SML_BAL_WRTOFF_IN": "N",
+            "GUAR_TYP_NM": "NONE",
+            "JDO_SEQ_NB": 1,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-07-21T15:17:15.201000Z",
+            "UPDT_USR_ID_CD": "xNOTIFIER"
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "gst_chrg_acct",
+            "table-name": "chrg_grp",
+            "timestamp": "2023-07-21T19:17:19.729031Z",
+            "transaction-id": 3564862876203
+        }
+    },
+    {
+        "data": {
+            "CHRG_GRP_ACTV_IN": "Y",
+            "CHRG_GRP_DS": "From Booking",
+            "CHRG_GRP_END_DTS": "2123-07-21T15:17:17Z",
+            "CHRG_GRP_ID": 57717722,
+            "CHRG_GRP_STRT_DTS": "2023-07-21T15:17:17Z",
+            "CHRG_GRP_STS_NM": "UnEarned",
+            "CHRG_GRP_TYP_NM": "Root",
+            "CREATE_DTS": "2023-07-21T15:17:17.777000Z",
+            "CREATE_USR_ID_CD": "WDW-MDX-IOS-",
+            "GRP_DLGT_SML_BAL_WRTOFF_IN": "N",
+            "GUAR_TYP_NM": "NONE",
+            "JDO_SEQ_NB": 0,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-07-21T15:17:17.777000Z",
+            "UPDT_USR_ID_CD": "WDW-MDX-IOS-"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "gst_chrg_acct",
+            "table-name": "chrg_grp",
+            "timestamp": "2023-07-21T19:17:19.839896Z",
+            "transaction-id": 3564862883431
+        }
+    },
+    {
+        "data": {
+            "AUTH_PIN_ENCRPT_HASH_VL": "testteST1234Test45string",
+            "CHRG_GRP_ACTV_IN": "Y",
+            "CHRG_GRP_DS": "From Booking",
+            "CHRG_GRP_END_DTS": "2123-07-21T15:17:17Z",
+            "CHRG_GRP_ID": 57717722,
+            "CHRG_GRP_STRT_DTS": "2023-07-21T15:17:17Z",
+            "CHRG_GRP_STS_NM": "UnEarned",
+            "CHRG_GRP_TYP_NM": "Root",
+            "CREATE_DTS": "2023-07-21T15:17:17.777000Z",
+            "CREATE_USR_ID_CD": "WDW-MDX-IOS-",
+            "GRP_DLGT_SML_BAL_WRTOFF_IN": "N",
+            "GUAR_TYP_NM": "NONE",
+            "JDO_SEQ_NB": 1,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-07-21T15:17:17.777000Z",
+            "UPDT_USR_ID_CD": "WDW-MDX-IOS-"
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "gst_chrg_acct",
+            "table-name": "chrg_grp",
+            "timestamp": "2023-07-21T19:17:19.861692Z",
+            "transaction-id": 3564862883431
+        }
+    },
+    {
+        "data": {
+            "CHRG_GRP_ACTV_IN": "Y",
+            "CHRG_GRP_DS": "From Booking",
+            "CHRG_GRP_END_DTS": "2123-07-21T15:17:17Z",
+            "CHRG_GRP_ID": 57717723,
+            "CHRG_GRP_STRT_DTS": "2023-07-21T15:17:17Z",
+            "CHRG_GRP_STS_NM": "UnEarned",
+            "CHRG_GRP_TYP_NM": "Root",
+            "CREATE_DTS": "2023-07-21T15:17:17.781000Z",
+            "CREATE_USR_ID_CD": "WDW-MDX-IOS-",
+            "GRP_DLGT_SML_BAL_WRTOFF_IN": "N",
+            "GUAR_TYP_NM": "NONE",
+            "JDO_SEQ_NB": 0,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-07-21T15:17:17.781000Z",
+            "UPDT_USR_ID_CD": "WDW-MDX-IOS-"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "gst_chrg_acct",
+            "table-name": "chrg_grp",
+            "timestamp": "2023-07-21T19:17:19.910876Z",
+            "transaction-id": 3564862885313
+        }
+    },
+    {
+        "data": {
+            "AUTH_PIN_ENCRPT_HASH_VL": "testteST1234Test45string",
+            "CHRG_GRP_ACTV_IN": "Y",
+            "CHRG_GRP_DS": "From Booking",
+            "CHRG_GRP_END_DTS": "2123-07-21T15:17:17Z",
+            "CHRG_GRP_ID": 57717723,
+            "CHRG_GRP_STRT_DTS": "2023-07-21T15:17:17Z",
+            "CHRG_GRP_STS_NM": "UnEarned",
+            "CHRG_GRP_TYP_NM": "Root",
+            "CREATE_DTS": "2023-07-21T15:17:17.781000Z",
+            "CREATE_USR_ID_CD": "WDW-MDX-IOS-",
+            "GRP_DLGT_SML_BAL_WRTOFF_IN": "N",
+            "GUAR_TYP_NM": "NONE",
+            "JDO_SEQ_NB": 1,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-07-21T15:17:17.781000Z",
+            "UPDT_USR_ID_CD": "WDW-MDX-IOS-"
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "gst_chrg_acct",
+            "table-name": "chrg_grp",
+            "timestamp": "2023-07-21T19:17:19.929139Z"
+        }
+    }
+]

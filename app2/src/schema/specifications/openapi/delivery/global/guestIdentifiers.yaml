@@ -1,0 +1,6 @@
+guestIdentifiers:
+  type: object
+  description: Key ring with list of common guest identifiers
+  properties:
+    swid:
+      $ref: "../openapi.yaml#/components/schemas/swid"

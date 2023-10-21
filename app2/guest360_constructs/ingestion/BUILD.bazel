@@ -1,0 +1,26 @@
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+
+py_lambda_library(
+    name = "ingestion_constructs",
+    srcs = glob(["**/*.py"]),
+    visibility = ["//visibility:public"],
+    deps = [
+        "//app/src/reliability",
+    ],
+)
+
+pytest_test(
+    name = "ingestion_constructs_tests",
+    srcs = glob([
+        "tests/*.py",
+    ]),
+    data = glob(["tests/config/*"]) + glob(["config/*"]) + ["//app:environment_infra_feature_flags"],
+    deps = [
+        ":ingestion_constructs",
+        "//app/guest360_constructs",
+        "//app/src/reliability:reliability_yamlhandler",
+        "//app/src/utils/feature_flag",
+        "//test_helpers",
+    ],
+)

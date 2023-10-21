@@ -1,0 +1,127 @@
+[
+    {
+        "data": {
+            "TC_EXTNL_REF_ID": 1324792699,
+            "TC_ID": 12089812538,
+            "TC_EXTNL_REF_TYP_NM": "CANDIDATE_ID",
+            "TC_EXTNL_SRC_NM": "Sales_Offer",
+            "TC_EXTNL_REF_VL": "1",
+            "CREATE_USR_ID_CD": "MOUSEM001",
+            "CREATE_DTS": "2023-05-22T12:23:21.297000Z",
+            "UPDT_USR_ID_CD": "WDPRO",
+            "UPDT_DTS": "2023-05-22T12:23:21.297000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": null,
+            "transact_seq": "20230522162329000000000001886981441"
+        },
+        "metadata": {
+            "timestamp": "2023-05-22T16:23:31.915253Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_extnl_ref",
+            "transaction-id": null
+        }
+    },
+    {
+        "data": {
+            "TC_EXTNL_REF_ID": 1324793000,
+            "TC_ID": 12089812538,
+            "TC_EXTNL_REF_TYP_NM": "REQUEST_ID",
+            "TC_EXTNL_SRC_NM": "Sales_Offer",
+            "TC_EXTNL_REF_VL": "20230522162211663",
+            "CREATE_USR_ID_CD": "MOUSEM001",
+            "CREATE_DTS": "2023-05-22T12:23:21.297000Z",
+            "UPDT_USR_ID_CD": "WDPRO",
+            "UPDT_DTS": "2023-05-22T12:23:21.297000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-05-22T16:23:29Z",
+            "transact_seq": "20230522162329000000000001886981445"
+        },
+        "metadata": {
+            "timestamp": "2023-05-22T16:23:31.926374Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_extnl_ref",
+            "transaction-id": 72666611985936
+        }
+    },
+    {
+        "data": {
+            "TC_EXTNL_REF_ID": 1324793001,
+            "TC_ID": 12089812538,
+            "TC_EXTNL_REF_TYP_NM": "QUOTE_ID",
+            "TC_EXTNL_SRC_NM": "Sales_Offer",
+            "TC_EXTNL_REF_VL": "d6657526-cad8-4c1e-a798-bd2f72d2f34f",
+            "CREATE_USR_ID_CD": "MOUSEM001",
+            "CREATE_DTS": "2023-05-22T12:23:21.297000Z",
+            "UPDT_USR_ID_CD": "WDPRO",
+            "UPDT_DTS": "2023-05-22T12:23:21.297000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-05-22T16:23:29Z",
+            "transact_seq": "20230522162329000000000001886981449"
+        },
+        "metadata": {
+            "timestamp": "2023-05-22T16:23:31.937802Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_extnl_ref",
+            "transaction-id": 72666611985936
+        }
+    },
+    {
+        "data": {
+            "TC_EXTNL_REF_ID": 1324793002,
+            "TC_ID": 12089812538,
+            "TC_EXTNL_REF_TYP_NM": "CONVERSATION_ID",
+            "TC_EXTNL_SRC_NM": "Sales_Offer",
+            "TC_EXTNL_REF_VL": "1c6e8365-c903-43e7-91aa-a94677238774",
+            "CREATE_USR_ID_CD": "MOUSEM001",
+            "CREATE_DTS": "2023-05-22T12:23:21.297000Z",
+            "UPDT_USR_ID_CD": "WDPRO",
+            "UPDT_DTS": "2023-05-22T12:23:21.297000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-05-22T16:23:29Z",
+            "transact_seq": "20230522162329000000000001886981453"
+        },
+        "metadata": {
+            "timestamp": "2023-05-22T16:23:31.948052Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_extnl_ref",
+            "transaction-id": 72666611985936
+        }
+    },
+    {
+        "data": {
+            "TC_EXTNL_REF_ID": 1324792367,
+            "TC_ID": 12089811105,
+            "TC_EXTNL_REF_TYP_NM": "RESERVATION",
+            "TC_EXTNL_SRC_NM": "Accovia",
+            "TC_EXTNL_REF_VL": "26538339#PBP#5",
+            "CREATE_USR_ID_CD": "MOUSEM001",
+            "CREATE_DTS": "2023-05-22T12:22:39.497000Z",
+            "UPDT_USR_ID_CD": "WDPRO",
+            "UPDT_DTS": "2023-05-22T12:22:39.497000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-05-22T16:23:29Z",
+            "transact_seq": "20230522162329000000000001886981469"
+        },
+        "metadata": {
+            "timestamp": "2023-05-22T16:23:31.986004Z",
+            "record-type": "data",
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_extnl_ref",
+            "transaction-id": 72666611985936
+        }
+    }
+]

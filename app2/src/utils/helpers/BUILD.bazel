@@ -1,0 +1,13 @@
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+py_lambda_library(
+    name = "helpers",
+    data = [
+        "__init__.py",
+        "dict_lookup.py",
+        "//app/src/utils",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+    ],
+)

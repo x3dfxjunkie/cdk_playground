@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+
+{% block title %}DDL Extractor{% endblock %}
+
+{% block css %}
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/ddl_extractor.css') }}" />
+{% endblock %}
+{% block js %}
+<script src="{{ url_for('static', filename='js/ddl_extractor.js') }}"></script>
+{% endblock %}
+
+{% block content %}
+<section>
+    <h1 class="display-1">DDL Extractor</h1>
+</section>
+<section id="form-section">
+    <h3 class="m-3">DDL Extractor tool requires a valid MariaDB or OracleDB credentials. Please, set your credentials on
+        the form
+        below to confirm DB authentication.</h3>
+    <form id="db-form" action="\ddl-extractor\database" method="post">
+        <div class="input-group mb-3">
+            <span class="input-group-text">Database Details</span>
+            <select class="form-select" name="conn-id" required>
+                <option selected value="" disabled>Select Connection Identifier</option>
+                {% for conn in conn_ids %}
+                <option value="{{conn}}">{{conn}}</option>
+                {% endfor %}
+            </select>
+            <input id="table-name" type="text" class="form-control" name="table-name" placeholder="Table Name (Optional)"
+                aria-label="Table Name">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">Secrets Manager Path</span>
+            <input type="text" class="form-control" id="secrets-path" name="secrets-path"
+                aria-describedby="Secrets Manager Path" placeholder="AWS Secrets Manager" required>
+            <input type="text" class="form-control" name="source_name" placeholder="Source Name" aria-label="Source"
+                required>
+        </div>
+        <div class="input-group mb-3">
+            <select name="tables-list" id="tables-list" class="form-select" size="6" multiple
+                style="display: none;"></select>
+        </div>
+        <div class="row mb-3">
+            <div class="col-6">
+                <button id="get-tables" class="col-12 btn btn-primary" type="submit">Get tables list</button>
+            </div>
+            <div class="col-6">
+                <button id="get-all-contracts" class="col-12 btn btn-success" onclick="getAllDataContracts(this);"
+                    disabled>Download All Data
+                    Contracts</button>
+            </div>
+        </div>
+    </form>
+</section>
+<section>
+    <div class="accordion mb-3" id="contracts-accordion"></div>
+</section>
+<section class="section">
+    <!--   Icon Section   -->
+    <div class="row">
+        <div class="col-sm-12 col-md-4">
+            <div class="icon-block">
+                <h4 class="text-center">Step 1</h4>
+                <h5 class="text-center">Provide Credentials</h5>
+                <p class="text-justify">
+                    In order to extract DDL schemas, the user must provide the DB credentials for log-in and specify the
+                    DB, Hostname, and port information.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4">
+            <div class="icon-block">
+                <h4 class="text-center">Step 2</h4>
+                <h5 class="text-center">Provide AWS Secret</h5>
+                <p class="text-justify">
+                    Provide the locations to the AWS secrets for the given DDL for proper login to each DB.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4">
+            <div class="icon-block">
+                <h4 class="text-center">Step 3</h4>
+                <h5 class="text-center">Choose Tables</h5>
+                <p class="text-justify">
+                    Users can either specify the table(s) to run in the table field, or leave that field blank and
+                    fill out all other credentials and then click "Get tables list" button to display a list of all
+                    tables from the given DB to select for contract creation.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

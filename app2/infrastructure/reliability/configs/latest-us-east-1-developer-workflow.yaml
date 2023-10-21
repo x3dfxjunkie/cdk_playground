@@ -1,0 +1,78 @@
+---
+stack_roles:
+  github_action_iam_role:
+    role:
+      assumed_by: !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.iam.Iam
+        kwds: { principal: "arn", value: "arn:aws:iam::795965727170:role/github_runner/ecs/github_runner-ecs-latest_role" }
+      description: "GitHub Runner"
+      max_session_duration: !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.duration.Duration
+        kwds: { unit: "hours", value: 1 }
+      path: "/"
+    policies:
+      - actions:
+          - "codebuild:StartBuild"
+          - "codebuild:BatchGet*"
+          - "codebuild:List*"
+        resources:
+          - "arn:aws:codebuild:us-east-1:543276908693:project/g360-orchestrator-codebuild-latest"
+      - actions:
+          - "cloudformation:List*"
+          - "cloudformation:Describe*"
+          - "cloudformation:DeleteStack"
+        resources:
+          - "arn:aws:cloudformation:us-*:543276908693:stack/*/*"
+      - actions:
+          - "states:StartExecution"
+          - "states:DescribeExecution"
+          - "states:StopExecution"
+        resources:
+          - "arn:aws:states:us-east-1:543276908693:stateMachine:*-execute_all_system_test"
+          - "arn:aws:states:us-east-1:543276908693:stateMachine:*-execute_system_test_*"
+          - "arn:aws:states:us-east-1:543276908693:execution:*execute_all_system_test:*"
+          - "arn:aws:states:us-east-1:543276908693:execution:*-execute_system_test_*:*"
+      - actions:
+          - "dynamodb:GetItem"
+        resources:
+          - "arn:aws:dynamodb:us-east-1:543276908693:table/*-guest360-load-testing-sfn-exec-state"
+      - actions:
+          - "s3:PutObject"
+          - "s3:GetObjectVersion"
+          - "s3:DeleteObject"
+          - "s3:DeleteObjectVersion"
+          - "s3:ListBucket"
+          - "s3:ListBucketVersions"
+          - "s3:GetObject"
+        resources:
+          - "arn:aws:s3:::*load-testing/*"
+          - "arn:aws:s3:::*load-testing"
+      - actions:
+          - "logs:Describe*"
+          - "logs:DeleteLogGroup"
+          - "logs:DeleteLogStream"
+        resources:
+          - "*"
+      - actions:
+          - "kms:Decrypt"
+          - "kms:GenerateDataKey"
+          - "kms:Encrypt"
+          - "kms:ReEncrypt"
+          - "kms:DescribeKey"
+        resources:
+          - "arn:aws:kms:us-east-1:543276908693:key/*"
+      - actions:
+          - "ecr:PutImage"
+          - "ecr:InitiateLayerUpload"
+          - "ecr:UploadLayerPart"
+          - "ecr:CompleteLayerUpload"
+          - "ecr:BatchCheckLayerAvailability"
+          - "ecr:DescribeRepositories"
+          - "ecr:DescribeImages"
+          - "ecr:BatchGetImage"
+          - "ecr:GetDownloadUrlForLayer"
+        resources:
+          - "arn:aws:ecr:us-east-1:543276908693:repository/cdk-hnb659fds-container-assets-543276908693-us-east-1"
+      - actions:
+          - "lambda:InvokeFunction"
+        resources:
+          - "arn:aws:lambda:us-east-1:543276908693:function:*-consolidate-tests-results"
+...

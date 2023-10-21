@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Error in the App{% endblock %}
+{% block content %}
+<div class="alert alert-warning" role="alert">
+    <h4 class="alert-heading">Oops... we seem to have made a mistake, sorry!</h4>
+    <p>
+    <h3>{{message}}</h3>
+    <small>{{error}}</small>
+    </p>
+    <hr>
+    <a type="button" class="btn btn-primary" href="{{ lambda_url_for('index') }}">Go back to main page</a>
+</div>
+{% endblock %}

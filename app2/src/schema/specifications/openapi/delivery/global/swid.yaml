@@ -1,0 +1,6 @@
+swid:
+  type: string
+  description: Registered Guest Starwave ID
+  pattern: "^\\{[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\\}$"
+  minLength: 36
+  maxLength: 38

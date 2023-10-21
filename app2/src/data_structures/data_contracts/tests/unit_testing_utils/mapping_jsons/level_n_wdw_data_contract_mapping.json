@@ -1,0 +1,382 @@
+{
+    "LevelNWDWLvlNEnttlStsModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_enttl_sts_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_enttl_sts"
+            }
+        }
+    },
+    "LevelNWDWApLvlNEnttlRvnModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_ap_lvl_n_enttl_rvn_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ap_lvl_n_enttl_rvn"
+            }
+        }
+    },
+    "LevelNWDWExtnlSysEnttlModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_extnl_sys_enttl_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "extnl_sys_enttl"
+            }
+        }
+    },
+    "LevelNWDWLvlNApDtlsModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_ap_dtls_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_ap_dtls"
+            }
+        }
+    },
+    "LevelNWDWLvlNProdConfigModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_prod_config_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_prod_config"
+            }
+        }
+    },
+    "LevelNWDWTktVoidTypModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_tkt_void_typ_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tkt_void_typ"
+            }
+        }
+    },
+    "LevelNWDWRevenueRecognitionAuditEntitlementidModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_revenue_recognition_audit_entitlementid_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "revenue_recognition_audit_entitlementid"
+            }
+        }
+    },
+    "LevelNWDWLvlNProdConfigPrdModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_prod_config_prd_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_prod_config_prd"
+            }
+        }
+    },
+    "LevelNWDWLvlNIssTypModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_iss_typ_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_iss_typ"
+            }
+        }
+    },
+    "LevelNWDWLvlNLnkModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_lnk_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_lnk"
+            }
+        }
+    },
+    "LevelNWDWLvlNAcctRconclModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_acct_rconcl_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_acct_rconcl"
+            }
+        }
+    },
+    "LevelNWDWExtnlSysEnttyModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_extnl_sys_entty_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "extnl_sys_entty"
+            }
+        }
+    },
+    "LevelNWDWLvlNFeatModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_feat_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_feat"
+            }
+        }
+    },
+    "LevelNWDWMmdpTicketPriceModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_mmdp_ticket_price_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "mmdp_ticket_price"
+            }
+        }
+    },
+    "LevelNWDWMmTicketDetailsModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_mm_ticket_details_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "mm_ticket_details"
+            }
+        }
+    },
+    "LevelNWDWInboundRestReqLogModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_inbound_rest_req_log_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "inbound_rest_req_log"
+            }
+        }
+    },
+    "LevelNWDWNtfctnStsModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_ntfctn_sts_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ntfctn_sts"
+            }
+        }
+    },
+    "LevelNWDWLvlNLnkAsscModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_lnk_assc_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_lnk_assc"
+            }
+        }
+    },
+    "LevelNWDWInboundRestRespLogModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_inbound_rest_resp_log_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "inbound_rest_resp_log"
+            }
+        }
+    },
+    "LevelNWDWLvlNEnttlModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_enttl_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_enttl"
+            }
+        }
+    },
+    "LevelNWDWLvlNLnkRlModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_lnk_rl_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_lnk_rl"
+            }
+        }
+    },
+    "LevelNWDWAppConfigModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_app_config_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "app_config"
+            }
+        }
+    },
+    "LevelNWDWApLvlNEnttlFiscalDtModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_ap_lvl_n_enttl_fiscal_dt_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ap_lvl_n_enttl_fiscal_dt"
+            }
+        }
+    },
+    "LevelNWDWLvlNRlCtgyModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_rl_ctgy_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_rl_ctgy"
+            }
+        }
+    },
+    "LevelNWDWExtnlAcctLnkModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_extnl_acct_lnk_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "extnl_acct_lnk"
+            }
+        }
+    },
+    "LevelNWDWLvlNRlModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_rl_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_rl"
+            }
+        }
+    },
+    "LevelNWDWLvlNEnttlLnkModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_enttl_lnk_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_enttl_lnk"
+            }
+        }
+    },
+    "LevelNWDWAppConfigDtlsModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_app_config_dtls_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "app_config_dtls"
+            }
+        }
+    },
+    "LevelNWDWGenieConstraintModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_genie_constraint_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "genie_constraint"
+            }
+        }
+    },
+    "LevelNWDWLvlNProdConfigActnTypModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_prod_config_actn_typ_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_prod_config_actn_typ"
+            }
+        }
+    },
+    "LevelNWDWLvlNEnttlTypSiteAsscModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_enttl_typ_site_assc_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_enttl_typ_site_assc"
+            }
+        }
+    },
+    "LevelNWDWCntntCacheModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_cntnt_cache_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "cntnt_cache"
+            }
+        }
+    },
+    "LevelNWDWExtnlSysModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_extnl_sys_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "extnl_sys"
+            }
+        }
+    },
+    "LevelNWDWLvlNChngModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_chng_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_chng"
+            }
+        }
+    },
+    "LevelNWDWRestReqLogModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_rest_req_log_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "rest_req_log"
+            }
+        }
+    },
+    "LevelNWDWRevenueRecognitionAuditModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_revenue_recognition_audit_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "revenue_recognition_audit"
+            }
+        }
+    },
+    "LevelNWDWLvlNRlTypModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_rl_typ_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_rl_typ"
+            }
+        }
+    },
+    "LevelNWDWLvlNFeatProdModel": {
+        "data-source-folder": "level_n_wdw/v0",
+        "data-contract-name": "level_n_wdw_lvl_n_feat_prod_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-level-n-wdw-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "lvl_n_feat_prod"
+            }
+        }
+    }
+}

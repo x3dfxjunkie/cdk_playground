@@ -1,0 +1,487 @@
+stack_extension: &se dreams-entl # 12 Character Limit!
+ingest_pattern: &ip dms # DO NOT UPDATE must = dms for dms pattern
+active: True
+feature_branch: False # set to False unless you want to deploy DMS in ephemeral envs
+pattern_instances:
+  - region: &region-1 us-east-1 # DO NOT UPDATE
+    resources:
+      kinesis_dmz:
+        retention_period: !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+        stream_mode: !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      kinesis:
+        retention_period: !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+        stream_mode: !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      dms_repl_instance:
+        engine_version: "3.5.1"
+        multi_az: True
+      dms_repl_task: # AWS DMS replication task
+        - &replication_task_definitions
+          replication_task_identifier: cdc # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: cdc # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: &rule_type selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: &rule_id "1" # Unique numeric value to identify the rule.
+                rule-name: &rule_name "1" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: &rule_schema "ENTTLMNT"
+                  table-name: "%" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: ful1
+          migration_type: full-load #Valid values: full-load,cdc,full-load-and-cdc
+          table_mappings:
+            rules:
+              - rule-type: *rule_type
+                rule-id: *rule_id
+                rule-name: *rule_name
+                rule-action: &rule_action explicit
+                object-locator:
+                  schema-name: *rule_schema
+                  table-name: "CHRG_ITEM_T"
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: ful2
+          migration_type: full-load #Valid values: full-load,cdc,full-load-and-cdc
+          table_mappings:
+            rules:
+              - rule-type: *rule_type
+                rule-id: *rule_id
+                rule-name: *rule_name
+                rule-action: *rule_action
+                object-locator:
+                  schema-name: *rule_schema
+                  table-name: "CPN_CHRG_AGE_TYP_T" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: ful3
+          migration_type: full-load #Valid values: full-load,cdc,full-load-and-cdc
+          table_mappings:
+            rules:
+              - rule-type: *rule_type
+                rule-id: *rule_id
+                rule-name: *rule_name
+                rule-action: *rule_action
+                object-locator:
+                  schema-name: *rule_schema
+                  table-name: "CPN_CHRG_EXTNL_REF_T" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: ful4
+          migration_type: full-load #Valid values: full-load,cdc,full-load-and-cdc
+          table_mappings:
+            rules:
+              - rule-type: *rule_type
+                rule-id: *rule_id
+                rule-name: *rule_name
+                rule-action: *rule_action
+                object-locator:
+                  schema-name: *rule_schema
+                  table-name: "CPN_CHRG_RDMPTN_T" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: ful5
+          migration_type: full-load #Valid values: full-load,cdc,full-load-and-cdc
+          table_mappings:
+            rules:
+              - rule-type: *rule_type
+                rule-id: *rule_id
+                rule-name: *rule_name
+                rule-action: *rule_action
+                object-locator:
+                  schema-name: *rule_schema
+                  table-name: "CPN_CHRG_RPST_DIFF_LOG_T" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: ful6
+          migration_type: full-load #Valid values: full-load,cdc,full-load-and-cdc
+          table_mappings:
+            rules:
+              - rule-type: *rule_type
+                rule-id: *rule_id
+                rule-name: *rule_name
+                rule-action: *rule_action
+                object-locator:
+                  schema-name: *rule_schema
+                  table-name: "CPN_CHRG_T" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: ful7
+          migration_type: full-load #Valid values: full-load,cdc,full-load-and-cdc
+          table_mappings:
+            rules:
+              - rule-type: *rule_type
+                rule-id: *rule_id
+                rule-name: *rule_name
+                rule-action: *rule_action
+                object-locator:
+                  schema-name: *rule_schema
+                  table-name: "CPN_TXN_T" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: ful8
+          migration_type: full-load #Valid values: full-load,cdc,full-load-and-cdc
+          table_mappings:
+            rules:
+              - rule-type: *rule_type
+                rule-id: *rule_id
+                rule-name: *rule_name
+                rule-action: *rule_action
+                object-locator:
+                  schema-name: *rule_schema
+                  table-name: "ENTTL_PLN_CPN_BAL_T" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: ful9
+          migration_type: full-load #Valid values: full-load,cdc,full-load-and-cdc
+          table_mappings:
+            rules:
+              - rule-type: *rule_type
+                rule-id: *rule_id
+                rule-name: *rule_name
+                rule-action: *rule_action
+                object-locator:
+                  schema-name: *rule_schema
+                  table-name: "ENTTL_PLN_EXT_REF_T" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: ful10
+          migration_type: full-load #Valid values: full-load,cdc,full-load-and-cdc
+          table_mappings:
+            rules:
+              - rule-type: *rule_type
+                rule-id: *rule_id
+                rule-name: *rule_name
+                rule-action: *rule_action
+                object-locator:
+                  schema-name: *rule_schema
+                  table-name: "ENTTL_PLN_GST_T" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: ful11
+          migration_type: full-load #Valid values: full-load,cdc,full-load-and-cdc
+          table_mappings:
+            rules:
+              - rule-type: *rule_type
+                rule-id: *rule_id
+                rule-name: *rule_name
+                rule-action: *rule_action
+                object-locator:
+                  schema-name: *rule_schema
+                  table-name: "ENTTL_PLN_T" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: ful12
+          migration_type: full-load #Valid values: full-load,cdc,full-load-and-cdc
+          table_mappings:
+            rules:
+              - rule-type: *rule_type
+                rule-id: *rule_id
+                rule-name: *rule_name
+                rule-action: *rule_action
+                object-locator:
+                  schema-name: *rule_schema
+                  table-name: "POS_CPN_CHRG_T" #Table qualifier
+        - <<: *replication_task_definitions
+          replication_task_identifier: low # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          migration_type: full-load #Valid values: full-load,cdc,full-load-and-cdc
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - &low_rule_definitions
+                rule-type: selection
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1"
+                rule-action: explicit
+                object-locator:
+                  schema-name: &low_rule_schema "ENTTLMNT"
+                  table-name: "CPN_MLTPLR_T"
+              - <<: *low_rule_definitions
+                rule-id: "2"
+                rule-name: "2"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "CPN_POS_LOC_CONFIG_T"
+              - <<: *low_rule_definitions
+                rule-id: "3"
+                rule-name: "3"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "CPN_PRFL_T"
+              - <<: *low_rule_definitions
+                rule-id: "4"
+                rule-name: "4"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "CPN_RDMPT_TYP_T"
+              - <<: *low_rule_definitions
+                rule-id: "5"
+                rule-name: "5"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "CPN_RSTRCT_TYP_T"
+              - <<: *low_rule_definitions
+                rule-id: "6"
+                rule-name: "6"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "ENTTL_EXT_REF_TYP_T"
+              - <<: *low_rule_definitions
+                rule-id: "7"
+                rule-name: "7"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "GID_T"
+              - <<: *low_rule_definitions
+                rule-id: "8"
+                rule-name: "8"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "POS_CPN_MEAL_PRD_T"
+              - <<: *low_rule_definitions
+                rule-id: "9"
+                rule-name: "9"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "POS_CPN_PRFL_T"
+              - <<: *low_rule_definitions
+                rule-id: "10"
+                rule-name: "10"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "TXN_PROC_TYP_T"
+              - <<: *low_rule_definitions
+                rule-id: "11"
+                rule-name: "11"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "TXN_RSN_T"
+              - <<: *low_rule_definitions
+                rule-id: "12"
+                rule-name: "12"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "TXN_RSN_TYP_T"
+              - <<: *low_rule_definitions
+                rule-id: "13"
+                rule-name: "13"
+                object-locator:
+                  schema-name: *low_rule_schema
+                  table-name: "TXN_TYP_T"
+      source_endpoint: # AWS DMS Source Endpoint.
+        engine_name: oracle # The type of engine for the endpoint, depending on the EndpointType value. Valid values : mysql | oracle | mariadb | kinesis
+        database_name: entlssvc.wdprapps.disney.com
+#        ssl_mode: verify-ca #Enable Secure Sockets Layer (SSL) mode to use for the SSL connection. Allowed values: verify-ca,verify-full
+        settings: # See https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Source.html
+#          server_timezone: US/Eastern # #Specifies the time zone for the target MySQL-compatible database, e.g., US/Eastern, US/Pacific, UTC / remove if UTC
+          secrets_manager_secret_id: arn:aws:secretsmanager:us-east-1:863175788676:secret:lod-use1-dreams-entitlement-secret-9nZEXP #pragma: allowlist secret, The ARN, or display name of the SecretsManagerSecret that contains the MySQL endpoint connection details.
+      source_kms_key: bdd188d7-b604-49c0-b320-5751cb4f321c # Update for the secrets_manager_secret_id kms key
+#      source_ssl_cert: rds-global-bundle # Update for the appropriate source dms certificate, most AWS DBs will use the rds-global-bundle by default
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_LOAD_LANDING # Needs update to appropriate default routing
+      data_contracts: # This section needs to be updated for all data contracts for the source
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_chrg_item_t_source_data_contract
+          class_name: DREAMSEntitlementsChrgItemTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CHRG_ITEM_T
+          router_database: &database LOAD_LANDING
+          router_schema: &schema LND_DREAMS_ENTITLEMENTS
+          router_table: CHRG_ITEM_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_cpn_chrg_extnl_ref_t_source_data_contract
+          class_name: DREAMSEntitlementsCpnChrgExtnlRefTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CPN_CHRG_EXTNL_REF_T
+          router_database: *database
+          router_schema: *schema
+          router_table: CPN_CHRG_EXTNL_REF_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_cpn_chrg_rdmptn_t_source_data_contract
+          class_name: DREAMSEntitlementsCpnChrgRdmptnTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CPN_CHRG_RDMPTN_T
+          router_database: *database
+          router_schema: *schema
+          router_table: CPN_CHRG_RDMPTN_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_cpn_chrg_t_source_data_contract
+          class_name: DREAMSEntitlementsCpnChrgTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CPN_CHRG_T
+          router_database: *database
+          router_schema: *schema
+          router_table: CPN_CHRG_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_cpn_pos_loc_config_t_source_data_contract
+          class_name: DREAMSEntitlementsCpnPosLocConfigTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CPN_POS_LOC_CONFIG_T
+          router_database: *database
+          router_schema: *schema
+          router_table: CPN_POS_LOC_CONFIG_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_cpn_prfl_t_source_data_contract
+          class_name: DREAMSEntitlementsCpnPrflTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CPN_PRFL_T
+          router_database: *database
+          router_schema: *schema
+          router_table: CPN_PRFL_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_cpn_txn_t_source_data_contract
+          class_name: DREAMSEntitlementsCpnTxnTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CPN_TXN_T
+          router_database: *database
+          router_schema: *schema
+          router_table: CPN_TXN_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_enttl_pln_cpn_bal_t_source_data_contract
+          class_name: DREAMSEntitlementsEnttlPlnCpnBalTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: ENTTL_PLN_CPN_BAL_T
+          router_database: *database
+          router_schema: *schema
+          router_table: ENTTL_PLN_CPN_BAL_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_enttl_pln_ext_ref_t_source_data_contract
+          class_name: DREAMSEntitlementsEnttlPlnExtRefTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: ENTTL_PLN_EXT_REF_T
+          router_database: *database
+          router_schema: *schema
+          router_table: ENTTL_PLN_EXT_REF_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_enttl_pln_t_source_data_contract
+          class_name: DREAMSEntitlementsEnttlPlnTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: ENTTL_PLN_T
+          router_database: *database
+          router_schema: *schema
+          router_table: ENTTL_PLN_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_pos_cpn_chrg_t_source_data_contract
+          class_name: DREAMSEntitlementsPosCpnChrgTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: POS_CPN_CHRG_T
+          router_database: *database
+          router_schema: *schema
+          router_table: POS_CPN_CHRG_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_pos_cpn_meal_prd_t_source_data_contract
+          class_name: DREAMSEntitlementsPosCpnMealPrdTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: POS_CPN_MEAL_PRD_T
+          router_database: *database
+          router_schema: *schema
+          router_table: POS_CPN_MEAL_PRD_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_pos_cpn_prfl_t_source_data_contract
+          class_name: DREAMSEntitlementsPosCpnPrflTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: POS_CPN_PRFL_T
+          router_database: *database
+          router_schema: *schema
+          router_table: POS_CPN_PRFL_T
+        #20230821
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_cpn_chrg_age_typ_t_source_data_contract
+          class_name: DREAMSEntitlementsCpnChrgAgeTypTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CPN_CHRG_AGE_TYP_T
+          router_database: *database
+          router_schema: *schema
+          router_table: CPN_CHRG_AGE_TYP_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_cpn_rdmpt_typ_t_source_data_contract
+          class_name: DREAMSEntitlementsCpnRdmptTypTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CPN_RDMPT_TYP_T
+          router_database: *database
+          router_schema: *schema
+          router_table: CPN_RDMPT_TYP_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_cpn_rstrct_typ_t_source_data_contract
+          class_name: DREAMSEntitlementsCpnRstrctTypTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CPN_RSTRCT_TYP_T
+          router_database: *database
+          router_schema: *schema
+          router_table: CPN_RSTRCT_TYP_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_enttl_ext_ref_typ_t_source_data_contract
+          class_name: DREAMSEntitlementsEnttlExtRefTypTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: ENTTL_EXT_REF_TYP_T
+          router_database: *database
+          router_schema: *schema
+          router_table: ENTTL_EXT_REF_TYP_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_enttl_pln_gst_t_source_data_contract
+          class_name: DREAMSEntitlementsEnttlPlnGstTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: ENTTL_PLN_GST_T
+          router_database: *database
+          router_schema: *schema
+          router_table: ENTTL_PLN_GST_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_txn_proc_typ_t_source_data_contract
+          class_name: DREAMSEntitlementsTxnProcTypTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: TXN_PROC_TYP_T
+          router_database: *database
+          router_schema: *schema
+          router_table: TXN_PROC_TYP_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_txn_rsn_t_source_data_contract
+          class_name: DREAMSEntitlementsTxnRsnTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: TXN_RSN_T
+          router_database: *database
+          router_schema: *schema
+          router_table: TXN_RSN_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_txn_rsn_typ_t_source_data_contract
+          class_name: DREAMSEntitlementsTxnRsnTypTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: TXN_RSN_TYP_T
+          router_database: *database
+          router_schema: *schema
+          router_table: TXN_RSN_TYP_T
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_txn_typ_t_source_data_contract
+          class_name: DREAMSEntitlementsTxnTypTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: TXN_TYP_T
+          router_database: *database
+          router_schema: *schema
+          router_table: TXN_TYP_T
+        #20230905
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.entitlements.v0.dreams_entitlements_cpn_chrg_rpst_diff_log_t_source_data_contract
+          class_name: DREAMSEntitlementsCpnChrgRpstDiffLogTModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CPN_CHRG_RPST_DIFF_LOG_T
+          router_database: *database
+          router_schema: *schema
+          router_table: CPN_CHRG_RPST_DIFF_LOG_T

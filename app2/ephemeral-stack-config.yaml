@@ -1,0 +1,100 @@
+---
+# Ephemeral Stack Config
+### For deeper understanding/troubleshooting use: pytest app/infrastructure/reliability/tests/test_enable_stack.py
+### https://github.disney.com/pages/data-products-and-platforms/guest360/runbooks/deployment/ephemeral_stack_activation/
+auditing: true
+stacks:
+  ## Infrastructure
+  Infrastructure:
+    force_enable: false
+
+  Docker:
+    force_enable: false
+    children:
+      - Docker/AnalyticsEngineering
+      - Docker/Infrastructure
+      - Docker/Ingestion
+      - Docker/LoadTesting
+      - Docker/Otel
+
+  Docker/AnalyticsEngineering:
+    force_enable: false
+
+  Docker/Infrastructure:
+    force_enable: false
+
+  Docker/Ingestion:
+    force_enable: false
+
+  Docker/LoadTesting:
+    force_enable: false
+
+  Docker/Otel:
+    force_enable: false
+
+  ## Ingestion
+  Ingestion:
+    force_enable: false
+    required_by:
+      - Processing
+      - DataService
+      - LoadTesting/Static
+    children:
+      - Ingestion/Messaging
+      - Ingestion/Kinesis2Kinesis
+      - Ingestion/DMS
+
+  Ingestion/Messaging:
+    force_enable: false
+
+  Ingestion/Kinesis2Kinesis:
+    force_enable: false
+    required_by:
+      - LoadTesting/KinesisIngest
+
+  Ingestion/DMS:
+    force_enable: false
+    children:
+      - Ingestion/DMS/Certificates
+
+  Ingestion/DMS/Certificates:
+    force_enable: false
+
+
+  ## Load Testing
+  LoadTesting/Static:
+    force_enable: false
+    required_by:
+      - LoadTesting/KinesisIngest
+
+  LoadTesting/KinesisIngest:
+    force_enable: false
+
+  LoadTesting/DMS:
+    force_enable: false
+
+  LoadTesting/Messaging:
+    force_enable: false
+
+
+  ## Identity
+  Identity:
+    force_enable: false
+    required_by:
+      - Processing
+      - DataService
+
+  ## Processing
+  Processing:
+    force_enable: false
+    required_by:
+      - DataService
+
+  ## Data Service
+  DataService:
+    force_enable: false
+    children:
+      - DataService/Consumer
+
+  DataService/Consumer:
+    force_enable: false

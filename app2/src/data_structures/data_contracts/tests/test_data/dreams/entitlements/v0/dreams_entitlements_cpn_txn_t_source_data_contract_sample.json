@@ -1,0 +1,2701 @@
+[
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:33:20.126000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T10:33:20.126000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T14:33:21.885852Z"
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:41:20.269000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:41:20.269000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:41:24.640530Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:41:20.269000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:41:20.269000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:41:24.706135Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:21:21.613000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T13:21:21.613000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T17:21:23.386094Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T09:36:51.707000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": "chg pkg",
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": "ACOTH",
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T09:36:51.707000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T13:36:57.376165Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:33:36.385000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:33:36.385000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:33:41.361836Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:34:12.730000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:34:12.730000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:34:17.734603Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:34:12.730000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:34:12.730000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:34:17.791491Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:34:18.694000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:34:18.694000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:34:22.952363Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:34:18.694000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:34:18.694000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:34:23.011344Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:34:18.694000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:34:18.694000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:34:23.068657Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:34:18.694000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:34:18.694000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:34:23.130698Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:11:49.997000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T13:11:49.997000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T17:11:57.070339Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:11:49.997000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T13:11:49.997000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T17:11:57.150391Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:00:54.089000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T13:00:54.089000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T17:00:57.318411Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:01:54.170000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T13:01:54.170000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T17:01:57.822261Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:01:54.170000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T13:01:54.170000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T17:01:57.882161Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:01:54.170000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T13:01:54.170000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T17:01:57.988809Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:51:57.111000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T10:51:57.111000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T14:52:00.826010Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:51:57.111000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T10:51:57.111000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T14:52:00.884533Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:35:14.028000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:35:14.028000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:35:14.997502Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:35:47.577000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:35:47.577000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:35:51.417164Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:23:30.582000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:23:30.582000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:23:37.477447Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:24:26.969000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:24:26.969000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:24:34.790937Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:24:33.922000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:24:33.922000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:24:40.794160Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:38:46.894000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:38:46.894000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:38:49.764784Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:13:45.764000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:13:45.764000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:13:52.056837Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:14:30.880000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:14:30.880000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:14:33.364481Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:10:30.085000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:10:30.085000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:10:36.488194Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:10:42.363000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:10:42.363000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:10:48.269157Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:40:17.426000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:40:17.426000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:40:20.831845Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:41:08.824000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:41:08.824000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:41:15.473996Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:29:57.819000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:29:57.819000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:30:02.942832Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:30:34.574000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:30:34.574000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:30:39.329578Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:02:45.898000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T13:02:45.898000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T17:02:52.144439Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:03:43.129000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T13:03:43.129000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T17:03:46.572224Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:32:11.645000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T10:32:11.645000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T14:32:15.825355Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:15:10.198000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:15:10.198000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:15:14.676889Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:15:40.279000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:15:40.279000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:15:44.197203Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:15:50.072000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:15:50.072000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:15:56.012087Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:15:51.318000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:15:51.318000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:15:56.077297Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:16:09.367000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:16:09.367000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:16:13.732614Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:16:23.740000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:16:23.740000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:16:25.550936Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:22:45.385000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T10:22:45.385000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T14:22:50.429270Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:53:29.672000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:53:29.672000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:53:33.606486Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:53:29.672000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:53:29.672000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:53:33.674527Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:53:29.672000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:53:29.672000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:53:33.741964Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:16:58.847000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:16:58.847000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:17:01.083653Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:17:09.532000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:17:09.532000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:17:13.060066Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:17:37.207000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:17:37.207000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:17:42.651975Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:17:41.683000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:17:41.683000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:17:48.542278Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:55:50.737000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T13:55:50.737000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T17:55:57.867760Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:03:36.877000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:03:36.877000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:03:39.962670Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:03:36.877000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:03:36.877000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:03:40.045768Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:28:11.898000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:28:11.898000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:28:16.875913Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:47:42.261000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:47:42.261000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:47:44.699935Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:47:42.261000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:47:42.261000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:47:44.754099Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:08:33.333000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T13:08:33.333000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T17:08:37.533451Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:08:33.333000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T13:08:33.333000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T17:08:37.601563Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:21:36.535000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:21:36.535000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:21:40.529047Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:25:41.132000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T10:25:41.132000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T14:25:46.088995Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:25:41.132000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T10:25:41.132000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T14:25:46.146518Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:28:09.082000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:28:09.082000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:28:13.806229Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:28:18.217000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:28:18.217000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:28:18.949868Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:04:53.507000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:04:53.507000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:04:56.437555Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:04:53.507000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:04:53.507000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:04:56.499464Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:04:53.507000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:04:53.507000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:04:56.564848Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:04:53.507000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:04:53.507000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:04:56.621078Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:49:44.450000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T10:49:44.450000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T14:49:48.387547Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:48:57.301000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:48:57.301000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:49:02.760605Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:49:25.776000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:49:25.776000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:49:28.797984Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:49:25.776000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:49:25.776000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:49:28.864775Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:49:25.776000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:49:25.776000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:49:28.928664Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:49:55.554000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:49:55.554000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:50:00.033191Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:01:51.028000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:01:51.028000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:01:54.865035Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:02:35.420000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:02:35.420000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:02:36.597931Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:40:02.129000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:40:02.129000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:40:06.413390Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:40:49.610000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:40:49.610000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:40:53.347090Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:37:31.545000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:37:31.545000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:37:36.874854Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:38:29.512000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:38:29.512000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:38:31.610778Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:47:40.120000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:47:40.120000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:47:41.845250Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:48:21.329000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:48:21.329000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:48:23.977246Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:48:21.329000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:48:21.329000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:48:24.059485Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:48:21.329000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:48:21.329000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:48:24.134177Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:48:21.329000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:48:21.329000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:48:24.209920Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T13:26:57.701000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T13:26:57.701000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T17:27:02.116161Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:15:13.352000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:15:13.352000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:15:19.355814Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:15:13.352000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:15:13.352000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:15:19.421623Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:15:13.352000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:15:13.352000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:15:19.492186Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:15:33.107000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:15:33.107000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:15:34.661612Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:15:33.107000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:15:33.107000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:15:34.737272Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:15:33.107000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:15:33.107000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:15:34.833111Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:49:10.052000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:49:10.052000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:49:12.476818Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:07:06.388000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:07:06.388000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:07:09.177267Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:07:06.388000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:07:06.388000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:07:09.239007Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:07:06.388000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:07:06.388000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:07:09.303485Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:07:31.539000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:07:31.539000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:07:34.710280Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T11:07:32.367000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T11:07:32.367000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T15:07:34.780753Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T10:44:24.015000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T10:44:24.015000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T14:44:28.033229Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_CHRG_ID": 123456789,
+            "CREATE_DTS": "2023-08-22T12:41:35.412000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "JDO_SEQ_NB": 0,
+            "ORIG_CHRG_FOLIO_INDICATOR": "0",
+            "ORIG_CHRG_ID": null,
+            "PRGE_DTS": null,
+            "TXN_CMT_TX": null,
+            "TXN_ID": "123456789",
+            "TXN_PROC_TYP_NM": "Created",
+            "TXN_RSN_CD": null,
+            "TXN_TYP_NM": "SALE",
+            "UPDT_DTS": "2023-08-22T12:41:35.412000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "CPN_TXN_T",
+            "timestamp": "2023-08-22T16:41:39.816909Z",
+            "transaction-id": 1234567
+        }
+    }
+]

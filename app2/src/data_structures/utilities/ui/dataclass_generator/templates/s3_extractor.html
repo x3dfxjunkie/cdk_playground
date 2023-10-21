@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block css %}{% endblock %}
+{% block js %}
+<script src="{{lambda_url_for('static', filename='js/s3_extractor.js')}}"></script>
+{% endblock %}
+
+{% block content %}
+<section class="text-center">
+    <div class="row">
+        <img class src="{{lambda_url_for('static', filename = 'img/Data-Contract-Auto-Mater.png') }}">
+        <h5 class="row header col-sm-12 light">
+            The Data Contract Auto-Mater tool allows users to load JSON, CSV, XML, or
+            openAPI (Yaml) files and process them to generate data contract framework.
+        </h5>
+    </div>
+    <div class="p-1 py-2">
+        <div class="py-2">
+            <h6 class="p-1">
+                Type in S3 Location or s3 location prefix
+            </h6>
+            <form action="/s3-extractor" method="get" id="s3-process">
+                <div class="input-group">
+                    <input type="text" name="S3Location" placeholder="S3 Location" class="form-control form-control-lg"
+                        id="s3-location" required>
+                    <button class="btn btn-outline-secondary" type="submit" id="s3-process-btn"
+                        value="s3_location">Process</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+{% if data_contract is defined %}
+<section id="output-container" class="py-2">
+    <h4 id="header-output">Output:</h4>
+    <div class="form-floating">
+        <textarea class="form-control" placeholder="Data Contract" id="output-box"
+            style="height: 500px">{{data_contract}}</textarea>
+        <label for="output-box">Data Contract</label>
+    </div>
+    <div class="d-grid gap-2 mt-2">
+        <button class="btn btn-primary btn-lg" type="button" id="copy-button" onclick="copyToClipboard()">Copy</button>
+    </div>
+</section>
+{% endif %}
+
+
+<section class="section py-2">
+    <!--   Icon Section   -->
+    <div class="row">
+        <div class="col-sm-12 col-md-4">
+            <div class="icon-block">
+                <h4 class="text-center">Step 1</h4>
+                <h5 class="text-center">AWS Connection</h5>
+                <p class="text-justify">
+                    Auto-Mater will hit AWS S3 buckets when running in AWS Lambda.
+                    Make sure you are running this on AWS Endpoint.
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <div class="icon-block">
+                <h4 class="text-center">Step 2</h4>
+                <h5 class="text-center">Find AWS S3 Bucket path</h5>
+                <p class="text-justify">
+                    Find a valid AWS S3 Bucket path where data is stored. It must match the common S3 patter path.
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <div class="icon-block">
+                <h4 class="text-center">Step 3</h4>
+                <h5 class="text-center">Process File</h5>
+                <p class="text-justify">
+                    Click on Process button and wait for data contract to appear.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

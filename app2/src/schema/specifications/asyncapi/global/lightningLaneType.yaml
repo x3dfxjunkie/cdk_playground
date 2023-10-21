@@ -1,0 +1,6 @@
+lightningLaneType:
+  type: string
+  description: Curated status of the Experience Paradigm
+  enum:
+    - "Genie+"
+    - "Individual"

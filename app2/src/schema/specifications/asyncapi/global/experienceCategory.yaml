@@ -1,0 +1,11 @@
+experienceCategory:
+  type: string
+  description: Corresponding Experience category with the Experience Paradigm
+  enum:
+    - Lightning Lane
+    - Gate Click
+    - Resort Reservation
+    - Experience Reservation
+    - Dining Reservation
+    - Park Reservation
+    - Ride Complete

@@ -1,0 +1,38 @@
+disney_internal_cidr_blocks:
+  ipv4:
+    - "10.0.0.0/8"
+    - "192.168.0.0/16"
+    - "172.16.0.0/12"
+
+account_ids:
+  local: "000000000000"
+  latest: &latest_account_id "543276908693"
+  test: &test_account_id "863175788676"
+  stage: *test_account_id
+  load: *test_account_id
+  prod: &prod_account_id "920268603720"
+
+regions:
+  primary: &primary_region "us-east-1"
+  global: *primary_region
+  high_availability_region: &ha_region "us-west-2"
+
+ecr:
+  source_repos:
+    - name: BaseImage
+      arn: "arn:aws:ecr:us-east-1:876496569223:repository/wdpr-ra/wdpr-ra-docker-base-root-debian12"
+      type: external
+    - name: InternalBaseImage
+      prefix: "guest360/infrastructure/base_image"
+      type: internal
+  standard_replications:
+    latest:
+      - registry_id: *latest_account_id
+        region: *ha_region
+    stage:
+      - registry_id: *test_account_id
+        region: *ha_region
+      - registry_id: *prod_account_id
+        region: *primary_region
+      - registry_id: *prod_account_id
+        region: *ha_region

@@ -1,0 +1,2801 @@
+[
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 5,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:49:15.876000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-11-06T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:49:15.876000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:49:16.464775Z"
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:49:15.876000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-11-06T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:49:15.876000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:49:16.585023Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:49:56.501000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:49:56.501000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:49:59.661459Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:49:56.501000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:49:56.501000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:49:59.745083Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:33:32.086000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:33:32.086000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:33:37.819098Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:33:32.086000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:33:32.086000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:33:37.925484Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 5,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:03:36.742000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:03:36.742000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:03:39.661835Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:03:36.742000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:03:36.742000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:03:39.800009Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 4,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:28:04.822000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:28:04.822000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:28:08.616526Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:28:04.822000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:28:04.822000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:28:08.750975Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 5,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:28:32.822000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:28:32.822000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:28:35.518437Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:28:32.822000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:28:32.822000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:28:35.629191Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:28:33.512000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:28:33.512000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:28:35.750925Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:28:33.512000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:28:33.512000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:28:35.814133Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 4,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:53:25.981000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:53:25.981000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:53:30.590070Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:53:25.981000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:53:25.981000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:53:30.710310Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 1,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:54:20.083000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-09-02T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:54:20.083000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:54:24.577427Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:54:20.083000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-09-02T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:54:20.083000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:54:24.669877Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:09:09.541000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:09:09.541000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:09:13.499822Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:09:09.541000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:09:09.541000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:09:13.605744Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 5,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:23:40.331000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:23:40.331000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:23:46.884957Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:23:40.331000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:23:40.331000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:23:47.028208Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:46:09.935000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:46:09.935000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:46:14.728844Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 1,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:46:09.935000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:46:09.935000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:46:14.832370Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:46:53.953000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:46:53.953000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:47:02.069545Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:46:53.953000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:46:53.953000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:47:02.164022Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 4,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:19:19.619000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:19:19.619000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:19:24.517145Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:19:19.619000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:19:19.619000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:19:24.629722Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:05:41.507000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:05:41.507000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:05:42.031932Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:05:41.507000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:05:41.507000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:05:42.126963Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:21:15.965000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:21:15.965000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:21:19.263054Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:21:15.965000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:21:15.965000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:21:19.396354Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 4,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:21:30.011000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:21:30.011000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:21:35.175273Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 1,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:21:30.011000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:21:30.011000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:21:35.313878Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:10:50.976000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:10:50.976000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:10:56.193169Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:10:50.976000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:10:50.976000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:10:56.264930Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:17:10.735000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:17:10.735000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:17:15.539020Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:17:10.735000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:17:10.735000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:17:15.636738Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:17:23.605000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:17:23.605000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:17:26.365044Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:17:23.605000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:17:23.605000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:17:26.453990Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:17:28.696000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:17:28.696000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:17:31.776877Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:17:28.696000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:17:28.696000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:17:31.844900Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:17:34.488000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:17:34.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:17:37.192553Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:17:34.488000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:17:34.488000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:17:37.259118Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:17:38.045000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:17:38.045000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:17:42.605973Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 1,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:17:38.045000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:17:38.045000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:17:42.719581Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:37:57.730000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:37:57.730000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:38:04.812873Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:37:57.730000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:37:57.730000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:38:04.913189Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 4,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:47:40.370000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:47:40.370000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:47:49.418139Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:47:40.370000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:47:40.370000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:47:49.538247Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 1,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:48:06.790000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:48:06.790000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:48:13.049704Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:48:06.790000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:48:06.790000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:48:13.177866Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:21:45.079000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:21:45.079000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:21:46.818884Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:21:45.079000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:21:45.079000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:21:46.929361Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:21:48.755000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:21:48.755000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:21:52.231793Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 1,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:21:48.755000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:21:48.755000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:21:52.301795Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 1,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:21:52.865000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-12-09T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:21:52.865000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:21:57.647199Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:21:52.865000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-12-09T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:21:52.865000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:21:57.702230Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:13:45.764000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:13:45.764000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:13:48.615934Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:13:45.764000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:13:45.764000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:13:48.716496Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:03:59.732000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:03:59.732000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:04:04.767326Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:03:59.732000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:03:59.732000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:04:04.856595Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 4,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:25:36.683000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:25:36.683000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:25:47.243852Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:25:36.683000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:25:36.683000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:25:47.361452Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 3,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:25:43.618000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:25:43.618000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:25:47.447283Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 1,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:25:43.618000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:25:43.618000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:25:47.529648Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:12:54.883000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:12:54.883000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:12:55.578328Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:12:54.883000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:12:54.883000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:12:55.672420Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:13:21.307000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:13:21.307000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:13:22.645492Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:13:21.307000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:13:21.307000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:13:22.728137Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:10:39.916000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:10:39.916000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:10:45.458723Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:10:39.916000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:10:39.916000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:10:45.560168Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:11:01.594000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:11:01.594000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:11:07.106779Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 1,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:11:01.594000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:11:01.594000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:11:07.199618Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:27:21.196000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:27:21.196000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:27:23.986671Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:27:21.196000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:27:21.196000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:27:24.119350Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:27:38.783000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:27:38.783000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:27:40.463956Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:27:38.783000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:27:38.783000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:27:40.568662Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:58:41.910000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:58:41.910000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:58:44.046981Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:58:41.910000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:58:41.910000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:58:44.153889Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 3,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:59:27.545000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:59:27.545000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:59:32.778851Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 1,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:59:27.545000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:59:27.545000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:59:32.885210Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 5,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:59:27.895000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:59:27.895000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:59:32.967286Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:59:27.895000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:59:27.895000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:59:33.077069Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:32:35.878000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:32:35.878000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:32:41.011143Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T11:32:35.878000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T11:32:35.878000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T15:32:41.154123Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:15:56.496000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:15:56.496000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:16:01.023656Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:15:56.496000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:15:56.496000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:16:01.117119Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 3,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:32:42.814000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:32:42.814000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:32:44.025734Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:32:42.814000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:32:42.814000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:32:44.131252Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 3,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:57:48.878000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-12-30T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:57:48.878000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:57:53.313419Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 1,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:57:48.878000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-12-30T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:57:48.878000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:57:53.407129Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:58:37.861000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:58:37.861000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:58:43.072146Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T13:58:37.861000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T13:58:37.861000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T17:58:43.165696Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 2,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:43:59.802000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:43:59.802000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:44:03.725064Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:43:59.802000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:43:59.802000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:44:03.823341Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 3,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:17:13.492000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:17:13.492000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:17:15.178978Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:17:13.492000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:17:13.492000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:17:15.285765Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 5,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:17:13.854000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Adult",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:17:13.854000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:17:15.388636Z",
+            "transaction-id": 1234567
+        }
+    },
+    {
+        "data": {
+            "CPN_AM": null,
+            "CPN_CN": 0,
+            "CPN_PRFL_ID": 1234567890,
+            "CREATE_DTS": "2023-08-23T12:17:13.854000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_PLN_DS": "Quick Service Child",
+            "ENTTL_PLN_END_DT": "2023-08-25T00:00:00Z",
+            "ENTTL_PLN_ID": 12345678,
+            "ENTTL_PLN_STRT_DT": "2023-08-23T00:00:00Z",
+            "INCOGNITO": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_DTS": "2023-08-23T12:17:13.854000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_PLN_T",
+            "timestamp": "2023-08-23T16:17:15.500217Z",
+            "transaction-id": 1234567
+        }
+    }
+]

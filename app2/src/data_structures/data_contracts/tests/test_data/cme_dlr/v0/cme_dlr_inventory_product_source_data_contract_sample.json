@@ -1,0 +1,219 @@
+[
+    {
+        "data": {
+            "id": "DLR_AP",
+            "name": "Annual Pass Inventory",
+            "destination_id": "DLR",
+            "category_id": "AP",
+            "percent_of_capacity_target": 40,
+            "last_updated": "2020-06-02T23:14:22Z",
+            "update_usr": null,
+            "created_on": "2020-04-21T11:30:41Z",
+            "created_usr": null
+        },
+        "metadata": {
+            "timestamp": "2022-10-16T06:56:33.568439Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "DLR_CAST_COMP",
+            "name": " Cast Complimentary Tickets",
+            "destination_id": "DLR",
+            "category_id": "CAST_COMP",
+            "last_updated": "2020-08-04T20:38:17Z",
+            "created_on": "2020-08-04T20:38:17Z",
+            "created_usr": "MICKEYM01"
+        },
+        "metadata": {
+            "timestamp": "2022-10-16T06:56:33.578546Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "DLR_CM_PREVIEW",
+            "name": "Cast Member Event",
+            "destination_id": "DLR",
+            "category_id": "CM_PREVIEW",
+            "last_updated": "2020-09-21T13:07:06Z",
+            "created_on": "2020-09-21T13:07:06Z",
+            "created_usr": "MICKEYM01"
+        },
+        "metadata": {
+            "timestamp": "2022-10-16T06:56:33.588293Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "DLR_COMP",
+            "name": "Complimentary Ticket Inventory",
+            "destination_id": "DLR",
+            "category_id": "COMP",
+            "last_updated": "2020-06-02T16:14:01Z",
+            "created_on": "2020-06-02T16:14:01Z",
+            "created_usr": "MICKEYM01"
+        },
+        "metadata": {
+            "timestamp": "2022-10-16T06:56:33.598643Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "DLR_GROUPS",
+            "name": "Non-Leisure Products",
+            "destination_id": "DLR",
+            "category_id": "GROUPS",
+            "last_updated": "2021-09-02T09:49:41Z",
+            "created_on": "2021-09-02T09:49:41Z",
+            "created_usr": "MICKEYM01"
+        },
+        "metadata": {
+            "timestamp": "2022-10-16T06:56:33.606784Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "DLR_NONE",
+            "name": "No inventory mapping",
+            "destination_id": "DLR",
+            "category_id": "NONE",
+            "last_updated": "2020-08-04T20:38:42Z",
+            "created_on": "2020-08-04T20:38:42Z",
+            "created_usr": "MICKEYM01"
+        },
+        "metadata": {
+            "timestamp": "2022-10-16T06:56:33.617391Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "DLR_PH",
+            "name": "Park Hopper Inventory",
+            "destination_id": "DLR",
+            "category_id": "PH",
+            "last_updated": "2020-06-02T23:14:39Z",
+            "update_usr": null,
+            "created_on": "2020-06-02T16:13:18Z",
+            "created_usr": "MICKEYM01"
+        },
+        "metadata": {
+            "timestamp": "2022-10-16T06:56:33.626449Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "DLR_RESORT",
+            "name": "Resort Guest Inventory",
+            "destination_id": "DLR",
+            "category_id": "RESORT",
+            "percent_of_capacity_target": null,
+            "last_updated": "2020-06-02T23:14:55Z",
+            "update_usr": null,
+            "created_on": "2020-04-21T11:30:41Z",
+            "created_usr": "MICKEYM01"
+        },
+        "metadata": {
+            "timestamp": "2022-10-16T06:56:33.637699Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "DLR_TICKET",
+            "name": "Theme Park Ticket Inventory",
+            "destination_id": "DLR",
+            "category_id": "TICKET",
+            "percent_of_capacity_target": 10,
+            "last_updated": "2020-06-02T23:15:40Z",
+            "update_usr": null,
+            "created_on": "2020-04-21T11:30:41Z",
+            "created_usr": "MICKEYM01"
+        },
+        "metadata": {
+            "timestamp": "2022-10-16T06:56:33.648631Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "DLR_VIP",
+            "name": "VIP Main Entrance Pass and Club 33",
+            "destination_id": "DLR",
+            "category_id": "VIP",
+            "last_updated": "2020-09-11T13:41:25Z",
+            "created_on": "2020-09-11T13:41:25Z",
+            "created_usr": "MICKEYM01"
+        },
+        "metadata": {
+            "timestamp": "2022-10-16T06:56:33.658766Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "inventory_product"
+        }
+    },
+    {
+        "data": {
+            "id": "DLR_OFFER",
+            "name": "Promotional Ticket",
+            "destination_id": "DLR",
+            "category_id": "OFFER",
+            "last_updated": "2023-05-08T11:07:29Z",
+            "created_on": "2023-05-08T11:07:29Z",
+            "created_usr": "MICKEYM01"
+        },
+        "metadata": {
+            "timestamp": "2023-05-08T18:07:35.912446Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "awakening",
+            "table-name": "inventory_product",
+            "transaction-id": 1336404845921512
+        }
+    }
+]

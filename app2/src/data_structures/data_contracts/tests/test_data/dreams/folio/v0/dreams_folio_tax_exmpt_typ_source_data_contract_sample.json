@@ -1,0 +1,96 @@
+[
+    {
+        "data": {
+            "TAX_EXMPT_TYP_NM": "DIPLOMATS",
+            "CREATE_USR_ID_CD": "PMSRAPPID",
+            "CREATE_DTS": "2009-04-08T22:44:21.000Z"
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:02:00.413880Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "TAX_EXMPT_TYP"
+        }
+    },
+    {
+        "data": {
+            "TAX_EXMPT_TYP_NM": "RSR Non-Taxable",
+            "CREATE_USR_ID_CD": "QC22772_BHM",
+            "CREATE_DTS": "2010-04-09T16:11:48.938Z"
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:34:09.796620Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "TAX_EXMPT_TYP",
+            "transaction-id": 983055
+        }
+    },
+    {
+        "data": {
+            "TAX_EXMPT_TYP_NM": "Military",
+            "CREATE_USR_ID_CD": "PMSRAPPID",
+            "CREATE_DTS": "2009-04-08T22:44:21.000Z"
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:50:38.177366Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "TAX_EXMPT_TYP",
+            "transaction-id": 458786
+        }
+    },
+    {
+        "data": {
+            "TAX_EXMPT_TYP_NM": "Federal Government Employees",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2009-10-21T18:36:58.288Z"
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:51:32.310602Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "TAX_EXMPT_TYP",
+            "transaction-id": 1835051
+        }
+    },
+    {
+        "data": {
+            "TAX_EXMPT_TYP_NM": "Non-Federal Govt Employees",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2009-10-21T18:38:49.155Z"
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T01:43:59.316378Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "TAX_EXMPT_TYP",
+            "transaction-id": 1638444
+        }
+    },
+    {
+        "data": {
+            "TAX_EXMPT_TYP_NM": "Not For Profit",
+            "CREATE_USR_ID_CD": "LILOCONV",
+            "CREATE_DTS": "2009-10-21T18:38:49.296Z"
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T02:55:17.813713Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "TAX_EXMPT_TYP"
+        }
+    }
+]

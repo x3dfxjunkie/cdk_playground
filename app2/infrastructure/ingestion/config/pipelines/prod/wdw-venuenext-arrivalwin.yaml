@@ -1,0 +1,20 @@
+stack_extension: &se wdw-venuenext-arrivalwin
+ingest_pattern: kinesis2kinesis
+active: False
+pattern_instances:
+  - region: us-east-1
+    resources:
+      kinesis: &kinesis
+        #stream_name: wdpr-dpp-B-use1-prd-wdw_venuenext_rawhist_arrivalwin
+        retention_period: &kdr !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+        stream_mode: &ksm !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      cross_account:
+        cross_account_type: &cat
+        cross_account_id: &id
+        cross_account_role_name:
+      #   cross_account_type: &cat target
+      #   cross_account_id: &id 392528710678
+      #   # cross_account_id: 830296027592
+      #   cross_account_role_name: guest360-prd-wdw-venuenext-arrivalwin-lambda-latest_role

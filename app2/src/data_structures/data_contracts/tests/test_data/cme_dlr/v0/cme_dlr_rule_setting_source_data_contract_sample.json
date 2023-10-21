@@ -1,0 +1,160 @@
+[
+    {
+        "data": {
+            "id": 1,
+            "group_id": "ap-res-rule-group",
+            "rule_constraint_id": "max-ap-res-by-inv-category",
+            "is_constrained": 1,
+            "data_type": "int",
+            "int_val": 2,
+            "applies_to_inv_category": "AP",
+            "is_active": 1,
+            "last_updated": "2020-07-09T17:11:47Z",
+            "update_usr": "N/A",
+            "created_usr": "N/A"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:53:45.451118Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "rule_setting"
+        }
+    },
+    {
+        "data": {
+            "id": 2,
+            "group_id": "available-inventory-categories",
+            "rule_constraint_id": "available-inventory-categories",
+            "is_constrained": 0,
+            "data_type": "INT",
+            "int_val": 6,
+            "applies_to_inv_category": "AP",
+            "is_active": 1,
+            "last_updated": "2023-07-06T12:44:02Z",
+            "update_usr": "N/A",
+            "created_usr": "N/A"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:53:45.459560Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "rule_setting"
+        }
+    },
+    {
+        "data": {
+            "id": 3,
+            "group_id": "available-inventory-categories",
+            "rule_constraint_id": "available-inventory-categories",
+            "is_constrained": 0,
+            "data_type": "INT",
+            "int_val": 4,
+            "applies_to_inv_category": "TICKET",
+            "is_active": 1,
+            "last_updated": "2023-07-06T12:47:05Z",
+            "update_usr": "N/A",
+            "created_usr": "N/A"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:53:45.469255Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "rule_setting"
+        }
+    },
+    {
+        "data": {
+            "id": 4,
+            "group_id": "available-inventory-categories",
+            "rule_constraint_id": "available-inventory-categories",
+            "is_constrained": 0,
+            "data_type": "INT",
+            "int_val": 5,
+            "applies_to_inv_category": "PH",
+            "is_active": 1,
+            "last_updated": "2023-07-06T12:43:54Z",
+            "update_usr": "N/A",
+            "created_usr": "N/A"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:53:45.483841Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "rule_setting"
+        }
+    },
+    {
+        "data": {
+            "id": 10,
+            "group_id": "res-limit-by-inv-category-rg",
+            "rule_constraint_id": "max-res-limit-by-inv-category-rc",
+            "is_constrained": 1,
+            "data_type": "int",
+            "int_val": 2,
+            "applies_to_inv_category": "AP",
+            "is_active": 1,
+            "last_updated": "2022-08-02T14:46:13Z",
+            "update_usr": "N/A",
+            "created_usr": "N/A"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:53:45.493014Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "rule_setting"
+        }
+    },
+    {
+        "data": {
+            "id": 15,
+            "group_id": "res-limit-by-product-type-rg",
+            "rule_constraint_id": "max-res-limit-by-product-type-rc",
+            "is_constrained": 1,
+            "data_type": "int",
+            "int_val": 3,
+            "applies_to_product_type": "signature-plus",
+            "is_active": 1,
+            "last_updated": "2022-11-22T16:16:19Z",
+            "update_usr": "N/A",
+            "created_usr": "N/A"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:53:45.502903Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "rule_setting"
+        }
+    },
+    {
+        "data": {
+            "id": 18,
+            "group_id": "blacklist-res-not-allowed-for-inv-category-rg",
+            "rule_constraint_id": "blacklist-res-not-allowed-for-inv-category-rc",
+            "is_constrained": 0,
+            "data_type": "none",
+            "applies_to_inv_category": "NONE",
+            "is_active": 1,
+            "last_updated": "2020-07-01T10:13:29Z"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:53:45.513610Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "rule_setting"
+        }
+    }
+]

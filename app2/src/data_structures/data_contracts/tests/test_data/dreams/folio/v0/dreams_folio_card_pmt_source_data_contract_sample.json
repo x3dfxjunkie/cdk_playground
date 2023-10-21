@@ -1,0 +1,303 @@
+[
+	{
+		"data": {
+			"PMT_ID": 123456789,
+			"PMT_CARD_ID": 123456789,
+			"CREATE_USR_ID_CD": "DUCKD009",
+			"CREATE_DTS": "2023-06-09T15:00:29.072000Z",
+			"transact_seq": "20230609190029000000000000025946841"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T08:01:03.510837Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CARD_PMT"
+		}
+	},
+	{
+		"data": {
+			"PMT_ID": 123456789,
+			"PMT_CARD_ID": 123456789,
+			"CREATE_USR_ID_CD": "DUCKD009",
+			"CREATE_DTS": "2023-06-09T15:00:44.682000Z",
+			"transact_commit_timestamp": "2023-06-09T19:00:44Z"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T08:01:48.109451Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CARD_PMT",
+			"transaction-id": 1638432
+		}
+	},
+	{
+		"data": {
+			"PMT_ID": 123456789,
+			"PMT_CARD_ID": 123456789,
+			"CREATE_USR_ID_CD": "DUCKD009",
+			"CREATE_DTS": "2023-06-09T15:00:50.170000Z",
+			"transact_commit_timestamp": "2023-06-09T19:00:51Z",
+			"transact_seq": "20230609190051000000000000025971241"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T08:01:52.250676Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CARD_PMT",
+			"transaction-id": 655409
+		}
+	},
+	{
+		"data": {
+			"PMT_ID": 123456789,
+			"PMT_CARD_ID": 123456789,
+			"CREATE_USR_ID_CD": "DUCKD009",
+			"CREATE_DTS": "2023-06-09T15:00:48.547000Z",
+			"transact_commit_timestamp": "2023-06-09T19:00:52Z",
+			"transact_seq": "20230609190052000000000000025971341"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T08:01:52.403886Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CARD_PMT",
+			"transaction-id": 2162697
+		}
+	},
+	{
+		"data": {
+			"PMT_ID": 123456789,
+			"PMT_CARD_ID": 123456789,
+			"CREATE_USR_ID_CD": "DUCKD009",
+			"CREATE_DTS": "2023-06-09T15:00:38.918000Z",
+			"transact_commit_timestamp": "2023-06-09T19:00:58Z",
+			"transact_seq": "20230609190058000000000000025973297"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T08:01:55.594236Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CARD_PMT",
+			"transaction-id": 786473
+		}
+	},
+	{
+		"data": {
+			"PMT_ID": 123456789,
+			"PMT_CARD_ID": 123456789,
+			"CREATE_USR_ID_CD": "DUCKD009",
+			"CREATE_DTS": "2023-06-09T15:01:04.730000Z",
+			"transact_commit_timestamp": "2023-06-09T19:01:04Z",
+			"transact_seq": "20230609190104000000000000025977469"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T08:02:03.529480Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CARD_PMT",
+			"transaction-id": 2031645
+		}
+	},
+	{
+		"data": {
+			"PMT_ID": 123456789,
+			"PMT_CARD_ID": 123456789,
+			"CREATE_USR_ID_CD": "DUCKD009",
+			"CREATE_DTS": "2023-06-09T15:01:13.126000Z",
+			"transact_commit_timestamp": "2023-06-09T19:01:17Z",
+			"transact_seq": "20230609190117000000000000025981177"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T08:02:10.079795Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CARD_PMT",
+			"transaction-id": 262186
+		}
+	},
+	{
+		"data": {
+			"PMT_ID": 123456789,
+			"PMT_CARD_ID": 123456789,
+			"CREATE_USR_ID_CD": "DUCKD009",
+			"CREATE_DTS": "2023-06-09T15:01:17.630000Z",
+			"transact_commit_timestamp": "2023-06-09T19:01:17Z",
+			"transact_seq": "20230609190117000000000000025981281"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T08:02:10.247214Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CARD_PMT",
+			"transaction-id": 262185
+		}
+	},
+	{
+		"data": {
+			"PMT_ID": 123456789,
+			"PMT_CARD_ID": 123456789,
+			"CREATE_USR_ID_CD": "DUCKD009",
+			"CREATE_DTS": "2023-06-09T15:01:28.759000Z",
+			"transact_commit_timestamp": "2023-06-09T19:01:31Z",
+			"transact_seq": "20230609190131000000000000025985605"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T08:02:17.755693Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CARD_PMT",
+			"transaction-id": 917550
+		}
+	},
+	{
+		"data": {
+			"PMT_ID": 123456789,
+			"PMT_CARD_ID": 123456789,
+			"CREATE_USR_ID_CD": "DUCKD009",
+			"CREATE_DTS": "2023-06-09T15:01:37.137000Z",
+			"transact_commit_timestamp": "2023-06-09T19:01:40Z",
+			"transact_seq": "20230609190140000000000000025988593"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T08:02:23.057154Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CARD_PMT",
+			"transaction-id": 917560
+		}
+	},
+	{
+		"data": {
+			"PMT_ID": 123456789,
+			"PMT_CARD_ID": 123456789,
+			"CREATE_USR_ID_CD": "DUCKD009",
+			"CREATE_DTS": "2023-06-09T15:02:03.419000Z",
+			"transact_commit_timestamp": "2023-06-09T19:02:04Z",
+			"transact_seq": "20230609190204000000000000025995161"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T08:02:34.941719Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CARD_PMT",
+			"transaction-id": 131120
+		}
+	},
+	{
+		"data": {
+			"PMT_ID": 123456789,
+			"PMT_CARD_ID": 123456789,
+			"CREATE_USR_ID_CD": "DUCKD009",
+			"CREATE_DTS": "2023-06-09T15:02:04.896000Z",
+			"transact_commit_timestamp": "2023-06-09T19:02:08Z",
+			"transact_seq": "20230609190208000000000000025996365"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T08:02:37.217050Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CARD_PMT",
+			"transaction-id": 2031628
+		}
+	},
+	{
+		"data": {
+			"PMT_ID": 123456789,
+			"PMT_CARD_ID": 123456789,
+			"CREATE_USR_ID_CD": "DUCKD009",
+			"CREATE_DTS": "2023-06-09T15:02:08.126000Z",
+			"transact_commit_timestamp": "2023-06-09T19:02:16Z",
+			"transact_seq": "20230609190216000000000000025998397"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T08:02:40.623233Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CARD_PMT",
+			"transaction-id": 1441826
+		}
+	},
+	{
+		"data": {
+			"PMT_ID": 123456789,
+			"PMT_CARD_ID": 123456789,
+			"CREATE_USR_ID_CD": "DUCKD009",
+			"CREATE_DTS": "2023-06-09T15:02:07.683000Z",
+			"transact_commit_timestamp": "2023-06-09T19:02:20Z",
+			"transact_seq": "20230609190220000000000000026000237"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T08:02:44.125128Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CARD_PMT",
+			"transaction-id": 458762
+		}
+	},
+	{
+		"data": {
+			"PMT_ID": 123456789,
+			"PMT_CARD_ID": 123456789,
+			"CREATE_USR_ID_CD": "DUCKD009",
+			"CREATE_DTS": "2023-06-09T15:02:20.755000Z",
+			"transact_commit_timestamp": "2023-06-09T19:02:20Z",
+			"transact_seq": "20230609190220000000000000026000365"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T08:02:44.328048Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CARD_PMT",
+			"transaction-id": 1114139
+		}
+	},
+	{
+		"data": {
+			"PMT_ID": 123456789,
+			"PMT_CARD_ID": 123456789,
+			"CREATE_USR_ID_CD": "DUCKD009",
+			"CREATE_DTS": "2023-06-09T15:02:02.906000Z",
+			"transact_commit_timestamp": "2023-06-09T19:02:26Z",
+			"transact_seq": "20230609190226000000000000026002929"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T08:02:49.223085Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CARD_PMT",
+			"transaction-id": 131125
+		}
+	}
+]

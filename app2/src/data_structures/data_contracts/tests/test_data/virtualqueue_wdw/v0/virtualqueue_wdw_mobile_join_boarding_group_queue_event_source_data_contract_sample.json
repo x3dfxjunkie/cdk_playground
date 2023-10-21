@@ -1,0 +1,235 @@
+[
+    {
+        "_type": "MobileJoinBoardingGroupQueueEvent",
+        "boardingGroup": 37,
+        "boardingGroupType": "PRIMARY",
+        "currentGeoRegionIds": [
+            "walt-disney-world",
+            "disney-springs",
+            "central-florida"
+        ],
+        "externalDefinitionId": "10460;entityType=entertainment-venue",
+        "guestId": "{12345678-TEST-TEST-TEST-AA1234567890}",
+        "mobileApp": "MDX",
+        "partyGuestIds": [
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890"
+        ],
+        "queueId": "test1234-test-1234-test-ff1234567890",
+        "siteName": "WDW",
+        "timeZoneOffsetMs": -18000000,
+        "timestamp": 1668706577704,
+        "waitTime": 200
+    },
+    {
+        "_type": "MobileJoinBoardingGroupQueueEvent",
+        "boardingGroup": 57,
+        "boardingGroupType": "PRIMARY",
+        "currentGeoRegionIds": [
+            "central-florida",
+            "disney-springs",
+            "walt-disney-world"
+        ],
+        "externalDefinitionId": "10460;entityType=entertainment-venue",
+        "guestId": "{12345678-TEST-TEST-TEST-AA1234567890}",
+        "mobileApp": "MDX",
+        "partyGuestIds": [
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890"
+        ],
+        "queueId": "test1234-test-1234-test-ff1234567890",
+        "siteName": "WDW",
+        "timeZoneOffsetMs": -18000000,
+        "timestamp": 1668717095279,
+        "waitTime": 195
+    },
+    {
+        "_type": "MobileJoinBoardingGroupQueueEvent",
+        "boardingGroup": 57,
+        "boardingGroupType": "PRIMARY",
+        "currentGeoRegionIds": [
+            "central-florida",
+            "disney-springs",
+            "walt-disney-world"
+        ],
+        "externalDefinitionId": "10460;entityType=entertainment-venue",
+        "guestId": "{12345678-TEST-TEST-TEST-AA1234567890}",
+        "mobileApp": "MDX",
+        "partyGuestIds": [
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890"
+        ],
+        "queueId": "test1234-test-1234-test-ff1234567890",
+        "siteName": "WDW",
+        "timeZoneOffsetMs": -18000000,
+        "timestamp": 1668717167559,
+        "waitTime": 195
+    },
+    {
+        "_type": "MobileJoinBoardingGroupQueueEvent",
+        "boardingGroup": 178,
+        "boardingGroupType": "PRIMARY",
+        "currentGeoRegionIds": [
+            "ep-land",
+            "central-florida",
+            "epcot",
+            "walt-disney-world"
+        ],
+        "externalDefinitionId": "411499845;entityType=Attraction",
+        "guestId": "{12345678-TEST-TEST-TEST-AA1234567890}",
+        "mobileApp": "MDX",
+        "partyGuestIds": [
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567891",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567891"
+        ],
+        "queueId": "test1234-test-1234-test-ff1234567890",
+        "siteName": "WDW",
+        "timeZoneOffsetMs": -18000000,
+        "timestamp": 1668709023234,
+        "waitTime": 462
+    },
+    {
+        "_type": "MobileJoinBoardingGroupQueueEvent",
+        "boardingGroup": 179,
+        "boardingGroupType": "PRIMARY",
+        "currentGeoRegionIds": [
+            "central-florida",
+            "ep-world-showcase",
+            "epcot",
+            "remys-ratatouille-adventure",
+            "walt-disney-world"
+        ],
+        "externalDefinitionId": "411499845;entityType=Attraction",
+        "guestId": "{12345678-TEST-TEST-TEST-AA1234567890}",
+        "mobileApp": "MDX",
+        "partyGuestIds": [
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567891",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567892",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567893"
+        ],
+        "queueId": "test1234-test-1234-test-ff1234567890",
+        "siteName": "WDW",
+        "timeZoneOffsetMs": -18000000,
+        "timestamp": 1668709166759,
+        "waitTime": 460
+    },
+    {
+        "_type": "MobileJoinBoardingGroupQueueEvent",
+        "boardingGroup": 180,
+        "boardingGroupType": "PRIMARY",
+        "currentGeoRegionIds": null,
+        "externalDefinitionId": "411499845;entityType=Attraction",
+        "guestId": "{12345678-TEST-TEST-TEST-AA1234567890}",
+        "mobileApp": "MDX",
+        "partyGuestIds": [
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890"
+        ],
+        "queueId": "test1234-test-1234-test-ff1234567890",
+        "siteName": "WDW",
+        "timeZoneOffsetMs": -18000000,
+        "timestamp": 1668709242390,
+        "waitTime": 459
+    },
+    {
+        "_type": "MobileJoinBoardingGroupQueueEvent",
+        "boardingGroup": 179,
+        "boardingGroupType": "PRIMARY",
+        "currentGeoRegionIds": [
+            "central-florida",
+            "ep-world-showcase",
+            "epcot",
+            "remys-ratatouille-adventure",
+            "walt-disney-world"
+        ],
+        "externalDefinitionId": "411499845;entityType=Attraction",
+        "guestId": "{12345678-TEST-TEST-TEST-AA1234567890}",
+        "mobileApp": "MDX",
+        "partyGuestIds": [
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890"
+        ],
+        "queueId": "test1234-test-1234-test-ff1234567890",
+        "siteName": "WDW",
+        "timeZoneOffsetMs": -18000000,
+        "timestamp": 1668709166759,
+        "waitTime": 460
+    },
+    {
+        "_type": "MobileJoinBoardingGroupQueueEvent",
+        "boardingGroup": 179,
+        "boardingGroupType": "PRIMARY",
+        "currentGeoRegionIds": null,
+        "externalDefinitionId": "411499845;entityType=Attraction",
+        "guestId": "{12345678-TEST-TEST-TEST-AA1234567890}",
+        "mobileApp": "MDX",
+        "partyGuestIds": [
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890"
+        ],
+        "queueId": "test1234-test-1234-test-ff1234567890",
+        "siteName": "WDW",
+        "timeZoneOffsetMs": -18000000,
+        "timestamp": 1668709125088,
+        "waitTime": 461
+    },
+    {
+        "_type": "MobileJoinBoardingGroupQueueEvent",
+        "boardingGroup": 180,
+        "boardingGroupType": "PRIMARY",
+        "currentGeoRegionIds": [
+            "ep-future-world",
+            "walt-disney-world",
+            "journey-into-imagination",
+            "central-florida",
+            "epcot"
+        ],
+        "externalDefinitionId": "411499845;entityType=Attraction",
+        "guestId": "{12345678-TEST-TEST-TEST-AA1234567890}",
+        "mobileApp": "MDX",
+        "partyGuestIds": [
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890"
+        ],
+        "queueId": "test1234-test-1234-test-ff1234567890",
+        "siteName": "WDW",
+        "timeZoneOffsetMs": -18000000,
+        "timestamp": 1668709221703,
+        "waitTime": 459
+    },
+    {
+        "_type": "MobileJoinBoardingGroupQueueEvent",
+        "boardingGroup": 180,
+        "boardingGroupType": "PRIMARY",
+        "currentGeoRegionIds": [
+            "central-florida",
+            "walt-disney-world",
+            "meet-daisy-duck-at-international-gateway",
+            "epcot",
+            "ep-world-showcase"
+        ],
+        "externalDefinitionId": "411499845;entityType=Attraction",
+        "guestId": "{12345678-TEST-TEST-TEST-AA1234567890}",
+        "mobileApp": "MDX",
+        "partyGuestIds": [
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890",
+            "virtualq-link-id:12345678-test-1234-tt12-cc1234567890"
+        ],
+        "queueId": "test1234-test-1234-test-ff1234567890",
+        "siteName": "WDW",
+        "timeZoneOffsetMs": -18000000,
+        "timestamp": 1668709365692,
+        "waitTime": 457
+    }
+]

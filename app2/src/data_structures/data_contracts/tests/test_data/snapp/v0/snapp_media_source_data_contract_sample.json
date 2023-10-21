@@ -1,0 +1,1274 @@
+[
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:13.216+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:13.215+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:13.180+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:13.204+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:13.177+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "031821",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "00089",
+                    "Site": "WTS",
+                    "Station": "139",
+                    "TransactionCode": "T:1241.0.210318.128576",
+                    "TransactionCodeAliasList": [
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA07_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - DSSN (ATS)"
+                        },
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA10_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - TRANNID (ATS)"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:13.248+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:13.247+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:13.180+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:13.236+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:13.177+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "120522",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "74918",
+                    "Site": "DTI",
+                    "Station": "0",
+                    "TransactionCode": "T:1241.0.221205.74918"
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:14.019+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:14.014+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:12.983+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:14.014+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:12.983+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": true,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "091223",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "57293",
+                    "Site": "DTI",
+                    "Station": "1",
+                    "TransactionCode": "T:1241.0.230912.157293"
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:13.234+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:13.233+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:13.180+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:13.222+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:13.177+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "031821",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "00089",
+                    "Site": "WTS",
+                    "Station": "139",
+                    "TransactionCode": "T:1241.0.210318.128576",
+                    "TransactionCodeAliasList": [
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA07_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - DSSN (ATS)"
+                        },
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA10_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - TRANNID (ATS)"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:15.419+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:15.418+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:15.183+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:15.415+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:15.180+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "080419",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "00032",
+                    "Site": "WTS",
+                    "Station": "138",
+                    "TransactionCode": "T:1241.0.190804.854",
+                    "TransactionCodeAliasList": [
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA10_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - TRANNID (ATS)"
+                        },
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA07_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - DSSN (ATS)"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:15.238+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:15.237+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:15.183+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:15.234+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:15.180+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "080419",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "00032",
+                    "Site": "WTS",
+                    "Station": "138",
+                    "TransactionCode": "T:1241.0.190804.854",
+                    "TransactionCodeAliasList": [
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA10_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - TRANNID (ATS)"
+                        },
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA07_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - DSSN (ATS)"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:15.430+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:15.429+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:15.183+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:15.426+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:15.180+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "080419",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "00032",
+                    "Site": "WTS",
+                    "Station": "138",
+                    "TransactionCode": "T:1241.0.190804.854",
+                    "TransactionCodeAliasList": [
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA10_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - TRANNID (ATS)"
+                        },
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA07_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - DSSN (ATS)"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:15.316+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:15.314+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:15.183+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:15.312+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:15.180+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "080419",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "00032",
+                    "Site": "WTS",
+                    "Station": "138",
+                    "TransactionCode": "T:1241.0.190804.854",
+                    "TransactionCodeAliasList": [
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA10_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - TRANNID (ATS)"
+                        },
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA07_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - DSSN (ATS)"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:15.252+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:15.251+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:15.183+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:15.248+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:15.180+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "080419",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "00032",
+                    "Site": "WTS",
+                    "Station": "138",
+                    "TransactionCode": "T:1241.0.190804.854",
+                    "TransactionCodeAliasList": [
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA10_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - TRANNID (ATS)"
+                        },
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA07_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - DSSN (ATS)"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:15.265+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:15.265+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:15.183+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:15.261+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:15.180+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "080419",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "00032",
+                    "Site": "WTS",
+                    "Station": "138",
+                    "TransactionCode": "T:1241.0.190804.854",
+                    "TransactionCodeAliasList": [
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA10_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - TRANNID (ATS)"
+                        },
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA07_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - DSSN (ATS)"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:15.277+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:15.276+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:15.183+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:15.273+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:15.180+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "080419",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "00032",
+                    "Site": "WTS",
+                    "Station": "138",
+                    "TransactionCode": "T:1241.0.190804.854",
+                    "TransactionCodeAliasList": [
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA10_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - TRANNID (ATS)"
+                        },
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA07_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - DSSN (ATS)"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:15.339+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:15.338+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:15.183+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:15.335+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:15.180+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "080419",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "00032",
+                    "Site": "WTS",
+                    "Station": "138",
+                    "TransactionCode": "T:1241.0.190804.854",
+                    "TransactionCodeAliasList": [
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA10_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - TRANNID (ATS)"
+                        },
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA07_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - DSSN (ATS)"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:15.495+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:15.494+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:15.183+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:15.491+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:15.180+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "080222",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "79226",
+                    "Site": "DTI",
+                    "Station": "0",
+                    "TransactionCode": "T:1241.0.220802.79226"
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:15.302+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:15.301+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:15.183+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:15.298+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:15.180+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "080419",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "00032",
+                    "Site": "WTS",
+                    "Station": "138",
+                    "TransactionCode": "T:1241.0.190804.854",
+                    "TransactionCodeAliasList": [
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA10_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - TRANNID (ATS)"
+                        },
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA07_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - DSSN (ATS)"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:15.455+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:15.454+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:15.183+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:15.451+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:15.180+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "080419",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "00032",
+                    "Site": "WTS",
+                    "Station": "138",
+                    "TransactionCode": "T:1241.0.190804.854",
+                    "TransactionCodeAliasList": [
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA10_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - TRANNID (ATS)"
+                        },
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA07_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - DSSN (ATS)"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:15.480+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:15.479+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:15.183+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:15.476+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:15.180+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "080222",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "77970",
+                    "Site": "DTI",
+                    "Station": "0",
+                    "TransactionCode": "T:1241.0.220802.77970"
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:15.467+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:15.467+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:15.183+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:15.463+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:15.180+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "080419",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "00032",
+                    "Site": "WTS",
+                    "Station": "138",
+                    "TransactionCode": "T:1241.0.190804.854",
+                    "TransactionCodeAliasList": [
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA10_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - TRANNID (ATS)"
+                        },
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA07_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - DSSN (ATS)"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:15.442+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:15.442+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:15.183+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:15.438+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:15.180+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "080419",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "00032",
+                    "Site": "WTS",
+                    "Station": "138",
+                    "TransactionCode": "T:1241.0.190804.854",
+                    "TransactionCodeAliasList": [
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA10_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - TRANNID (ATS)"
+                        },
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA07_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - DSSN (ATS)"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:15.407+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:15.406+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:15.183+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:15.403+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:15.180+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": "12345678901234567",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "080419",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "00032",
+                    "Site": "WTS",
+                    "Station": "138",
+                    "TransactionCode": "T:1241.0.190804.854",
+                    "TransactionCodeAliasList": [
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA10_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - TRANNID (ATS)"
+                        },
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA07_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - DSSN (ATS)"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:57:15.391+0000"
+                }
+            ],
+            "CorrelationId": "12345678901234567890",
+            "DataCommitTimestamp": "2023-09-12T21:57:15.391+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:57:15.183+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:57:15.387+0000",
+            "Namespace": "SnApp.Media.Assign",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:57:15.180+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Media": {
+                "Account": {
+                    "Code": null,
+                    "Id": null,
+                    "Status": null
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "1234567890123456",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "123456789012"
+                },
+                "Transaction": {
+                    "Code": "12345678901234567",
+                    "CreateDate": "080419",
+                    "Dssn": "123456-WTS-123-000000",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "00032",
+                    "Site": "WTS",
+                    "Station": "138",
+                    "TransactionCode": "T:1241.0.190804.854",
+                    "TransactionCodeAliasList": [
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA10_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - TRANNID (ATS)"
+                        },
+                        {
+                            "CodeAlias": "123456-WTS-123-000000",
+                            "CodeAliasTypeCode": "CA07_ATS",
+                            "CodeAliasTypeName": "TRANSACTION ALIAS - DSSN (ATS)"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+]

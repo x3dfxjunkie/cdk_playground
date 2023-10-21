@@ -1,0 +1,112 @@
+[
+    {
+        "data": {
+            "SETTL_METH_ID": 6807,
+            "BANK_ACCT_CTR_ID": 2,
+            "SAP_CUST_NB": "0080010809",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "CREATE_DTS": "2008-12-05T09:00:12.180Z",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:02:00.413880Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "SETTL_METH_DIR_BILL"
+        }
+    },
+    {
+        "data": {
+            "SETTL_METH_ID": 3602,
+            "BANK_ACCT_CTR_ID": 2,
+            "SAP_CUST_NB": "0080010827",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "CREATE_DTS": "2008-12-05T09:00:12.180Z",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:34:09.796620Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "SETTL_METH_DIR_BILL",
+            "transaction-id": 983055
+        }
+    },
+    {
+        "data": {
+            "SETTL_METH_ID": 3601,
+            "BANK_ACCT_CTR_ID": 2,
+            "SAP_CUST_NB": "0080010794",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "CREATE_DTS": "2008-12-05T09:00:12.180Z",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:50:38.177366Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "SETTL_METH_DIR_BILL",
+            "transaction-id": 458786
+        }
+    },
+    {
+        "data": {
+            "SETTL_METH_ID": 5094,
+            "BANK_ACCT_CTR_ID": 2,
+            "SAP_CUST_NB": "0080010818",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "CREATE_DTS": "2008-12-05T09:00:12.180Z",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:51:32.310602Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "SETTL_METH_DIR_BILL",
+            "transaction-id": 1835051
+        }
+    },
+    {
+        "data": {
+            "SETTL_METH_ID": 5095,
+            "BANK_ACCT_CTR_ID": 2,
+            "SAP_CUST_NB": "0080010824",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "CREATE_DTS": "2008-12-05T09:00:12.180Z",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T01:43:59.316378Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "SETTL_METH_DIR_BILL",
+            "transaction-id": 1638444
+        }
+    },
+    {
+        "data": {
+            "SETTL_METH_ID": 7203,
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "CREATE_DTS": "2008-12-05T09:00:12.180Z",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T02:55:17.813713Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "SETTL_METH_DIR_BILL"
+        }
+    }
+]

@@ -1,0 +1,19 @@
+---
+- stream_props:
+    stream_name: "experiences"
+    retention_period: !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+      - 30
+    stream_mode: !!python/object/apply:aws_cdk.aws_kinesis.StreamMode 
+      - PROVISIONED
+    shard_count: 1
+    encryption_key: NULL
+  lambda_producer_props:
+    runtime: "PYTHON_3_9"
+    code_path: "bazel-bin/app/src/data_service/kinesis_producer/lambda_archive.zip"
+    handler: "producer.lambda_handler"
+    timeout: !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.duration.Duration
+      - seconds
+      - 180
+  event_source_props:
+    stream_name: curated-experiences-stream
+  role_configs:

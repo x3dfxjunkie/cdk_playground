@@ -1,0 +1,103 @@
+[
+    {
+        "data": {
+            "EXPRNC_BAND_REQ_ID": 4506,
+            "RES_ID": 7659,
+            "RSRT_SHIPMT_DSNY_FAC_ID": 6050,
+            "SHIP_IMDT_REQ_IN": "SPFiKrHlKtCYDFNHadsx",
+            "EXPRNC_BAND_REQ_HLD_IN": "FOptyOboxglcTfdyqNuA",
+            "CURR_REQ_HLD_RSN_ID": 1211,
+            "STERLING_ID": "uFLVydawkycmZZpmFnei"
+        },
+        "metadata": {
+            "timestamp": "1986-08-06 21:27:48",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "XBANDMD",
+            "table-name": "EXPRNC_BAND_IDVL_REQ",
+            "transaction-id": 9651,
+            "transaction_record_id": 70974432245344,
+            "prev_transaction_id": 70974432245344,
+            "prev_transaction_record_id": 70974432245344,
+            "commit_timestamp": "2023-03-29T15:30:19.109655Z",
+            "stream_position": ""
+        }
+    },
+    {
+        "data": {
+            "EXPRNC_BAND_REQ_ID": 3785,
+            "RES_ID": 9249,
+            "RSRT_SHIPMT_DSNY_FAC_ID": 1684,
+            "SHIP_IMDT_REQ_IN": "jyAUzgmXVKTTHASexLZa",
+            "EXPRNC_BAND_REQ_HLD_IN": "DIRChdMJqNFmHNbFrFCe",
+            "CURR_REQ_HLD_RSN_ID": 239,
+            "STERLING_ID": "VfyVqpaBSOLKUNAYNmjd"
+        },
+        "metadata": {
+            "timestamp": "2022-12-22 09:27:43",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "XBANDMD",
+            "table-name": "EXPRNC_BAND_IDVL_REQ",
+            "transaction-id": 4054
+        }
+    },
+    {
+        "data": {
+            "EXPRNC_BAND_REQ_ID": 6052,
+            "RES_ID": 1542,
+            "RSRT_SHIPMT_DSNY_FAC_ID": 3993,
+            "SHIP_IMDT_REQ_IN": "anzjUOVpsdIVVvoDjIoQ",
+            "EXPRNC_BAND_REQ_HLD_IN": "waJOrmIROjkLdxLKVRdc",
+            "CURR_REQ_HLD_RSN_ID": 4753,
+            "STERLING_ID": "FCjIbYwbXzTCYIvOlSTD"
+        },
+        "metadata": {
+            "timestamp": "1999-12-06 17:03:58",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "XBANDMD",
+            "table-name": "EXPRNC_BAND_IDVL_REQ",
+            "transaction-id": 4981
+        }
+    },
+    {
+        "data": {
+            "EXPRNC_BAND_REQ_ID": 916,
+            "RES_ID": 6394,
+            "RSRT_SHIPMT_DSNY_FAC_ID": 3199,
+            "SHIP_IMDT_REQ_IN": "CRrOaxkcEtvsnDqxzwnU",
+            "EXPRNC_BAND_REQ_HLD_IN": "bUHMdDhsRBYMwXBVdCbb",
+            "CURR_REQ_HLD_RSN_ID": 7837,
+            "STERLING_ID": "yjjZWAtwPqLXsMxkIGkc"
+        },
+        "metadata": {
+            "timestamp": "1998-04-28 17:01:45",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "XBANDMD",
+            "table-name": "EXPRNC_BAND_IDVL_REQ",
+            "transaction-id": 4985
+        }
+    },
+    {
+        "data": {
+            "EXPRNC_BAND_REQ_ID": 6171,
+            "RES_ID": 8712,
+            "SHIP_IMDT_REQ_IN": "CkJhkpNiColkVlcqPcZT",
+            "EXPRNC_BAND_REQ_HLD_IN": "OiVyFGBiODSoekCwKvTh"
+        },
+        "metadata": {
+            "timestamp": "1996-01-31 22:17:20",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "XBANDMD",
+            "table-name": "EXPRNC_BAND_IDVL_REQ"
+        }
+    }
+]

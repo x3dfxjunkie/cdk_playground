@@ -1,0 +1,482 @@
+[
+    {
+        "data": {
+            "CMPNT_PROD_ID": 23946,
+            "CREATE_DTS": "2012-06-09T04:19:51.146944Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9089631,
+            "PRICE_SHEET_NM": "5 DAY (1 THEME PARK PER DAY)",
+            "UPDT_DTS": "2012-06-09T04:19:51.146944Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:35:59.245040Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 23999,
+            "CREATE_DTS": "2012-06-09T04:19:38.953556Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9089359,
+            "PRICE_SHEET_NM": "5 DAY 1 PARK W/5 FUN VISITS",
+            "UPDT_DTS": "2012-06-09T04:19:38.953556Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:35:56.621471Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 32761,
+            "CREATE_DTS": "2012-06-09T04:22:30.425236Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9092085,
+            "PRICE_SHEET_NM": "2 DAY 1 PARK W/2 FUN VISITS",
+            "UPDT_DTS": "2012-06-09T04:22:30.425236Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:36:22.055041Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 24064,
+            "CREATE_DTS": "2012-06-17T04:16:01.577627Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9154383,
+            "PRICE_SHEET_NM": "4 DAY W/4 FUN VISITS",
+            "UPDT_DTS": "2012-06-17T04:16:01.577627Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:45:16.285594Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 50485,
+            "CREATE_DTS": "2012-06-17T04:16:04.883552Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9154446,
+            "PRICE_SHEET_NM": "7 DAY PARK HPR W/7 FUN VISITS",
+            "UPDT_DTS": "2012-06-17T04:16:04.883552Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:45:16.884407Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 50482,
+            "CREATE_DTS": "2012-06-11T04:17:58.582349Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9102022,
+            "PRICE_SHEET_NM": "6 DAY W/6 FUN VISITS",
+            "UPDT_DTS": "2012-06-11T04:17:58.582349Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:37:52.832905Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 77757,
+            "CREATE_DTS": "2012-06-16T04:21:30.197354Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9152638,
+            "PRICE_SHEET_NM": "9 DAY (1 THEME PARK PER DAY)",
+            "UPDT_DTS": "2012-06-16T04:21:30.197354Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:44:58.580428Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 24104,
+            "CREATE_DTS": "2012-06-08T04:18:05.605398Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9077016,
+            "PRICE_SHEET_NM": "9 DAY W/9 FUN VISITS",
+            "UPDT_DTS": "2012-06-08T04:18:05.605398Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:34:01.343697Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 50457,
+            "CREATE_DTS": "2012-06-18T04:18:44.237981Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9164191,
+            "PRICE_SHEET_NM": "3 DAY 1 PARK W/3 FUN VISITS",
+            "UPDT_DTS": "2012-06-18T04:18:44.237981Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:46:37.564629Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 115134,
+            "CREATE_DTS": "2012-06-18T04:18:49.517426Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9164334,
+            "PRICE_SHEET_NM": "2 DAY (1 THEME PARK PER DAY)",
+            "UPDT_DTS": "2012-06-18T04:18:49.517426Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:46:38.663517Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 32753,
+            "CREATE_DTS": "2012-06-18T04:18:20.614142Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9163624,
+            "PRICE_SHEET_NM": "10 DAY (1 THEME PARK PER DAY)",
+            "UPDT_DTS": "2012-06-18T04:18:20.614142Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:46:33.161889Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 23977,
+            "CREATE_DTS": "2012-06-17T04:15:44.602519Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9154065,
+            "PRICE_SHEET_NM": "2 DAY (1 THEME PARK PER DAY)",
+            "UPDT_DTS": "2012-06-17T04:15:44.602519Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:45:13.147795Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 24117,
+            "CREATE_DTS": "2012-06-07T04:16:19.438512Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9066923,
+            "PRICE_SHEET_NM": "4 DAY PARK HOPPER FL",
+            "UPDT_DTS": "2012-06-07T04:16:19.438512Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:32:31.931710Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 24076,
+            "CREATE_DTS": "2012-06-11T04:18:09.457393Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9102337,
+            "PRICE_SHEET_NM": "6 DAY (1 THEME PARK PER DAY)",
+            "UPDT_DTS": "2012-06-11T04:18:09.457393Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:37:55.697692Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 42689,
+            "CREATE_DTS": "2012-06-11T04:16:27.031345Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9100992,
+            "PRICE_SHEET_NM": "3 DAY 1 PARK W/3 FUN FL EXCH",
+            "UPDT_DTS": "2012-06-11T04:16:27.031345Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:37:43.293837Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 115238,
+            "CREATE_DTS": "2012-06-18T04:18:49.292701Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9164310,
+            "PRICE_SHEET_NM": "9 DAY PARK HPR W/9 FUN VISITS",
+            "UPDT_DTS": "2012-06-18T04:18:49.292701Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:46:38.480868Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 59951,
+            "CREATE_DTS": "2012-06-18T04:18:52.310593Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9164406,
+            "PRICE_SHEET_NM": "10 DAY PARK HOPPER",
+            "UPDT_DTS": "2012-06-18T04:18:52.310593Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:46:39.254240Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 107147,
+            "CREATE_DTS": "2012-06-07T04:17:49.700646Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9067996,
+            "PRICE_SHEET_NM": "1 DAY (1 THEME PARK)",
+            "UPDT_DTS": "2012-06-07T04:17:49.700646Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:32:41.914009Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 23985,
+            "CREATE_DTS": "2012-06-08T04:17:08.073266Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9076240,
+            "PRICE_SHEET_NM": "3 DAY (1 THEME PARK PER DAY)",
+            "UPDT_DTS": "2012-06-08T04:17:08.073266Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:33:53.912116Z"
+        }
+    },
+    {
+        "data": {
+            "CMPNT_PROD_ID": 50492,
+            "CREATE_DTS": "2012-06-11T04:17:55.905978Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "FFLMT_CMPNT_CD": null,
+            "FFLMT_DLVR_METH_NM": null,
+            "JDO_SEQ_NB": 0,
+            "PKG_ID": null,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ID": 9101935,
+            "PRICE_SHEET_NM": "8 DAY (1 THEME PARK PER DAY)",
+            "UPDT_DTS": "2012-06-11T04:17:55.905978Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_T",
+            "timestamp": "2023-08-26T13:37:52.004902Z"
+        }
+    }
+]

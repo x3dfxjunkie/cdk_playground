@@ -1,0 +1,2201 @@
+[
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-25T17:35:00Z",
+            "CHAN_MTRX_ID": "8DF91A81-6C2D-4E94-8E84-38434DEFA3C5",
+            "FREEZE_ID": "6bab2adb-70e5-4470-88af-cb294a5e3738",
+            "METRIC_ADT_ID": "fe8fef49-268d-4537-92f5-210c922f94b5",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "31B91547-1C67-7DA8-3D9F-B37A400B8723",
+            "UPDT_ADT_VL": "SYS418238724570-4772176-4308968-2657449 ",
+            "UPDT_DTS": ""
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:09.407867Z",
+            "transaction-id": 28046220688262
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-14T17:50:00Z",
+            "CHAN_MTRX_ID": "C9FE1543-AEEF-212C-E043-9906F4D1212C",
+            "FREEZE_ID": "5c467d0e-a241-4090-a136-22635a636157",
+            "METRIC_ADT_ID": "b8bf2916-ebf3-49fa-840c-240ddac5e156",
+            "QUANTITY_CN": 2,
+            "RSRVBL_RSRC_ID": "C9FE1543-AEE7-212C-E043-9906F4D1212C",
+            "UPDT_ADT_VL": "Not Supplied ",
+            "UPDT_DTS": "2023-08-18T13:12:06.310000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:09.417150Z",
+            "transaction-id": 28046220693189
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-19T13:35:00Z",
+            "CHAN_MTRX_ID": "a86201df-b438-4d98-8b99-264ce656d14f",
+            "FREEZE_ID": "66710527-4b80-44c6-b55d-6ab8f9e1bf8c",
+            "METRIC_ADT_ID": "ba58d52c-e715-47d0-a5c9-13f4dd3b3f99",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "999715ea-f0cb-4a9c-934b-d36b2bb56736",
+            "UPDT_ADT_VL": "1692378726613 ",
+            "UPDT_DTS": "2023-08-18T13:12:07.621000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:09.425812Z",
+            "transaction-id": 28046220694728
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-18T12:30:00Z",
+            "CHAN_MTRX_ID": "10",
+            "FREEZE_ID": "31f782f2-2967-d20c-decd-3a581a9316d5:3",
+            "METRIC_ADT_ID": "636ad6e4-e6fa-4328-8dc7-4fd59648249b",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "e8d2b7e3-f018-4b5a-8762-932ee78181b5",
+            "UPDT_ADT_VL": "SYS-418238726180-8471942-6315704-1858281",
+            "UPDT_DTS": "2023-08-18T13:12:08.746725Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:09.432936Z",
+            "transaction-id": 28046220697302
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-18T19:15:00Z",
+            "CHAN_MTRX_ID": "7DA3C14E-F3A2-4368-B8E3-F7E293125D3E",
+            "FREEZE_ID": "07bd6a4f-0c98-4d0f-afcc-de02a40c36b3",
+            "METRIC_ADT_ID": "b3f54a86-f3fb-4917-9113-babbd46a05c3",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "AEE52925-743F-5C81-6DF7-4D3A6A2EDB75",
+            "UPDT_ADT_VL": "wMDX-94417788-8eb9-4df0-9222-ca21b24866e4",
+            "UPDT_DTS": "2023-08-18T13:12:09.345411Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:14.480986Z",
+            "transaction-id": 28046220704598
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-04T18:30:00Z",
+            "CHAN_MTRX_ID": "768c1826-26b7-431a-bdb5-0b2d4d2bdbc4",
+            "FREEZE_ID": "74319783-2ea7-4c3f-aa25-95be675b1edf",
+            "METRIC_ADT_ID": "a2b85764-3fab-4561-9904-97f622661516",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "4d5fc4e8-970c-4664-a3bb-d54e6dc75457",
+            "UPDT_ADT_VL": "1692378728034 ",
+            "UPDT_DTS": "2023-08-18T13:12:09.481000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:14.488618Z",
+            "transaction-id": 28046220709542
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-19T13:20:00Z",
+            "CHAN_MTRX_ID": "47F1F9A1-ED90-4B07-A40B-D52EA418958C",
+            "FREEZE_ID": "87193d01-69c4-4c10-8f03-bd3c3e8d0f11",
+            "METRIC_ADT_ID": "0ede52c3-74c7-4049-b8cd-845faacef19b",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "4C2E4A15-DF58-E1D1-1234-0CFAEC2CEEA7",
+            "UPDT_ADT_VL": "mdx-C25A7F31-1FEE-4405-908E-75A69A531470",
+            "UPDT_DTS": "2023-08-18T13:12:10.168403Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:14.497374Z",
+            "transaction-id": 28046220711702
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-18T14:05:00Z",
+            "CHAN_MTRX_ID": "10",
+            "FREEZE_ID": "86a2cf61-7982-95d2-d3e2-3cb92b0d526c:73",
+            "METRIC_ADT_ID": "5f1035e2-61d0-4882-ab70-536b34f02b1c",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "C9FB1345-A408-4124-E043-9906F4D14124",
+            "UPDT_ADT_VL": "d158cf07-aee9-467d-9478-ee2bd305bbb0 ",
+            "UPDT_DTS": "2023-08-18T13:12:10.883579Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:14.506313Z",
+            "transaction-id": 28046220717272
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-18T18:45:00Z",
+            "CHAN_MTRX_ID": "4e280fcb-bdc1-42ae-b765-e1c75052d01b",
+            "FREEZE_ID": "c0300bd3-b206-42cc-8973-d3b15f1e1338",
+            "METRIC_ADT_ID": "d6ef4dc2-7841-4b39-a076-99e05aaa5837",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "498d59d6-9365-4142-912b-5608f01f5097",
+            "UPDT_ADT_VL": "Not Supplied ",
+            "UPDT_DTS": "2023-08-18T13:12:12Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:14.515274Z",
+            "transaction-id": 28046220718810
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-27T13:15:00Z",
+            "CHAN_MTRX_ID": "10",
+            "FREEZE_ID": "3c62f5fa-f966-c9fc-00c9-f4e5d8617ec5:119",
+            "METRIC_ADT_ID": "d0a0d0aa-278b-4383-86b4-f3c7efdf57eb",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "C9FB1345-A52B-4124-E043-9906F4D14124",
+            "UPDT_ADT_VL": "eac65284-7ae1-419c-860f-138c2e989a74 ",
+            "UPDT_DTS": "2023-08-18T13:12:12.162296Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:14.524657Z",
+            "transaction-id": 28046220720383
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-19T17:00:00Z",
+            "CHAN_MTRX_ID": "7055D1D9-C7A2-1072-E043-9906F4D11072",
+            "FREEZE_ID": "debcd69c-3a5a-407e-a0cd-6ad99f10e4fa",
+            "METRIC_ADT_ID": "517d541b-f9a7-4246-b654-67118f307e94",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "7055D1D9-C798-1072-E043-9906F4D11072",
+            "UPDT_ADT_VL": "Not Supplied ",
+            "UPDT_DTS": "2023-08-18T13:12:13.063000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:14.533859Z",
+            "transaction-id": 28046220722920
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-19T20:30:00Z",
+            "CHAN_MTRX_ID": "272E2D34-4137-48F0-BA38-C573BD31D18C",
+            "FREEZE_ID": "4794300c-ec92-4c6b-8039-4f47cebe2fdf",
+            "METRIC_ADT_ID": "21f377f7-9e24-447d-b0f6-7c19bff03a1f",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "16913b4e-aa10-439c-9dcf-7d65b6cb05f8",
+            "UPDT_ADT_VL": "1692378732174 ",
+            "UPDT_DTS": "2023-08-18T13:12:13.201000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:14.542361Z",
+            "transaction-id": 28046220724493
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-10-17T18:15:00Z",
+            "CHAN_MTRX_ID": "C59A1ED9-3E2F-320A-E043-9906F4D1320A",
+            "FREEZE_ID": "854f2135-2f14-4639-88af-90f51c245dfc",
+            "METRIC_ADT_ID": "b9bc5e34-fd84-4d65-90bf-5fe8a9883529",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "ff1bd8d3-e563-431c-8dfd-0e41064a6def",
+            "UPDT_ADT_VL": "978gi1f8fnbf9cq031nec7afv2",
+            "UPDT_DTS": "2023-08-18T13:12:13.631542Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:14.551535Z",
+            "transaction-id": 28046220730479
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-16T17:45:00Z",
+            "CHAN_MTRX_ID": "FA5A8FC5-979E-4232-B7DE-DB3B09BDA97F",
+            "FREEZE_ID": "31187a20-c73b-49b7-8be9-451035891fcb",
+            "METRIC_ADT_ID": "d0b4a7a0-faa2-4fca-9118-a5e770138b5d",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "64D60334-00F2-C60C-143F-860FF409B021",
+            "UPDT_ADT_VL": "SYS418238735616-4408733-4961882-5843442 ",
+            "UPDT_DTS": "2023-08-18T13:12:16.389000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:19.554614Z",
+            "transaction-id": 28046220751756
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-31T18:45:00Z",
+            "CHAN_MTRX_ID": "ef0d3c10-e1e0-4899-b9d7-d5c8c8db9572",
+            "FREEZE_ID": "4c012913-5e2e-4e03-8b66-718fd4d8cd02",
+            "METRIC_ADT_ID": "c2af1d57-55ee-4fbd-97df-08510004c12f",
+            "QUANTITY_CN": 2,
+            "RSRVBL_RSRC_ID": "1bb2a2f3-6cae-400a-a0bf-fa908f17ca5f",
+            "UPDT_ADT_VL": "1692378735534 ",
+            "UPDT_DTS": "2023-08-18T13:12:16.554000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:19.563459Z",
+            "transaction-id": 28046220753322
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-19T12:45:00Z",
+            "CHAN_MTRX_ID": "D7F2DDBA-251A-4C68-9C53-95787BF4E797",
+            "FREEZE_ID": "d14c12a1-a051-49d1-88e3-bd82ed179426",
+            "METRIC_ADT_ID": "506bf1af-ddb0-4a61-88af-150a1ad0c3c8",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "289436B7-F960-FA55-3DB7-8F7B487CE43B",
+            "UPDT_ADT_VL": "a43punl7garr5gkgag8d0teo6f",
+            "UPDT_DTS": "2023-08-18T13:12:16.805267Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:19.607360Z",
+            "transaction-id": 28046220760966
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-15T20:15:00Z",
+            "CHAN_MTRX_ID": "12CD164E-574A-285E-E053-4ABD06995633",
+            "FREEZE_ID": "3b5b5d51-510f-44f7-add8-66d724031793",
+            "METRIC_ADT_ID": "7c27dede-3ca9-4a41-894a-6f50e56e689a",
+            "QUANTITY_CN": 0,
+            "RSRVBL_RSRC_ID": "12CD164E-5747-285E-E053-4ABD06995633",
+            "UPDT_ADT_VL": "Not Supplied ",
+            "UPDT_DTS": "2023-08-18T13:12:18.096000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:19.622558Z",
+            "transaction-id": 28046220767098
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-30T18:30:00Z",
+            "CHAN_MTRX_ID": "B730AE6C-8B46-4C66-BA2F-0DF5B1B14691",
+            "FREEZE_ID": "fa45d6b4-f749-4dcc-9b8c-9e9b9e9102de",
+            "METRIC_ADT_ID": "89036826-76ad-4db4-8970-5e7667852cbc",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "ea4fb34b-f7e5-43aa-87dc-ac21ff75974e",
+            "UPDT_ADT_VL": "e5cc6efc-e314-43ca-a781-e433ae96a5e5 - ",
+            "UPDT_DTS": "2023-08-18T13:12:18.079912Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:19.631491Z",
+            "transaction-id": 28046220768116
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-10-04T18:30:00Z",
+            "CHAN_MTRX_ID": "768c1826-26b7-431a-bdb5-0b2d4d2bdbc4",
+            "FREEZE_ID": "74319783-2ea7-4c3f-aa25-95be675b1edf",
+            "METRIC_ADT_ID": "59899671-299c-4dc4-a42f-918099e1e70c",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "4d5fc4e8-970c-4664-a3bb-d54e6dc75457",
+            "UPDT_ADT_VL": "mdx-E50EA28F-6599-403A-8F0A-9193B9634DEE",
+            "UPDT_DTS": "2023-08-18T13:12:18.816477Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:19.640289Z",
+            "transaction-id": 28046220774354
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-18T17:00:00Z",
+            "CHAN_MTRX_ID": "A5478D3F-B71F-49A0-9812-AB012A191C55",
+            "FREEZE_ID": "2775d1b1-f25f-49d6-b03a-85feb224bbf3",
+            "METRIC_ADT_ID": "df2a49d0-3359-4212-9688-782e7dbca531",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "9959487d-16f2-4905-96a4-2a1e86bb154f",
+            "UPDT_ADT_VL": "1692378738290 ",
+            "UPDT_DTS": "2023-08-18T13:12:19.446000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:19.649233Z",
+            "transaction-id": 28046220779562
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-23T19:05:00Z",
+            "CHAN_MTRX_ID": "4ad511da-875a-4fba-97d8-e87e66e8168b",
+            "FREEZE_ID": "17ec1040-e22c-4282-ba88-29df5bf6a43f",
+            "METRIC_ADT_ID": "37a07914-d4cf-477e-a86b-c224ca6e2101",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "bd6fc8fa-4e85-4786-9ba0-f6fe1115e935",
+            "UPDT_ADT_VL": "SYS418238740791-5049278-5377346-6778075 ",
+            "UPDT_DTS": "2023-08-18T13:12:21.450000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:24.642710Z",
+            "transaction-id": 28046220788954
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-19T08:40:00Z",
+            "CHAN_MTRX_ID": "66167CD0-16F9-4E90-98C4-C18C80F0B098",
+            "FREEZE_ID": "caba70bf-f7fc-4a25-adfb-6bb3333745ce",
+            "METRIC_ADT_ID": "9046e5c9-7f10-4ba3-8993-6dbafb90375c",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "F8938B0A-B686-D771-18BD-E3A504C58440",
+            "UPDT_ADT_VL": "SYS418238740610-6132098-5824636-6617771 ",
+            "UPDT_DTS": "2023-08-18T13:12:21.469000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:24.651019Z",
+            "transaction-id": 28046220790520
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-18T17:35:00Z",
+            "CHAN_MTRX_ID": "3FB7671A-25F0-4138-B6B6-C3FADC4C02F6",
+            "FREEZE_ID": "9755f413-9339-4ddd-aaba-a8630f641c31",
+            "METRIC_ADT_ID": "8a650326-0488-43d5-aecc-d92db25a067d",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "720924A7-2B57-E750-4DF3-899F10A22FA4",
+            "UPDT_ADT_VL": "mdx-30AF0361-0AA9-4A8A-9CBB-639D0BB6464E",
+            "UPDT_DTS": "2023-08-18T13:12:21.570340Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:24.660446Z",
+            "transaction-id": 28046220792706
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-18T12:00:00Z",
+            "CHAN_MTRX_ID": "10",
+            "FREEZE_ID": "97346728-a0f8-760d-13ae-4784e6ec3f46:26",
+            "METRIC_ADT_ID": "c6b07928-d1fb-46b0-87b7-ae5a3486e816",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "d7c4c0fe-ae19-4dbd-9cf7-eab7ce47d13b",
+            "UPDT_ADT_VL": "c3e0b055-8129-4abe-ad53-19b53f77db96 ",
+            "UPDT_DTS": "2023-08-18T13:12:22.063004Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:24.668896Z",
+            "transaction-id": 28046220801327
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-22T17:05:00Z",
+            "CHAN_MTRX_ID": "FA5A8FC5-979E-4232-B7DE-DB3B09BDA97F",
+            "FREEZE_ID": "010103ba-9ea6-4319-bca2-472d894b53e0",
+            "METRIC_ADT_ID": "3fbe5b31-120f-47c7-9276-95ed698621d7",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "64D60334-00F2-C60C-143F-860FF409B021",
+            "UPDT_ADT_VL": "1692378741601 ",
+            "UPDT_DTS": "2023-08-18T13:12:22.328000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:24.677859Z",
+            "transaction-id": 28046220802865
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-19T17:00:00Z",
+            "CHAN_MTRX_ID": "02B47912-3794-76DB-E050-0699C0BC2D7F",
+            "FREEZE_ID": "14dd0789-c092-44c9-96fb-c008700568c0",
+            "METRIC_ADT_ID": "301db497-2b95-4e64-be39-a77c181b17e2",
+            "QUANTITY_CN": 0,
+            "RSRVBL_RSRC_ID": "02B47912-378D-76DB-E050-0699C0BC2D7F",
+            "UPDT_ADT_VL": "1692378741881 ",
+            "UPDT_DTS": "2023-08-18T13:12:22.649000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:24.685712Z",
+            "transaction-id": 28046220804439
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-22T18:30:00Z",
+            "CHAN_MTRX_ID": "61be4d68-100a-41e6-b058-4cdc83487233",
+            "FREEZE_ID": "914656b6-8213-4372-9f25-984da1568913",
+            "METRIC_ADT_ID": "e2590020-1985-40a7-978e-8ebb894606d9",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "6a5aff2b-a2d1-47fc-a39b-66c46c1074b3",
+            "UPDT_ADT_VL": "1692378742825 ",
+            "UPDT_DTS": "2023-08-18T13:12:23.716000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:24.694797Z",
+            "transaction-id": 28046220806625
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-18T18:50:00Z",
+            "CHAN_MTRX_ID": "735EC243-7921-49AC-8082-CC64897200FA",
+            "FREEZE_ID": "3049ee46-13a2-4f95-ac54-70d668a05a7a",
+            "METRIC_ADT_ID": "d037dbde-a3fd-4a8d-9a32-d4ad99170074",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "1EF3A289-082D-6AA1-4962-97B63EBBCEFF",
+            "UPDT_ADT_VL": "mdx-5AD11A03-FBFF-4D44-B5C7-E7A076E80C19",
+            "UPDT_DTS": "2023-08-18T13:12:23.619205Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:24.704356Z",
+            "transaction-id": 28046220808199
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-09-20T11:40:00Z",
+            "CHAN_MTRX_ID": "f7315c43-de25-4fe1-91f4-c4e0afdda8ae",
+            "FREEZE_ID": "044a04a6-ada7-42d1-8bfb-477e423c06bb",
+            "METRIC_ADT_ID": "461368d2-20e7-4c93-874e-2febb1b72832",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "e8d2b7e3-f018-4b5a-8762-932ee78181b5",
+            "UPDT_ADT_VL": "dlr-0D072B78-53FE-434C-BC49-CA44001A3F46",
+            "UPDT_DTS": "2023-08-18T13:12:23.959687Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:24.713229Z",
+            "transaction-id": 28046220814831
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-10-15T20:15:00Z",
+            "CHAN_MTRX_ID": "12CD164E-574A-285E-E053-4ABD06995633",
+            "FREEZE_ID": "3b5b5d51-510f-44f7-add8-66d724031793",
+            "METRIC_ADT_ID": "ee30c46c-c140-4624-9ead-2d7b139b43a1",
+            "QUANTITY_CN": 0,
+            "RSRVBL_RSRC_ID": "12CD164E-5747-285E-E053-4ABD06995633",
+            "UPDT_ADT_VL": "c2de8025-ec63-465d-9aa0-fbe26340ace2 - ",
+            "UPDT_DTS": "2023-08-18T13:12:26.099402Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:29.718419Z",
+            "transaction-id": 28046220824224
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-18T19:00:00Z",
+            "CHAN_MTRX_ID": "02B47912-3772-76DB-E050-0699C0BC2D7F",
+            "FREEZE_ID": "6b863965-14e0-4d0a-af94-da41757595bf",
+            "METRIC_ADT_ID": "2299f4c8-c018-4b55-8d91-e394026ccce3",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "02B47912-376B-76DB-E050-0699C0BC2D7F",
+            "UPDT_ADT_VL": "1692378745992 ",
+            "UPDT_DTS": "2023-08-18T13:12:27.131000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:29.728481Z",
+            "transaction-id": 28046220836043
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-10-12T21:50:00Z",
+            "CHAN_MTRX_ID": "EB8A53DD-91BF-0530-E040-0699BABD6FE3",
+            "FREEZE_ID": "886eea8b-d782-433e-83eb-59d4d0352ff0",
+            "METRIC_ADT_ID": "4ce4132b-f563-4ce6-af48-cb13b8ea374f",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "EB8A53DD-91B8-0530-E040-0699BABD6FE3",
+            "UPDT_ADT_VL": "dpmhat8o350olvm73prfiqus5t",
+            "UPDT_DTS": "2023-08-18T13:12:27.681695Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:29.736363Z",
+            "transaction-id": 28046220838598
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-19T17:00:00Z",
+            "CHAN_MTRX_ID": "7055D1D9-C7A2-1072-E043-9906F4D11072",
+            "FREEZE_ID": "debcd69c-3a5a-407e-a0cd-6ad99f10e4fa",
+            "METRIC_ADT_ID": "751f17c6-6f1d-4a11-8bcf-fe201bc79480",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "7055D1D9-C798-1072-E043-9906F4D11072",
+            "UPDT_ADT_VL": "8ace380e-d074-4955-be54-b9f06aa7dc2c - ",
+            "UPDT_DTS": "2023-08-18T13:12:29.339187Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:29.745407Z",
+            "transaction-id": 28046220844532
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-19T13:35:00Z",
+            "CHAN_MTRX_ID": "a86201df-b438-4d98-8b99-264ce656d14f",
+            "FREEZE_ID": "66710527-4b80-44c6-b55d-6ab8f9e1bf8c",
+            "METRIC_ADT_ID": "82c7206f-096e-49a8-ada2-892ea9ab0c00",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "999715ea-f0cb-4a9c-934b-d36b2bb56736",
+            "UPDT_ADT_VL": "mdx-DAA263FE-0069-46C8-96CD-CC9FFB36B857",
+            "UPDT_DTS": "2023-08-18T13:12:29.789207Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:34.806057Z",
+            "transaction-id": 28046220850594
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-19T20:05:00Z",
+            "CHAN_MTRX_ID": "D8C14CF3-CF06-4F5D-9819-4139321C4035",
+            "FREEZE_ID": "7cc78d5d-36e9-4d42-b98e-3fe2b1eb99fd",
+            "METRIC_ADT_ID": "101ae310-3952-4184-a73c-822ee0f0c4f5",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "E5ABA15E-905E-79E6-3B6A-29383610FA51",
+            "UPDT_ADT_VL": "mdx-6C384D2E-5894-40BB-B5CD-C659F92982BD",
+            "UPDT_DTS": "2023-08-18T13:12:30.331907Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:34.813228Z",
+            "transaction-id": 28046220856871
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-10-17T09:40:00Z",
+            "CHAN_MTRX_ID": "ef0d3c10-e1e0-4899-b9d7-d5c8c8db9572",
+            "FREEZE_ID": "223d078d-a275-4920-9d12-b9f5c1a668fc",
+            "METRIC_ADT_ID": "848f7686-8623-4dfc-8a97-e265bb63e165",
+            "QUANTITY_CN": 2,
+            "RSRVBL_RSRC_ID": "1bb2a2f3-6cae-400a-a0bf-fa908f17ca5f",
+            "UPDT_ADT_VL": "mdx-AABBD994-F86B-4475-AB1C-D8DDAF239240",
+            "UPDT_DTS": "2023-08-18T13:12:31.381300Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:34.820525Z",
+            "transaction-id": 28046220866759
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-17T09:50:00Z",
+            "CHAN_MTRX_ID": "10",
+            "FREEZE_ID": "18a7282a-5aa0-de5e-3f4e-27b5c1d0a29d:316",
+            "METRIC_ADT_ID": "249184c9-3d32-4f72-a570-35ddea7f9025",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "C9EC4031-046D-51C6-E043-9906F4D151C6",
+            "UPDT_ADT_VL": "140b94ca-3647-43d2-a32e-5a367ff538f4 ",
+            "UPDT_DTS": "2023-08-18T13:12:32.600791Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:34.829728Z",
+            "transaction-id": 28046220876153
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-25T17:15:00Z",
+            "CHAN_MTRX_ID": "99c9ab9b-8888-46a0-9bf9-840ea1542dc0",
+            "FREEZE_ID": "16b71c4e-7f7e-415b-8b6f-8b5a560287d5",
+            "METRIC_ADT_ID": "41ad80fd-d0c9-4d11-8f16-0f06d53f5416",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "a463cd78-9d81-49c4-b5ff-d911d8c1484f",
+            "UPDT_ADT_VL": "SYS418238752432-6561755-8187955-6451640 ",
+            "UPDT_DTS": "2023-08-18T13:12:33.292000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:34.838938Z",
+            "transaction-id": 28046220878664
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-18T17:00:00Z",
+            "CHAN_MTRX_ID": "A5478D3F-B71F-49A0-9812-AB012A191C55",
+            "FREEZE_ID": "2775d1b1-f25f-49d6-b03a-85feb224bbf3",
+            "METRIC_ADT_ID": "f00b18aa-ebae-4cff-b6f5-a53e28dfd03c",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "9959487d-16f2-4905-96a4-2a1e86bb154f",
+            "UPDT_ADT_VL": "mdx-CC49A47F-F006-4DC6-9ECB-B61D31FD5FF6",
+            "UPDT_DTS": "2023-08-18T13:12:33.174898Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:34.846785Z",
+            "transaction-id": 28046220880264
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-18T18:30:00Z",
+            "CHAN_MTRX_ID": "ef0d3c10-e1e0-4899-b9d7-d5c8c8db9572",
+            "FREEZE_ID": "393c0e04-7ab5-4660-85e3-b0430c7b545e",
+            "METRIC_ADT_ID": "9b533381-2809-4117-ad4e-b35d89a277f7",
+            "QUANTITY_CN": 2,
+            "RSRVBL_RSRC_ID": "1bb2a2f3-6cae-400a-a0bf-fa908f17ca5f",
+            "UPDT_ADT_VL": "1692378753489 ",
+            "UPDT_DTS": "2023-08-18T13:12:35.096000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:39.884788Z",
+            "transaction-id": 28046220892594
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-24T12:00:00Z",
+            "CHAN_MTRX_ID": "04041556-17D5-463F-81A0-D838D966462E",
+            "FREEZE_ID": "cd16e5c5-f63e-44d7-a02d-871ccc866aa6",
+            "METRIC_ADT_ID": "c0a9b413-93ba-4871-a3d7-48adb47c356d",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "7b3efcd9-833b-44ef-828f-0582900253c5",
+            "UPDT_ADT_VL": "SYS418238754218-3710318-9460354-6691671 ",
+            "UPDT_DTS": "2023-08-18T13:12:35.380000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:39.896279Z",
+            "transaction-id": 28046220894168
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-20T22:45:00Z",
+            "CHAN_MTRX_ID": "c58f63c0-7650-4ecf-a703-00f0346bf1fd",
+            "FREEZE_ID": "c7f71404-7ddc-4ba7-8d3b-45a60f640d74",
+            "METRIC_ADT_ID": "3a843957-59bf-4d6b-b266-c2a098101892",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "85e9846b-a193-4412-ad9f-dce512633233",
+            "UPDT_ADT_VL": "1692378755031 ",
+            "UPDT_DTS": "2023-08-18T13:12:35.936000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:39.905254Z",
+            "transaction-id": 28046220899673
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-22T17:05:00Z",
+            "CHAN_MTRX_ID": "FA5A8FC5-979E-4232-B7DE-DB3B09BDA97F",
+            "FREEZE_ID": "010103ba-9ea6-4319-bca2-472d894b53e0",
+            "METRIC_ADT_ID": "ab443438-bc28-497c-9db8-8d074adae239",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "64D60334-00F2-C60C-143F-860FF409B021",
+            "UPDT_ADT_VL": "mdx-2052FCE0-717E-4D75-92FC-BDD8F2547D43",
+            "UPDT_DTS": "2023-08-18T13:12:36.410362Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:39.912590Z",
+            "transaction-id": 28046220902252
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-18T19:25:00Z",
+            "CHAN_MTRX_ID": "9c0ca9f5-f5e3-478a-a237-d922ad79d618",
+            "FREEZE_ID": "fa190504-f4d8-4cc5-a722-c523e44369c9",
+            "METRIC_ADT_ID": "8a2dff28-2973-4dc3-82fa-61028f719ace",
+            "QUANTITY_CN": 0,
+            "RSRVBL_RSRC_ID": "21b15122-50ec-484d-8edd-f111a05c9786",
+            "UPDT_ADT_VL": "1692378755906 ",
+            "UPDT_DTS": "2023-08-18T13:12:36.717000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:39.919971Z",
+            "transaction-id": 28046220907474
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-19T10:40:00Z",
+            "CHAN_MTRX_ID": "10",
+            "FREEZE_ID": "057fac8c-aa45-4e76-e5ed-6a201296771a:104",
+            "METRIC_ADT_ID": "891ea585-52da-4829-bb8f-20d0df4ed47d",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "bdd578d1-b946-40ab-b0fb-6a7ddf15af8d",
+            "UPDT_ADT_VL": "84f8caca-0675-4e03-ac39-121d017394ab ",
+            "UPDT_DTS": "2023-08-18T13:12:36.732304Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:39.926312Z",
+            "transaction-id": 28046220908493
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-17T20:20:00Z",
+            "CHAN_MTRX_ID": "10",
+            "FREEZE_ID": "a22176c6-f0c5-7b99-4dbb-282fb7d77afa:5",
+            "METRIC_ADT_ID": "2dec4f3c-73f7-48be-b287-9234562b8cb4",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "CD4A0976-EADF-8058-E043-9906F4D18058",
+            "UPDT_ADT_VL": "9a9a18f2-ae07-4649-b07c-c845323cd70f ",
+            "UPDT_DTS": "2023-08-18T13:12:36.869152Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:39.933768Z",
+            "transaction-id": 28046220910453
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-10-17T16:35:00Z",
+            "CHAN_MTRX_ID": "10",
+            "FREEZE_ID": "ed5d0934-b551-dc5c-e158-1bc98288b445:2",
+            "METRIC_ADT_ID": "a222149a-f8df-44bf-be10-ef1076d75619",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "c0ddbdbb-f96f-43c1-9c85-97c40fe8485b",
+            "UPDT_ADT_VL": "4eaf8ed4-d94b-4acd-b225-4bb8fa2e4b2a",
+            "UPDT_DTS": "2023-08-18T13:12:36.890510Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:39.942783Z",
+            "transaction-id": 28046220912551
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-16T18:00:00Z",
+            "CHAN_MTRX_ID": "C9FB1345-A4C4-4124-E043-9906F4D14124",
+            "FREEZE_ID": "bbb6284b-b296-4778-9cd8-11121a925f51",
+            "METRIC_ADT_ID": "a32ac1dd-7ff9-4caa-b2a8-f1a22133f0ff",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "C9FB1345-A4BC-4124-E043-9906F4D14124",
+            "UPDT_ADT_VL": "1692378756995 ",
+            "UPDT_DTS": "2023-08-18T13:12:37.746000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:39.951465Z",
+            "transaction-id": 28046220918939
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "REFRESH",
+            "ARVL_DTS": "2023-10-17T09:50:00Z",
+            "CHAN_MTRX_ID": "10",
+            "FREEZE_ID": "18a7282a-5aa0-de5e-3f4e-27b5c1d0a29d:316",
+            "METRIC_ADT_ID": "f53d80a0-613b-4937-9640-bba34053b6f4",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "C9EC4031-046D-51C6-E043-9906F4D151C6",
+            "UPDT_ADT_VL": "70220023-62f3-4ebb-b4ee-957aa8668234 ",
+            "UPDT_DTS": "2023-08-18T13:12:38.946520Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:39.961201Z",
+            "transaction-id": 28046220937887
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-20T10:20:00Z",
+            "CHAN_MTRX_ID": "ef0d3c10-e1e0-4899-b9d7-d5c8c8db9572",
+            "FREEZE_ID": "5d3c2b55-3d13-45f7-b5a1-2d41c3991a84",
+            "METRIC_ADT_ID": "f5e2a56c-a540-4dda-a102-2f9aa1d525e7",
+            "QUANTITY_CN": 3,
+            "RSRVBL_RSRC_ID": "1bb2a2f3-6cae-400a-a0bf-fa908f17ca5f",
+            "UPDT_ADT_VL": "SYS418238758999-7108630-7376267-3906154 ",
+            "UPDT_DTS": "2023-08-18T13:12:39.656000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:39.969561Z",
+            "transaction-id": 28046220938409
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-18T12:30:00Z",
+            "CHAN_MTRX_ID": "10",
+            "FREEZE_ID": "3dab35b1-a598-2b8c-1053-7d897e08f4f7:3",
+            "METRIC_ADT_ID": "064e3557-c9f2-4d15-a15f-b02f33db4a15",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "e8d2b7e3-f018-4b5a-8762-932ee78181b5",
+            "UPDT_ADT_VL": "a221ee63-f410-49ec-bc06-e02037fbd3c9 ",
+            "UPDT_DTS": "2023-08-18T13:12:41.300947Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:44.970016Z",
+            "transaction-id": 28046220940009
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-21T14:15:00Z",
+            "CHAN_MTRX_ID": "8831D2CC-0866-4686-940C-6DA7A5938B1F",
+            "FREEZE_ID": "94064b22-2cf8-40ee-8488-4fe6d37bb5b8",
+            "METRIC_ADT_ID": "21e74c92-6aea-479c-b655-02c1eb73436e",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "339FC6B8-FAE5-C4C7-C2D2-C31AD3EF6E05",
+            "UPDT_ADT_VL": "mdx-DA538072-BD33-4998-BA75-3C8184724F84",
+            "UPDT_DTS": "2023-08-18T13:12:41.342946Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:44.979952Z",
+            "transaction-id": 28046220942130
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-18T18:35:00Z",
+            "CHAN_MTRX_ID": "02B47912-3772-76DB-E050-0699C0BC2D7F",
+            "FREEZE_ID": "c446de63-59e5-4588-823e-7c7fcc809ef0",
+            "METRIC_ADT_ID": "b72495eb-44ae-4953-816d-bba5ff0b6b44",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "02B47912-376B-76DB-E050-0699C0BC2D7F",
+            "UPDT_ADT_VL": "1692378760986 ",
+            "UPDT_DTS": "2023-08-18T13:12:41.695000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:45.009943Z",
+            "transaction-id": 28046220947488
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-20T20:00:00Z",
+            "CHAN_MTRX_ID": "7a2680f6-6af1-41c0-a32e-1df654f39b43",
+            "FREEZE_ID": "47e0e2e8-67f5-40b5-a3d0-27d169255a71",
+            "METRIC_ADT_ID": "54dfe7a1-cf4c-4139-b09d-876c2d002297",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "6676cce0-d018-4b96-bb66-7dad49b4a112",
+            "UPDT_ADT_VL": "1692378760572 ",
+            "UPDT_DTS": "2023-08-18T13:12:41.850000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:45.018072Z",
+            "transaction-id": 28046220949062
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-09-16T09:30:00Z",
+            "CHAN_MTRX_ID": "bc29d489-8d34-4fc9-9a21-202f89547a85",
+            "FREEZE_ID": "456416fd-804c-45dd-9a11-a870a7f7a7b0",
+            "METRIC_ADT_ID": "5543e1a7-0286-4b8c-9cc7-becc6a3b1d06",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "7192aad6-555d-4397-b40d-0690452e51d1",
+            "UPDT_ADT_VL": "SYS418238761492-2981771-5669625-1169646 ",
+            "UPDT_DTS": "2023-08-18T13:12:42.535000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:45.025719Z",
+            "transaction-id": 28046220950636
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-18T18:00:00Z",
+            "CHAN_MTRX_ID": "C475DF46-2D46-495D-A1B4-45CCFD7FD5C3",
+            "FREEZE_ID": "4ad7ab33-2bc7-4107-984f-fe35f386c6ca",
+            "METRIC_ADT_ID": "d96ad01c-9508-4102-bd88-8ef91b220c38",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "917A263E-234E-9757-A182-FB599A30B73B",
+            "UPDT_ADT_VL": "1692378762014 ",
+            "UPDT_DTS": "2023-08-18T13:12:42.785000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:45.034167Z",
+            "transaction-id": 28046220952787
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-10-02T17:35:00Z",
+            "CHAN_MTRX_ID": "836B8FD9-3018-4386-81BF-069CD3369C00",
+            "FREEZE_ID": "6976e997-e32b-469f-b341-71eb0a235c2e",
+            "METRIC_ADT_ID": "9b1c0be7-f30f-49f0-baf8-99aee4c94eb8",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "EE2DFCA7-3A26-EE69-32CE-D483930C9857",
+            "UPDT_ADT_VL": "2837ec93-535a-4046-b59c-3dbee16b6801 - ",
+            "UPDT_DTS": "2023-08-18T13:12:42.717964Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:45.043316Z",
+            "transaction-id": 28046220954361
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-10-02T17:10:00Z",
+            "CHAN_MTRX_ID": "836B8FD9-3018-4386-81BF-069CD3369C00",
+            "FREEZE_ID": "800c9e95-b7ed-4664-aa87-b6ece58c9666",
+            "METRIC_ADT_ID": "c33c4ec1-2bfe-4b43-8e8c-1f0fba08eb96",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "EE2DFCA7-3A26-EE69-32CE-D483930C9857",
+            "UPDT_ADT_VL": "2837ec93-535a-4046-b59c-3dbee16b6801 - ",
+            "UPDT_DTS": "2023-08-18T13:12:43.225585Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:45.052348Z",
+            "transaction-id": 28046220960839
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-20T22:45:00Z",
+            "CHAN_MTRX_ID": "c58f63c0-7650-4ecf-a703-00f0346bf1fd",
+            "FREEZE_ID": "c7f71404-7ddc-4ba7-8d3b-45a60f640d74",
+            "METRIC_ADT_ID": "237b4a25-0626-46d9-bc23-76bd02f18374",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "85e9846b-a193-4412-ad9f-dce512633233",
+            "UPDT_ADT_VL": "mdx-E9F77496-E6C3-4133-AA07-EC5851DA734A",
+            "UPDT_DTS": "2023-08-18T13:12:43.804953Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:45.061543Z",
+            "transaction-id": 28046220966885
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-05T15:55:00Z",
+            "CHAN_MTRX_ID": "A4AEC947-72DB-49B9-8A66-F21D39CA1842",
+            "FREEZE_ID": "ba75c11e-a31c-4564-8dc1-4cf3d29f5e60",
+            "METRIC_ADT_ID": "b8356014-a7f4-4d41-bdf3-a34eab5c917e",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "9C354535-EA6D-1440-142E-F86D8ED27275",
+            "UPDT_ADT_VL": "SYS418238763251-3992021-3087902-4125382 ",
+            "UPDT_DTS": "2023-08-18T13:12:44.207000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:45.070503Z",
+            "transaction-id": 28046220972250
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-19T10:25:00Z",
+            "CHAN_MTRX_ID": "3B9C5B1A-567B-4711-8AA4-2DFAB44052A8",
+            "FREEZE_ID": "2271a409-7472-4461-9298-67e1d3b4caf1",
+            "METRIC_ADT_ID": "fe3fbcc3-0771-4687-a389-a1cb7194a3aa",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "1BFD604D-C042-D694-F89C-2CC5F0B234F3",
+            "UPDT_ADT_VL": "SYS418238763562-1465990-4622271-8705468 ",
+            "UPDT_DTS": "2023-08-18T13:12:44.554000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:45.079542Z",
+            "transaction-id": 28046220973850
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-19T21:30:00Z",
+            "CHAN_MTRX_ID": "6F81DF64-9627-4E35-8520-BC38CEDA4AE9",
+            "FREEZE_ID": "4563107d-65d1-4f16-9a06-273b6cbff9c3",
+            "METRIC_ADT_ID": "6594a04a-f688-4aa7-8def-87815ab61254",
+            "QUANTITY_CN": 3,
+            "RSRVBL_RSRC_ID": "4cafc352-62d4-4e88-98f3-16474db25aa7",
+            "UPDT_ADT_VL": "SYS418238763562-1465990-4622271-8705468 ",
+            "UPDT_DTS": "2023-08-18T13:12:44.573000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:45.088379Z",
+            "transaction-id": 28046220975450
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-01T10:30:00Z",
+            "CHAN_MTRX_ID": "d48f3feb-9596-415f-999d-44c116261c3d",
+            "FREEZE_ID": "5d9ab1b0-b3db-43a3-ace0-085516cdca50",
+            "METRIC_ADT_ID": "20b7c57c-195f-453b-91bc-7dd173d5e7dc",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "78ee0dc5-7dd9-4532-a19d-b782a8e26294",
+            "UPDT_ADT_VL": "SYS418238764231-8360196-5430361-7395155 ",
+            "UPDT_DTS": "2023-08-18T13:12:45.215000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:50.048687Z",
+            "transaction-id": 28046220977050
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-31T10:30:00Z",
+            "CHAN_MTRX_ID": "A5478D3F-B71F-49A0-9812-AB012A191C55",
+            "FREEZE_ID": "94587147-fffc-4fb9-a949-95d226cb1f32",
+            "METRIC_ADT_ID": "791c1c05-6e45-4320-acad-8ab0202a9003",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "9959487d-16f2-4905-96a4-2a1e86bb154f",
+            "UPDT_ADT_VL": "nv91u0096gp8i1qailralv1rrp",
+            "UPDT_DTS": "2023-08-18T13:12:45.803525Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:50.057033Z",
+            "transaction-id": 28046220979222
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-09-08T11:15:00Z",
+            "CHAN_MTRX_ID": "dad130f0-c162-4eba-a4ba-9334206ae415",
+            "FREEZE_ID": "9dc9de90-63bc-4133-9ccb-a55090d0e9f9",
+            "METRIC_ADT_ID": "43bd8acc-9bc4-42f7-bc07-f53d38ff1c77",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "721707fc-6fce-4b21-97ed-cb52fca3d3dd",
+            "UPDT_ADT_VL": "b9342571-6f6d-43f7-8605-b67e10044a32 - ",
+            "UPDT_DTS": "2023-08-18T13:12:45.930886Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:50.065981Z",
+            "transaction-id": 28046220985542
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-18T12:30:00Z",
+            "CHAN_MTRX_ID": "10",
+            "FREEZE_ID": "3dab35b1-a598-2b8c-1053-7d897e08f4f7:3",
+            "METRIC_ADT_ID": "270e5f1f-3f9a-49a3-9bed-620e8b9440d4",
+            "QUANTITY_CN": 0,
+            "RSRVBL_RSRC_ID": "e8d2b7e3-f018-4b5a-8762-932ee78181b5",
+            "UPDT_ADT_VL": "SYS-418238764041-5387306-2961615-2077136",
+            "UPDT_DTS": "2023-08-18T13:12:46.648665Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:50.074227Z",
+            "transaction-id": 28046220991585
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-27T19:00:00Z",
+            "CHAN_MTRX_ID": "B08593F3-8895-46F6-BA8D-8BC48378D95D",
+            "FREEZE_ID": "31156c1c-0c01-46ed-8fd0-5e8faf72544e",
+            "METRIC_ADT_ID": "6ab41b95-86b1-4162-8872-484a2c3ad689",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "c7ebe121-ac40-483e-8cf4-90b96b09b059",
+            "UPDT_ADT_VL": "SYS418238765672-3919032-2646571-5761491 ",
+            "UPDT_DTS": "2023-08-18T13:12:46.982000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:50.082513Z",
+            "transaction-id": 28046220997579
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-18T14:20:00Z",
+            "CHAN_MTRX_ID": "ef0d3c10-e1e0-4899-b9d7-d5c8c8db9572",
+            "FREEZE_ID": "cdc7085c-47a8-48e1-a4d4-0eaf99e9757f",
+            "METRIC_ADT_ID": "2003349f-37e7-4368-8757-d12e7c6d0657",
+            "QUANTITY_CN": 3,
+            "RSRVBL_RSRC_ID": "1bb2a2f3-6cae-400a-a0bf-fa908f17ca5f",
+            "UPDT_ADT_VL": "1692378766075 ",
+            "UPDT_DTS": "2023-08-18T13:12:47.158000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:50.091231Z",
+            "transaction-id": 28046220999145
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-17T17:55:00Z",
+            "CHAN_MTRX_ID": "D8F6B247-023C-471D-AF7B-C40F51F31E89",
+            "FREEZE_ID": "f53242c9-7ba2-4e23-934e-cac17504fa1b",
+            "METRIC_ADT_ID": "eaaea320-8738-4ac7-bc2e-d112aaecdac8",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "F1BD31F7-A9BC-017D-8561-DCC9A21EC03A",
+            "UPDT_ADT_VL": "1692378766208 ",
+            "UPDT_DTS": "2023-08-18T13:12:47.377000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:50.100012Z",
+            "transaction-id": 28046221000719
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-19T17:00:00Z",
+            "CHAN_MTRX_ID": "02B47912-3794-76DB-E050-0699C0BC2D7F",
+            "FREEZE_ID": "14dd0789-c092-44c9-96fb-c008700568c0",
+            "METRIC_ADT_ID": "c6adb230-2ff9-4d0f-b118-8a39bf02aede",
+            "QUANTITY_CN": 0,
+            "RSRVBL_RSRC_ID": "02B47912-378D-76DB-E050-0699C0BC2D7F",
+            "UPDT_ADT_VL": "mdx-17979DE0-3D09-4BD9-87CF-12D2BC1042A0",
+            "UPDT_DTS": "2023-08-18T13:12:47.620203Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:50.109081Z",
+            "transaction-id": 28046221003647
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-19T17:25:00Z",
+            "CHAN_MTRX_ID": "095bf3dd-9d48-4262-b694-43c49328d1dc",
+            "FREEZE_ID": "c2aa2301-f1dc-4a56-8833-ffd5055035cb",
+            "METRIC_ADT_ID": "b97eeff9-efb8-4c78-aab4-91efc2832012",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "1131177f-4038-4639-91e6-e95b2df92b48",
+            "UPDT_ADT_VL": "Not Supplied ",
+            "UPDT_DTS": "2023-08-18T13:12:49.178000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:50.118104Z",
+            "transaction-id": 28046221012443
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-10-16T18:00:00Z",
+            "CHAN_MTRX_ID": "C9FB1345-A4C4-4124-E043-9906F4D14124",
+            "FREEZE_ID": "bbb6284b-b296-4778-9cd8-11121a925f51",
+            "METRIC_ADT_ID": "5195ba4f-cfba-4007-9ccb-8800014d7c7e",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "C9FB1345-A4BC-4124-E043-9906F4D14124",
+            "UPDT_ADT_VL": "dlr-C7772BFD-2ED9-482B-8A9A-0E89580826A1",
+            "UPDT_DTS": "2023-08-18T13:12:49.572399Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:50.125960Z",
+            "transaction-id": 28046221014986
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-31T14:10:00Z",
+            "CHAN_MTRX_ID": "A11ABD66-5D6E-4F54-94C3-05346622DFB2",
+            "FREEZE_ID": "ce86999d-1073-4dfc-b938-583aa639a3e5",
+            "METRIC_ADT_ID": "6deac00f-76eb-4d20-a3d0-638464ad0406",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "3216939E-BB8A-152D-CC8A-77072B728509",
+            "UPDT_ADT_VL": "1692378768685 ",
+            "UPDT_DTS": "2023-08-18T13:12:49.702000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:50.135067Z",
+            "transaction-id": 28046221022862
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-18T19:25:00Z",
+            "CHAN_MTRX_ID": "9c0ca9f5-f5e3-478a-a237-d922ad79d618",
+            "FREEZE_ID": "fa190504-f4d8-4cc5-a722-c523e44369c9",
+            "METRIC_ADT_ID": "b5c4ad97-b5cc-44a1-bc60-692e5cf024d9",
+            "QUANTITY_CN": 0,
+            "RSRVBL_RSRC_ID": "21b15122-50ec-484d-8edd-f111a05c9786",
+            "UPDT_ADT_VL": "mdx-1955239A-6661-4415-86B7-84859C34F7F0",
+            "UPDT_DTS": "2023-08-18T13:12:49.834552Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:50.144849Z",
+            "transaction-id": 28046221025958
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-21T12:30:00Z",
+            "CHAN_MTRX_ID": "f7315c43-de25-4fe1-91f4-c4e0afdda8ae",
+            "FREEZE_ID": "15baa3b8-37b7-4970-9717-c9df7176ce8c",
+            "METRIC_ADT_ID": "b0ae9b2d-e75d-46fa-b885-5132c81662cb",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "e8d2b7e3-f018-4b5a-8762-932ee78181b5",
+            "UPDT_ADT_VL": "dlr-3803E642-C754-4D32-AFDA-905C05E87A97",
+            "UPDT_DTS": "2023-08-18T13:12:49.904012Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:55.125372Z",
+            "transaction-id": 28046221033166
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-22T18:45:00Z",
+            "CHAN_MTRX_ID": "b3063ad2-fdb7-4d92-9282-bc4208c14638",
+            "FREEZE_ID": "02c221df-8458-4b2c-bc6c-18803c1e34ef",
+            "METRIC_ADT_ID": "96cb8e35-8e55-4784-a88d-5473ef67d305",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "90b03b1f-4f79-4da7-b1f1-a4245e1d3a38",
+            "UPDT_ADT_VL": "SYS418238769636-6404121-9754364-6792230 ",
+            "UPDT_DTS": "2023-08-18T13:12:50.397000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:55.136014Z",
+            "transaction-id": 28046221038347
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-18T16:15:00Z",
+            "CHAN_MTRX_ID": "40d2c167-8874-4c50-894e-18d7af621a36",
+            "FREEZE_ID": "04bff905-5d9a-4994-9afa-c21c475718ca",
+            "METRIC_ADT_ID": "bb913c77-9a8a-411c-8ba0-8174a5eaec3e",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "6077dda9-ecbc-4331-b911-c6a7ae06208d",
+            "UPDT_ADT_VL": "mdx-960B9EA9-77DE-4AB9-AB2D-73191A64F63A",
+            "UPDT_DTS": "2023-08-18T13:12:51.351346Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:55.142992Z",
+            "transaction-id": 28046221040952
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-18T17:35:00Z",
+            "CHAN_MTRX_ID": "FA2D022F-75EE-45CB-9C1D-DF019CC2C2BC",
+            "FREEZE_ID": "cc43e6da-ab5f-4e40-9602-b03cfafdc062",
+            "METRIC_ADT_ID": "3b38d6cf-cc24-49bf-a6c2-0d88d3edd171",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "4805E768-B19A-473B-4054-21475950E62F",
+            "UPDT_ADT_VL": "1692378770659 ",
+            "UPDT_DTS": "2023-08-18T13:12:51.622000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:55.151791Z",
+            "transaction-id": 28046221046718
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-17T16:50:00Z",
+            "CHAN_MTRX_ID": "584EFBE7-28A3-41EA-E043-8B681C5641EA",
+            "FREEZE_ID": "63b63594-1a69-43c6-b479-15c8c8f3525e",
+            "METRIC_ADT_ID": "22049cfb-bfc0-44d0-8e8f-f36ec1a3a601",
+            "QUANTITY_CN": 7,
+            "RSRVBL_RSRC_ID": "86e0a670-87e4-474c-8ec6-8b786b2ed537",
+            "UPDT_ADT_VL": "SYS418238771090-5380636-3843760-8805338 ",
+            "UPDT_DTS": "2023-08-18T13:12:51.895000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:55.160869Z",
+            "transaction-id": 28046221048292
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-05T17:00:00Z",
+            "CHAN_MTRX_ID": "10",
+            "FREEZE_ID": "2dfba0fb-78e4-5347-152f-62f392ef563c:18",
+            "METRIC_ADT_ID": "f2eb77e8-1743-4269-9a79-ca3dcbd16fe6",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "a4682813-ddc3-eaf2-773e-749d16514b18",
+            "UPDT_ADT_VL": "70611fcd-4cef-4030-a5aa-8f92d2a0d8f6 ",
+            "UPDT_DTS": "2023-08-18T13:12:52.320873Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:55.170513Z",
+            "transaction-id": 28046221054280
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-20T20:00:00Z",
+            "CHAN_MTRX_ID": "7a2680f6-6af1-41c0-a32e-1df654f39b43",
+            "FREEZE_ID": "47e0e2e8-67f5-40b5-a3d0-27d169255a71",
+            "METRIC_ADT_ID": "0f2e6798-90b2-4c50-85e8-4c1b79ba2266",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "6676cce0-d018-4b96-bb66-7dad49b4a112",
+            "UPDT_ADT_VL": "wMDX-a0a91eee-0f13-4873-9509-6686abe60479",
+            "UPDT_DTS": "2023-08-18T13:12:52.270378Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:55.178561Z",
+            "transaction-id": 28046221055818
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-09-18T16:50:00Z",
+            "CHAN_MTRX_ID": "10",
+            "FREEZE_ID": "10357c8f-4d86-5a39-e806-239913bc3182:137",
+            "METRIC_ADT_ID": "bcb723c7-30a1-4dc9-90fd-facd289ccfef",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "68f12e91-fdae-4dfb-a384-008618dd7ef7",
+            "UPDT_ADT_VL": "c8445f09-20b4-4b48-8103-d7677dd3dac2 ",
+            "UPDT_DTS": "2023-08-18T13:12:52.685719Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:55.186123Z",
+            "transaction-id": 28046221061048
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-10-18T18:30:00Z",
+            "CHAN_MTRX_ID": "ef0d3c10-e1e0-4899-b9d7-d5c8c8db9572",
+            "FREEZE_ID": "393c0e04-7ab5-4660-85e3-b0430c7b545e",
+            "METRIC_ADT_ID": "6926d4a7-3cc1-425b-a282-f261c3e66867",
+            "QUANTITY_CN": 2,
+            "RSRVBL_RSRC_ID": "1bb2a2f3-6cae-400a-a0bf-fa908f17ca5f",
+            "UPDT_ADT_VL": "mdx-19FC7564-9047-4843-AFFD-597280E9C1C8",
+            "UPDT_DTS": "2023-08-18T13:12:52.797927Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:12:55.195363Z",
+            "transaction-id": 28046221063141
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-18T18:00:00Z",
+            "CHAN_MTRX_ID": "C475DF46-2D46-495D-A1B4-45CCFD7FD5C3",
+            "FREEZE_ID": "4ad7ab33-2bc7-4107-984f-fe35f386c6ca",
+            "METRIC_ADT_ID": "1444e25e-4df3-4bbd-8426-75f7cf4800e8",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "917A263E-234E-9757-A182-FB599A30B73B",
+            "UPDT_ADT_VL": "mdx-4324EBD3-ECF2-47A1-8915-191971C7C474",
+            "UPDT_DTS": "2023-08-18T13:12:55.883732Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:13:00.248905Z",
+            "transaction-id": 28046221074150
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-18T19:30:00Z",
+            "CHAN_MTRX_ID": "940B1DAD-0F10-44DC-865F-3AA18095EDD7",
+            "FREEZE_ID": "a7cd0d10-afb2-41db-bc3a-ffab8b61753a",
+            "METRIC_ADT_ID": "a48af121-7dd4-4912-b2ad-35e7a091ceb9",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "d779ee08-8a64-4dfc-8f23-f0b4156d7c32",
+            "UPDT_ADT_VL": "1692378775411 ",
+            "UPDT_DTS": "2023-08-18T13:12:56.362000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:13:00.258396Z",
+            "transaction-id": 28046221082005
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-09-14T18:10:00Z",
+            "CHAN_MTRX_ID": "162da711-530d-4d94-a372-4d2c06b627e4",
+            "FREEZE_ID": "3e420040-78a1-425a-ad6e-80d0f7f2c237",
+            "METRIC_ADT_ID": "6e328fd8-78b9-46e4-82cd-47e656839bd0",
+            "QUANTITY_CN": 2,
+            "RSRVBL_RSRC_ID": "fd6bd24c-2c02-4b8b-addc-4b1a5c22e3b0",
+            "UPDT_ADT_VL": "147881e0-3dde-11ee-bd5c-3782b2292200",
+            "UPDT_DTS": "2023-08-18T13:12:56.557496Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:13:00.267764Z",
+            "transaction-id": 28046221084161
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-18T18:35:00Z",
+            "CHAN_MTRX_ID": "02B47912-3772-76DB-E050-0699C0BC2D7F",
+            "FREEZE_ID": "c446de63-59e5-4588-823e-7c7fcc809ef0",
+            "METRIC_ADT_ID": "99fdf2fd-a034-4e81-be08-e76c00f1b5fe",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "02B47912-376B-76DB-E050-0699C0BC2D7F",
+            "UPDT_ADT_VL": "mdx-CF2610B8-FF2A-4E04-AB28-1513EC84177A",
+            "UPDT_DTS": "2023-08-18T13:12:56.771830Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:13:00.277651Z",
+            "transaction-id": 28046221091134
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-20T13:20:00Z",
+            "CHAN_MTRX_ID": "62CDD300-F73C-4BE0-8455-820D95DC87B9",
+            "FREEZE_ID": "dbed0c28-98cd-4eaf-b558-cc8245fdfb3a",
+            "METRIC_ADT_ID": "53c513a5-3ab3-41a8-b520-b2e44bcf8c4f",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "78C05EA9-3C79-7ECB-2C30-D31203C35AE3",
+            "UPDT_ADT_VL": "1692378776549 ",
+            "UPDT_DTS": "2023-08-18T13:12:57.389000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:13:00.286903Z",
+            "transaction-id": 28046221096550
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-09-01T17:25:00Z",
+            "CHAN_MTRX_ID": "58ec9087-fe11-4e81-8e04-98951230f895",
+            "FREEZE_ID": "fd0fa4d4-8e60-443e-a5ed-512a0b340625",
+            "METRIC_ADT_ID": "9d730f24-fcbb-4b71-a6a4-dbfcc81b16f1",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "91bcd0e5-94c1-4417-b788-94e727f087d8",
+            "UPDT_ADT_VL": "SYS418238777401-5660374-6618323-7499497 ",
+            "UPDT_DTS": "2023-08-18T13:12:58.184000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:13:00.296050Z",
+            "transaction-id": 28046221098090
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-20T22:40:00Z",
+            "CHAN_MTRX_ID": "828b6fb3-2e66-46db-af83-0d8824c45aa2",
+            "FREEZE_ID": "0a7e8c86-b47e-4c9f-bce7-a3e5b236daff",
+            "METRIC_ADT_ID": "64a5ac48-b6e5-416b-9b17-e8dec733f676",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "7e7d27f8-aff0-4205-b086-2eccf732cd2f",
+            "UPDT_ADT_VL": "1692378777207 ",
+            "UPDT_DTS": "2023-08-18T13:12:58.403000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:13:00.304917Z",
+            "transaction-id": 28046221099656
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-18T19:40:00Z",
+            "CHAN_MTRX_ID": "56B71978-551F-4CEC-BD37-92FD1922D99B",
+            "FREEZE_ID": "1569630c-43f1-444d-9fc3-5c9c8cff3d73",
+            "METRIC_ADT_ID": "8e47aecb-2b18-4bfb-864d-ff31a8f81a8c",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "00C5D83B-5EC7-9B41-22A1-4847D8F6CEB5",
+            "UPDT_ADT_VL": "1692378777737 ",
+            "UPDT_DTS": "2023-08-18T13:12:58.476000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:13:00.314008Z",
+            "transaction-id": 28046221101230
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "REFRESH",
+            "ARVL_DTS": "2023-10-05T17:00:00Z",
+            "CHAN_MTRX_ID": "10",
+            "FREEZE_ID": "2dfba0fb-78e4-5347-152f-62f392ef563c:18",
+            "METRIC_ADT_ID": "ca4b2d15-16cc-420d-93e8-84d81a18d5a6",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "a4682813-ddc3-eaf2-773e-749d16514b18",
+            "UPDT_ADT_VL": "c5d32696-6722-4386-8f02-dea54b36b0c3 ",
+            "UPDT_DTS": "2023-08-18T13:12:59.262282Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:13:00.323230Z",
+            "transaction-id": 28046221103847
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-10-06T15:50:00Z",
+            "CHAN_MTRX_ID": "718062B8-ADD5-D2C4-E043-9906F4D1D2C4",
+            "FREEZE_ID": "b5121e53-a708-47b4-8589-d8c80f5ece73",
+            "METRIC_ADT_ID": "93eb5311-54af-4d15-b686-25a21fbc7d25",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "718062B8-ADCF-D2C4-E043-9906F4D1D2C4",
+            "UPDT_ADT_VL": "cod5um93rq8k3moktsekdf09m5",
+            "UPDT_DTS": "2023-08-18T13:12:59.153990Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:13:00.332170Z",
+            "transaction-id": 28046221104368
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-08-19T12:15:00Z",
+            "CHAN_MTRX_ID": "807A4C91-960F-426E-BAC3-61FCB9B7808E",
+            "FREEZE_ID": "5eb34161-f80e-4df1-921c-8da3fc9c44d4",
+            "METRIC_ADT_ID": "5f253454-e41c-403c-9855-620b1dff1478",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "0834F558-41BE-A6C4-A901-1772B6842E5F",
+            "UPDT_ADT_VL": "1692378778564 ",
+            "UPDT_DTS": "2023-08-18T13:12:59.552000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:13:00.341332Z",
+            "transaction-id": 28046221115947
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-18T20:05:00Z",
+            "CHAN_MTRX_ID": "4e280fcb-bdc1-42ae-b765-e1c75052d01b",
+            "FREEZE_ID": "e79d7d91-b276-4d36-b6b1-71c02d4c5e58",
+            "METRIC_ADT_ID": "5d69f81a-b163-4caa-b06d-e17939550655",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "498d59d6-9365-4142-912b-5608f01f5097",
+            "UPDT_ADT_VL": "f8951c20-3de9-11ee-993a-1f4f890fd326",
+            "UPDT_DTS": "2023-08-18T13:12:59.793375Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:13:00.350242Z",
+            "transaction-id": 28046221118689
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "REFRESH",
+            "ARVL_DTS": "2023-09-18T16:50:00Z",
+            "CHAN_MTRX_ID": "10",
+            "FREEZE_ID": "10357c8f-4d86-5a39-e806-239913bc3182:137",
+            "METRIC_ADT_ID": "5cc39b60-6c71-4de8-8fa7-1b922f07c6be",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "68f12e91-fdae-4dfb-a384-008618dd7ef7",
+            "UPDT_ADT_VL": "47cf94da-c190-4d4d-8569-e55f953f3b4f ",
+            "UPDT_DTS": "2023-08-18T13:13:00.199223Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:13:00.358839Z",
+            "transaction-id": 28046221124248
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-09-23T21:05:00Z",
+            "CHAN_MTRX_ID": "05332386-2B1E-4BAC-B0BD-2AED51A1A0F9",
+            "FREEZE_ID": "bd918d43-e972-4634-8285-92aa8d25e2c3",
+            "METRIC_ADT_ID": "9575ec83-53d4-4665-9958-2856f6503b1e",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "69BA2136-C9E0-96D8-4809-B7E44F6AC77A",
+            "UPDT_ADT_VL": "1692378779467 ",
+            "UPDT_DTS": "2023-08-18T13:13:00.234000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:13:00.367313Z",
+            "transaction-id": 28046221124770
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "FREEZE",
+            "ARVL_DTS": "2023-10-20T09:45:00Z",
+            "CHAN_MTRX_ID": "02B47912-3772-76DB-E050-0699C0BC2D7F",
+            "FREEZE_ID": "46cb17eb-1be7-4ce2-a82a-f699c0a4d485",
+            "METRIC_ADT_ID": "12f7ee75-6058-4a11-adfd-7abd2359052c",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "02B47912-376B-76DB-E050-0699C0BC2D7F",
+            "UPDT_ADT_VL": "1692378779894 ",
+            "UPDT_DTS": "2023-08-18T13:13:00.670000Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:13:05.320121Z",
+            "transaction-id": 28046221126310
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-18T16:00:00Z",
+            "CHAN_MTRX_ID": "47550e51-47d8-4b48-9a36-bd5b6626e041",
+            "FREEZE_ID": "1b1369de-a528-42cf-8dc1-6560dc8797bc",
+            "METRIC_ADT_ID": "716e4cb9-e259-4e9c-8fe0-957ab8a426c2",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "0c0aec20-1ce4-47a6-a63c-93358a6813ba",
+            "UPDT_ADT_VL": "mdx-E7BD9CD0-FA94-4DCF-9B46-C20B476554D1",
+            "UPDT_DTS": "2023-08-18T13:12:59.649517Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:13:05.327563Z",
+            "transaction-id": 28046221127850
+        }
+    },
+    {
+        "data": {
+            "ACTN_NM": "BOOK",
+            "ARVL_DTS": "2023-08-19T16:20:00Z",
+            "CHAN_MTRX_ID": "BAB47D1A-A0E6-40A0-B74C-9581447D23E5",
+            "FREEZE_ID": "024d103d-941d-4545-b7f8-da875515b54a",
+            "METRIC_ADT_ID": "c798d01a-b480-4e83-b289-7bf24980b8a1",
+            "QUANTITY_CN": 1,
+            "RSRVBL_RSRC_ID": "FED73CA9-B355-99DF-74E1-4FB1F3F4F2C5",
+            "UPDT_ADT_VL": "7lto9kavaaqqnjsm41n1ordmbi",
+            "UPDT_DTS": "2023-08-18T13:13:00.718825Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "metric_adt",
+            "timestamp": "2023-08-18T17:13:05.336128Z"
+        }
+    }
+]

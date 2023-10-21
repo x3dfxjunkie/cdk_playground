@@ -1,0 +1,43 @@
+stack_extension: &se runner
+region: &region-1 us-east-1
+resources:
+  cluster_name: &rcm github-runner
+  ecs:
+    region: *region-1
+    memory_mib: 4096
+    cpu_limitmb: 2048
+    networking:
+      vpc_id: vpc-02da7a04db8bee27b
+      is_default: False
+      allowlist:
+        ingress:
+          cidrs: &cidr
+            - "10.0.0.0/8"
+          ports:
+            - 443
+        egress:
+          cidr: *cidr
+          ports:
+            - -1
+      blocklist:
+        ingress:
+          cidrs:
+            - NULL
+          ports:
+            - NULL
+    ecr:
+      repository_name: lst-use1-repository
+    secret_name: &secret_name stg-use1-github-runner-secret
+    iam: &iam
+      role_name: ecs-consumer-role-runner
+      assumed_by: !!python/object/apply:aws_cdk.aws_iam.ServicePrincipal
+        - ecs-tasks.amazonaws.com
+      description: IAM Role to be used by the ECS consumer
+    s3:
+      bucket_name: &bucket_name prd-runner-github
+    services:
+      - service_name: github-runner
+        image_tag: github-runner-v1.7.0
+        desired_count: 1
+        cloudmap: False
+        environment:

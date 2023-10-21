@@ -1,0 +1,13 @@
+environment: latest
+resources:
+  rules:
+    load_testing_rule:
+      description: "Rule to schedule the execution of a lambda that triggers a step function for loadtesting"
+      hour: "9"     ##The hour to run this rule at
+      minute: "0"   ##The minute to run this rule at
+      day: "*"      ##The day of the month to run this rule at
+      week_day: "*" ##The day of the week to run this rule at
+      month: "*"    ##The month to run this rule at.
+      year: "*"     ##The year to run this rule at
+
+    

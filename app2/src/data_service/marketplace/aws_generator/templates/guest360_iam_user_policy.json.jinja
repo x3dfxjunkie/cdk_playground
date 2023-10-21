@@ -1,0 +1,55 @@
+{# Disney IAM User Policy Statement For Snowflake SnowPipe Integration for Guest360 #}
+{
+        "Statement": [
+          {
+            "Action": [
+              "s3:GetObject",
+              "s3:GetObjectVersion"
+            ],
+            "Effect": "Allow",
+            "Resource": [
+              "arn:aws:s3:::???-guest360-????-{{s3_bucket_name}}/{{s3_bucket_prefix}}",
+              "arn:aws:s3:::???-guest360-????-{{s3_bucket_name}}/{{s3_bucket_prefix}}/*"
+            ],
+            "Sid": "S3ObjectAccessRO"
+          },
+          {
+            "Action": [
+              "s3:DeleteObject",
+              "s3:DeleteObjectVersion",
+              "s3:PutObject"
+            ],
+            "Effect": "Allow",
+            "Resource": [
+              "arn:aws:s3:::???-guest360-????-{{s3_bucket_name}}/{{s3_bucket_prefix}}/*",
+              "arn:aws:s3:::???-guest360-????-{{s3_bucket_name}}/{{s3_bucket_prefix}}"
+            ],
+            "Sid": "S3ObjectAccessRW"
+          },
+          {
+            "Action": [
+              "s3:ListBucket",
+              "s3:GetBucketLocation"
+            ],
+            "Effect": "Allow",
+            "Resource": [
+              "arn:aws:s3:::???-guest360-????-{{s3_bucket_name}}"
+            ],
+            "Sid": "S3BucketAccessInfo"
+          }{% if s3_bucket_keys|length > 0 %},
+          {
+            "Action": [
+              "kms:Decrypt"
+            ],
+            "Effect": "Allow",
+            "Resource": [
+                {% for s3_key in s3_bucket_keys -%}
+                "arn:aws:kms:::key/{{s3_key}}"{% if not loop.last %},{% endif %}
+                {% endfor -%}
+            ],
+            "Sid": "S3BucketKms"
+          }
+          {%- endif %}
+        ],
+        "Version": "2012-10-17"
+  }

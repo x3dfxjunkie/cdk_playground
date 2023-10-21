@@ -1,0 +1,10 @@
+productCategoriesParam:
+  type: string
+  enum:
+    #to be redesigned using "Inventory perspective"
+    #       - merchandise
+    - ticket
+    - magicband
+    #to be redesigned with Quests
+    #        - playapp-achievement
+    - memory-maker

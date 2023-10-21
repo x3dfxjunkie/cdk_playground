@@ -1,0 +1,167 @@
+[
+    {
+        "data": {
+            "FOLIO_ID": 276611200,
+            "FOLIO_TYP_NM": "INDIVIDUAL",
+            "SRC_ACCT_CTR_ID": 3,
+            "CREATE_USR_ID_CD": "MOUSM001",
+            "CREATE_DTS": "2023-06-09T17:05:48.390000Z",
+            "JDO_CLS_NM": "ChargeGroupFolio",
+            "UPDT_USR_ID_CD": "MOUSM001",
+            "UPDT_DTS": "2023-06-09T17:05:48.390000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_seq": "20230609210549000000000000029962945"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T10:06:22.235828Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO",
+            "transaction-id": 524320
+        }
+    },
+    {
+        "data": {
+            "SRC_ACCT_CTR_ID": 3,
+            "UPDT_USR_ID_CD": "MOUSM001",
+            "UPDT_DTS": "2023-06-09T17:05:48.390000Z",
+            "JDO_SEQ_NB": 1,
+            "FOLIO_ID": 276611200,
+            "FOLIO_TYP_NM": "INDIVIDUAL",
+            "CREATE_USR_ID_CD": "MOUSM001",
+            "CREATE_DTS": "2023-06-09T17:05:48.390000Z",
+            "JDO_CLS_NM": "ChargeGroupFolio",
+            "transact_commit_timestamp": "2023-06-09T21:05:49Z"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T10:06:23.170473Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO",
+            "transaction-id": 524320
+        }
+    },
+    {
+        "data": {
+            "FOLIO_ID": 276611300,
+            "FOLIO_TYP_NM": "INDIVIDUAL",
+            "SRC_ACCT_CTR_ID": 2,
+            "CREATE_USR_ID_CD": "WDPRO",
+            "CREATE_DTS": "2023-06-09T17:05:47.648000Z",
+            "JDO_CLS_NM": "ChargeGroupFolio",
+            "UPDT_USR_ID_CD": "WDPRO",
+            "UPDT_DTS": "2023-06-09T17:05:47.648000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T21:05:52Z",
+            "transact_seq": "20230609210552000000000000029963757"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T10:06:23.701147Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO"
+        }
+    },
+    {
+        "data": {
+            "SRC_ACCT_CTR_ID": 2,
+            "UPDT_USR_ID_CD": "WDPRO",
+            "UPDT_DTS": "2023-06-09T17:05:47.648000Z",
+            "JDO_SEQ_NB": 1,
+            "FOLIO_ID": 276611300,
+            "FOLIO_TYP_NM": "INDIVIDUAL",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "CREATE_DTS": "2023-06-09T17:05:47.648000Z",
+            "JDO_CLS_NM": "ChargeGroupFolio",
+            "transact_commit_timestamp": "2023-06-09T21:05:52Z",
+            "transact_seq": "20230609210552000000000000029963949"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T10:06:24.116517Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO",
+            "transaction-id": 65569
+        }
+    },
+    {
+        "data": {
+            "FOLIO_ID": 276611102,
+            "FOLIO_TYP_NM": "INDIVIDUAL",
+            "SRC_ACCT_CTR_ID": 3,
+            "CREATE_USR_ID_CD": "unknown",
+            "CREATE_DTS": "2023-06-09T17:05:55.525000Z",
+            "JDO_CLS_NM": "ChargeGroupFolio",
+            "UPDT_USR_ID_CD": "unknown",
+            "UPDT_DTS": "2023-06-09T17:05:55.525000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T21:05:56Z",
+            "transact_seq": "20230609210556000000000000029964149"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T10:06:24.440097Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO",
+            "transaction-id": 655383
+        }
+    },
+    {
+        "data": {
+            "SRC_ACCT_CTR_ID": 3,
+            "UPDT_USR_ID_CD": "unknown",
+            "UPDT_DTS": "2023-06-09T17:05:55.525000Z",
+            "JDO_SEQ_NB": 1,
+            "FOLIO_ID": 276611102,
+            "FOLIO_TYP_NM": "INDIVIDUAL",
+            "CREATE_USR_ID_CD": "unknown",
+            "CREATE_DTS": "2023-06-09T17:05:55.525000Z",
+            "JDO_CLS_NM": "ChargeGroupFolio",
+            "transact_commit_timestamp": "2023-06-09T21:05:56Z",
+            "transact_seq": "20230609210556000000000000029964185"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T10:06:24.512766Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO",
+            "transaction-id": 655383
+        }
+    },
+    {
+        "data": {
+            "FOLIO_ID": 276611103,
+            "FOLIO_TYP_NM": "INDIVIDUAL",
+            "SRC_ACCT_CTR_ID": 2,
+            "CREATE_USR_ID_CD": "WDPRO",
+            "CREATE_DTS": "2023-06-09T17:05:55.327000Z",
+            "JDO_CLS_NM": "ChargeGroupFolio",
+            "UPDT_USR_ID_CD": "WDPRO",
+            "UPDT_DTS": "2023-06-09T17:05:55.327000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T21:05:57Z",
+            "transact_seq": "20230609210557000000000000029964401"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T10:06:24.854373Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO",
+            "transaction-id": 2031668
+        }
+    }
+]

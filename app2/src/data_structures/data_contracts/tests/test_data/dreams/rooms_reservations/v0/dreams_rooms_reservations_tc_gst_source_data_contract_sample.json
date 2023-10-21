@@ -1,0 +1,144 @@
+[
+	{
+		"data": {
+			"TC_GST_ID": 12345678912,
+			"TC_ID": 12089812538,
+			"VST_PRPS_NM": "Leisure",
+			"TXN_PTY_RL_ID": 756502774,
+			"TXN_IDVL_MBRSHP_ID": 756502774,
+			"TXN_IDVL_PTY_ID": 756502774,
+			"AGE_TYP_NM": "ADULT",
+			"CREATE_USR_ID_CD": "MOUSM001",
+			"CREATE_DTS": "2023-05-22T12:23:21.297000Z",
+			"UPDT_USR_ID_CD": "MOUSM001",
+			"UPDT_DTS": "2023-05-22T12:23:21.297000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": null,
+			"transact_seq": "20230522162329000000000001886981425"
+		},
+		"metadata": {
+			"timestamp": "2023-05-22T16:23:31.874106Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tc_gst",
+			"transaction-id": null
+		}
+	},
+	{
+		"data": {
+			"TC_GST_ID": 12345678912,
+			"TC_ID": 12089812538,
+			"VST_PRPS_NM": "Leisure",
+			"TXN_PTY_RL_ID": 756502774,
+			"TXN_IDVL_MBRSHP_ID": 756502774,
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"TXN_IDVL_PTY_ID": 756502775,
+			"AGE_TYP_NM": "ADULT",
+			"AGE_NB": 18,
+			"CREATE_USR_ID_CD": "MOUSM001",
+			"CREATE_DTS": "2023-05-22T12:23:21.297000Z",
+			"UPDT_USR_ID_CD": "MOUSM001",
+			"UPDT_DTS": "2023-05-22T12:23:21.297000Z",
+			"JDO_SEQ_NB": 0,
+			"incognito": "N",
+			"transact_commit_timestamp": "2023-05-22T16:23:29Z",
+			"transact_seq": "20230522162329000000000001886981429"
+		},
+		"metadata": {
+			"timestamp": "2023-05-22T16:23:31.884706Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tc_gst",
+			"transaction-id": 72666611985936
+		}
+	},
+	{
+		"data": {
+			"TC_GST_ID": 12345678912,
+			"TC_ID": 12089812538,
+			"VST_PRPS_NM": "Leisure",
+			"TXN_PTY_RL_ID": 756502774,
+			"TXN_IDVL_MBRSHP_ID": 756502774,
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"TXN_IDVL_PTY_ID": 756502779,
+			"AGE_TYP_NM": "CHILD",
+			"AGE_NB": 8,
+			"CREATE_USR_ID_CD": "MOUSM001",
+			"CREATE_DTS": "2023-05-22T12:23:21.297000Z",
+			"UPDT_USR_ID_CD": "MOUSM001",
+			"UPDT_DTS": "2023-05-22T12:23:21.297000Z",
+			"JDO_SEQ_NB": 0,
+			"incognito": "N",
+			"transact_commit_timestamp": "2023-05-22T16:23:29Z",
+			"transact_seq": "20230522162329000000000001886981433"
+		},
+		"metadata": {
+			"timestamp": "2023-05-22T16:23:31.895584Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tc_gst",
+			"transaction-id": 72666611985936
+		}
+	},
+	{
+		"data": {
+			"TC_GST_ID": 12345678912,
+			"TC_ID": 12089812538,
+			"VST_PRPS_NM": "Leisure",
+			"TXN_PTY_RL_ID": 756502774,
+			"TXN_IDVL_MBRSHP_ID": 756502774,
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"TXN_IDVL_PTY_ID": 756502782,
+			"AGE_TYP_NM": "CHILD",
+			"AGE_NB": 4,
+			"CREATE_USR_ID_CD": "MOUSM001",
+			"CREATE_DTS": "2023-05-22T12:23:21.297000Z",
+			"UPDT_USR_ID_CD": "MOUSM001",
+			"UPDT_DTS": "2023-05-22T12:23:21.297000Z",
+			"JDO_SEQ_NB": 0,
+			"incognito": "N",
+			"transact_commit_timestamp": "2023-05-22T16:23:29Z",
+			"transact_seq": "20230522162329000000000001886981437"
+		},
+		"metadata": {
+			"timestamp": "2023-05-22T16:23:31.906178Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tc_gst",
+			"transaction-id": 72666611985936
+		}
+	},
+	{
+		"data": {
+			"TC_GST_ID": 12345678912,
+			"TC_ID": 12089812454,
+			"AGE_TYP_NM": "CHILD",
+			"AGE_NB": 0,
+			"CREATE_USR_ID_CD": "MOUSM001",
+			"CREATE_DTS": "2023-05-22T12:22:35.747000Z",
+			"UPDT_USR_ID_CD": "MOUSM001",
+			"UPDT_DTS": "2023-05-22T12:22:35.747000Z",
+			"JDO_SEQ_NB": 1,
+			"incognito": "N",
+			"transact_commit_timestamp": "2023-05-22T16:23:29Z",
+			"transact_seq": "20230522162329000000000001886981485"
+		},
+		"metadata": {
+			"timestamp": "2023-05-22T16:23:32.033337Z",
+			"record-type": "data",
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tc_gst",
+			"transaction-id": 72666611985936
+		}
+	}
+]

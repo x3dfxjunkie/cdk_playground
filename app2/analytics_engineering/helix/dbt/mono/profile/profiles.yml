@@ -1,0 +1,61 @@
+helix_mono:
+  target: "{{ env_var('DBT_HELIX_MONO_TARGET') }}"
+  outputs:
+
+    ENV_DERIVED=SNOWFLAKE/AUTH=PRIVATE_KEY: &defaults
+      type: snowflake
+      account: "{{ env_var('DBT_HELIX_MONO_ACCOUNT') }}"
+
+      # Keypair config
+      private_key: "{{ env_var('DBT_HELIX_MONO_PRIVATE_KEY') }}"
+      private_key_passphrase: "{{ env_var('DBT_HELIX_MONO_PRIVATE_KEY_PASSPHRASE') }}"
+
+      user: "{{ env_var('DBT_HELIX_MONO_USER') }}"
+      role: "{{ env_var('DBT_HELIX_MONO_ROLE') }}"
+      database: "{{ env_var('DBT_HELIX_MONO_DATABASE') }}"
+      schema: "{{ env_var('SYNTHETIC_SCHEMA') }}"
+      warehouse: "{{ env_var('DBT_HELIX_MONO_WAREHOUSE') }}"
+
+      # defaults to standard 20 threads if not set
+      threads: "{{ env_var('DBT_HELIX_MONO_THREADS', 20 ) | as_number }}"
+      client_session_keep_alive: False
+
+    ENV_DERIVED=SNOWFLAKE/AUTH=PASSWORD: &pw
+      <<: *defaults
+      private_key: null
+      private_key_passphrase: null
+      # User/password auth
+      password: "{{ env_var('DBT_HELIX_MONO_PASSWORD') }}"
+
+    ACCOUNT=DEV/DB=LATEST_DEVHUB: &eb
+      <<: *pw
+      # USE SSO as authenticator
+      password: null
+      authenticator: externalbrowser
+      database: LATEST_DEVHUB
+      account: disney-disneyparksandresortsdev
+
+    ACCOUNT=CI/DB=LATEST_DEVHUB:
+      <<: *eb
+      account: disney-disneyparksandresortscicd
+
+    ACCOUNT=DEV/DB=LATEST_DATAHUB:
+      <<: *eb
+      database: LATEST_DATAHUB
+
+    latest-func:
+      type: snowflake
+      account: "{{ env_var('DBT_HELIX_MONO_ACCOUNT') }}"
+      user: "{{ env_var('DBT_HELIX_MONO_USER') }}"
+      role: "{{ env_var('DBT_HELIX_MONO_ROLE') }}"
+      private_key_path: /home/helix/.ssh/snowflake.key
+      private_key_passphrase: "{{ env_var('PASSPHRASE') }}"
+
+      database: "{{ env_var('DBT_HELIX_MONO_DATABASE') }}"
+      schema: "{{ env_var('SYNTHETIC_SCHEMA') }}"
+      warehouse: "{{ env_var('DBT_HELIX_MONO_WAREHOUSE') }}"
+
+      threads: 8
+      client_session_keep_alive: False
+  config:
+    send_anonymous_usage_stats: False

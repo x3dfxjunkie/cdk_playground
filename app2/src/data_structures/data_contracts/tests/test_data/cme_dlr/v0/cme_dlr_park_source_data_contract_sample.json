@@ -1,0 +1,82 @@
+[
+    {
+        "data": {
+            "id": "DLR_AC",
+            "name": "Avengers Campus",
+            "destination_id": "DLR",
+            "max_capacity": 5000,
+            "percent_max_target": 100,
+            "last_updated": "2021-05-14T10:16:12Z",
+            "created_on": "2021-05-14T10:16:12Z",
+            "created_usr": "MICKEY01"
+        },
+        "metadata": {
+            "timestamp": "2022-10-16T06:56:39.850799Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "park"
+        }
+    },
+    {
+        "data": {
+            "id": "DLR_CA",
+            "name": "California Adventure",
+            "destination_id": "DLR",
+            "max_capacity": 25000,
+            "percent_max_target": 50,
+            "last_updated": "2020-06-02T16:11:02Z",
+            "created_on": "2020-06-02T16:11:01Z",
+            "created_usr": "MICKEY01"
+        },
+        "metadata": {
+            "timestamp": "2022-10-16T06:56:39.859544Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "park"
+        }
+    },
+    {
+        "data": {
+            "id": "DLR_DP",
+            "name": "Disneyland Park",
+            "destination_id": "DLR",
+            "max_capacity": 30000,
+            "percent_max_target": 50,
+            "last_updated": "2020-06-02T16:12:05Z",
+            "created_on": "2020-06-02T16:12:04Z",
+            "created_usr": "MICKEY01"
+        },
+        "metadata": {
+            "timestamp": "2022-10-16T06:56:39.873200Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "park"
+        }
+    },
+    {
+        "data": {
+            "id": "DLR_PC",
+            "name": "Preview - California Adventure",
+            "destination_id": "DLR",
+            "max_capacity": 5000,
+            "percent_max_target": 100,
+            "last_updated": "2021-05-13T13:34:46Z",
+            "created_on": "2021-05-13T13:34:46Z",
+            "created_usr": "MICKEY01"
+        },
+        "metadata": {
+            "timestamp": "2022-10-16T06:56:39.883407Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "park"
+        }
+    }
+]

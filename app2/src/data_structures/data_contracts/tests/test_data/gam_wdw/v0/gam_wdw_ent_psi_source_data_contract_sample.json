@@ -1,0 +1,60 @@
+[
+    {
+        "type": "PSI",
+        "source": "MDX",
+        "action": "CREATE",
+        "nativeId": "143094676656954",
+        "startDateTime": "2023-05-05T01:00:00Z",
+        "endDateTime": "2023-05-05T01:00:00Z",
+        "primaryGuestIdentifier": {
+            "type": "swid",
+            "value": "{8426EADA-95BE-4031-B12A-B60B37F314A2}"
+        },
+        "participantGuestIdentifiers": [
+            {
+                "type": "swid",
+                "value": "{8426EADA-95BE-4031-B12A-B60B37F314A2}"
+            }
+        ],
+        "enterpriseContent": {
+            "type": "entertainment",
+            "value": "18672598"
+        }
+    },
+    {
+        "type": "PSI",
+        "source": "MDX",
+        "action": "CREATE",
+        "nativeId": "123",
+        "name": "Nap Time",
+        "description": "tommy's naptime",
+        "startDateTime": "2017-09-22T08:25:42Z",
+        "endDateTime": "2017-09-22T08:55:42Z",
+        "primaryGuestIdentifier": {
+            "type": "swid",
+            "value": "{0A1D9AC3-12E8-4682-9D9A-C312E8D682B8}"
+        },
+        "participantGuestIdentifiers": [
+            {
+                "type": "guid",
+                "value": "B2BC8A93-F026-4F1B-1FF6-2EC174D92ADB"
+            },
+            {
+                "type": "swid",
+                "value": "{F4F1AC8B-4F9C-493B-BA08-D9878909A826}"
+            }
+        ],
+        "location": "Resort Room",
+        "enterpriseContent": {
+            "type": "Attraction",
+            "value": "7E11A1170AD5"
+        }
+    },
+    {
+        "type": "PSI",
+        "source": "MDX",
+        "action": "DELETE",
+        "nativeId": "123",
+        "timestamp": "2017-09-24T09:25:42Z"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "data": {
+            "CMPS_ID": 1,
+            "CMPS_NM": "Walt Disney World",
+            "CREATE_USR_ID_CD": "LILO CONV",
+            "CREATE_DTS": "2009-08-11T21:41:09.000Z"
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.431588Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "CMPS"
+        }
+    },
+    {
+        "data": {
+            "CMPS_ID": 2,
+            "CMPS_NM": "Disneyland",
+            "CREATE_USR_ID_CD": "LILO CONV",
+            "CREATE_DTS": "2009-08-11T21:41:09.000Z"
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.460274Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "CMPS",
+            "transaction-id": 1264
+        }
+    },
+    {
+        "data": {
+            "CMPS_ID": 3,
+            "CMPS_NM": "Pacific Region GMT-10",
+            "CREATE_USR_ID_CD": "LILO CONV",
+            "CREATE_DTS": "2010-06-17T21:06:55.196Z"
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.479165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "CMPS",
+            "transaction-id": 1297
+        }
+    }
+]

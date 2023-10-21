@@ -1,0 +1,32 @@
+networking:
+  feature_flag_enabled: True
+  accounts:
+    - construct_name: foo
+      enabled: true
+      private_hosted_zone:
+        zone_name: privatelink.snowflakecomputing.com
+      security_group:
+        security_group_name: snowflake_vpc_endpoint
+        ingress_rules:
+          - protocol: TCP
+            from_port: 443
+            to_port: 443
+            all_internal: True
+          - protocol: TCP
+            from_port: 80
+            to_port: 80
+            all_internal: True
+      snowflake_urls:
+        - record_name: disney-disneyparksandresortsdev.us-east-1
+        - record_name: ocsp.disney-disneyparksandresortsdev.us-east-1
+      vpc_endpoint:
+        service: com.foo.foo
+      resolver:
+        name: snowflake_inbound_resolver
+        security_group:
+          security_group_name: snowflake_inbound_resolver
+          ingress_rules:
+            - protocol: TCP
+              from_port: 53
+              to_port: 53
+              all_internal: True

@@ -1,0 +1,94 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__charge_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__charge_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: charge_id
+        description: ""
+
+      - name: charge_type_name
+        description: ""
+
+      - name: charge_fulfillment_datetime
+        description: ""
+
+      - name: charge_fulfillment_date
+        description: ""
+
+      - name: account_date
+        description: ""
+
+      - name: charge_description
+        description: ""
+
+      - name: recognition_status_name
+        description: ""
+
+      - name: charge_group_id
+        description: ""
+
+      - name: charge_by_name
+        description: ""
+
+      - name: transaction_account_center_id
+        description: ""
+
+      - name: transaction_account_center_name
+        description: ""
+
+      - name: revenue_class_id
+        description: ""
+
+      - name: revenue_class_name
+        description: ""
+
+      - name: charge_amount
+        description: ""
+
+      - name: charge_active_indicator
+        description: ""
+
+      - name: source_account_center_indicator
+        description: ""
+
+      - name: source_account_center_name
+        description: ""
+
+      - name: supressed_charge_id
+        description: ""
+
+      - name: charge_repost_indicator
+        description: ""
+
+      - name: experience_card_number
+        description: ""
+
+      - name: charge_post_status_name
+        description: ""
+
+      - name: folio_transaction_type_code
+        description: ""
+
+      - name: transaction_individual_party_id
+        description: ""
+
+      - name: charge_party_count
+        description: ""
+
+      - name: disney_vacation_club_points_value
+        description: ""
+
+      - name: work_location_id
+        description: ""

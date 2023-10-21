@@ -1,0 +1,252 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__east__cli_client_versioned
+    description: '{{ doc("sil__intermediate__travelbox__east__cli_client_versioned") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_versioned
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_client_id
+            - metadata_checksum
+
+    columns:
+      - name: data_unavailable
+        description: "NaN | example: MngWkNqwBpRuXQvyKFfW"
+
+      - name: data_last_modified_timestamp
+        description: "The time at which the last modification has done. | example: 1990-10-09 14:36:16"
+
+      - name: data_external_ref_id
+        description: "NaN | example: BnblmhudXOyQbUJWuIhw"
+
+      - name: data_client_id
+        description: "The TravelBox id of the trade client for which the commission rule is applied to. This field is null if the rule is applied to any client | example: 44999"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_type
+        description: "The availbility type (1 = Available 2 = Free Sell) | example: DIRECT"
+
+      - name: data_client_ref
+        description: "Client Reference of the Booking | example: 44999"
+
+      - name: data_name
+        description: "The name of the contract type | example: XXXXXXXXXX"
+
+      - name: data_client_status
+        description: "Flag to indicate the client status associated with the Scheme Rule._x000D_
+1 - Active_x000D_
+0 - Inactive | example: Active"
+
+      - name: data_media
+        description: "The code of the Media Type associated with the client | example: JJNxldBTVOQUfHLRdMXw"
+
+      - name: data_registered_date
+        description: "Registered Date | example: 1996-11-23 00:46:05"
+
+      - name: data_client_group
+        description: "The TravelBox code of the client group for which the limit is defined for | example: DIRECT"
+
+      - name: data_entered_on
+        description: "The date/time on which this accomodation contract is entered into the system | example: 2021-01-28 05:24:01"
+
+      - name: data_modified_on
+        description: "The date on which the contract get modified. If no modifications done after the creation, this field holds the contract created date. | example: 1988-06-04 15:20:43"
+
+      - name: data_registered_channel
+        description: "The code of the Channel that associated with the client | example: JEfUhVDewAoyZECZYUXE"
+
+      - name: data_modified_by
+        description: "The TravelBox user id of the user who modified the contract. If no modification done after the creation, this field holds the user id of the user who created the contract | example: 4378"
+
+      - name: data_entered_by
+        description: "The TravelBox user id of the user who has entered this accomodation contract in to system | example: 15356"
+
+      - name: data_primary_sales_agent
+        description: "The id of the primary sales agent | example: 371"
+
+      - name: data_status_message
+        description: "Status message | example: OBaAxismuuwTMYtDOigH"
+
+      - name: data_tax_exempt
+        description: "A flag indicating whether the contract is excempt from tax ( value is 1 ) or not ( value is 0 ) | example: 0"
+
+      - name: data_tax_override
+        description: "A flag indicating whether the tax is overriden at the contract ( value is 1 ) or not ( value is 0 ) | example: 0"
+
+      - name: data_grade_id
+        description: "Grade Id | example: 8859"
+
+      - name: data_dealing_company
+        description: "Code of the Company that associated with the client | example: WDTC"
+
+      - name: data_dealing_division
+        description: "Code of the Division that associated with the client | example: WDTCWDW"
+
+      - name: data_currency
+        description: "The TravelBox code of the currency in which the board basis fares are defined | example: USD"
+
+      - name: data_active
+        description: "Whether 3D secure filter is active or not | example: 1"
+
+      - name: data_dealing_brand
+        description: "Code of the Brand that associated with the client | example: VcyqWLKJGFerYEUiIvbA"
+
+      - name: data_locale
+        description: "The TravelBox code of the locale | example: en"
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: metadata_version_start_datetime
+        description: "Version start datetime"
+        tests:
+          - not_null
+
+      - name: metadata_version_end_datetime
+        description: "Version end datetime"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

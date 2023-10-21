@@ -1,0 +1,23 @@
+
+## {{ test_case_type }} test report `{{ scenario_name }}` :chart_with_upwards_trend:
+
+- **Execution ID:** `{{ execution_name }}`
+- **Trace ID:** `{{ trace_id }}`
+
+### Metric Details :bar_chart:
+
+| :scroll: Name | :triangular_ruler: Record Type | :bulb: Value | :label: Metadata |
+| --- | --- | --- | --- |
+{% for item in metrics -%}
+| **{{ item.test_case_record_name }}** | _{{ item.test_case_record_type }}_ | {{ item.system_test_metric_value }} | `{{ item.system_test_metric_metadata }}` |
+{% endfor %}
+
+### Condition Details :white_check_mark:
+
+| :scroll: Name | :triangular_ruler: Record Type | :label: Metadata | :traffic_light: Status |
+| --- | --- | --- | --- |
+{% for item in conditions -%}
+| **{{ item.test_case_record_name }}** | _{{ item.test_case_record_type }}_ | `{{ item.system_test_case_metadata }}` | {% if item.test_case_status is not none %}{% if item.test_case_status %}:green_circle: Passed{% else %}:red_circle: Failed{% endif %}{% else %}{{ item.test_case_status }}{% endif %} |
+{% endfor %}
+
+---

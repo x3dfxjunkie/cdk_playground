@@ -1,0 +1,199 @@
+version: 2
+
+models:
+  - name: sil__intermediate__dreams__rooms_fulfillment__acm_cmpnt_chrnlgy_versioned
+    description: '{{ doc("sil__intermediate__dreams__rooms_fulfillment__acm_cmpnt_chrnlgy_versioned") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_versioned
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_acm_cmpnt_chrnlgy_id
+            - metadata_checksum
+
+    columns:
+      - name: data_acm_tc_id
+        description: "System generated identification value. The unique identifier for a Travel Component.  The identification value for an accommodation travel component. | example: 2079447498"
+
+      - name: data_create_usr_id_cd
+        description: "The identification value for the user or application that created a row in this table. | example: WDPRO"
+
+      - name: data_create_dts
+        description: "The month day century year hour minute and second when a row was created in this table. | example: 2023-03-29T11:30:10.669000Z"
+
+      - name: data_updt_usr_id_cd
+        description: "The identification value for the user or application that updated this row in this table. | example: WDPRO"
+
+      - name: data_updt_dts
+        description: "The month day century year hour minute and second when a row in this table was updated. | example: 2023-03-29T11:30:10.669000Z"
+
+      - name: data_jdo_seq_nb
+        description: "A Java Data Object structure used to ensure that optimistic locking of rows in the database do not occur. | example: 1"
+
+      - name: data_acm_cmpnt_chrnlgy_id
+        description: "The unique identification for the sequence of date/time events that are expected to occur or have occurred in conjunction with an accommodation component.  Such sequences may include but are not constrained to date / time is recorded for the arrival, check in, departure of a guest to/from an accommodation component. | example: 93930092"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_chrnlgcl_evt_typ_nm
+        description: "The designation for the kind of date / time sequential events that may occur for the arrival, departure, check-in and check out to/from an accommodation component.  examples of such designations: Estimated Time of Arrival, Estimated Time of Departure, Actual Time, Pickup Date Time, Flight Arrival Date Time.  An accommodation component can be characterized by one or more kind of chronological event. | example: ETA"
+
+      - name: data_chrnlgcl_evt_src_nm
+        description: "The designation for the source of a particular date time event.  The sources include but are not constrained to: Internet Pre-Arrival, Guest Reported, Disney Magical Express, Transit, Land. | example: OLCI"
+
+      - name: data_acm_cmpnt_dts
+        description: "The particular date time value for an accommodation component.  This value may represent and estimated arrival datetime, estimated departure datetime, etc. | example: 2023-05-21T14:59:00Z"
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp for when the record was sent in the stream | example: 2023-03-29T15:30:19.109655Z"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "data | example: data"
+
+      - name: metadata_operation
+        description: ""
+
+      - name: metadata_partition_key_type
+        description: ""
+
+      - name: metadata_schema_name
+        description: "Name of the schema in snowflake | example: res_mgmt"
+
+      - name: metadata_table_name
+        description: "name of the table in snowflake | example: tc"
+
+      - name: metadata_transaction_id
+        description: "unique ID for the stream record | example: 70974432245344"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: metadata_version_start_datetime
+        description: "Version start datetime"
+        tests:
+          - not_null
+
+      - name: metadata_version_end_datetime
+        description: "Version end datetime"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

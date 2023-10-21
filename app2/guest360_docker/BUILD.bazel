@@ -1,0 +1,52 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+
+py_lambda_library(
+    name = "guest360_docker",
+    srcs = glob(
+        [
+            "*.py",
+            "ingestion/**/*.py",
+        ],
+    ),
+    data = ["//app/src:missing_init_files"],
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("aws-cdk-lib"),
+        requirement("strongtyping"),
+    ],
+)
+
+filegroup(
+    name = "common",
+    srcs = glob([
+        "**/*",
+    ]),
+    visibility = ["//visibility:public"],
+)
+
+pytest_test(
+    name = "test_guest360_docker",
+    srcs = glob(
+        [
+            "ingestion/**/tests/**/*.py",
+            "ingestion/**/*.py",
+        ],
+    ),
+    data = [
+        "//:openapi",
+        "//app:common",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":guest360_docker",
+        requirement("cdk-nag"),
+        requirement("pyyaml"),
+        requirement("moto"),
+        requirement("mock"),
+        requirement("boto3"),
+        requirement("botocore"),
+        requirement("pytest-timeout"),
+    ],
+)

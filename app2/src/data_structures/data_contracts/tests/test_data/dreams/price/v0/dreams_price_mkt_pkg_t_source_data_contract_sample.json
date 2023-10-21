@@ -1,0 +1,562 @@
+[
+    {
+        "data": {
+            "ARVL_BASE_IN": "Y",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 0,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 35221,
+            "PKG_MAX_NGHT_CN": 14,
+            "PKG_MIN_CMPNT_CN": 1,
+            "PKG_MIN_NGHT_CN": 3,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "N",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:42:34.045183Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "N",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 0,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 32060,
+            "PKG_MAX_NGHT_CN": 30,
+            "PKG_MIN_CMPNT_CN": 0,
+            "PKG_MIN_NGHT_CN": 1,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "Y",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:42:00.272685Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "N",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 0,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 34085,
+            "PKG_MAX_NGHT_CN": 30,
+            "PKG_MIN_CMPNT_CN": 0,
+            "PKG_MIN_NGHT_CN": 1,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "N",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:42:21.984039Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "Y",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 0,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 37397,
+            "PKG_MAX_NGHT_CN": 30,
+            "PKG_MIN_CMPNT_CN": 0,
+            "PKG_MIN_NGHT_CN": 1,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "Y",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:42:56.302044Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "Y",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 0,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 30000,
+            "PKG_MAX_NGHT_CN": 14,
+            "PKG_MIN_CMPNT_CN": 1,
+            "PKG_MIN_NGHT_CN": 1,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "N",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:41:39.273759Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "N",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 0,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 32229,
+            "PKG_MAX_NGHT_CN": 30,
+            "PKG_MIN_CMPNT_CN": 0,
+            "PKG_MIN_NGHT_CN": 1,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "Y",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:42:02.217754Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "N",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 0,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 35397,
+            "PKG_MAX_NGHT_CN": 14,
+            "PKG_MIN_CMPNT_CN": 0,
+            "PKG_MIN_NGHT_CN": 3,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "N",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:42:35.934356Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "N",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 0,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 33810,
+            "PKG_MAX_NGHT_CN": 30,
+            "PKG_MIN_CMPNT_CN": 0,
+            "PKG_MIN_NGHT_CN": 1,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "N",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:42:19.270589Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "N",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 2,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 35350,
+            "PKG_MAX_NGHT_CN": 21,
+            "PKG_MIN_CMPNT_CN": 0,
+            "PKG_MIN_NGHT_CN": 5,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "N",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:42:35.429352Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "Y",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 0,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 35404,
+            "PKG_MAX_NGHT_CN": 14,
+            "PKG_MIN_CMPNT_CN": 1,
+            "PKG_MIN_NGHT_CN": 3,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "N",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:42:36.011877Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "N",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 0,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 36216,
+            "PKG_MAX_NGHT_CN": 30,
+            "PKG_MIN_CMPNT_CN": 0,
+            "PKG_MIN_NGHT_CN": 1,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "N",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:42:44.152934Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "Y",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 0,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 37727,
+            "PKG_MAX_NGHT_CN": 14,
+            "PKG_MIN_CMPNT_CN": 1,
+            "PKG_MIN_NGHT_CN": 1,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "N",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:42:59.629992Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "Y",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 0,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 37758,
+            "PKG_MAX_NGHT_CN": 14,
+            "PKG_MIN_CMPNT_CN": 1,
+            "PKG_MIN_NGHT_CN": 1,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "N",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:42:59.942314Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "N",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 0,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 35976,
+            "PKG_MAX_NGHT_CN": 30,
+            "PKG_MIN_CMPNT_CN": 0,
+            "PKG_MIN_NGHT_CN": 1,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "N",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:42:41.743328Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "N",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 0,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 35980,
+            "PKG_MAX_NGHT_CN": 30,
+            "PKG_MIN_CMPNT_CN": 0,
+            "PKG_MIN_NGHT_CN": 1,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "Y",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:42:41.783372Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "Y",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 0,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 37521,
+            "PKG_MAX_NGHT_CN": 30,
+            "PKG_MIN_CMPNT_CN": 0,
+            "PKG_MIN_NGHT_CN": 1,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "Y",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:42:57.541513Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "Y",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 0,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 32350,
+            "PKG_MAX_NGHT_CN": 14,
+            "PKG_MIN_CMPNT_CN": 0,
+            "PKG_MIN_NGHT_CN": 2,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "Y",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:42:03.623927Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "N",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 0,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 32175,
+            "PKG_MAX_NGHT_CN": 30,
+            "PKG_MIN_CMPNT_CN": 0,
+            "PKG_MIN_NGHT_CN": 1,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "Y",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:42:01.612582Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "Y",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": 0,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 33968,
+            "PKG_MAX_NGHT_CN": 14,
+            "PKG_MIN_CMPNT_CN": 1,
+            "PKG_MIN_NGHT_CN": 1,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "N",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:42:20.791584Z"
+        }
+    },
+    {
+        "data": {
+            "ARVL_BASE_IN": "N",
+            "DN_PLN_EXTNL_NM": null,
+            "KTTW_TYP_ID": null,
+            "OVRD_RT_CTGY_CD": null,
+            "PKGR_PKG_ID": null,
+            "PKG_CD": "TEST123456789",
+            "PKG_CHK_IN_CHG_IN": "N",
+            "PKG_FSELL_IN": "N",
+            "PKG_ID": 37944,
+            "PKG_MAX_NGHT_CN": 30,
+            "PKG_MIN_CMPNT_CN": 0,
+            "PKG_MIN_NGHT_CN": 1,
+            "PKG_RACK_IN": "N",
+            "PKG_RM_ONLY_IN": "N",
+            "PRGE_DTS": null,
+            "SRC_MKT_CD": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "MKT_PKG_T",
+            "timestamp": "2023-08-25T20:43:01.600114Z"
+        }
+    }
+]

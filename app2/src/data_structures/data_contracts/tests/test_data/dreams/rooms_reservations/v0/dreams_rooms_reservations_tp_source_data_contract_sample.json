@@ -1,0 +1,3455 @@
+[
+	{
+		"data": {
+			"TP_ID": 753145018578,
+			"TP_STRT_DT": "2023-07-19T00:00:00Z",
+			"TP_END_DT": "2023-07-23T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:47:44.227000Z",
+			
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:47:44.227000Z",
+			"JDO_SEQ_NB": 0
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:47:54.592684Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp"
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145942999,
+			"TP_STRT_DT": "2023-05-27T18:50:00Z",
+			"TP_END_DT": "2023-05-27T18:50:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:47:46Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:47:46Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:47:53Z",
+			"transact_seq": "20230526004753000000000001934008857"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:47:54.863605Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868195516
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018486,
+			"TP_STRT_DT": "2023-12-26T00:00:00Z",
+			"TP_END_DT": "2023-12-28T00:00:00Z",
+			"CREATE_USR_ID_CD": "ARONE003",
+			"CREATE_DTS": "2023-05-25T20:47:47.973000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "ARONE003",
+			"UPDT_DTS": "2023-05-25T20:47:47.973000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:47:54Z",
+			"transact_seq": "20230526004754000000000001934009345"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:47:59.286479Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868213453
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145942796,
+			"TP_STRT_DT": "2023-07-19T20:30:00Z",
+			"TP_END_DT": "2023-07-19T20:30:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:47:56Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:47:56Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:03Z",
+			"transact_seq": "20230526004803000000000001934010037"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:03.954627Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868265447
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943706,
+			"TP_STRT_DT": "2023-05-27T12:45:00Z",
+			"TP_END_DT": "2023-05-27T12:45:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:47:58Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:47:58Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:03Z",
+			"transact_seq": "20230526004803000000000001934010105"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:04.115792Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868265447
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018487,
+			"TP_STRT_DT": "2023-07-05T00:00:00Z",
+			"TP_END_DT": "2023-07-08T00:00:00Z",
+			"CREATE_USR_ID_CD": "FRODM002",
+			"CREATE_DTS": "2023-05-25T20:47:56.536000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "FRODM002",
+			"UPDT_DTS": "2023-05-25T20:47:56.536000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:05Z",
+			"transact_seq": "20230526004805000000000001934010613"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:09.526618Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868279950
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943269,
+			"TP_STRT_DT": "2023-06-22T08:50:00Z",
+			"TP_END_DT": "2023-06-22T08:50:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:00Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:00Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:08Z",
+			"transact_seq": "20230526004808000000000001934011061"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:10.603078Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868324142
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145942999,
+			"TP_STRT_DT": "2023-05-27T00:00:00Z",
+			"TP_END_DT": "2023-05-27T18:50:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:47:46Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:01Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:48:08Z",
+			"transact_seq": "20230526004808000000000001934011173"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:10.839536Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868324142
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145944000,
+			"TP_STRT_DT": "2023-07-22T19:00:00Z",
+			"TP_END_DT": "2023-07-22T19:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:05Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:05Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:08Z",
+			"transact_seq": "20230526004808000000000001934011357"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:11.135258Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868324142
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018341,
+			"TP_STRT_DT": "2023-07-24T00:00:00Z",
+			"TP_END_DT": "2023-07-27T00:00:00Z",
+			"CREATE_USR_ID_CD": "ROQUS004",
+			"CREATE_DTS": "2023-05-25T20:48:00.748000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "ROQUS004",
+			"UPDT_DTS": "2023-05-25T20:48:00.748000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:10Z",
+			"transact_seq": "20230526004810000000000001934011513"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:14.114429Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868351794
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145017771,
+			"TP_STRT_DT": "2023-12-12T00:00:00Z",
+			"TP_END_DT": "2023-12-15T00:00:00Z",
+			"CREATE_USR_ID_CD": "HULTE002",
+			"CREATE_DTS": "2023-05-25T20:48:03.876000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "HULTE002",
+			"UPDT_DTS": "2023-05-25T20:48:03.876000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:10Z",
+			"transact_seq": "20230526004810000000000001934011985"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:15.152856Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868351794
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953139787141,
+			"TP_STRT_DT": "2023-06-15T00:00:00Z",
+			"TP_END_DT": "2023-06-15T17:40:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-19T08:56:21Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:07Z",
+			"JDO_SEQ_NB": 2,
+			"transact_commit_timestamp": "2023-05-26T00:48:13Z",
+			"transact_seq": "20230526004813000000000001934012933"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:16.672690Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868427479
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953138776065,
+			"TP_STRT_DT": "2023-05-27T00:00:00Z",
+			"TP_END_DT": "2023-05-27T11:50:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-18T17:57:59Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:13Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:48:18Z",
+			"transact_seq": "20230526004818000000000001934013925"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:19.551697Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868488369
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953095660708,
+			"TP_STRT_DT": "2023-05-27T00:00:00Z",
+			"TP_END_DT": "2023-05-27T11:05:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-04-05T12:07:18Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:14Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:48:18Z",
+			"transact_seq": "20230526004818000000000001934014025"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:19.780150Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868488369
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943270,
+			"TP_STRT_DT": "2023-06-13T15:55:00Z",
+			"TP_END_DT": "2023-06-13T15:55:00Z",
+			"CREATE_USR_ID_CD": "SHOUJ004",
+			"CREATE_DTS": "2023-05-25T20:48:15.223000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "SHOUJ004",
+			"UPDT_DTS": "2023-05-25T20:48:15.223000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:18Z",
+			"transact_seq": "20230526004818000000000001934014137"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:19.975413Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868488369
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943446,
+			"TP_STRT_DT": "2023-06-05T00:00:00Z",
+			"TP_END_DT": "2023-06-05T12:35:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:45:45Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:15Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:48:23Z",
+			"transact_seq": "20230526004823000000000001934014233"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:24.293321Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868517244
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943804,
+			"TP_STRT_DT": "2023-05-29T10:45:00Z",
+			"TP_END_DT": "2023-05-29T10:45:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:25Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:25Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:29Z",
+			"transact_seq": "20230526004829000000000001934015761"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:31.612675Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868590343
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145944001,
+			"TP_STRT_DT": "2023-05-27T13:30:00Z",
+			"TP_END_DT": "2023-05-27T13:30:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:25Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:25Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:29Z",
+			"transact_seq": "20230526004829000000000001934015869"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:31.959390Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868590343
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 531005302881,
+			"TP_STRT_DT": "2023-06-22T00:00:00Z",
+			"TP_END_DT": "2023-06-27T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-04-10T22:46:53.438000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MILLS382",
+			"UPDT_DTS": "2023-05-25T20:48:21.396000Z",
+			"JDO_SEQ_NB": 2,
+			"transact_commit_timestamp": "2023-05-26T00:48:30Z",
+			"transact_seq": "20230526004830000000000001934015949"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:34.446423Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868622335
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943452,
+			"TP_STRT_DT": "2023-05-26T07:30:00Z",
+			"TP_END_DT": "2023-05-26T07:30:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:26Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:26Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:33Z",
+			"transact_seq": "20230526004833000000000001934017125"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:36.692301Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868692219
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943453,
+			"TP_STRT_DT": "2023-05-26T19:15:00Z",
+			"TP_END_DT": "2023-05-26T19:15:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:29Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:29Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:33Z",
+			"transact_seq": "20230526004833000000000001934017189"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:36.867269Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868692219
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753138951249,
+			"TP_STRT_DT": "2023-06-23T00:00:00Z",
+			"TP_END_DT": "2023-06-26T00:00:00Z",
+			"CREATE_USR_ID_CD": "2485613.1",
+			"CREATE_DTS": "2023-05-18T16:06:21.019000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "2485613.1",
+			"UPDT_DTS": "2023-05-25T20:48:11Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:48:39.519449000Z",
+			"transact_seq": "20230526004839510000000001934017709"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:40.260173Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868718730
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943272,
+			"TP_STRT_DT": "2023-07-11T14:50:00Z",
+			"TP_END_DT": "2023-07-11T14:50:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:37Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:37Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:44Z",
+			"transact_seq": "20230526004844000000000001934017869"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:44.625120Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868737399
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145944001,
+			"TP_STRT_DT": "2023-05-27T00:00:00Z",
+			"TP_END_DT": "2023-05-27T13:30:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:25Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:37Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:48:44Z",
+			"transact_seq": "20230526004844000000000001934017941"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:44.767554Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868737399
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943064,
+			"TP_STRT_DT": "2023-06-01T21:00:00Z",
+			"TP_END_DT": "2023-06-01T21:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:39Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:39Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:44Z",
+			"transact_seq": "20230526004844000000000001934018029"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:44.936295Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868737399
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018488,
+			"TP_STRT_DT": "2023-09-05T00:00:00Z",
+			"TP_END_DT": "2023-09-09T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:37.327000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:37.327000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:44.600015000Z",
+			"transact_seq": "20230526004844600000000001934018173"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:45.206455Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868753493
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753144010463,
+			"TP_STRT_DT": "2023-06-02T00:00:00Z",
+			"TP_END_DT": "2023-06-04T00:00:00Z",
+			"CREATE_USR_ID_CD": "Passkey",
+			"CREATE_DTS": "2023-05-24T22:01:58Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "Passkey",
+			"UPDT_DTS": "2023-05-25T20:48:38Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:48:44.600015000Z",
+			"transact_seq": "20230526004844600000000001934018257"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:45.470435Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868753493
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943357,
+			"TP_STRT_DT": "2023-05-28T13:00:00Z",
+			"TP_END_DT": "2023-05-28T13:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:43Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:43Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:49Z",
+			"transact_seq": "20230526004849000000000001934018425"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:49.855371Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868763833
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943273,
+			"TP_STRT_DT": "2023-06-05T10:45:00Z",
+			"TP_END_DT": "2023-06-05T10:45:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:43Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:43Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:49Z",
+			"transact_seq": "20230526004849000000000001934018485"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:49.995956Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868763833
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018579,
+			"TP_STRT_DT": "2023-12-26T00:00:00Z",
+			"TP_END_DT": "2024-01-01T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:44.306000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:44.306000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:49.678767000Z",
+			"transact_seq": "20230526004849670000000001934018957"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:50.900339Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868785850
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943065,
+			"TP_STRT_DT": "2023-07-04T20:00:00Z",
+			"TP_END_DT": "2023-07-04T20:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:50Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:50Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:54Z",
+			"transact_seq": "20230526004854000000000001934019465"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:55.395883Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868814662
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943505,
+			"TP_STRT_DT": "2023-07-14T13:00:00Z",
+			"TP_END_DT": "2023-07-14T13:00:00Z",
+			"CREATE_USR_ID_CD": "unknown",
+			"CREATE_DTS": "2023-05-25T20:48:52.050000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "unknown",
+			"UPDT_DTS": "2023-05-25T20:48:52.050000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:59Z",
+			"transact_seq": "20230526004859000000000001934019797"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:59.853573Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868852191
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943707,
+			"TP_STRT_DT": "2023-06-21T17:30:00Z",
+			"TP_END_DT": "2023-06-21T17:30:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:52Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:52Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:48:59Z",
+			"transact_seq": "20230526004859000000000001934019849"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:48:59.982681Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868852191
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943706,
+			"TP_STRT_DT": "2023-05-27T00:00:00Z",
+			"TP_END_DT": "2023-05-27T12:25:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:47:58Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:52Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:48:59Z",
+			"transact_seq": "20230526004859000000000001934019921"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:00.128398Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868852191
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 530904083848,
+			"TP_STRT_DT": "2023-08-24T00:00:00Z",
+			"TP_END_DT": "2023-08-27T00:00:00Z",
+			"CREATE_USR_ID_CD": "5517615.2",
+			"CREATE_DTS": "2023-03-31T13:28:13.833000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "5517615.2",
+			"UPDT_DTS": "2023-05-25T20:48:49Z",
+			"JDO_SEQ_NB": 2,
+			"transact_commit_timestamp": "2023-05-26T00:48:59.835461000Z",
+			"transact_seq": "20230526004859830000000001934020025"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:00.297227Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868864945
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145942892,
+			"TP_STRT_DT": "2023-07-20T19:00:00Z",
+			"TP_END_DT": "2023-07-20T19:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:57Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:57Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:49:04Z",
+			"transact_seq": "20230526004904000000000001934020193"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:04.974094Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868874029
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943273,
+			"TP_STRT_DT": "2023-06-05T00:00:00Z",
+			"TP_END_DT": "2023-06-05T10:45:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:43Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:48:59Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:49:04Z",
+			"transact_seq": "20230526004904000000000001934020385"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:05.361502Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868874029
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943454,
+			"TP_STRT_DT": "2023-05-26T12:30:00Z",
+			"TP_END_DT": "2023-05-26T12:30:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:49:00Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:49:00Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:49:04Z",
+			"transact_seq": "20230526004904000000000001934020569"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:05.738533Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868874029
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943360,
+			"TP_STRT_DT": "2023-05-26T14:20:00Z",
+			"TP_END_DT": "2023-05-26T14:20:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:49:02Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:49:02Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:49:09Z",
+			"transact_seq": "20230526004909000000000001934020781"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:10.122521Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868908563
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953140820220,
+			"TP_STRT_DT": "2023-05-26T00:00:00Z",
+			"TP_END_DT": "2023-05-26T11:05:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-20T15:22:29Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:49:03Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:49:09Z",
+			"transact_seq": "20230526004909000000000001934020889"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:10.324176Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868908563
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018624,
+			"TP_STRT_DT": "2023-09-22T00:00:00Z",
+			"TP_END_DT": "2023-09-30T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:49:04.038000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:49:04.038000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:49:09.994829000Z",
+			"transact_seq": "20230526004909990000000001934021445"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:11.446235Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868923303
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145944003,
+			"TP_STRT_DT": "2023-07-23T19:05:00Z",
+			"TP_END_DT": "2023-07-23T19:05:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:49:07Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:49:07Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:49:14Z",
+			"transact_seq": "20230526004914000000000001934021693"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:15.145426Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868963794
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943066,
+			"TP_STRT_DT": "2023-07-02T13:00:00Z",
+			"TP_END_DT": "2023-07-02T13:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:49:08Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:49:08Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:49:14Z",
+			"transact_seq": "20230526004914000000000001934021785"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:15.325729Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868963794
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145942797,
+			"TP_STRT_DT": "2023-05-25T21:30:00Z",
+			"TP_END_DT": "2023-05-25T21:30:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:49:09Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:49:09Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:49:14Z",
+			"transact_seq": "20230526004914000000000001934022025"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:15.925886Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756868963794
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145928716,
+			"TP_STRT_DT": "2023-05-27T00:00:00Z",
+			"TP_END_DT": "2023-05-27T15:50:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T07:59:06Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:49:13Z",
+			"JDO_SEQ_NB": 2,
+			"transact_commit_timestamp": "2023-05-26T00:49:19Z",
+			"transact_seq": "20230526004919000000000001934023449"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:20.346838Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869068674
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943707,
+			"TP_STRT_DT": "2023-06-21T00:00:00Z",
+			"TP_END_DT": "2023-06-21T17:30:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:52Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:49:15Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:49:19Z",
+			"transact_seq": "20230526004919000000000001934023565"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:20.555700Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869068674
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018489,
+			"TP_STRT_DT": "2023-09-03T00:00:00Z",
+			"TP_END_DT": "2023-09-07T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:49:15.661000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:49:15.661000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:49:20Z",
+			"transact_seq": "20230526004920000000000001934023697"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:20.786136Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869087780
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018625,
+			"TP_STRT_DT": "2023-09-27T00:00:00Z",
+			"TP_END_DT": "2023-10-01T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:49:18.133000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:49:18.133000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:49:25Z",
+			"transact_seq": "20230526004925000000000001934023865"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:25.322276Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869097711
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018580,
+			"TP_STRT_DT": "2023-06-25T00:00:00Z",
+			"TP_END_DT": "2023-06-26T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:49:24.490000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:49:24.490000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:49:30Z",
+			"transact_seq": "20230526004930000000000001934024173"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:30.614206Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869113448
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018626,
+			"TP_STRT_DT": "2023-08-21T00:00:00Z",
+			"TP_END_DT": "2023-08-22T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:49:26.854000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:49:26.854000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:49:30Z",
+			"transact_seq": "20230526004930000000000001934024277"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:30.876500Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869113448
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018490,
+			"TP_STRT_DT": "2023-05-25T00:00:00Z",
+			"TP_END_DT": "2023-05-27T00:00:00Z",
+			"CREATE_USR_ID_CD": "BRYDW002",
+			"CREATE_DTS": "2023-05-25T20:49:32.622000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "BRYDW002",
+			"UPDT_DTS": "2023-05-25T20:49:32.622000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:49:40Z",
+			"transact_seq": "20230526004940000000000001934025097"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:40.822622Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869168069
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018149,
+			"TP_STRT_DT": "2023-11-11T00:00:00Z",
+			"TP_END_DT": "2023-11-17T00:00:00Z",
+			"CREATE_USR_ID_CD": "5521527.1",
+			"CREATE_DTS": "2023-05-25T20:49:39.545000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "5521527.1",
+			"UPDT_DTS": "2023-05-25T20:49:39.545000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:49:45.538180000Z",
+			"transact_seq": "20230526004945530000000001934025925"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:46.114857Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869203544
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943506,
+			"TP_STRT_DT": "2023-07-23T10:10:00Z",
+			"TP_END_DT": "2023-07-23T10:10:00Z",
+			"CREATE_USR_ID_CD": "unknown",
+			"CREATE_DTS": "2023-05-25T20:49:42.171000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "unknown",
+			"UPDT_DTS": "2023-05-25T20:49:42.171000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:49:50Z",
+			"transact_seq": "20230526004950000000000001934026129"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:50.633286Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869226273
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145942011,
+			"TP_STRT_DT": "2023-05-26T21:30:00Z",
+			"TP_END_DT": "2023-05-26T21:30:00Z",
+			"CREATE_USR_ID_CD": "unknown",
+			"CREATE_DTS": "2023-05-25T20:49:43.039000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "unknown",
+			"UPDT_DTS": "2023-05-25T20:49:43.039000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:49:50Z",
+			"transact_seq": "20230526004950000000000001934026321"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:51.115751Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869226273
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018491,
+			"TP_STRT_DT": "2023-06-29T00:00:00Z",
+			"TP_END_DT": "2023-06-30T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:49:41.604000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:49:41.604000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:49:50.619852000Z",
+			"transact_seq": "20230526004950610000000001934026921"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:52.245451Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869255030
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145942798,
+			"TP_STRT_DT": "2023-05-28T21:35:00Z",
+			"TP_END_DT": "2023-05-28T21:35:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:49:49Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:49:49Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:49:55Z",
+			"transact_seq": "20230526004955000000000001934027173"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:49:55.840057Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869287634
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953139802824,
+			"TP_STRT_DT": "2023-05-27T00:00:00Z",
+			"TP_END_DT": "2023-05-27T17:10:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-19T21:02:36Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:49:53Z",
+			"JDO_SEQ_NB": 3,
+			"transact_commit_timestamp": "2023-05-26T00:50:00Z",
+			"transact_seq": "20230526005000000000000001934027313"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:00.787715Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869298638
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018627,
+			"TP_STRT_DT": "2023-08-26T00:00:00Z",
+			"TP_END_DT": "2023-09-02T00:00:00Z",
+			"CREATE_USR_ID_CD": "BETTC024",
+			"CREATE_DTS": "2023-05-25T20:50:00.172000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "BETTC024",
+			"UPDT_DTS": "2023-05-25T20:50:00.172000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:05.857004000Z",
+			"transact_seq": "20230526005005850000000001934028537"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:06.961979Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869350402
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953142864226,
+			"TP_STRT_DT": "2023-05-26T00:00:00Z",
+			"TP_END_DT": "2023-05-26T20:20:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-22T14:10:28Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:50:03Z",
+			"JDO_SEQ_NB": 2,
+			"transact_commit_timestamp": "2023-05-26T00:50:10Z",
+			"transact_seq": "20230526005010000000000001934028761"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:11.080240Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869385207
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753142982126,
+			"TP_STRT_DT": "2023-08-10T00:00:00Z",
+			"TP_END_DT": "2023-08-12T00:00:00Z",
+			"CREATE_USR_ID_CD": "343123.3",
+			"CREATE_DTS": "2023-05-22T09:41:13.279000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "343123.3",
+			"UPDT_DTS": "2023-05-25T20:50:04Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:50:10.943973000Z",
+			"transact_seq": "20230526005010940000000001934030673"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:14.116913Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869397726
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145944004,
+			"TP_STRT_DT": "2023-06-24T08:50:00Z",
+			"TP_END_DT": "2023-06-24T08:50:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:50:10Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:50:10Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:15Z",
+			"transact_seq": "20230526005015000000000001934030813"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:16.110470Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869503396
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018150,
+			"TP_STRT_DT": "2023-12-16T00:00:00Z",
+			"TP_END_DT": "2023-12-20T00:00:00Z",
+			"CREATE_USR_ID_CD": "5462993.2",
+			"CREATE_DTS": "2023-05-25T20:50:10.688000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "5462993.2",
+			"UPDT_DTS": "2023-05-25T20:50:10.688000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:16Z",
+			"transact_seq": "20230526005016000000000001934030921"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:16.328838Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869509464
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145936259,
+			"TP_STRT_DT": "2023-05-26T14:30:00Z",
+			"TP_END_DT": "2023-05-26T14:30:00Z",
+			"CREATE_USR_ID_CD": "unknown",
+			"CREATE_DTS": "2023-05-25T20:50:15.219000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "unknown",
+			"UPDT_DTS": "2023-05-25T20:50:15.219000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:20Z",
+			"transact_seq": "20230526005020000000000001934031193"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:21.270578Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869523617
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018492,
+			"TP_STRT_DT": "2023-06-26T00:00:00Z",
+			"TP_END_DT": "2023-06-29T00:00:00Z",
+			"CREATE_USR_ID_CD": "HEFLS005",
+			"CREATE_DTS": "2023-05-25T20:50:17.344000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "HEFLS005",
+			"UPDT_DTS": "2023-05-25T20:50:17.344000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:26Z",
+			"transact_seq": "20230526005026000000000001934032185"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:26.974134Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869587659
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018493,
+			"TP_STRT_DT": "2023-09-09T00:00:00Z",
+			"TP_END_DT": "2023-09-13T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:50:19.491000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:50:19.491000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:26Z",
+			"transact_seq": "20230526005026000000000001934032685"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:27.960408Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869587659
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943455,
+			"TP_STRT_DT": "2023-05-26T17:00:00Z",
+			"TP_END_DT": "2023-05-26T17:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:50:25Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:50:25Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:31Z",
+			"transact_seq": "20230526005031000000000001934033341"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:31.363593Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869654055
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943902,
+			"TP_STRT_DT": "2023-05-27T16:00:00Z",
+			"TP_END_DT": "2023-05-27T16:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:50:27Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:50:27Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:31Z",
+			"transact_seq": "20230526005031000000000001934033545"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:31.844623Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869654055
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018446,
+			"TP_STRT_DT": "2023-09-16T00:00:00Z",
+			"TP_END_DT": "2023-09-23T00:00:00Z",
+			"CREATE_USR_ID_CD": "MATSC013",
+			"CREATE_DTS": "2023-05-25T20:27:58.190000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "MCDOR069",
+			"UPDT_DTS": "2023-05-25T20:50:26.943000Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:50:31Z",
+			"transact_seq": "20230526005031000000000001934033885"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:32.494974Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869674449
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943708,
+			"TP_STRT_DT": "2023-05-27T21:00:00Z",
+			"TP_END_DT": "2023-05-27T21:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:50:28Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:50:28Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:36Z",
+			"transact_seq": "20230526005036000000000001934033977"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:36.354128Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869694454
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943507,
+			"TP_STRT_DT": "2023-06-18T09:30:00Z",
+			"TP_END_DT": "2023-06-18T09:30:00Z",
+			"CREATE_USR_ID_CD": "unknown",
+			"CREATE_DTS": "2023-05-25T20:50:29.811000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "unknown",
+			"UPDT_DTS": "2023-05-25T20:50:29.811000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:36Z",
+			"transact_seq": "20230526005036000000000001934034037"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:36.513994Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869694454
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018581,
+			"TP_STRT_DT": "2023-06-03T00:00:00Z",
+			"TP_END_DT": "2023-06-04T00:00:00Z",
+			"CREATE_USR_ID_CD": "Passkey",
+			"CREATE_DTS": "2023-05-25T20:50:28Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "Passkey",
+			"UPDT_DTS": "2023-05-25T20:50:28Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:36Z",
+			"transact_seq": "20230526005036000000000001934034269"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:37.121567Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869714294
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943807,
+			"TP_STRT_DT": "2023-06-03T20:00:00Z",
+			"TP_END_DT": "2023-06-03T20:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:50:35Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:50:35Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:41Z",
+			"transact_seq": "20230526005041000000000001934034537"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:41.433762Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869732845
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953138759625,
+			"TP_STRT_DT": "2023-05-25T00:00:00Z",
+			"TP_END_DT": "2023-05-26T20:50:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-18T01:08:30Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WESTA122",
+			"UPDT_DTS": "2023-05-25T20:50:39.718000Z",
+			"JDO_SEQ_NB": 2,
+			"transact_commit_timestamp": "2023-05-26T00:50:46Z",
+			"transact_seq": "20230526005046000000000001934035149"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:46.601654Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869766830
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145944005,
+			"TP_STRT_DT": "2023-06-02T19:25:00Z",
+			"TP_END_DT": "2023-06-02T19:25:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:50:41Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:50:41Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:46Z",
+			"transact_seq": "20230526005046000000000001934035241"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:46.797839Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869766830
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145944006,
+			"TP_STRT_DT": "2023-06-04T13:20:00Z",
+			"TP_END_DT": "2023-06-04T13:20:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:50:47Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:50:47Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:51Z",
+			"transact_seq": "20230526005051000000000001934035961"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:52.062171Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869802329
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018582,
+			"TP_STRT_DT": "2023-08-25T00:00:00Z",
+			"TP_END_DT": "2023-09-01T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO1",
+			"CREATE_DTS": "2023-05-25T20:50:45.732000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO1",
+			"UPDT_DTS": "2023-05-25T20:50:45.732000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:51Z",
+			"transact_seq": "20230526005051000000000001934036733"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:53.751604Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869824216
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943456,
+			"TP_STRT_DT": "2023-05-26T11:00:00Z",
+			"TP_END_DT": "2023-05-26T11:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:50:50Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:50:50Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:56Z",
+			"transact_seq": "20230526005056000000000001934037001"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:56.663589Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869877972
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943709,
+			"TP_STRT_DT": "2023-05-27T14:45:00Z",
+			"TP_END_DT": "2023-05-27T14:45:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:50:50Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:50:50Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:56Z",
+			"transact_seq": "20230526005056000000000001934037065"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:56.813481Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869877972
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943067,
+			"TP_STRT_DT": "2023-07-05T15:25:00Z",
+			"TP_END_DT": "2023-07-05T15:25:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:50:50Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:50:50Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:56Z",
+			"transact_seq": "20230526005056000000000001934037181"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:57.020668Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869877972
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943808,
+			"TP_STRT_DT": "2023-05-26T13:30:00Z",
+			"TP_END_DT": "2023-05-26T13:30:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:50:53Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:50:53Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:50:56Z",
+			"transact_seq": "20230526005056000000000001934037325"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:50:57.385680Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869877972
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145942799,
+			"TP_STRT_DT": "2023-06-11T21:10:00Z",
+			"TP_END_DT": "2023-06-11T21:10:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:50:54Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:50:54Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:01Z",
+			"transact_seq": "20230526005101000000000001934038609"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:01.766292Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869972616
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145936260,
+			"TP_STRT_DT": "2023-07-24T09:50:00Z",
+			"TP_END_DT": "2023-07-24T09:50:00Z",
+			"CREATE_USR_ID_CD": "unknown",
+			"CREATE_DTS": "2023-05-25T20:50:55.097000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "unknown",
+			"UPDT_DTS": "2023-05-25T20:50:55.097000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:01Z",
+			"transact_seq": "20230526005101000000000001934038661"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:01.883099Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869972616
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943809,
+			"TP_STRT_DT": "2023-06-02T16:40:00Z",
+			"TP_END_DT": "2023-06-02T16:40:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:02Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:02Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:06Z",
+			"transact_seq": "20230526005106000000000001934038973"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:06.858356Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869994491
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145942893,
+			"TP_STRT_DT": "2023-06-01T21:20:00Z",
+			"TP_END_DT": "2023-06-01T21:20:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:03Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:03Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:06Z",
+			"transact_seq": "20230526005106000000000001934039029"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:06.987670Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756869994491
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145944007,
+			"TP_STRT_DT": "2023-05-26T15:15:00Z",
+			"TP_END_DT": "2023-05-26T15:15:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:04Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:04Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:11Z",
+			"transact_seq": "20230526005111000000000001934039585"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:11.956046Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870031430
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943810,
+			"TP_STRT_DT": "2023-07-22T13:15:00Z",
+			"TP_END_DT": "2023-07-22T13:15:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:05Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:05Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:11Z",
+			"transact_seq": "20230526005111000000000001934039697"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:12.229804Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870031430
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018628,
+			"TP_STRT_DT": "2023-05-30T00:00:00Z",
+			"TP_END_DT": "2023-06-02T00:00:00Z",
+			"CREATE_USR_ID_CD": "ELLWK003",
+			"CREATE_DTS": "2023-05-25T20:51:05.026000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "ELLWK003",
+			"UPDT_DTS": "2023-05-25T20:51:05.026000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:11Z",
+			"transact_seq": "20230526005111000000000001934039881"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:12.602290Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870051085
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018629,
+			"TP_STRT_DT": "2023-06-02T00:00:00Z",
+			"TP_END_DT": "2023-06-07T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:06.348000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:06.348000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:11Z",
+			"transact_seq": "20230526005111000000000001934040081"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:13.100072Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870051085
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943811,
+			"TP_STRT_DT": "2023-05-31T20:30:00Z",
+			"TP_END_DT": "2023-05-31T20:30:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:09Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:09Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:16.981610000Z",
+			"transact_seq": "20230526005116980000000001934040569"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:17.221229Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870086973
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943903,
+			"TP_STRT_DT": "2023-06-16T16:05:00Z",
+			"TP_END_DT": "2023-06-16T16:05:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:10Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:10Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:16.981610000Z",
+			"transact_seq": "20230526005116980000000001934040621"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:17.339005Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870086973
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943361,
+			"TP_STRT_DT": "2023-05-25T21:30:00Z",
+			"TP_END_DT": "2023-05-25T21:30:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:12Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:12Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:16.981610000Z",
+			"transact_seq": "20230526005116980000000001934040785"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:17.707225Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870086973
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145944008,
+			"TP_STRT_DT": "2023-06-02T07:55:00Z",
+			"TP_END_DT": "2023-06-02T07:55:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:14Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:14Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:22Z",
+			"transact_seq": "20230526005122000000000001934041073"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:22.460211Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870121018
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953141845612,
+			"TP_STRT_DT": "2023-05-26T00:00:00Z",
+			"TP_END_DT": "2023-05-26T12:30:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-21T17:25:02Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:14Z",
+			"JDO_SEQ_NB": 2,
+			"transact_commit_timestamp": "2023-05-26T00:51:22Z",
+			"transact_seq": "20230526005122000000000001934041145"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:22.608692Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870121018
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943362,
+			"TP_STRT_DT": "2023-06-29T17:40:00Z",
+			"TP_END_DT": "2023-06-29T17:40:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:14Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:14Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:22Z",
+			"transact_seq": "20230526005122000000000001934041245"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:22.810815Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870121018
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943067,
+			"TP_STRT_DT": "2023-07-05T00:00:00Z",
+			"TP_END_DT": "2023-07-05T15:25:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:50:50Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:18Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:51:22Z",
+			"transact_seq": "20230526005122000000000001934041413"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:23.173912Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870121018
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943457,
+			"TP_STRT_DT": "2023-05-26T10:40:00Z",
+			"TP_END_DT": "2023-05-26T10:40:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:18Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:18Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:22Z",
+			"transact_seq": "20230526005122000000000001934041533"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:23.425377Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870121018
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145944100,
+			"TP_STRT_DT": "2023-05-29T11:35:00Z",
+			"TP_END_DT": "2023-05-29T11:35:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:20Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:20Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:28Z",
+			"transact_seq": "20230526005128000000000001934041973"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:32.210500Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870174912
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943710,
+			"TP_STRT_DT": "2023-05-28T10:10:00Z",
+			"TP_END_DT": "2023-05-28T10:10:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:20Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:20Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:28Z",
+			"transact_seq": "20230526005128000000000001934042029"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:32.350021Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870174912
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145942894,
+			"TP_STRT_DT": "2023-05-30T08:10:00Z",
+			"TP_END_DT": "2023-05-30T08:10:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:21Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:21Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:28Z",
+			"transact_seq": "20230526005128000000000001934042121"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:32.525791Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870174912
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943904,
+			"TP_STRT_DT": "2023-07-19T19:00:00Z",
+			"TP_END_DT": "2023-07-19T19:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:22Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:22Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:28Z",
+			"transact_seq": "20230526005128000000000001934042189"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:32.677852Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870174912
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018630,
+			"TP_STRT_DT": "2023-06-19T00:00:00Z",
+			"TP_END_DT": "2023-06-26T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:23.537000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:23.537000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:32Z",
+			"transact_seq": "20230526005132000000000001934042313"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:32.904382Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870195586
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018583,
+			"TP_STRT_DT": "2023-08-04T00:00:00Z",
+			"TP_END_DT": "2023-08-06T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:23.024000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:23.024000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:32Z",
+			"transact_seq": "20230526005132000000000001934042389"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:33.092725Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870195586
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943274,
+			"TP_STRT_DT": "2023-06-01T21:25:00Z",
+			"TP_END_DT": "2023-06-01T21:25:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:29Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:29Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:33Z",
+			"transact_seq": "20230526005133000000000001934042785"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:37.788419Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870208818
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145017772,
+			"TP_STRT_DT": "2023-06-29T00:00:00Z",
+			"TP_END_DT": "2023-07-04T00:00:00Z",
+			"CREATE_USR_ID_CD": "5493542.2",
+			"CREATE_DTS": "2023-05-25T20:51:31.017000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "5493542.2",
+			"UPDT_DTS": "2023-05-25T20:51:31.017000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:37Z",
+			"transact_seq": "20230526005137000000000001934043213"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:38.502385Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870234827
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943275,
+			"TP_STRT_DT": "2023-05-26T14:45:00Z",
+			"TP_END_DT": "2023-05-26T14:45:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:30Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:30Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:37.296445000Z",
+			"transact_seq": "20230526005137290000000001934043397"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:38.839050Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870260611
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 530944517081,
+			"TP_STRT_DT": "2023-10-05T00:00:00Z",
+			"TP_END_DT": "2023-10-10T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-04-04T10:16:54.369000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:36.117000Z",
+			"JDO_SEQ_NB": 2,
+			"transact_commit_timestamp": "2023-05-26T00:51:42Z",
+			"transact_seq": "20230526005142000000000001934043769"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:42.554788Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870276976
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943363,
+			"TP_STRT_DT": "2023-06-18T11:30:00Z",
+			"TP_END_DT": "2023-06-18T11:30:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:36Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:36Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:43Z",
+			"transact_seq": "20230526005143000000000001934043993"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:47.450628Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870295310
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943276,
+			"TP_STRT_DT": "2023-05-27T21:00:00Z",
+			"TP_END_DT": "2023-05-27T21:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:36Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:36Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:43Z",
+			"transact_seq": "20230526005143000000000001934044049"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:47.583023Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870295310
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943364,
+			"TP_STRT_DT": "2023-07-03T16:25:00Z",
+			"TP_END_DT": "2023-07-03T16:25:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:36Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:36Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:43Z",
+			"transact_seq": "20230526005143000000000001934044101"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:47.697058Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870295310
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953137753407,
+			"TP_STRT_DT": "2023-05-26T00:00:00Z",
+			"TP_END_DT": "2023-05-26T13:05:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-17T18:14:39Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:38Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:51:43Z",
+			"transact_seq": "20230526005143000000000001934044273"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:48.019391Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870295310
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943508,
+			"TP_STRT_DT": "2023-05-26T12:25:00Z",
+			"TP_END_DT": "2023-05-26T12:25:00Z",
+			"CREATE_USR_ID_CD": "unknown",
+			"CREATE_DTS": "2023-05-25T20:51:41.335000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "unknown",
+			"UPDT_DTS": "2023-05-25T20:51:41.335000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:48Z",
+			"transact_seq": "20230526005148000000000001934044397"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:52.524999Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870318705
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943905,
+			"TP_STRT_DT": "2023-07-21T14:00:00Z",
+			"TP_END_DT": "2023-07-21T14:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:41Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:41Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:48Z",
+			"transact_seq": "20230526005148000000000001934044577"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:52.897668Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870318705
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943068,
+			"TP_STRT_DT": "2023-06-05T11:30:00Z",
+			"TP_END_DT": "2023-06-05T11:30:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:46Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:46Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:53Z",
+			"transact_seq": "20230526005153000000000001934044997"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:57.672528Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870354576
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145942893,
+			"TP_STRT_DT": "2023-06-01T00:00:00Z",
+			"TP_END_DT": "2023-06-01T21:20:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:03Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:49Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:51:53Z",
+			"transact_seq": "20230526005153000000000001934045125"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:57.959869Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870354576
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953144922324,
+			"TP_STRT_DT": "2023-07-21T07:30:00Z",
+			"TP_END_DT": "2023-07-22T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-24T21:59:47Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:49Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:51:53Z",
+			"transact_seq": "20230526005153000000000001934045201"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:58.090186Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870354576
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145942895,
+			"TP_STRT_DT": "2023-06-28T08:50:00Z",
+			"TP_END_DT": "2023-06-28T08:50:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:50Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:50Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:53Z",
+			"transact_seq": "20230526005153000000000001934045293"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:58.270312Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870354576
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018494,
+			"TP_STRT_DT": "2023-06-27T00:00:00Z",
+			"TP_END_DT": "2023-07-05T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:51.871000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:51.871000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:51:57Z",
+			"transact_seq": "20230526005157000000000001934045549"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:51:58.808837Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870378242
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943365,
+			"TP_STRT_DT": "2023-05-27T14:45:00Z",
+			"TP_END_DT": "2023-05-27T14:45:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:56Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:51:56Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:03Z",
+			"transact_seq": "20230526005203000000000001934046285"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:07.877097Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870431695
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145017773,
+			"TP_STRT_DT": "2023-11-18T00:00:00Z",
+			"TP_END_DT": "2023-11-22T00:00:00Z",
+			"CREATE_USR_ID_CD": "2655940.2",
+			"CREATE_DTS": "2023-05-25T20:52:02.381000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "2655940.2",
+			"UPDT_DTS": "2023-05-25T20:52:02.381000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:07Z",
+			"transact_seq": "20230526005207000000000001934046513"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:08.337990Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870448273
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145944101,
+			"TP_STRT_DT": "2023-06-10T19:15:00Z",
+			"TP_END_DT": "2023-06-10T19:15:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:52:05Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:52:05Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:08Z",
+			"transact_seq": "20230526005208000000000001934046741"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:13.090923Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870455174
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018495,
+			"TP_STRT_DT": "2023-05-30T00:00:00Z",
+			"TP_END_DT": "2023-06-03T00:00:00Z",
+			"CREATE_USR_ID_CD": "VEGAR047",
+			"CREATE_DTS": "2023-05-25T20:52:03.879000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "VEGAR047",
+			"UPDT_DTS": "2023-05-25T20:52:03.879000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:12Z",
+			"transact_seq": "20230526005212000000000001934046933"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:13.404160Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870469072
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943366,
+			"TP_STRT_DT": "2023-06-01T17:15:00Z",
+			"TP_END_DT": "2023-06-01T17:15:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:52:06Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:52:06Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:14Z",
+			"transact_seq": "20230526005214000000000001934047357"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:17.927002Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870499390
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943274,
+			"TP_STRT_DT": "2023-06-01T00:00:00Z",
+			"TP_END_DT": "2023-06-01T21:25:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:29Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:52:08Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:52:14Z",
+			"transact_seq": "20230526005214000000000001934047509"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:18.198701Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870499390
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145942896,
+			"TP_STRT_DT": "2023-06-23T19:00:00Z",
+			"TP_END_DT": "2023-06-23T19:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:52:10Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:52:10Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:14Z",
+			"transact_seq": "20230526005214000000000001934047641"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:18.515736Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870499390
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943277,
+			"TP_STRT_DT": "2023-06-17T17:25:00Z",
+			"TP_END_DT": "2023-06-17T17:25:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:52:09Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:52:09Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:14Z",
+			"transact_seq": "20230526005214000000000001934047713"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:18.673012Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870499390
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018631,
+			"TP_STRT_DT": "2023-11-05T00:00:00Z",
+			"TP_END_DT": "2023-11-11T00:00:00Z",
+			"CREATE_USR_ID_CD": "KIRBS014",
+			"CREATE_DTS": "2023-05-25T20:52:08.768000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "KIRBS014",
+			"UPDT_DTS": "2023-05-25T20:52:08.768000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:17Z",
+			"transact_seq": "20230526005217000000000001934048469"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:19.862239Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870528579
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753109634927,
+			"TP_STRT_DT": "2023-05-28T00:00:00Z",
+			"TP_END_DT": "2023-05-29T00:00:00Z",
+			"CREATE_USR_ID_CD": "VARGM143",
+			"CREATE_DTS": "2023-04-19T11:01:53.695000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "SOREG002",
+			"UPDT_DTS": "2023-05-25T20:52:11.442000Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:52:17Z",
+			"transact_seq": "20230526005217000000000001934048657"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:20.294323Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870528579
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018632,
+			"TP_STRT_DT": "2023-10-13T00:00:00Z",
+			"TP_END_DT": "2023-10-15T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:52:10.660000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:52:10.660000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:17Z",
+			"transact_seq": "20230526005217000000000001934048809"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:20.563420Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870528579
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943365,
+			"TP_STRT_DT": "2023-05-27T00:00:00Z",
+			"TP_END_DT": "2023-05-27T14:45:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:51:56Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:52:14Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:52:19Z",
+			"transact_seq": "20230526005219000000000001934049081"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:23.026771Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870598485
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943711,
+			"TP_STRT_DT": "2023-06-02T20:50:00Z",
+			"TP_END_DT": "2023-06-02T20:50:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:52:15Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:52:15Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:19Z",
+			"transact_seq": "20230526005219000000000001934049137"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:23.126778Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870598485
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145941617,
+			"TP_STRT_DT": "2023-05-25T20:45:00Z",
+			"TP_END_DT": "2023-05-25T20:45:00Z",
+			"CREATE_USR_ID_CD": "unknown",
+			"CREATE_DTS": "2023-05-25T20:52:15.837000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "unknown",
+			"UPDT_DTS": "2023-05-25T20:52:15.837000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:19Z",
+			"transact_seq": "20230526005219000000000001934049289"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:23.423206Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870598485
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145944102,
+			"TP_STRT_DT": "2023-06-03T21:10:00Z",
+			"TP_END_DT": "2023-06-03T21:10:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:52:19Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:52:19Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:23.019747000Z",
+			"transact_seq": "20230526005223010000000001934050449"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:25.157902Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870671304
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018633,
+			"TP_STRT_DT": "2023-11-13T00:00:00Z",
+			"TP_END_DT": "2023-11-18T00:00:00Z",
+			"CREATE_USR_ID_CD": "HAWKK047",
+			"CREATE_DTS": "2023-05-25T20:52:21.046000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "HAWKK047",
+			"UPDT_DTS": "2023-05-25T20:52:21.046000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:27Z",
+			"transact_seq": "20230526005227000000000001934050537"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:28.134980Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870677566
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018151,
+			"TP_STRT_DT": "2023-08-05T00:00:00Z",
+			"TP_END_DT": "2023-08-10T00:00:00Z",
+			"CREATE_USR_ID_CD": "343123.3",
+			"CREATE_DTS": "2023-05-25T20:52:20.858000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "343123.3",
+			"UPDT_DTS": "2023-05-25T20:52:20.858000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:27Z",
+			"transact_seq": "20230526005227000000000001934050629"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:28.352705Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870677566
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943278,
+			"TP_STRT_DT": "2023-05-26T20:00:00Z",
+			"TP_END_DT": "2023-05-26T20:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:52:23Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:52:23Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:29Z",
+			"transact_seq": "20230526005229000000000001934050949"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:33.517146Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870693614
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018584,
+			"TP_STRT_DT": "2023-06-22T00:00:00Z",
+			"TP_END_DT": "2023-06-26T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO1",
+			"CREATE_DTS": "2023-05-25T20:52:28.723000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO1",
+			"UPDT_DTS": "2023-05-25T20:52:28.723000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:32Z",
+			"transact_seq": "20230526005232000000000001934051645"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:34.675837Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870718095
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943277,
+			"TP_STRT_DT": "2023-06-17T00:00:00Z",
+			"TP_END_DT": "2023-06-17T17:25:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:52:09Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:52:28Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:52:34Z",
+			"transact_seq": "20230526005234000000000001934051833"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:38.437535Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870752329
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953143890487,
+			"TP_STRT_DT": "2023-05-28T00:00:00Z",
+			"TP_END_DT": "2023-05-28T21:25:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-23T16:11:15Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "GRAJP001",
+			"UPDT_DTS": "2023-05-25T20:52:28.776000Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:52:34Z",
+			"transact_seq": "20230526005234000000000001934051901"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:38.540733Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870752329
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943804,
+			"TP_STRT_DT": "2023-05-29T00:00:00Z",
+			"TP_END_DT": "2023-05-29T12:10:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:48:25Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:52:32Z",
+			"JDO_SEQ_NB": 1,
+			"transact_commit_timestamp": "2023-05-26T00:52:39Z",
+			"transact_seq": "20230526005239000000000001934052349"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:43.348000Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870787807
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943367,
+			"TP_STRT_DT": "2023-05-28T20:15:00Z",
+			"TP_END_DT": "2023-05-28T20:15:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:52:33Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:52:33Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:39Z",
+			"transact_seq": "20230526005239000000000001934052437"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:43.505312Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870787807
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943812,
+			"TP_STRT_DT": "2023-05-28T15:20:00Z",
+			"TP_END_DT": "2023-05-28T15:20:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:52:39Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:52:39Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:44Z",
+			"transact_seq": "20230526005244000000000001934052757"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:48.422717Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870812996
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943813,
+			"TP_STRT_DT": "2023-07-02T19:30:00Z",
+			"TP_END_DT": "2023-07-02T19:30:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:52:40Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:52:40Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:44Z",
+			"transact_seq": "20230526005244000000000001934052869"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:48.688192Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870812996
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 753145018585,
+			"TP_STRT_DT": "2023-05-27T00:00:00Z",
+			"TP_END_DT": "2023-06-02T00:00:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:52:39.189000Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:52:39.189000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:48Z",
+			"transact_seq": "20230526005248000000000001934052981"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:48.905968Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870826252
+		}
+	},
+	{
+		"data": {
+			"TP_ID": 953145943069,
+			"TP_STRT_DT": "2023-06-08T11:40:00Z",
+			"TP_END_DT": "2023-06-08T11:40:00Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-05-25T20:52:45Z",
+			"PRGE_DTS": "2023-07-18T06:30:37.488000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-05-25T20:52:45Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-05-26T00:52:49Z",
+			"transact_seq": "20230526005249000000000001934053649"
+		},
+		"metadata": {
+			"timestamp": "2023-05-26T00:52:53.943180Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "res_mgmt",
+			"table-name": "tp",
+			"transaction-id": 72756870856244
+		}
+	}
+]

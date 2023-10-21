@@ -1,0 +1,55 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__reservation_room_resort_coded_comments_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__reservation_room_resort_coded_comments_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: profile_id
+        description: ""
+
+      - name: facility_id
+        description: ""
+
+      - name: data_fac_short_nm
+        description: ""
+
+      - name: room_inventory_type_code
+        description: ""
+
+      - name: all_facilities_indicator
+        description: ""
+
+      - name: all_resource_inventory_type_indicator
+        description: ""
+
+      - name: profile_value_code
+        description: ""
+
+      - name: profile_value_description
+        description: ""
+
+      - name: profile_type_name
+        description: ""
+
+      - name: external_reference_value
+        description: ""
+
+      - name: profile_active_indicator
+        description: ""
+
+      - name: default_profile_indicator
+        description: ""
+
+      - name: all_packages_indicator
+        description: ""

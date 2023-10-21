@@ -1,0 +1,82 @@
+lightningLane:
+  allOf:
+    - type: object
+      properties:
+        guestIdentifiers:
+          $ref: "../asyncapi.yaml#/components/schemas/guestIdentifiers"
+    - $ref: "../asyncapi.yaml#/components/schemas/experienceCommon"
+    - type: object
+      properties:
+        transactionId:
+          type: string
+          format: uuid
+          description: unique identifier for the lightning lane experience transaction
+        experienceId:
+          type: string
+          description: Attraction / Entrainment Enterprise ID referencing the Lightning Lane experience.  This can be referenced via Facility / Entertainment APIs for additional facililty metadata
+          example: "17842841"
+        experienceName:
+          type: string
+          description: Attraction / Entrainment Enterprise Name referencing the Lightning Lane experience.  This is obtained via D-Scribe Facility / Entertainment APIs
+          example: "For the First Time in Forever: A Frozen Sing-Along Celebration"
+        experienceEnterpriseType:
+          type: string
+          description: Experience Enterprise Type, aka D-Scribe Content Type, which determines if the experience is a Attraction, Entertainment, Park, etc
+          example: Entertainment
+        locationDetails:
+          $ref: "../asyncapi.yaml#/components/schemas/locationDetails"
+        experienceCategory:
+          allOf:
+            - $ref: "../asyncapi.yaml#/components/schemas/experienceCategory"
+            - type: string
+              example: "Lightning Lane"
+        status:
+          $ref: "../asyncapi.yaml#/components/schemas/experienceStatus"
+        businessDate:
+          type: string
+          format: date
+          description: Date of the experience guest is entitled for
+        experienceStart:
+          type: string
+          format: date-time
+          description: UTC start date/Time of the corresponding Lightning Lane redemption window
+        experienceEnd:
+          type: string
+          format: date-time
+          description: UTC end date/time of the corresponding Lightning Lane redemption window
+      required:
+        - transactionId
+        - experienceId
+        - experienceName
+        - experienceEnterpriseType
+        - experienceCategory
+        - status
+        - businessDate
+        - experienceStart
+        - experienceEnd
+    - type: object
+      properties:
+        reservationDetails:
+          type: object
+          properties:
+            experienceType:
+              $ref: "../asyncapi.yaml#/components/schemas/lightningLaneType"
+            multiRedemptionEntitlement:
+              type: boolean
+              example: false
+              description: indicate if this experience is part of special Lightning Lane pass that allows multiple uses
+            multiRedemptionDetails:
+              type: object
+              properties:
+                currentUsageNumber:
+                  type: integer
+                  format: int32
+                  description: current usage number in the multi-redemption entitlement. This updates as completions flow through
+                totalRedemptionsAllowed:
+                  type: integer
+                  format: int32
+                  description: total redeems allowed in this multi-redemption entitlement
+  required:
+    - guestIdentifier
+    - experienceType
+    - multiRedemptionEntitlement

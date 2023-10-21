@@ -1,0 +1,279 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__east__res_accom_booking_versioned
+    description: '{{ doc("sil__intermediate__travelbox__east__res_accom_booking_versioned") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_versioned
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_booking_id
+            - data_item_no
+            - data_product_code
+            - metadata_checksum
+
+    columns:
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 1971-08-08 17:24:41"
+
+      - name: data_ext_reservation_id
+        description: "NaN | example: 14103614"
+
+      - name: data_booking_id
+        description: "The system generated id of the booking | example: 26360541"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_product_code
+        description: "Deprecated | example: HTL"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_item_no
+        description: "Deprecated | example: 2"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_reservation_id
+        description: "The system generated id of the reservation | example: -1"
+
+      - name: data_accom_id
+        description: "The system generated id of the Accom Supplier | example: 30100"
+
+      - name: data_nights
+        description: "This is 1 since the rates are for a day. | example: 3"
+
+      - name: data_joined_contract_id
+        description: "Contract id that if allocation hold from continue contract | example: 4469"
+
+      - name: data_foreign_accom_id
+        description: "If the booking is done in a H2H system, this field stores the booking id of the H2H system | example: tZLehvzkxYasPtUXntnE"
+
+      - name: data_special_requests
+        description: "SPECIAL REQUESTS MADE WITH CRITERIA | example: dsFVmCgQlsOxJNiLQyVK"
+
+      - name: data_hotel_name
+        description: "Hotel name of the hotel which is supplied by the related suppler in the booking item from &#39;SUPPLIER&#39; table | example: Disney&#39;s Contemporary Resort"
+
+      - name: data_star_rating
+        description: "Hotel Star Rating code selected for &#39;Star Rating&#39; parameter  in discount scheme setup. | example: Deluxe Resort"
+
+      - name: data_early_checkin
+        description: "A flag to indicate whether for this hotel booking, passengers are check-in early than standard time ( value is 1 ) or not ( value is 0 ) | example: 0"
+
+      - name: data_late_checkout
+        description: "A flag to indicate that whether for this hotel booking, passengers are going to check-out late than standard time ( value is 1 ) or not ( value is 0 ) | example: 0"
+
+      - name: data_ec_price
+        description: "If passengers are check-in early for this hotel, this field holds the total price for early check in | example: 65446.0"
+
+      - name: data_lc_price
+        description: "If passengers are check-out late for this hotel, this field holds the total price for late checkout | example: 5547.0"
+
+      - name: data_ext_night_price
+        description: "Deprecated | example: 98175.0"
+
+      - name: data_ec_time
+        description: "If passengers are check-in early for this hotel, this field holds the early check in time | example: 1538"
+
+      - name: data_lc_time
+        description: "If passengers are check-out late for this hotel, this field holds the late checkout time | example: 5332"
+
+      - name: data_multihire_no
+        description: "Multi Hire number coming from booking constraints. | example: 9757"
+
+      - name: data_meal_scheme
+        description: "The applicable meal plan of the booking item | example: Room Only"
+
+      - name: data_pre_post_supplier
+        description: "Deprecated | example: 0"
+
+      - name: data_location
+        description: "Booked location | example: LKBV"
+
+      - name: data_ec_cost
+        description: "If passengers are check-in early for this hotel, this field holds the total cost for early check in | example: 62759.0"
+
+      - name: data_lc_cost
+        description: "If passengers are check-out late for this hotel, this field holds the total cost for late checkout | example: 81747.0"
+
+      - name: data_valid_for_reprice
+        description: "A flag indicating whether this booking item is repriceable ( value is 1 ) or not ( value is 0 ) | example: 1"
+
+      - name: data_accom_type
+        description: "hotel = &#39;H&#39;, apartment = &#39;A&#39;, chainHotels = &#39;HG&#39;, chainApartment = &#39;AG&#39;, groupHotels = &#39;GH&#39; , groupApartment = &#39;GA&#39; , prePostHotels = &#39;PH&#39; , prePostApartment = &#39;PA&#39; | example: H"
+
+      - name: data_min_combinable_hotel
+        description: "Refer MIN_COMBINABLE_HOTEL column in ACC_CONTRACT_GROUP table | example: -1"
+
+      - name: data_hotel_address
+        description: "The address of the Hotel | example: 4600 World Drive"
+
+      - name: data_max_release_day
+        description: "Maximum day of release allocation  within allocations period of the booking | example: 0"
+
+      - name: data_h2_h_price_diff
+        description: "Price difference between purchase cost from H2H and Cost in contract in TBX | example: 2930.0"
+
+      - name: data_non_refundable
+        description: "Deprecated | example: 0"
+
+      - name: data_supplement_category_id
+        description: "Refer CATEGORY_ID column in ACC_SUPPLIMENT_TYPE table | example: -1"
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: metadata_version_start_datetime
+        description: "Version start datetime"
+        tests:
+          - not_null
+
+      - name: metadata_version_end_datetime
+        description: "Version end datetime"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

@@ -1,0 +1,14 @@
+stack_extension: &se DMSRoles
+region: &region-1 us-east-1
+resources:
+  dms_vpc_role: 
+    role_name: dms-vpc-role
+    description: IAM role to be used for managing DMS replication instances
+  dms_cloudwatch_role: 
+    role_name: dms-cloudwatch-logs-role
+    description: IAM role to be used for managing DMS cloudwatch logs
+  dms_redshift_role: 
+    role_name: dms-access-for-endpoint
+    description: IAM role to be used for managing DMS Redshift endpoints
+  dms_svc_principal: !!python/object/apply:aws_cdk.aws_iam.ServicePrincipal
+    - dms.amazonaws.com

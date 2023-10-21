@@ -1,0 +1,91 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__package_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__package_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: package_id
+        description: ""
+
+      - name: market_package_code
+        description: ""
+
+      - name: package_product_group_name
+        description: ""
+
+      - name: package_plan_type_name
+        description: ""
+
+      - name: package_product_commission_type_name
+        description: ""
+
+      - name: hybrid_market_code
+        description: ""
+
+      - name: hybrid_market_long_name
+        description: ""
+
+      - name: market_offer_code
+        description: ""
+
+      - name: market_offer_name
+        description: ""
+
+      - name: package_active_indicator
+        description: ""
+
+      - name: package_guaranteed_indicator
+        description: ""
+
+      - name: package_product_class_name
+        description: ""
+
+      - name: package_product_group_id
+        description: ""
+
+      - name: product_id
+        description: ""
+
+      - name: product_year_number
+        description: ""
+
+      - name: product_type_name
+        description: ""
+
+      - name: product_internal_name
+        description: ""
+
+      - name: product_internal_description
+        description: ""
+
+      - name: product_booking_start_dts
+        description: ""
+
+      - name: package_minimum_night_count
+        description: ""
+
+      - name: package_maximum_night_count
+        description: ""
+
+      - name: package_room_only_indicator
+        description: ""
+
+      - name: package_rack_indicator
+        description: ""
+
+      - name: package_freesell_indicator
+        description: ""
+
+      - name: arrival_based_pricing_indicator
+        description: ""

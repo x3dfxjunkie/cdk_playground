@@ -1,0 +1,58 @@
+ticket:
+  allOf:
+    - type: object
+      properties:
+        guestIdentifiers:
+          $ref: "../asyncapi.yaml#/components/schemas/guestIdentifiers"
+    - $ref: "../asyncapi.yaml#/components/schemas/ownershipCommon"
+    - type: object
+      properties:
+        productCategory:
+          $ref: "../asyncapi.yaml#/components/schemas/productCategory"
+        transactionItemId:
+          type: string
+          description: Unique ticket identifier to each ticket purchased by a guest.  Also known as TCOD (WDW) or ticket Visual ID (DLR)
+          example: 11100008888899999
+        transactionDetails:
+          type: object
+          properties:
+            validityStartDate:
+              type: string
+              description: ticket validity start date
+              example: 2022-10-28
+            validityEndDate:
+              type: string
+              description: ticket validity end date
+              example: 2022-10-31
+            claimTime:
+              type: string
+              description: Date/Time of linked ticket or time of online purchase for explicitly identified guest
+              example: 2022-10-10T17:15:12Z
+            paidValue:
+              type: number
+              description: value effectively paid for the ticket
+              example: 444.26
+            ticketStatus:
+              type: string
+              description: ticket status from source, provides insight to why ticket is inactive "Upgraded / Downgraded"
+              example: Blocked
+            previousTicketId:
+              type: string
+              description: Previous Ticket ID for lookup if current ticket is a renewal/upgrade/downgrade
+              example: 25100004024141221
+      required:
+        - transactionItemId
+        - productId
+        - productCategory
+        - status
+        - transactionDetails
+    - type: object
+      properties:
+        productDetails:
+          $ref: "../asyncapi.yaml#/components/schemas/ticketProductDetails"
+    - type: object
+      properties:
+        eventTime:
+          $ref: "../asyncapi.yaml#/components/schemas/eventTime"
+        status:
+          $ref: "../asyncapi.yaml#/components/schemas/ownershipStatus"

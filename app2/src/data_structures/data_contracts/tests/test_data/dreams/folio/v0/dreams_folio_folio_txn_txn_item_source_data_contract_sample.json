@@ -1,0 +1,1077 @@
+[
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "2821",
+            "CREATE_DTS": "2023-06-11T02:12:06Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408690360
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:14.385316Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM"
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "2821",
+            "CREATE_DTS": "2023-06-11T02:12:06Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408691334,
+            "transact_commit_timestamp": "2023-06-11T06:12:07Z",
+            "transact_seq": "20230611061207000000000000085807957"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:14.466140Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 393269
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "2821",
+            "CREATE_DTS": "2023-06-11T02:12:07Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408690361,
+            "transact_commit_timestamp": "2023-06-11T06:12:08Z",
+            "transact_seq": "20230611061208000000000000085808037"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:14.613627Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1245239
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "2821",
+            "CREATE_DTS": "2023-06-11T02:12:07Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408691335,
+            "transact_commit_timestamp": "2023-06-11T06:12:08Z",
+            "transact_seq": "20230611061208000000000000085808077"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:14.699342Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1703951
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "2821",
+            "CREATE_DTS": "2023-06-11T02:12:08Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408690362,
+            "transact_commit_timestamp": "2023-06-11T06:12:09Z",
+            "transact_seq": "20230611061209000000000000085808117"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:14.780473Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1572884
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "2821",
+            "CREATE_DTS": "2023-06-11T02:12:09Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408691336,
+            "transact_commit_timestamp": "2023-06-11T06:12:10Z",
+            "transact_seq": "20230611061210000000000000085808157"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:14.858109Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 2097164
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "2821",
+            "CREATE_DTS": "2023-06-11T02:12:09Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408690363,
+            "transact_commit_timestamp": "2023-06-11T06:12:10Z",
+            "transact_seq": "20230611061210000000000000085808209"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:14.950327Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 14
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "2821",
+            "CREATE_DTS": "2023-06-11T02:12:10Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408690364,
+            "transact_commit_timestamp": "2023-06-11T06:12:11Z",
+            "transact_seq": "20230611061211000000000000085808261"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:15.035140Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 917551
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "2821",
+            "CREATE_DTS": "2023-06-11T02:12:10Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408691337,
+            "transact_commit_timestamp": "2023-06-11T06:12:11Z",
+            "transact_seq": "20230611061211000000000000085808301"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:15.117499Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 917523
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "2821",
+            "CREATE_DTS": "2023-06-11T02:12:11Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408692214,
+            "transact_commit_timestamp": "2023-06-11T06:12:12Z",
+            "transact_seq": "20230611061212000000000000085808341"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:15.191570Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1900546
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "BURGS049",
+            "CREATE_DTS": "2023-06-11T02:14:08.725000Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3330585999,
+            "transact_commit_timestamp": "2023-06-11T06:14:12Z",
+            "transact_seq": "20230611061412000000000000085809913"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:18.688393Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1572894
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "BURGS049",
+            "CREATE_DTS": "2023-06-11T02:14:08.725000Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3330586300,
+            "transact_commit_timestamp": "2023-06-11T06:14:12Z",
+            "transact_seq": "20230611061412000000000000085809917"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:18.698155Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1572894
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "BURGS049",
+            "CREATE_DTS": "2023-06-11T02:14:08.725000Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3330586301,
+            "transact_commit_timestamp": "2023-06-11T06:14:12Z",
+            "transact_seq": "20230611061412000000000000085809921"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:18.707767Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1572894
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "BURGS049",
+            "CREATE_DTS": "2023-06-11T02:14:08.725000Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3330586302,
+            "transact_commit_timestamp": "2023-06-11T06:14:12Z",
+            "transact_seq": "20230611061412000000000000085809925"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:18.717042Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1572894
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "BURGS049",
+            "CREATE_DTS": "2023-06-11T02:14:08.725000Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3330586303,
+            "transact_commit_timestamp": "2023-06-11T06:14:12Z",
+            "transact_seq": "20230611061412000000000000085809929"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:18.725793Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1572894
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "BURGS049",
+            "CREATE_DTS": "2023-06-11T02:14:08.725000Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3330586304,
+            "transact_commit_timestamp": "2023-06-11T06:14:12Z",
+            "transact_seq": "20230611061412000000000000085809933"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:18.735542Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1572894
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "BURGS049",
+            "CREATE_DTS": "2023-06-11T02:14:12.688000Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408693047,
+            "transact_commit_timestamp": "2023-06-11T06:14:13Z",
+            "transact_seq": "20230611061413000000000000085810033"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:18.954188Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1441816
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "BURGS049",
+            "CREATE_DTS": "2023-06-11T02:14:12.688000Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408693048,
+            "transact_commit_timestamp": "2023-06-11T06:14:13Z",
+            "transact_seq": "20230611061413000000000000085810053"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:19.000858Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1441816
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "BURGS049",
+            "CREATE_DTS": "2023-06-11T02:14:12.688000Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408693049,
+            "transact_commit_timestamp": "2023-06-11T06:14:13Z",
+            "transact_seq": "20230611061413000000000000085810073"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:19.048370Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1441816
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "BURGS049",
+            "CREATE_DTS": "2023-06-11T02:14:12.688000Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408693050,
+            "transact_commit_timestamp": "2023-06-11T06:14:13Z",
+            "transact_seq": "20230611061413000000000000085810093"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:19.102539Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1441816
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "BURGS049",
+            "CREATE_DTS": "2023-06-11T02:14:12.688000Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408693051,
+            "transact_commit_timestamp": "2023-06-11T06:14:13Z",
+            "transact_seq": "20230611061413000000000000085810113"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:19.177634Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1441816
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "BURGS049",
+            "CREATE_DTS": "2023-06-11T02:14:12.688000Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408693052,
+            "transact_commit_timestamp": "2023-06-11T06:14:13Z",
+            "transact_seq": "20230611061413000000000000085810133"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:19.223351Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1441816
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "BURGS049",
+            "CREATE_DTS": "2023-06-11T02:14:12.688000Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408692877,
+            "transact_commit_timestamp": "2023-06-11T06:14:13Z",
+            "transact_seq": "20230611061413000000000000085810233"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:19.474142Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1703937
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "BURGS049",
+            "CREATE_DTS": "2023-06-11T02:14:12.688000Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408692878,
+            "transact_commit_timestamp": "2023-06-11T06:14:13Z",
+            "transact_seq": "20230611061413000000000000085810253"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:19.514960Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1703937
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "BURGS049",
+            "CREATE_DTS": "2023-06-11T02:14:12.688000Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408692879,
+            "transact_commit_timestamp": "2023-06-11T06:14:13Z",
+            "transact_seq": "20230611061413000000000000085810273"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:19.555052Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1703937
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "BURGS049",
+            "CREATE_DTS": "2023-06-11T02:14:12.688000Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408692880,
+            "transact_commit_timestamp": "2023-06-11T06:14:13Z",
+            "transact_seq": "20230611061413000000000000085810293"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:19.595348Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1703937
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "BURGS049",
+            "CREATE_DTS": "2023-06-11T02:14:12.688000Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408692881,
+            "transact_commit_timestamp": "2023-06-11T06:14:13Z",
+            "transact_seq": "20230611061413000000000000085810313"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:19.635652Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1703937
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "BURGS049",
+            "CREATE_DTS": "2023-06-11T02:14:12.688000Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408692882,
+            "transact_commit_timestamp": "2023-06-11T06:14:13Z",
+            "transact_seq": "20230611061413000000000000085810333"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:19.675231Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1703937
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9810",
+            "CREATE_DTS": "2023-06-11T02:15:08Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408691338,
+            "transact_commit_timestamp": "2023-06-11T06:15:09Z",
+            "transact_seq": "20230611061509000000000000085812973"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:25.098418Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 2162705
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9804",
+            "CREATE_DTS": "2023-06-11T02:15:08Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408692215,
+            "transact_commit_timestamp": "2023-06-11T06:15:09Z",
+            "transact_seq": "20230611061509000000000000085813013"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:25.175334Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 655416
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9810",
+            "CREATE_DTS": "2023-06-11T02:15:08Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408690365,
+            "transact_commit_timestamp": "2023-06-11T06:15:09Z",
+            "transact_seq": "20230611061509000000000000085813053"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:25.244545Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1966094
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9805",
+            "CREATE_DTS": "2023-06-11T02:15:09Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408692216,
+            "transact_commit_timestamp": "2023-06-11T06:15:09Z",
+            "transact_seq": "20230611061509000000000000085813153"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:25.371411Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 720918
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9809",
+            "CREATE_DTS": "2023-06-11T02:15:09Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408690366,
+            "transact_commit_timestamp": "2023-06-11T06:15:09Z",
+            "transact_seq": "20230611061509000000000000085813193"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:25.447060Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1179669
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9809",
+            "CREATE_DTS": "2023-06-11T02:15:09Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408691339,
+            "transact_commit_timestamp": "2023-06-11T06:15:09Z",
+            "transact_seq": "20230611061509000000000000085813265"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:25.545766Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1966085
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9808",
+            "CREATE_DTS": "2023-06-11T02:15:08Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408691340,
+            "transact_commit_timestamp": "2023-06-11T06:15:09Z",
+            "transact_seq": "20230611061509000000000000085813321"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:25.634107Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 851976
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9804",
+            "CREATE_DTS": "2023-06-11T02:15:08Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408692217,
+            "transact_commit_timestamp": "2023-06-11T06:15:09Z",
+            "transact_seq": "20230611061509000000000000085813361"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:25.697886Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1966098
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9804",
+            "CREATE_DTS": "2023-06-11T02:15:08Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408692218,
+            "transact_commit_timestamp": "2023-06-11T06:15:09Z",
+            "transact_seq": "20230611061509000000000000085813429"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:25.790487Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1835031
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9808",
+            "CREATE_DTS": "2023-06-11T02:15:08Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408692219,
+            "transact_commit_timestamp": "2023-06-11T06:15:09Z",
+            "transact_seq": "20230611061509000000000000085813485"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:25.884832Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 131106
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9810",
+            "CREATE_DTS": "2023-06-11T02:15:10Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408690367,
+            "transact_commit_timestamp": "2023-06-11T06:15:10Z",
+            "transact_seq": "20230611061510000000000000085813541"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:25.966857Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1507340
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9803",
+            "CREATE_DTS": "2023-06-11T02:15:10Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408691341,
+            "transact_commit_timestamp": "2023-06-11T06:15:10Z",
+            "transact_seq": "20230611061510000000000000085813597"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:26.057839Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1376274
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "6950",
+            "CREATE_DTS": "2023-06-11T02:15:10Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408690368,
+            "transact_commit_timestamp": "2023-06-11T06:15:11Z",
+            "transact_seq": "20230611061511000000000000085813693"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:26.221589Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 2097209
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9809",
+            "CREATE_DTS": "2023-06-11T02:15:10Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408691342,
+            "transact_commit_timestamp": "2023-06-11T06:15:11Z",
+            "transact_seq": "20230611061511000000000000085813733"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:26.289542Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 11
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9810",
+            "CREATE_DTS": "2023-06-11T02:15:10Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408691343,
+            "transact_commit_timestamp": "2023-06-11T06:15:11Z",
+            "transact_seq": "20230611061511000000000000085813773"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:26.353682Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 196618
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9807",
+            "CREATE_DTS": "2023-06-11T02:15:10Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408690369,
+            "transact_commit_timestamp": "2023-06-11T06:15:11Z",
+            "transact_seq": "20230611061511000000000000085813829"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:26.436997Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 393234
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9808",
+            "CREATE_DTS": "2023-06-11T02:15:10Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408691344,
+            "transact_commit_timestamp": "2023-06-11T06:15:11Z",
+            "transact_seq": "20230611061511000000000000085813869"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:26.502421Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 917527
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9806",
+            "CREATE_DTS": "2023-06-11T02:15:10Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408690370,
+            "transact_commit_timestamp": "2023-06-11T06:15:11Z",
+            "transact_seq": "20230611061511000000000000085813941"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:26.602141Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 327704
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9810",
+            "CREATE_DTS": "2023-06-11T02:15:11Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408691345,
+            "transact_commit_timestamp": "2023-06-11T06:15:11Z",
+            "transact_seq": "20230611061511000000000000085813997"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:26.687146Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 1114133
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9805",
+            "CREATE_DTS": "2023-06-11T02:15:11Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408691346,
+            "transact_commit_timestamp": "2023-06-11T06:15:12Z",
+            "transact_seq": "20230611061512000000000000085814037"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:26.755922Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 2031668
+        }
+    },
+    {
+        "data": {
+            "FOLIO_TXN_TXN_ITEM_ID": 123456789,
+            "FOLIO_TXN_ID": 1234567890,
+            "TXN_PROC_TYP_NM": "Created",
+            "FOLIO_TXN_ITEM_TYP_NM": "CHARGE",
+            "CREATE_USR_ID_CD": "9811",
+            "CREATE_DTS": "2023-06-11T02:15:11Z",
+            "FOLIO_TXN_ITEM_ID_VL": 3408692220,
+            "transact_commit_timestamp": "2023-06-11T06:15:12Z",
+            "transact_seq": "20230611061512000000000000085814077"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T15:06:26.826086Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FOLIO_TXN_TXN_ITEM",
+            "transaction-id": 917557
+        }
+    }
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "1980-01-01T00:00:00Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_TYP_NM": "AccommodationComponent"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_typ",
+            "timestamp": "2023-07-26T01:12:18.540407Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "1980-01-01T00:00:00Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_TYP_NM": "AdmissionComponent"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_typ",
+            "timestamp": "2023-07-26T01:12:18.548178Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "1980-01-01T00:00:00Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_TYP_NM": "ComponentTravelComponent"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_typ",
+            "timestamp": "2023-07-26T01:12:18.555547Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "1980-01-01T00:00:00Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_TYP_NM": "PackageTravelComponent"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_typ",
+            "timestamp": "2023-07-26T01:12:18.564180Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "1980-01-01T00:00:00Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_TYP_NM": "Service"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_typ",
+            "timestamp": "2023-07-26T01:12:18.572793Z"
+        }
+    }
+]

@@ -1,0 +1,395 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__east__res_flight_booking_versioned
+    description: '{{ doc("sil__intermediate__travelbox__east__res_flight_booking_versioned") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_versioned
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_booking_id
+            - data_item_no
+            - data_product_code
+            - metadata_checksum
+
+    columns:
+      - name: data_out_rule
+        description: "Oracle managed system tables used for materialised views | example: -1"
+
+      - name: data_in_contract
+        description: "Oracle managed system tables used for materialised views | example: -1"
+
+      - name: data_cost_offset
+        description: "Offset of the cost if the cost is changed manually. | example: 0.0"
+
+      - name: data_crs
+        description: "Oracle managed system tables used for materialised views | example: AMD"
+
+      - name: data_fare_diff_with_basic_flight
+        description: "Deprecated | example: 0"
+
+      - name: data_ext_charge
+        description: "Deprecated | example: 0"
+
+      - name: data_class_upgrade_charge
+        description: "Charge associated with cabin class upgrade | example: 0"
+
+      - name: data_supplement_charge
+        description: "The charge associated with the supplements that have been added to booking | example: 0"
+
+      - name: data_addon_charge
+        description: "Addon charge for domestic flights | example: 0"
+
+      - name: data_fare_created_office_id
+        description: "Oracle managed system tables used for materialised views | example: MCODL3100"
+
+      - name: data_tour_code
+        description: "Tour itinerary identification data of the selected &#39;Tour Code&#39; parameter in discount scheme setup.Format will be &lt;Contract_Id&gt;:&lt;Tour Itinerary Number&gt; | example: *D9V2P"
+
+      - name: data_endorsement
+        description: "Oracle managed system tables used for materialised views | example: dHAbMGJagZTqaePUpkDc"
+
+      - name: data_iata_comm_persc
+        description: "Deprecated | example: 0.0"
+
+      - name: data_whole_sale_comm
+        description: "Deprecated | example: 0.0"
+
+      - name: data_whole_sale_comm_type
+        description: "Deprecated | example: AFyHsxZvjVULWlAOpiib"
+
+      - name: data_user_letter_generated
+        description: "A flag to indicate whether the user letter is generated after schedule change by pnr processing job. | example: 0"
+
+      - name: data_ticketed_user
+        description: "The user associated with ticket issuance | example: 17355"
+
+      - name: data_bsp_travel_code
+        description: "Oracle managed system tables used for materialised views | example: lrOgdrKrEaeWBehIqScx"
+
+      - name: data_crs_rules
+        description: "Fare rules returned by the CRS in case of CRS involved flight booking | example: No Rules Returned from CRS."
+
+      - name: data_cancel_pnr
+        description: "Specifies whether there exists a PNR that can be cancelled | example: 1"
+
+      - name: data_connected_item_no
+        description: "Only for flight booking items. If there are multiple flight items in the booking with same pax key, the first flight item&#39;s number will be set as the connected item number in other flight items. | example: 3229"
+
+      - name: data_minimal_deposit_amount
+        description: "Minimal deposit amount for the booking item, | example: 0.0"
+
+      - name: data_deposit_date_emergency
+        description: "Deprecated | example: 0"
+
+      - name: data_valid_for_ticketing
+        description: "FLIGHT ITEM WISE CAN TICKETING | example: 0"
+
+      - name: data_manual_ticket_only
+        description: "Oracle managed system tables used for materialised views | example: 0"
+
+      - name: data_pnr_price_override_date
+        description: "Deprecated | example: 1973-12-01 01:47:26"
+
+      - name: data_manually_priced_flight
+        description: "Specifies whether flight item is manually priced or not Priced - 1, Not priced - 0 | example: 0"
+
+      - name: data_pnr_cnx_checked
+        description: "A flag to indicate whether it&#39;s checked pnr cancellation status or not. | example: 0"
+
+      - name: data_ssr_notes
+        description: "Special service request notes | example: xArsLRhCXZLmVaxEGGhr"
+
+      - name: data_corporate_id
+        description: "Deprecated | example: nQtZLUbCQjWLAFZAbwPS"
+
+      - name: data_h2_h_hold_release_time
+        description: "Specifies the booking hold time for H2H bookings | example: 2018-11-25 10:42:40"
+
+      - name: data_gds_queue_msg
+        description: "GDS message returned from the pnr processing job. | example: MMMDWVjDJBrFPRFWgFhW"
+
+      - name: data_original_crs
+        description: "The CRS of PNR before the migration | example: ZKYrqVxQWWiXDBEGZoRk"
+
+      - name: data_original_pnr
+        description: "The PNR number before the migration | example: CyCLaThlQlPORajSfgla"
+
+      - name: data_migrated_date
+        description: "Migrated date of PNR, in case of PNR migration from a GDS to some other GDS | example: 1994-04-29 12:43:12"
+
+      - name: data_apis_info_sent
+        description: "Specifies whether advance passenger information is sent to GDS or not | example: 0"
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 2002-10-22 19:03:14"
+
+      - name: data_seat_type
+        description: "Requested Seat Type in the Flight Booking_x000D_
+ | example: ST"
+
+      - name: data_gds_queue_error_id
+        description: "NaN | example: 94063.0"
+
+      - name: data_mask
+        description: "NaN | example: 0"
+
+      - name: data_is_lcc_result
+        description: "NaN | example: 0"
+
+      - name: data_transport_type
+        description: "NaN | example: AIR"
+
+      - name: data_org_fare_type
+        description: "NaN | example: PUB"
+
+      - name: data_doc_delivery_email
+        description: "NaN | example: yANgBVDsQDpCKKHeTjtX"
+
+      - name: data_instant_ticketed
+        description: "NaN | example: 0"
+
+      - name: data_is_tbx_only_name_change
+        description: "NaN | example: 0"
+
+      - name: data_dynamic_ptc
+        description: "NaN | example: 0"
+
+      - name: data_booking_id
+        description: "The system generated id of the booking | example: 30495697"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_product_code
+        description: "Deprecated | example: FLT"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_item_no
+        description: "Deprecated | example: 1"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_contract_type
+        description: "H = HOTEL, A = APARTMENT, G = GROUP | example: FLT"
+
+      - name: data_fare_type
+        description: "Specifies the supplement fare type_x000D_
+Daily - D_x000D_
+Weekly - W_x000D_
+Whole trip - T | example: PUB"
+
+      - name: data_out_contract
+        description: "Oracle managed system tables used for materialised views | example: -1"
+
+      - name: data_out_route_group
+        description: "Oracle managed system tables used for materialised views | example: -1"
+
+      - name: data_out_route
+        description: "Oracle managed system tables used for materialised views | example: -1"
+
+      - name: data_out_ticket_info_id
+        description: "NaN | example: -1"
+
+      - name: data_in_rule
+        description: "Oracle managed system tables used for materialised views | example: -1"
+
+      - name: data_in_route_group
+        description: "Oracle managed system tables used for materialised views | example: -1"
+
+      - name: data_in_route
+        description: "Oracle managed system tables used for materialised views | example: -1"
+
+      - name: data_in_ticket_info_id
+        description: "NaN | example: -1"
+
+      - name: data_pnr
+        description: "Oracle managed system tables used for materialised views | example: 3RJ5QD"
+
+      - name: data_ticketing_deadline
+        description: "Oracle managed system tables used for materialised views | example: 1985-08-29 08:30:41"
+
+      - name: data_ticketed
+        description: "Specifies whether the tickets have been issued for flight booking item Ticketed - 1, Not ticketed - 0 | example: 1"
+
+      - name: data_ticket_issue_date
+        description: "The date which the tickets have been issued for flight booking item | example: 2017-06-10 01:47:14"
+
+      - name: data_tax_offset
+        description: "Offset of the tax if the tax is changed manually. | example: 0.0"
+
+      - name: data_airline_for_comm_calc
+        description: "Oracle managed system tables used for materialised views | example: DL"
+
+      - name: data_domestic_for_comm_calc
+        description: "A flag to indicate whether to consider the flight booking as domestic or not for commission calculations._x000D_
+Flight booking is considered domestic if all the flight sectors are domestic (departure airport country and destination airport country are same as company country). | example: 0"
+
+      - name: data_history_created
+        description: "Deprecated | example: 0"
+
+      - name: data_out_cabin
+        description: "Oracle managed system tables used for materialised views | example: ECONOMY"
+
+      - name: data_in_cabin
+        description: "Oracle managed system tables used for materialised views | example: ECONOMY"
+
+      - name: data_ticket_type
+        description: "Oracle managed system tables used for materialised views | example: wdnRdqqDwswWiqpsXrVG"
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: metadata_version_start_datetime
+        description: "Version start datetime"
+        tests:
+          - not_null
+
+      - name: metadata_version_end_datetime
+        description: "Version end datetime"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

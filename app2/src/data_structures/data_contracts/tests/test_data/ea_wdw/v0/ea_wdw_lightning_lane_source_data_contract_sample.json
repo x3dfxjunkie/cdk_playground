@@ -1,0 +1,883 @@
+[
+    {
+        "eventType": "IA_SYNC",
+        "key": "99999999aaaaaaaaaabbbbbbbbbbbb34",
+        "item": {
+            "eventID": "99999999aaaaaaaaaabbbbbbbbbbbb34",
+            "eventName": "INSERT",
+            "entitlement": {
+                "bookingGuestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "operationalDate": "2023-05-29",
+                "reason": "GEN",
+                "createUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "windowOverride": false,
+                "entitlementKey": "INVENTORY-2023-05-29-77777777-4f99-aaaa-1111-111111f84461",
+                "locationType": "Attraction",
+                "experienceType": "Attraction",
+                "updatedDate": "2023-05-29T16:15:56.769053125",
+                "enttlEndDate": "2023-05-29T19:00:00",
+                "parkId": "80007998",
+                "remainingCount": 1,
+                "experienceId": "19263735",
+                "locationId": "19263735",
+                "operational_date-park_id": "1685332800-80007998",
+                "guestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "productType": "FLX",
+                "TTL_TIME": 1716937200,
+                "enttlStartDate": "2023-05-29T18:00:00",
+                "updateUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "operational_date-park_id-product_type-status": "1685332800-80007998-FLX-BOOKED",
+                "sectorName": "GPLUS",
+                "usesAllowed": 1,
+                "createdDate": "2023-05-29T16:15:56.769053003",
+                "activities": [
+                    {
+                        "activityReason": "GEN",
+                        "activityStatus": "BOOKED",
+                        "correlationId": "FFFFFFFF-2222-4534-BBBB-11111199869B",
+                        "activityDateTime": "2023-05-29T16:15:56.769048031",
+                        "activityUser": "{AAA99999-A999-9999-A99A-9999999A999A}"
+                    }
+                ],
+                "inventoryId": "GPLUS-19263735-19263735-20230529-1685397600-1685401200",
+                "offerId": "AAAAAAAAAAAAAAA9AAAAA9AAA9A_99a99a9a-aaaa-9999-a9aa-99aa9a9999aa_GPLUS-99999999-99999999-99999999_99999999999-9999999999",
+                "enttlId": "aaaaaaaa-1111-2222-bbbb-111111de3b2a",
+                "status": "BOOKED"
+            }
+        },
+        "correlationId": "FFFFFFFF-2222-4534-BBBB-11111199869B"
+    },
+    {
+        "eventType": "IA_SYNC",
+        "key": "a9999999aaaaaaaaaabbbbbbbbbbbb30",
+        "item": {
+            "eventID": "99999999aaaaaaaaaabbbbbbbbbbbb30",
+            "eventName": "INSERT",
+            "entitlement": {
+                "bookingGuestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "reason": "GEN",
+                "createUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "windowOverride": false,
+                "entitlementKey": "INVENTORY-2023-05-29-77777777-dfc3-aaaa-1111-111111325937",
+                "locationType": "Attraction",
+                "experienceType": "Attraction",
+                "updatedDate": "2023-05-29T16:15:56.768943523",
+                "type": "INVENTORY",
+                "enttlEndDate": "2023-05-29T19:00:00",
+                "parkId": "80007998",
+                "remainingCount": 1,
+                "experienceId": "19263735",
+                "locationId": "19263735",
+                "guestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "productType": "FLX",
+                "TTL_TIME": 1716937200,
+                "enttlStartDate": "2023-05-29T18:00:00",
+                "updateUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "sectorName": "GPLUS",
+                "usesAllowed": 1,
+                "bookingId": "999999999-zzzz-9999-zzzz-999999z9999z",
+                "createdDate": "2023-05-29T16:15:56.768943335",
+                "activities": [
+                    {
+                        "activityReason": "GEN",
+                        "activityStatus": "BOOKED",
+                        "correlationId": "FFFFFFFF-2222-4534-BBBB-11111199869B",
+                        "activityDateTime": "2023-05-29T16:15:56.768922923",
+                        "activityUser": "{AAA99999-A999-9999-A99A-9999999A999A}"
+                    }
+                ],
+                "inventoryId": "GPLUS-19263735-19263735-20230529-1685397600-1685401200",
+                "offerId": "AAAAAAAAAAAAAAA9AAAAA9AAA9A_99a99a9a-aaaa-9999-a9aa-99aa9a9999aa_GPLUS-99999999-99999999-99999999_99999999999-9999999999",
+                "enttlId": "aaaaaaaa-1111-2222-bbbb-111111de3b2a",
+                "status": "BOOKED"
+            }
+        },
+        "correlationId": "FFFFFFFF-2222-4534-BBBB-11111199869B"
+    },
+    {
+        "eventType": "IA_SYNC",
+        "key": "39999999aaaaaaaaaabbbbbbbbbbbb68",
+        "item": {
+            "eventID": "99999999aaaaaaaaaabbbbbbbbbbbb68",
+            "eventName": "INSERT",
+            "entitlement": {
+                "bookingGuestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "operationalDate": "2023-05-29",
+                "reason": "GEN",
+                "createUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "windowOverride": false,
+                "entitlementKey": "INVENTORY-2023-05-29-77777777-efaa-aaaa-1111-111111fd4ec0",
+                "locationType": "Attraction",
+                "experienceType": "Attraction",
+                "updatedDate": "2023-05-29T16:15:56.769011263",
+                "type": "INVENTORY",
+                "enttlEndDate": "2023-05-29T19:00:00",
+                "parkId": "80007998",
+                "remainingCount": 1,
+                "experienceId": "19263735",
+                "locationId": "19263735",
+                "operational_date-park_id": "1685332800-80007998",
+                "guestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "productType": "FLX",
+                "TTL_TIME": 1716937200,
+                "enttlStartDate": "2023-05-29T18:00:00",
+                "updateUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "operational_date-park_id-product_type-status": "1685332800-80007998-FLX-BOOKED",
+                "sectorName": "GPLUS",
+                "usesAllowed": 1,
+                "bookingId": "999999999-zzzz-9999-zzzz-999999z9999z",
+                "createdDate": "2023-05-29T16:15:56.769011165",
+                "activities": [
+                    {
+                        "activityReason": "GEN",
+                        "activityStatus": "BOOKED",
+                        "correlationId": "FFFFFFFF-2222-4534-BBBB-11111199869B",
+                        "activityDateTime": "2023-05-29T16:15:56.769010064",
+                        "activityUser": "{AAA99999-A999-9999-A99A-9999999A999A}"
+                    }
+                ],
+                "inventoryId": "GPLUS-19263735-19263735-20230529-1685397600-1685401200",
+                "offerId": "AAAAAAAAAAAAAAA9AAAAA9AAA9A_99a99a9a-aaaa-9999-a9aa-99aa9a9999aa_GPLUS-99999999-99999999-99999999_99999999999-9999999999",
+                "enttlId": "aaaaaaaa-1111-2222-bbbb-111111de3b2a",
+                "status": "BOOKED"
+            }
+        },
+        "correlationId": "FFFFFFFF-2222-4534-BBBB-11111199869B"
+    },
+    {
+        "eventType": "IA_SYNC",
+        "key": "e9999999aaaaaaaaaabbbbbbbbbbbb8b",
+        "item": {
+            "eventID": "99999999aaaaaaaaaabbbbbbbbbbbb8b",
+            "eventName": "MODIFY",
+            "entitlement": {
+                "bookingGuestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "operationalDate": "2023-05-29",
+                "reason": "GEN",
+                "createUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "windowOverride": false,
+                "entitlementKey": "INVENTORY-2023-05-29-77777777-7da7-aaaa-1111-111111d54676",
+                "locationType": "Attraction",
+                "experienceType": "Attraction",
+                "updatedDate": "2023-05-29T16:15:56.693490735",
+                "type": "INVENTORY",
+                "enttlEndDate": "2023-05-29T16:40:00",
+                "parkId": "80007823",
+                "remainingCount": 0,
+                "experienceId": "80010154",
+                "locationId": "80010154",
+                "operational_date-park_id": "1685332800-80007823",
+                "guestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "productType": "FLX",
+                "TTL_TIME": 1716928800,
+                "enttlStartDate": "2023-05-29T15:40:00",
+                "updateUserId": "MICKM001",
+                "operational_date-park_id-product_type-status": "1685332800-80007823-FLX-BOOKED",
+                "sectorName": "GPLUS",
+                "usesAllowed": 1,
+                "bookingId": "999999999-zzzz-9999-zzzz-999999z9999z",
+                "createdDate": "2023-05-29T15:02:57.997485243",
+                "activities": [
+                    {
+                        "activityReason": "GEN",
+                        "activityStatus": "BOOKED",
+                        "correlationId": "FFFFFFFF-2222-416a-BBBB-111111897163",
+                        "activityDateTime": "2023-05-29T15:02:57.997482171",
+                        "activityUser": "{AAA99999-A999-9999-A99A-9999999A999A}"
+                    },
+                    {
+                        "activityReason": "STD",
+                        "redemptionExperienceId": "80010154",
+                        "redemptionTouchDeviceId": "Mobile",
+                        "activityStatus": "REDEEMED",
+                        "correlationId": "FFFFFFFF-2222-47A6-BBBB-111111DF59C4",
+                        "activityDateTime": "2023-05-29T16:15:56.693477993",
+                        "activityUser": "MICKM001",
+                        "redemptionDateTime": "2023-05-29T16:15:56.693484515",
+                        "redemptionLocationId": "80010154"
+                    }
+                ],
+                "inventoryId": "GPLUS-80010154-80010154-20230529-1685389200-1685392800",
+                "offerId": "AAAAAAAAAAAAAAA9AAAAA9AAA9A_99a99a9a-aaaa-9999-a9aa-99aa9a9999aa_GPLUS-99999999-99999999-99999999_99999999999-9999999999",
+                "enttlId": "aaaaaaaa-1111-2222-bbbb-111111de3b2a",
+                "status": "REDEEMED"
+            }
+        },
+        "correlationId": "FFFFFFFF-2222-47A6-BBBB-111111DF59C4"
+    },
+    {
+        "eventType": "IA_SYNC",
+        "key": "39999999aaaaaaaaaabbbbbbbbbbbbc8",
+        "item": {
+            "eventID": "99999999aaaaaaaaaabbbbbbbbbbbbc8",
+            "eventName": "MODIFY",
+            "entitlement": {
+                "bookingGuestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "operationalDate": "2023-05-29",
+                "reason": "GEN",
+                "createUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "windowOverride": false,
+                "entitlementKey": "INVENTORY-2023-05-29-77777777-672d-aaaa-1111-11111189dc8f",
+                "locationType": "Attraction",
+                "experienceType": "Attraction",
+                "updatedDate": "2023-05-29T16:15:57.265828363",
+                "type": "INVENTORY",
+                "enttlEndDate": "2023-05-29T17:00:00",
+                "parkId": "80007998",
+                "remainingCount": 1,
+                "experienceId": "18904138",
+                "originalEntitlementId": "INVENTORY_AAAADCC43WQ3IUP4TWIXBBN3G4_0511db89-88ba-4775-8eab-c0805167bc62_2023-05-29",
+                "locationId": "18904138",
+                "operational_date-park_id": "1685332800-80007998",
+                "guestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "productType": "FLX",
+                "TTL_TIME": 1716930000,
+                "enttlStartDate": "2023-05-29T16:00:00",
+                "updateUserId": "DAP",
+                "originalCreateDateTime": "2023-05-29T07:00:12.047566658",
+                "operational_date-park_id-product_type-status": "1685332800-80007998-FLX-BOOKED",
+                "sectorName": "GPLUS",
+                "usesAllowed": 1,
+                "bookingId": "999999999-zzzz-9999-zzzz-999999z9999z",
+                "createdDate": "2023-05-29T07:01:37.557199778",
+                "activities": [
+                    {
+                        "activityReason": "MODIFY",
+                        "activityStatus": "BOOKED",
+                        "correlationId": "FFFFFFFF-2222-4D88-BBBB-111111303B1D",
+                        "activityDateTime": "2023-05-29T07:01:37.557162244",
+                        "activityUser": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                        "relatedEntitlement": "INVENTORY_ZZZZZZZ99ZZ9ZZZ9ZZZZZZZ9Z9_9999zz99-99zz-9999-9zzz-z9999999zz99_9999-99-99"
+                    },
+                    {
+                        "activityReason": "STD",
+                        "redemptionExperienceId": "18904138",
+                        "redemptionTouchDeviceId": "999897916",
+                        "activityStatus": "INQUEUE",
+                        "correlationId": "000007097989",
+                        "activityDateTime": "2023-05-29T16:15:57.265818728",
+                        "activityUser": "DAP",
+                        "redemptionDateTime": "2023-05-29T16:15:57.265822689",
+                        "redemptionLocationId": "18904138"
+                    }
+                ],
+                "inventoryId": "GPLUS-18904138-18904138-20230529-1685390400-1685394000",
+                "offerId": "AAAAAAAAAAAAAAA9AAAAA9AAA9A_99a99a9a-aaaa-9999-a9aa-99aa9a9999aa_GPLUS-99999999-99999999-99999999_99999999999-9999999999",
+                "enttlId": "aaaaaaaa-1111-2222-bbbb-111111de3b2a",
+                "status": "INQUEUE"
+            }
+        },
+        "correlationId": "000007097989"
+    },
+    {
+        "eventType": "IA_SYNC",
+        "key": "29999999aaaaaaaaaabbbbbbbbbbbb83",
+        "item": {
+            "eventID": "99999999aaaaaaaaaabbbbbbbbbbbb83",
+            "eventName": "MODIFY",
+            "entitlement": {
+                "bookingGuestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "operationalDate": "2023-05-29",
+                "reason": "DAS",
+                "createUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "windowOverride": false,
+                "entitlementKey": "NONINVENTORY-eeeeeeee-7883-aaaa-8888-1111110f7936",
+                "dasParentEntitlementId": "NONINVENTORY_AAAADDDDCCCC1A2BZ7BF37BNQY_eeeeeeee-7883-aaaa-8888-1111110f7936",
+                "updatedDate": "2023-05-29T16:15:57.791843719",
+                "type": "NONINVENTORY",
+                "enttlEndDate": "2023-05-30T02:00:00",
+                "remainingCount": -1,
+                "operational_date-product_type-experience_id-guest_range": "1685332800-DAS-80010208-M-Z",
+                "operational_date-park_id": "1685332800-80007944",
+                "guestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "productType": "DAS",
+                "TTL_TIME": 1688018400,
+                "experienceList": [
+                    {
+                        "experienceId": "80010208",
+                        "locationList": [
+                            {
+                                "locationId": "80010208",
+                                "locationType": "Attraction"
+                            }
+                        ],
+                        "experienceType": "Attraction",
+                        "usesAllowed": 1,
+                        "parkId": "80007944",
+                        "remainingCount": -1
+                    }
+                ],
+                "enttlStartDate": "2023-05-29T16:18:00",
+                "updateUserId": "DAP",
+                "operational_date-park_id-product_type-status": "1685332800-80007944-DAS-BOOKED",
+                "dasPrimaryIndicator": true,
+                "usesAllowed": 1,
+                "bookingId": "999999999-zzzz-9999-zzzz-999999z9999z",
+                "createdDate": "2023-05-29T15:43:28.22368637",
+                "activities": [
+                    {
+                        "activityReason": "DAS",
+                        "activityStatus": "BOOKED",
+                        "correlationId": "FFFFFFFF-2222-4C8E-BBBB-111111A5B27A",
+                        "activityDateTime": "2023-05-29T15:43:28.223677558",
+                        "activityUser": "{AAA99999-A999-9999-A99A-9999999A999A}"
+                    },
+                    {
+                        "activityReason": "OVR",
+                        "redemptionExperienceId": "80010208",
+                        "redemptionTouchDeviceId": "MK-Haunt-Mobile-GuestLeft",
+                        "activityStatus": "REDEEMED",
+                        "correlationId": "FFFFFFFF-2222-4519-BBBB-111111371E1E",
+                        "activityDateTime": "2023-05-29T16:15:57.417393142",
+                        "activityUser": "DAP",
+                        "redemptionDateTime": "2023-05-29T16:15:57.417397521",
+                        "redemptionLocationId": "80010208"
+                    },
+                    {
+                        "activityReason": "OVR",
+                        "redemptionExperienceId": "80010208",
+                        "redemptionTouchDeviceId": "MK-Haunt-Mobile-GuestLeft",
+                        "activityStatus": "REDEEMED",
+                        "correlationId": "FFFFFFFF-2222-406B-BBBB-111111FA400C",
+                        "activityDateTime": "2023-05-29T16:15:57.791831257",
+                        "activityUser": "DAP",
+                        "redemptionDateTime": "2023-05-29T16:15:57.791838281",
+                        "redemptionLocationId": "80010208"
+                    }
+                ],
+                "enttlId": "aaaaaaaa-1111-2222-bbbb-111111de3b2a",
+                "status": "REDEEMED"
+            }
+        },
+        "correlationId": "FFFFFFFF-2222-406B-BBBB-111111FA400C"
+    },
+    {
+        "eventType": "IA_SYNC",
+        "key": "59999999aaaaaaaaaabbbbbbbbbbbbbe",
+        "item": {
+            "eventID": "99999999aaaaaaaaaabbbbbbbbbbbbbe",
+            "eventName": "MODIFY",
+            "entitlement": {
+                "bookingGuestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "operationalDate": "2023-05-29",
+                "reason": "GEN",
+                "createUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "windowOverride": false,
+                "entitlementKey": "INVENTORY-2023-05-29-77777777-4434-aaaa-1111-111111a0be92",
+                "locationType": "Attraction",
+                "experienceType": "Attraction",
+                "updatedDate": "2023-05-29T16:15:57.917720123",
+                "type": "INVENTORY",
+                "enttlEndDate": "2023-05-29T16:25:00",
+                "parkId": "80007838",
+                "remainingCount": 0,
+                "experienceId": "80010191",
+                "originalEntitlementId": "INVENTORY_AAAADCCXWYMSQPPF2LPQQI22EM_cadd1e93-26e4-4358-be91-0d87e6dd5e54_2023-05-29",
+                "locationId": "80010191",
+                "operational_date-park_id": "1685332800-80007838",
+                "guestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "productType": "FLX",
+                "TTL_TIME": 1716927900,
+                "enttlStartDate": "2023-05-29T15:25:00",
+                "updateUserId": "DAP",
+                "originalCreateDateTime": "2023-05-29T14:38:19.699155293",
+                "operational_date-park_id-product_type-status": "1685332800-80007838-FLX-BOOKED",
+                "sectorName": "GPLUS",
+                "usesAllowed": 1,
+                "bookingId": "999999999-zzzz-9999-zzzz-999999z9999z",
+                "createdDate": "2023-05-29T15:20:41.15134357",
+                "activities": [
+                    {
+                        "activityReason": "MODIFY",
+                        "activityStatus": "BOOKED",
+                        "correlationId": "FFFFFFFF-2222-44AE-BBBB-1111110178DD",
+                        "activityDateTime": "2023-05-29T15:20:41.151340983",
+                        "activityUser": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                        "relatedEntitlement": "INVENTORY_ZZZZZZZ99ZZ9ZZZ9ZZZZZZZ9Z9_9999zz99-99zz-9999-9zzz-z9999999zz99_9999-99-99"
+                    },
+                    {
+                        "activityReason": "STD",
+                        "redemptionExperienceId": "80010191",
+                        "redemptionTouchDeviceId": "833225",
+                        "activityStatus": "REDEEMED",
+                        "correlationId": "000001961380",
+                        "activityDateTime": "2023-05-29T16:15:57.917702433",
+                        "activityUser": "DAP",
+                        "redemptionDateTime": "2023-05-29T16:15:57.917711003",
+                        "redemptionLocationId": "80010191"
+                    }
+                ],
+                "inventoryId": "GPLUS-80010191-80010191-20230529-1685388300-1685391900",
+                "offerId": "AAAAAAAAAAAAAAA9AAAAA9AAA9A_99a99a9a-aaaa-9999-a9aa-99aa9a9999aa_GPLUS-99999999-99999999-99999999_99999999999-9999999999",
+                "enttlId": "aaaaaaaa-1111-2222-bbbb-111111de3b2a",
+                "status": "REDEEMED"
+            }
+        },
+        "correlationId": "000001961380"
+    },
+    {
+        "eventType": "IA_SYNC",
+        "key": "89999999aaaaaaaaaabbbbbbbbbbbba0",
+        "item": {
+            "eventID": "99999999aaaaaaaaaabbbbbbbbbbbba0",
+            "eventName": "MODIFY",
+            "entitlement": {
+                "bookingGuestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "operationalDate": "2023-05-29",
+                "reason": "DAS",
+                "createUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "windowOverride": false,
+                "entitlementKey": "NONINVENTORY-eeeeeeee-3e17-aaaa-8888-111111573e16",
+                "dasParentEntitlementId": "NONINVENTORY_AAAADDDDCCCC1A2BZ7BF37BNQY_eeeeeeee-7883-aaaa-8888-1111110f7936",
+                "updatedDate": "2023-05-29T16:15:58.446596435",
+                "type": "NONINVENTORY",
+                "enttlEndDate": "2023-05-30T02:00:00",
+                "remainingCount": 0,
+                "operational_date-product_type-experience_id-guest_range": "1685332800-DAS-80010208-M-Z",
+                "operational_date-park_id": "1685332800-80007944",
+                "guestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "productType": "DAS",
+                "TTL_TIME": 1688018400,
+                "experienceList": [
+                    {
+                        "experienceId": "80010208",
+                        "locationList": [
+                            {
+                                "locationId": "80010208",
+                                "locationType": "Attraction"
+                            }
+                        ],
+                        "experienceType": "Attraction",
+                        "usesAllowed": 1,
+                        "parkId": "80007944",
+                        "remainingCount": 0
+                    }
+                ],
+                "enttlStartDate": "2023-05-29T16:18:00",
+                "updateUserId": "DAP",
+                "operational_date-park_id-product_type-status": "1685332800-80007944-DAS-BOOKED",
+                "dasPrimaryIndicator": false,
+                "usesAllowed": 1,
+                "bookingId": "999999999-zzzz-9999-zzzz-999999z9999z",
+                "createdDate": "2023-05-29T15:43:28.22362917",
+                "activities": [
+                    {
+                        "activityReason": "DAS",
+                        "activityStatus": "BOOKED",
+                        "correlationId": "FFFFFFFF-2222-4C8E-BBBB-111111A5B27A",
+                        "activityDateTime": "2023-05-29T15:43:28.223624952",
+                        "activityUser": "{AAA99999-A999-9999-A99A-9999999A999A}"
+                    },
+                    {
+                        "activityReason": "GRC",
+                        "redemptionExperienceId": "80010208",
+                        "redemptionTouchDeviceId": "MK-Haunt-Mobile-GuestRight",
+                        "activityStatus": "REDEEMED",
+                        "correlationId": "000007549075",
+                        "redemptionParentId": "NONINVENTORY_AAAADAST5LMLP5YBZ7BF37BNQY_ed21a0a7-7883-42e7-82f9-f3c4d60f7936",
+                        "activityDateTime": "2023-05-29T16:15:58.446582674",
+                        "activityUser": "DAP",
+                        "redemptionDateTime": "2023-05-29T16:15:58.44659172",
+                        "redemptionLocationId": "80010208"
+                    }
+                ],
+                "enttlId": "aaaaaaaa-1111-2222-bbbb-111111de3b2a",
+                "status": "REDEEMED"
+            }
+        },
+        "correlationId": "000007549075"
+    },
+    {
+        "eventType": "IA_SYNC",
+        "key": "a9999999aaaaaaaaaabbbbbbbbbbbb98",
+        "item": {
+            "eventID": "99999999aaaaaaaaaabbbbbbbbbbbb98",
+            "eventName": "MODIFY",
+            "entitlement": {
+                "bookingGuestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "operationalDate": "2023-05-29",
+                "reason": "PUR",
+                "createUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "orderId": "9z999z99-zz9z-99z9-9zzz-99999999zz99",
+                "windowOverride": false,
+                "entitlementKey": "INVENTORY-2023-05-29-77777777-b3e2-aaaa-1111-1111115b9c88",
+                "locationType": "Attraction",
+                "experienceType": "Attraction",
+                "updatedDate": "2023-05-29T16:15:58.43761576",
+                "type": "INVENTORY",
+                "enttlEndDate": "2023-05-29T17:15:00",
+                "parkId": "80007944",
+                "remainingCount": 1,
+                "experienceId": "16767284",
+                "locationId": "16767284",
+                "operational_date-park_id": "1685332800-80007944",
+                "guestId": "AAAAAAAAAAAAAA9AAAAA9AAA9A",
+                "productType": "EXT",
+                "enttlStartDate": "2023-05-29T16:15:00",
+                "productId": "MK16767284EXARA12813",
+                "updateUserId": "DAP",
+                "operational_date-park_id-product_type-status": "1685332800-80007944-EXT-BOOKED",
+                "sectorName": "EXTRA",
+                "usesAllowed": 1,
+                "bookingId": "999999999-zzzz-9999-zzzz-999999z9999z",
+                "itemId": "1ff299ae-ace7-5825-b222-eda4cfa8fcc0",
+                "createdDate": "2023-05-29T11:04:20.463811348",
+                "productContentId": "DSEPV1_DSETV1",
+                "passengerIdType": "xid",
+                "activities": [
+                    {
+                        "activityReason": "PUR",
+                        "activityStatus": "BOOKED",
+                        "correlationId": "FFFFFFFF-2222-4D48-BBBB-111111ECCCB7",
+                        "activityDateTime": "2023-05-29T11:04:20.463805534",
+                        "activityUser": "{AAA99999-A999-9999-A99A-9999999A999A}"
+                    },
+                    {
+                        "activityReason": "STD",
+                        "redemptionExperienceId": "16767284",
+                        "redemptionTouchDeviceId": "844969",
+                        "activityStatus": "INQUEUE",
+                        "correlationId": "000003509938",
+                        "activityDateTime": "2023-05-29T16:15:58.437604714",
+                        "activityUser": "DAP",
+                        "redemptionDateTime": "2023-05-29T16:15:58.437610012",
+                        "redemptionLocationId": "16767284"
+                    }
+                ],
+                "inventoryId": "EXTRA-16767284-16767284-20230529-1685391300-1685394900",
+                "offerId": "AAAAAAAAAAAAAAA9AAAAA9AAA9A_99a99a9a-aaaa-9999-a9aa-99aa9a9999aa_GPLUS-99999999-99999999-99999999_99999999999-9999999999",
+                "passengerId": "99999999-ZZZZ-9999-9999-999999999999",
+                "enttlId": "aaaaaaaa-1111-2222-bbbb-111111de3b2a",
+                "status": "INQUEUE"
+            }
+        },
+        "correlationId": "000003509938"
+    },
+    {
+        "eventType": "IA_SYNC",
+        "key": "a9999999aaaaaaaaaabbbbbbbbbbbb5d",
+        "item": {
+            "eventID": "99999999aaaaaaaaaabbbbbbbbbbbb5d",
+            "eventName": "INSERT",
+            "entitlement": {
+                "bookingGuestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "operationalDate": "2023-05-29",
+                "reason": "GEN",
+                "createUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "windowOverride": false,
+                "entitlementKey": "INVENTORY-2023-05-29-77777777-f89a-aaaa-1111-11111144dfc2",
+                "locationType": "Attraction",
+                "experienceType": "Attraction",
+                "updatedDate": "2023-05-29T16:15:59.082032189",
+                "type": "INVENTORY",
+                "enttlEndDate": "2023-05-29T19:10:00",
+                "parkId": "80007998",
+                "remainingCount": 1,
+                "experienceId": "19259335",
+                "locationId": "19259335",
+                "operational_date-park_id": "1685332800-80007998",
+                "guestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "productType": "FLX",
+                "TTL_TIME": 1716937800,
+                "enttlStartDate": "2023-05-29T18:10:00",
+                "updateUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "operational_date-park_id-product_type-status": "1685332800-80007998-FLX-BOOKED",
+                "sectorName": "GPLUS",
+                "usesAllowed": 1,
+                "bookingId": "999999999-zzzz-9999-zzzz-999999z9999z",
+                "createdDate": "2023-05-29T16:15:59.082031963",
+                "activities": [
+                    {
+                        "activityReason": "GEN",
+                        "activityStatus": "BOOKED",
+                        "correlationId": "FFFFFFFF-2222-4EBA-BBBB-111111E4FFC2",
+                        "activityDateTime": "2023-05-29T16:15:59.082022519",
+                        "activityUser": "{AAA99999-A999-9999-A99A-9999999A999A}"
+                    }
+                ],
+                "inventoryId": "GPLUS-19259335-19259335-20230529-1685398200-1685401800",
+                "offerId": "AAAAAAAAAAAAAAA9AAAAA9AAA9A_99a99a9a-aaaa-9999-a9aa-99aa9a9999aa_GPLUS-99999999-99999999-99999999_99999999999-9999999999",
+                "enttlId": "aaaaaaaa-1111-2222-bbbb-111111de3b2a",
+                "status": "BOOKED"
+            }
+        },
+        "correlationId": "FFFFFFFF-2222-4EBA-BBBB-111111E4FFC2"
+    },
+    {
+        "eventType": "IA_SYNC",
+        "key": "29999999aaaaaaaaaabbbbbbbbbbbb46",
+        "item": {
+            "eventID": "99999999aaaaaaaaaabbbbbbbbbbbb46",
+            "eventName": "INSERT",
+            "entitlement": {
+                "bookingGuestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "operationalDate": "2023-05-29",
+                "reason": "GEN",
+                "createUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "windowOverride": false,
+                "entitlementKey": "INVENTORY-2023-05-29-77777777-9535-aaaa-1111-111111871829",
+                "locationType": "Attraction",
+                "experienceType": "Attraction",
+                "updatedDate": "2023-05-29T16:15:58.823665962",
+                "type": "INVENTORY",
+                "enttlEndDate": "2023-05-29T19:50:00",
+                "parkId": "80007998",
+                "remainingCount": 1,
+                "experienceId": "19259335",
+                "locationId": "19259335",
+                "operational_date-park_id": "1685332800-80007998",
+                "guestId": "AAAAAAAAAAAAAA9AAAAA9AAA9A",
+                "productType": "FLX",
+                "TTL_TIME": 1716940200,
+                "enttlStartDate": "2023-05-29T18:50:00",
+                "updateUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "operational_date-park_id-product_type-status": "1685332800-80007998-FLX-BOOKED",
+                "sectorName": "GPLUS",
+                "usesAllowed": 1,
+                "bookingId": "999999999-zzzz-9999-zzzz-999999z9999z",
+                "createdDate": "2023-05-29T16:15:58.823665814",
+                "activities": [
+                    {
+                        "activityReason": "GEN",
+                        "activityStatus": "BOOKED",
+                        "correlationId": "FFFFFFFF-2222-49de-BBBB-1111112dea37",
+                        "activityDateTime": "2023-05-29T16:15:58.823662498",
+                        "activityUser": "{AAA99999-A999-9999-A99A-9999999A999A}"
+                    }
+                ],
+                "inventoryId": "GPLUS-19259335-19259335-20230529-1685400600-1685404200",
+                "offerId": "AAAAAAAAAAAAAAA9AAAAA9AAA9A_99a99a9a-aaaa-9999-a9aa-99aa9a9999aa_GPLUS-99999999-99999999-99999999_99999999999-9999999999",
+                "enttlId": "aaaaaaaa-1111-2222-bbbb-111111de3b2a",
+                "status": "BOOKED"
+            }
+        },
+        "correlationId": "FFFFFFFF-2222-49de-BBBB-1111112dea37"
+    },
+    {
+        "eventType": "IA_SYNC",
+        "key": "e9999999aaaaaaaaaabbbbbbbbbbbbd1",
+        "item": {
+            "eventID": "99999999aaaaaaaaaabbbbbbbbbbbbd1",
+            "eventName": "INSERT",
+            "entitlement": {
+                "bookingGuestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "operationalDate": "2023-05-29",
+                "reason": "GEN",
+                "createUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "windowOverride": false,
+                "entitlementKey": "INVENTORY-2023-05-29-77777777-34fd-aaaa-1111-1111116974df",
+                "locationType": "Attraction",
+                "experienceType": "Attraction",
+                "updatedDate": "2023-05-29T16:15:58.878472588",
+                "type": "INVENTORY",
+                "enttlEndDate": "2023-05-29T17:20:00",
+                "parkId": "80007944",
+                "remainingCount": 1,
+                "experienceId": "136550",
+                "locationId": "136550",
+                "operational_date-park_id": "1685332800-80007944",
+                "guestId": "AAAAAAAAAAAAAA9AAAAA9AAA9A",
+                "productType": "FLX",
+                "TTL_TIME": 1716931200,
+                "enttlStartDate": "2023-05-29T16:20:00",
+                "updateUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "operational_date-park_id-product_type-status": "1685332800-80007944-FLX-BOOKED",
+                "sectorName": "GPLUS",
+                "usesAllowed": 1,
+                "bookingId": "999999999-zzzz-9999-zzzz-999999z9999z",
+                "createdDate": "2023-05-29T16:15:58.878472462",
+                "activities": [
+                    {
+                        "activityReason": "GEN",
+                        "activityStatus": "BOOKED",
+                        "correlationId": "FFFFFFFF-2222-4334-BBBB-1111111D4328",
+                        "activityDateTime": "2023-05-29T16:15:58.878467074",
+                        "activityUser": "{AAA99999-A999-9999-A99A-9999999A999A}"
+                    }
+                ],
+                "inventoryId": "GPLUS-136550-136550-20230529-1685391600-1685395200",
+                "offerId": "AAAAAAAAAAAAAAA9AAAAA9AAA9A_99a99a9a-aaaa-9999-a9aa-99aa9a9999aa_GPLUS-99999999-99999999-99999999_99999999999-9999999999",
+                "enttlId": "aaaaaaaa-1111-2222-bbbb-111111de3b2a",
+                "status": "BOOKED"
+            }
+        },
+        "correlationId": "FFFFFFFF-2222-4334-BBBB-1111111D4328"
+    },
+    {
+        "eventType": "IA_SYNC",
+        "key": "39999999aaaaaaaaaabbbbbbbbbbbb11",
+        "item": {
+            "eventID": "99999999aaaaaaaaaabbbbbbbbbbbb11",
+            "eventName": "MODIFY",
+            "entitlement": {
+                "bookingGuestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "operationalDate": "2023-05-29",
+                "reason": "PUR",
+                "createUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "orderId": "9z999z99-zz9z-99z9-9zzz-99999999zz99",
+                "windowOverride": false,
+                "entitlementKey": "INVENTORY-2023-05-29-77777777-6c27-aaaa-1111-111111476bd5",
+                "locationType": "Attraction",
+                "experienceType": "Attraction",
+                "updatedDate": "2023-05-29T16:15:58.95585673",
+                "type": "INVENTORY",
+                "enttlEndDate": "2023-05-29T17:15:00",
+                "parkId": "80007944",
+                "remainingCount": 1,
+                "experienceId": "16767284",
+                "locationId": "16767284",
+                "operational_date-park_id": "1685332800-80007944",
+                "guestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "productType": "EXT",
+                "TTL_TIME": 1716930900,
+                "enttlStartDate": "2023-05-29T16:15:00",
+                "productId": "MK16767284EXARA12813",
+                "updateUserId": "DAP",
+                "operational_date-park_id-product_type-status": "1685332800-80007944-EXT-BOOKED",
+                "sectorName": "EXTRA",
+                "usesAllowed": 1,
+                "bookingId": "999999999-zzzz-9999-zzzz-999999z9999z",
+                "itemId": "1ff299ae-ace7-5825-b222-eda4cfa8fcc0",
+                "createdDate": "2023-05-29T11:04:20.463654267",
+                "productContentId": "DSEPV1_DSETV1",
+                "passengerIdType": "xid",
+                "activities": [
+                    {
+                        "activityReason": "PUR",
+                        "activityStatus": "BOOKED",
+                        "correlationId": "FFFFFFFF-2222-4D48-BBBB-111111ECCCB7",
+                        "activityDateTime": "2023-05-29T11:04:20.463651674",
+                        "activityUser": "{AAA99999-A999-9999-A99A-9999999A999A}"
+                    },
+                    {
+                        "activityReason": "STD",
+                        "redemptionExperienceId": "16767284",
+                        "redemptionTouchDeviceId": "844970",
+                        "activityStatus": "INQUEUE",
+                        "correlationId": "000001348158",
+                        "activityDateTime": "2023-05-29T16:15:58.955842295",
+                        "activityUser": "DAP",
+                        "redemptionDateTime": "2023-05-29T16:15:58.955847365",
+                        "redemptionLocationId": "16767284"
+                    }
+                ],
+                "inventoryId": "EXTRA-16767284-16767284-20230529-1685391300-1685394900",
+                "offerId": "AAAAAAAAAAAAAAA9AAAAA9AAA9A_99a99a9a-aaaa-9999-a9aa-99aa9a9999aa_GPLUS-99999999-99999999-99999999_99999999999-9999999999",
+                "passengerId": "99999999-ZZZZ-9999-9999-999999999999",
+                "enttlId": "aaaaaaaa-1111-2222-bbbb-111111de3b2a",
+                "status": "INQUEUE"
+            }
+        },
+        "correlationId": "000001348158"
+    },
+    {
+        "eventType": "IA_SYNC",
+        "key": "59999999aaaaaaaaaabbbbbbbbbbbb0d",
+        "item": {
+            "eventID": "99999999aaaaaaaaaabbbbbbbbbbbb0d",
+            "eventName": "MODIFY",
+            "entitlement": {
+                "bookingGuestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "operationalDate": "2023-05-29",
+                "reason": "GEN",
+                "createUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "windowOverride": false,
+                "entitlementKey": "INVENTORY-2023-05-29-77777777-aaa0-aaaa-1111-111111e21d7a",
+                "locationType": "Attraction",
+                "experienceType": "Attraction",
+                "updatedDate": "2023-05-29T16:15:58.952347214",
+                "type": "INVENTORY",
+                "enttlEndDate": "2023-05-29T17:15:00",
+                "parkId": "80007944",
+                "remainingCount": 0,
+                "experienceId": "80010153",
+                "locationId": "80010153",
+                "operational_date-park_id": "1685332800-80007944",
+                "guestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "productType": "FLX",
+                "TTL_TIME": 1716930900,
+                "enttlStartDate": "2023-05-29T16:15:00",
+                "updateUserId": "DAP",
+                "operational_date-park_id-product_type-status": "1685332800-80007944-FLX-BOOKED",
+                "sectorName": "GPLUS",
+                "usesAllowed": 1,
+                "bookingId": "999999999-zzzz-9999-zzzz-999999z9999z",
+                "createdDate": "2023-05-29T12:54:21.936486991",
+                "activities": [
+                    {
+                        "activityReason": "GEN",
+                        "activityStatus": "BOOKED",
+                        "correlationId": "FFFFFFFF-2222-4F6D-BBBB-1111118A1E87",
+                        "activityDateTime": "2023-05-29T12:54:21.936483307",
+                        "activityUser": "{AAA99999-A999-9999-A99A-9999999A999A}"
+                    },
+                    {
+                        "activityReason": "STD",
+                        "redemptionExperienceId": "80010153",
+                        "redemptionTouchDeviceId": "833143",
+                        "activityStatus": "REDEEMED",
+                        "correlationId": "000008913997",
+                        "activityDateTime": "2023-05-29T16:15:58.95233737",
+                        "activityUser": "DAP",
+                        "redemptionDateTime": "2023-05-29T16:15:58.9523413",
+                        "redemptionLocationId": "80010153"
+                    }
+                ],
+                "inventoryId": "GPLUS-80010153-80010153-20230529-1685391300-1685394900",
+                "offerId": "AAAAAAAAAAAAAAA9AAAAA9AAA9A_99a99a9a-aaaa-9999-a9aa-99aa9a9999aa_GPLUS-99999999-99999999-99999999_99999999999-9999999999",
+                "enttlId": "aaaaaaaa-1111-2222-bbbb-111111de3b2a",
+                "status": "REDEEMED"
+            }
+        },
+        "correlationId": "000008913997"
+    },
+    {
+        "eventType": "IA_SYNC",
+        "key": "09999999aaaaaaaaaabbbbbbbbbbbb98",
+        "item": {
+            "eventID": "99999999aaaaaaaaaabbbbbbbbbbbb98",
+            "eventName": "INSERT",
+            "entitlement": {
+                "bookingGuestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "operationalDate": "2023-05-29",
+                "reason": "GEN",
+                "createUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "windowOverride": false,
+                "entitlementKey": "INVENTORY-2023-05-29-77777777-9dba-aaaa-1111-111111e285de",
+                "locationType": "Attraction",
+                "experienceType": "Attraction",
+                "updatedDate": "2023-05-29T16:15:59.082320463",
+                "type": "INVENTORY",
+                "enttlEndDate": "2023-05-29T19:10:00",
+                "parkId": "80007998",
+                "remainingCount": 1,
+                "experienceId": "19259335",
+                "locationId": "19259335",
+                "operational_date-park_id": "1685332800-80007998",
+                "guestId": "AAAAAAAAAAAAAA1AAAAA2AAA3A",
+                "productType": "FLX",
+                "TTL_TIME": 1716937800,
+                "enttlStartDate": "2023-05-29T18:10:00",
+                "updateUserId": "{AAA99999-A999-9999-A99A-9999999A999A}",
+                "operational_date-park_id-product_type-status": "1685332800-80007998-FLX-BOOKED",
+                "sectorName": "GPLUS",
+                "usesAllowed": 1,
+                "bookingId": "999999999-zzzz-9999-zzzz-999999z9999z",
+                "createdDate": "2023-05-29T16:15:59.082320331",
+                "activities": [
+                    {
+                        "activityReason": "GEN",
+                        "activityStatus": "BOOKED",
+                        "activityDateTime": "2023-05-29T16:15:59.082312053",
+                        "activityUser": "{AAA99999-A999-9999-A99A-9999999A999A}"
+                    }
+                ],
+                "inventoryId": "GPLUS-19259335-19259335-20230529-1685398200-1685401800",
+                "offerId": "AAAAAAAAAAAAAAA9AAAAA9AAA9A_99a99a9a-aaaa-9999-a9aa-99aa9a9999aa_GPLUS-99999999-99999999-99999999_99999999999-9999999999",
+                "enttlId": "aaaaaaaa-1111-2222-bbbb-111111de3b2a",
+                "status": "BOOKED"
+            }
+        },
+        "correlationId": "FFFFFFFF-2222-4EBA-BBBB-111111E4FFC2"
+    }
+]

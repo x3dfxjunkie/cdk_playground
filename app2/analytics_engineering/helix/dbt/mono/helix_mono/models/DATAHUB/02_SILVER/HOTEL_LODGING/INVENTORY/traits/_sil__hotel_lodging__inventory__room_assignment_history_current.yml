@@ -1,0 +1,97 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__inventory__room_assignment_history_current
+    description: "{{ doc('sil__hotel_lodging__inventory__room_assignment_history_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=inventory
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: room_history_id
+        description: ""
+
+      - name: facility_id
+        description: ""
+
+      - name: room_number
+        description: ""
+
+      - name: room_description
+        description: ""
+
+      - name: room_history_action_description
+        description: ""
+
+      - name: reservable_resource_id
+        description: ""
+
+      - name: reservable_inventory_type_id
+        description: ""
+
+      - name: maximum_adult_occupancy_count
+        description: ""
+
+      - name: total_occupancy_count
+        description: ""
+
+      - name: connecting_room_indicator
+        description: ""
+
+      - name: assigned_owner_id
+        description: ""
+
+      - name: reservable_resource_owner_id
+        description: ""
+
+      - name: travel_component_id
+        description: ""
+
+      - name: primary_guest_name
+        description: ""
+
+      - name: arrival_datetime
+        description: ""
+
+      - name: departure_datetime
+        description: ""
+
+      - name: adult_count
+        description: ""
+
+      - name: child_count
+        description: ""
+
+      - name: booking_date
+        description: ""
+
+      - name: source_update_datetime
+        description: ""
+
+      - name: external_owner_reference_value
+        description: ""
+
+      - name: owner_reference_type_name
+        description: ""
+
+      - name: group_id_value
+        description: ""
+
+      - name: travel_plan_reference_value
+        description: ""
+
+      - name: occupancy_status_name
+        description: ""
+
+      - name: housekeeping_status_name
+        description: ""
+
+      - name: sharewith_indicator
+        description: ""

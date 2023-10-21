@@ -1,0 +1,65 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/build_rules/lambda_packaging:lambda.bzl", "contains", "endswith", "startswith")
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+load("//app/tools/macros/zip_py_lambda_library:def.bzl", "zip_py_lambda_library")
+
+py_lambda_library(
+    name = "kinesis_producer",
+    srcs = glob(["kinesis_producer/*.py"]),
+    data = [
+        "__init__.py",
+        "//app/src/data_service",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        "//app/src/data_structures",
+        "//app/src/data_structures/events",
+        "//app/src/data_structures/identity",
+        "//app/src/data_structures/object_lookup",
+        requirement("boto3"),
+        requirement("aws-lambda-powertools"),
+    ],
+)
+
+zip_py_lambda_library(
+    name = "lambda_archive",
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+
+        # Ignore boto since it's provided by Lambda.
+        startswith("boto3"),
+        startswith("botocore"),
+        startswith("s3transfer"),
+        startswith("setuptools"),
+
+        # With the move to hermetic toolchains, the zip gets a lib/ directory containing the
+        # python runtime. We don't need that.
+        startswith("lib/"),
+        startswith("__init__.py"),
+    ],
+    target = ":kinesis_producer",
+)
+
+pytest_test(
+    name = "test_kinesis_producer",
+    srcs = glob(["tests/**/*.py"]),
+    deps = [
+        ":kinesis_producer",
+        "//app/guest360_constructs",
+        "//app/src/data_structures",
+        "//app/src/data_structures/identity",
+        "//app/src/processing/realtime:processing_realtime",
+        "//app/src/processing/realtime:processing_realtime_test_modules",
+        "//app/src/reliability",
+        requirement("pyyaml"),
+        requirement("moto"),
+        requirement("mock"),
+        requirement("boto3"),
+        requirement("botocore"),
+        requirement("aws-cdk-lib"),
+        requirement("aws-lambda-context"),
+    ],
+)

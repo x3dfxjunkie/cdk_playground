@@ -1,0 +1,40 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+library_name = "curated_event"
+
+py_lambda_library(
+    name = library_name,
+    srcs = glob([library_name + "/**/*.py"]),
+    data = [
+        "__init__.py",
+        "//app/src/data_structures",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        "//app/src/utils/base64_decode",
+    ],
+)
+
+pytest_test(
+    name = library_name + "_tests",
+    srcs = glob(["tests/**/*.py"]),
+    deps = [
+        ":" + library_name,
+        "//app/guest360_constructs",
+        "//app/src/data_structures",
+        "//app/src/processing/realtime:processing_realtime",
+        "//app/src/reliability",
+        "//app/tools/test_data",
+        "//test_helpers",
+        requirement("aws-cdk-lib"),
+        requirement("aws-lambda-context"),
+        requirement("boto3"),
+        requirement("botocore"),
+        requirement("docker"),
+        requirement("mock"),
+        requirement("moto"),
+        requirement("pyyaml"),
+    ],
+)

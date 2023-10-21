@@ -1,0 +1,12 @@
+---
+otel_sidecar:
+  enabled: true
+  ephemeral_enabled: false
+  file: otel_sidecar.Dockerfile
+  base_repo: amazon/aws-otel-collector
+  base_tag: v0.31.0
+  directory: .
+  platform: aws_ecr_assets.Platform.LINUX_AMD64
+  target_version: v0.31.5
+  special_replication: false
+...

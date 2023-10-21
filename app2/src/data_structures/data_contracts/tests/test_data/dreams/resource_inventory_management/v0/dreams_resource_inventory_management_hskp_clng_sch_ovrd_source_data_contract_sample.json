@@ -1,0 +1,111 @@
+[
+	{
+		"data": {
+			"ASGN_OWNR_ID": 337880600,
+			"CLNG_SCH_OVRD_DT": "2023-07-26T00:00:00Z",
+			"CREATE_DTS": "2023-07-23T16:49:17.804000Z",
+			"CREATE_USR_ID_CD": "RexRmUpdts",
+			"HSKP_CLNG_SCH_OVRD_ID": 23092655,
+			"JDO_SEQ_NB": 0,
+			"OVRD_HSKP_SRVC_IN": "Y",
+			"UPDT_DTS": "2023-07-23T16:49:17.804000Z",
+			"UPDT_USR_ID_CD": "RexRmUpdts"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "hskp_clng_sch_ovrd",
+			"timestamp": "2023-07-25T18:39:33.205881Z",
+			"transaction-id": 14426922952405
+		}
+	},
+	{
+		"data": {
+			"ASGN_OWNR_ID": 343531216,
+			"CLNG_SCH_OVRD_DT": "2023-07-25T00:00:00Z",
+			"CREATE_DTS": "2023-07-25T14:20:01.274000Z",
+			"CREATE_USR_ID_CD": "BALAM003",
+			"HSKP_CLNG_SCH_OVRD_ID": 23097346,
+			"JDO_SEQ_NB": 0,
+			"OVRD_HSKP_SRVC_IN": "N",
+			"UPDT_DTS": "2023-07-25T14:20:01.274000Z",
+			"UPDT_USR_ID_CD": "BALAM003"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "hskp_clng_sch_ovrd",
+			"timestamp": "2023-07-25T18:20:06.179094Z",
+			"transaction-id": 14426913539707
+		}
+	},
+	{
+		"data": {
+			"ASGN_OWNR_ID": 339793420,
+			"CLNG_SCH_OVRD_DT": "2023-07-28T00:00:00Z",
+			"CREATE_DTS": "2023-07-25T14:58:42.390000Z",
+			"CREATE_USR_ID_CD": "RexRmUpdts",
+			"HSKP_CLNG_SCH_OVRD_ID": 23097596,
+			"JDO_SEQ_NB": 0,
+			"OVRD_HSKP_SRVC_IN": "Y",
+			"UPDT_DTS": "2023-07-25T14:58:42.390000Z",
+			"UPDT_USR_ID_CD": "RexRmUpdts"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "hskp_clng_sch_ovrd",
+			"timestamp": "2023-07-25T18:58:47.136854Z",
+			"transaction-id": 14431092815279
+		}
+	},
+	{
+		"data": {
+			"ASGN_OWNR_ID": 321055830,
+			"CLNG_SCH_OVRD_DT": "2023-07-24T00:00:00Z",
+			"CREATE_DTS": "2023-07-24T14:33:36.432000Z",
+			"CREATE_USR_ID_CD": "MARTX011",
+			"HSKP_CLNG_SCH_OVRD_ID": 23095109,
+			"JDO_SEQ_NB": 0,
+			"OVRD_HSKP_SRVC_IN": "N",
+			"UPDT_DTS": "2023-07-24T14:33:36.432000Z",
+			"UPDT_USR_ID_CD": "MARTX011"
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "hskp_clng_sch_ovrd",
+			"timestamp": "2023-07-25T18:26:06.451155Z",
+			"transaction-id": 14426916147519
+		}
+	},
+	{
+		"data": {
+			"ASGN_OWNR_ID": 341319005,
+			"CLNG_SCH_OVRD_DT": "2023-07-29T00:00:00Z",
+			"CREATE_DTS": "2023-07-25T15:13:50.480000Z",
+			"CREATE_USR_ID_CD": "GATTL002",
+			"HSKP_CLNG_SCH_OVRD_ID": 23097693,
+			"JDO_SEQ_NB": 0,
+			"OVRD_HSKP_SRVC_IN": "N",
+			"UPDT_DTS": "2023-07-25T15:13:50.480000Z",
+			"UPDT_USR_ID_CD": "GATTL002"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "hskp_clng_sch_ovrd",
+			"timestamp": "2023-07-25T19:13:53.279711Z"
+		}
+	}
+]

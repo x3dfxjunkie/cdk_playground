@@ -1,0 +1,20 @@
+---
+channel_defaults: &chan
+  slack_workspace_id: "T025VDV0V"
+  guardrail_policies:
+    - "ReadOnlyAccess"
+channels:
+  dpp-guest360-load-deployments:
+    <<: *chan
+    slack_channel_id: "C04JZ34DFHN"
+    notification_topics:
+      - "arn:aws:sns:us-east-1:920268603720:prd-use1-guest360-cdk-pipeline-approval"
+  dpp-guest360-load-alerts:
+    <<: *chan
+    slack_channel_id: "C05BG6F6XBM"
+    notification_topics:
+      - "self.environment_alarm_sns.topic_arn"
+      - "arn:aws:sns:us-east-1:920268603720:wdpr-guest360-prd-snow-pri4"
+      - "arn:aws:sns:us-east-1:920268603720:wdpr-guest360-prd-snow-pri3"
+      - "arn:aws:sns:us-east-1:920268603720:wdpr-guest360-prd-snow-pri2"
+...

@@ -1,0 +1,66 @@
+scenario:
+  name: OrionEATestScenarioPeak
+  description: OrionEA Normal Peak Test Scenario
+input:
+  endpoint:
+    type: kinesis
+    stream_name: guest360-load-testing-test-stream
+    region: us-east-1
+  data:
+    schema: path/to/dataclass/schema
+    schema_name: orion_ea
+    active_injection: false
+    samples:
+      source: s3
+      bucket_name: load-testing
+      path: orion_ea_normal/
+metrics:
+  namespace_name: locust-load-tests  
+  cw_log_group_name: load-testing-lg
+  dimensions:
+    - Name: Source
+      Value: Orion_EA
+    - Name: Target
+      Value: Kinesis
+evaluation:
+  metrics:
+  - label: a
+    namespace: orion_ea_peak
+    metric_name: request_count
+    statistic: Sum
+    dimensions:
+    - name: Target
+      value: Kinesis
+    - name: Source
+      value: Orion_EA
+  - label: b
+    namespace: orion_ea_peak
+    metric_name: request_success
+    statistic: Sum
+    dimensions:
+    - name: Target
+      value: Kinesis
+    - name: Source
+      value: Orion_EA
+  - label: c
+    namespace: orion_ea_peak
+    metric_name: response_time
+    period: 60
+    statistic: p99
+    dimensions:
+    - name: Target
+      value: Kinesis
+    - name: Source
+      value: Orion_EA
+  tests:
+  - name: test_case_1
+    condition: a/b > 0.99
+  - name: test_case_2
+    condition: c < 100
+phases:
+- name: normal
+  duration_minutes: 1
+  arrival_rate: 1000
+- name: peak
+  duration_minutes: 1
+  arrival_rate: 50000

@@ -1,0 +1,252 @@
+{
+    "DREAMSEntitlementsChrgItemTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_chrg_item_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CHRG_ITEM_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsCpnChrgExtnlRefTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_cpn_chrg_extnl_ref_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CPN_CHRG_EXTNL_REF_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsCpnChrgRdmptnTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_cpn_chrg_rdmptn_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CPN_CHRG_RDMPTN_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsCpnChrgTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_cpn_chrg_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CPN_CHRG_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsCpnPosLocConfigTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_cpn_pos_loc_config_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CPN_POS_LOC_CONFIG_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsCpnPrflTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_cpn_prfl_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CPN_PRFL_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsCpnTxnTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_cpn_txn_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CPN_TXN_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsEnttlPlnCpnBalTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_enttl_pln_cpn_bal_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ENTTL_PLN_CPN_BAL_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsEnttlPlnExtRefTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_enttl_pln_ext_ref_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ENTTL_PLN_EXT_REF_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsEnttlPlnTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_enttl_pln_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ENTTL_PLN_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsPosCpnChrgTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_pos_cpn_chrg_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "POS_CPN_CHRG_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsPosCpnMealPrdTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_pos_cpn_meal_prd_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "POS_CPN_MEAL_PRD_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsPosCpnPrflTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_pos_cpn_prfl_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "POS_CPN_PRFL_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsCpnChrgAgeTypTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_cpn_chrg_age_typ_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CPN_CHRG_AGE_TYP_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsCpnMltplrTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_cpn_mltplr_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CPN_MLTPLR_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsCpnRdmptTypTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_cpn_rdmpt_typ_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CPN_RDMPT_TYP_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsCpnRstrctTypTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_cpn_rstrct_typ_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CPN_RSTRCT_TYP_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsEnttlExtRefTypTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_enttl_ext_ref_typ_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ENTTL_EXT_REF_TYP_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsEnttlPlnGstTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_enttl_pln_gst_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ENTTL_PLN_GST_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsGidTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_gid_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "GID_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsTxnProcTypTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_txn_proc_typ_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "TXN_PROC_TYP_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsTxnRsnTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_txn_rsn_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "TXN_RSN_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsTxnRsnTypTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_txn_rsn_typ_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "TXN_RSN_TYP_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsTxnTypTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_txn_typ_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "TXN_TYP_T"
+            }
+        }
+    },
+    "DREAMSEntitlementsCpnChrgRpstDiffLogTModel": {
+        "data-source-folder": "dreams/entitlements/v0",
+        "data-contract-name": "dreams_entitlements_cpn_chrg_rpst_diff_log_t_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CPN_CHRG_RPST_DIFF_LOG_T"
+            }
+        }
+    }
+}

@@ -1,0 +1,1021 @@
+asyncapi: 2.6.0
+info:
+  title: Guest360 Events
+  version: 0.0.7
+  description: |
+    Guest360 events for an identified guest
+    0.0.7 - Added ProductDetails and GateClick enhancements
+    0.0.6 - Adding Facility Metadata / keep eventTime
+    0.0.5 - update channels leveraged for permission based output.  Change naming for variant schemas
+    0.0.4 - implement gate click using the Experience Paradigm Common schemas
+    0.0.3 - revision from Reset - schemas matches OpenApi (Review EventTime and EventStatus Needed)
+    0.0.2 - removed kafka / msk references
+    0.0.1 - Updated LL Schema, include multi-redemptions entitlements
+  contact:
+    name: Renan Pereira
+    email: renan.pereira@disney.com
+  license:
+    name: Apache 2.0
+    url: "https://www.apache.org/licenses/LICENSE-2.0"
+servers:
+  latest:
+    url: "arn:aws:kinesis:us-east-1:543276908693:stream/KINESIS_STREAM_NAME_HERE"
+    protocol: AWS::Kinesis::Stream
+    description: Kinesis Stream for Guest360 events belonging to the Experience paradigm
+    security:
+      - saslScram: []
+defaultContentType: application/json
+channels:
+  #by permissions
+  "guest360-events-full":
+    description: Guest360 Events for identified guest with all Paradigms
+    publish:
+      summary: Guest360 Events for identified guest
+      description: provide identified guest's events belonging to the Experience paradigm
+      operationId: publishGuestExperiencesEvents
+      #traits:
+      #  - $ref: '#/components/operationTraits/kafka'
+      message:
+        oneOf:
+          - $ref: '#/components/messages/LightningLaneEvent'
+          - $ref: '#/components/messages/GateClickEvent'
+          - $ref: '#/components/messages/TicketEvent'
+          - $ref: '#/components/messages/ProfileEvent'
+components:
+  messages:
+    ProfileEvent:
+      name: ProfileEvent
+      title: Guest Profile
+      summary: Inform about a guest
+      contentType: application/json
+      traits:
+        - $ref: "#/components/messageTraits/commonHeaders"
+      payload:
+        $ref: "#/components/schemas/Profile"
+    LightningLaneEvent:
+      name: LightningLaneEvent
+      title: Guest Experience Event - Lightning Lane
+      summary: >-
+        Inform about a lightning lane reservation event for an identified
+        guest
+      contentType: application/json
+      traits:
+        - $ref: "#/components/messageTraits/commonHeaders"
+      payload:
+        $ref: "#/components/schemas/LightningLane"
+    GateClickEvent:
+      name: GateClickEvent
+      title: Guest Experience Event - Gate Click
+      summary: >-
+        Inform about a Gate Click event for an identified guest
+      contentType: application/json
+      traits:
+        - $ref: "#/components/messageTraits/commonHeaders"
+      payload:
+        $ref: '#/components/schemas/GateClick'
+    TicketEvent:
+      name: TicketEvent
+      title: Guest Ownership Event - Ticket
+      summary: >-
+        Inform about a Ticket event for an identified guest  
+      contentType: application/json
+      traits:
+        - $ref: '#/components/messageTraits/commonHeaders'
+      payload:
+        $ref: '#/components/schemas/Ticket'
+  schemas:
+    Profile:
+      type: object
+      properties:
+        swid:
+          "$ref": "#/components/schemas/swid"
+        guestDetails:
+          type: object
+          properties:
+            firstName:
+              type: string
+              example: Mark
+              description: First name of the guest
+            lastName:
+              type: string
+              example: Goesmann
+              description: Last name of the guest
+            title:
+              type: string
+              example:
+              description: Title of the guest
+            suffix:
+              type: string
+              example:
+              description: Suffix of the guest
+            dateOfBirth:
+              type: string
+              format: date
+              example: 02/15/1984
+              description: Date the guest was born
+            guestAssertedLegalCountry:
+              type: string
+              example: USA
+              description: Country the guest selected that they identity as
+            childIndicator:
+              type: boolean
+              description: Indicator that flags if a guest is under the age of 18
+            preferredLanguage:
+              type: string
+              example: English
+              description: Language the guest prefers us to use when speaking to them
+            avatarID:
+              type: string
+              example:
+              description: Id of the guest OneID account avatar
+            avatarName:
+              type: string
+              example:
+              description: Name of the guest OneID account avatar
+            maxGuestActivityDate:
+              type: string
+              format: date-time
+              description: Maximum date of the guest activity with DPEP
+            addresses:
+              type: array
+              items:
+                type: object
+                description: object that includes the information needed to link a phisical address to the guest
+                properties:
+                  addressDetails:
+                    type: object
+                    description: Details of the guest phisical address
+                    properties:
+                      addressId:
+                        type: string
+                        description: ID that uniquely identifies a phisical address
+                      addressLine1:
+                        type: string
+                        example: 123 Main Street
+                        description: Address line 1
+                      addressLine2:
+                        type: string
+                        description: Address line 2
+                        example: B
+                      addressLine3:
+                        type: string
+                        description: Address line 3
+                        example:
+                      city:
+                        type: string
+                        description: City name
+                        example: Springfield
+                      stateProvince:
+                        type: string
+                        description: State or Province code
+                        example: FL
+                      postalCode:
+                        type: string
+                        description: Address postal code
+                        example: "32323"
+                      postalCodeExtension:
+                        type: string
+                        description: Address postal code extension
+                        example: "0000"
+                      county:
+                        type: string
+                        description: County name
+                        example:
+                      countryRegion:
+                        type: string
+                        description: ISO-3166 country code for the guests
+                        example: USA
+                      created:
+                        $ref: "#/components/schemas/created"
+                      lastModified:
+                        $ref: "#/components/schemas/lastModified"
+                  addressType:
+                    type: string
+                    description: Address type (business or residence)
+                    example: Billing
+                  linkDate:
+                    type: string
+                    description: Date the address was first associated to the guest
+                    format: date-time
+                    example:
+            emails:
+              type: array
+              items:
+                type: object
+                properties:
+                  emailDetails:
+                    type: object
+                    description: Details of the email address
+                    properties:
+                      emailID:
+                        type: string
+                        description: Id that uniquely identifies an email address
+                      emailAddress:
+                        type: string
+                        description: email address string
+                        example: mark@disney.com
+                      created:
+                        $ref: "#/components/schemas/created"
+                      lastModified:
+                        $ref: "#/components/schemas/lastModified"
+                      EPC:
+                        type: object
+                        description: Enterprise permission center
+                        properties:
+                          EPCPermission:
+                            type: array
+                            description: Array of current permissions
+                            items:
+                              type: object
+                              description: permission
+                              properties:
+                                lineOfBusiness:
+                                  type: string
+                                  description: Line of business for the permission
+                                  example: WDW
+                                maxPermissionDate:
+                                  type: string
+                                  description: Date the permission was captured
+                                  format: date-time
+                                permissionValue:
+                                  type: string
+                                  description: Value of the permission (E,D,X)
+                                  example: E
+                          encryptedEmail:
+                            type: string
+                            description: Unique id for an email address that is used for CANSPAM links
+                  linkDate:
+                    type: string
+                    description: Date the email was first associated with this guest
+                    format: date-time
+            phones:
+              type: array
+              description: a
+              items:
+                type: object
+                description: linking object between a guest and the phone number
+                properties:
+                  PhoneDetails:
+                    type: object
+                    description: Detail about the phone number
+                    properties:
+                      phoneID:
+                        type: string
+                        description: Unique identifier for a phone number
+                      phoneNumber:
+                        type: string
+                        description: Phone number for the guest
+                        example: (555) 555-5555
+                      phoneType:
+                        type: string
+                        description: Type of phone (home or cell)
+                        example: Home
+                      countryCode:
+                        type: string
+                        description: country code of the phone number
+                        example: 001
+                      created:
+                        $ref: "#/components/schemas/created"
+                      lastModified:
+                        $ref: "#/components/schemas/lastModified"
+                  linkDate:
+                    type: string
+                    description: Date the phone number was first associated to the guest
+                    format: date-time
+                    example: Home
+        affiliations:
+          type: object
+          description: a
+          properties:
+            membership:
+              type: object
+              description: Memberships are groups a guest does something to become a part of, they also have an expiration date.
+              properties:
+                dvcIndicator:
+                  type: boolean
+                  description: Indicates if the guest is an active DVC Member
+                club33Indicator:
+                  type: boolean
+                  description: Indicates if the guest is an active Club 33 Member
+                goldenOakIndicator:
+                  type: boolean
+                  description: Indicates if the guest is an active Golden Oak property owner
+                castMemberIndicator:
+                  type: boolean
+                  description: Indicates if the guest is an active Cast Member
+                d23Indicates:
+                  type: boolean
+                  description: Indicates if the guest is an active D23 Member
+            loyalties:
+              type: object
+              description: A club a guest is included in after completing an action
+              properties:
+                adventureInsiderIndicates:
+                  type: boolean
+                  description: Adventure By Disney Insider
+                castawayClubIndicates:
+                  type: boolean
+                  description: Disney Cruise Line Castaway Club
+                nationalGeographicIndicates:
+                  type: boolean
+                  description: National Geographic Club
+        geographic:
+          type: object
+          description: Profile attributes related to where the guest lives or is currently at
+          properties:
+            residency:
+              type: string
+              description: Flag that indicates if the guest lives in one of our key residency states
+              example: FL Res
+            Segment:
+              type: object
+              properties:
+                distanceToWDW:
+                  type: number
+                  description: Distance from the guests home to WDW
+                distanceToDLR:
+                  type: number
+                  description: Distance from the guests home to DLR
+        models:
+          type: object
+          description: attributes about a guest that are modeled
+          properties:
+            affiliation:
+              type: string
+              description: Brand affinity this guest is most likley interested in
+              example: Mickey
+        indicators:
+          type: object
+          description: Set of data points about a guest based on past activity with DPEP
+          properties:
+            ownership:
+              type: object
+              properties:
+                gateClick:
+                  type: object
+                  description: Attributes related to entering a theme park
+                  properties:
+                    WDW:
+                      type: object
+                      properties:
+                        hardTicketindicator:
+                          type: boolean
+                        themeParkVisitedIndicator:
+                          type: boolean
+                        lastParkVisited:
+                          type: string
+                        numberOfParksVisited:
+                          type: integer
+                        maxParkVisitedDate:
+                          type: string
+                          format: date
+                        waterParkVisitedIndicator:
+                          type: boolean
+                    DLR:
+                      type: object
+                      properties:
+                        hardTicketindicator:
+                          type: boolean
+                        themeParkVisitedIndicator:
+                          type: boolean
+                        lastParkVisited:
+                          type: string
+                        numberOfParksVisited:
+                          type: integer
+                        maxParkVisitedDate:
+                          type: string
+                          format: date
+            experiences:
+              type: object
+              description: a
+              properties:
+                lightningLane:
+                  type: object
+                  description: attributes related to a Lightning Lane
+                  properties:
+                    WDW:
+                      type: object
+                      properties:
+                        LLRedeamedCount:
+                          type: integer
+                        parkWithMostLLUsages:
+                          type: string
+                        lastLLUsed:
+                          type: string
+                        futureLLIndicator:
+                          type: boolean
+                    DLR:
+                      type: object
+                      properties:
+                        LLRedeamedCount:
+                          type: integer
+                        parkWithMostLLUsages:
+                          type: string
+                        lastLLUsed:
+                          type: string
+                        futureLLIndicator:
+                          type: boolean
+
+    # Resuable components
+    swid:
+      type: string
+      pattern: '^\\{[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\\}$'
+      minLength: 36
+      maxLength: 38
+    guestIdentifiers:
+      type: object
+      description: Key ring with list of common guest identifiers
+      properties:
+        swid:
+          "$ref": "#/components/schemas/swid"
+    created:
+      type: string
+      format: date-time
+      description: record created timestamp in UTC
+    lastModified:
+      type: string
+      format: date-time
+      description: record last modified timestam in UTC
+    eventTime:
+      type: string
+      format: date-time
+      description: event update time based on status change
+    destination:
+      type: string
+      description: Determines destination of the experience.  Values to be confirmed
+      enum:
+        - wdw
+        - dlr
+        - aul
+        - dcl
+        - wdpr
+    experienceStatus:
+      type: string
+      description: Curated status viable to Experience Paradigm
+      enum:
+        - Booked
+        - Experienced
+        - Not Experienced
+      example: Experienced
+    ownershipStatus:
+      type: string
+      description: Curated status viable to Ownership Paradigm
+      enum:
+        - Active
+        - Inactive
+      example: Active
+    statusConfidenceLabel:
+      type: string
+      description: Confidence level of the inference and derivation of the status
+      enum:
+        - High
+        - Medium
+        - Low
+    experienceCategory:
+      type: string
+      description: Corresponding Experience category with the Experience Paradigm
+      enum:
+        - Lightning Lane
+        - Gate Click
+        - Resort Reservation
+        - Experience Reservation
+        - Dining Reservation
+        - Park Reservation
+        - Ride Complete
+    productCategory:
+      type: string
+      description: Corresponding Product category with the Product Ownership Paradigm
+      enum:
+        - Ticket
+        - Merchandise
+        - Memory Maker
+        - PhotoPass
+        - PlayApp Achievement
+        - Magicband
+    lightningLaneType:
+      type: string
+      description: Curated status of the Experience Paradigm
+      enum:
+        - "Genie+"
+        - "Individual"
+    locationDetails:
+      type: object
+      description: provides additional location detail where applicable
+      properties:
+        locationId:
+          type: string
+          description: Experience location ID when experienceId is not a physical location
+          example: 411525059
+        locationName:
+          type: string
+          description: Experience location name when experienceId is not a physical location
+          example: Town Square Theater
+        parkOrResortId:
+          type: string
+          description: Park or Resort (hierarchy level 3) facility ID of the location
+          example: 80007944
+        parkOrResortName:
+          type: string
+          description: Park or Resort (hierarchy level 3) facility Name of the location
+          example: Magic Kingdom Park
+        parentType:
+          type: string
+          description: curated type of Park or Resort (hierarchy level 3)
+          example: Theme Park
+    productDetails:
+      type: object
+      description: reusable object to represent product details
+      properties:
+        productId:
+          type: string
+          description: Ticket Product Code
+          example: 8LA0R
+        productName:
+          type: string
+          description: Ticket Product Name
+          example: 8 DAY 1 PARK W/8 WPS VISITS    AGES(10+)
+        ageType:
+          type: string
+          description: Age group specified for the ticket product
+          example: ADULT
+        allowedEntryDetails:
+          type: object
+          description: Entry Type allowed object
+          properties:
+            themeParkEntry:
+              type: boolean
+              description: Allows theme park entry?
+              example: true
+            waterParkEntry:
+              type: boolean
+              description: Allows water park entry?
+              example: true
+            sportComplexEntry:
+              type: boolean
+              description: Allows sport complex entry?
+              example: false
+        classifications:
+          type: object
+          description: ticket product classifications (curated) object
+          properties:
+            isTestTicket:
+              type: boolean
+              description: is the ticket product used for testing only?
+              example: false
+            isCertificate:
+              type: boolean
+              description: is the ticket product a certificate/exchange (requires conversion to a real ticket)?
+              example: false
+            isMainEntrancePass:
+              type: boolean
+              description: is the ticket product a Cast Main Entrance Pass?
+              example: true
+            mainEntrancePassDetails:
+              type: object
+              description: exists if isMainEntrancePass is true
+              properties:
+                type:
+                  type: string
+                  description: "MEP Type, ex: Silver, Red, etc"
+                  example: Silver
+                typeCode:
+                  type: string
+                  description: MEP Type Code
+                  example: SLVR
+                passType:
+                  type: string
+                  description: Pass type distinguishing Primary vs Guest Pass
+                  example: Primary Pass
+                passTypeCode:
+                  type: string
+                  description: Pass type code distinguishing Primary vs Guest Pass
+                  example: PRMP
+                site:
+                  type: array
+                  description: MEP originating site
+                  items:
+                    type: string
+                  example: ["FL", "DCL"]
+                affillation:
+                  type: string
+                  description: special designations for RCID / VIP
+                  example: RCID
+            isComp:
+              type: boolean
+              description: "is the ticket product complimentry (ex: Cast Complimentry ticket)"
+              example: false
+            isDayTicket:
+              type: boolean
+              description: is the ticket Product a day ticket (not AP, Event, etc)
+              example: true
+            dayTicketDetails:
+              type: object
+              description: exists if isDayTicket is true
+              properties:
+                type:
+                  type: string
+                  description: Product Category name if product is a day ticket
+                  example: Theme Park Ticket with Water Park & Sports Option
+                typeCode:
+                  type: string
+                  description: Product Category code if product is a day ticket
+                  example: BASE_WPS
+                daysAllowed:
+                  type: string
+                  description: Allowed duration if product is a day ticket
+                  example: 8 Day
+            isAnnualPass:
+              type: boolean
+              description: is ticket product an annual pass?
+              example: true
+            annualPassDetails:
+              type: object
+              description: exists if isAnnualPass is true
+              properties:
+                type:
+                  type: string
+                  description: Product Category name if the product is an annual pass
+                  example: Pixie Dust Pass
+                typeCode:
+                  type: string
+                  description: Product Category code if the product is an annual pass
+                  example: PIXIEP
+                pricingType:
+                  type: string
+                  description: determines pricing for an AP
+                  example: RENEWAL
+                pricingTypeCode:
+                  type: string
+                  description: Code for AP Pricing Type
+                  example: RENWAP
+            isEventTicket:
+              type: boolean
+              description: is ticket product for an event (like Mickey's Not So Scary Halloween Party)
+              example: true
+            eventTicketDetails:
+              type: object
+              description: TBD
+              properties:
+                eventType:
+                  type: string
+                  description: Product Category name if the product is an event ticket
+                  example: Disney After Hours MK
+                eventCode:
+                  type: string
+                  description: Event Code if product is an event ticket
+                  example: MNSSHP
+            isLocalResidentTicket:
+              type: boolean
+              description: is ticket product for local resident?
+              example: true
+            localResidentTicketDetails:
+              type: object
+              description: TBD
+              properties:
+                localResidentTicketType:
+                  type: string
+                  description: Local Resident Code if product is for Local Residents
+                  example: FL
+            isMilitaryOfferTicket:
+              type: boolean
+              description: is ticket product for military specal offer?
+              example: false
+            isGoldenOakTicket:
+              type: boolean
+              description: is ticket product for Golden Oak members
+              example: false
+            isDvcTicket:
+              type: boolean
+              description: is ticket product for DVC members
+              example: false
+            isClub33:
+              type: boolean
+              description: is ticket product for Club33 members
+              example: false
+            club33Details:
+              type: object
+              description: TBD
+              properties:
+                club33Type:
+                  type: string
+                  description: Which Club33 destination
+                  example: DW
+    # Paradigm Level Schemas
+    ExperienceCommon:
+      type: object
+      description: Common event attributes for the Experience Paradigm
+      properties:
+        statusConfidenceLabel:
+          $ref: "#/components/schemas/statusConfidenceLabel"
+        created:
+          "$ref": "#/components/schemas/created"
+        lastModified:
+          "$ref": "#/components/schemas/lastModified"
+        experienceTimezoneOffSet:
+          type: string
+          description: Solution / Value design in progress, to be determined
+          example: "TBD"
+        eventTime:
+          "$ref": "#/components/schemas/eventTime"
+        destination:
+          "$ref": "#/components/schemas/destination"
+      required:
+        - created
+        - lastModified
+        - eventTime
+        - experienceTimezoneOffSet
+        - destination
+    OwnershipCommon:
+      type: object
+      description: Common event attributes for the Ownership Paradigm
+      properties:
+        created:
+          "$ref": "#/components/schemas/created"
+        lastModified:
+          "$ref": "#/components/schemas/lastModified"
+        destination:
+          "$ref": "#/components/schemas/destination"
+        ownershipTimezoneOffSet:
+          type: string
+          description: Solution / Value design in progress, to be determined
+          example: "TBD"
+      required:
+        - created
+        - lastModified
+        - destination
+        - ownershipTimezoneOffset
+    #Subject Variant Schemas
+    LightningLaneVariant:
+      type: object
+      properties:
+        transactionId:
+          type: string
+          format: uuid
+          description: unique identifier for the lightning lane experience transaction
+        experienceId:
+          type: string
+          description: Attraction / Entrainment Enterprise ID referencing the Lightning Lane experience.  This can be referenced via Facility / Entertainment APIs for additional facililty metadata
+          example: "17842841"
+        experienceName:
+          type: string
+          description: Attraction / Entrainment Enterprise Name referencing the Lightning Lane experience.  This is obtained via D-Scribe Facility / Entertainment APIs
+          example: "For the First Time in Forever: A Frozen Sing-Along Celebration"
+        experienceEnterpriseType:
+          type: string
+          description: Experience Enterprise Type, aka D-Scribe Content Type, which determines if the experience is a Attraction, Entertainment, Park, etc
+          example: Entertainment
+        locationDetails:
+          "$ref": "#/components/schemas/locationDetails"
+        experienceCategory:
+          allOf:
+            - "$ref": "#/components/schemas/experienceCategory"
+            - type: string
+              example: "Lightning Lane"
+        status:
+          "$ref": "#/components/schemas/experienceStatus"
+        businessDate:
+          type: string
+          format: date
+          description: Date of the experience guest is entitled for
+        experienceStart:
+          type: string
+          format: date-time
+          description: UTC start date/Time of the corresponding Lightning Lane redemption window
+        experienceEnd:
+          type: string
+          format: date-time
+          description: UTC end date/time of the corresponding Lightning Lane redemption window
+      required:
+        - transactionId
+        - experienceId
+        - experienceName
+        - experienceEnterpriseType
+        - experienceCategory
+        - status
+        - businessDate
+        - experienceStart
+        - experienceEnd
+    GateClickVariant:
+      type: object
+      properties:
+        transactionId:
+          type: string
+          description: unique identifier for the Gate Click experience transaction
+        experienceId:
+          type: string
+          description: Park Enterprise ID.  This can be referenced via Facility APIs for additional facility metadata
+          example: "80007944"
+        experienceName:
+          type: string
+          description: "Offical name of the experience: Park Entered"
+          example: Magic Kingdom
+        experienceEnterpriseType:
+          type: string
+          description: Experience Enterprise Type, aka D-Scribe Content Type, which determines if the experience is a Attraction, Entertainment, Park, etc
+          example: Theme Park
+        #        locationDetail: --Gate Click ExperienceID is at Park Level
+        #          "$ref": "#/components/schemas/locationDetails"
+        experienceCategory:
+          allOf:
+            - "$ref": "#/components/schemas/experienceCategory"
+            - type: string
+              example: "Gate Click"
+        status:
+          "$ref": "#/components/schemas/experienceStatus"
+        businessDate:
+          type: string
+          format: date
+          description: Date of the Park Entry guest is entitled for
+        experienceStart:
+          type: string
+          format: date-time
+          description: UTC start date/Time when guest enters the corresponding Park
+        experienceEnd:
+          type: string
+          format: date-time
+          description: Currently optional, future enhancement may include UTC end date/Time of the Park Reservation, corresponding to Park Close hours
+      required:
+        - transactionId
+        - experienceId
+        - experienceName
+        - experienceEnterpriseType
+        - experienceCategory
+        - status
+        - businessDate
+        - experienceStart
+    OwnershipTicketVariant:
+      type: object
+      properties:
+        productCategory:
+          "$ref": "#/components/schemas/productCategory"
+        transactionItemId:
+          type: string
+          description: Unique ticket identifier to each ticket purchased by a guest.  Also known as TCOD (WDW) or ticket Visual ID (DLR)
+          example: 11100008888899999
+        transactionDetails:
+          type: object
+          properties:
+            validityStartDate:
+              type: string
+              description: ticket validity start date
+              example: 2022-10-28
+            validityEndDate:
+              type: string
+              description: ticket validity end date
+              example: 2022-10-31
+            claimTime:
+              type: string
+              description: Date/Time of linked ticket or time of online purchase for explicitly identified guest
+              example: 2022-10-10T17:15:12Z
+            paidValue:
+              type: number
+              description: value effectively paid for the ticket
+              example: 444.26
+            ticketStatus:
+              type: string
+              description: ticket status from source, provides insight to why ticket is inactive "Upgraded / Downgraded"
+              example: Blocked
+            previousTicketId:
+              type: string
+              description: Previous Ticket ID for lookup if current ticket is a renewal/upgrade/downgrade
+              example: 25100004024141221
+      required:
+        - transactionItemId
+        - productId
+        - productCategory
+        - status
+        - transactionDetails
+    LightningLane:
+      allOf:
+        - type: object
+          properties:
+            guestIdentifiers:
+              $ref: "#/components/schemas/guestIdentifiers"
+        - $ref: "#/components/schemas/LightningLaneVariant"
+        - $ref: "#/components/schemas/ExperienceCommon"
+        - type: object
+          properties:
+            reservationDetails:
+              type: object
+              properties:
+                experienceType:
+                  $ref: "#/components/schemas/lightningLaneType"
+                multiRedemptionEntitlement:
+                  type: boolean
+                  example: false
+                  description: indicate if this experience is part of special Lightning Lane pass that allows multiple uses
+                multiRedemptionDetails:
+                  type: object
+                  properties:
+                    currentUsageNumber:
+                      type: integer
+                      format: int32
+                      description: current usage number in the multi-redemption entitlement. This updates as completions flow through
+                    totalRedemptionsAllowed:
+                      type: integer
+                      format: int32
+                      description: total redeems allowed in this multi-redemption entitlement
+      required:
+        - guestIdentifier
+        - experienceType
+        - multiRedemptionEntitlement
+    GateClick:
+      allOf:
+        - type: object
+          properties:
+            guestIdentifiers:
+              $ref: "#/components/schemas/guestIdentifiers"
+        - $ref: "#/components/schemas/GateClickVariant"
+        - $ref: "#/components/schemas/ExperienceCommon"
+        - type: object
+          properties:
+            usageDetails:
+              type: object
+              properties:
+                ticketId:
+                  type: string
+                  example: 25100009999999999
+                  description: Ticket ID associated to Gate Click. Also known as TCOD / Ticket Visual ID
+                usageType:
+                  type: string
+                  description: specifies the type of entry - Entry is the initial park entry, crossover is from Park Hop
+                  enum:
+                    - Entry
+                    - Crossover
+                    - Re-Entry
+                totalUsageDays:
+                  type: number
+                  example: 4
+                  description: Total usage days allowed
+                remainingUsageDays:
+                  type: number
+                  example: 2
+                  description: Remaining usage days
+                validateStatus:
+                  type: string
+                  example: Approved
+                  description: Gate entry validation status description
+                validateStatusCode:
+                  type: string
+                  example: 1
+                  description: Gate entry validation status code
+        - type: object
+          properties:
+            productDetails:
+              $ref: "#/components/schemas/productDetails"
+      required:
+        - swid
+        - transactionId
+        - experienceCategory
+        - experienceId
+        - created
+        - lastModified
+        - experienceStart
+        - experienceEnd
+        - experienceTimezoneOffSet
+    Ticket:
+      allOf:
+        - type: object
+          properties:
+            guestIdentifiers:
+              "$ref": "#/components/schemas/guestIdentifiers"
+        - "$ref": "#/components/schemas/OwnershipCommon"
+        - "$ref": "#/components/schemas/OwnershipTicketVariant"
+        - type: object
+          properties:
+            productDetails:
+              "$ref": "#/components/schemas/productDetails"
+        - type: object
+          properties:
+            eventTime:
+              "$ref": "#/components/schemas/eventTime"
+            status: 
+              "$ref": "#/components/schemas/ownershipStatus"
+
+  securitySchemes:
+    saslScram:
+      type: scramSha256
+      description: Provide your username and password for SASL/SCRAM authentication
+  messageTraits:
+    commonHeaders:
+      headers:
+        type: object
+        properties:
+          Accept-Language:
+            type: string
+            enum:
+              - en-US
+          message-id:
+            type: string
+            format: uuid
+          conversation-id:
+            type: string
+            format: uuid
+          message-timestamp:
+            type: string
+            format: date-time
+  #operationTraits:
+  #  kafka:
+  #    bindings:
+  #      kafka:
+  #        clientId: guest360

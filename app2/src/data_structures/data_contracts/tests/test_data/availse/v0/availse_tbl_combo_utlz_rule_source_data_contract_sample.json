@@ -1,0 +1,2203 @@
+[
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 354261,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "C9EC4031-035A-51C6-E043-9906F4D151C6",
+            "UPDT_ADT_VL": "CHAUK004",
+            "UPDT_DTS": "",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-15T18:13:53.519080Z",
+            "transaction-id": 27883028687479
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 16027513,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "013DFCA1-F15D-83C1-E050-0699BABD7B71",
+            "UPDT_ADT_VL": "MURPP010",
+            "UPDT_DTS": "2021-08-02T14:23:03.256000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.593692Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 354303,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "07316A45-835E-3532-E053-C0BC06990910",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2014-11-06T08:10:06Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.649679Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 17920390,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "07316A45-8367-3532-E053-C0BC06990910",
+            "UPDT_ADT_VL": "hessc005",
+            "UPDT_DTS": "2016-11-22T09:41:31.137000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.656595Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 354450,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "07316A45-8370-3532-E053-C0BC06990910",
+            "UPDT_ADT_VL": "MURPP010",
+            "UPDT_DTS": "2021-04-20T17:38:11.238000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.666845Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 15511956,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "0D3E697E-246E-2BB8-E053-BABD069925C0",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2015-01-22T18:41:37Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.726372Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 19586520,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "15f157ff-d62c-493c-a0a4-4452c689baba",
+            "UPDT_ADT_VL": "LOVEC005",
+            "UPDT_DTS": "2020-08-19T14:12:46.716000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.792406Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 1284,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "188B05FD-9A5D-41C5-E053-4ABD06998DCF",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2015-06-15T14:23:33Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.830216Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18127110,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "18DE23C5-AAFA-0EE2-E053-BABD06997FAD",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2015-06-19T16:52:34Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.841694Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 80008040,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "1C770880-CB95-5A77-E053-4ABD06992537",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2015-08-04T11:55:30Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.900449Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18127610,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "1C8D9C40-327F-02DD-E053-BABD06992DCA",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2015-08-05T14:28:46Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.911348Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18185631,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "2B8DE536-70D5-05C9-E053-BABD06997D8A",
+            "UPDT_ADT_VL": "Ferra015",
+            "UPDT_DTS": "2016-02-22T14:26:36.394000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.986240Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 368880,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "2BCA9AC1-E556-2194-E053-BABD069901FC",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2016-02-15T12:32:53Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.004509Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90002524,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "2D0C95D3-B978-7C09-E053-C8BC06999ED4",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2016-03-02T12:41:05Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.016650Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T14:00:00Z",
+            "ENTRPRS_FAC_ID": 19631278,
+            "MIN_UTLZ_PCT": 0.75,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T12:00:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "31eba798-9d0d-f046-73e3-9847df7407e6",
+            "UPDT_ADT_VL": "SCHOT026",
+            "UPDT_DTS": "2022-04-29T11:06:48.929000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.046538Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18188945,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "320941C0-632F-54F3-E053-C0BC0699995B",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2016-05-04T23:48:57Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.053616Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T21:00:00Z",
+            "ENTRPRS_FAC_ID": 90001336,
+            "MIN_UTLZ_PCT": 0.75,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T17:30:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "32cf8706-8add-c200-3b64-88378688ea87",
+            "UPDT_ADT_VL": "GALBB002",
+            "UPDT_DTS": "2023-07-21T11:41:04.938000Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.062453Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18436515,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "35D94D1F-590C-7E29-E053-4ABD06994B12",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2016-06-22T12:16:50Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.096607Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18398612,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "3655E51F-C3EA-747E-E053-BABD0699025C",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2016-06-28T16:55:38Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.104360Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T20:00:00Z",
+            "ENTRPRS_FAC_ID": 90002287,
+            "MIN_UTLZ_PCT": 0.75,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T17:00:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "3921396a-9d35-a412-5c10-1b71a9d12522",
+            "UPDT_ADT_VL": "SNYDA035",
+            "UPDT_DTS": "2022-05-03T11:28:33.348000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.157129Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 411967554,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "3e602a12-daa7-04fc-b1e3-e70169758a14",
+            "UPDT_ADT_VL": "ZHENW031",
+            "UPDT_DTS": "2023-07-25T19:36:02.513000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.208182Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18475350,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "465E4197-D8D6-04D9-E053-C0BC0699E787",
+            "UPDT_ADT_VL": "FERRA015",
+            "UPDT_DTS": "2020-06-19T14:31:37.624000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.312590Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18708626,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "4E8B6786-D27B-12A7-E053-376A090A59BE",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2017-05-02T18:50:38Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.363726Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 19433706,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "506efbca-ee4d-4c33-9d92-bd513d55d195",
+            "UPDT_ADT_VL": "Anita.D.Williams",
+            "UPDT_DTS": "2020-02-07T20:51:19.368000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.386184Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T17:00:00Z",
+            "ENTRPRS_FAC_ID": 90001369,
+            "MIN_UTLZ_PCT": 0.75,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T17:00:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "5297459f-61dc-c4a6-13fb-356b568e71f8",
+            "UPDT_ADT_VL": "GALBB002",
+            "UPDT_DTS": "2023-05-17T09:51:05.130000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.428220Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 360755,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "5399587C-8D97-095B-E053-356A090A875D",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2017-07-05T17:38:12Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.454626Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 328633,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "539A732E-A6B4-77D7-E053-356A090A1CE2",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2017-07-05T18:23:31Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.464349Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 19267226,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "5407f86a-6275-440e-a805-1433cb241a6d",
+            "UPDT_ADT_VL": "BRETT.HICKS",
+            "UPDT_DTS": "2020-08-04T07:38:10.464000Z",
+            "VERSION_SN": 8
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.471773Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18807537,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "5B2FB627-85DA-5341-E053-396A090AF95D",
+            "UPDT_ADT_VL": "ferra015",
+            "UPDT_DTS": "2018-02-06T12:13:52.725000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.499436Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18733814,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "5B846005-E33B-83D7-E053-396A090ACF3D",
+            "UPDT_ADT_VL": "Ferra015",
+            "UPDT_DTS": "2017-11-21T10:59:13.035000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.530642Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90001744,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "5d4043fe-94a3-441f-abee-07ee43671ba2",
+            "UPDT_ADT_VL": "Ferra015",
+            "UPDT_DTS": "2015-01-08T11:18:17.590000Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.560516Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18850227,
+            "MIN_UTLZ_PCT": 0.252,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "5E2AED2B-AE0A-0C44-E053-376A090A935E",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2017-11-17T14:27:52Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.578694Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T20:00:00Z",
+            "ENTRPRS_FAC_ID": 90002448,
+            "MIN_UTLZ_PCT": 0.75,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T18:15:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "64cfe088-044c-50b1-5e88-aaeb302803e2",
+            "UPDT_ADT_VL": "SMITC773",
+            "UPDT_DTS": "2022-11-01T15:51:24.392000Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.633024Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T19:30:00Z",
+            "ENTRPRS_FAC_ID": 90002336,
+            "MIN_UTLZ_PCT": 1,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T19:30:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "02ff2722-33e8-1f77-f3a8-23cc05f4ee82",
+            "UPDT_ADT_VL": "SMITC773",
+            "UPDT_DTS": "2022-08-29T09:30:15.069000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.622970Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 17888917,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "0437D548-42A8-8F98-E050-0699C0BC4B59",
+            "UPDT_ADT_VL": "hessc005",
+            "UPDT_DTS": "2014-11-21T09:01:36.566000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.631174Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T15:00:00Z",
+            "ENTRPRS_FAC_ID": 293704,
+            "MIN_UTLZ_PCT": 0.75,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T12:00:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "6937bd87-ce57-c1a9-796d-e96567c57895",
+            "UPDT_ADT_VL": "SNYDA035",
+            "UPDT_DTS": "2022-05-03T11:26:44.340000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.679573Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 248573,
+            "MIN_UTLZ_PCT": 0.252,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "6BD2A1AB-178B-5C96-E053-396A090A1F7D",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2018-05-09T23:31:43Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.700067Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 19013078,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "6C561DA3-8D6B-71BE-E053-396A090AEE69",
+            "UPDT_ADT_VL": "MURPP010",
+            "UPDT_DTS": "2021-04-20T17:37:44.784000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.710576Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 19069003,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "7316A5F1-EF08-6980-E053-356A090ACA52",
+            "UPDT_ADT_VL": "FERRA015",
+            "UPDT_DTS": "2020-06-11T12:54:54.276000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.773792Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 15527906,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "7b7f0e09-7ebd-4fa2-8830-e132375ce13d",
+            "UPDT_ADT_VL": "MURPP010",
+            "UPDT_DTS": "2021-05-10T15:03:27.521000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.841472Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T20:00:00Z",
+            "ENTRPRS_FAC_ID": 90002084,
+            "MIN_UTLZ_PCT": 0.75,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T17:00:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "7c7cbee3-062b-c75e-5232-41c6df1916db",
+            "UPDT_ADT_VL": "SNYDA035",
+            "UPDT_DTS": "2022-05-03T10:58:07.805000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.879455Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T12:00:00Z",
+            "ENTRPRS_FAC_ID": 90001369,
+            "MIN_UTLZ_PCT": 0.75,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T11:35:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "7d6a571f-8f2a-0a97-56e0-9455cef01f65",
+            "UPDT_ADT_VL": "GALBB002",
+            "UPDT_DTS": "2023-05-17T09:51:04.988000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.910086Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 19309016,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "839cee56-5cfa-4135-9974-2c01e46ee5dc",
+            "UPDT_ADT_VL": "SNYDA035",
+            "UPDT_DTS": "2020-03-17T15:49:06.764000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.950172Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 247904,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "864BCCBC-5004-112A-E043-9906F4D1112A",
+            "UPDT_ADT_VL": "FERRA015",
+            "UPDT_DTS": "2020-07-02T14:41:12.685000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.038040Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 364242,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "864BCCBC-500A-112A-E043-9906F4D1112A",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2010-05-11T01:28:48Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.098662Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90001216,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "864BCCBC-500D-112A-E043-9906F4D1112A",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2010-05-11T01:28:48Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.125148Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T20:00:00Z",
+            "ENTRPRS_FAC_ID": 90001248,
+            "MIN_UTLZ_PCT": 0.75,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T16:00:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "0fad6f3a-7cde-0415-00b3-ce62a024fdb5",
+            "UPDT_ADT_VL": "SCARC029",
+            "UPDT_DTS": "2022-08-04T12:08:54.952000Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.745167Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18141964,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "1B0E0963-2AA9-5E9F-E053-C8BC0699D593",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2015-07-17T12:51:33Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.861828Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18141955,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "1B0E0963-2AED-5E9F-E053-C8BC0699D593",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2015-07-17T13:30:45Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.873151Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90001875,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "1BD858BB-043C-0E32-E053-C8BC0699996F",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2015-07-27T14:13:29Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.882302Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 80008949,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "1C770880-CB79-5A77-E053-4ABD06992537",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2015-08-04T11:32:42Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.892241Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 16052157,
+            "MIN_UTLZ_PCT": 0,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "1cc4ae70-8e09-48f9-97cd-bbcce01c599d",
+            "UPDT_ADT_VL": "AvailSE137-6",
+            "UPDT_DTS": "2011-06-16T12:15:16.153000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.920699Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 80008130,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "2055F3EA-E0D3-6A33-E053-4ABD069967B1",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2015-09-22T17:46:03Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.930824Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 17936194,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "2233E057-F021-7525-E053-C0BC0699A2A1",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2015-10-16T11:56:50Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.939895Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T20:00:00Z",
+            "ENTRPRS_FAC_ID": 90002006,
+            "MIN_UTLZ_PCT": 0.75,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T18:00:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "2994db3d-7b1a-eede-8584-755108bd10fa",
+            "UPDT_ADT_VL": "SCARC029",
+            "UPDT_DTS": "2022-04-29T11:39:31.796000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.958933Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18361811,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "2BA3354C-7B13-5820-E053-C8BC0699D3E6",
+            "UPDT_ADT_VL": "hessc005",
+            "UPDT_DTS": "2017-01-03T12:37:15.723000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.995892Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18398608,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "37099717-3D33-4452-E053-C8BC06994F82",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2016-07-07T15:18:37Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.112848Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90001336,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "864BCCBC-5012-112A-E043-9906F4D1112A",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2010-05-11T01:28:48Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.177015Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90001347,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "864BCCBC-5013-112A-E043-9906F4D1112A",
+            "UPDT_ADT_VL": "AvailSE102-6",
+            "UPDT_DTS": "2011-11-29T09:42:46.803000Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.185744Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90001416,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "864BCCBC-5018-112A-E043-9906F4D1112A",
+            "UPDT_ADT_VL": "FERRA015",
+            "UPDT_DTS": "2020-06-30T05:16:59.612000Z",
+            "VERSION_SN": 4
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.246662Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90001575,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "864BCCBC-501B-112A-E043-9906F4D1112A",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2010-05-11T01:28:48Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.275641Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90001798,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "864BCCBC-5022-112A-E043-9906F4D1112A",
+            "UPDT_ADT_VL": "AvailSE137-6",
+            "UPDT_DTS": "2011-12-09T16:19:55.079000Z",
+            "VERSION_SN": 3
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.329377Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90001819,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "864BCCBC-5023-112A-E043-9906F4D1112A",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2010-05-11T01:28:48Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.343288Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90002032,
+            "MIN_UTLZ_PCT": 0.75,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "864BCCBC-502C-112A-E043-9906F4D1112A",
+            "UPDT_ADT_VL": "SCARC029",
+            "UPDT_DTS": "2022-06-15T12:55:41.219000Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.426759Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90002041,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "864BCCBC-502D-112A-E043-9906F4D1112A",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2010-05-11T01:28:48Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.435307Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90002122,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "864BCCBC-5036-112A-E043-9906F4D1112A",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2010-05-11T01:28:48Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.566423Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90002126,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "864BCCBC-5038-112A-E043-9906F4D1112A",
+            "UPDT_ADT_VL": "AvailSE138-3",
+            "UPDT_DTS": "2012-01-25T11:18:13.856000Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.583892Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90002241,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "864BCCBC-503C-112A-E043-9906F4D1112A",
+            "UPDT_ADT_VL": "AvailSE0508-4",
+            "UPDT_DTS": "2013-01-11T12:05:52.662000Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.624164Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90002402,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "864BCCBC-5042-112A-E043-9906F4D1112A",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2010-05-11T01:28:48Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.682332Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90002412,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "864BCCBC-5044-112A-E043-9906F4D1112A",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2010-05-11T01:28:48Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.701644Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 17852569,
+            "MIN_UTLZ_PCT": 1,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "01BE8360-8F5D-879A-E050-0699C0BC2C62",
+            "UPDT_ADT_VL": "HESSC005",
+            "UPDT_DTS": "2018-12-18T05:41:51.779000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.605204Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18516055,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "094628a2-0bc7-0585-4e96-3e4524e80095",
+            "UPDT_ADT_VL": "CHAUK004",
+            "UPDT_DTS": "2022-04-15T17:24:31.645000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.675204Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 17856815,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "0951A280-692B-7146-E053-BABD06996D31",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2014-12-03T20:28:40Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.696621Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 16660079,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "0f1cb416-8b93-4686-8e1d-bc238706065f",
+            "UPDT_ADT_VL": "FERRA015",
+            "UPDT_DTS": "2020-06-10T11:34:04.283000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.735368Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T21:00:00Z",
+            "ENTRPRS_FAC_ID": 90001369,
+            "MIN_UTLZ_PCT": 0.75,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T17:10:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "10bd210c-a499-b675-695a-dd4160d6820c",
+            "UPDT_ADT_VL": "GALBB002",
+            "UPDT_DTS": "2023-07-20T10:19:24.749000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.754266Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18082852,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "12A595BF-9662-430D-E053-C8BC0699B80D",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2015-04-01T12:52:59Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.764056Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T21:00:00Z",
+            "ENTRPRS_FAC_ID": 90001320,
+            "MIN_UTLZ_PCT": 0.75,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T18:00:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "13e92296-a3b1-2311-11e1-e2004a948944",
+            "UPDT_ADT_VL": "SNYDA035",
+            "UPDT_DTS": "2022-05-03T11:25:22.806000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.780563Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T11:30:00Z",
+            "ENTRPRS_FAC_ID": 90002006,
+            "MIN_UTLZ_PCT": 0.75,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T09:00:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "16184f05-0c33-1c83-a549-8ac577967a84",
+            "UPDT_ADT_VL": "GALBB002",
+            "UPDT_DTS": "2023-02-15T16:31:54.386000Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.803021Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18130223,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "1838E61A-8504-4F4A-E053-C8BC06992C85",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2015-06-11T11:44:06Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.820736Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 354225,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "1947ee90-408b-4d83-a12e-e2de6c78c4a8",
+            "UPDT_ADT_VL": "FERRA015",
+            "UPDT_DTS": "2018-12-29T22:36:56.539000Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.853308Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18358992,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "2A432F4D-E2FF-2395-E053-4ABD0699E011",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2016-01-26T15:03:53Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.968996Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18087702,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "2B7E0323-2989-1072-E053-BABD0699FE2F",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2016-02-11T17:10:13Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:27.976736Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18427314,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "37EAAE3F-17A4-7908-E053-BABD0699C679",
+            "UPDT_ADT_VL": "Ferra015",
+            "UPDT_DTS": "2016-08-23T17:31:53.807000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.137828Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T20:00:00Z",
+            "ENTRPRS_FAC_ID": 90002237,
+            "MIN_UTLZ_PCT": 0.75,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T12:00:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "3d516263-5043-d2a1-29c8-dcdf5135b51f",
+            "UPDT_ADT_VL": "SNYDA035",
+            "UPDT_DTS": "2022-05-03T10:53:12.788000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.198589Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18548060,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "41CCD11A-1CF1-38B2-E053-C8BC06995DB8",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2016-11-21T14:25:26Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.231347Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18516052,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "41CCD11A-1CFA-38B2-E053-C8BC06995DB8",
+            "UPDT_ADT_VL": "hessc005",
+            "UPDT_DTS": "2016-11-22T09:37:13.284000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.240270Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18516049,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "456AF681-BFC1-0873-E053-BABD0699940A",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2017-01-06T15:21:33Z",
+            "VERSION_SN": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.279692Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90001244,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "46b98d3d-804a-43f0-aac4-00965c5b9f05",
+            "UPDT_ADT_VL": "RICHT008",
+            "UPDT_DTS": "2019-04-03T08:21:39.295000Z",
+            "VERSION_SN": 3
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.321234Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T12:00:00Z",
+            "ENTRPRS_FAC_ID": 19233597,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T08:00:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "49d8209c-d528-3ac8-fcf6-61f7027f628d",
+            "UPDT_ADT_VL": "GALBB002",
+            "UPDT_DTS": "2023-07-25T15:50:56.992000Z",
+            "VERSION_SN": 11
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.343172Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 354375,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "505d36f1-0eff-4b44-b9c9-a82790b31658",
+            "UPDT_ADT_VL": "Anita.D.Williams",
+            "UPDT_DTS": "2019-10-29T10:00:26.728000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.374940Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T09:10:00Z",
+            "ENTRPRS_FAC_ID": 90001369,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T09:10:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "514a71ed-e3db-0197-14c2-7bb9fb9f2def",
+            "UPDT_ADT_VL": "GALBB002",
+            "UPDT_DTS": "2023-05-17T09:49:34.017000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.407869Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18994451,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "67FE83F3-1DBD-4FA6-E053-356A090A29C9",
+            "UPDT_ADT_VL": "Ferra015",
+            "UPDT_DTS": "2018-03-28T09:15:11.795000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.659474Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 18667615,
+            "MIN_UTLZ_PCT": 0.25,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "67FF68F7-E9CF-1643-E053-396A090AE586",
+            "UPDT_ADT_VL": "BRETT.HICKS",
+            "UPDT_DTS": "2020-06-04T14:17:15.797000Z",
+            "VERSION_SN": 3
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:28.667143Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90002660,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "864BCCBC-5049-112A-E043-9906F4D1112A",
+            "UPDT_ADT_VL": "AvailSE137-1",
+            "UPDT_DTS": "2011-06-09T12:55:06.671000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.740648Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 90002670,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "864BCCBC-504B-112A-E043-9906F4D1112A",
+            "UPDT_ADT_VL": "Default",
+            "UPDT_DTS": "2010-05-11T01:28:48Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.756145Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 19213311,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "9667c09a-028f-4bac-80a0-3e9c1e1add69",
+            "UPDT_ADT_VL": "Christine.Hess",
+            "UPDT_DTS": "2019-01-08T08:00:07.832000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.880656Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 354189,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "9d057924-9e98-4e51-91e1-dd8d98999a58",
+            "UPDT_ADT_VL": "FERRA015",
+            "UPDT_DTS": "2021-04-20T17:10:39.680000Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.918750Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": null,
+            "ENTRPRS_FAC_ID": 19633111,
+            "MIN_UTLZ_PCT": 0.5,
+            "STRT_DT": null,
+            "STRT_TM": null,
+            "TBL_COMBO_UTLZ_RULE_ID": "a095b52a-e987-926c-0f99-d4e230af8e34",
+            "UPDT_ADT_VL": "FERRA015",
+            "UPDT_DTS": "2021-09-13T14:48:23.273000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.929396Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T20:00:00Z",
+            "ENTRPRS_FAC_ID": 90002114,
+            "MIN_UTLZ_PCT": 0.75,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T11:00:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "a5b53a79-b63e-1d63-4a90-6b3711a33b7e",
+            "UPDT_ADT_VL": "SCARC029",
+            "UPDT_DTS": "2022-04-29T11:33:31.123000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.980322Z"
+        }
+    },
+    {
+        "data": {
+            "END_DT": null,
+            "END_TM": "1970-01-01T20:00:00Z",
+            "ENTRPRS_FAC_ID": 90002678,
+            "MIN_UTLZ_PCT": 0.75,
+            "STRT_DT": null,
+            "STRT_TM": "1970-01-01T16:00:00Z",
+            "TBL_COMBO_UTLZ_RULE_ID": "a65f2fde-9bec-466e-1d92-7b314c2300af",
+            "UPDT_ADT_VL": "SCHOT026",
+            "UPDT_DTS": "2022-04-29T10:56:16.626000Z",
+            "VERSION_SN": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "tbl_combo_utlz_rule",
+            "timestamp": "2023-08-23T19:22:29.989584Z"
+        }
+    }
+]

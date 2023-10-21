@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__bill_codes_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__bill_codes_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: bill_id
+        description: ""
+
+      - name: bill_code_name
+        description: ""
+
+      - name: bill_code_description
+        description: ""
+
+      - name: bill_code_start_date
+        description: ""
+
+      - name: bill_code_end_date
+        description: ""
+
+      - name: revenue_class_id
+        description: ""
+
+      - name: bill_applicable_start_date
+        description: ""
+
+      - name: bill_applicable_end_date
+        description: ""
+
+      - name: package_id
+        description: ""
+
+      - name: added_by_packager_indicator
+        description: ""

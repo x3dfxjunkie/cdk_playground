@@ -1,0 +1,21 @@
+version: 2
+
+macros:
+  - name: macro_create_versions
+    description: Create versioned data with start and end timestamps, supporting partitioning by multiple columns.
+    docs:
+      show: true
+    arguments:
+      - name: cleansed_table
+        type: string
+        description: The cleansed table containing the incremental recordset which need to be versioned.
+      - name: timestamp_column
+        type: string
+        description: The name of the timestamp column used for versioning.
+      - name: partition_columns
+        type: list (array of strings)
+        description: A list of primary key(s) which will be used for partitioning.
+#    returns:
+#      - name: <field_name>
+#        type: <string>
+#        description: <description of the field>

@@ -1,0 +1,155 @@
+---
+openapi: "3.0.3"
+info:
+  title: Swagger Guest360 - OpenAPI 3.0
+  description: |-
+    This is the Guest360 API repository based on the OpenAPI 3.0 specification.  Currently work in progress, information listed subject to change.  Please contact the Guest Profile Solutions team regarding questions and additional information
+    Some useful links:
+      - [The guest360  repository](https://github.disney.com/data-products-and-platforms/guest360)
+      - [The source API definition for the guest360 ](https://github.disney.com/data-products-and-platforms/guest360)
+    Versioning:
+    - 0.0.25: ProductDetails and GateClick enhancement
+    - 0.0.24: Update to add fields to LL 
+    - 0.0.23: Merchandise (aka ShopDisney) revision - Name Changed
+    - 0.0.22: validity date query parameter for Product Ownership
+    - 0.0.21: Add Destination as global attribute - First PR for Base Ownership patterns
+    - 0.0.20: Product/Ownership patterns
+    - 0.0.19: update experienceEnd description for Park Experiences
+    - 0.0.18: Rest of Experience Paradigm minus Ride Complete + confidenceLabel update
+    - 0.0.17: First PR with LL
+  contact:
+    email: renan.pereira@disney.com
+  version: 0.0.25
+externalDocs:
+  description: Find out more about guest360
+  url: http://swagger.io
+servers:
+  - url: https://localhost
+tags:
+  - name: Guest360 API
+    description: Get list of current experiences, product ownership, or profile information for specified Guests
+x-amazon-apigateway-request-validators:
+  all:
+    validateRequestBody: true
+    validateRequestParameters: true
+  params-only:
+    validateRequestBody: false
+    validateRequestParameters: true
+x-amazon-apigateway-request-validator: params-only
+paths:
+  "/api/v1/experiences":
+    $ref: "./paths/experiences.yaml#/experiences"
+  # "/api/v1/ownership":
+  #   $ref: "./paths/ownership.yaml#/ownership"
+  # "/api/v1/profile":
+  #   $ref: "./paths/profile.yaml#/profile"
+  # "/api/v1/affiliation":
+  #   $ref: "./paths/affiliation.yaml#/affiliation"
+components:
+  securitySchemes:
+    authz-authorizer:
+      type: apiKey
+      name: Authorization
+      in: header
+      x-amazon-apigateway-authtype: custom
+      x-amazon-apigateway-authorizer:
+        type: request
+        authorizerCredentials: ${ApiGatewayLambdaRole.Arn}
+        identitySource: "method.request.header.Authorization"
+        authorizerUri: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${APILambda.Arn}/invocations
+        authorizerResultTtlInSeconds: 60
+  schemas:
+    swid:
+      $ref: "./global/swid.yaml#/swid"
+    created:
+      $ref: "./global/created.yaml#/created"
+    lastModified:
+      $ref: "./global/lastModified.yaml#/lastModified"
+    guestIdentifiers:
+      $ref: "./global/guestIdentifiers.yaml#/guestIdentifiers"
+    experienceStatus:
+      $ref: "./global/experienceStatus.yaml#/experienceStatus"
+    ownershipStatus:
+      $ref: "./global/ownershipStatus.yaml#/ownershipStatus"
+    experienceExtendedStatus:
+      $ref: "./global/experienceExtendedStatus.yaml#/experienceExtendedStatus"
+    statusConfidenceLabel:
+      $ref: "./global/statusConfidenceLabel.yaml#/statusConfidenceLabel"
+    experienceEnterpriseType:
+      $ref: "./global/experienceEnterpriseType.yaml#/experienceEnterpriseType"
+    locationDetails:
+      $ref: "./global/locationDetails.yaml#/locationDetails"
+    lightningLaneType:
+      $ref: "./global/lightningLaneType.yaml#/lightningLaneType"
+    idTypes:
+      $ref: "./global/idTypes.yaml#/idTypes"
+    experienceCategoriesParam:
+      $ref: "./global/experienceCategoriesParam.yaml#/experienceCategoriesParam"
+    # Event to be designed
+    #        - ride-complete
+    productCategoriesParam:
+      $ref: "./global/productCategoriesParam.yaml#/productCategoriesParam"
+    # Event to be designed
+    #       - photopass
+    experienceCategory:
+      $ref: "./global/experienceCategory.yaml#/experienceCategory"
+    productCategory:
+      $ref: "./global/productCategory.yaml#/productCategory"
+    destination:
+      $ref: "./global/destination.yaml#/destination"
+    ticketProductDetails:
+      $ref: "./global/ticketProductDetails.yaml#/ticketProductDetails"
+    guestPartyMix:
+      $ref: "./global/guestPartyMix.yaml#/guestPartyMix"
+    links:
+      $ref: "./global/links.yaml#/links"
+    nextPage:
+      $ref: "./global/nextPage.yaml#/nextPage"
+    #Experience Paradigm - Common
+    experienceCommon:
+      $ref: "./experience/experienceCommon.yaml#/experienceCommon"
+    #Product Ownership Paradigm - Common
+    ownershipCommon:
+      $ref: "./ownership/ownershipCommon.yaml#/ownershipCommon"
+    #Product Ownership Paradigm - Common attributes with deviations in meaning
+    # Tracked under G360-3644
+    # OwnershipMerchdiseCommon was renamed to ownershipMerchandiseCommon
+    # ownershipMerchandiseCommon:
+    #   $ref: "./ownership/ownershipMerchandiseCommon.yaml#/ownershipMerchandiseCommon"
+    #Experience Paradigm - Experiences and their respective custom attributes
+    experienceLightningLane:
+      $ref: "./experience/experienceLightningLane.yaml#/experienceLightningLane"
+    experienceGateClick:
+      $ref: "./experience/experienceGateClick.yaml#/experienceGateClick"
+    experienceResortReservation:
+      $ref: "./experience/experienceResortReservation.yaml#/experienceResortReservation"
+    experienceParkReservation:
+      $ref: "./experience/experienceParkReservation.yaml#/experienceParkReservation"
+    experienceBookableExperienceReservation:
+      $ref: "./experience/experienceBookableExperienceReservation.yaml#/experienceBookableExperienceReservation"
+    experienceDiningReservation:
+      $ref: "./experience/experienceDiningReservation.yaml#/experienceDiningReservation"
+    #Product Ownership Paradigm - products and their respective custom attributes
+    ownershipTicket:
+      $ref: "./ownership/ownershipTicket.yaml#/ownershipTicket"
+    # Tracked under G360-3644
+    # ownershipMerchandise:
+    #   $ref: "./ownership/ownershipMerchandise.yaml#/ownershipMerchandise"
+    ownershipMemoryMaker:
+      $ref: "./ownership/ownershipMemoryMaker.yaml#/ownershipMemoryMaker"
+    # Tracked under G360-3626
+    # ownershipPlayApp:
+    #   $ref: "./ownership/ownershipPlayApp.yaml#/ownershipPlayApp"
+    ownershipMagicBand:
+      $ref: "./ownership/ownershipMagicBand.yaml#/ownershipMagicBand"
+    #Experience Paradigm - Consolidated output
+    experienceParadigm:
+      $ref: "./experience/experienceParadigm.yaml#/experienceParadigm"
+    #Product Ownership Paradigm - Consolidated output
+    ownershipParadigm:
+      $ref: "./ownership/ownershipParadigm.yaml#/ownershipParadigm"
+    #Profile Paradigm
+    profile:
+      $ref: "./profile/profile.yaml#/profile"
+    affiliation:
+      $ref: "./profile/affiliation.yaml#/affiliation"

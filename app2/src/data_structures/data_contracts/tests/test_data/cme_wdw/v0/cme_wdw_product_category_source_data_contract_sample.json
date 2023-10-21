@@ -1,0 +1,190 @@
+[
+    {
+        "data": {
+            "id": "AP",
+            "name": "Annual Pass",
+            "last_updated": "2021-05-06T17:10:11Z",
+            "created_on": "2021-05-06T17:10:11Z",
+            "created_usr": "MOUSM001"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:16:21.076678Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "product_category"
+        }
+    },
+    {
+        "data": {
+            "id": "AP1",
+            "name": "DELETE-AP1",
+            "last_updated": "2022-01-11T14:39:21Z",
+            "created_on": "2021-05-06T17:12:51Z",
+            "created_usr": "MOUSM001"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:16:21.086835Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "product_category"
+        }
+    },
+    {
+        "data": {
+            "id": "APBONUS",
+            "name": "AP Bonus",
+            "last_updated": "2023-02-23T13:56:07Z",
+            "created_usr": "MOUSM001"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:16:21.096611Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "product_category"
+        }
+    },
+    {
+        "data": {
+            "id": "BUFFER",
+            "name": "Buffer Inventory",
+            "last_updated": "2022-01-11T10:27:07Z",
+            "created_on": "2022-01-11T10:27:07Z"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:16:21.104805Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "product_category"
+        }
+    },
+    {
+        "data": {
+            "id": "CASTCOMP",
+            "name": "Cast Comp Ticket",
+            "last_updated": "2022-01-11T10:13:35Z",
+            "created_on": "2022-01-11T10:13:35Z",
+            "created_usr": "MOUSM001"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:16:21.114958Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "product_category"
+        }
+    },
+    {
+        "data": {
+            "id": "GROUPS",
+            "name": "Non-Leisure Products",
+            "last_updated": "2022-01-11T09:43:51Z",
+            "created_on": "2022-01-11T09:43:51Z",
+            "created_usr": "MOUSM001"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:16:21.126791Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "product_category"
+        }
+    },
+    {
+        "data": {
+            "id": "MEP",
+            "name": "Cast Main Entrance Pass",
+            "last_updated": "2022-04-11T20:37:42Z",
+            "update_usr": "MOUSM001",
+            "created_on": "2021-11-16T19:07:21Z",
+            "created_usr": "MOUSM001"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:16:21.136765Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "product_category"
+        }
+    },
+    {
+        "data": {
+            "id": "MEPBONUS",
+            "name": "MEP Bonus",
+            "last_updated": "2023-04-17T13:39:50Z",
+            "created_on": "2023-04-17T13:39:50Z",
+            "created_usr": "MOUSM001"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:16:21.146795Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "product_category"
+        }
+    },
+    {
+        "data": {
+            "id": "NONE",
+            "name": "NOINVENTORY",
+            "last_updated": "2021-05-05T18:38:45Z",
+            "created_on": "2021-05-05T15:38:45Z",
+            "created_usr": "MOUSM001"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:16:21.156055Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "product_category"
+        }
+    },
+    {
+        "data": {
+            "id": "RESORT",
+            "name": "Resort Guest Inventory",
+            "last_updated": "2021-07-13T20:51:31Z",
+            "update_usr": "MOUSM001",
+            "created_on": "2021-07-13T16:48:17Z",
+            "created_usr": "MOUSM001"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:16:21.165575Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "product_category"
+        }
+    },
+    {
+        "data": {
+            "id": "TICKET",
+            "name": "Day Tickets",
+            "last_updated": "2022-01-11T14:43:04Z",
+            "update_usr": "MOUSM001",
+            "created_on": "2021-11-16T18:22:23Z",
+            "created_usr": "MOUSM001"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:16:21.175100Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "product_category"
+        }
+    }
+]

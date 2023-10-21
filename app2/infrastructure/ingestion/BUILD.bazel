@@ -1,0 +1,71 @@
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+
+filegroup(
+    name = "ingestion_config_pipelines",
+    srcs = glob(
+        [
+            "config/pipelines/**/*.yaml",
+        ],
+    ),
+    visibility = ["//visibility:public"],
+)
+
+filegroup(
+    name = "ingestion_config_dms_task_manager",
+    srcs = glob(
+        [
+            "config/dms_task_manager/*.yaml",
+        ],
+    ),
+    visibility = ["//visibility:public"],
+)
+
+py_library(
+    name = "infrastructure_ingestion",
+    srcs = glob(["*.py"]),
+    data = [
+        ":ingestion_config_dms_task_manager",
+        ":ingestion_config_pipelines",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        "//app/guest360_constructs",
+        "//app/guest360_constructs/ingestion:ingestion_constructs",
+        "//app/guest360_constructs/load_testing:loadtest_constructs",
+        "//app/infrastructure",
+        "//app/src/reliability:reliability_config_infra",
+        "//app/src/utils/feature_flag",
+    ],
+)
+
+pytest_test(
+    name = "test_pipelines_configs",
+    srcs = glob(
+        [
+            "config/tests/*.py",
+            "config/tests/models/**/*.py",
+        ],
+    ),
+    data = [
+        "config/utils/load_pipelines.py",
+        "config/utils/validation_utils.py",
+        "//app/src/ingestion/event_pipes:event_pipes_utils",
+    ],
+    deps = [
+        ":infrastructure_ingestion",
+        "//app/src/reliability:reliability_yamlhandler",
+    ],
+)
+
+pytest_test(
+    name = "test_infra_ingestion_stacks",
+    srcs = glob(
+        [
+            "tests/*.py",
+        ],
+    ),
+    data = ["//app:environment_infra_feature_flags"],
+    deps = [
+        ":infrastructure_ingestion",
+    ],
+)

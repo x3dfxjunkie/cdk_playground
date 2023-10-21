@@ -1,0 +1,6 @@
+guestIdentifiers:
+  type: object
+  description: Key ring with list of common guest identifiers
+  properties:
+    swid:
+      $ref: "../asyncapi.yaml#/components/schemas/swid"

@@ -1,0 +1,100 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__travel_agency_commission_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__travel_agency_commission_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: travel_agency_commission_id
+        description: ""
+
+      - name: travel_agency_id
+        description: ""
+
+      - name: travel_agency_external_orginization_id
+        description: ""
+
+      - name: iata_id
+        description: ""
+
+      - name: campus_id
+        description: ""
+
+      - name: campus_name
+        description: ""
+
+      - name: sap_vendor_id
+        description: ""
+
+      - name: travel_agency_name
+        description: ""
+
+      - name: commission_status_name
+        description: ""
+
+      - name: facility_id
+        description: ""
+
+      - name: facility_name
+        description: ""
+
+      - name: root_charge_group_id
+        description: ""
+
+      - name: reservation_responsible_party_id
+        description: ""
+
+      - name: charge_group_checkin_date
+        description: ""
+
+      - name: charge_group_checkout_date
+        description: ""
+
+      - name: commission_approval_date
+        description: ""
+
+      - name: commission_ap_interface_id
+        description: ""
+
+      - name: commission_post_datetime
+        description: ""
+
+      - name: travel_agency_pay_commission_indicator
+        description: ""
+
+      - name: travel_agency_active_indicator
+        description: ""
+
+      - name: travel_agency_fm_create_dt
+        description: ""
+
+      - name: global_ticket_commission_indicator
+        description: ""
+
+      - name: travel_agency_commission_create_user_id
+        description: ""
+
+      - name: travel_agency_commission_create_datetime
+        description: ""
+
+      - name: travel_agency_commission_create_date
+        description: ""
+
+      - name: travel_agency_user_id
+        description: ""
+
+      - name: travel_agency_source_update_datetime
+        description: ""
+
+      - name: travel_agency_source_update_date
+        description: ""

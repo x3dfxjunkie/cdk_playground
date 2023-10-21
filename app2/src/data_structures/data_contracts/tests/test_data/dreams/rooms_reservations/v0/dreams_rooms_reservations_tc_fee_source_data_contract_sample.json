@@ -1,0 +1,116 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T15:11:23.810000Z",
+            "CREATE_USR_ID_CD": "AUSIM001",
+                   
+            "JDO_SEQ_NB": 0,
+            "TC_FEE_ID": 128937408,
+            "TC_FEE_OVRD_IN": "N",
+            "TC_FEE_TYP_NM": "Cancel",
+            "TC_ID": 12097616785,
+            "UPDT_DTS": "2023-07-21T15:11:23.810000Z",
+            "UPDT_USR_ID_CD": "AUSIM001"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_fee",
+            "timestamp": "2023-07-21T19:11:27.119841Z",
+            "transaction-id": 19069746581034
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T14:11:56.574000Z",
+            "CREATE_USR_ID_CD": "WDPRO1",
+            "PRGE_DTS":"2023-07-18T06:30:37.488000Z",        
+            "JDO_SEQ_NB": 0,
+            "TC_FEE_ID": 128937216,
+            "TC_FEE_OVRD_IN": "N",
+            "TC_FEE_TYP_NM": "Cancel",
+            "TC_ID": 12097609169,
+            "UPDT_DTS": "2023-07-21T14:11:56.574000Z",
+            "UPDT_USR_ID_CD": "WDPRO1"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_fee",
+            "timestamp": "2023-07-21T18:12:00.707377Z",
+            "transaction-id": 19069724598012
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T02:41:09.599000Z",
+            "CREATE_USR_ID_CD": "WDPRO1",
+            "PRGE_DTS":"2023-07-18T06:30:37.488000Z",        
+            "JDO_SEQ_NB": 0,
+            "TC_FEE_ID": 128937207,
+            "TC_FEE_OVRD_IN": "N",
+            "TC_FEE_TYP_NM": "Cancel",
+            "TC_ID": 12097565939,
+            "UPDT_DTS": "2023-07-21T02:41:09.599000Z",
+            "UPDT_USR_ID_CD": "WDPRO1"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_fee",
+            "timestamp": "2023-07-21T06:41:11.547464Z",
+            "transaction-id": 19065439033258
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T02:35:59.778000Z",
+            "CREATE_USR_ID_CD": "WDPRO1",
+            "PRGE_DTS":"2023-07-18T06:30:37.488000Z",        
+            "JDO_SEQ_NB": 0,
+            "TC_FEE_ID": 128937405,
+            "TC_FEE_OVRD_IN": "N",
+            "TC_FEE_TYP_NM": "Cancel",
+            "TC_ID": 12097565635,
+            "UPDT_DTS": "2023-07-21T02:35:59.778000Z",
+            "UPDT_USR_ID_CD": "WDPRO1"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_fee",
+            "timestamp": "2023-07-21T06:36:04.381859Z",
+            "transaction-id": 19065438943452
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T02:32:02.428000Z",
+            "CREATE_USR_ID_CD": "WDPRO1",
+            "PRGE_DTS":"2023-07-18T06:30:37.488000Z",        
+            "JDO_SEQ_NB": 0,
+            "TC_FEE_ID": 128937206,
+            "TC_FEE_OVRD_IN": "N",
+            "TC_FEE_TYP_NM": "Cancel",
+            "TC_ID": 12097565844,
+            "UPDT_DTS": "2023-07-21T02:32:02.428000Z",
+            "UPDT_USR_ID_CD": "WDPRO1"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_fee",
+            "timestamp": "2023-07-21T06:32:08.704378Z"
+        }
+    }
+]

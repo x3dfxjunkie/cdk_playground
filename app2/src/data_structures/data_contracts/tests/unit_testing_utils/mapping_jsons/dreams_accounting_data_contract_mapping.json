@@ -1,0 +1,592 @@
+{
+    "DREAMSAccountingChrgCdInfcPmthModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_chrg_cd_infc_pmth_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CHRG_CD_INFC_PMTH"
+            }
+        }
+    },
+    "DREAMSAccountingChrgCdInfcSmryModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_chrg_cd_infc_smry_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CHRG_CD_INFC_SMRY"
+            }
+        }
+    },
+    "DREAMSAccountingElctrncDpstModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_elctrnc_dpst_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ELCTRNC_DPST"
+            }
+        }
+    },
+    "DREAMSAccountingGlModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_gl_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "GL"
+            }
+        }
+    },
+    "DREAMSAccountingSapAcctModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_sap_acct_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "SAP_ACCT"
+            }
+        }
+    },
+    "DREAMSAccountingSapCostCtrModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_sap_cost_ctr_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "SAP_COST_CTR"
+            }
+        }
+    },
+    "DREAMSAccountingSapWbsModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_sap_wbs_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "SAP_WBS"
+            }
+        }
+    },
+    "DREAMSAccountingSapPrftCtrModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_sap_prft_ctr_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "SAP_PRFT_CTR"
+            }
+        }
+    },
+    "DREAMSAccountingSapGlRefModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_sap_gl_ref_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "SAP_GL_REF"
+            }
+        }
+    },
+    "DREAMSAccountingAcctRcvModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_acct_rcv_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ACCT_RCV"
+            }
+        }
+    },
+    "DREAMSAccountingCardSettlModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_card_settl_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CARD_SETTL"
+            }
+        }
+    },
+    "DREAMSAccountingAltEntryModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_alt_entry_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ALT_ENTRY"
+            }
+        }
+    },
+    "DREAMSAccountingAnlssLdgrTxnModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_anlss_ldgr_txn_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ANLSS_LDGR_TXN"
+            }
+        }
+    },
+    "DREAMSAccountingAcctCtrPstAcctModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_acct_ctr_pst_acct_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ACCT_CTR_PST_ACCT"
+            }
+        }
+    },
+    "DREAMSAccountingAcctCtrPstItemModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_acct_ctr_pst_item_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ACCT_CTR_PST_ITEM"
+            }
+        }
+    },
+    "DREAMSAccountingRfndApModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_rfnd_ap_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "RFND_AP"
+            }
+        }
+    },
+    "DREAMSAccountingAcctCtrPmtMethModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_acct_ctr_pmt_meth_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ACCT_CTR_PMT_METH"
+            }
+        }
+    },
+    "DREAMSAccountingAcctDstrChanMtxModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_acct_dstr_chan_mtx_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ACCT_DSTR_CHAN_MTX"
+            }
+        }
+    },
+    "DREAMSAccountingChrgCdAcctConfgModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_chrg_cd_acct_confg_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CHRG_CD_ACCT_CONFG"
+            }
+        }
+    },
+    "DREAMSAccountingCmpsModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_cmps_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CMPS"
+            }
+        }
+    },
+    "DREAMSAccountingMktIndctnModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_mkt_indctn_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "MKT_INDCTN"
+            }
+        }
+    },
+    "DREAMSAccountingNatrPitmConfigModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_natr_pitm_config_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "NATR_PITM_CONFIG"
+            }
+        }
+    },
+    "DREAMSAccountingPmtMethModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_pmt_meth_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "PMT_METH"
+            }
+        }
+    },
+    "DREAMSAccountingSapDivModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_sap_div_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "SAP_DIV"
+            }
+        }
+    },
+    "DREAMSAccountingSapDstrChanModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_sap_dstr_chan_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "SAP_DSTR_CHAN"
+            }
+        }
+    },
+    "DREAMSAccountingSapIssModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_sap_iss_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "SAP_ISS"
+            }
+        }
+    },
+    "DREAMSAccountingSapTaxModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_sap_tax_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "SAP_TAX"
+            }
+        }
+    },
+    "DREAMSAccountingSrcAcctCtrModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_src_acct_ctr_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "SRC_ACCT_CTR"
+            }
+        }
+    },
+    "DREAMSAccountingStrtsCardClsModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_strts_card_cls_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "STRTS_CARD_CLS"
+            }
+        }
+    },
+    "DREAMSAccountingAcctCtrSapModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_acct_ctr_sap_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ACCT_CTR_SAP"
+            }
+        }
+    },
+    "DREAMSAccountingAcctCtrModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_acct_ctr_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ACCT_CTR"
+            }
+        }
+    },
+    "DREAMSAccountingFacTxnAcctCtrModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_fac_txn_acct_ctr_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "FAC_TXN_ACCT_CTR"
+            }
+        }
+    },
+    "DREAMSAccountingTxnAcctCtrModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_txn_acct_ctr_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "TXN_ACCT_CTR"
+            }
+        }
+    },
+    "DREAMSAccountingAcctCtrPmthOvrdModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_acct_ctr_pmth_ovrd_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ACCT_CTR_PMTH_OVRD"
+            }
+        }
+    },
+    "DREAMSAccountingAcctCtrPsactSapModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_acct_ctr_psact_sap_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ACCT_CTR_PSACT_SAP"
+            }
+        }
+    },
+    "DREAMSAccountingAcctCtrRfndPmthModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_acct_ctr_rfnd_pmth_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ACCT_CTR_RFND_PMTH"
+            }
+        }
+    },
+    "DREAMSAccountingActrAutoChrgBackModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_actr_auto_chrg_back_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ACTR_AUTO_CHRG_BACK"
+            }
+        }
+    },
+    "DREAMSAccountingActrPiExpAcctModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_actr_pi_exp_acct_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ACTR_PI_EXP_ACCT"
+            }
+        }
+    },
+    "DREAMSAccountingActrRevTypClsModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_actr_rev_typ_cls_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "ACTR_REV_TYP_CLS"
+            }
+        }
+    },
+    "DREAMSAccountingBankAcctCtrModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_bank_acct_ctr_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "BANK_ACCT_CTR"
+            }
+        }
+    },
+    "DREAMSAccountingChrgBackCtgyModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_chrg_back_ctgy_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CHRG_BACK_CTGY"
+            }
+        }
+    },
+    "DREAMSAccountingChrgBackRsnModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_chrg_back_rsn_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "CHRG_BACK_RSN"
+            }
+        }
+    },
+    "DREAMSAccountingDsnySysModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_dsny_sys_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "DSNY_SYS"
+            }
+        }
+    },
+    "DREAMSAccountingFacModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_fac_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "FAC"
+            }
+        }
+    },
+    "DREAMSAccountingFncTypModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_fnc_typ_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "FNC_TYP"
+            }
+        }
+    },
+    "DREAMSAccountingOfstPgrpConfigModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_ofst_pgrp_config_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "OFST_PGRP_CONFIG"
+            }
+        }
+    },
+    "DREAMSAccountingPmtMethNbRngeModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_pmt_meth_nb_rnge_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "PMT_METH_NB_RNGE"
+            }
+        }
+    },
+    "DREAMSAccountingPmtMethTypModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_pmt_meth_typ_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "PMT_METH_TYP"
+            }
+        }
+    },
+    "DREAMSAccountingPstAcctModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_pst_acct_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "PST_ACCT"
+            }
+        }
+    },
+    "DREAMSAccountingPstGrpModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_pst_grp_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "PST_GRP"
+            }
+        }
+    },
+    "DREAMSAccountingPstGrpAllocModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_pst_grp_alloc_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "PST_GRP_ALLOC"
+            }
+        }
+    },
+    "DREAMSAccountingPstItemModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_pst_item_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "PST_ITEM"
+            }
+        }
+    },
+    "DREAMSAccountingRevClsModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_rev_cls_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "REV_CLS"
+            }
+        }
+    },
+    "DREAMSAccountingRevTypModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_rev_typ_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "REV_TYP"
+            }
+        }
+    },
+    "DREAMSAccountingRptCtgyModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_rpt_ctgy_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "RPT_CTGY"
+            }
+        }
+    },
+    "DREAMSAccountingSapBusAreaModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_sap_bus_area_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "SAP_BUS_AREA"
+            }
+        }
+    },
+    "DREAMSAccountingSapCoModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_sap_co_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "SAP_CO"
+            }
+        }
+    },
+    "DREAMSAccountingSapMtrlModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_sap_mtrl_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "SAP_MTRL"
+            }
+        }
+    },
+    "DREAMSAccountingSapSlsOrgModel": {
+        "data-source-folder": "dreams/accounting/v0",
+        "data-contract-name": "dreams_accounting_sap_sls_org_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-acct-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "SAP_SLS_ORG"
+            }
+        }
+    }
+}

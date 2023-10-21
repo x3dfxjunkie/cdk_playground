@@ -1,0 +1,349 @@
+version: 2
+
+models:
+  - name: sil__intermediate__dreams__group_management__grp_versioned
+    description: '{{ doc("sil__intermediate__dreams__group_management__grp_versioned") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_versioned
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_grp_cd
+            - metadata_checksum
+
+    columns:
+      - name: data_grp_cd
+        description: ""
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_hm_fac_id
+        description: ""
+
+      - name: data_grp_dlgt_bkng_meth_nm
+        description: ""
+
+      - name: data_gro_nm
+        description: ""
+
+      - name: data_grp_bus_src_nm
+        description: ""
+
+      - name: data_grp_free_tm_lvl_nm
+        description: ""
+
+      - name: data_dlvr_meth_nm
+        description: ""
+
+      - name: data_opty_typ_nm
+        description: ""
+
+      - name: data_grp_acct_typ_nm
+        description: ""
+
+      - name: data_grp_stg_nm
+        description: ""
+
+      - name: data_grp_bk_hm_fac_frst_in
+        description: ""
+
+      - name: data_grp_cl_acpt_dt
+        description: ""
+
+      - name: data_grp_ctf_dt
+        description: ""
+
+      - name: data_grp_arvl_dt
+        description: ""
+
+      - name: data_grp_peak_arvl_dt
+        description: ""
+
+      - name: data_grp_peak_dprt_dt
+        description: ""
+
+      - name: data_grp_dprt_dt
+        description: ""
+
+      - name: data_grp_peak_rm_cn
+        description: ""
+
+      - name: data_grp_tot_rm_cn
+        description: ""
+
+      - name: data_grp_vchr_in
+        description: ""
+
+      - name: data_grp_comp_in
+        description: ""
+
+      - name: data_grp_run_hs_in
+        description: ""
+
+      - name: data_grp_exprs_chk_out_in
+        description: ""
+
+      - name: data_grp_hide_rt_in
+        description: ""
+
+      - name: data_grp_comm_allow_in
+        description: ""
+
+      - name: data_grp_disc_promo_allow_in
+        description: ""
+
+      - name: data_grp_sprd_dpst_in
+        description: ""
+
+      - name: data_grp_rvrt_dpst_in
+        description: ""
+
+      - name: data_grp_byps_auto_cncl_in
+        description: ""
+
+      - name: data_grp_byps_dpst_in
+        description: ""
+
+      - name: data_grp_byps_cncl_fee_in
+        description: ""
+
+      - name: data_grp_byps_mod_fee_in
+        description: ""
+
+      - name: data_grp_auto_cnfirm_in
+        description: ""
+
+      - name: data_grp_exprs_lug_in
+        description: ""
+
+      - name: data_grp_res_guar_in
+        description: ""
+
+      - name: data_grp_whsl_in
+        description: ""
+
+      - name: data_grp_dlgt_wrtoff_in
+        description: ""
+
+      - name: data_grp_rsr_in
+        description: ""
+
+      - name: data_grp_addl_adlt_am
+        description: ""
+
+      - name: data_grp_nm
+        description: ""
+
+      - name: data_gro_agt_nm
+        description: ""
+
+      - name: data_sls_dept_nm
+        description: ""
+
+      - name: data_sls_mgr_nm
+        description: ""
+
+      - name: data_sls_phn_nb
+        description: ""
+
+      - name: data_srvc_dept_nm
+        description: ""
+
+      - name: data_srvc_mgr_nm
+        description: ""
+
+      - name: data_gsrvc_phn_nb
+        description: ""
+
+      - name: data_grp_comm_am_tx
+        description: ""
+
+      - name: data_grp_comm_pc_tx
+        description: ""
+
+      - name: data_rp_comm_rt_tx
+        description: ""
+
+      - name: data_create_dts
+        description: ""
+
+      - name: data_create_usr_id_cd
+        description: ""
+
+      - name: data_updt_dts
+        description: ""
+
+      - name: data_updt_usr_id_cd
+        description: ""
+
+      - name: data_jdo_seq_nb
+        description: ""
+
+      - name: data_grp_cnfirm_dest_nm
+        description: ""
+
+      - name: data_grp_min_los_nb_tx
+        description: ""
+
+      - name: data_grp_dlgt_chg_priv_in
+        description: ""
+
+      - name: data_grp_peak_arvl_tm_tx
+        description: ""
+
+      - name: data_grp_peak_dprt_tm_tx
+        description: ""
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp for when the record was sent in the stream | example: 2023-03-29T15:30:19.109655Z"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "data | example: data"
+
+      - name: metadata_operation
+        description: ""
+
+      - name: metadata_partition_key_type
+        description: ""
+
+      - name: metadata_schema_name
+        description: "Name of the schema in snowflake | example: res_mgmt"
+
+      - name: metadata_table_name
+        description: "name of the table in snowflake | example: tc"
+
+      - name: metadata_transaction_id
+        description: "unique ID for the stream record | example: 70974432245344"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: metadata_version_start_datetime
+        description: "Version start datetime"
+        tests:
+          - not_null
+
+      - name: metadata_version_end_datetime
+        description: "Version end datetime"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

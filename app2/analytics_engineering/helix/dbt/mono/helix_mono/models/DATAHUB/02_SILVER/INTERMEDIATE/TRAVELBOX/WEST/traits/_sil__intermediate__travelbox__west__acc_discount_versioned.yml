@@ -1,0 +1,246 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__west__acc_discount_versioned
+    description: '{{ doc("sil__intermediate__travelbox__west__acc_discount_versioned") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_versioned
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_contract_id
+            - data_discount_no
+            - metadata_checksum
+
+    columns:
+      - name: data_contract_id
+        description: "The system generated id of the contract | example: 55532"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_discount_no
+        description: "The system generated number of the discount which belongs to the group | example: 0"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_reference
+        description: "CODE TO IDENTIFY THE DISCOUNT (OPTIONAL) | example: Q3 BROAD STD"
+
+      - name: data_type
+        description: "The availbility type (1 = Available 2 = Free Sell) | example: PRI"
+
+      - name: data_description
+        description: "The TravelBox name of the board basis | example: QnczeAlEIEJWmtYcYZEz"
+
+      - name: data_pass_percentage
+        description: "ONLY THIS AMOUNT IS PASSED TO THE CUSTOMER | example: 100.0"
+
+      - name: data_discount_calculation_order
+        description: "The discount applying order | example: 0"
+
+      - name: data_doc_notes
+        description: "A description of the discount to be appeared on the documents specified in DOC_TYPES | example: iLImXoDUBNgrDKUCXzaC"
+
+      - name: data_doc_types
+        description: "The comma separated document types on which the DOC_NOTES needs to be appeared. Possible values are_x000D_
+INV - Invoice_x000D_
+ITN - Itinerary_x000D_
+SUP - Supplier_x000D_
+VOU - Voucher | example: TjuMksjEZYneVIEaeNGQ"
+
+      - name: data_pass_percentage_bak
+        description: "Deprecated | example: 89234.0"
+
+      - name: data_payment_scheme
+        description: "If a payment scheme has specifically been defined for the discount, this field holds the TravelBox code of the payment scheme. Otherwise this is null meaning the payment scheme applied to the contract is considered for the discount. | example: 7482"
+
+      - name: data_cnx_scheme
+        description: "If a supplier cancellation scheme has specifically been defined for the discount, this field holds the TravelBox code of the cancellation scheme. Otherwise this is null meaning the cancellation scheme applied to the contract is considered for the discount. | example: 4345"
+
+      - name: data_amd_scheme
+        description: "If a supplier amendment scheme has specifically been defined for the discount, this field holds the TravelBox code of the amendment scheme. Otherwise this is null meaning the amendment scheme applied to the contract is considered for the discount. | example: 2900"
+
+      - name: data_sales_from
+        description: "The start date of the valid sales period of this contract | example: 2019-06-19 05:02:54"
+
+      - name: data_sales_to
+        description: "The end date of the valid sales period of this contract | example: 1995-07-18 15:44:28"
+
+      - name: data_booked_from_to
+        description: "A flag indicating the discount has a booked from - booked to date range been specified | example: 0"
+
+      - name: data_commissionable
+        description: "A flag indicating whether the discount is trade client commissionable ( value is 1 ) or not ( value is 0 ) | example: 1"
+
+      - name: data_discountable_suppliments
+        description: "The system generated numbers of the supplements on which the discount is applicable. Multiple entries are comma seperated. | example: jjbwtMgNNPEVOuwxmYui"
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 1988-12-21 23:14:28"
+
+      - name: data_entered_on
+        description: "The date/time on which this accomodation contract is entered into the system | example: 2008-10-04 01:54:04"
+
+      - name: data_entered_by
+        description: "The TravelBox user id of the user who has entered this accomodation contract in to system | example: 15125"
+
+      - name: data_modified_on
+        description: "The date on which the contract get modified. If no modifications done after the creation, this field holds the contract created date. | example: 2023-05-03 11:30:09"
+
+      - name: data_modified_by
+        description: "The TravelBox user id of the user who modified the contract. If no modification done after the creation, this field holds the user id of the user who created the contract | example: 15057"
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: metadata_version_start_datetime
+        description: "Version start datetime"
+        tests:
+          - not_null
+
+      - name: metadata_version_end_datetime
+        description: "Version end datetime"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

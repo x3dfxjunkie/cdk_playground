@@ -1,0 +1,12 @@
+{
+    "SARGInteractionServicesWDWEventModel": {
+        "data-source-folder": "sarg/interaction_services_wdw/v0",
+        "data-contract-name": "sarg_interaction_services_wdw_event_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-": {
+                "key-path-name": null,
+                "key-path-value": null
+            }
+        }
+    }
+}

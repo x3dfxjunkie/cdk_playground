@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: sil__guest_experience__memory_maker__digital_download_role_current
+    description: "{{ doc('sil__guest_experience__memory_maker__digital_download_role_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=guest_experience
+        - sub_domain=memory_maker
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: role_id
+        description: ""
+
+      - name: role_name
+        description: ""
+
+      - name: role_type_id
+        description: ""
+
+      - name: role_type_name
+        description: ""
+
+      - name: role_category_id
+        description: ""
+
+      - name: role_category_name
+        description: ""
+
+      - name: source_system_create_datetime
+        description: ""
+
+      - name: source_system_create_user_id
+        description: ""
+
+      - name: source_system_update_datetime
+        description: ""
+
+      - name: source_system_update_user_id
+        description: ""

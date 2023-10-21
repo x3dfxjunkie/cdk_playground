@@ -1,0 +1,13 @@
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+py_lambda_library(
+    name = "ingestion",
+    srcs = glob(["*.py"]),
+    data = [
+        "__init__.py",
+        "//app/src:missing_init_files",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+    ],
+)

@@ -1,0 +1,312 @@
+version: 2
+
+sources:
+  - name: brz_dreams_charge_account
+    description: ""
+    database: '{{ env_var("DBT_HELIX_MONO_SOURCE_DATABASE", "STAGE_DATAHUB") }}'
+    schema: brz_dreams_charge_account
+    loader: firehose/snowpipe-microbatch
+    loaded_at_field: LANDING_TIMESTAMP
+    freshness: # default freshness
+      warn_after: {count: 12, period: hour}
+      error_after: {count: 24, period: hour}
+    meta:
+      owner: ""
+      tags: [""]
+      subscribers: ["@data-team"]
+    tables:
+      - name: chrg_grp
+        columns:
+          - name: data_auth_pin_encrpt_hash_vl
+            description: "data_auth_pin_encrpt_hash_vl (snowflake data type: text)"
+
+          - name: data_chrg_grp_actv_in
+            description: "data_chrg_grp_actv_in (snowflake data type: text)"
+
+          - name: data_chrg_grp_ds
+            description: "data_chrg_grp_ds (snowflake data type: text)"
+
+          - name: data_chrg_grp_end_dts
+            description: "data_chrg_grp_end_dts (snowflake data type: timestamp_ntz)"
+
+          - name: data_chrg_grp_id
+            description: "data_chrg_grp_id (snowflake data type: number)"
+
+          - name: data_chrg_grp_strt_dts
+            description: "data_chrg_grp_strt_dts (snowflake data type: timestamp_ntz)"
+
+          - name: data_chrg_grp_sts_nm
+            description: "data_chrg_grp_sts_nm (snowflake data type: text)"
+
+          - name: data_chrg_grp_typ_nm
+            description: "data_chrg_grp_typ_nm (snowflake data type: text)"
+
+          - name: data_create_dts
+            description: "data_create_dts (snowflake data type: timestamp_ntz)"
+
+          - name: data_create_usr_id_cd
+            description: "data_create_usr_id_cd (snowflake data type: text)"
+
+          - name: data_grp_dlgt_sml_bal_wrtoff_in
+            description: "data_grp_dlgt_sml_bal_wrtoff_in (snowflake data type: text)"
+
+          - name: data_jdo_seq_nb
+            description: "data_jdo_seq_nb (snowflake data type: number)"
+
+          - name: data_src_acct_ctr_id
+            description: "data_src_acct_ctr_id (snowflake data type: number)"
+
+          - name: data_txn_fac_id
+            description: "data_txn_fac_id (snowflake data type: number)"
+
+          - name: data_updt_dts
+            description: "data_updt_dts (snowflake data type: timestamp_ntz)"
+
+          - name: data_updt_usr_id_cd
+            description: "data_updt_usr_id_cd (snowflake data type: text)"
+
+          - name: landing_cloudevent_check_sum
+            description: "landing_cloudevent_check_sum (snowflake data type: text)"
+
+          - name: landing_cloudevent_datacontenttype
+            description: "landing_cloudevent_datacontenttype (snowflake data type: text)"
+
+          - name: landing_cloudevent_dataschema
+            description: "landing_cloudevent_dataschema (snowflake data type: text)"
+
+          - name: landing_cloudevent_data_contract_version
+            description: "landing_cloudevent_data_contract_version (snowflake data type: text)"
+
+          - name: landing_cloudevent_exception_error
+            description: "landing_cloudevent_exception_error (snowflake data type: text)"
+
+          - name: landing_cloudevent_id
+            description: "landing_cloudevent_id (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_database
+            description: "landing_cloudevent_router_database (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_schema
+            description: "landing_cloudevent_router_schema (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_table
+            description: "landing_cloudevent_router_table (snowflake data type: text)"
+
+          - name: landing_cloudevent_source
+            description: "landing_cloudevent_source (snowflake data type: text)"
+
+          - name: landing_cloudevent_specversion
+            description: "landing_cloudevent_specversion (snowflake data type: text)"
+
+          - name: landing_cloudevent_stream
+            description: "landing_cloudevent_stream (snowflake data type: text)"
+
+          - name: landing_cloudevent_subject
+            description: "landing_cloudevent_subject (snowflake data type: text)"
+
+          - name: landing_cloudevent_time
+            description: "landing_cloudevent_time (snowflake data type: timestamp_ntz)"
+
+          - name: landing_cloudevent_traceparent
+            description: "landing_cloudevent_traceparent (snowflake data type: text)"
+
+          - name: landing_cloudevent_tracestate
+            description: "landing_cloudevent_tracestate (snowflake data type: text)"
+
+          - name: landing_cloudevent_type
+            description: "landing_cloudevent_type (snowflake data type: text)"
+
+          - name: landing_cloudevent_validated
+            description: "landing_cloudevent_validated (snowflake data type: boolean)"
+
+          - name: landing_file_last_modified
+            description: "landing_file_last_modified (snowflake data type: timestamp_ntz)"
+
+          - name: landing_file_name
+            description: "landing_file_name (snowflake data type: text)"
+
+          - name: landing_file_row_number
+            description: "landing_file_row_number (snowflake data type: number)"
+
+          - name: landing_id
+            description: "landing_id (snowflake data type: text)"
+
+          - name: landing_timestamp
+            description: "landing_timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: metadata_commit_timestamp
+            description: "metadata_commit_timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: metadata_operation
+            description: "metadata_operation (snowflake data type: text)"
+
+          - name: metadata_partition_key_type
+            description: "metadata_partition_key_type (snowflake data type: text)"
+
+          - name: metadata_prev_transaction_id
+            description: "metadata_prev_transaction_id (snowflake data type: number)"
+
+          - name: metadata_prev_transaction_record_id
+            description: "metadata_prev_transaction_record_id (snowflake data type: number)"
+
+          - name: metadata_record_type
+            description: "metadata_record_type (snowflake data type: text)"
+
+          - name: metadata_schema_name
+            description: "metadata_schema_name (snowflake data type: text)"
+
+          - name: metadata_stream_position
+            description: "metadata_stream_position (snowflake data type: text)"
+
+          - name: metadata_table_name
+            description: "metadata_table_name (snowflake data type: text)"
+
+          - name: metadata_timestamp
+            description: "metadata_timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: metadata_transaction_id
+            description: "metadata_transaction_id (snowflake data type: number)"
+
+          - name: metadata_transaction_record_id
+            description: "metadata_transaction_record_id (snowflake data type: number)"
+
+      - name: chrg_grp_lnk
+        columns:
+          - name: data_chrg_grp_lnk_dts
+            description: "data_chrg_grp_lnk_dts (snowflake data type: timestamp_ntz)"
+
+          - name: data_chrg_grp_lnk_id
+            description: "data_chrg_grp_lnk_id (snowflake data type: number)"
+
+          - name: data_chrg_grp_lnk_typ_nm
+            description: "data_chrg_grp_lnk_typ_nm (snowflake data type: text)"
+
+          - name: data_create_dts
+            description: "data_create_dts (snowflake data type: timestamp_ntz)"
+
+          - name: data_create_usr_id_cd
+            description: "data_create_usr_id_cd (snowflake data type: text)"
+
+          - name: data_jdo_seq_nb
+            description: "data_jdo_seq_nb (snowflake data type: number)"
+
+          - name: data_lnkd_chrg_grp_id
+            description: "data_lnkd_chrg_grp_id (snowflake data type: number)"
+
+          - name: data_lnkg_chrg_grp_id
+            description: "data_lnkg_chrg_grp_id (snowflake data type: number)"
+
+          - name: data_rlvnt_chrg_grp_id
+            description: "data_rlvnt_chrg_grp_id (snowflake data type: number)"
+
+          - name: data_updt_dts
+            description: "data_updt_dts (snowflake data type: timestamp_ntz)"
+
+          - name: data_updt_usr_id_cd
+            description: "data_updt_usr_id_cd (snowflake data type: text)"
+
+          - name: landing_cloudevent_check_sum
+            description: "landing_cloudevent_check_sum (snowflake data type: text)"
+
+          - name: landing_cloudevent_datacontenttype
+            description: "landing_cloudevent_datacontenttype (snowflake data type: text)"
+
+          - name: landing_cloudevent_dataschema
+            description: "landing_cloudevent_dataschema (snowflake data type: text)"
+
+          - name: landing_cloudevent_data_contract_version
+            description: "landing_cloudevent_data_contract_version (snowflake data type: text)"
+
+          - name: landing_cloudevent_exception_error
+            description: "landing_cloudevent_exception_error (snowflake data type: text)"
+
+          - name: landing_cloudevent_id
+            description: "landing_cloudevent_id (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_database
+            description: "landing_cloudevent_router_database (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_schema
+            description: "landing_cloudevent_router_schema (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_table
+            description: "landing_cloudevent_router_table (snowflake data type: text)"
+
+          - name: landing_cloudevent_source
+            description: "landing_cloudevent_source (snowflake data type: text)"
+
+          - name: landing_cloudevent_specversion
+            description: "landing_cloudevent_specversion (snowflake data type: text)"
+
+          - name: landing_cloudevent_stream
+            description: "landing_cloudevent_stream (snowflake data type: text)"
+
+          - name: landing_cloudevent_subject
+            description: "landing_cloudevent_subject (snowflake data type: text)"
+
+          - name: landing_cloudevent_time
+            description: "landing_cloudevent_time (snowflake data type: timestamp_ntz)"
+
+          - name: landing_cloudevent_traceparent
+            description: "landing_cloudevent_traceparent (snowflake data type: text)"
+
+          - name: landing_cloudevent_tracestate
+            description: "landing_cloudevent_tracestate (snowflake data type: text)"
+
+          - name: landing_cloudevent_type
+            description: "landing_cloudevent_type (snowflake data type: text)"
+
+          - name: landing_cloudevent_validated
+            description: "landing_cloudevent_validated (snowflake data type: boolean)"
+
+          - name: landing_file_last_modified
+            description: "landing_file_last_modified (snowflake data type: timestamp_ntz)"
+
+          - name: landing_file_name
+            description: "landing_file_name (snowflake data type: text)"
+
+          - name: landing_file_row_number
+            description: "landing_file_row_number (snowflake data type: number)"
+
+          - name: landing_id
+            description: "landing_id (snowflake data type: text)"
+
+          - name: landing_timestamp
+            description: "landing_timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: metadata_commit_timestamp
+            description: "metadata_commit_timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: metadata_operation
+            description: "metadata_operation (snowflake data type: text)"
+
+          - name: metadata_partition_key_type
+            description: "metadata_partition_key_type (snowflake data type: text)"
+
+          - name: metadata_prev_transaction_id
+            description: "metadata_prev_transaction_id (snowflake data type: number)"
+
+          - name: metadata_prev_transaction_record_id
+            description: "metadata_prev_transaction_record_id (snowflake data type: number)"
+
+          - name: metadata_record_type
+            description: "metadata_record_type (snowflake data type: text)"
+
+          - name: metadata_schema_name
+            description: "metadata_schema_name (snowflake data type: text)"
+
+          - name: metadata_stream_position
+            description: "metadata_stream_position (snowflake data type: text)"
+
+          - name: metadata_table_name
+            description: "metadata_table_name (snowflake data type: text)"
+
+          - name: metadata_timestamp
+            description: "metadata_timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: metadata_transaction_id
+            description: "metadata_transaction_id (snowflake data type: number)"
+
+          - name: metadata_transaction_record_id
+            description: "metadata_transaction_record_id (snowflake data type: number)"
+

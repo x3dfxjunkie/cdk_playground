@@ -1,0 +1,1800 @@
+stack_extension: &se tbxe # 12 Character Limit!
+ingest_pattern: &ip dms # DO NOT UPDATE must = dms for dms pattern
+active: True
+feature_branch: False # set to False unless you want to deploy DMS in ephemeral envs
+pattern_instances:
+  - region: &region-1 us-east-1 # DO NOT UPDATE
+    resources:
+      dms_repl_instance:
+        engine_version: "3.5.1"
+        multi_az: True
+      dms_repl_task: # AWS DMS replication task
+        - &replication_task_definitions1
+          replication_task_identifier: full1 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "1"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_PAX_ITEM"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_PAX_ITEM"      
+                         
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "2"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_BOOKING_PACKAGE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_BOOKING_PACKAGE"   
+                            
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "3"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_GENERIC_SUPPLEMENT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_GENERIC_SUPPLEMENT"    
+                           
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "4"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_ACCOM_ROOM"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_ACCOM_ROOM"       
+                        
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "5"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_TRS_EXC_BOOKING_ITEM"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_TRS_EXC_BOOKING_ITEM"  
+                             
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "6"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_BOOKING_CNX"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_BOOKING_CNX"   
+                          
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "7"  # Unique numeric value to identify the rule.
+                 rule-name: "ACC_CONTRACT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "ACC_CONTRACT"     
+                          
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "8"  # Unique numeric value to identify the rule.
+                 rule-name: "CONTRACT_GROUP"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CONTRACT_GROUP"
+        - <<: *replication_task_definitions1 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc1
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+
+        - &replication_task_definitions2
+          replication_task_identifier: full2 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "1"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_GENERIC_BOOKING"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_GENERIC_BOOKING"                
+
+                                
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "2"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_ACCOM_BOOKING"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_ACCOM_BOOKING"   
+                                  
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "3"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_ACCOM_DISCOUNT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_ACCOM_DISCOUNT"    
+                                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "4"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_TRS_ITEM"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_TRS_ITEM"       
+                              
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "5"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_FLIGHT_BOOKING"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_FLIGHT_BOOKING"     
+                                
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "6"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_BOOKING_FEE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_BOOKING_FEE"
+
+        - <<: *replication_task_definitions2 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc2
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+
+        - &replication_task_definitions3
+          replication_task_identifier: full3 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "1"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_BKG_USR_DEFINED_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_BKG_USR_DEFINED_TYPE"     
+                               
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "2"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_PASSENGER"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_PASSENGER"                   
+              
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "3"  # Unique numeric value to identify the rule.
+                 rule-name: "ACT_CLIENT_CC_RECEIPT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "ACT_CLIENT_CC_RECEIPT"   
+                                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "4"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_BOOKING_ITEM_AMND"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_BOOKING_ITEM_AMND"   
+                                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "5"  # Unique numeric value to identify the rule.
+                 rule-name: "PKG_ITINERARY"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "PKG_ITINERARY"    
+                                
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "6"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_FLIGHT_SECTOR"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_FLIGHT_SECTOR"   
+                                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "7"  # Unique numeric value to identify the rule.
+                 rule-name: "ACT_CLIENT_IBTX"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "ACT_CLIENT_IBTX" 
+        - <<: *replication_task_definitions3 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc3
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+
+        - &replication_task_definitions4
+          replication_task_identifier: full4 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "1"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_BOOKING_ITEM"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_BOOKING_ITEM"  
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "2"  # Unique numeric value to identify the rule.
+                 rule-name: "CLI_PROFILE_ADDRESS"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CLI_PROFILE_ADDRESS"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "3"  # Unique numeric value to identify the rule.
+                 rule-name: "CLI_PROFILE_ATTRIBUTE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CLI_PROFILE_ATTRIBUTE"  
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "4"  # Unique numeric value to identify the rule.
+                 rule-name: "ACT_CLIENT_RECEIPT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "ACT_CLIENT_RECEIPT"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "5"  # Unique numeric value to identify the rule.
+                 rule-name: "ACC_FARE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "ACC_FARE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "6"  # Unique numeric value to identify the rule.
+                 rule-name: "CLI_DIRECT_CLIENT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CLI_DIRECT_CLIENT"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "7"  # Unique numeric value to identify the rule.
+                 rule-name: "GEN_USR_DEFINED_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "GEN_USR_DEFINED_TYPE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "8"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_INSURANCE_BOOKING"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_INSURANCE_BOOKING"
+
+        - <<: *replication_task_definitions4 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc4
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+
+        - &replication_task_definitions5
+          replication_task_identifier: full5 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "1"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_BOOKING_ITEM_CNX"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_BOOKING_ITEM_CNX"  
+                                   
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "2"  # Unique numeric value to identify the rule.
+                 rule-name: "CLI_PASSENGER_PROFILE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CLI_PASSENGER_PROFILE"                    
+                
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "3"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_GENERIC_DISCOUNT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_GENERIC_DISCOUNT"   
+                                  
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "4"  # Unique numeric value to identify the rule.
+                 rule-name: "CLI_CLIENT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CLI_CLIENT"   
+                                  
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "5"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_BOOKING"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_BOOKING"     
+                                
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "6"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_BOOKING_AMND"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_BOOKING_AMND"        
+                             
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "7"  # Unique numeric value to identify the rule.
+                 rule-name: "ACT_CLIENT_REFUND"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "ACT_CLIENT_REFUND"
+
+        - <<: *replication_task_definitions5 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc5
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+
+        - &replication_task_definitions6
+          replication_task_identifier: full6 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "1"  # Unique numeric value to identify the rule.
+                 rule-name: "CAR_LOCATION"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CAR_LOCATION"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "2"  # Unique numeric value to identify the rule.
+                 rule-name: "CLI_MARITAL_STATUS"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CLI_MARITAL_STATUS"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "3"  # Unique numeric value to identify the rule.
+                 rule-name: "INS_POLICY_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "INS_POLICY_TYPE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "4"  # Unique numeric value to identify the rule.
+                 rule-name: "ACT_CLIENT_REFUND_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "ACT_CLIENT_REFUND_TYPE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "5"  # Unique numeric value to identify the rule.
+                 rule-name: "CMP_COMPANY"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CMP_COMPANY"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "6"  # Unique numeric value to identify the rule.
+                 rule-name: "DISTRIBUTION_CHANNEL"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "DISTRIBUTION_CHANNEL"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "7"  # Unique numeric value to identify the rule.
+                 rule-name: "GEN_DISCOUNT_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "GEN_DISCOUNT_TYPE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "8"  # Unique numeric value to identify the rule.
+                 rule-name: "AMDCNX_CAUSE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "AMDCNX_CAUSE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "9"  # Unique numeric value to identify the rule.
+                 rule-name: "CLI_PAYMENT_GROUP"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CLI_PAYMENT_GROUP"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "10"  # Unique numeric value to identify the rule.
+                 rule-name: "AIM_ROOM"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "AIM_ROOM"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "11"  # Unique numeric value to identify the rule.
+                 rule-name: "PKG_SELLABLE_MEMBERSHIP_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "PKG_SELLABLE_MEMBERSHIP_TYPE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "12"  # Unique numeric value to identify the rule.
+                 rule-name: "GEN_CONTRACT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "GEN_CONTRACT"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "13"  # Unique numeric value to identify the rule.
+                 rule-name: "UDA_APPLICABLE_VALUE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "UDA_APPLICABLE_VALUE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "14"  # Unique numeric value to identify the rule.
+                 rule-name: "AIRPORT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "AIRPORT"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "15"  # Unique numeric value to identify the rule.
+                 rule-name: "CITY"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CITY"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "16"  # Unique numeric value to identify the rule.
+                 rule-name: "CLI_TRADE_CLIENT_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CLI_TRADE_CLIENT_TYPE"
+                
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "17"  # Unique numeric value to identify the rule.
+                 rule-name: "LOCALE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "LOCALE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "18"  # Unique numeric value to identify the rule.
+                 rule-name: "PAX_SUB_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "PAX_SUB_TYPE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "19"  # Unique numeric value to identify the rule.
+                 rule-name: "RATE_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RATE_TYPE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "20"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_BOOKING_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_BOOKING_TYPE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "21"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_BOOKING_STATUS"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_BOOKING_STATUS"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "22"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_OPTION_STATUS"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_OPTION_STATUS"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "23"  # Unique numeric value to identify the rule.
+                 rule-name: "ACC_DISCOUNT_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "ACC_DISCOUNT_TYPE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "24"  # Unique numeric value to identify the rule.
+                 rule-name: "CLI_COMM_GROUP"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CLI_COMM_GROUP"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "25"  # Unique numeric value to identify the rule.
+                 rule-name: "CMP_DIVISION"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CMP_DIVISION"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "26"  # Unique numeric value to identify the rule.
+                 rule-name: "GEN_CATEGORY"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "GEN_CATEGORY"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "27"  # Unique numeric value to identify the rule.
+                 rule-name: "ADM_USER"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "ADM_USER"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "28"  # Unique numeric value to identify the rule.
+                 rule-name: "STATUS"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "STATUS"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "29"  # Unique numeric value to identify the rule.
+                 rule-name: "ACT_CC_CARD_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "ACT_CC_CARD_TYPE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "30"  # Unique numeric value to identify the rule.
+                 rule-name: "PRODUCT_GROUP"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "PRODUCT_GROUP"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "31"  # Unique numeric value to identify the rule.
+                 rule-name: "CANCELLATION_SCHEME"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CANCELLATION_SCHEME"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "32"  # Unique numeric value to identify the rule.
+                 rule-name: "PAYMENT_SCHEME"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "PAYMENT_SCHEME"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "33"  # Unique numeric value to identify the rule.
+                 rule-name: "CAR_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CAR_TYPE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "34"  # Unique numeric value to identify the rule.
+                 rule-name: "CLI_FREQ_MEMBER_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CLI_FREQ_MEMBER_TYPE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "35"  # Unique numeric value to identify the rule.
+                 rule-name: "PRODUCT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "PRODUCT"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "36"  # Unique numeric value to identify the rule.
+                 rule-name: "RESORT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RESORT"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "37"  # Unique numeric value to identify the rule.
+                 rule-name: "ACT_TRANSACTION_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "ACT_TRANSACTION_TYPE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "38"  # Unique numeric value to identify the rule.
+                 rule-name: "CLI_TRADE_CLIENT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CLI_TRADE_CLIENT"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "39"  # Unique numeric value to identify the rule.
+                 rule-name: "CLI_ADDRESS"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CLI_ADDRESS"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "40"  # Unique numeric value to identify the rule.
+                 rule-name: "TRS_MODE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "TRS_MODE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "41"  # Unique numeric value to identify the rule.
+                 rule-name: "BRAND"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "BRAND"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "42"  # Unique numeric value to identify the rule.
+                 rule-name: "HOLIDAY_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "HOLIDAY_TYPE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "43"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_BOOKING_CNX_REASON"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_BOOKING_CNX_REASON"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "44"  # Unique numeric value to identify the rule.
+                 rule-name: "INS_CONTRACT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "INS_CONTRACT"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "45"  # Unique numeric value to identify the rule.
+                 rule-name: "FEE_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "FEE_TYPE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "46"  # Unique numeric value to identify the rule.
+                 rule-name: "LOCATION"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "LOCATION"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "47"  # Unique numeric value to identify the rule.
+                 rule-name: "CLIENT_GROUP"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CLIENT_GROUP"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "48"  # Unique numeric value to identify the rule.
+                 rule-name: "GEN_PRODUCT_GROUP"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "GEN_PRODUCT_GROUP"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "49"  # Unique numeric value to identify the rule.
+                 rule-name: "CAR_CONTRACT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CAR_CONTRACT"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "50"  # Unique numeric value to identify the rule.
+                 rule-name: "ACC_DISCOUNT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "ACC_DISCOUNT"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "51"  # Unique numeric value to identify the rule.
+                 rule-name: "PKG_GROUP"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "PKG_GROUP"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "52"  # Unique numeric value to identify the rule.
+                 rule-name: "GEN_SUPPLEMENT_CATEGORY"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "GEN_SUPPLEMENT_CATEGORY"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "53"  # Unique numeric value to identify the rule.
+                 rule-name: "STATE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "STATE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "54"  # Unique numeric value to identify the rule.
+                 rule-name: "SUPPLIER"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "SUPPLIER"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "55"  # Unique numeric value to identify the rule.
+                 rule-name: "COUNTRY"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "COUNTRY"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "56"  # Unique numeric value to identify the rule.
+                 rule-name: "TRS_CONTRACT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "TRS_CONTRACT"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "57"  # Unique numeric value to identify the rule.
+                 rule-name: "SUPP_ADDITIONAL_ATTRIBUTE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "SUPP_ADDITIONAL_ATTRIBUTE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "58"  # Unique numeric value to identify the rule.
+                 rule-name: "GEN_DISCOUNT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "GEN_DISCOUNT"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "59"  # Unique numeric value to identify the rule.
+                 rule-name: "GEN_PRODUCT_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "GEN_PRODUCT_TYPE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "60"  # Unique numeric value to identify the rule.
+                 rule-name: "PRODUCT_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "PRODUCT_TYPE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "61"  # Unique numeric value to identify the rule.
+                 rule-name: "ACC_ROOM_APARTMENT_TYPE"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "ACC_ROOM_APARTMENT_TYPE"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "62"  # Unique numeric value to identify the rule.
+                 rule-name: "PKG_HOLIDAY"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "PKG_HOLIDAY"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "63"  # Unique numeric value to identify the rule.
+                 rule-name: "CLI_CONTACT"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "CLI_CONTACT"
+                 
+               - rule-type: selection  # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                 rule-id: "64"  # Unique numeric value to identify the rule.
+                 rule-name: "RES_CAR_BOOKING"  # Unique name to identify the rule.
+                 rule-action: explicit  # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                 object-locator:  # The name of each schema and table or view to which the rule applies
+                   schema-name: "TBX"
+                   table-name: "RES_CAR_BOOKING"
+                    
+        - <<: *replication_task_definitions6 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc6
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+      source_endpoint: # AWS DMS Source Endpoint.
+        engine_name: oracle # The type of engine for the endpoint, depending on the EndpointType value. Valid values : mysql | oracle | mariadb | kinesis
+        database_name: tboxfdrwsvc.wdw.disney.com # Only necessary when engine_name=oracle
+        #ssl_mode: verify-ca #Enable Secure Sockets Layer (SSL) mode to use for the SSL connection. Allowed values: verify-ca,verify-full #Security Exception
+        settings: # See https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Source.html
+#          server_timezone: US/Eastern # #Specifies the time zone for the target MySQL-compatible database, e.g., US/Eastern, US/Pacific, UTC / remove if UTC
+          secrets_manager_secret_id:  arn:aws:secretsmanager:us-east-1:543276908693:secret:lst-use1-travelbox-east-secret-494rOs #pragma: allowlist secret, The ARN, or display name of the SecretsManagerSecret that contains the MySQL endpoint connection details.
+          archived_log_dest_id: 1
+          archived_logs_only: true
+      source_kms_key: f4e14aa6-c2a4-4f8c-860d-f0fc127c22f4 # Update for the secrets_manager_secret_id kms key
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_LATEST_LANDING # Needs update to appropriate default routing
+      data_contracts: # This section needs to be updated for all data contracts for the source
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_acc_contract_source_data_contract
+          class_name: TravelBoxEastAccContractModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: ACC_CONTRACT
+          router_database: &database LATEST_LANDING
+          router_schema: &schema LND_TRAVELBOX_EAST
+          router_table: ACC_CONTRACT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_acc_discount_source_data_contract
+          class_name: TravelBoxEastAccDiscountModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: ACC_DISCOUNT
+          router_database: *database
+          router_schema: *schema
+          router_table: ACC_DISCOUNT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_acc_discount_type_source_data_contract
+          class_name: TravelBoxEastAccDiscountTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: ACC_DISCOUNT_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: ACC_DISCOUNT_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_acc_fare_source_data_contract
+          class_name: TravelBoxEastAccFareModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: ACC_FARE
+          router_database: *database
+          router_schema: *schema
+          router_table: ACC_FARE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_acc_room_apartment_type_source_data_contract
+          class_name: TravelBoxEastAccRoomApartmentTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: ACC_ROOM_APARTMENT_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: ACC_ROOM_APARTMENT_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_act_cc_card_type_source_data_contract
+          class_name: TravelBoxEastActCcCardTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: ACT_CC_CARD_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: ACT_CC_CARD_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_act_client_cc_receipt_source_data_contract
+          class_name: TravelBoxEastActClientCcReceiptModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: ACT_CLIENT_CC_RECEIPT
+          router_database: *database
+          router_schema: *schema
+          router_table: ACT_CLIENT_CC_RECEIPT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_act_client_ibtx_source_data_contract
+          class_name: TravelBoxEastActClientIbtxModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: ACT_CLIENT_IBTX
+          router_database: *database
+          router_schema: *schema
+          router_table: ACT_CLIENT_IBTX
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_act_client_receipt_source_data_contract
+          class_name: TravelBoxEastActClientReceiptModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: ACT_CLIENT_RECEIPT
+          router_database: *database
+          router_schema: *schema
+          router_table: ACT_CLIENT_RECEIPT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_act_client_refund_source_data_contract
+          class_name: TravelBoxEastActClientRefundModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: ACT_CLIENT_REFUND
+          router_database: *database
+          router_schema: *schema
+          router_table: ACT_CLIENT_REFUND
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_act_client_refund_type_source_data_contract
+          class_name: TravelBoxEastActClientRefundTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: ACT_CLIENT_REFUND_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: ACT_CLIENT_REFUND_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_act_transaction_type_source_data_contract
+          class_name: TravelBoxEastActTransactionTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: ACT_TRANSACTION_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: ACT_TRANSACTION_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_adm_user_source_data_contract
+          class_name: TravelBoxEastAdmUserModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: ADM_USER
+          router_database: *database
+          router_schema: *schema
+          router_table: ADM_USER
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_aim_room_source_data_contract
+          class_name: TravelBoxEastAimRoomModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: AIM_ROOM
+          router_database: *database
+          router_schema: *schema
+          router_table: AIM_ROOM
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_airport_source_data_contract
+          class_name: TravelBoxEastAirportModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: AIRPORT
+          router_database: *database
+          router_schema: *schema
+          router_table: AIRPORT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_amdcnx_cause_source_data_contract
+          class_name: TravelBoxEastAmdcnxCauseModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: AMDCNX_CAUSE
+          router_database: *database
+          router_schema: *schema
+          router_table: AMDCNX_CAUSE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_brand_source_data_contract
+          class_name: TravelBoxEastBrandModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: BRAND
+          router_database: *database
+          router_schema: *schema
+          router_table: BRAND
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_cancellation_scheme_source_data_contract
+          class_name: TravelBoxEastCancellationSchemeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CANCELLATION_SCHEME
+          router_database: *database
+          router_schema: *schema
+          router_table: CANCELLATION_SCHEME
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_car_contract_source_data_contract
+          class_name: TravelBoxEastCarContractModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CAR_CONTRACT
+          router_database: *database
+          router_schema: *schema
+          router_table: CAR_CONTRACT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_car_location_source_data_contract
+          class_name: TravelBoxEastCarLocationModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CAR_LOCATION
+          router_database: *database
+          router_schema: *schema
+          router_table: CAR_LOCATION
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_car_type_source_data_contract
+          class_name: TravelBoxEastCarTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CAR_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: CAR_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_city_source_data_contract
+          class_name: TravelBoxEastCityModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CITY
+          router_database: *database
+          router_schema: *schema
+          router_table: CITY
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_cli_address_source_data_contract
+          class_name: TravelBoxEastCliAddressModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CLI_ADDRESS
+          router_database: *database
+          router_schema: *schema
+          router_table: CLI_ADDRESS
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_cli_client_source_data_contract
+          class_name: TravelBoxEastCliClientModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CLI_CLIENT
+          router_database: *database
+          router_schema: *schema
+          router_table: CLI_CLIENT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_cli_comm_group_source_data_contract
+          class_name: TravelBoxEastCliCommGroupModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CLI_COMM_GROUP
+          router_database: *database
+          router_schema: *schema
+          router_table: CLI_COMM_GROUP
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_cli_contact_source_data_contract
+          class_name: TravelBoxEastCliContactModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CLI_CONTACT
+          router_database: *database
+          router_schema: *schema
+          router_table: CLI_CONTACT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_cli_direct_client_source_data_contract
+          class_name: TravelBoxEastCliDirectClientModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CLI_DIRECT_CLIENT
+          router_database: *database
+          router_schema: *schema
+          router_table: CLI_DIRECT_CLIENT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_cli_freq_member_type_source_data_contract
+          class_name: TravelBoxEastCliFreqMemberTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CLI_FREQ_MEMBER_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: CLI_FREQ_MEMBER_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_cli_marital_status_source_data_contract
+          class_name: TravelBoxEastCliMaritalStatusModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CLI_MARITAL_STATUS
+          router_database: *database
+          router_schema: *schema
+          router_table: CLI_MARITAL_STATUS
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_cli_passenger_profile_source_data_contract
+          class_name: TravelBoxEastCliPassengerProfileModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: PASSENGER_PROFILE
+          router_database: *database
+          router_schema: *schema
+          router_table: CLI_PASSENGER_PROFILE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_cli_payment_group_source_data_contract
+          class_name: TravelBoxEastCliPaymentGroupModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CLI_PAYMENT_GROUP
+          router_database: *database
+          router_schema: *schema
+          router_table: CLI_PAYMENT_GROUP
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_cli_profile_address_source_data_contract
+          class_name: TravelBoxEastCliProfileAddressModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CLI_PROFILE_ADDRESS
+          router_database: *database
+          router_schema: *schema
+          router_table: CLI_PROFILE_ADDRESS
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_cli_profile_attribute_source_data_contract
+          class_name: TravelBoxEastCliProfileAttributeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CLI_PROFILE_ATTRIBUTE
+          router_database: *database
+          router_schema: *schema
+          router_table: CLI_PROFILE_ATTRIBUTE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_cli_trade_client_source_data_contract
+          class_name: TravelBoxEastCliTradeClientModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CLI_TRADE_CLIENT
+          router_database: *database
+          router_schema: *schema
+          router_table: CLI_TRADE_CLIENT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_cli_trade_client_type_source_data_contract
+          class_name: TravelBoxEastCliTradeClientTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CLI_TRADE_CLIENT_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: CLI_TRADE_CLIENT_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_client_group_source_data_contract
+          class_name: TravelBoxEastClientGroupModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CLIENT_GROUP
+          router_database: *database
+          router_schema: *schema
+          router_table: CLIENT_GROUP
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_cmp_company_source_data_contract
+          class_name: TravelBoxEastCmpCompanyModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CMP_COMPANY
+          router_database: *database
+          router_schema: *schema
+          router_table: CMP_COMPANY
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_cmp_division_source_data_contract
+          class_name: TravelBoxEastCmpDivisionModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CMP_DIVISION
+          router_database: *database
+          router_schema: *schema
+          router_table: CMP_DIVISION
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_contract_group_source_data_contract
+          class_name: TravelBoxEastContractGroupModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: CONTRACT_GROUP
+          router_database: *database
+          router_schema: *schema
+          router_table: CONTRACT_GROUP
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_country_source_data_contract
+          class_name: TravelBoxEastCountryModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: COUNTRY
+          router_database: *database
+          router_schema: *schema
+          router_table: COUNTRY
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_distribution_channel_source_data_contract
+          class_name: TravelBoxEastDistributionChannelModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: DISTRIBUTION_CHANNEL
+          router_database: *database
+          router_schema: *schema
+          router_table: DISTRIBUTION_CHANNEL
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_fee_type_source_data_contract
+          class_name: TravelBoxEastFeeTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: FEE_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: FEE_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_gen_category_source_data_contract
+          class_name: TravelBoxEastGenCategoryModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: GEN_CATEGORY
+          router_database: *database
+          router_schema: *schema
+          router_table: GEN_CATEGORY
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_gen_contract_source_data_contract
+          class_name: TravelBoxEastGenContractModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: GEN_CONTRACT
+          router_database: *database
+          router_schema: *schema
+          router_table: GEN_CONTRACT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_gen_discount_source_data_contract
+          class_name: TravelBoxEastGenDiscountModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: GEN_DISCOUNT
+          router_database: *database
+          router_schema: *schema
+          router_table: GEN_DISCOUNT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_gen_discount_type_source_data_contract
+          class_name: TravelBoxEastGenDiscountTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: GEN_DISCOUNT_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: GEN_DISCOUNT_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_gen_product_group_source_data_contract
+          class_name: TravelBoxEastGenProductGroupModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: GEN_PRODUCT_GROUP
+          router_database: *database
+          router_schema: *schema
+          router_table: GEN_PRODUCT_GROUP
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_gen_product_type_source_data_contract
+          class_name: TravelBoxEastGenProductTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: GEN_PRODUCT_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: GEN_PRODUCT_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_gen_supplement_category_source_data_contract
+          class_name: TravelBoxEastGenSupplementCategoryModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: GEN_SUPPLEMENT_CATEGORY
+          router_database: *database
+          router_schema: *schema
+          router_table: GEN_SUPPLEMENT_CATEGORY
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_gen_usr_defined_type_source_data_contract
+          class_name: TravelBoxEastGenUsrDefinedTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: GEN_USR_DEFINED_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: GEN_USR_DEFINED_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_holiday_type_source_data_contract
+          class_name: TravelBoxEastHolidayTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: HOLIDAY_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: HOLIDAY_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_ins_contract_source_data_contract
+          class_name: TravelBoxEastInsContractModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: INS_CONTRACT
+          router_database: *database
+          router_schema: *schema
+          router_table: INS_CONTRACT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_ins_policy_type_source_data_contract
+          class_name: TravelBoxEastInsPolicyTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: INS_POLICY_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: INS_POLICY_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_locale_source_data_contract
+          class_name: TravelBoxEastLocaleModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: LOCALE
+          router_database: *database
+          router_schema: *schema
+          router_table: LOCALE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_location_source_data_contract
+          class_name: TravelBoxEastLocationModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: LOCATION
+          router_database: *database
+          router_schema: *schema
+          router_table: LOCATION
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_pax_sub_type_source_data_contract
+          class_name: TravelBoxEastPaxSubTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: PAX_SUB_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: PAX_SUB_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_payment_scheme_source_data_contract
+          class_name: TravelBoxEastPaymentSchemeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: PAYMENT_SCHEME
+          router_database: *database
+          router_schema: *schema
+          router_table: PAYMENT_SCHEME
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_pkg_group_source_data_contract
+          class_name: TravelBoxEastPkgGroupModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: PKG_GROUP
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_GROUP
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_pkg_holiday_source_data_contract
+          class_name: TravelBoxEastPkgHolidayModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: PKG_HOLIDAY
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_HOLIDAY
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_pkg_itinerary_source_data_contract
+          class_name: TravelBoxEastPkgItineraryModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: PKG_ITINERARY
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_ITINERARY
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_pkg_sellable_membership_type_source_data_contract
+          class_name: TravelBoxEastPkgSellableMembershipTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: PKG_SELLABLE_MEMBERSHIP_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_SELLABLE_MEMBERSHIP_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_product_source_data_contract
+          class_name: TravelBoxEastProductModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: PRODUCT
+          router_database: *database
+          router_schema: *schema
+          router_table: PRODUCT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_product_group_source_data_contract
+          class_name: TravelBoxEastProductGroupModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: PRODUCT_GROUP
+          router_database: *database
+          router_schema: *schema
+          router_table: PRODUCT_GROUP
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_product_type_source_data_contract
+          class_name: TravelBoxEastProductTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: PRODUCT_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: PRODUCT_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_rate_type_source_data_contract
+          class_name: TravelBoxEastRateTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RATE_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: RATE_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_accom_booking_source_data_contract
+          class_name: TravelBoxEastResAccomBookingModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_ACCOM_BOOKING
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_ACCOM_BOOKING
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_accom_discount_source_data_contract
+          class_name: TravelBoxEastResAccomDiscountModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_ACCOM_DISCOUNT
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_ACCOM_DISCOUNT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_accom_room_source_data_contract
+          class_name: TravelBoxEastResAccomRoomModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_ACCOM_ROOM
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_ACCOM_ROOM
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_bkg_usr_defined_type_source_data_contract
+          class_name: TravelBoxEastResBkgUsrDefinedTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_BKG_USR_DEFINED_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_BKG_USR_DEFINED_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_booking_source_data_contract
+          class_name: TravelBoxEastResBookingModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_BOOKING
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_BOOKING
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_booking_amnd_source_data_contract
+          class_name: TravelBoxEastResBookingAmndModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_BOOKING_AMND
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_BOOKING_AMND
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_booking_cnx_source_data_contract
+          class_name: TravelBoxEastResBookingCnxModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_BOOKING_CNX
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_BOOKING_CNX
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_booking_cnx_reason_source_data_contract
+          class_name: TravelBoxEastResBookingCnxReasonModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_BOOKING_CNX_REASON
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_BOOKING_CNX_REASON
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_booking_fee_source_data_contract
+          class_name: TravelBoxEastResBookingFeeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_BOOKING_FEE
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_BOOKING_FEE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_booking_item_source_data_contract
+          class_name: TravelBoxEastResBookingItemModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_BOOKING_ITEM
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_BOOKING_ITEM
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_booking_item_amnd_source_data_contract
+          class_name: TravelBoxEastResBookingItemAmndModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_BOOKING_ITEM_AMND
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_BOOKING_ITEM_AMND
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_booking_item_cnx_source_data_contract
+          class_name: TravelBoxEastResBookingItemCnxModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_BOOKING_ITEM_CNX
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_BOOKING_ITEM_CNX
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_booking_package_source_data_contract
+          class_name: TravelBoxEastResBookingPackageModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_BOOKING_PACKAGE
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_BOOKING_PACKAGE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_booking_status_source_data_contract
+          class_name: TravelBoxEastResBookingStatusModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_BOOKING_STATUS
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_BOOKING_STATUS
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_booking_type_source_data_contract
+          class_name: TravelBoxEastResBookingTypeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_BOOKING_TYPE
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_BOOKING_TYPE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_car_booking_source_data_contract
+          class_name: TravelBoxEastResCarBookingModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_CAR_BOOKING
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_CAR_BOOKING
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_flight_booking_source_data_contract
+          class_name: TravelBoxEastResFlightBookingModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_FLIGHT_BOOKING
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_FLIGHT_BOOKING
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_flight_sector_source_data_contract
+          class_name: TravelBoxEastResFlightSectorModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_FLIGHT_SECTOR
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_FLIGHT_SECTOR
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_generic_booking_source_data_contract
+          class_name: TravelBoxEastResGenericBookingModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_GENERIC_BOOKING
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_GENERIC_BOOKING
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_generic_discount_source_data_contract
+          class_name: TravelBoxEastResGenericDiscountModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_GENERIC_DISCOUNT
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_GENERIC_DISCOUNT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_generic_supplement_source_data_contract
+          class_name: TravelBoxEastResGenericSupplementModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_GENERIC_SUPPLEMENT
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_GENERIC_SUPPLEMENT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_insurance_booking_source_data_contract
+          class_name: TravelBoxEastResInsuranceBookingModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_INSURANCE_BOOKING
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_INSURANCE_BOOKING
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_option_status_source_data_contract
+          class_name: TravelBoxEastResOptionStatusModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_OPTION_STATUS
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_OPTION_STATUS
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_passenger_source_data_contract
+          class_name: TravelBoxEastResPassengerModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_PASSENGER
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_PASSENGER
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_pax_item_source_data_contract
+          class_name: TravelBoxEastResPaxItemModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_PAX_ITEM
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_PAX_ITEM
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_trs_exc_booking_item_source_data_contract
+          class_name: TravelBoxEastResTrsExcBookingItemModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_TRS_EXC_BOOKING_ITEM
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_TRS_EXC_BOOKING_ITEM
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_res_trs_item_source_data_contract
+          class_name: TravelBoxEastResTrsItemModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RES_TRS_ITEM
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_TRS_ITEM
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_resort_source_data_contract
+          class_name: TravelBoxEastResortModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: RESORT
+          router_database: *database
+          router_schema: *schema
+          router_table: RESORT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_state_source_data_contract
+          class_name: TravelBoxEastStateModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: STATE
+          router_database: *database
+          router_schema: *schema
+          router_table: STATE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_status_source_data_contract
+          class_name: TravelBoxEastStatusModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: STATUS
+          router_database: *database
+          router_schema: *schema
+          router_table: STATUS
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_supp_additional_attribute_source_data_contract
+          class_name: TravelBoxEastSuppAdditionalAttributeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: SUPP_ADDITIONAL_ATTRIBUTE
+          router_database: *database
+          router_schema: *schema
+          router_table: SUPP_ADDITIONAL_ATTRIBUTE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_supplier_source_data_contract
+          class_name: TravelBoxEastSupplierModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: SUPPLIER
+          router_database: *database
+          router_schema: *schema
+          router_table: SUPPLIER
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_trs_contract_source_data_contract
+          class_name: TravelBoxEastTrsContractModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: TRS_CONTRACT
+          router_database: *database
+          router_schema: *schema
+          router_table: TRS_CONTRACT
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_trs_mode_source_data_contract
+          class_name: TravelBoxEastTrsModeModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: TRS_MODE
+          router_database: *database
+          router_schema: *schema
+          router_table: TRS_MODE
+        - data_contract: app.src.data_structures.data_contracts.source.travelbox_east.v0.travelbox_east_uda_applicable_value_source_data_contract
+          class_name: TravelBoxEastUdaApplicableValueModel
+          data_contract_version: 0.0.1
+          key_path:
+           - name: metadata.table-name
+             value: UDA_APPLICABLE_VALUE
+          router_database: *database
+          router_schema: *schema
+          router_table: UDA_APPLICABLE_VALUE       

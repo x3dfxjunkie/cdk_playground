@@ -1,0 +1,210 @@
+stack_extension: &se snapp
+ingest_pattern: kinesis2kinesis
+active: True
+pattern_instances:
+  - region: us-east-1
+    resources:
+      kinesis_dmz:
+        retention_period: &kdr !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+        stream_mode: &ksm !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      kinesis:
+        retention_period: *kdr
+        stream_mode: *ksm
+      cross_account:
+        cross_account_type: &cat target
+        cross_account_id: &id 536797260050
+        cross_account_role_name: lllingest-use1-lod-lllingest-lambda
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_LOAD_LANDING # Needs update to appropriate default routing
+      default_schema: &schema LND_SNAPP
+      table_path: &key_path_name Header.Namespace # This should match key_path_name
+      data_contracts:
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_account_source_data_contract
+          class_name: SnAppAccountModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.Account
+          router_database: &database LOAD_LANDING
+          router_schema: *schema
+          router_table: ACCOUNT
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_attendance_source_data_contract
+          class_name: SnAppAttendanceModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: Header.Namespace
+              value: SnApp.Attendance
+          router_database: *database
+          router_schema: *schema
+          router_table: ATTENDANCE
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_entitlement_source_data_contract
+          class_name: SnAppEntitlementModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.Entitlement.Update
+            - name: *key_path_name
+              value: SnApp.Entitlement.PartialRefund
+            - name: *key_path_name
+              value: SnApp.Entitlement.Expire
+            - name: *key_path_name
+              value: SnApp.Entitlement.Void
+            - name: *key_path_name
+              value: SnApp.Entitlement.Renew
+            - name: *key_path_name
+              value: SnApp.Entitlement.Blocked
+            - name: *key_path_name
+              value: SnApp.Entitlement.TicketSale
+            - name: *key_path_name
+              value: SnApp.Entitlement.Unblocked
+            - name: *key_path_name
+              value: SnApp.Entitlement.Snapshot
+            - name: *key_path_name
+              value: SnApp.Entitlement.PrioritizeRedemptionOrder
+            - name: *key_path_name
+              value: SnApp.Entitlement.Transfer
+            - name: *key_path_name
+              value: SnApp.Entitlement.UpgradeDowngrade
+            - name: *key_path_name
+              value: SnApp.Entitlement.Refund 
+          router_database: *database
+          router_schema: *schema
+          router_table: ENTITLEMENT
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_entitlement_redemption_source_data_contract
+          class_name: SnAppEntitlementRedemptionModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.Entitlement.Redemption
+          router_database: *database
+          router_schema: *schema
+          router_table: ENTITLEMENT_REDEMPTION
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_payment_method_source_data_contract
+          class_name: SnAppPaymentMethodModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.PaymentMethod
+          router_database: *database
+          router_schema: *schema
+          router_table: PAYMENT_METHOD
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_tax_profile_source_data_contract
+          class_name: SnAppTaxProfileModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.TaxProfile
+          router_database: *database
+          router_schema: *schema
+          router_table: TAX_PROFILE
+        #20230913
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_guest_account_source_data_contract
+          class_name: SnAppGuestAccountModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.GuestAccount.UpdateDemographics
+          router_database: *database
+          router_schema: *schema
+          router_table: GUEST_ACCOUNT
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_media_source_data_contract
+          class_name: SnAppMediaModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.Media.Assign
+            - name: *key_path_name
+              value: SnApp.Media.Disable
+            - name: *key_path_name
+              value: SnApp.Media.Enabled
+          router_database: *database
+          router_schema: *schema
+          router_table: MEDIA
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_workstation_source_data_contract
+          class_name: SnAppWorkstationModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.Workstation
+          router_database: *database
+          router_schema: *schema
+          router_table: WORKSTATION
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_redemption_source_data_contract
+          class_name: SnAppRedemptionModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.Redemption.ReEntry
+            - name: *key_path_name
+              value: SnApp.Redemption.Crossover
+            - name: *key_path_name
+              value: SnApp.Redemption.Entry
+          router_database: *database
+          router_schema: *schema
+          router_table: REDEMPTION
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_transaction_source_data_contract
+          class_name: SnAppTransactionModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: "SnApp.Transaction.AccountChangeStatus"
+            - name: *key_path_name
+              value: SnApp.Transaction.ChangePerformance
+            - name: *key_path_name
+              value: SnApp.Transaction.FailedSaleVoidCancellation
+            - name: *key_path_name
+              value: SnApp.Transaction.ForeignCurrencyExchange
+            - name: *key_path_name
+              value: SnApp.Transaction.GiftCardActivation
+            - name: *key_path_name
+              value: SnApp.Transaction.GiftCardCashout
+            - name: *key_path_name
+              value: SnApp.Transaction.GiftCardReload
+            - name: *key_path_name
+              value: SnApp.Transaction.InstallmentContractVoid
+            - name: *key_path_name
+              value: SnApp.Transaction.ManualRedemption
+            - name: *key_path_name
+              value: SnApp.Transaction.MediaAssign
+            - name: *key_path_name
+              value: SnApp.Transaction.MediaChangeStatus
+            - name: *key_path_name
+              value: SnApp.Transaction.NegativeTransaction
+            - name: *key_path_name
+              value: SnApp.Transaction.Normal
+            - name: *key_path_name
+              value: SnApp.Transaction.OrderAbort
+            - name: *key_path_name
+              value: SnApp.Transaction.OrderVoid
+            - name: *key_path_name
+              value: SnApp.Transaction.PortfolioMerge
+            - name: *key_path_name
+              value: SnApp.Transaction.ProductRefund
+            - name: *key_path_name
+              value: SnApp.Transaction.RecycleMedia
+            - name: *key_path_name
+              value: SnApp.Transaction.RedemptionVoid
+            - name: *key_path_name
+              value: SnApp.Transaction.Renewal
+            - name: *key_path_name
+              value: SnApp.Transaction.TicketChangePriority
+            - name: *key_path_name
+              value: SnApp.Transaction.TicketTransfer
+            - name: *key_path_name
+              value: SnApp.Transaction.TicketUpdate
+            - name: *key_path_name
+              value: SnApp.Transaction.UpgradeDowngrade
+          router_database: *database
+          router_schema: *schema
+          router_table: TRANSACTION
+        - data_contract: app.src.data_structures.data_contracts.source.snapp.v0.snapp_ledger_log_source_data_contract
+          class_name: SnAppLedgerLogModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: SnApp.LedgerLog.Manual
+          router_database: *database
+          router_schema: *schema
+          router_table: LEDGER_LOG

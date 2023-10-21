@@ -1,0 +1,91 @@
+stack_extension: &se testing_static
+region: &region-1 us-east-1
+resources:
+    cluster_name: &rcm load-testing-static
+    dynamo_db:
+      - table_name: guest360-load-testing-static-sfn-exec-state
+        partition_key: execution_name
+      - table_name: guest360-load-testing-static-sfn-exec-eval
+        partition_key: execution_name
+        sort_key: test_case_record_name
+    execute_system_test_rds_dms:
+      name: "execute_system_test_rds_dms"
+      description: "system test rds statemachine"
+      definition_file: "execute_system_test_rds_dms.yaml"
+      iam:
+        role_name: execute_system_test_kinesis_ingest_sfn_role
+        assumed_by: !!python/object/apply:aws_cdk.aws_iam.ServicePrincipal
+          - states.amazonaws.com
+        description: Statemachine execute_system_test_kinesis_ingest role
+      step_function_parameters:
+        limit_records: "100"
+    ecs:
+      region: *region-1
+      memory_mib: 30720
+      cpu_limitmb: 4096
+      networking:
+        vpc_id: vpc-02da7a04db8bee27b
+        is_default: False
+        allowlist:
+          ingress:
+            cidrs: &cidr
+              - "10.0.0.0/8"
+            ports:
+              - 5557
+              - 5672
+              - 15672
+          egress:
+            cidr: *cidr
+            ports:
+              - -1
+        blocklist:
+          ingress:
+            cidrs:
+              - NULL
+            ports:
+              - NULL
+      ecr:
+        repository_name: lst-use1-repository
+      secret_name: &secret_name lst-use1-loadtest-static-secret
+      iam: &iam
+        role_name: static-ecs-locust-role
+        assumed_by: !!python/object/apply:aws_cdk.aws_iam.ServicePrincipal
+          - ecs-tasks.amazonaws.com
+        description: IAM Role to be used by the ECS consumer
+      s3:
+        bucket_name: *rcm
+      services:
+        - service_name: locust
+          repository_name: guest360/load_testing/locust
+          image_tag: &image latest
+          desired_count : 0
+          cloudmap: False
+          command:
+          environment:
+            AWS_EMF_AGENT_ENDPOINT: tcp://127.0.0.1:25888
+            OTEL_ENDPOINT: 127.0.0.1:4317
+          sidecar:
+            registry_repository_name: public.ecr.aws/cloudwatch-agent/cloudwatch-agent
+            tag: latest
+            environment:
+              CW_CONFIG_CONTENT: |
+                {
+                  "logs": {
+                    "metrics_collected": {
+                      "emf": { }
+                    }
+                  }
+                }
+            port_mappings:
+              - 25888
+        - service_name: rabbitmq
+          repository_name: guest360/load_testing/rabbitmq
+          image_tag: &imagerabbit latest
+          desired_count : 1
+          cloudmap: True
+          command:
+          environment:
+            RABBITMQ_DEFAULT_USER: guest
+            RABBITMQ_DEFAULT_PASS: guest # pragma: allowlist secret
+            RABBITMQ_DEFAULT_VHOST: my_vhost
+            RABBITMQ_QUEUE_NAME: default_queue

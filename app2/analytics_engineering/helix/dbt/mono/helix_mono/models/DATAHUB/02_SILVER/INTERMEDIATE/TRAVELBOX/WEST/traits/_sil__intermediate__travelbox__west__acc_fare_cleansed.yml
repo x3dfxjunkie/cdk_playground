@@ -1,0 +1,315 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__west__acc_fare_cleansed
+    description: '{{ doc("sil__intermediate__travelbox__west__acc_fare_cleansed") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_cleansed
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_contract_id
+            - data_fare_no
+            - data_room_apt_no
+            - metadata_checksum
+
+    columns:
+      - name: data_fare_no
+        description: "The system generated number for the daily fare | example: 1"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_nett_rate
+        description: "A flag indicating the fares defined for the board basis are costs ( value is 1 ) or prices ( value is 0 ) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_season
+        description: "The system generated number of the season for which the rates are defined | example: 2"
+        meta:
+          checksum: True
+
+      - name: data_days
+        description: "The days of the week for which the allocations are defined_x000D_
+  1 - Sunday_x000D_
+  2 - Monday_x000D_
+  3 - Tuesday_x000D_
+  4 - Wednesday_x000D_
+  5 - Thursday_x000D_
+  6 - Friday_x000D_
+  7 - Saturday_x000D_
+  Example1 :- If allocations are for all days of the week in the defined period this value is 1234567_x000D_
+  Example2 :- If allocations are for only weekends this value is 17 | example: 1234567"
+        meta:
+          checksum: True
+
+      - name: data_nights
+        description: "This is 1 since the rates are for a day. | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_currency
+        description: "The TravelBox code of the currency in which the board basis fares are defined | example: USD"
+        meta:
+          checksum: True
+
+      - name: data_single_fare
+        description: "The single fare amount | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_twin_fare
+        description: "The twin fare amount | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_unit_fare
+        description: "The unit fare amount | example: 2272.0"
+        meta:
+          checksum: True
+
+      - name: data_extrabed_fare
+        description: "The extrabed fare amount | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_teen_fare
+        description: "The teen fare of the board basis | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_child_fare
+        description: "The child fare of the board basis | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_infant_fare
+        description: "The infant fare of the board basis | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_foc_contract
+        description: "The system generated id of the contract | example: 4390"
+        meta:
+          checksum: True
+
+      - name: data_foc_no
+        description: "Deprecated | example: 2805"
+        meta:
+          checksum: True
+
+      - name: data_child2_fare
+        description: "The child2 fare of the board basis | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_teen2_fare
+        description: "The teen2 fare of the board basis | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_child3_fare
+        description: "The child3 fare of the board basis | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_child4_fare
+        description: "The child4 fare of the board basis | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_child5_fare
+        description: "The child5 fare of the board basis | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_single2_fare
+        description: "The single2 fare amount | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_twin2_fare
+        description: "The twin2 fare amount | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_extrabed2_fare
+        description: "The extrabed2 fare amount | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_min_pax
+        description: "If this is a group based contract, the minimum number of pax for which the rates are applied | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_max_pax
+        description: "If this is a group based contract, the maximum number of pax for which the rates are applied | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 1983-12-21 02:16:51"
+        meta:
+          checksum: True
+
+      - name: data_contract_id
+        description: "The system generated id of the contract | example: 55491"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_room_apt_no
+        description: "The system generated number of the room/apartment of the contract | example: 35"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: min_metadata_timestamp
+        description: "The Minimum Metadata Timestamp field is used for updating the version end date of the active record in the target table"
+        tests:
+          - not_null
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

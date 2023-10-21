@@ -1,0 +1,118 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__charge_group_folio_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__charge_group_folio_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: data_folio_id
+        description: ""
+
+      - name: primary_folio_indicator
+        description: ""
+
+      - name: root_charge_group_id
+        description: ""
+
+      - name: folio_account_type_name
+        description: ""
+
+      - name: folio_type_name
+        description: ""
+
+      - name: source_account_center_id
+        description: ""
+
+      - name: folio_status_name
+        description: ""
+
+      - name: travel_agency_id
+        description: ""
+
+      - name: default_charge_group_id
+        description: ""
+
+      - name: settlement_method_id
+        description: ""
+
+      - name: charge_group_folio_start_date
+        description: ""
+
+      - name: charge_group_folio_end_date
+        description: ""
+
+      - name: responsible_party_id
+        description: ""
+
+      - name: bill_party_id
+        description: ""
+
+      - name: primary_party_guest_name
+        description: ""
+
+      - name: checkout_option_type_name
+        description: ""
+
+      - name: transaction_party_locator_id
+        description: ""
+
+      - name: tax_exempt_id
+        description: ""
+
+      - name: tax_exempt_type_name
+        description: ""
+
+      - name: tax_exempt_certificate_number
+        description: ""
+
+      - name: small_balance_writeoff_indicator
+        description: ""
+
+      - name: folio_account_limit_amount
+        description: ""
+
+      - name: folio_account_limit_currency_code
+        description: ""
+
+      - name: folio_active_indicator
+        description: ""
+
+      - name: data_onsite_indicator
+        description: ""
+
+      - name: payment_owner_indicator
+        description: ""
+
+      - name: zero_balance_verify_indicator
+        description: ""
+
+      - name: settlement_frequency_type_name
+        description: ""
+
+      - name: create_user_id
+        description: ""
+
+      - name: create_datetime
+        description: ""
+
+      - name: create_date
+        description: ""
+
+      - name: update_user_id
+        description: ""
+
+      - name: source_update_datetime
+        description: ""
+
+      - name: source_update_date
+        description: ""

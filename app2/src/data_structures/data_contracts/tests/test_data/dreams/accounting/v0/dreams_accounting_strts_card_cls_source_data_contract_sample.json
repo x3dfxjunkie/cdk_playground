@@ -1,0 +1,52 @@
+[
+    {
+        "data": {
+            "STRTS_CARD_CLS_CD": "0118",
+            "STRTS_CARD_CLS_NM": "Gift Card",
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:53.675Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T21:37:35.000847Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "STRTS_CARD_CLS",
+            "transaction-id": 2031637
+        }
+    },
+    {
+        "data": {
+            "STRTS_CARD_CLS_CD": "0120",
+            "STRTS_CARD_CLS_NM": "Gift Cards",
+            "CREATE_USR_ID_CD": "INC3742981",
+            "CREATE_DTS": "2008-06-06T19:24:46.629Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T23:07:55.051097Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "STRTS_CARD_CLS",
+            "transaction-id": 2031638
+        }
+    },
+    {
+        "data": {
+            "STRTS_CARD_CLS_CD": "0000",
+            "STRTS_CARD_CLS_NM": "LILO CONV",
+            "CREATE_USR_ID_CD": "LILO CONV",
+            "CREATE_DTS": "2009-08-11T21:39:18.361Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T23:08:00.280006Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "STRTS_CARD_CLS"
+        }
+    }
+]

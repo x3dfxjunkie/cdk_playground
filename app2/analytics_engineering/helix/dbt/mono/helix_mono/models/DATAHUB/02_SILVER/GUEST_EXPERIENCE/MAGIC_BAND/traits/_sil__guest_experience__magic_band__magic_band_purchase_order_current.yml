@@ -1,0 +1,100 @@
+version: 2
+
+models:
+  - name: sil__guest_experience__magic_band__magic_band_purchase_order_current
+    description: "{{ doc('sil__guest_experience__magic_band__magic_band_purchase_order_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=guest_experience
+        - sub_domain=magic_band
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: magic_band_purchase_order_id
+        description: ""
+
+      - name: vendor_id
+        description: ""
+
+      - name: vendor_sap_id
+        description: ""
+
+      - name: vendor_name
+        description: ""
+
+      - name: vendor_code
+        description: ""
+
+      - name: vendor_role_code
+        description: ""
+
+      - name: vendor_role_description
+        description: ""
+
+      - name: manufacturer_id
+        description: ""
+
+      - name: purchase_order_number
+        description: ""
+
+      - name: placed_datetime
+        description: ""
+
+      - name: placed_date
+        description: ""
+
+      - name: expected_shipment_datetime
+        description: ""
+
+      - name: expected_shipment_date
+        description: ""
+
+      - name: expected_delivery_datetime
+        description: ""
+
+      - name: expected_delivery_date
+        description: ""
+
+      - name: shipment_date
+        description: ""
+
+      - name: delivery_date
+        description: ""
+
+      - name: purchase_order_item_id
+        description: ""
+
+      - name: vendor_inventory_item_id
+        description: ""
+
+      - name: item_count
+        description: ""
+
+      - name: purchase_order_status_id
+        description: ""
+
+      - name: status_code
+        description: ""
+
+      - name: status_description
+        description: ""
+
+      - name: source_system_logical_delete_indicator
+        description: ""
+
+      - name: source_system_create_user_id
+        description: ""
+
+      - name: source_system_create_datetime
+        description: ""
+
+      - name: source_system_update_user_id
+        description: ""
+
+      - name: source_system_update_datetime
+        description: ""

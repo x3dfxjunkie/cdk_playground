@@ -1,0 +1,92 @@
+version: '3.8'
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    hostname: rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest # pragma: allowlist secret
+      RABBITMQ_DEFAULT_VHOST: my_vhost
+      RABBITMQ_QUEUE_NAME: default_queue
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  producer-1:
+    build:
+      dockerfile: dockerfile-producer
+    depends_on:
+      - rabbitmq
+
+  producer-2:
+    build:
+      dockerfile: dockerfile-producer
+    depends_on:
+      - rabbitmq
+
+  producer-3:
+    build:
+      dockerfile: dockerfile-producer
+    depends_on:
+      - rabbitmq
+
+  consumer-0:
+    build:
+      dockerfile: rabbitmq.Dockerfile
+    depends_on:
+      - rabbitmq
+    environment:
+      RABBITMQ_QUEUE: default_queue
+      KINESIS_STREAM: KINESIS_STREAM
+      RABBITMQ_HOST: rabbitmq
+      RABBITMQ_PORT: 5672
+      RABBITMQ_VHOST: my_vhost
+      RABBIT_USR: guest
+      RABBIT_PWD: guest # pragma: allowlist secret
+      RABBITMQ_SECRET_PATH: test # pragma: allowlist secret
+      FAILED_MSG_BUCKET_NAME: test
+      LOCAL: True
+      POLLING_TIME: 0.2
+      PREFETCH_COUNT: 100
+      USE_SSL: False
+
+  consumer-1:
+    build:
+      dockerfile: rabbitmq.Dockerfile
+    depends_on:
+      - rabbitmq
+    environment:
+      RABBITMQ_QUEUE: default_queue
+      KINESIS_STREAM: KINESIS_STREAM
+      RABBITMQ_HOST: rabbitmq
+      RABBITMQ_PORT: 5672
+      RABBITMQ_VHOST: my_vhost
+      RABBIT_USR: guest
+      RABBIT_PWD: guest # pragma: allowlist secret
+      RABBITMQ_SECRET_PATH: test # pragma: allowlist secret
+      FAILED_MSG_BUCKET_NAME: test
+      LOCAL: True
+      POLLING_TIME: 0.2
+      PREFETCH_COUNT: 100
+      USE_SSL: False
+
+  consumer-2:
+    build:
+      dockerfile: rabbitmq.Dockerfile
+    depends_on:
+      - rabbitmq
+    environment:
+      RABBITMQ_QUEUE: default_queue
+      KINESIS_STREAM: KINESIS_STREAM
+      RABBITMQ_HOST: rabbitmq
+      RABBITMQ_PORT: 5672
+      RABBITMQ_VHOST: my_vhost
+      RABBIT_USR: guest
+      RABBIT_PWD: guest # pragma: allowlist secret
+      RABBITMQ_SECRET_PATH: test # pragma: allowlist secret
+      FAILED_MSG_BUCKET_NAME: test
+      LOCAL: True
+      POLLING_TIME: 0.2
+      PREFETCH_COUNT: 100
+      USE_SSL: False

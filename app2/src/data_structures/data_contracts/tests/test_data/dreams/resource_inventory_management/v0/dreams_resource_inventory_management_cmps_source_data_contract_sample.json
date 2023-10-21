@@ -1,0 +1,62 @@
+[
+    {
+        "data": {
+            "CMPS_ID": 2,
+            "CMPS_NM": "Disneyland",
+            "CMPS_STRT_DT": "1955-07-15T00:00:00Z",
+            "CREATE_DTS": "2009-09-10T14:05:50Z",
+            "CREATE_USR_ID_CD": "DDONAL01",
+            "JDO_SEQ_NB": 1,
+            "UPDT_DTS": "2009-09-25T10:09:49.502000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "cmps",
+            "timestamp": "2023-07-26T01:12:17.604749Z"
+        }
+    },
+    {
+        "data": {
+            "CMPS_ID": 3,
+            "CMPS_NM": "Pacific Region GMT-10",
+            "CMPS_STRT_DT": "2010-05-18T00:00:00Z",
+            "CREATE_DTS": "2010-06-03T11:58:19.334477Z",
+            "CREATE_USR_ID_CD": "DDONAL01",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2010-06-03T11:58:19.334477Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "cmps",
+            "timestamp": "2023-07-26T01:12:17.613130Z"
+        }
+    },
+    {
+        "data": {
+            "CMPS_ID": 1,
+            "CMPS_NM": "Walt Disney World",
+            "CMPS_STRT_DT": "1971-10-01T00:00:00Z",
+            "CREATE_DTS": "2009-09-10T14:05:50Z",
+            "CREATE_USR_ID_CD": "DDONAL01",
+            "JDO_SEQ_NB": 43,
+            "UPDT_DTS": "2023-02-22T01:22:51.272000Z",
+            "UPDT_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "cmps",
+            "timestamp": "2023-07-26T01:12:17.596981Z"
+        }
+    }
+]

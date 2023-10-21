@@ -1,0 +1,291 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__east__res_trs_exc_booking_item_versioned
+    description: '{{ doc("sil__intermediate__travelbox__east__res_trs_exc_booking_item_versioned") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_versioned
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_booking_id
+            - data_item_no
+            - data_product_code
+            - metadata_checksum
+
+    columns:
+      - name: data_booking_id
+        description: "The system generated id of the booking | example: 28140837"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_product_code
+        description: "Deprecated | example: TRS"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_item_no
+        description: "Deprecated | example: 1"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_type
+        description: "The availbility type (1 = Available 2 = Free Sell) | example: T"
+
+      - name: data_transfer_no
+        description: "NaN | example: 1"
+
+      - name: data_pickup_point
+        description: "Pick up point of the transfer or excursion | example: Honolulu International Apt , Honolulu , United States of America"
+
+      - name: data_dropoff_point
+        description: "Drop off point of the transfer or excursion | example: Aulani a Disney Resort and Spa , Ko Olina , United States of America"
+
+      - name: data_description
+        description: "The TravelBox name of the board basis | example: mNISXeNcVIwkhqZZKhHP"
+
+      - name: data_transfer_mode_code
+        description: "Transfer mode code, Car- CAR, Seat in Coach - SIC, Lux Bus - LUB, Limo - Limo | example: SSH"
+
+      - name: data_transfer_mode
+        description: "Deprecated | example: Shared Shuttle"
+
+      - name: data_pickup_point_code
+        description: "Deprecated | example: HNL"
+
+      - name: data_pickup_point_type
+        description: "Deprecated | example: A"
+
+      - name: data_dropoff_point_code
+        description: "Corresponding code in the city table to the drop off city | example: AUL"
+
+      - name: data_dropoff_point_type
+        description: "Deprecated | example: R"
+
+      - name: data_exc_location_id
+        description: "Deprecated | example: 9851"
+
+      - name: data_exc_location
+        description: "Excursion location description | example: WKXvGOImcQWyfGSFdQxx"
+
+      - name: data_transfer_mode_no
+        description: "NaN | example: 1"
+
+      - name: data_minimum_vehicles
+        description: "The minimum number of vehicles associated with the transfer/excursion booking item | example: 1"
+
+      - name: data_return_compulsory
+        description: "Oracle managed system tables used for materialised views | example: 0"
+
+      - name: data_transfer_name
+        description: "Name of the transfer | example: H - 2023 HI Hele Hele Shared Shuttle"
+
+      - name: data_h2_h_product_id
+        description: "NaN | example: 0"
+
+      - name: data_h2_h_booking_type_id
+        description: "NaN | example: 0"
+
+      - name: data_outbound_flight_no
+        description: "NaN | example: ZhcpxgRfBxNQRWVojZkp"
+
+      - name: data_outbound_dep_apt
+        description: "NaN | example: nSHJHtFTqwjNcdCSvCEj"
+
+      - name: data_outbound_arr_time
+        description: "NaN | example: 1979-02-10 11:14:58"
+
+      - name: data_outbound_airline
+        description: "IATA code of destination airport | example: tiUGuWKNxIGtPkvSEdtX"
+
+      - name: data_inbound_flight_no
+        description: "NaN | example: LJBupMZtNZXHUVfPKVZH"
+
+      - name: data_inbound_arr_apt
+        description: "NaN | example: RwpcnCZnlIDrWHgagVLR"
+
+      - name: data_inbound_dep_time
+        description: "NaN | example: 1997-03-29 21:30:49"
+
+      - name: data_inbound_airline
+        description: "IATA code of inbound airline | example: SVCmztjVGBJSxVtvsGNB"
+
+      - name: data_outbound_ship_name
+        description: "NaN | example: aSKvvdpyrsasFifLcBCq"
+
+      - name: data_outbound_dep_port
+        description: "NaN | example: nskLedDqfrqzoMhbZbrp"
+
+      - name: data_inbound_arr_port
+        description: "NaN | example: OnyFeDsCngFtEnjDHwEg"
+
+      - name: data_inbound_ship_name
+        description: "NaN | example: gyXTaAcBZXLYnFxXTZxX"
+
+      - name: data_cru_foreign_bkng_id
+        description: "NaN | example: OWaKcQudWhCMyOrsFEbQ"
+
+      - name: data_start_end_times_edited
+        description: "In reservation transfer summary or reservation transfer loading start and end times edited or not are specified or not, 1 - edited , 0 not not | example: 0"
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 2001-09-29 11:47:53"
+
+      - name: data_fulfillment_freq
+        description: "Specify the frequency type of gategory, P: per Person, I: Per Item | example: P"
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: metadata_version_start_datetime
+        description: "Version start datetime"
+        tests:
+          - not_null
+
+      - name: metadata_version_end_datetime
+        description: "Version end datetime"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

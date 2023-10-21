@@ -1,0 +1,70 @@
+version: 2
+
+models:
+  - name: sil__guest_experience__magic_band__magic_band_guest_link_history_current
+    description: "{{ doc('sil__guest_experience__magic_band__magic_band_guest_link_history_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=guest_experience
+        - sub_domain=magic_band
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: guest_link_history_id
+        description: ""
+
+      - name: primary_guest_link_id
+        description: ""
+
+      - name: primary_guest_link_unique_identifier
+        description: ""
+
+      - name: primary_external_system_guest_identifier_value
+        description: ""
+
+      - name: primary_external_system_guest_identifier_name
+        description: ""
+
+      - name: primary_guest_first_name
+        description: ""
+
+      - name: primary_guest_last_name
+        description: ""
+
+      - name: prior_guest_link_id
+        description: ""
+
+      - name: prior_guest_link_unique_identifier
+        description: ""
+
+      - name: prior_external_system_guest_identifier_value
+        description: ""
+
+      - name: prior_external_system_guest_identifier_name
+        description: ""
+
+      - name: prior_guest_first_name
+        description: ""
+
+      - name: prior_guest_last_name
+        description: ""
+
+      - name: source_system_create_user_id
+        description: ""
+
+      - name: source_system_create_datetime
+        description: ""
+
+      - name: source_system_update_user_id
+        description: ""
+
+      - name: source_system_update_datetime
+        description: ""
+
+      - name: source_system_logical_delete_indicator
+        description: ""

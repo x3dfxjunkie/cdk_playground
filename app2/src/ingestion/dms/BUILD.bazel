@@ -1,0 +1,43 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/build_rules/lambda_packaging:lambda.bzl", "contains", "endswith", "py_lambda_zip", "startswith")
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+
+py_library(
+    name = "dms_task_manager",
+    srcs = glob(["dms_task_manager/*.py"]),
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("aws-lambda-powertools"),
+        requirement("retry"),
+    ],
+)
+
+py_lambda_zip(
+    name = "dms_task_manager_archive",
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+        # Ignore boto since it's provided by Lambda.
+        startswith("boto3"),
+        startswith("botocore"),
+        startswith("s3transfer"),
+        startswith("setuptools"),
+        # With the move to hermetic toolchains, the zip gets a lib/ directory containing the
+        # python runtime. We don't need that.
+        startswith("lib/"),
+        startswith("__init__.py"),
+    ],
+    target = ":dms_task_manager",
+)
+
+pytest_test(
+    name = "dms_src_tests",
+    srcs = glob(["tests/**/*.py"]),
+    deps = [
+        ":dms_task_manager",
+        requirement("moto"),
+        requirement("boto3"),
+        requirement("botocore"),
+    ],
+)

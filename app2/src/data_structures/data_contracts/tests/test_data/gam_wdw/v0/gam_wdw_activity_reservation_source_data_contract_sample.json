@@ -1,0 +1,791 @@
+[
+    {
+        "action": "CREATE",
+        "activityReservation": {
+            "activity": {
+                "duration": 1,
+                "enterpriseFacility": 210507,
+                "enterpriseProduct": 290140,
+                "freezeElapsedTime": 0,
+                "freezeTimeToLive": 0,
+                "inventoryDetails": {
+                    "reservableResourceId": [
+                        "6F63B544-06A6-2170-E043-9906F4D12170",
+                        "6F63B544-06A6-2170-E043-9906F4D12170"
+                    ]
+                },
+                "partyMix": {
+                    "adult": "0",
+                    "child": "2",
+                    "infant": "0",
+                    "junior": "0",
+                    "senior": "0"
+                },
+                "productType": "ChildActivityProduct",
+                "serviceStartDate": "2023-09-13T12:00:00Z",
+                "wdproEnterpriseProduct": 290140,
+                "wdproFacility": 210507
+            },
+            "activity-reservation-number": "353252746160",
+            "bookingDate": "2023-09-09T04:00:00Z",
+            "contactName": "Gigantic,New",
+            "extraCareRequired": false,
+            "inventoryOverideReasonId": 0,
+            "primaryGuest": {
+                "id": {
+                    "type": "TRANSACTIONAL_GUEST_ID",
+                    "value": "546597761"
+                }
+            },
+            "reservationNumber": "353252746160",
+            "servicePeriodId": 0,
+            "status": "Booked",
+            "transactionalGuests": [
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546597764"
+                    },
+                    "relationship": [
+                        "PARTICIPANT"
+                    ],
+                    "role": "Guest"
+                },
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546597765"
+                    },
+                    "relationship": [
+                        "PARTICIPANT"
+                    ],
+                    "role": "Guest"
+                },
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546597761"
+                    },
+                    "relationship": [
+                        "OWNER"
+                    ],
+                    "role": "Guest"
+                }
+            ],
+            "travelPlanId": 753252769204,
+            "unitMeasureCount": 1,
+            "vipLevel": "0"
+        },
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546597764"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546597765"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546597761"
+            }
+        ],
+        "timestamp": "2023-09-09T06:31:33Z",
+        "type": "Activity Reservation"
+    },
+    {
+        "action": "CREATE",
+        "activityReservation": {
+            "activity": {
+                "duration": 1,
+                "enterpriseFacility": 80007823,
+                "enterpriseProduct": 18660437,
+                "freezeElapsedTime": 0,
+                "freezeTimeToLive": 0,
+                "inventoryDetails": {
+                    "reservableResourceId": [
+                        "b31ab64e-ff11-40ad-aaf8-482a55797974"
+                    ]
+                },
+                "partyMix": {
+                    "adult": "1",
+                    "child": "0",
+                    "infant": "0",
+                    "junior": "0",
+                    "senior": "0"
+                },
+                "productType": "TourActivityProduct",
+                "serviceStartDate": "2023-09-11T15:00:00Z",
+                "wdproEnterpriseProduct": 18660437,
+                "wdproFacility": 80007823
+            },
+            "activity-reservation-number": "353251744574",
+            "bookingDate": "2023-09-08T04:00:00Z",
+            "contactName": "Eec,Etoeauto",
+            "extraCareRequired": false,
+            "inventoryOverideReasonId": 0,
+            "primaryGuest": {
+                "id": {
+                    "type": "TRANSACTIONAL_GUEST_ID",
+                    "value": "546592323"
+                }
+            },
+            "reservationNumber": "353251744574",
+            "servicePeriodId": 18660437,
+            "status": "Booked",
+            "transactionalGuests": [
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546592323"
+                    },
+                    "relationship": [
+                        "OWNER",
+                        "PARTICIPANT"
+                    ],
+                    "role": "Guest"
+                }
+            ],
+            "travelPlanId": 953251129238,
+            "unitMeasureCount": 1,
+            "vipLevel": "0"
+        },
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546592323"
+            }
+        ],
+        "timestamp": "2023-09-08T19:35:33Z",
+        "type": "Activity Reservation"
+    },
+    {
+        "action": "CREATE",
+        "activityReservation": {
+            "activity": {
+                "duration": 1,
+                "enterpriseFacility": 80008117,
+                "enterpriseProduct": 74099,
+                "freezeElapsedTime": 0,
+                "freezeTimeToLive": 0,
+                "inventoryDetails": {
+                    "reservableResourceId": [
+                        "6E344325-0204-D066-E043-9906F4D1D066"
+                    ]
+                },
+                "partyMix": {
+                    "adult": "1",
+                    "child": "0",
+                    "infant": "0",
+                    "junior": "0",
+                    "senior": "0"
+                },
+                "productType": "RecreationActivityProduct",
+                "serviceStartDate": "2023-09-10T23:00:00Z",
+                "wdproEnterpriseProduct": 74099,
+                "wdproFacility": 80008117
+            },
+            "activity-reservation-number": "353251746132",
+            "bookingDate": "2023-09-08T04:00:00Z",
+            "contactName": "ALCmelQM,ALCbuSaP",
+            "extraCareRequired": false,
+            "inventoryOverideReasonId": 0,
+            "primaryGuest": {
+                "id": {
+                    "type": "TRANSACTIONAL_GUEST_ID",
+                    "value": "546594899"
+                }
+            },
+            "reservationNumber": "353251746132",
+            "servicePeriodId": 0,
+            "status": "Booked",
+            "transactionalGuests": [
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546594899"
+                    },
+                    "relationship": [
+                        "OWNER"
+                    ],
+                    "role": "Guest"
+                }
+            ],
+            "travelPlanId": 953251129183,
+            "unitMeasureCount": 1,
+            "vipLevel": "0"
+        },
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546594899"
+            }
+        ],
+        "timestamp": "2023-09-08T22:03:04Z",
+        "type": "Activity Reservation"
+    },
+    {
+        "action": "CREATE",
+        "activityReservation": {
+            "activity": {
+                "duration": 1,
+                "enterpriseFacility": 19267175,
+                "enterpriseProduct": 19444523,
+                "freezeElapsedTime": 0,
+                "freezeTimeToLive": 0,
+                "inventoryDetails": {
+                    "reservableResourceId": [
+                        "36281856-1408-8605-eaab-865167909f1d",
+                        "36281856-1408-8605-eaab-865167909f1d"
+                    ]
+                },
+                "partyMix": {
+                    "adult": "2",
+                    "child": "0",
+                    "infant": "0",
+                    "junior": "0",
+                    "senior": "0"
+                },
+                "productType": "ActivityProduct",
+                "serviceStartDate": "2023-09-25T15:10:00Z",
+                "wdproEnterpriseProduct": 19444523,
+                "wdproFacility": 19267175
+            },
+            "activity-reservation-number": "353251744571",
+            "bookingDate": "2023-09-08T04:00:00Z",
+            "contactName": "Tstmfqqkqe,Tstdqctcvo",
+            "extraCareRequired": false,
+            "inventoryOverideReasonId": 0,
+            "primaryGuest": {
+                "id": {
+                    "type": "TRANSACTIONAL_GUEST_ID",
+                    "value": "546592198"
+                }
+            },
+            "reservationNumber": "353251744571",
+            "servicePeriodId": 0,
+            "status": "Booked",
+            "transactionalGuests": [
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546592198"
+                    },
+                    "relationship": [
+                        "OWNER"
+                    ],
+                    "role": "Guest"
+                },
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546592199"
+                    },
+                    "relationship": [
+                        "PARTICIPANT"
+                    ],
+                    "role": "Guest"
+                },
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546592200"
+                    },
+                    "relationship": [
+                        "PARTICIPANT"
+                    ],
+                    "role": "Guest"
+                }
+            ],
+            "travelPlanId": 753251759936,
+            "unitMeasureCount": 1,
+            "vipLevel": "0"
+        },
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546592198"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546592199"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546592200"
+            }
+        ],
+        "timestamp": "2023-09-08T19:31:46Z",
+        "type": "Activity Reservation"
+    },
+    {
+        "action": "CREATE",
+        "activityReservation": {
+            "activity": {
+                "duration": 1,
+                "enterpriseFacility": 19267175,
+                "enterpriseProduct": 19444523,
+                "freezeElapsedTime": 0,
+                "freezeTimeToLive": 0,
+                "inventoryDetails": {
+                    "reservableResourceId": [
+                        "36281856-1408-8605-eaab-865167909f1d",
+                        "36281856-1408-8605-eaab-865167909f1d"
+                    ]
+                },
+                "partyMix": {
+                    "adult": "2",
+                    "child": "0",
+                    "infant": "0",
+                    "junior": "0",
+                    "senior": "0"
+                },
+                "productType": "ActivityProduct",
+                "serviceStartDate": "2023-09-25T15:10:00Z",
+                "wdproEnterpriseProduct": 19444523,
+                "wdproFacility": 19267175
+            },
+            "activity-reservation-number": "353251744765",
+            "bookingDate": "2023-09-08T04:00:00Z",
+            "contactName": "Tstutdcitj,Tstpjwwqzg",
+            "extraCareRequired": false,
+            "inventoryOverideReasonId": 0,
+            "primaryGuest": {
+                "id": {
+                    "type": "TRANSACTIONAL_GUEST_ID",
+                    "value": "546592188"
+                }
+            },
+            "reservationNumber": "353251744765",
+            "servicePeriodId": 0,
+            "status": "Booked",
+            "transactionalGuests": [
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546592188"
+                    },
+                    "relationship": [
+                        "OWNER"
+                    ],
+                    "role": "Guest"
+                },
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546592189"
+                    },
+                    "relationship": [
+                        "PARTICIPANT"
+                    ],
+                    "role": "Guest"
+                },
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546592190"
+                    },
+                    "relationship": [
+                        "PARTICIPANT"
+                    ],
+                    "role": "Guest"
+                }
+            ],
+            "travelPlanId": 753251759819,
+            "unitMeasureCount": 1,
+            "vipLevel": "0"
+        },
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546592188"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546592189"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546592190"
+            }
+        ],
+        "timestamp": "2023-09-08T19:31:41Z",
+        "type": "Activity Reservation"
+    },
+    {
+        "action": "CREATE",
+        "activityReservation": {
+            "activity": {
+                "duration": 1,
+                "enterpriseFacility": 87219,
+                "enterpriseProduct": 290142,
+                "freezeElapsedTime": 0,
+                "freezeTimeToLive": 0,
+                "inventoryDetails": {
+                    "reservableResourceId": [
+                        "6F63B544-06B6-2170-E043-9906F4D12170"
+                    ]
+                },
+                "partyMix": {
+                    "adult": "0",
+                    "child": "1",
+                    "infant": "0",
+                    "junior": "0",
+                    "senior": "0"
+                },
+                "productType": "ChildActivityProduct",
+                "serviceStartDate": "2023-09-09T12:50:00Z",
+                "wdproEnterpriseProduct": 290142,
+                "wdproFacility": 87219
+            },
+            "activity-reservation-number": "353251744791",
+            "bookingDate": "2023-09-08T04:00:00Z",
+            "contactName": "ALCmGnWh,ALCunnNO",
+            "extraCareRequired": false,
+            "inventoryOverideReasonId": 0,
+            "primaryGuest": {
+                "id": {
+                    "type": "TRANSACTIONAL_GUEST_ID",
+                    "value": "546592801"
+                }
+            },
+            "reservationNumber": "353251744791",
+            "servicePeriodId": 0,
+            "status": "Booked",
+            "transactionalGuests": [
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546592801"
+                    },
+                    "relationship": [
+                        "OWNER"
+                    ],
+                    "role": "Guest"
+                },
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546592802"
+                    },
+                    "relationship": [
+                        "PARTICIPANT"
+                    ],
+                    "role": "Guest"
+                }
+            ],
+            "travelPlanId": 953251129155,
+            "unitMeasureCount": 1,
+            "vipLevel": "0"
+        },
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546592801"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546592802"
+            }
+        ],
+        "timestamp": "2023-09-08T20:36:59Z",
+        "type": "Activity Reservation"
+    },
+    {
+        "action": "MODIFY",
+        "activityReservation": {
+            "activity": {
+                "duration": 1,
+                "enterpriseFacility": 87219,
+                "enterpriseProduct": 290142,
+                "freezeElapsedTime": 0,
+                "freezeTimeToLive": 0,
+                "inventoryDetails": {
+                    "reservableResourceId": [
+                        "6F63B544-06B6-2170-E043-9906F4D12170",
+                        "6F63B544-06B6-2170-E043-9906F4D12170",
+                        "6F63B544-06B6-2170-E043-9906F4D12170"
+                    ]
+                },
+                "partyMix": {
+                    "adult": "0",
+                    "child": "3",
+                    "infant": "0",
+                    "junior": "0",
+                    "senior": "0"
+                },
+                "productType": "ChildActivityProduct",
+                "serviceStartDate": "2023-09-12T21:00:00Z",
+                "wdproEnterpriseProduct": 290142,
+                "wdproFacility": 87219
+            },
+            "activity-reservation-number": "353254747580",
+            "bookingDate": "2023-09-11T04:00:00Z",
+            "contactName": "ALCViAUA,ALCnheCY",
+            "extraCareRequired": false,
+            "inventoryOverideReasonId": 0,
+            "primaryGuest": {
+                "id": {
+                    "type": "TRANSACTIONAL_GUEST_ID",
+                    "value": "546604001"
+                }
+            },
+            "reservationNumber": "353254747580",
+            "servicePeriodId": 0,
+            "status": "Booked",
+            "transactionalGuests": [
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546604001"
+                    },
+                    "relationship": [
+                        "OWNER"
+                    ],
+                    "role": "Guest"
+                },
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546604045"
+                    },
+                    "relationship": [
+                        "PARTICIPANT"
+                    ],
+                    "role": "Guest"
+                },
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546604046"
+                    },
+                    "relationship": [
+                        "PARTICIPANT"
+                    ],
+                    "role": "Guest"
+                },
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546604047"
+                    },
+                    "relationship": [
+                        "PARTICIPANT"
+                    ],
+                    "role": "Guest"
+                }
+            ],
+            "travelPlanId": 953254130665,
+            "unitMeasureCount": 1,
+            "vipLevel": "0"
+        },
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546604001"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546604045"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546604046"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546604047"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546604002"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546604003"
+            }
+        ],
+        "timestamp": "2023-09-11T07:02:48Z",
+        "type": "Activity Reservation"
+    },
+    {
+        "action": "CREATE",
+        "activityReservation": {
+            "activity": {
+                "duration": 1,
+                "enterpriseFacility": 19267181,
+                "enterpriseProduct": 19277673,
+                "freezeElapsedTime": 0,
+                "freezeTimeToLive": 0,
+                "inventoryDetails": {
+                    "reservableResourceId": [
+                        "498d59d6-9365-4142-912b-5608f01f5097"
+                    ]
+                },
+                "partyMix": {
+                    "adult": "1",
+                    "child": "0",
+                    "infant": "0",
+                    "junior": "0",
+                    "senior": "0"
+                },
+                "productType": "ActivityProduct",
+                "serviceStartDate": "2023-09-11T13:25:00Z",
+                "wdproEnterpriseProduct": 19277673,
+                "wdproFacility": 19267181
+            },
+            "activity-reservation-number": "353251744764",
+            "bookingDate": "2023-09-08T04:00:00Z",
+            "contactName": "Eec,Etoeauto",
+            "extraCareRequired": false,
+            "inventoryOverideReasonId": 0,
+            "primaryGuest": {
+                "id": {
+                    "type": "TRANSACTIONAL_GUEST_ID",
+                    "value": "546591922"
+                }
+            },
+            "reservationNumber": "353251744764",
+            "servicePeriodId": 19277673,
+            "status": "Booked",
+            "transactionalGuests": [
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546591922"
+                    },
+                    "relationship": [
+                        "OWNER",
+                        "PARTICIPANT"
+                    ],
+                    "role": "Guest"
+                }
+            ],
+            "travelPlanId": 953251129136,
+            "unitMeasureCount": 1,
+            "vipLevel": "0"
+        },
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546591922"
+            }
+        ],
+        "timestamp": "2023-09-08T19:24:50Z",
+        "type": "Activity Reservation"
+    },
+    {
+        "action": "CREATE",
+        "activityReservation": {
+            "activity": {
+                "duration": 1,
+                "enterpriseFacility": 87219,
+                "enterpriseProduct": 290142,
+                "freezeElapsedTime": 0,
+                "freezeTimeToLive": 0,
+                "inventoryDetails": {
+                    "reservableResourceId": [
+                        "6F63B544-06B6-2170-E043-9906F4D12170",
+                        "6F63B544-06B6-2170-E043-9906F4D12170"
+                    ]
+                },
+                "partyMix": {
+                    "adult": null,
+                    "child": null,
+                    "infant": null,
+                    "junior": null,
+                    "senior": null
+                },
+                "productType": "ChildActivityProduct",
+                "serviceStartDate": "2023-10-25T12:30:00Z",
+                "wdproEnterpriseProduct": 290142,
+                "wdproFacility": 87219
+            },
+            "activity-reservation-number": "353254746286",
+            "bookingDate": "2023-09-10T04:00:00Z",
+            "contactName": "Tstpfdthvh,Tstsahqpxs",
+            "extraCareRequired": false,
+            "inventoryOverideReasonId": 0,
+            "primaryGuest": {
+                "id": {
+                    "type": "TRANSACTIONAL_GUEST_ID",
+                    "value": "546601043"
+                }
+            },
+            "reservationNumber": "353254746286",
+            "servicePeriodId": 0,
+            "status": "Booked",
+            "transactionalGuests": [
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546601045"
+                    },
+                    "relationship": [
+                        "PARTICIPANT"
+                    ],
+                    "role": "Guest"
+                },
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546601047"
+                    },
+                    "relationship": [
+                        "PARTICIPANT"
+                    ],
+                    "role": "Guest"
+                },
+                {
+                    "id": {
+                        "type": "TRANSACTIONAL_GUEST_ID",
+                        "value": "546601043"
+                    },
+                    "relationship": [
+                        "OWNER"
+                    ],
+                    "role": "Guest"
+                }
+            ],
+            "travelPlanId": 753254775919,
+            "unitMeasureCount": 1,
+            "vipLevel": "0"
+        },
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546601045"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546601047"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546601043"
+            }
+        ],
+        "timestamp": "2023-09-11T05:11:32Z",
+        "type": "Activity Reservation"
+    },
+    {
+        "action": "CREATE",
+        "activityReservation": null,
+        "nativeGuestIds": [
+            {
+                "type": "transactional-guest-id",
+                "value": "546601044"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546601046"
+            },
+            {
+                "type": "transactional-guest-id",
+                "value": "546601042"
+            }
+        ],
+        "timestamp": null,
+        "type": "Activity Reservation"
+    }
+]

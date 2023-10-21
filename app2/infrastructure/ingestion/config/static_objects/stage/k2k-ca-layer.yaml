@@ -1,0 +1,14 @@
+active: True
+instances:
+  - name: &ln guest360-k2k-ca-layer
+    type: k2klayer
+    resources:
+      lambda_layer:
+        layer_name: *ln
+        cross_account_access: True
+        cross_account_id: &lid
+          - '536797260050'
+        code: app/src/ingestion/kinesis2kinesis/layer
+        description: app code to initialize cross acount access and push data for k2k pattern
+        compatible_runtimes: &lrun !!python/object/apply:aws_cdk.aws_lambda.Runtime
+          - python3.9

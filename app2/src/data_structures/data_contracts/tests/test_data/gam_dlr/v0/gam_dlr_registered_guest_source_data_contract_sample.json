@@ -1,0 +1,1152 @@
+[
+    {
+        "action": "CREATE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "addressList": [
+                {
+                    "city": "Toronto",
+                    "country": "CA",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "145 Richmond Street West",
+                    "postalCode": "M5H 2L2",
+                    "stateOrProvince": "ON",
+                    "type": "BILLING"
+                },
+                {
+                    "city": "Toronto",
+                    "country": "CA",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "145 Richmond Street West",
+                    "postalCode": "M5H 2L2",
+                    "stateOrProvince": "ON",
+                    "type": "SHIPPING"
+                }
+            ],
+            "affiliateName": "disneyid",
+            "ageBand": "ADULT",
+            "clientId": "TPR-WDW-LBJS.WEB-STAGE",
+            "communicationPreferences": {
+                "preferredLanguage": "en"
+            },
+            "countryCode": "US",
+            "dateOfBirth": [
+                1990,
+                1,
+                1
+            ],
+            "email": "TEST_EMAIL@TEST.COM",
+            "emailValidationStatus": "UNVALIDATED",
+            "gender": "NOT_SPECIFIED",
+            "languageCode": "en-US",
+            "messagingPreferences": {
+                "messagingPreferencesForm": {}
+            },
+            "name": {
+                "firstName": "Test",
+                "lastName": "Automation",
+                "title": "Mr."
+            },
+            "preferences": {
+                "avatarId": "15655408",
+                "favoriteCharacterId": "15655408"
+            },
+            "referenceId": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "registrationDate": "2023-09-09T14:05:43.458Z",
+            "status": "ACTIVE",
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "testProfileFlag": "Y"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "DELETE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "CREATE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "addressList": [
+                {
+                    "city": "Branson",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "110 W. Maddux",
+                    "postalCode": "65616",
+                    "stateOrProvince": "MO",
+                    "type": "BILLING"
+                },
+                {
+                    "city": "Branson",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "110 W. Maddux",
+                    "postalCode": "65616",
+                    "stateOrProvince": "MO",
+                    "type": "SHIPPING"
+                }
+            ],
+            "affiliateName": "disneyid",
+            "ageBand": "ADULT",
+            "clientId": "TPR-DLR-LBJS.WEB-STAGE",
+            "communicationPreferences": {
+                "preferredLanguage": "en"
+            },
+            "countryCode": "US",
+            "dateOfBirth": [
+                1990,
+                1,
+                1
+            ],
+            "email": "TEST_EMAIL@TEST.COM",
+            "emailValidationStatus": "UNVALIDATED",
+            "gender": "NOT_SPECIFIED",
+            "languageCode": "en-US",
+            "messagingPreferences": {
+                "messagingPreferencesForm": {}
+            },
+            "name": {
+                "firstName": "Test",
+                "lastName": "Automation",
+                "title": "Mr."
+            },
+            "preferences": {
+                "avatarId": "15655408",
+                "favoriteCharacterId": "15655408"
+            },
+            "referenceId": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "registrationDate": "2023-09-09T14:05:53.702Z",
+            "status": "ACTIVE",
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "testProfileFlag": "Y"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "DELETE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "CREATE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "addressList": [
+                {
+                    "city": "Anaheim",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "666 Sunset Blvd",
+                    "postalCode": "92808",
+                    "stateOrProvince": "CA",
+                    "type": "BILLING"
+                },
+                {
+                    "city": "Anaheim",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "666 Sunset Blvd",
+                    "postalCode": "92808",
+                    "stateOrProvince": "CA",
+                    "type": "SHIPPING"
+                }
+            ],
+            "affiliateName": "disneyid",
+            "ageBand": "ADULT",
+            "clientId": "TPR-DLR-LBJS.WEB-STAGE",
+            "communicationPreferences": {
+                "preferredLanguage": "en"
+            },
+            "countryCode": "US",
+            "dateOfBirth": [
+                1990,
+                1,
+                1
+            ],
+            "email": "TEST_EMAIL@TEST.COM",
+            "emailValidationStatus": "UNVALIDATED",
+            "gender": "NOT_SPECIFIED",
+            "languageCode": "en-US",
+            "messagingPreferences": {
+                "messagingPreferencesForm": {}
+            },
+            "name": {
+                "firstName": "Test",
+                "lastName": "Automation",
+                "title": "Mr."
+            },
+            "phoneList": [
+                {
+                    "countryCode": "1",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "number": "212-555-1212",
+                    "type": "MOBILE"
+                }
+            ],
+            "preferences": {
+                "avatarId": "15655408",
+                "favoriteCharacterId": "15655408"
+            },
+            "referenceId": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "registrationDate": "2023-09-09T14:05:57.790Z",
+            "status": "ACTIVE",
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "testProfileFlag": "Y"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "CREATE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "addressList": [
+                {
+                    "city": "Toronto",
+                    "country": "CA",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "145 Richmond Street West",
+                    "postalCode": "M5H 2L2",
+                    "stateOrProvince": "ON",
+                    "type": "BILLING"
+                },
+                {
+                    "city": "Toronto",
+                    "country": "CA",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "145 Richmond Street West",
+                    "postalCode": "M5H 2L2",
+                    "stateOrProvince": "ON",
+                    "type": "SHIPPING"
+                }
+            ],
+            "affiliateName": "disneyid",
+            "ageBand": "ADULT",
+            "clientId": "TPR-DLR-LBJS.WEB-STAGE",
+            "communicationPreferences": {
+                "preferredLanguage": "en"
+            },
+            "countryCode": "US",
+            "dateOfBirth": [
+                1990,
+                1,
+                1
+            ],
+            "email": "TEST_EMAIL@TEST.COM",
+            "emailValidationStatus": "UNVALIDATED",
+            "gender": "NOT_SPECIFIED",
+            "languageCode": "en-US",
+            "messagingPreferences": {
+                "messagingPreferencesForm": {}
+            },
+            "name": {
+                "firstName": "Test",
+                "lastName": "Automation",
+                "title": "Mr."
+            },
+            "preferences": {
+                "avatarId": "15655408",
+                "favoriteCharacterId": "15655408"
+            },
+            "referenceId": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "registrationDate": "2023-09-09T14:05:57.981Z",
+            "status": "ACTIVE",
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "testProfileFlag": "Y"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "CREATE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "addressList": [
+                {
+                    "city": "Branson",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "110 W. Maddux",
+                    "postalCode": "65616",
+                    "stateOrProvince": "MO",
+                    "type": "BILLING"
+                },
+                {
+                    "city": "Branson",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "110 W. Maddux",
+                    "postalCode": "65616",
+                    "stateOrProvince": "MO",
+                    "type": "SHIPPING"
+                }
+            ],
+            "affiliateName": "disneyid",
+            "ageBand": "ADULT",
+            "clientId": "TPR-DLR-LBJS.WEB-STAGE",
+            "communicationPreferences": {
+                "preferredLanguage": "en"
+            },
+            "countryCode": "US",
+            "dateOfBirth": [
+                1990,
+                1,
+                1
+            ],
+            "email": "TEST_EMAIL@TEST.COM",
+            "emailValidationStatus": "UNVALIDATED",
+            "gender": "NOT_SPECIFIED",
+            "languageCode": "en-US",
+            "messagingPreferences": {
+                "messagingPreferencesForm": {}
+            },
+            "name": {
+                "firstName": "Test",
+                "lastName": "Automation",
+                "title": "Mr."
+            },
+            "preferences": {
+                "avatarId": "15655408",
+                "favoriteCharacterId": "15655408"
+            },
+            "referenceId": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "registrationDate": "2023-09-09T14:06:01.747Z",
+            "status": "ACTIVE",
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "testProfileFlag": "Y"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "CREATE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "addressList": [
+                {
+                    "city": "Anaheim",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "666 Sunset Blvd",
+                    "postalCode": "92808",
+                    "stateOrProvince": "CA",
+                    "type": "BILLING"
+                },
+                {
+                    "city": "Anaheim",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "666 Sunset Blvd",
+                    "postalCode": "92808",
+                    "stateOrProvince": "CA",
+                    "type": "SHIPPING"
+                }
+            ],
+            "affiliateName": "disneyid",
+            "ageBand": "ADULT",
+            "clientId": "TPR-DLR-LBJS.WEB-STAGE",
+            "communicationPreferences": {
+                "preferredLanguage": "en"
+            },
+            "countryCode": "US",
+            "dateOfBirth": [
+                1990,
+                1,
+                1
+            ],
+            "email": "TEST_EMAIL@TEST.COM",
+            "emailValidationStatus": "UNVALIDATED",
+            "gender": "NOT_SPECIFIED",
+            "languageCode": "en-US",
+            "messagingPreferences": {
+                "messagingPreferencesForm": {}
+            },
+            "name": {
+                "firstName": "Test",
+                "lastName": "Automation",
+                "title": "Mr."
+            },
+            "phoneList": [
+                {
+                    "countryCode": "1",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "number": "212-555-1212",
+                    "type": "MOBILE"
+                }
+            ],
+            "preferences": {
+                "avatarId": "15655408",
+                "favoriteCharacterId": "15655408"
+            },
+            "referenceId": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "registrationDate": "2023-09-09T14:06:05.638Z",
+            "status": "ACTIVE",
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "testProfileFlag": "Y"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "DELETE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "CREATE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "addressList": [
+                {
+                    "city": "Anaheim",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "666 Sunset Blvd",
+                    "postalCode": "92808",
+                    "stateOrProvince": "CA",
+                    "type": "BILLING"
+                },
+                {
+                    "city": "Anaheim",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "666 Sunset Blvd",
+                    "postalCode": "92808",
+                    "stateOrProvince": "CA",
+                    "type": "SHIPPING"
+                }
+            ],
+            "affiliateName": "disneyid",
+            "ageBand": "ADULT",
+            "clientId": "TPR-DLR-LBJS.WEB-STAGE",
+            "communicationPreferences": {
+                "preferredLanguage": "en"
+            },
+            "countryCode": "US",
+            "dateOfBirth": [
+                1990,
+                1,
+                1
+            ],
+            "email": "TEST_EMAIL@TEST.COM",
+            "emailValidationStatus": "UNVALIDATED",
+            "gender": "NOT_SPECIFIED",
+            "languageCode": "en-US",
+            "messagingPreferences": {
+                "messagingPreferencesForm": {}
+            },
+            "name": {
+                "firstName": "Test",
+                "lastName": "Automation",
+                "title": "Mr."
+            },
+            "phoneList": [
+                {
+                    "countryCode": "1",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "number": "212-555-1212",
+                    "type": "MOBILE"
+                }
+            ],
+            "preferences": {
+                "avatarId": "15655408",
+                "favoriteCharacterId": "15655408"
+            },
+            "referenceId": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "registrationDate": "2023-09-09T14:06:08.594Z",
+            "status": "ACTIVE",
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "testProfileFlag": "Y"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "CREATE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "addressList": [
+                {
+                    "city": "Glendale",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "1026 Grand Central Ave",
+                    "postalCode": "91201",
+                    "stateOrProvince": "CA",
+                    "type": "SHIPPING"
+                },
+                {
+                    "city": "Glendale",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "1026 Grand Central Ave",
+                    "postalCode": "91201",
+                    "stateOrProvince": "CA",
+                    "type": "BILLING"
+                }
+            ],
+            "affiliateName": "disneyid",
+            "ageBand": "ADULT",
+            "clientId": "WDPRO-NGE.PEPCOM-STAGE",
+            "communicationPreferences": {
+                "preferredLanguage": "es"
+            },
+            "countryCode": "US",
+            "dateOfBirth": [
+                1986,
+                5,
+                1
+            ],
+            "email": "TEST_EMAIL@TEST.COM",
+            "emailValidationStatus": "UNVALIDATED",
+            "gender": "NOT_SPECIFIED",
+            "languageCode": "es-ES",
+            "messagingPreferences": {
+                "messagingPreferencesForm": {}
+            },
+            "name": {
+                "firstName": "KFNUIW",
+                "lastName": "EEPZNJQ",
+                "middleName": " ",
+                "suffix": " ",
+                "title": "Mr."
+            },
+            "preferences": {
+                "avatarId": "15655408",
+                "favoriteCharacterId": "15655408"
+            },
+            "referenceId": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "registrationDate": "2023-09-09T14:05:28.794Z",
+            "status": "ACTIVE",
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "testProfileFlag": "Y"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "DELETE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "CREATE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "addressList": [
+                {
+                    "city": "Anaheim",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "666 Sunset Blvd",
+                    "postalCode": "92808",
+                    "stateOrProvince": "CA",
+                    "type": "BILLING"
+                },
+                {
+                    "city": "Anaheim",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "666 Sunset Blvd",
+                    "postalCode": "92808",
+                    "stateOrProvince": "CA",
+                    "type": "SHIPPING"
+                }
+            ],
+            "affiliateName": "disneyid",
+            "ageBand": "ADULT",
+            "clientId": "TPR-DLR-LBJS.WEB-STAGE",
+            "communicationPreferences": {
+                "preferredLanguage": "en"
+            },
+            "countryCode": "US",
+            "dateOfBirth": [
+                1990,
+                1,
+                1
+            ],
+            "email": "TEST_EMAIL@TEST.COM",
+            "emailValidationStatus": "UNVALIDATED",
+            "gender": "NOT_SPECIFIED",
+            "languageCode": "en-US",
+            "messagingPreferences": {
+                "messagingPreferencesForm": {}
+            },
+            "name": {
+                "firstName": "Test",
+                "lastName": "Automation",
+                "title": "Mr."
+            },
+            "phoneList": [
+                {
+                    "countryCode": "1",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "number": "212-555-1212",
+                    "type": "MOBILE"
+                }
+            ],
+            "preferences": {
+                "avatarId": "15655408",
+                "favoriteCharacterId": "15655408"
+            },
+            "referenceId": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "registrationDate": "2023-09-09T14:06:15.401Z",
+            "status": "ACTIVE",
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "testProfileFlag": "Y"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "CREATE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "addressList": [
+                {
+                    "city": "Anaheim",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "666 Sunset Blvd",
+                    "postalCode": "92808",
+                    "stateOrProvince": "CA",
+                    "type": "BILLING"
+                },
+                {
+                    "city": "Anaheim",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "666 Sunset Blvd",
+                    "postalCode": "92808",
+                    "stateOrProvince": "CA",
+                    "type": "SHIPPING"
+                }
+            ],
+            "affiliateName": "disneyid",
+            "ageBand": "ADULT",
+            "clientId": "TPR-DLR-LBJS.WEB-STAGE",
+            "communicationPreferences": {
+                "preferredLanguage": "en"
+            },
+            "countryCode": "US",
+            "dateOfBirth": [
+                1990,
+                1,
+                1
+            ],
+            "email": "TEST_EMAIL@TEST.COM",
+            "emailValidationStatus": "UNVALIDATED",
+            "gender": "NOT_SPECIFIED",
+            "languageCode": "en-US",
+            "messagingPreferences": {
+                "messagingPreferencesForm": {}
+            },
+            "name": {
+                "firstName": "Test",
+                "lastName": "Automation",
+                "title": "Mr."
+            },
+            "phoneList": [
+                {
+                    "countryCode": "1",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "number": "212-555-1212",
+                    "type": "MOBILE"
+                }
+            ],
+            "preferences": {
+                "avatarId": "15655408",
+                "favoriteCharacterId": "15655408"
+            },
+            "referenceId": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "registrationDate": "2023-09-09T14:06:17.623Z",
+            "status": "ACTIVE",
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "testProfileFlag": "Y"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "CREATE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "addressList": [
+                {
+                    "city": "Glendale",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "1026 Grand Central Ave",
+                    "postalCode": "91201",
+                    "stateOrProvince": "CA",
+                    "type": "SHIPPING"
+                },
+                {
+                    "city": "Glendale",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "1026 Grand Central Ave",
+                    "postalCode": "91201",
+                    "stateOrProvince": "CA",
+                    "type": "BILLING"
+                }
+            ],
+            "affiliateName": "disneyid",
+            "ageBand": "ADULT",
+            "clientId": "WDPRO-NGE.PEPCOM-STAGE",
+            "communicationPreferences": {
+                "preferredLanguage": "es"
+            },
+            "countryCode": "US",
+            "dateOfBirth": [
+                1959,
+                5,
+                27
+            ],
+            "email": "TEST_EMAIL@TEST.COM",
+            "emailValidationStatus": "UNVALIDATED",
+            "gender": "NOT_SPECIFIED",
+            "languageCode": "es-ES",
+            "messagingPreferences": {
+                "messagingPreferencesForm": {}
+            },
+            "name": {
+                "firstName": "UFBZQVZXL",
+                "lastName": "RIUJAQNWXRV",
+                "middleName": " ",
+                "suffix": " ",
+                "title": "Dr."
+            },
+            "preferences": {
+                "avatarId": "15655408",
+                "favoriteCharacterId": "15655408"
+            },
+            "referenceId": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "registrationDate": "2023-09-09T14:05:34.188Z",
+            "status": "ACTIVE",
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "testProfileFlag": "Y"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "CREATE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "addressList": [
+                {
+                    "city": "Anaheim",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "666 Sunset Blvd",
+                    "postalCode": "92808",
+                    "stateOrProvince": "CA",
+                    "type": "BILLING"
+                },
+                {
+                    "city": "Anaheim",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "666 Sunset Blvd",
+                    "postalCode": "92808",
+                    "stateOrProvince": "CA",
+                    "type": "SHIPPING"
+                }
+            ],
+            "affiliateName": "disneyid",
+            "ageBand": "ADULT",
+            "clientId": "TPR-DLR-LBJS.WEB-STAGE",
+            "communicationPreferences": {
+                "preferredLanguage": "en"
+            },
+            "countryCode": "US",
+            "dateOfBirth": [
+                1990,
+                1,
+                1
+            ],
+            "email": "TEST_EMAIL@TEST.COM",
+            "emailValidationStatus": "UNVALIDATED",
+            "gender": "NOT_SPECIFIED",
+            "languageCode": "en-US",
+            "messagingPreferences": {
+                "messagingPreferencesForm": {}
+            },
+            "name": {
+                "firstName": "Test",
+                "lastName": "Automation",
+                "title": "Mr."
+            },
+            "phoneList": [
+                {
+                    "countryCode": "1",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "number": "212-555-1212",
+                    "type": "MOBILE"
+                }
+            ],
+            "preferences": {
+                "avatarId": "15655408",
+                "favoriteCharacterId": "15655408"
+            },
+            "referenceId": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "registrationDate": "2023-09-09T14:06:25.810Z",
+            "status": "ACTIVE",
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "testProfileFlag": "Y"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "CREATE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "addressList": [
+                {
+                    "city": "Glendale",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "1026 Grand Central Ave",
+                    "postalCode": "91201",
+                    "stateOrProvince": "CA",
+                    "type": "SHIPPING"
+                },
+                {
+                    "city": "Glendale",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "1026 Grand Central Ave",
+                    "postalCode": "91201",
+                    "stateOrProvince": "CA",
+                    "type": "BILLING"
+                }
+            ],
+            "affiliateName": "disneyid",
+            "ageBand": "ADULT",
+            "clientId": "WDPRO-NGE.PEPCOM-STAGE",
+            "communicationPreferences": {
+                "preferredLanguage": "es"
+            },
+            "countryCode": "US",
+            "dateOfBirth": [
+                1974,
+                8,
+                11
+            ],
+            "email": "TEST_EMAIL@TEST.COM",
+            "emailValidationStatus": "UNVALIDATED",
+            "gender": "NOT_SPECIFIED",
+            "languageCode": "es-ES",
+            "messagingPreferences": {
+                "messagingPreferencesForm": {}
+            },
+            "name": {
+                "firstName": "YFXSNYIZNN",
+                "lastName": "AKNMNO",
+                "middleName": " ",
+                "suffix": " ",
+                "title": "Mstr."
+            },
+            "preferences": {
+                "avatarId": "15655408",
+                "favoriteCharacterId": "15655408"
+            },
+            "referenceId": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "registrationDate": "2023-09-09T14:05:27.399Z",
+            "status": "ACTIVE",
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "testProfileFlag": "Y"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "CREATE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "addressList": [
+                {
+                    "city": "Glendale",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "1026 Grand Central Ave",
+                    "postalCode": "91201",
+                    "stateOrProvince": "CA",
+                    "type": "SHIPPING"
+                },
+                {
+                    "city": "Glendale",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "1026 Grand Central Ave",
+                    "postalCode": "91201",
+                    "stateOrProvince": "CA",
+                    "type": "BILLING"
+                }
+            ],
+            "affiliateName": "disneyid",
+            "ageBand": "ADULT",
+            "clientId": "WDPRO-NGE.PEPCOM-STAGE",
+            "communicationPreferences": {
+                "preferredLanguage": "es"
+            },
+            "countryCode": "US",
+            "dateOfBirth": [
+                1918,
+                4,
+                28
+            ],
+            "email": "TEST_EMAIL@TEST.COM",
+            "emailValidationStatus": "UNVALIDATED",
+            "gender": "NOT_SPECIFIED",
+            "languageCode": "es-ES",
+            "messagingPreferences": {
+                "messagingPreferencesForm": {}
+            },
+            "name": {
+                "firstName": "WDGPJSJFHL",
+                "lastName": "PCFPQYY",
+                "middleName": " ",
+                "suffix": " ",
+                "title": "Mrs."
+            },
+            "preferences": {
+                "avatarId": "15655408",
+                "favoriteCharacterId": "15655408"
+            },
+            "referenceId": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "registrationDate": "2023-09-09T14:06:19.080Z",
+            "status": "ACTIVE",
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "testProfileFlag": "Y"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "CREATE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "addressList": [
+                {
+                    "city": "Glendale",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "1026 Grand Central Ave",
+                    "postalCode": "91201",
+                    "stateOrProvince": "CA",
+                    "type": "SHIPPING"
+                },
+                {
+                    "city": "Glendale",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "1026 Grand Central Ave",
+                    "postalCode": "91201",
+                    "stateOrProvince": "CA",
+                    "type": "BILLING"
+                }
+            ],
+            "affiliateName": "disneyid",
+            "ageBand": "ADULT",
+            "clientId": "WDPRO-NGE.PEPCOM-STAGE",
+            "communicationPreferences": {
+                "preferredLanguage": "es"
+            },
+            "countryCode": "US",
+            "dateOfBirth": [
+                1997,
+                6,
+                1
+            ],
+            "email": "TEST_EMAIL@TEST.COM",
+            "emailValidationStatus": "UNVALIDATED",
+            "gender": "NOT_SPECIFIED",
+            "languageCode": "es-ES",
+            "messagingPreferences": {
+                "messagingPreferencesForm": {}
+            },
+            "name": {
+                "firstName": "NHOLEHYZVG",
+                "lastName": "HTAFUGBIRO",
+                "middleName": " ",
+                "suffix": " ",
+                "title": "Miss"
+            },
+            "preferences": {
+                "avatarId": "15655408",
+                "favoriteCharacterId": "15655408"
+            },
+            "referenceId": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "registrationDate": "2023-09-09T14:06:20.664Z",
+            "status": "ACTIVE",
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "testProfileFlag": "Y"
+        },
+        "type": "RegisteredGuest"
+    },
+    {
+        "action": "CREATE",
+        "nativeGuestIds": [
+            {
+                "type": "swid",
+                "value": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            }
+        ],
+        "registeredGuest": {
+            "addressList": [
+                {
+                    "city": "Branson",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "110 W. Maddux",
+                    "postalCode": "65616",
+                    "stateOrProvince": "MO",
+                    "type": "BILLING"
+                },
+                {
+                    "city": "Branson",
+                    "country": "US",
+                    "id": "9test999-99t9-9t99-99t9-99999tt99tt9",
+                    "line1": "110 W. Maddux",
+                    "postalCode": "65616",
+                    "stateOrProvince": "MO",
+                    "type": "SHIPPING"
+                }
+            ],
+            "affiliateName": "disneyid",
+            "ageBand": "ADULT",
+            "clientId": "TPR-DLR-LBJS.WEB-STAGE",
+            "communicationPreferences": {
+                "preferredLanguage": "en"
+            },
+            "countryCode": "US",
+            "dateOfBirth": [
+                1990,
+                1,
+                1
+            ],
+            "email": "TEST_EMAIL@TEST.COM",
+            "emailValidationStatus": "UNVALIDATED",
+            "gender": "NOT_SPECIFIED",
+            "languageCode": "en-US",
+            "messagingPreferences": {
+                "messagingPreferencesForm": {}
+            },
+            "name": {
+                "firstName": "Test",
+                "lastName": "Automation",
+                "title": "Mr."
+            },
+            "preferences": {
+                "avatarId": "15655408",
+                "favoriteCharacterId": "15655408"
+            },
+            "referenceId": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "registrationDate": "2023-09-09T14:06:36.670Z",
+            "status": "ACTIVE",
+            "swid": "{TEST1234-1234-TEST-1234-TEST12345678}",
+            "testProfileFlag": "Y"
+        },
+        "type": "RegisteredGuest"
+    }
+]

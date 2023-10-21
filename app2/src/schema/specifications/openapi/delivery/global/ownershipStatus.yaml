@@ -1,0 +1,7 @@
+ownershipStatus:
+  type: string
+  description: Curated status viable to Product Ownership Paradigm
+  enum:
+    - Active
+    - Inactive
+  example: Active

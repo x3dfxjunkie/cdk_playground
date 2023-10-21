@@ -1,0 +1,516 @@
+stack_extension: &se dreams-rim # 12 Character Limit!
+ingest_pattern: &ip dms # DO NOT UPDATE must = dms for dms pattern
+active: True
+feature_branch: False # set to False unless you want to deploy DMS in ephemeral envs
+pattern_instances:
+  - region: &region-1 us-east-1 # DO NOT UPDATE
+    resources:
+      kinesis_dmz:
+        retention_period: &kdr !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+        stream_mode: &ksm !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      kinesis:
+        retention_period: *kdr
+        stream_mode: *ksm
+      dms_repl_instance:
+        engine_version: "3.5.1"
+        multi_az: True
+      dms_repl_task: # AWS DMS replication task
+        - &replication_task_definitions
+          replication_task_identifier: ful1 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "rsrc_inv"
+                  table-name: "%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "2" # Unique numeric value to identify the rule.
+                rule-name: "2" # Unique name to identify the rule.
+                rule-action: exclude # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "rsrc_inv"
+                  table-name: "rsrc%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "3" # Unique numeric value to identify the rule.
+                rule-name: "3" # Unique name to identify the rule.
+                rule-action: exclude # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "rsrc_inv"
+                  table-name: "rsrt%" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc1
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - &replication_task_definitions2
+          replication_task_identifier: full2 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "rsrc_inv"
+                  table-name: "rsrc%" #Table qualifier
+        - <<: *replication_task_definitions2 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc2
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - &replication_task_definitions3
+          replication_task_identifier: full3 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "rsrc_inv"
+                  table-name: "rsrt%" #Table qualifier
+        - <<: *replication_task_definitions3 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc3
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+      source_endpoint: # AWS DMS Source Endpoint.
+        engine_name: mysql # The type of engine for the endpoint, depending on the EndpointType value. Valid values : mysql | oracle | mariadb | kinesis
+        ssl_mode: verify-ca #Enable Secure Sockets Layer (SSL) mode to use for the SSL connection. Allowed values: verify-ca,verify-full
+        settings: # See https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Source.html
+#          server_timezone: US/Eastern # #Specifies the time zone for the target MySQL-compatible database, e.g., US/Eastern, US/Pacific, UTC / remove if UTC
+          secrets_manager_secret_id: arn:aws:secretsmanager:us-east-1:863175788676:secret:lod-use1-dreams-resource-inventory-management-secret-X6pCeX #pragma: allowlist secret, The ARN, or display name of the SecretsManagerSecret that contains the MySQL endpoint connection details.
+      source_kms_key: 2638e107-1fff-443a-8c99-8d9ca45a9fd7 # Update for the secrets_manager_secret_id kms key
+      source_ssl_cert: rds-global-bundle # Update for the appropriate source dms certificate, most AWS DBs will use the rds-global-bundle by default
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_LOAD_LANDING # Needs update to appropriate default routing
+      data_contracts: # This section needs to be updated for all data contracts for the source
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_asgn_ownr_guar_feat_source_data_contract
+          class_name: DREAMSResourceInventoryManagementAsgnOwnrGuarFeatModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: asgn_ownr_guar_feat
+          router_database: &database LOAD_LANDING
+          router_schema: &schema LND_DREAMS_RESOURCE_INVENTORY_MANAGEMENT
+          router_table: ASGN_OWNR_GUAR_FEAT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_bus_org_acct_dt_source_data_contract
+          class_name: DREAMSResourceInventoryManagementBusOrgAcctDtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: bus_org_acct_dt
+          router_database: *database
+          router_schema: *schema
+          router_table: BUS_ORG_ACCT_DT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_cmptr_wrkstn_source_data_contract
+          class_name: DREAMSResourceInventoryManagementCmptrWrkstnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: cmptr_wrkstn
+          router_database: *database
+          router_schema: *schema
+          router_table: CMPTR_WRKSTN
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_cnct_rm_lnk_source_data_contract
+          class_name: DREAMSResourceInventoryManagementCnctRmLnkModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: cnct_rm_lnk
+          router_database: *database
+          router_schema: *schema
+          router_table: CNCT_RM_LNK
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_feat_source_data_contract
+          class_name: DREAMSResourceInventoryManagementFeatModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: feat
+          router_database: *database
+          router_schema: *schema
+          router_table: FEAT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_hskp_clng_sch_ovrd_source_data_contract
+          class_name: DREAMSResourceInventoryManagementHskpClngSchOvrdModel # pragma: allowlist secret
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: hskp_clng_sch_ovrd
+          router_database: *database
+          router_schema: *schema
+          router_table: HSKP_CLNG_SCH_OVRD
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_invtry_req_source_data_contract
+          class_name: DREAMSResourceInventoryManagementInvtryReqModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: invtry_req
+          router_database: *database
+          router_schema: *schema
+          router_table: INVTRY_REQ
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rm_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRmModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rm
+          router_database: *database
+          router_schema: *schema
+          router_table: RM
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rm_ctgy_rm_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRmCtgyRmModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rm_ctgy_rm
+          router_database: *database
+          router_schema: *schema
+          router_table: RM_CTGY_RM
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rm_hist_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRmHistModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rm_hist
+          router_database: *database
+          router_schema: *schema
+          router_table: RM_HIST
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rm_seq_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRmSeqModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rm_seq
+          router_database: *database
+          router_schema: *schema
+          router_table: RM_SEQ
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rsrc_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRsrcModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrc
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRC
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rsrc_feat_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRsrcFeatModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrc_feat
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRC_FEAT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rsrc_invtry_typ_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRsrcInvtryTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrc_invtry_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRC_INVTRY_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rsrc_own_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRsrcOwnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrc_own
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRC_OWN
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rsrc_own_ref_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRsrcOwnRefModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrc_own_ref
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRC_OWN_REF
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rsrc_sts_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRsrcStsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrc_sts
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRC_STS
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rsrt_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRsrtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrt
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rsrt_feat_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRsrtFeatModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrt_feat
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRT_FEAT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_wrk_loc_source_data_contract
+          class_name: DREAMSResourceInventoryManagementWrkLocModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: wrk_loc
+          router_database: *database
+          router_schema: *schema
+          router_table: WRK_LOC
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_wrk_loc_encdr_source_data_contract
+          class_name: DREAMSResourceInventoryManagementWrkLocEncdrModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: wrk_loc_encdr
+          router_database: *database
+          router_schema: *schema
+          router_table: WRK_LOC_ENCDR
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_wrk_loc_prt_source_data_contract
+          class_name: DREAMSResourceInventoryManagementWrkLocPrtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: wrk_loc_prt
+          router_database: *database
+          router_schema: *schema
+          router_table: WRK_LOC_PRT
+        #20230807
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_alrt_rcpnt_source_data_contract
+          class_name: DREAMSResourceInventoryManagementAlrtRcpntModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: alrt_rcpnt
+          router_database: *database
+          router_schema: *schema
+          router_table: ALRT_RCPNT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_asgn_rt_typ_source_data_contract
+          class_name: DREAMSResourceInventoryManagementAsgnRtTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: asgn_rt_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: ASGN_RT_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_cmps_source_data_contract
+          class_name: DREAMSResourceInventoryManagementCmpsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: cmps
+          router_database: *database
+          router_schema: *schema
+          router_table: CMPS
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_cmps_bus_org_source_data_contract
+          class_name: DREAMSResourceInventoryManagementCmpsBusOrgModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: cmps_bus_org
+          router_database: *database
+          router_schema: *schema
+          router_table: CMPS_BUS_ORG
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_cmps_config_source_data_contract
+          class_name: DREAMSResourceInventoryManagementCmpsConfigModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: cmps_config
+          router_database: *database
+          router_schema: *schema
+          router_table: CMPS_CONFIG
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_cmps_fac_source_data_contract
+          class_name: DREAMSResourceInventoryManagementCmpsFacModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: cmps_fac
+          router_database: *database
+          router_schema: *schema
+          router_table: CMPS_FAC
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_dsny_ctrl_invtry_source_data_contract
+          class_name: DREAMSResourceInventoryManagementDsnyCtrlInvtryModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: dsny_ctrl_invtry
+          router_database: *database
+          router_schema: *schema
+          router_table: DSNY_CTRL_INVTRY
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_dvc_rm_typ_xref_source_data_contract
+          class_name: DREAMSResourceInventoryManagementDvcRmTypXrefModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: dvc_rm_typ_xref
+          router_database: *database
+          router_schema: *schema
+          router_table: DVC_RM_TYP_XREF
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_exp_card_acss_source_data_contract
+          class_name: DREAMSResourceInventoryManagementExpCardAcssModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exp_card_acss
+          router_database: *database
+          router_schema: *schema
+          router_table: EXP_CARD_ACSS
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_feat_typ_source_data_contract
+          class_name: DREAMSResourceInventoryManagementFeatTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: feat_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: FEAT_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_own_ref_typ_source_data_contract
+          class_name: DREAMSResourceInventoryManagementOwnRefTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: own_ref_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: OWN_REF_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rm_dim_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRmDimModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rm_dim
+          router_database: *database
+          router_schema: *schema
+          router_table: RM_DIM
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rsrc_asgn_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRsrcAsgnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrc_asgn
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRC_ASGN
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rsrc_asgn_own_upgr_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRsrcAsgnOwnUpgrModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrc_asgn_own_upgr
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRC_ASGN_OWN_UPGR
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rsrc_asgn_ownr_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRsrcAsgnOwnrModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrc_asgn_ownr
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRC_ASGN_OWNR
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rsrc_asgn_req_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRsrcAsgnReqModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrc_asgn_req
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRC_ASGN_REQ
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rsrc_feat_typ_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRsrcFeatTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrc_feat_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRC_FEAT_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rsrc_invtry_sts_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRsrcInvtryStsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrc_invtry_sts
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRC_INVTRY_STS
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rsrc_typ_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRsrcTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrc_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRC_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rsrt_feat_typ_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRsrtFeatTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrt_feat_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRT_FEAT_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rsrt_rm_rdy_config_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRsrtRmRdyConfigModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrt_rm_rdy_config
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRT_RM_RDY_CONFIG
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rsrt_seq_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRsrtSeqModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrt_seq
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRT_SEQ
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_rt_typ_source_data_contract
+          class_name: DREAMSResourceInventoryManagementRtTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rt_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: RT_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.resource_inventory_management.v0.dreams_resource_inventory_management_wrk_loc_till_source_data_contract
+          class_name: DREAMSResourceInventoryManagementWrkLocTillModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: wrk_loc_till
+          router_database: *database
+          router_schema: *schema
+          router_table: WRK_LOC_TILL

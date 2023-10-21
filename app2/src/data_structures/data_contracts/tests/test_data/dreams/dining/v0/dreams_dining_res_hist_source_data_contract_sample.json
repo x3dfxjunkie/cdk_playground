@@ -1,0 +1,561 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:35Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T17:08:36Z",
+            "RES_HIST_ID": 30044575962,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "08/21/23 17:08 PM,NA,GCH Craftsman Bar,09/09/2023-09/09/2023,$0.0,953233018061",
+            "TC_GRP_NM": 653233891804,
+            "TC_ID": 32121563686,
+            "TPS_ID": 353233850901,
+            "TP_ID": 953233018061,
+            "UPDT_DTS": "2023-08-21T20:08:35Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:08:40.451030Z",
+            "transaction-id": 28213758149420
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:35Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T20:08:36Z",
+            "RES_HIST_ID": 30044575586,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Cancelled",
+            "RES_HIST_TX": "08/21/23 20:08 PM,NA,NA,09/16/2023-09/16/2023,$0.0,953233008292",
+            "TC_GRP_NM": 653233875859,
+            "TC_ID": 32121505024,
+            "TPS_ID": 353233826086,
+            "TP_ID": 953233008292,
+            "UPDT_DTS": "2023-08-21T20:08:35Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:08:40.464158Z",
+            "transaction-id": 28213758155183
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:39.396000Z",
+            "CREATE_USR_ID_CD": "unknown",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T17:08:39Z",
+            "RES_HIST_ID": 30044567435,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Cancelled",
+            "RES_HIST_TX": "08/21/23 17:08 PM,NA,NA,08/30/2023-08/30/2023,$0.0,953233018109",
+            "TC_GRP_NM": 653233888328,
+            "TC_ID": 32121549431,
+            "TPS_ID": 353233842668,
+            "TP_ID": 953233018109,
+            "UPDT_DTS": "2023-08-21T20:08:39.396000Z",
+            "UPDT_USR_ID_CD": "unknown"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:08:40.473828Z",
+            "transaction-id": 28213758161605
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:41Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T20:08:43Z",
+            "RES_HIST_ID": 30044576300,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "08/21/23 20:08 PM,NA,Raglan Road™ Irish Pub and Restaurant,10/06/2023-10/06/2023,$0.0,530387362911",
+            "TC_GRP_NM": 653219240212,
+            "TC_ID": 32119045161,
+            "TPS_ID": 353219930960,
+            "TP_ID": 530387362911,
+            "UPDT_DTS": "2023-08-21T20:08:41Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:08:45.520341Z",
+            "transaction-id": 28213758166819
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:43.912000Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T17:08:43Z",
+            "RES_HIST_ID": 30044560885,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "08/21/23 17:08 PM,NA,River Belle Terrace,09/16/2023-09/16/2023,$0.0,953233012189",
+            "TC_GRP_NM": 653233890807,
+            "TC_ID": 32121550804,
+            "TPS_ID": 353233847421,
+            "TP_ID": 953233012189,
+            "UPDT_DTS": "2023-08-21T20:08:43.912000Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:08:45.530285Z",
+            "transaction-id": 28213758175324
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:44Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T20:08:44Z",
+            "RES_HIST_ID": 30044575284,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "08/21/23 20:08 PM,NA,Sebastian's Bistro,08/27/2023-08/27/2023,$0.0,753162257469",
+            "TC_GRP_NM": 653233891077,
+            "TC_ID": 32121563170,
+            "TPS_ID": 353233850512,
+            "TP_ID": 753162257469,
+            "UPDT_DTS": "2023-08-21T20:08:44Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:08:45.540763Z",
+            "transaction-id": 28213758180342
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:44Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T20:08:45Z",
+            "RES_HIST_ID": 30044576202,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "08/21/23 20:08 PM,NA,Mama Melrose's Ristorante Italiano,10/12/2023-10/12/2023,$0.0,953233017590",
+            "TC_GRP_NM": 653233890778,
+            "TC_ID": 32121563371,
+            "TPS_ID": 353233850332,
+            "TP_ID": 953233017590,
+            "UPDT_DTS": "2023-08-21T20:08:44Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:08:50.584303Z",
+            "transaction-id": 28213758190515
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:45Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T20:08:46Z",
+            "RES_HIST_ID": 30044576105,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "08/21/23 20:08 PM,NA,La Hacienda de San Angel,08/25/2023-08/25/2023,$0.0,753184534723",
+            "TC_GRP_NM": 653233891608,
+            "TC_ID": 32121562134,
+            "TPS_ID": 353233849284,
+            "TP_ID": 753184534723,
+            "UPDT_DTS": "2023-08-21T20:08:45Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:08:50.592318Z",
+            "transaction-id": 28213758197451
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:46Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T20:08:47Z",
+            "RES_HIST_ID": 30044576301,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "08/21/23 20:08 PM,NA,Kona Cafe,10/08/2023-10/08/2023,$0.0,753223969226",
+            "TC_GRP_NM": 653233891720,
+            "TC_ID": 32121563567,
+            "TPS_ID": 353233850055,
+            "TP_ID": 753223969226,
+            "UPDT_DTS": "2023-08-21T20:08:46Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:08:50.602476Z",
+            "transaction-id": 28213758206546
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:47.930000Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T17:08:47Z",
+            "RES_HIST_ID": 30044567743,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "08/21/23 17:08 PM,NA,Carthay Circle Lounge - Alfresco Dining,09/18/2023-09/18/2023,$0.0,953233018704",
+            "TC_GRP_NM": 653233887732,
+            "TC_ID": 32121559767,
+            "TPS_ID": 353233842365,
+            "TP_ID": 953233018704,
+            "UPDT_DTS": "2023-08-21T20:08:47.930000Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:08:50.612929Z",
+            "transaction-id": 28213758213891
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:49Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T20:08:49Z",
+            "RES_HIST_ID": 30044575774,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "08/21/23 20:08 PM,NA,Hollywood & Vine,09/21/2023-09/21/2023,$0.0,753219931964",
+            "TC_GRP_NM": 653233878487,
+            "TC_ID": 32121552186,
+            "TPS_ID": 353233839577,
+            "TP_ID": 753219931964,
+            "UPDT_DTS": "2023-08-21T20:08:49Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:08:50.625236Z",
+            "transaction-id": 28213758219150
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:49Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T20:08:50Z",
+            "RES_HIST_ID": 30044575481,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "08/21/23 20:08 PM,NA,'Ohana,08/25/2023-08/25/2023,$0.0,753232063771",
+            "TC_GRP_NM": 653233890698,
+            "TC_ID": 32121563757,
+            "TPS_ID": 353233849679,
+            "TP_ID": 753232063771,
+            "UPDT_DTS": "2023-08-21T20:08:49Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:08:50.634225Z",
+            "transaction-id": 28213758223857
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:51.138000Z",
+            "CREATE_USR_ID_CD": "UNDED020",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T20:08:51Z",
+            "RES_HIST_ID": 30044576203,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "No Show",
+            "RES_HIST_TX": "08/21/23 20:08 PM,NA,NA,08/21/2023-08/21/2023,$0.0,753200728873",
+            "TC_GRP_NM": 653225536252,
+            "TC_ID": 32120199211,
+            "TPS_ID": 353225347093,
+            "TP_ID": 753200728873,
+            "UPDT_DTS": "2023-08-21T20:08:51.138000Z",
+            "UPDT_USR_ID_CD": "UNDED020"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:08:55.653885Z",
+            "transaction-id": 28213758229846
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:52Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T20:08:53Z",
+            "RES_HIST_ID": 30044576387,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "08/21/23 20:08 PM,NA,'Ohana,08/21/2023-08/21/2023,$0.0,953233018429",
+            "TC_GRP_NM": 653233891526,
+            "TC_ID": 32121562928,
+            "TPS_ID": 353233850419,
+            "TP_ID": 953233018429,
+            "UPDT_DTS": "2023-08-21T20:08:52Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:08:55.663712Z",
+            "transaction-id": 28213758263856
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:55Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T20:08:56Z",
+            "RES_HIST_ID": 30044575857,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "08/21/23 20:08 PM,NA,Rainforest Cafe® at Disney Springs Marketplace,10/04/2023-10/04/2023,$0.0,753233074990",
+            "TC_GRP_NM": 653233892101,
+            "TC_ID": 32121563842,
+            "TPS_ID": 353233850805,
+            "TP_ID": 753233074990,
+            "UPDT_DTS": "2023-08-21T20:08:55Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:09:00.730172Z",
+            "transaction-id": 28213758272717
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:54Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T20:08:55Z",
+            "RES_HIST_ID": 30044576302,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Cancelled",
+            "RES_HIST_TX": "08/21/23 20:08 PM,NA,NA,08/25/2023-08/25/2023,$0.0,953219684908",
+            "TC_GRP_NM": 653219261687,
+            "TC_ID": 32119135169,
+            "TPS_ID": 353219965356,
+            "TP_ID": 953219684908,
+            "UPDT_DTS": "2023-08-21T20:08:54Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:09:00.740449Z",
+            "transaction-id": 28213758277725
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:55Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T20:08:56Z",
+            "RES_HIST_ID": 30044576020,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Cancelled",
+            "RES_HIST_TX": "08/21/23 20:08 PM,NA,NA,08/22/2023-08/22/2023,$0.0,953176661508",
+            "TC_GRP_NM": 653176361768,
+            "TC_ID": 32111892597,
+            "TPS_ID": 353176295791,
+            "TP_ID": 953176661508,
+            "UPDT_DTS": "2023-08-21T20:08:55Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:09:00.750638Z",
+            "transaction-id": 28213758284754
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:56Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T20:08:57Z",
+            "RES_HIST_ID": 30044576303,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "08/21/23 20:08 PM,NA,The BOATHOUSE®: Great Food, Waterfront Dining, Dream Boats™,08/28/2023-08/28/2023,$0.0,953233018914",
+            "TC_GRP_NM": 653233891721,
+            "TC_ID": 32121563570,
+            "TPS_ID": 353233850057,
+            "TP_ID": 953233018914,
+            "UPDT_DTS": "2023-08-21T20:08:56Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:09:00.760490Z",
+            "transaction-id": 28213758288605
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:57Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T20:08:58Z",
+            "RES_HIST_ID": 30044576106,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "08/21/23 20:08 PM,NA,Trattoria al Forno,09/12/2023-09/12/2023,$0.0,953233018242",
+            "TC_GRP_NM": 653233891078,
+            "TC_ID": 32121563173,
+            "TPS_ID": 353233850513,
+            "TP_ID": 953233018242,
+            "UPDT_DTS": "2023-08-21T20:08:57Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:09:00.771225Z",
+            "transaction-id": 28213758295746
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-21T20:08:58Z",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROC_DTS": "2023-08-21T20:08:58Z",
+            "RES_HIST_ID": 30044575285,
+            "RES_HIST_LOC_NM": "DEFAULT",
+            "RES_HIST_PROC_DS": "Booked",
+            "RES_HIST_TX": "08/21/23 20:08 PM,NA,Kona Cafe,10/08/2023-10/08/2023,$0.0,753223969226",
+            "TC_GRP_NM": 653233891720,
+            "TC_ID": 32121563567,
+            "TPS_ID": 353233850055,
+            "TP_ID": 753223969226,
+            "UPDT_DTS": "2023-08-21T20:08:58Z",
+            "UPDT_USR_ID_CD": "WDPRO"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "res_hist",
+            "timestamp": "2023-08-22T00:09:00.780323Z"
+        }
+    }
+]

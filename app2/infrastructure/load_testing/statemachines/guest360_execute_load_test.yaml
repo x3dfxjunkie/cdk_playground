@@ -1,0 +1,364 @@
+Comment: A step function that orchestrates a Load Test
+StartAt: get_scenario_config
+States:
+  Choice_send_s3:
+    Choices:
+      - Next: invoke_lambda_send_s3
+        StringEquals: 'True'
+        Variable: $$.Execution.Input.scenario.send_s3
+    Default: Pass
+    Type: Choice
+  Pass:
+    End: true
+    Type: Pass
+  choice_test_type:
+    Choices:
+      - Next: invoke_lambda_eval_conditions_system_test
+        StringMatches: system
+        Variable: $$.Execution.Input.scenario.test_type
+    Default: invoke_lambda_evaluation
+    Type: Choice
+  get_private_ip_locust_master:
+    Next: run_locust_workers_map
+    Parameters:
+      Cluster: >-
+        ${fargate_cluster_arn}
+      Tasks.$: States.Array($.output_run_locust_master.Tasks[0].TaskArn)
+    Resource: arn:aws:states:::aws-sdk:ecs:describeTasks
+    ResultPath: $.output_get_private_ip_locust_master
+    ResultSelector:
+      private_ip.$: >-
+        $.Tasks[0].Attachments[0].Details[?(@.Name ==
+        'privateIPv4Address')].Value
+    Type: Task
+  get_scenario_config:
+    Next: reshape_input
+    Parameters:
+      Bucket: ${bucket_scenarios_name}
+      Key.$: $$.Execution.Input.scenario.name
+    Resource: arn:aws:states:::aws-sdk:s3:getObject
+    ResultPath: $.scenario.yaml_config
+    ResultSelector:
+      yaml_config.$: $.Body
+    Type: Task
+  invoke_lambda_eval_conditions_system_test:
+    Next: Choice_send_s3
+    Parameters:
+      FunctionName: ${lambda_val_conditions_arn}
+      Payload:
+        config.$: $.output_invoke_lambda_input_prep.Payload.scenario_config
+        executionid.$: $$.Execution.Input.execution_context.execution_id
+        prefix: ${prefix}
+        scenario_name.$: >-
+          $.output_invoke_lambda_input_prep.Payload.scenario_config.system_test.name
+        start_time.$: $$.Execution.StartTime
+        traceid.$: $$.Execution.Input.execution_context.execution_id
+    Resource: arn:aws:states:::lambda:invoke
+    ResultPath: $.output_invoke_lambda_eval_conditions
+    ResultSelector:
+      Payload.$: $.Payload
+    Retry:
+      - BackoffRate: 2
+        ErrorEquals:
+          - Lambda.ServiceException
+          - Lambda.AWSLambdaException
+          - Lambda.SdkClientException
+          - Lambda.TooManyRequestsException
+        IntervalSeconds: 2
+        MaxAttempts: 6
+    Type: Task
+  invoke_lambda_evaluation:
+    Next: Choice_send_s3
+    Parameters:
+      FunctionName: ${lambda_validate_results_arn}
+      Payload:
+        config.$: $.output_invoke_lambda_input_prep.Payload.scenario_config
+        executionid.$: $$.Execution.Input.execution_context.execution_id
+    Resource: arn:aws:states:::lambda:invoke
+    ResultPath: $.output_invoke_lambda_evaluation
+    ResultSelector:
+      Payload.$: $.Payload
+    Retry:
+      - BackoffRate: 2
+        ErrorEquals:
+          - Lambda.ServiceException
+          - Lambda.AWSLambdaException
+          - Lambda.SdkClientException
+          - Lambda.TooManyRequestsException
+        IntervalSeconds: 2
+        MaxAttempts: 6
+    Type: Task
+  invoke_lambda_input_prep:
+    Next: run_locust_master
+    Parameters:
+      FunctionName: ${guest360_ecs_calculator_arn}
+      Payload:
+        scenario_config.$: $.scenario.yaml_config
+        test_type.$: $.scenario.test_type
+    Resource: arn:aws:states:::lambda:invoke
+    ResultPath: $.output_invoke_lambda_input_prep
+    ResultSelector:
+      Payload.$: $.Payload
+      array.$: States.ArrayRange(1, $.Payload.workers, 1)
+    Retry:
+      - BackoffRate: 2
+        ErrorEquals:
+          - Lambda.ServiceException
+          - Lambda.AWSLambdaException
+          - Lambda.SdkClientException
+          - Lambda.TooManyRequestsException
+        IntervalSeconds: 2
+        MaxAttempts: 6
+    Type: Task
+  invoke_lambda_send_s3:
+    End: true
+    OutputPath: $.Payload
+    Parameters:
+      FunctionName: ${lambda_send_s3_arn}
+      Payload:
+        executionid.$: $$.Execution.Input.execution_context.execution_id
+    Resource: arn:aws:states:::lambda:invoke
+    Retry:
+      - BackoffRate: 2
+        ErrorEquals:
+          - Lambda.ServiceException
+          - Lambda.AWSLambdaException
+          - Lambda.SdkClientException
+          - Lambda.TooManyRequestsException
+        IntervalSeconds: 2
+        MaxAttempts: 6
+    Type: Task
+  list_locust_tasks:
+    InputPath: $.output_invoke_lambda_input_prep.Payload.scenario_config
+    Next: map_for_each_locust_task
+    Parameters:
+      Cluster: >-
+        ${fargate_cluster_arn}
+    Resource: arn:aws:states:::aws-sdk:ecs:listTasks
+    ResultPath: $.output_list_locust_tasks
+    Type: Task
+  map_for_each_locust_task:
+    ItemProcessor:
+      ProcessorConfig:
+        Mode: INLINE
+      StartAt: list_tags_locust_tasks
+      States:
+        Success:
+          Type: Succeed
+        choice_locust_tasks:
+          Choices:
+            - And:
+                - IsPresent: true
+                  Variable: $.output_list_tags_locust_tasks.tag_started_by[0]
+                - StringEqualsPath: $$.Execution.Id
+                  Variable: $.output_list_tags_locust_tasks.tag_started_by[0]
+              Comment: Tags started by
+              Next: stop_locust_tasks
+          Default: Success
+          OutputPath: $.task_arn
+          Type: Choice
+        list_tags_locust_tasks:
+          Catch:
+            - Comment: Task Stopped
+              ErrorEquals:
+                - States.ALL
+              Next: Success
+          Next: choice_locust_tasks
+          Parameters:
+            ResourceArn.$: $.task_arn
+          Resource: arn:aws:states:::aws-sdk:ecs:listTagsForResource
+          ResultPath: $.output_list_tags_locust_tasks
+          ResultSelector:
+            tag_started_by.$: $.Tags[?(@.Key == 'StartedBy')].Value
+          Type: Task
+        stop_locust_tasks:
+          End: true
+          Parameters:
+            Cluster: >-
+              ${fargate_cluster_arn}
+            Task.$: $
+          Resource: arn:aws:states:::aws-sdk:ecs:stopTask
+          Type: Task
+    ItemSelector:
+      execution_id.$: $$.Execution.Id
+      task_arn.$: $$.Map.Item.Value
+    ItemsPath: $.output_list_locust_tasks.TaskArns
+    Next: map_parameters_output
+    ResultPath: $.Output_map
+    Type: Map
+  map_parameters_output:
+    ItemProcessor:
+      ProcessorConfig:
+        Mode: INLINE
+      StartAt: choice_endpoint_type
+      States:
+        choice_endpoint_type:
+          Choices:
+            - Next: start_job_glue_s3
+              StringMatches: glue
+              Variable: $.config.endpoint.type
+          Default: invoke_lambda_system_test_evaluation
+          Type: Choice
+        invoke_lambda_system_test_evaluation:
+          End: true
+          Parameters:
+            FunctionName: ${lambda_system_test_evaluator_arn}
+            Payload:
+              config.$: $.config
+              executionid.$: $$.Execution.Input.execution_context.execution_id
+              prefix: ${prefix}
+              scenario_name.$: $.scenario_name
+              start_time.$: $$.Execution.StartTime
+              traceid.$: $$.Execution.Input.execution_context.execution_id
+          Resource: arn:aws:states:::lambda:invoke
+          ResultPath: $.output_invoke_lambda_evaluation
+          ResultSelector:
+            Payload.$: $.Payload
+          Retry:
+            - BackoffRate: 2
+              ErrorEquals:
+                - Lambda.ServiceException
+                - Lambda.AWSLambdaException
+                - Lambda.SdkClientException
+                - Lambda.TooManyRequestsException
+              IntervalSeconds: 2
+              MaxAttempts: 6
+          Type: Task
+        start_job_glue_s3:
+          End: true
+          Parameters:
+            Arguments:
+              '--bucket_name.$': >-
+                States.Format('{}-{}','${prefix}',$.config.endpoint.bucket_name)
+              '--bucket_path.$': $.config.endpoint.bucket_path
+              '--execution_id.$': $$.Execution.Input.execution_context.execution_id
+              '--metrics_table_name': ${validation_status_table}
+              '--scenario_name.$': $.scenario_name
+              '--system_test_metric_metadata.$': States.JsonToString($.config)
+              '--test_case_record_name.$': $.config.label
+              '--test_case_record_type': metric
+              '--test_case_type': system
+              '--trace_id_key_name.$': $.config.endpoint.trace_id_key_name
+              '--trace_id_key_value.$': $$.Execution.Input.execution_context.execution_id
+            JobName: ${glue_job_name}
+          Resource: arn:aws:states:::glue:startJobRun.sync
+          Type: Task
+    ItemSelector:
+      config.$: $$.Map.Item.Value
+      scenario_name.$: >-
+        $.output_invoke_lambda_input_prep.Payload.scenario_config.system_test.name
+    ItemsPath: >-
+      $.output_invoke_lambda_input_prep.Payload.scenario_config.output.parameters
+    Next: choice_test_type
+    ResultPath: $.output_map_parameters
+    Type: Map
+  reshape_input:
+    Next: invoke_lambda_input_prep
+    Parameters:
+      execution_context:
+        execution_id.$: $.execution_context.execution_id
+        execution_name.$: $.execution_context.execution_name
+      scenario:
+        name.$: $.scenario.name
+        send_s3.$: $.scenario.send_s3
+        test_type.$: $.scenario.test_type
+        yaml_config.$: $.scenario.yaml_config.yaml_config
+    Type: Pass
+  run_locust_master:
+    Next: wait_5_seconds
+    Parameters:
+      Cluster: >-
+        ${fargate_cluster_arn}
+      LaunchType: FARGATE
+      NetworkConfiguration:
+        AwsvpcConfiguration:
+          AssignPublicIp: DISABLED
+          SecurityGroups:
+            - ${security_groups_id}
+          Subnets:
+            - ${subnets_ids}
+      Overrides:
+        ContainerOverrides:
+          - Command:
+              - '--config=app/src/load_testing/app/config/config.conf'
+              - '--master'
+              - '--enable-rebalancing'
+            Environment:
+              - Name: scenario_config
+                Value.$: States.JsonToString($.scenario.yaml_config)
+              - Name: LOCUST_USERS
+                Value.$: $.output_invoke_lambda_input_prep.Payload.total_users
+              - Name: LOCUST_SPAWN_RATE
+                Value.$: $.output_invoke_lambda_input_prep.Payload.spawn_rate
+              - Name: LOCUST_EXPECT_WORKERS
+                Value.$: $.output_invoke_lambda_input_prep.Payload.expected_workers
+            Name: ${container_name}
+      ReferenceId.$: $$.Execution.Id
+      Tags:
+        - Key: StartedBy
+          Value.$: $$.Execution.Id
+      TaskDefinition: >-
+        ${task_definition_arn}
+    Resource: arn:aws:states:::ecs:runTask
+    ResultPath: $.output_run_locust_master
+    ResultSelector:
+      Tasks.$: $.Tasks
+    Type: Task
+  run_locust_workers_map:
+    ItemProcessor:
+      ProcessorConfig:
+        Mode: INLINE
+      StartAt: run_locust_workers
+      States:
+        run_locust_workers:
+          End: true
+          Parameters:
+            Cluster: >-
+              ${fargate_cluster_arn}
+            Count: 1
+            LaunchType: FARGATE
+            NetworkConfiguration:
+              AwsvpcConfiguration:
+                AssignPublicIp: DISABLED
+                SecurityGroups:
+                  - ${security_groups_id}
+                Subnets:
+                  - ${subnets_ids}
+            Overrides:
+              ContainerOverrides:
+                - Command:
+                    - '--config=app/src/load_testing/app/config/config.conf'
+                    - '--worker'
+                    - '--enable-rebalancing'
+                  Environment:
+                    - Name: scenario_config
+                      Value.$: States.JsonToString($.scenario_config)
+                    - Name: prefix
+                      Value: ${prefix}
+                    - Name: LOCUST_MASTER_NODE_HOST
+                      Value.$: $.private_ip
+                    - Name: EXECUTION_ID
+                      Value.$: $$.Execution.Input.execution_context.execution_id
+                  Name: ${container_name}
+            Tags: []
+            TaskDefinition: >-
+              ${task_definition_arn}
+          Resource: arn:aws:states:::ecs:runTask
+          ResultPath: $.0utput_run_locust_workers
+          Type: Task
+    ItemSelector:
+      private_ip.$: $.output_get_private_ip_locust_master.private_ip[0]
+      scenario_config.$: >-
+        States.JsonToString($.output_invoke_lambda_input_prep.Payload.scenario_config)
+    ItemsPath: $.output_invoke_lambda_input_prep.array
+    Next: wait_for_test_completion
+    ResultPath: $.Output_runWorkers
+    Type: Map
+  wait_5_seconds:
+    Next: get_private_ip_locust_master
+    Seconds: 5
+    Type: Wait
+  wait_for_test_completion:
+    Next: list_locust_tasks
+    SecondsPath: $.output_invoke_lambda_input_prep.Payload.seconds
+    Type: Wait

@@ -1,0 +1,67 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__reservation_request_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__reservation_request_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: reservation_management_request_id
+        description: ""
+
+      - name: travel_component_group_number
+        description: ""
+
+      - name: travel_component_id
+        description: ""
+
+      - name: assigned_owner_id
+        description: ""
+
+      - name: facility_id
+        description: ""
+
+      - name: data_fac_short_nm
+        description: ""
+
+      - name: travel_component_start_date
+        description: ""
+
+      - name: travel_component_end_date
+        description: ""
+
+      - name: reservation_management_request_type_name
+        description: ""
+
+      - name: reservation_management_request_profile_id
+        description: ""
+
+      - name: profile_value_description
+        description: ""
+
+      - name: profile_type_name
+        description: ""
+
+      - name: reservation_management_route_name
+        description: ""
+
+      - name: reservation_management_request_text
+        description: ""
+
+      - name: confidential_indicator
+        description: ""
+
+      - name: guest_service_recovery_indicator
+        description: ""
+
+      - name: request_inactive_dts
+        description: ""

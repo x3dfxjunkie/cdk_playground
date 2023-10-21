@@ -1,0 +1,76 @@
+[
+    {
+        "data": {
+            "TC_RSN_ID": 1164556118,
+            "TC_RSN_TYP_NM": "Cancel",
+            "PRDF_TC_RSN_ID": 7,
+            "TC_ID": 12091808945,
+            "TC_RSN_CNTCT_NM": "Donald Duck",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-03T17:16:25.676000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-03T17:16:25.676000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": null,
+            "transact_seq": "20230603211632000000000002089959261"
+        },
+        "metadata": {
+            "timestamp": "2023-06-03T21:16:35.689423Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_rsn",
+            "transaction-id": null
+        }
+    },
+    {
+        "data": {
+            "TC_RSN_ID": 1164556118,
+            "TC_RSN_TYP_NM": "Cancel",
+            "PRDF_TC_RSN_ID": null,
+            "TC_ID": 12091808945,
+            "TC_RSN_CNTCT_NM": "Donald Duck",
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-03T17:16:25.676000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-03T17:16:25.676000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": null,
+            "transact_seq": "20230603211632000000000002089959261"
+        },
+        "metadata": {
+            "timestamp": "2023-06-03T21:16:35.689423Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_rsn",
+            "transaction-id": null
+        }
+    },
+    {
+        "data": {
+            "TC_RSN_ID": 2164593948,
+            "TC_RSN_TYP_NM": "Upgrade",
+            "PRDF_TC_RSN_ID": 800071,
+            "TC_ID": 22087464816,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-03T17:16:49.415000Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-03T17:16:49.415000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-03T21:16:52Z",
+            "transact_seq": "20230603211652000000000002089962621"
+        },
+        "metadata": {
+            "timestamp": "2023-06-03T21:16:56.502472Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_rsn",
+            "transaction-id": 73061781269845
+        }
+    }
+]

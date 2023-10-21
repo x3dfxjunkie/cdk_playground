@@ -1,0 +1,601 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__east__res_booking_package_cleansed
+    description: '{{ doc("sil__intermediate__travelbox__east__res_booking_package_cleansed") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_cleansed
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_booking_id
+            - data_package_no
+            - metadata_checksum
+
+    columns:
+      - name: data_price_diff
+        description: "NaN | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_tax_diff
+        description: "NaN | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_extended_dest_booking_id
+        description: "NaN | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_extended_dest_package_no
+        description: "NaN | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_stop_sale
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_brand
+        description: "The TravelBox code of the brand for which the limit is defined for | example: CORE"
+        meta:
+          checksum: True
+
+      - name: data_base_package_no
+        description: "Deprecated | example: 3616"
+        meta:
+          checksum: True
+
+      - name: data_commission
+        description: "The commission percentage recieved by the tour operator | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_commission_percentage
+        description: "The percentage of the commission | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_manual_comm
+        description: "A flag to indicate whether the commission is calculated manually. if true, commission calculation is skipped. | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_markup_individually
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_discount
+        description: "Invoice line Discount | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_pkg_occ_scheme_key
+        description: "NaN | example: 110x1"
+        meta:
+          checksum: True
+
+      - name: data_booked_date
+        description: "Credit debit note related booking created date | example: 1970-06-16 01:48:57"
+        meta:
+          checksum: True
+
+      - name: data_adult_price_adjustment
+        description: "Price mention in manual addition for adult  in package components dialog | example: 48104.0"
+        meta:
+          checksum: True
+
+      - name: data_child_price_adjustment
+        description: "Price mention in manual addition for child in package components dialog | example: 58331.0"
+        meta:
+          checksum: True
+
+      - name: data_infant_price_adjustment
+        description: "Price mention in manual addition for infant in package components dialog | example: 79643.0"
+        meta:
+          checksum: True
+
+      - name: data_cf_score
+        description: "NaN | example: -1.0"
+        meta:
+          checksum: True
+
+      - name: data_ws_session_id
+        description: "NaN | example: WMejxYkwIdKkNZFNNRcZ"
+        meta:
+          checksum: True
+
+      - name: data_adult_pkg_markup
+        description: "applying package level Markup for the children for pre built package itinerary | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_child_pkg_markup
+        description: "applying package level Markup for the children for pre built package itinerary | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_infant_pkg_markup
+        description: "applying package level Markup for the children for pre built package itinerary | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_adult_pkg_discount
+        description: "Total adult amount of package discounts | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_child_pkg_discount
+        description: "Total child amount of package discounts | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_infant_pkg_discount
+        description: "Total infant amount of package discounts | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_discount_scheme_id
+        description: "NaN | example: 441"
+        meta:
+          checksum: True
+
+      - name: data_calculation_type
+        description: "Calculation type. 1 - Daily and Weekly,2 - Daily Rate by duration, 3 - Extra day for long durations | example: GP"
+        meta:
+          checksum: True
+
+      - name: data_pkg_discount
+        description: "Total amount of package discounts applied to the package booking item | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_price_grid_code
+        description: "This is the Package promotional price grid code. This is shown under package summary in Reservation Manager as Promotion Ref | example: GcQdXDQZiTrXMstoUySg"
+        meta:
+          checksum: True
+
+      - name: data_commission_rate
+        description: "Overriding commission rate | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_commission_override
+        description: "Specifies whether the commission rate is overriden for supplement | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_appealing
+        description: "Deprecated | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_threshold
+        description: "Deprecated | example: SzUhtFiMVSgSalobdXFk"
+        meta:
+          checksum: True
+
+      - name: data_promotion
+        description: "The selected promotion of the package | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_removed_item_itin_nums
+        description: "NaN | example: HyUcueMKJDfbSCzAUCHW"
+        meta:
+          checksum: True
+
+      - name: data_itinerary_name
+        description: "The name of the itinerary of the package | example: Itinerary [1 nights]"
+        meta:
+          checksum: True
+
+      - name: data_manually_combined_package
+        description: "Whether or not package is manually combined one using (package component menu item) or not, if manually combined -1 else 0. | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_cms_package_code
+        description: "NaN | example: QZNvgDIRxzGoThlhYskN"
+        meta:
+          checksum: True
+
+      - name: data_cms_itinerary_code
+        description: "NaN | example: obvCxOPlxGlxOlNFGgZW"
+        meta:
+          checksum: True
+
+      - name: data_cms_grid_code
+        description: "NaN | example: QzCYThEUIsDZxcGlUCGC"
+        meta:
+          checksum: True
+
+      - name: data_round_err_on_tot_price
+        description: "NaN | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_reservation_id
+        description: "The system generated id of the reservation | example: 4084"
+        meta:
+          checksum: True
+
+      - name: data_sub_type
+        description: "1 = TYPE1 (GET % OR AMOUNT IN DISCOUNT BEFORE SPECIFIC BOOKING DATE),_x000D_
+2 = TYPE2 (NON CALCULATED DESCRIPTION)_x000D_
+3 = TYPE3 ((GET % OR AMOUNT IN DISCOUNT  BASED ON BOOKING TO DEPARTURE DURATION) | example: XqdMnILMeJqrxxDfkHmm"
+        meta:
+          checksum: True
+
+      - name: data_associate_pkg_no
+        description: "This property is used for store the canceled package item no information in OTA Amendment flow. | example: 6"
+        meta:
+          checksum: True
+
+      - name: data_associate_session_id
+        description: "NaN | example: 999b26a6-446a-4129-9ee4-766367a81376"
+        meta:
+          checksum: True
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 1985-03-27 11:41:03"
+        meta:
+          checksum: True
+
+      - name: data_item_bkg_source
+        description: "NaN | example: C"
+        meta:
+          checksum: True
+
+      - name: data_nightly_prices
+        description: "NaN | example: VLforOLUKzsAIzPCxbzZ"
+        meta:
+          checksum: True
+
+      - name: data_bypass_availability
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_send_to_property
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_send_to_property_status
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_total_duration
+        description: "NaN | example: 4"
+        meta:
+          checksum: True
+
+      - name: data_link_pkg_reference
+        description: "NaN | example: dDbdVktwcpZTuWNyZDgg"
+        meta:
+          checksum: True
+
+      - name: data_quote_before_conv
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_baseline_priced
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_extended_src_booking_id
+        description: "NaN | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_extended_src_product_code
+        description: "NaN | example: QxewRqKBSOhfGwuhzcPd"
+        meta:
+          checksum: True
+
+      - name: data_extended_src_package_no
+        description: "NaN | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_booking_id
+        description: "The system generated id of the booking | example: 27551281"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_package_no
+        description: "Oracle managed system tables used for materialised views | example: 8"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_type
+        description: "The availbility type (1 = Available 2 = Free Sell) | example: PBP"
+        meta:
+          checksum: True
+
+      - name: data_booking_status
+        description: "Not in the disney scope | example: 1000"
+        meta:
+          checksum: True
+
+      - name: data_adult
+        description: "Number of  Adult passengers of the sharing rule | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_child
+        description: "Number of  Child passengers of the sharing rule | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_infant
+        description: "Number of  Infant passengers of the sharing rule | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_adult_cost
+        description: "Reserved for future implementations | example: 943.14"
+        meta:
+          checksum: True
+
+      - name: data_child_cost
+        description: "Per Child cost for a particuler Other Cost | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_infant_cost
+        description: "Infant cost for a particuler Other Cost | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_adult_price
+        description: "Reserved for future implementations | example: 620.48"
+        meta:
+          checksum: True
+
+      - name: data_child_price
+        description: "Reserved for future implementations | example: 620.48"
+        meta:
+          checksum: True
+
+      - name: data_infant_price
+        description: "Reserved for future implementations | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_total_cost
+        description: "The total cost of the booking | example: 1004.44"
+        meta:
+          checksum: True
+
+      - name: data_total_price
+        description: "Oracle managed system tables used for materialised views | example: 1321.62"
+        meta:
+          checksum: True
+
+      - name: data_package_description
+        description: "The description of the package | example:"
+        meta:
+          checksum: True
+
+      - name: data_manually_added
+        description: "Flag to check whether manually added or not | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_price_overridden
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_departure_date
+        description: "Departure date for bookings | example: 1984-12-17 20:53:50"
+        meta:
+          checksum: True
+
+      - name: data_overall_margin
+        description: "NaN | example: -1.0"
+        meta:
+          checksum: True
+
+      - name: data_package_id
+        description: "The foreign key which refers the field PACKAGE_ID of the table PKG_HOLIDAY | example: 375425"
+        meta:
+          checksum: True
+
+      - name: data_itinerary_no
+        description: "The foreign key which refers the field ITINERARY_NO of the table PKG_ITINERARY | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_product_group
+        description: "Other Cost applicable Product Group Code | example: 90100000"
+        meta:
+          checksum: True
+
+      - name: data_product_type
+        description: "Other Cost applicable Product Type Code | example: 000"
+        meta:
+          checksum: True
+
+      - name: data_holiday_type
+        description: "The TravelBox code of the holiday type for which the limit is defined for | example: RL"
+        meta:
+          checksum: True
+
+      - name: data_package_code
+        description: "If this is a pre-built package reservation, this field holds the TravelBox code of the relevant package. If this is a component reservation, this is null.pre-built  | example: TICKETS_PACKAGE_648"
+        meta:
+          checksum: True
+
+      - name: data_package_name
+        description: "The TravelBox name of the package | example: 648 2022 WDTC IOTA Variable Tickets"
+        meta:
+          checksum: True
+
+      - name: data_nights
+        description: "This is 1 since the rates are for a day. | example: 5"
+        meta:
+          checksum: True
+
+      - name: data_stop_sale_reason
+        description: "NaN | example: sDWWclfDZScWAEjgzLgk"
+        meta:
+          checksum: True
+
+      - name: min_metadata_timestamp
+        description: "The Minimum Metadata Timestamp field is used for updating the version end date of the active record in the target table"
+        tests:
+          - not_null
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

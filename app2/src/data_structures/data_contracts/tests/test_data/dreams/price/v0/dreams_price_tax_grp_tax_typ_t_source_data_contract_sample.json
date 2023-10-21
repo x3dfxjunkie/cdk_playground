@@ -1,0 +1,92 @@
+[
+    {
+        "data": {
+            "TAX_GRP_ID": 12345678,
+            "TAX_GRP_TAX_TYP_PC": 100,
+            "TAX_TYP_ID": 12345678
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TAX_GRP_TAX_TYP_T",
+            "timestamp": "2023-08-26T06:09:43.970087Z"
+        }
+    },
+    {
+        "data": {
+            "TAX_GRP_ID": 12345678,
+            "TAX_GRP_TAX_TYP_PC": 100,
+            "TAX_TYP_ID": 12345678
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TAX_GRP_TAX_TYP_T",
+            "timestamp": "2023-08-26T06:09:44.120135Z"
+        }
+    },
+    {
+        "data": {
+            "TAX_GRP_ID": 12345678,
+            "TAX_GRP_TAX_TYP_PC": 0.5,
+            "TAX_TYP_ID": 12345678
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TAX_GRP_TAX_TYP_T",
+            "timestamp": "2023-08-26T06:09:43.890562Z"
+        }
+    },
+    {
+        "data": {
+            "TAX_GRP_ID": 12345678,
+            "TAX_GRP_TAX_TYP_PC": 100,
+            "TAX_TYP_ID": 12345678
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TAX_GRP_TAX_TYP_T",
+            "timestamp": "2023-08-26T06:09:44.120135Z"
+        }
+    },
+    {
+        "data": {
+            "TAX_GRP_ID": 12345678,
+            "TAX_GRP_TAX_TYP_PC": 0.5,
+            "TAX_TYP_ID": 12345678
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TAX_GRP_TAX_TYP_T",
+            "timestamp": "2023-08-26T06:09:43.890562Z"
+        }
+    },
+    {
+        "data": {
+            "TAX_GRP_ID": 12345678,
+            "TAX_GRP_TAX_TYP_PC": 100,
+            "TAX_TYP_ID": 12345678
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TAX_GRP_TAX_TYP_T",
+            "timestamp": "2023-08-26T06:09:44.045885Z"
+        }
+    }
+]

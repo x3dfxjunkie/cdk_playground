@@ -1,0 +1,74 @@
+load("//app/tools/build_rules/lambda_packaging:lambda.bzl", "contains", "endswith", "startswith")
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+load("//app/tools/macros/zip_py_lambda_library:def.bzl", "zip_py_lambda_library")
+
+library_name = "github_webhook"
+
+py_lambda_library(
+    name = library_name,
+    srcs = glob(
+        [
+            "lambda_function/models/*.py",
+            "lambda_function/utils/*.py",
+            "lambda_function/*.py",
+        ],
+    ),
+    deps = [
+        requirement("boto3"),
+        requirement("dataclasses_json"),
+    ],
+)
+
+zip_py_lambda_library(
+    name = "lambda_archive",
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+
+        # Ignore boto since it's provided by Lambda.
+        startswith("boto3"),
+        startswith("botocore"),
+        startswith("s3transfer"),
+        startswith("setuptools"),
+
+        # With the move to hermetic toolchains, the zip gets a lib/ directory containing the
+        # python runtime. We don't need that.
+        startswith("lib/"),
+        startswith("__init__.py"),
+    ],
+    target = ":" + library_name,
+)
+
+py_lambda_library(
+    name = "test_utils" + library_name,
+    srcs = glob(
+        [
+            "lambda_function/tests/utils/*.py",
+        ],
+    ),
+    deps = [
+        requirement("boto3"),
+    ],
+)
+
+pytest_test(
+    name = library_name + "_libraries",
+    srcs = glob([
+        "lambda_function/tests/unit_tests/*.py",
+    ]),
+    data = glob([
+        "lambda_function/tests/unit_tests/*.json",
+    ]),
+    deps = [
+        ":" + library_name,
+        ":" + "test_utils" + library_name,
+        requirement("moto"),
+        requirement("mock"),
+        requirement("boto3"),
+        requirement("faker"),
+        requirement("botocore"),
+    ],
+)

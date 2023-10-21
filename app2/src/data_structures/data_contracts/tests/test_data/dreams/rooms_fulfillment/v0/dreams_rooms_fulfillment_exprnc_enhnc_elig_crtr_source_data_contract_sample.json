@@ -1,0 +1,439 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "2016-05-30T06:14:22Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Product",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2016-05-30T06:14:22Z",
+            "EXPRNC_ENHNC_CRTR_VL": "Accommodation",
+            "EXPRNC_ENHNC_NM": "Straight To Park",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2016-05-30T06:14:22Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-29T19:39:42.456446Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2016-05-30T06:14:22Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Product",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2016-05-30T06:14:22Z",
+            "EXPRNC_ENHNC_CRTR_VL": "Admission",
+            "EXPRNC_ENHNC_NM": "Straight To Park",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2016-05-30T06:14:22Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-29T19:39:42.465584Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2013-04-30T06:14:22Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Payment Guarantee",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2013-04-30T06:14:22Z",
+            "EXPRNC_ENHNC_CRTR_VL": "Credit Card Guaranteed",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2013-04-30T06:14:22Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-29T19:39:42.475947Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2016-05-30T06:14:22Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Product",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2016-05-30T06:14:22Z",
+            "EXPRNC_ENHNC_CRTR_VL": "DineCoupon",
+            "EXPRNC_ENHNC_NM": "Straight To Park",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2016-05-30T06:14:22Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-29T19:39:42.487807Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2013-04-30T06:14:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Payment Guarantee",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2013-04-30T06:14:23Z",
+            "EXPRNC_ENHNC_CRTR_VL": "Group Guaranteed",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2013-04-30T06:14:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-29T19:39:42.497758Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2013-04-30T06:14:22Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Payment Guarantee",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2013-04-30T06:14:22Z",
+            "EXPRNC_ENHNC_CRTR_VL": "Member Guaranteed",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2013-04-30T06:14:22Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-29T19:39:42.505453Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-11-12T20:26:30Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Experience Media",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2015-11-12T20:26:30Z",
+            "EXPRNC_ENHNC_CRTR_VL": "Overriden",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2015-11-12T20:26:30Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-29T19:39:42.526596Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-11-12T20:26:30Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Facility",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2015-11-12T20:26:30Z",
+            "EXPRNC_ENHNC_CRTR_VL": "Overriden",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2015-11-12T20:26:30Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-29T19:39:42.537237Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-11-12T20:26:30Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Online Check In",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2015-11-12T20:26:30Z",
+            "EXPRNC_ENHNC_CRTR_VL": "Overriden",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2015-11-12T20:26:30Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-29T19:39:42.546273Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-11-12T20:26:30Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Product",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2015-11-12T20:26:30Z",
+            "EXPRNC_ENHNC_CRTR_VL": "Overriden",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2015-11-12T20:26:30Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-29T19:39:42.565830Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2013-04-30T06:14:22Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Online Check In",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2013-04-30T06:14:22Z",
+            "EXPRNC_ENHNC_CRTR_VL": "Yes",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2013-04-30T06:14:22Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-29T19:39:42.610014Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2013-04-30T06:14:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Product",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2013-04-30T06:14:23Z",
+            "EXPRNC_ENHNC_CRTR_VL": "Yes",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2013-04-30T06:14:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-29T19:39:42.620092Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-11-12T20:26:30Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Contact Information",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2015-11-12T20:26:30Z",
+            "EXPRNC_ENHNC_CRTR_VL": "Overriden",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2015-11-12T20:26:30Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-29T19:39:42.516851Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-11-12T20:26:30Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Payment Guarantee",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2015-11-12T20:26:30Z",
+            "EXPRNC_ENHNC_CRTR_VL": "Overriden",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2015-11-12T20:26:30Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-29T19:39:42.554252Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2013-04-30T06:14:22Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Payment Guarantee",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2013-04-30T06:14:22Z",
+            "EXPRNC_ENHNC_CRTR_VL": "Paid In Full",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2013-04-30T06:14:22Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-29T19:39:42.574675Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2013-04-30T06:14:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Contact Information",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2013-04-30T06:14:23Z",
+            "EXPRNC_ENHNC_CRTR_VL": "Yes",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2013-04-30T06:14:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-29T19:39:42.583166Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2013-04-30T06:14:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Experience Media",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2013-04-30T06:14:23Z",
+            "EXPRNC_ENHNC_CRTR_VL": "Yes",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2013-04-30T06:14:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-29T19:39:42.592827Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2013-04-30T06:14:23Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Facility",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2013-04-30T06:14:23Z",
+            "EXPRNC_ENHNC_CRTR_VL": "Yes",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2013-04-30T06:14:23Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-29T19:39:42.600445Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2016-05-30T06:14:22Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "CRTR_USG_LVL_NM": "Travel Component",
+            "ELIG_CRTR_NM": "Product",
+            "EXPRNC_ENHNC_CRTR_END_DT": null,
+            "EXPRNC_ENHNC_CRTR_STRT_DT": "2016-05-30T06:14:22Z",
+            "EXPRNC_ENHNC_CRTR_VL": "Accommodation",
+            "EXPRNC_ENHNC_NM": "Straight To Park",
+            "JDO_SEQ_NB": 0,
+            "UPDT_DTS": "2016-05-30T06:14:22Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_elig_crtr",
+            "timestamp": "2023-08-30T01:18:48.692199Z"
+        }
+    }
+]

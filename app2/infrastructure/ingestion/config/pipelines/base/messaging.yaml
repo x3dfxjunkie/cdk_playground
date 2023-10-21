@@ -1,0 +1,118 @@
+stack_extension: &se {{stack_extension}}
+ingest_pattern: &ip messaging
+active: True
+pattern_instances:
+  - region: &region-1 us-east-1
+    resources:
+      stack_extension: *se
+      kinesis: &kinesis
+        retention_period: &kdr !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 14
+        stream_mode: &ksm !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - PROVISIONED
+        shard_count: &ksc 1
+        encryption_key: NULL
+      kinesis_firehose: # AWS Kinesis Firehose Delivery Stream properties. See app.guest360_constructs.kinesis_firehose.KinesisFirehoseProps
+        enabled: True # True/False Kinesis Firehose
+        bucket_name: raw # Name of the bucket which will store the data from kinesis streams
+        buffering_hints: # See app.guest360_constructs.kinesis_firehose.KinesisFirehoseBufferingHintsProps
+          interval: 60 # How often the unit time is polled to push new Firehose data to the target (S3). Defaults to 60.
+          unit_of_time: SECONDS # SECONDS or MINUTES, which indicate the size allocated to each interval. Defaults to SECONDS.
+        partitioning: # See app.guest360_constructs.kinesis_firehose.KinesisFirehosePartitioningProps
+          dynamic:
+            enabled: True # True/False Kinesis firehose dynamic partitioning
+            keys: NULL # If no keys are specified defaults values will be set [ ".router_database", ".router_schema",  ".router_table", ".stream" ]
+          custom_keys: NULL # If NULL is specified for partitioning static keys, default value will be set as "snowpipe"
+      ecs:
+        region: *region-1
+        memory_mib: 2048
+        cpu_limitmb: 1024
+        ecr:
+          otel_repository_name: otel/otel_sidecar
+          otel_tag: v0.31.x
+        networking:
+          vpc_id: vpc-02da7a04db8bee27b
+          is_default: False
+          allowlist:
+            ingress:
+              cidrs: &cidr
+                - "10.0.0.0/8"
+              ports:
+                - 443
+            egress:
+              cidr: *cidr
+              ports:
+                - -1
+          blocklist:
+            ingress:
+              cidrs:
+                - NULL
+              ports:
+                - NULL
+        iam: &iam
+          role_name: ecs-consumer-role-{{stack_extension}}
+          assumed_by: !!python/object/apply:aws_cdk.aws_iam.ServicePrincipal
+            - ecs-tasks.amazonaws.com
+          description: IAM Role to be used by the ECS consumer
+      event_bridge_pipe_validation:
+        name: {{stack_extension}}-event-bridge-pipe-validation
+        role_arn:
+        pipe_source_parameters:
+          kinesis_stream_parameters:
+            startingPosition: "LATEST"
+            batchSize: 100
+            maximumRetryAttempts: 3
+            parallelizationFactor: 3
+            deadLetterConfig:
+              arn:
+          sqs_queue_parameters:
+        pipe_target_parameters:
+          kinesis_stream_parameters:
+            partitionKey: $.partition_key
+          lambda_function_parameters:
+      event_bridge_pipe_dead_letter_queue:
+        name: {{stack_extension}}-event-bridge-pipe-dlq
+        role_arn:
+        pipe_source_parameters:
+          sqs_queue_parameters:
+        pipe_target_parameters:
+          lambda_function_parameters:
+      lambda_validator:
+        function_name: {{stack_extension}}-lambda-validator
+        handler: runner.lambda_handler
+        timeout: !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.duration.Duration # The function execution time aws_cdk.duration (in seconds) 
+          - seconds
+          - 60
+        memory_size: 256
+        code: bazel-bin/app/src/ingestion/event_pipes/validation/data_contract_lambda_validator.zip
+      lambda_dead_letter:
+        function_name: {{stack_extension}}-lambda-dead-letter-processor
+        handler: runner.lambda_handler
+        code: bazel-bin/app/src/ingestion/event_pipes/dead_letter/data_contract_lambda_dead_letter.zip
+        timeout: !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.duration.Duration # The function execution time aws_cdk.duration (in seconds) 
+          - seconds
+          - 300
+      app_config: # AWS AppConfig properties. See app.guest360_constructs.app_config.AppConfigProps
+        hosted_configuration: # AWS AppConfig Hosted Configuration Version. See app.guest360_constructs.app_config.AppConfigHostedConfigurationVersionProps
+            content: # Managed by Guest360DMSIngest construct. A standard MIME type describing the format of the configuration content
+      sqs: &sqs
+        queue_name: &sqs_queue_name {{stack_extension}}-sqs-dead-letter
+        encryption_key: NULL
+      kinesis_dmz: &kinesis_dmz # AWS Kinesis Data Stream properties of Event Bridge Pipe Validation Source. See app.guest360_constructs.kinesis_datastream.KinesisProps
+        stream_name: &dmz_stream_name {{stack_extension}}-kinesis-dmz
+        retention_period: &kdr_dmz !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention # The number of hours for the data records that are stored in shards to remain accessible in aws_cdk.Duration format
+          - 14
+        stream_mode: &ksm_dmz !!python/object/apply:aws_cdk.aws_kinesis.StreamMode # The capacity mode of this stream. Default: StreamMode.PROVISIONED
+          - PROVISIONED
+        shard_count: &ksc_dmz 1 # The number of shards for the stream. Can only be provided if streamMode is Provisioned
+        encryption_key: NULL # Custom KMS key to use for stream encryption
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_DATABASE_LANDING
+      default_table: DEFAULT_ROUTER_TABLE
+      default_schema: DEFAULT_ROUTER_SCHEMA
+      data_mapper_type: nested
+      metrics:
+        error:
+            namespace: event_pipes_validation_errors
+            value: 1 # A metric per type of error will be generated, this is the value
+            unit: Count # A metric per type of error will be generated, this is the unit

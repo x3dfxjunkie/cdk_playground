@@ -1,0 +1,64 @@
+system_test:
+  name: OrionEASystemTest
+  description: OrionEA System test
+input:
+  endpoint:
+    type: kinesis
+    stream_name: dlr-lightning-lane-stream
+    region: us-east-1
+  data:
+    schema: app/src/data_structures/data_contracts/source/dreams/accounting/v0/dreams_accounting_acct_ctr_pst_acct_source_data_contract.py
+    schema_name: DREAMSAccountingAcctCtrPstAcctModel
+    schema_resources:
+      - app/src/data_structures/data_contracts/source/dreams/global_dreams_source_data_contract.py
+    active_injection: False
+    limit_records: &limit_records 100
+    duration_seconds: 180
+    samples:
+      source: s3
+      bucket_name: load-testing
+      path: app/src/data_structures/data_contracts/tests/test_data/dreams/accounting/v0/dreams_accounting_acct_ctr_pst_acct_source_data_contract_sample.json
+metrics:
+  namespace_name: &namespace_input locust-load-tests
+  cw_log_group_name: load-testing-lg
+  dimensions: &dimension_input
+    - name: Source
+      value: Orion_EA
+    - name: Target
+      value: Kinesis
+output:
+  destination:
+    database: LATEST_LANDING
+    schema: LND__EA
+    table: WDW_LIGHTNING_LANE
+  parameters:
+    - label: scenario_config_limit_records
+      endpoint:
+        type: static
+        value: *limit_records
+    - label: locust_records_sent
+      endpoint:
+        type: cloudwatch
+        metric_name: events_success
+        namespace: *namespace_input
+        dimensions:
+          - Name: Source
+            Value: Orion_EA
+          - Name: Target
+            Value: Kinesis
+          - Name: request_type
+            Value: send_event
+          - Name: target
+            Value: Kinesis Data Stream
+        statistic: Sum
+    - label: put_records_s3_glue
+      endpoint:
+        type: glue
+        bucket_name: ingestion-raw
+        bucket_path: snowpipe/database=LATEST_LANDING/schema=LND__EA/table=DLR_LIGHTNING_LANE/stream=dlr-lightning-lane/ #pragma: allowlist secret
+        trace_id_key_name: trace_id
+  tests:
+    - name: check_s3_records
+      condition: locust_records_sent == put_records_s3_glue
+    - name: check_locust_send_records
+      condition: locust_records_sent == scenario_config_limit_records

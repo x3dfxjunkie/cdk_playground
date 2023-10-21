@@ -1,0 +1,51 @@
+experienceParkReservation:
+  allOf:
+    - $ref: "../openapi.yaml#/components/schemas/experienceCommon"
+    - type: object
+      properties:
+        transactionId:
+          type: string
+          description: unique identifier for the Park Reservation transaction
+        experienceId:
+          type: string
+          description: Park Enterprise ID.  This can be referenced via Facility APIs for additional facililty metadata
+          example: "80007944"
+        experienceCategory:
+          allOf:
+            - $ref: "../openapi.yaml#/components/schemas/experienceCategory"
+            - type: string
+              example: "Park Reservation"
+        status:
+          $ref: "../openapi.yaml#/components/schemas/experienceStatus"
+        businessDate:
+          type: string
+          format: date
+          description: Date of the Park Reservation
+        experienceStart:
+          type: string
+          format: date-time
+          description: UTC start date/Time of the Park Reservation from CME
+        experienceEnd:
+          type: string
+          format: date-time
+          description: Currently optional, future enhancement may include UTC end date/Time of the Park Reservation, corresponding to Park Close hours
+      required:
+        - transactionId
+        - experienceId
+        - experienceCategory
+        - status
+        - businessDate
+        - experienceStart
+    - type: object
+      properties:
+        reservationDetails:
+          type: object
+          properties:
+            ticketId:
+              type: string
+              description: Ticket ID associated to the Park Reservation. Also known as TCOD / Ticket Visual ID
+              example: 25100009999999999
+            bookingChannel:
+              type: string
+              description: The channel used to book the reservation - Web | Recovery | etc
+              example: Web

@@ -1,0 +1,39 @@
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+py_lambda_library(
+    name = "loadtest_constructs",
+    srcs = glob([
+        "*.py",
+        "**/*.py",
+    ]),
+    visibility = ["//visibility:public"],
+    deps = [
+        "//app/guest360_constructs/ingestion:ingestion_constructs",
+        "//app/src/reliability",
+    ],
+)
+
+pytest_test(
+    name = "loadtest_construct_tests",
+    srcs = glob(
+        [
+            "tests/*.py",
+        ],
+    ),
+    data = glob(["tests/config/*"]) + glob(["config/*"]) + ["//app:environment_infra_feature_flags"] + ["//app:app_level_conftest_file"],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":loadtest_constructs",
+        "//app/guest360_constructs",
+        "//app/src/reliability",
+        "//app/src/utils/feature_flag",
+        requirement("cdk-nag"),
+        requirement("pyyaml"),
+        requirement("moto"),
+        requirement("mock"),
+        requirement("boto3"),
+        requirement("botocore"),
+    ],
+)

@@ -1,0 +1,3 @@
+authz_validate_url: "https://authorization.go.com/validate/"
+authorizer_s3_bucket_name: "lambda-authorizer"
+authorizer_s3_object_key: "scope-map.json"

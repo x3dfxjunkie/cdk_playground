@@ -1,0 +1,242 @@
+[
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-30T11:34:35.269000Z",
+			"CREATE_USR_ID_CD": "TESTA003",
+			"INVTRY_REQ_END_DTS": "2023-07-31T11:34:00Z",
+			"INVTRY_REQ_REQ_NM": "TESTB1233",
+			"INVTRY_REQ_STRT_DTS": "2023-07-30T11:34:00Z",
+			"INVTRY_REQ_TYP_NM": "OUT_OF_INVENTORY",
+			"JDO_SEQ_NB": 0,
+			"RSRC_ID": 15227,
+			"RSRC_INVTRY_REQ_ID": 23711207,
+			"UPDT_DTS": "2023-07-30T11:34:35.269000Z",
+			"UPDT_USR_ID_CD": "BRAMJ013"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "invtry_req",
+			"timestamp": "2023-07-30T15:34:42.061675Z",
+			"transaction-id": 14495548033444
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-05-28T14:46:50.685000Z",
+			"CREATE_USR_ID_CD": "TESTA003",
+			"INVTRY_REQ_END_DTS": "2023-07-25T11:01:00Z",
+			"INVTRY_REQ_REQ_NM": "TESTB1233",
+			"INVTRY_REQ_RSLTN_DTS": "2023-07-25T14:37:18.387000Z",
+			"INVTRY_REQ_STRT_DTS": "2023-07-25T11:01:00Z",
+			"INVTRY_REQ_STS_NM": "COMPLETED",
+			"INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+			"JDO_SEQ_NB": 2,
+			"RM_INVTRY_REQ_CMT_TX": "PRIMO * CIM",
+			"RSN_TX": "Pre Inspection – 724",
+			"RSRC_ID": 4530,
+			"RSRC_INVTRY_REQ_ID": 23631917,
+			"UPDT_DTS": "2023-07-25T14:37:18.456000Z",
+			"UPDT_USR_ID_CD": "SPENA023"
+		},
+		"metadata": {
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "invtry_req",
+			"timestamp": "2023-07-25T18:37:21.195023Z",
+			"transaction-id": 14426921901603
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-24T10:55:39.885000Z",
+			"CREATE_USR_ID_CD": "TESTA003",
+			"INVTRY_REQ_END_DTS": "2023-07-25T11:00:00Z",
+			"INVTRY_REQ_REQ_NM": "TESTB1233",
+			"INVTRY_REQ_RSLTN_DTS": "2023-07-25T16:15:24.234000Z",
+			"INVTRY_REQ_STRT_DTS": "2023-07-24T11:01:00Z",
+			"INVTRY_REQ_STS_NM": "COMPLETED",
+			"INVTRY_REQ_TYP_NM": "OUT_OF_INVENTORY",
+			"JDO_SEQ_NB": 2,
+			"RM_INVTRY_REQ_CMT_TX": "whole on the floor Hk Susan",
+			"RSN_TX": "Unplanned Maintenance",
+			"RSRC_ID": 4422,
+			"RSRC_INVTRY_REQ_ID": 23703554,
+			"UPDT_DTS": "2023-07-25T16:15:24.252000Z",
+			"UPDT_USR_ID_CD": "MOSQG007"
+		},
+		"metadata": {
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "invtry_req",
+			"timestamp": "2023-07-25T20:15:28.097217Z",
+			"transaction-id": 14431127745049
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-25T16:15:31.592000Z",
+			"CREATE_USR_ID_CD": "TESTA003",
+			"INVTRY_REQ_END_DTS": "2023-07-26T15:00:00Z",
+			"INVTRY_REQ_REQ_NM": "TESTB1233",
+			"INVTRY_REQ_RSLTN_DTS": "2023-07-25T16:15:00Z",
+			"INVTRY_REQ_STRT_DTS": "2023-07-25T16:14:00Z",
+			"INVTRY_REQ_STS_NM": "CANCELLED",
+			"INVTRY_REQ_TYP_NM": "OUT_OF_INVENTORY",
+			"JDO_SEQ_NB": 1,
+			"RM_INVTRY_REQ_CMT_TX": "per Kylee",
+			"RSN_TX": "Category Hold",
+			"RSRC_ID": 61368,
+			"RSRC_INVTRY_REQ_ID": 23706914,
+			"UPDT_DTS": "2023-07-25T16:15:58.244000Z",
+			"UPDT_USR_ID_CD": "AUGUK007"
+		},
+		"metadata": {
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "invtry_req",
+			"timestamp": "2023-07-25T20:15:58.629537Z",
+			"transaction-id": 14431127921140
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-28T11:55:40.260000Z",
+			"CREATE_USR_ID_CD": "TESTA003",
+			"INVTRY_REQ_END_DTS": "2023-07-29T05:01:00Z",
+			"INVTRY_REQ_REQ_NM": "TESTB1233",
+			"INVTRY_REQ_STRT_DTS": "2023-07-28T11:55:00Z",
+			"INVTRY_REQ_STS_NM": "PENDING",
+			"INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+			"JDO_SEQ_NB": 0,
+			"RSN_TX": "Carry Dirty",
+			"RSRC_ID": 86359,
+			"RSRC_INVTRY_REQ_ID": 23709537,
+			"UPDT_DTS": "2023-07-28T11:55:40.260000Z",
+			"UPDT_USR_ID_CD": "CORDG014"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "invtry_req",
+			"timestamp": "2023-07-28T15:55:42.429116Z",
+			"transaction-id": 14465538248558
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-25T14:26:19.706000Z",
+			"CREATE_USR_ID_CD": "TESTA003",
+			"INVTRY_REQ_END_DTS": "2023-08-01T11:05:00Z",
+			"INVTRY_REQ_REQ_NM": "TESTB1233",
+			"INVTRY_REQ_STRT_DTS": "2023-08-01T11:05:00Z",
+			"INVTRY_REQ_STS_NM": "PENDING",
+			"INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+			"JDO_SEQ_NB": 0,
+			"RM_INVTRY_REQ_CMT_TX": "Patio Painting *ENG Benette",
+			"RSN_TX": "Preventative Maintenance",
+			"RSRC_ID": 28632,
+			"RSRC_INVTRY_REQ_ID": 23706793,
+			"UPDT_DTS": "2023-07-25T14:26:19.706000Z",
+			"UPDT_USR_ID_CD": "NEVEL003"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "invtry_req",
+			"timestamp": "2023-07-25T18:26:21.670160Z",
+			"transaction-id": 14426916245136
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-25T16:15:31.592000Z",
+			"CREATE_USR_ID_CD": "TESTA003",
+			"INVTRY_REQ_END_DTS": "2023-07-26T15:00:00Z",
+			"INVTRY_REQ_REQ_NM": "TESTB1233",
+			"INVTRY_REQ_STRT_DTS": "2023-07-25T16:14:00Z",
+			"INVTRY_REQ_STS_NM": "PENDING",
+			"INVTRY_REQ_TYP_NM": "OUT_OF_INVENTORY",
+			"JDO_SEQ_NB": 0,
+			"RM_INVTRY_REQ_CMT_TX": "Tiolet needs to be replaced. WO 3304280",
+			"RSN_TX": "Category Hold",
+			"RSRC_ID": 61368,
+			"RSRC_INVTRY_REQ_ID": 23706914,
+			"UPDT_DTS": "2023-07-25T16:15:31.592000Z",
+			"UPDT_USR_ID_CD": "AUGUK007"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "invtry_req",
+			"timestamp": "2023-07-25T20:15:33.258883Z",
+			"transaction-id": 14431127795225
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-25T14:01:05.717000Z",
+			"CREATE_USR_ID_CD": "TESTA003",
+			"INVTRY_REQ_END_DTS": "2023-07-26T23:00:00Z",
+			"INVTRY_REQ_REQ_NM": "TESTB1233",
+			"INVTRY_REQ_STRT_DTS": "2023-07-25T23:00:00Z",
+			"INVTRY_REQ_STS_NM": "PENDING",
+			"INVTRY_REQ_TYP_NM": "OUT_OF_INVENTORY",
+			"JDO_SEQ_NB": 0,
+			"RSN_TX": "Category Hold",
+			"RSRC_ID": 28680,
+			"RSRC_INVTRY_REQ_ID": 23706762,
+			"UPDT_DTS": "2023-07-25T14:01:05.717000Z",
+			"UPDT_USR_ID_CD": "ADELK005"
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "invtry_req",
+			"timestamp": "2023-07-25T18:01:08.946362Z",
+			"transaction-id": 14426905073617
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-07-28T18:40:30.507000Z",
+			"CREATE_USR_ID_CD": "TESTA003",
+			"INVTRY_REQ_END_DTS": "2023-07-29T07:30:00Z",
+			"INVTRY_REQ_REQ_NM": "TESTB1233",
+			"INVTRY_REQ_RSLTN_DTS": "2023-07-28T22:14:57.563000Z",
+			"INVTRY_REQ_STRT_DTS": "2023-07-28T18:40:00Z",
+			"INVTRY_REQ_STS_NM": "COMPLETED",
+			"INVTRY_REQ_TYP_NM": "CLOSED_FLOOR",
+			"JDO_SEQ_NB": 2,
+			"RSN_TX": "Carry Dirty",
+			"RSRC_ID": 19882,
+			"RSRC_INVTRY_REQ_ID": 23709912,
+			"UPDT_DTS": "2023-07-28T22:14:57.639000Z",
+			"UPDT_USR_ID_CD": "CHIAA029"
+		},
+		"metadata": {
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "invtry_req",
+			"timestamp": "2023-07-29T02:15:00.638014Z"
+		}
+	}
+]

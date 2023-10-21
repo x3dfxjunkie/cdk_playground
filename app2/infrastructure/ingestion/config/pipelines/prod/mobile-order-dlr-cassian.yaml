@@ -1,0 +1,40 @@
+stack_extension: &se mobile-order-dlr-cassian
+ingest_pattern: &ip kinesis2kinesis
+active: true
+pattern_instances:
+  - region: us-east-1
+    resources:
+      kinesis_dmz:
+        retention_period: &kdr !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+        stream_mode: &ksm !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      kinesis:
+        retention_period: *kdr
+        stream_mode: *ksm
+      cross_account:
+        cross_account_type: target
+        cross_account_id: 830296027592
+        cross_account_role_name: lllingest-use1-prd-lllingest-lambda
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_PROD_LANDING # Needs update to appropriate default routing
+      default_schema: &schema LND_MOBILE_ORDER_DLR
+      data_contracts:
+        - data_contract: app.src.data_structures.data_contracts.source.mobile_order_dlr.arrival_window.v0.mobile_order_dlr_arrvl_wndw_agg_report_source_data_contract
+          class_name: MobileOrderDLRArrvlWndwAggReportModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: agg_report
+          router_database: &database PROD_LANDING
+          router_schema: *schema
+          router_table: ARRVL_WNDW_AGG_REPORT
+        - data_contract: app.src.data_structures.data_contracts.source.mobile_order_dlr.arrival_window.v0.mobile_order_dlr_arrvl_wndw_entitlement_report_source_data_contract
+          class_name: MobileOrderDLRArrvlWndwEntitlementReportModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: enttl_report
+          router_database: *database
+          router_schema: *schema
+          router_table: ARRVL_WNDW_ENTITLEMENT_REPORT

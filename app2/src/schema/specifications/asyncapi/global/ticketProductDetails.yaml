@@ -1,0 +1,182 @@
+ticketProductDetails:
+  type: object
+  description: reusable object to represent product details
+  properties:
+    productId:
+      type: string
+      description: Ticket Product Code
+      example: 8LA0R
+    productName:
+      type: string
+      description: Ticket Product Name
+      example: 8 DAY 1 PARK W/8 WPS VISITS    AGES(10+)
+    ageType:
+      type: string
+      description: Age group specified for the ticket product
+      example: ADULT
+    ageTypeCode:
+      type: string
+      description: Age group code specified for the ticket product
+      example: A
+    allowedEntryDetails:
+      type: object
+      description: Entry Type allowed object
+      properties:
+        themeParkEntry:
+          type: boolean
+          description: Allows theme park entry?
+          example: true
+        waterParkEntry:
+          type: boolean
+          description: Allows water park entry?
+          example: true
+        sportComplexEntry:
+          type: boolean
+          description: Allows sport complex entry?
+          example: false
+    classifications:
+      type: object
+      description: ticket product classifications (curated) object
+      properties:
+        isTestTicket:
+          type: boolean
+          description: is the ticket product used for testing only?
+          example: false
+        isCertificate:
+          type: boolean
+          description: is the ticket product a certificate/exchange (requires conversion to a real ticket)?
+          example: false
+        isMainEntrancePass:
+          type: boolean
+          description: is the ticket product a Cast Main Entrance Pass?
+          example: true
+        mainEntrancePassDetails:
+          type: object
+          description: exists if isMainEntrancePass is true
+          properties:
+            type:
+              type: string
+              description: "MEP Type, ex: Silver, Red, etc"
+              example: Silver
+            typeCode:
+              type: string
+              description: MEP Type Code
+              example: SLVR
+            passType:
+              type: string
+              description: Pass type distinguishing Primary vs Guest Pass
+              example: Primary Pass
+            passTypeCode:
+              type: string
+              description: Pass type code distinguishing Primary vs Guest Pass
+              example: PRMP
+            site:
+              type: array
+              description: MEP originating site
+              items:
+                type: string
+              example: ["FL", "DCL"]
+            affillation:
+              type: string
+              description: special designations for RCID / VIP
+              example: RCID
+        isComp:
+          type: boolean
+          description: "is the ticket product complimentry (ex: Cast Complimentry ticket)"
+          example: false
+        isDayTicket:
+          type: boolean
+          description: is the ticket Product a day ticket (not AP, Event, etc)
+          example: true
+        dayTicketDetails:
+          type: object
+          description: exists if isDayTicket is true
+          properties:
+            type:
+              type: string
+              description: Product Category name if product is a day ticket
+              example: Theme Park Ticket with Water Park & Sports Option
+            typeCode:
+              type: string
+              description: Product Category code if product is a day ticket
+              example: BASE_WPS
+            daysAllowed:
+              type: string
+              description: Allowed duration if product is a day ticket
+              example: 8 Day
+        isAnnualPass:
+          type: boolean
+          description: is ticket product an annual pass?
+          example: true
+        annualPassDetails:
+          type: object
+          description: exists if isAnnualPass is true
+          properties:
+            type:
+              type: string
+              description: Product Category name if the product is an annual pass
+              example: Pixie Dust Pass
+            typeCode:
+              type: string
+              description: Product Category code if the product is an annual pass
+              example: PIXIEP
+            pricingType:
+              type: string
+              description: determines pricing for an AP
+              example: RENEWAL
+            pricingTypeCode:
+              type: string
+              description: Code for AP Pricing Type
+              example: RENWAP
+        isEventTicket:
+          type: boolean
+          description: is ticket product for an event (like Mickey's Not So Scary Halloween Party)
+          example: true
+        eventTicketDetails:
+          type: object
+          description: TBD
+          properties:
+            eventType:
+              type: string
+              description: Product Category name if the product is an event ticket
+              example: Disney After Hours MK
+            eventCode:
+              type: string
+              description: Event Code if product is an event ticket
+              example: MNSSHP
+        isLocalResidentTicket:
+          type: boolean
+          description: is ticket product for local resident?
+          example: true
+        localResidentTicketDetails:
+          type: object
+          description: TBD
+          properties:
+            localResidentTicketType:
+              type: string
+              description: Local Resident Code if product is for Local Residents
+              example: FL
+        isMilitaryOfferTicket:
+          type: boolean
+          description: is ticket product for military specal offer?
+          example: false
+        isGoldenOakTicket:
+          type: boolean
+          description: is ticket product for Golden Oak members
+          example: false
+        isDvcTicket:
+          type: boolean
+          description: is ticket product for DVC members
+          example: false
+        isClub33:
+          type: boolean
+          description: is ticket product for Club33 members
+          example: false
+        club33Details:
+          type: object
+          description: TBD
+          properties:
+            club33Type:
+              type: string
+              description: Which Club33 destination
+              example: DW

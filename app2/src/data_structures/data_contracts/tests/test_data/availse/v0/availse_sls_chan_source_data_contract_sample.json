@@ -1,0 +1,77 @@
+[
+    {
+        "data": {
+            "SLS_CHAN_ID": 1,
+            "SLS_CHAN_NM": "Consumer Direct",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "sls_chan",
+            "timestamp": "2023-08-23T19:22:20.456398Z"
+        }
+    },
+    {
+        "data": {
+            "SLS_CHAN_ID": 3,
+            "SLS_CHAN_NM": "Wholesale",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "sls_chan",
+            "timestamp": "2023-08-23T19:22:20.477653Z"
+        }
+    },
+    {
+        "data": {
+            "SLS_CHAN_ID": 5,
+            "SLS_CHAN_NM": "Unknown",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "sls_chan",
+            "timestamp": "2023-08-23T19:22:20.499954Z"
+        }
+    },
+    {
+        "data": {
+            "SLS_CHAN_ID": 2,
+            "SLS_CHAN_NM": "Travel Agent",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "sls_chan",
+            "timestamp": "2023-08-23T19:22:20.467631Z"
+        }
+    },
+    {
+        "data": {
+            "SLS_CHAN_ID": 4,
+            "SLS_CHAN_NM": "Groups Conventions",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "sls_chan",
+            "timestamp": "2023-08-23T19:22:20.485362Z"
+        }
+    }
+]

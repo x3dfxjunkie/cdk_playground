@@ -1,0 +1,477 @@
+[
+    {
+        "action": "ADD",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809520055100817816",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "478000792",
+            "status": "ACTIVE",
+            "subType": "BELIEVE_KEY_PASS",
+            "type": "Believe Key Pass",
+            "validityEndDate": "2024-09-09T07:00:00Z",
+            "validityStartDate": "2023-09-09T07:00:00Z"
+        },
+        "timestamp": "2023-09-09T14:04:47Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "ADD",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809510055602553179",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "478000802",
+            "status": "ACTIVE",
+            "subType": "ENCHANT_KEY_PASS",
+            "type": "Enchant Key Pass",
+            "validityEndDate": "2024-09-09T07:00:00Z",
+            "validityStartDate": "2023-09-09T07:00:00Z"
+        },
+        "timestamp": "2023-09-09T14:04:50Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "REMOVE",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809520055100817816",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "478000792",
+            "status": "ACTIVE",
+            "subType": "BELIEVE_KEY_PASS",
+            "type": "Believe Key Pass",
+            "validityEndDate": "2024-09-09T07:00:00Z",
+            "validityStartDate": "2023-09-09T07:00:00Z"
+        },
+        "timestamp": "2023-09-09T14:04:53Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "ADD",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809520055100817816",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "478000812",
+            "status": "ACTIVE",
+            "subType": "BELIEVE_KEY_PASS",
+            "type": "Believe Key Pass",
+            "validityStartDate": "2023-09-09T07:00:00Z"
+        },
+        "timestamp": "2023-09-09T14:04:53Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "ADD",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809520055602553181",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "478000822",
+            "status": "ACTIVE",
+            "subType": "BELIEVE_KEY_PASS",
+            "type": "Believe Key Pass",
+            "validityEndDate": "2024-09-09T07:00:00Z",
+            "validityStartDate": "2023-09-09T07:00:00Z"
+        },
+        "timestamp": "2023-09-09T14:05:01Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "ADD",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809500055602553183",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "478000832",
+            "status": "ACTIVE",
+            "subType": "IMAGINE_KEY_PASS",
+            "type": "Imagine Key Pass",
+            "validityEndDate": "2024-09-09T07:00:00Z",
+            "validityStartDate": "2023-09-09T07:00:00Z"
+        },
+        "timestamp": "2023-09-09T14:05:10Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "ADD",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809500055602553183",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "478000842",
+            "status": "ACTIVE",
+            "subType": "IMAGINE_KEY_PASS",
+            "type": "Imagine Key Pass",
+            "validityStartDate": "2023-09-09T07:00:00Z"
+        },
+        "timestamp": "2023-09-09T14:05:16Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "ADD",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809510055602553179",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "478000852",
+            "status": "ACTIVE",
+            "subType": "ENCHANT_KEY_PASS",
+            "type": "Enchant Key Pass",
+            "validityStartDate": "2023-09-09T07:00:00Z"
+        },
+        "timestamp": "2023-09-09T14:05:16Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "REMOVE",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809500055602553183",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "478000832",
+            "status": "ACTIVE",
+            "subType": "IMAGINE_KEY_PASS",
+            "type": "Imagine Key Pass",
+            "validityEndDate": "2024-09-09T07:00:00Z",
+            "validityStartDate": "2023-09-09T07:00:00Z"
+        },
+        "timestamp": "2023-09-09T14:05:16Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "ADD",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809520055602553181",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "478000862",
+            "status": "ACTIVE",
+            "subType": "BELIEVE_KEY_PASS",
+            "type": "Believe Key Pass",
+            "validityStartDate": "2023-09-09T07:00:00Z"
+        },
+        "timestamp": "2023-09-09T14:05:16Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "REMOVE",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809510055602553179",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "478000802",
+            "status": "ACTIVE",
+            "subType": "ENCHANT_KEY_PASS",
+            "type": "Enchant Key Pass",
+            "validityEndDate": "2024-09-09T07:00:00Z",
+            "validityStartDate": "2023-09-09T07:00:00Z"
+        },
+        "timestamp": "2023-09-09T14:05:16Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "REMOVE",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809520055602553181",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "478000822",
+            "status": "ACTIVE",
+            "subType": "BELIEVE_KEY_PASS",
+            "type": "Believe Key Pass",
+            "validityEndDate": "2024-09-09T07:00:00Z",
+            "validityStartDate": "2023-09-09T07:00:00Z"
+        },
+        "timestamp": "2023-09-09T14:05:16Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "ADD",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809520055602553249",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "478001202",
+            "status": "ACTIVE",
+            "subType": "BELIEVE_KEY_PASS",
+            "type": "Believe Key Pass",
+            "validityEndDate": "2024-09-09T07:00:00Z",
+            "validityStartDate": "2023-09-09T07:00:00Z"
+        },
+        "timestamp": "2023-09-09T14:39:26Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "ADD",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809520055100817894",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "478001212",
+            "status": "ACTIVE",
+            "subType": "BELIEVE_KEY_PASS",
+            "type": "Believe Key Pass",
+            "validityEndDate": "2024-09-09T07:00:00Z",
+            "validityStartDate": "2023-09-09T07:00:00Z"
+        },
+        "timestamp": "2023-09-09T14:39:42Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "ADD",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809500055602537903",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "477978072",
+            "status": "ACTIVE",
+            "subType": "IMAGINE_KEY_PASS",
+            "type": "Imagine Key Pass",
+            "validityEndDate": "2024-09-04T07:00:00Z",
+            "validityStartDate": "2023-09-04T07:00:00Z"
+        },
+        "timestamp": "2023-09-04T08:34:45Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "ADD",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809100055602538737",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "477978372",
+            "status": "ACTIVE",
+            "subType": "BELIEVE_KEY_PASS",
+            "type": "Believe Key Pass",
+            "validityEndDate": "2024-09-04T07:00:00Z",
+            "validityStartDate": "2023-09-04T07:00:00Z"
+        },
+        "timestamp": "2023-09-04T09:38:01Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "ADD",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809410055100768398",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "477978982",
+            "status": "ACTIVE",
+            "subType": "INSPIRE_KEY_PASS",
+            "type": "Inspire Key Pass",
+            "validityStartDate": "2023-08-22T07:00:00Z"
+        },
+        "timestamp": "2023-09-04T12:10:31Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "ADD",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809510055602553646",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "478001912",
+            "status": "ACTIVE",
+            "subType": "ENCHANT_KEY_PASS",
+            "type": "Enchant Key Pass",
+            "validityEndDate": "2024-09-10T07:00:00Z",
+            "validityStartDate": "2023-09-10T07:00:00Z"
+        },
+        "timestamp": "2023-09-10T16:56:53Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "ADD",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809100055100820031",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "478002702",
+            "status": "ACTIVE",
+            "subType": "BELIEVE_KEY_PASS",
+            "type": "Believe Key Pass",
+            "validityEndDate": "2024-09-11T07:00:00Z",
+            "validityStartDate": "2023-09-11T07:00:00Z"
+        },
+        "timestamp": "2023-09-11T08:09:17Z",
+        "type": "AFFILIATION"
+    },
+    {
+        "action": "ADD",
+        "affiliation": {
+            "affiliationIds": [
+                {
+                    "id": "809100055602555382",
+                    "type": "ENTITLEMENT-ID"
+                }
+            ],
+            "category": "AnnualPass",
+            "guest": {
+                "guestIdType": "swid",
+                "guestIdValue": "{TEST1234-1234-TEST-1234-TEST12345678}"
+            },
+            "id": "478002712",
+            "status": "ACTIVE",
+            "subType": null,
+            "type": null,
+            "validityEndDate": "2024-09-11T07:00:00Z",
+            "validityStartDate": "2023-09-11T07:00:00Z"
+        },
+        "timestamp": "2023-09-11T08:09:19Z",
+        "type": "AFFILIATION"
+    }
+]

@@ -1,0 +1,304 @@
+stack_extension: &se gam-dlr
+ingest_pattern: &ip messaging
+active: True
+pattern_instances:
+  - region: &region-1 us-east-1
+    resources:
+      cluster_name: &rcm gam-mq-dlr
+      kinesis: &kinesis
+        stream_name: &stream_name gam-dlr-kinesis
+      ecs:
+        ecr:
+          repository_name: guest360/ingestion/rabbitmq_consumer
+        secret_name: &secret_name lst-use1-gam-dlr-secret
+        s3:
+          bucket_name: *rcm
+        services:
+          - service_name: DLR-AFFIL-AFFILIATION-GUEST360              # Max lenght 34 characters due construct prefixes
+            image_tag: &image v0.2.x
+            desired_count : 1
+            cloudmap: False
+            environment: &environment
+              DEFAULT_BATCH_SIZE : 400                                # Integer value gather than 0  Required: No  Default Value =  400
+              DEFAULT_MAX_RETRY_ATTEMPT : 3                           # Integer value gather than 0  Required: No  Default Value =  3
+              DEFAULT_RETRY_BATCH_SIZE :  5                           # Integer value gather than 0  Required: No  Default Value =  5
+              DEFAULT_MAX_WAIT_MILLISECS : 100                        # Integer value gather than 0  Required: No  Default Value =  1000
+              MAX_BATCH_SIZE : 500                                    # This is batch size limit from Kinesis. # Integer value gather than 0  Required: No  Default Value =  500
+              MAX_WAIT_MILLISECS : 300                                # This is batch size limit from Kinesis. # Integer value gather than 0  Required: No  Default Value =  500
+              LOGLEVEL : INFO                                         # Required: No  , Default Value = INFO  Python logging package severity level. [DEBUG, INFO, WARNING, ERROR, CRITICAL]
+              ENVIRONMENT :  latest                                   # Required: Yes , Default Value = “” ,Environment value (latest,stage,prod)
+              REGION : *region-1                                      # Required: No  , Default Value = us-east-1     , AWS region
+              KINESIS_STREAM :  *stream_name                          # Required: Yes , Default Value = “”, Kinesis stream name
+              KINESIS_PARTITIONS : 10000                              # Required: No  , Default Value =  10000 , Number of distinct unique partition keys generated when sending data to kinesis
+              KINESIS_BATCH_SIZE :   400                              # Required: No  , Default Value =  400 , Max number of records to send in each api put_records request to Kinesis stream
+              KINESIS_RETRY_BATCH_SIZE : 5050                         # Required: No  , Default Value = DEFAULT_RETRY_BATCH_SIZE  , Max number of records to send in each api put_records request to Kinesis stream
+              KINESIS_MAX_WAIT_MILLISECS : 100                        # Required: No  , Default Value = 1000 , Maximum amount to wait send data in batch even when records to be sent are less than batch size
+              FAILED_MSG_BUCKET_NAME : latest-fail-objects-0          # Required: Yes , S3 bucket name to store records after exhausting max retry attempt
+              FAILED_MSG_BUCKET_PATH : /AFFIL-AFFILIATION-GUEST360-DLR/   # Required: Yes , Default Value = no have, “/”
+              MAX_RETRY_ATTEMPT :   3                                 # Required: Yes , Default Value =  3  Number of attempts to send record to kinesis before writing to failed records S3 bucket
+              RABBITMQ_SECRET_PATH : *secret_name                     # pragma: allowlist secret # Required: Yes , Secret manager secret path. value is prepended to this path value by connector code , “Secretname”
+              RABBITMQ_HOST :  latest.dlr-xi-rmq.wdprapps.disney.com # Required: Yes , Default Value = “localhost”  RabbitMQ server host name or IP address
+              RABBITMQ_VHOST : dlr-xi-rmq-vhl                         # Required: No  , Default Value = “/” RabbitMQ virtual host name
+              RABBITMQ_PORT :  5671                                   # Required: No  , Default Value = 5762  RabbitMQ port
+              RABBITMQ_QUEUE :   AFFIL.AFFILIATION.GUEST360           # Required: Yes , RabbitMQ queue name
+              RABBITMQ_QUEUE_DURABLE : True                           # Required: No  , Default Value = False RabbitMQ queue “durable” flag
+              RABBITMQ_QOS_PREFETCH_COUNT :  65535                    # Required: No  , Default Value = KINESIS_BATCH_SIZE Queue prefetch count value
+              RABBITMQ_ROUTING_KEY :  AFFIL.AFFIL.XI                  # Required: No  , Default Value = RABBITMQ_QUEUE , RabbitMQ routing key
+              RABBITMQ_EXCHANGE :   AFFIL.AFFILIATION.XI              # Required: No  , Default Value =  <empty string>  , RabbitMQ exchange name
+              RABBITMQ_EXCHANGE_TYPE :   topic                        # Required: No  , Default Value = direct  RabbitMQ exchange type. Valid values [direct, fanout, headers, topic]
+              RABBITMQ_EXCHANGE_PASSIVE :   True                      # Required: No  , Default Value = False RabbitMQ exchange config value for passive flag (BOOL)
+              RABBITMQ_EXCHANGE_DURABLE :  True                       # Required: No  , Default Value = False (BOOL)
+              RABBITMQ_EXCHANGE_AUTO_DELETE : True                    # Required: No  , Default Value = False (BOOL)
+              USE_SSL: True
+          - service_name: DLR-GAM-TICKETS-GUEST360
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /GAM-TICKETS-GUEST360/
+              RABBITMQ_QUEUE :   GAM.TICKETS.GUEST360
+              RABBITMQ_ROUTING_KEY :  AFFIL.AFFIL.X
+              RABBITMQ_EXCHANGE :   AFFIL.AFFILIATION.XI
+          - service_name: DLR-DREAMS-ACTIVITYRESERVATION-GUEST360
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /DREAMS-ACTIVITYRESERVATION-GUEST360/
+              RABBITMQ_QUEUE :   DREAMS.ACTIVITYRESERVATION.GUEST360
+              RABBITMQ_ROUTING_KEY :  DREAMS.ACTRSRV
+              RABBITMQ_EXCHANGE :   DREAMS.ACTIVITYRESERVATION
+          - service_name: DLR-DREAMS-DINE-GUEST360
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /DREAMS-DINE-GUEST360-DLR/
+              RABBITMQ_QUEUE :   DREAMS.DINE.GUEST360
+              RABBITMQ_ROUTING_KEY :  DREAMS.DINE
+              RABBITMQ_EXCHANGE :   DREAMS.DINE
+          - service_name: DLR-GAM-MAGICBAND-GUEST360
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /GAM-MAGICBAND-GUEST360-DLR/
+              RABBITMQ_QUEUE :   GAM.MAGICBAND.GUEST360
+              RABBITMQ_ROUTING_KEY :  GAM.MBAND
+              RABBITMQ_EXCHANGE :  GAM.MAGICBAND
+          - service_name: DLR-GAM-PARKRESERVATION-GUEST360
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /GAM-PARKRESERVATION-GUEST360-DLR/
+              RABBITMQ_QUEUE :   GAM.PARKRESERVATION.GUEST360
+              RABBITMQ_ROUTING_KEY :  GAM.PARKRSRV
+              RABBITMQ_EXCHANGE :  GAM.PARKRESERVATION
+          - service_name: DLR-GAM-PLANNINGPARTY-GUEST360
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /GAM-PLANNINGPARTY-GUEST360-DLR/
+              RABBITMQ_QUEUE :   GAM.PLANNINGPARTY.GUEST360
+              RABBITMQ_ROUTING_KEY :  GAM.PLNPTY
+              RABBITMQ_EXCHANGE :  GAM.PLANNINGPARTY
+          - service_name: DLR-GAM-REGISTEREDGUEST-GUEST360
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /GAM-REGISTEREDGUEST-GUEST360-DLR/
+              RABBITMQ_QUEUE :   GAM.REGISTEREDGUEST.GUEST360
+              RABBITMQ_ROUTING_KEY :  GAM.REGST
+              RABBITMQ_EXCHANGE :  GAM.REGISTEREDGUEST
+          - service_name: DLR-GAM-RESORTRESERVATION-GUEST360
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /GAM-RESORTRESERVATION-GUEST360-DLR/
+              RABBITMQ_QUEUE :   GAM.RESORTRESERVATION.GUEST360
+              RABBITMQ_ROUTING_KEY :  GAM.RESTRS
+              RABBITMQ_EXCHANGE :  GAM.RESORTRESERVATION
+          - service_name: DLR-GK-GUESTIDENTIFIER-GUEST360
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /GK-GUESTIDENTIFIER-GUEST360-DLR/
+              RABBITMQ_QUEUE :   GK.GUESTIDENTIFIER.GUEST360
+              RABBITMQ_ROUTING_KEY :  GK.GSTIDT.XI
+              RABBITMQ_EXCHANGE :  GK.GUESTIDENTIFIER
+          - service_name: DLR-LNS-ENTITLEMENTS-GUEST360
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /LNS-ENTITLEMENTS-GUEST360-DLR/
+              RABBITMQ_QUEUE :   LNS.ENTITLEMENTS.GUEST360
+              RABBITMQ_ROUTING_KEY :  LNS.ENT
+              RABBITMQ_EXCHANGE :  LNS.ENTITLEMENTS
+          - service_name: DLR-PREFERENCES-GUESTPREFERENCE-GUEST360
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /PREFERENCES-GUESTPREFERENCE-GUEST360-DLR/
+              RABBITMQ_QUEUE :   PREFERENCES.GUESTPREFERENCE.GUEST360
+              RABBITMQ_ROUTING_KEY :  PREFS.GPF
+              RABBITMQ_EXCHANGE :  PREFERENCES.GUESTPREFERENCE
+          - service_name: DLR-GK-GUESTID-GUEST360
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /GK-GUESTID-GUEST360-DLR/
+              RABBITMQ_QUEUE :   GK.GUESTID.GUEST360
+              RABBITMQ_ROUTING_KEY :  GK.GUESTID
+              RABBITMQ_EXCHANGE : GK.GUESTID
+          - service_name: PXC-NOTIFICATION-GUEST360-DLR
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /PXC-NOTIFICATION-GUEST360-DLR/
+              RABBITMQ_QUEUE : PXC.NOTIFICATION.GUEST360
+              RABBITMQ_ROUTING_KEY :
+              RABBITMQ_EXCHANGE :
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_LATEST_LANDING # Needs update to appropriate default routing
+      table_path: type
+      data_mapper_type: nested
+      data_contracts: # This section needs to be updated for all data contracts for the source
+        - data_contract: app.src.data_structures.data_contracts.source.gam_dlr.v0.gam_dlr_registered_guest_source_data_contract
+          class_name: GAMDLRRegisteredGuestModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "RegisteredGuest"
+          router_database: &database LATEST_LANDING
+          router_schema: &schema LND_GAM_DLR
+          router_table: REGISTERED_GUEST
+        - data_contract: app.src.data_structures.data_contracts.source.gam_dlr.v0.gam_dlr_tickets_source_data_contract
+          class_name: GAMDLRTicketsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "ADMISSION"
+          router_database: *database
+          router_schema: *schema
+          router_table: TICKETS
+        - data_contract: app.src.data_structures.data_contracts.source.gam_dlr.v0.gam_dlr_guest_id_source_data_contract
+          class_name: GAMDLRGuestIdModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "GuestId"
+          router_database: *database
+          router_schema: *schema
+          router_table: GUEST_ID
+        - data_contract: app.src.data_structures.data_contracts.source.gam_dlr.v0.gam_dlr_affiliation_source_data_contract
+          class_name: GAMDLRAffiliationModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "AFFILIATION"
+          router_database: *database
+          router_schema: *schema
+          router_table: AFFILIATION
+        - data_contract: app.src.data_structures.data_contracts.source.gam_dlr.v0.gam_dlr_dine_source_data_contract
+          class_name: GAMDLRDineModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "Dining Reservation"
+          router_database: *database
+          router_schema: *schema
+          router_table: DINING_RESERVATION
+        - data_contract: app.src.data_structures.data_contracts.source.gam_dlr.v0.gam_dlr_activity_reservation_source_data_contract
+          class_name: GAMDLRActivityReservationModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "Activity Reservation"
+          router_database: *database
+          router_schema: *schema
+          router_table: ACTIVITY_RESERVATION
+        - data_contract: app.src.data_structures.data_contracts.source.gam_dlr.v0.gam_dlr_guest_identifier_source_data_contract
+          class_name: GAMDLRGuestIdentifierModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "GUEST_IDENTIFIER"
+          router_database: *database
+          router_schema: *schema
+          router_table: GUEST_IDENTIFIER
+        - data_contract: app.src.data_structures.data_contracts.source.gam_dlr.v0.gam_dlr_park_reservation_source_data_contract
+          class_name: GAMDLRParkReservationModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "CmeParkReservation"
+          router_database: *database
+          router_schema: *schema
+          router_table: PARK_RESERVATION
+        - data_contract: app.src.data_structures.data_contracts.source.gam_dlr.v0.gam_dlr_planning_party_source_data_contract
+          class_name: GAMDLRPlanningPartyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "PlanningParty"
+          router_database: *database
+          router_schema: *schema
+          router_table: PLANNING_PARTY
+        - data_contract: app.src.data_structures.data_contracts.source.gam_dlr.v0.gam_dlr_lns_entitlements_source_data_contract
+          class_name: GAMDLRLnsEntitlementsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "LevelN Entitlement"
+          router_database: *database
+          router_schema: *schema
+          router_table: LNS_ENTITLEMENTS
+        - data_contract: app.src.data_structures.data_contracts.source.gam_dlr.v0.gam_dlr_magicband_source_data_contract
+          class_name: GAMDLRMagicbandModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "Xband"
+          router_database: *database
+          router_schema: *schema
+          router_table: MAGICBAND
+        - data_contract: app.src.data_structures.data_contracts.source.gam_dlr.v0.gam_dlr_resort_reservation_source_data_contract
+          class_name: GAMDLRResortReservationModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "Resort Reservation"
+          router_database: *database
+          router_schema: *schema
+          router_table: RESORT_RESERVATION
+        - data_contract: app.src.data_structures.data_contracts.source.gam_dlr.v0.gam_dlr_guest_preference_source_data_contract
+          class_name: GAMDLRGuestPreferenceModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "eventType"
+              value: "PREFERENCE_GUEST_SELECTION_UPDATE"
+          router_database: *database
+          router_schema: *schema
+          router_table: GUEST_PREFERENCE

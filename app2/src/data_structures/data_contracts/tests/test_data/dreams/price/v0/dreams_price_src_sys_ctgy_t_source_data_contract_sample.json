@@ -1,0 +1,184 @@
+[
+    {
+        "data": {
+            "SRC_SYS_CTGY_NM": "Activity Type",
+            "SRC_SYS_CTGY_PROC_TYP_NM": "ProductClassification"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SRC_SYS_CTGY_T",
+            "timestamp": "2023-09-08T00:50:04.422374Z"
+        }
+    },
+    {
+        "data": {
+            "SRC_SYS_CTGY_NM": "Product Association Type",
+            "SRC_SYS_CTGY_PROC_TYP_NM": "ProductAssociation"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SRC_SYS_CTGY_T",
+            "timestamp": "2023-09-08T00:50:04.472673Z"
+        }
+    },
+    {
+        "data": {
+            "SRC_SYS_CTGY_NM": "Ticket Level 4",
+            "SRC_SYS_CTGY_PROC_TYP_NM": "ProductClassification"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SRC_SYS_CTGY_T",
+            "timestamp": "2023-09-08T00:50:04.411988Z"
+        }
+    },
+    {
+        "data": {
+            "SRC_SYS_CTGY_NM": "Product Subtype",
+            "SRC_SYS_CTGY_PROC_TYP_NM": "ProductClassification"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SRC_SYS_CTGY_T",
+            "timestamp": "2023-09-08T00:50:04.395184Z"
+        }
+    },
+    {
+        "data": {
+            "SRC_SYS_CTGY_NM": "Revenue Classification Type",
+            "SRC_SYS_CTGY_PROC_TYP_NM": "ProductClassification"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SRC_SYS_CTGY_T",
+            "timestamp": "2023-09-08T00:50:04.373459Z"
+        }
+    },
+    {
+        "data": {
+            "SRC_SYS_CTGY_NM": "Service Subtype",
+            "SRC_SYS_CTGY_PROC_TYP_NM": "ProductClassification"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SRC_SYS_CTGY_T",
+            "timestamp": "2023-09-08T00:50:04.483511Z"
+        }
+    },
+    {
+        "data": {
+            "SRC_SYS_CTGY_NM": "Tender Subtype",
+            "SRC_SYS_CTGY_PROC_TYP_NM": "ProductClassification"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SRC_SYS_CTGY_T",
+            "timestamp": "2023-09-08T00:50:04.434227Z"
+        }
+    },
+    {
+        "data": {
+            "SRC_SYS_CTGY_NM": "Ticket Type",
+            "SRC_SYS_CTGY_PROC_TYP_NM": "ProductClassification"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SRC_SYS_CTGY_T",
+            "timestamp": "2023-09-08T00:50:04.444884Z"
+        }
+    },
+    {
+        "data": {
+            "SRC_SYS_CTGY_NM": "Product Type",
+            "SRC_SYS_CTGY_PROC_TYP_NM": "ProductClassification"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SRC_SYS_CTGY_T",
+            "timestamp": "2023-09-08T00:50:04.383732Z"
+        }
+    },
+    {
+        "data": {
+            "SRC_SYS_CTGY_NM": "Product Category",
+            "SRC_SYS_CTGY_PROC_TYP_NM": "ProductClassification"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SRC_SYS_CTGY_T",
+            "timestamp": "2023-09-08T00:50:04.462055Z"
+        }
+    },
+    {
+        "data": {
+            "SRC_SYS_CTGY_NM": "Food & Beverage Subtype",
+            "SRC_SYS_CTGY_PROC_TYP_NM": "ProductClassification"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SRC_SYS_CTGY_T",
+            "timestamp": "2023-09-08T00:50:04.494994Z"
+        }
+    },
+    {
+        "data": {
+            "SRC_SYS_CTGY_NM": "Activity Subtype",
+            "SRC_SYS_CTGY_PROC_TYP_NM": "ProductClassification"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SRC_SYS_CTGY_T",
+            "timestamp": "2023-09-08T00:50:04.403295Z"
+        }
+    },
+    {
+        "data": {
+            "SRC_SYS_CTGY_NM": "Ticket Subtype",
+            "SRC_SYS_CTGY_PROC_TYP_NM": "ProductClassification"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SRC_SYS_CTGY_T",
+            "timestamp": "2023-09-08T00:50:04.451452Z"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+ownershipCommon:
+  type: object
+  properties:
+    created:
+      $ref: "../openapi.yaml#/components/schemas/created"
+    lastModified:
+      $ref: "../openapi.yaml#/components/schemas/lastModified"
+    destination:
+      $ref: "../openapi.yaml#/components/schemas/destination"
+    ownershipTimezoneOffSet:
+      type: string
+      description: Solution / Value design in progress, to be determined
+      example: TBD
+  required:
+    - created
+    - lastModified
+    - destination
+    - ownershipTimezoneOffSet

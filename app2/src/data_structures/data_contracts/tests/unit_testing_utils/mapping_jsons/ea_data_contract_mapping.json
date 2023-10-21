@@ -1,0 +1,22 @@
+{
+    "EARedemptionWDWPlusOneModel": {
+        "data-source-folder": "ea_wdw/redemption/v0",
+        "data-contract-name": "ea_redemption_wdw_plus_one_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-ea-stream": {
+                "key-path-name": "item.redemptionEventType",
+                "key-path-value": "PLUS_ONE"
+            }
+        }
+    },
+    "EARedemptionWDWRedemptionAttemptModel": {
+        "data-source-folder": "ea_wdw/redemption/v0",
+        "data-contract-name": "ea_redemption_wdw_redemption_attempt_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-ea-stream": {
+                "key-path-name": "item.redemptionEventType",
+                "key-path-value": "REDEMPTION_ATTEMPT"
+            }
+        }
+    }
+}

@@ -1,0 +1,113 @@
+[
+    {
+        "data": {
+            "id": "allow-booking-beyond-expiration",
+            "description": "Toggle to allow reservations to be made for dates beyond an entitlement's expiration date",
+            "is_active": 0,
+            "last_updated": "2021-11-05T11:12:43Z",
+            "update_usr": "MOUSM001",
+            "created_on": "2021-07-16T12:37:59Z",
+            "created_usr": "MOUSM001"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:16:26.527242Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "rule_group"
+        }
+    },
+    {
+        "data": {
+            "id": "available-inventory-categories",
+            "description": null,
+            "is_active": 1,
+            "last_updated": "2021-05-10T12:59:52Z",
+            "update_usr": "MOUSM001",
+            "created_usr": "MOUSM001"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:16:26.540300Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "rule_group"
+        }
+    },
+    {
+        "data": {
+            "id": "blacklist-res-not-allowed-for-inv-category-rc",
+            "description": "List of inventory categories that are disallowed from making reservations",
+            "is_active": 0,
+            "last_updated": "2021-05-14T14:06:52Z",
+            "created_on": "2021-05-14T14:06:52Z",
+            "created_usr": "MOUSM001"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:16:26.563359Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "rule_group"
+        }
+    },
+    {
+        "data": {
+            "id": "blockoutdates-park-id-mapping-rc",
+            "description": "Mapping of Park IDs used by Blockoutdates Svc to CME Facilities.",
+            "is_active": 1,
+            "last_updated": "2022-03-03T17:57:41Z",
+            "update_usr": "MOUSM001",
+            "created_on": "2022-03-03T17:57:41Z"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:16:26.571536Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "rule_group"
+        }
+    },
+    {
+        "data": {
+            "id": "bonus-booking-category",
+            "description": "Booking Categories marked as bonus",
+            "is_active": 1,
+            "last_updated": "2023-04-20T15:06:31Z",
+            "update_usr": "MOUSM001",
+            "created_on": "2023-04-20T15:06:31Z",
+            "created_usr": "MOUSM001"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:16:26.578631Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "rule_group"
+        }
+    },
+    {
+        "data": {
+            "id": "bonus-days-enabled",
+            "description": "Toggle to control whether inventory days set up as BONUS booking category will be allowed to be booked above the individual limits of the entitlement",
+            "is_active": 1,
+            "last_updated": "2022-01-26T16:42:47Z",
+            "update_usr": "MOUSM001",
+            "created_on": "2021-06-28T12:56:03Z",
+            "created_usr": "MOUSM001"
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:16:26.587293Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "rule_group"
+        }
+    }
+]

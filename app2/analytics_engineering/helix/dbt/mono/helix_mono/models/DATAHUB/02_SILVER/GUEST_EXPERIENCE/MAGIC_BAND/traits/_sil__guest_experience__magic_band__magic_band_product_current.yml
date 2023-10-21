@@ -1,0 +1,88 @@
+version: 2
+
+models:
+  - name: sil__guest_experience__magic_band__magic_band_product_current
+    description: "{{ doc('sil__guest_experience__magic_band__magic_band_product_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=guest_experience
+        - sub_domain=magic_band
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: product_id
+        description: ""
+
+      - name: stockeeping_unit_code
+        description: ""
+
+      - name: stockeeping_unit_description
+        description: ""
+
+      - name: product_type_id
+        description: ""
+
+      - name: product_type_code
+        description: ""
+
+      - name: product_type_description
+        description: ""
+
+      - name: type_available_to_guest_indicator
+        description: ""
+
+      - name: top_color_id
+        description: ""
+
+      - name: top_color_code
+        description: ""
+
+      - name: top_color_name
+        description: ""
+
+      - name: top_color_available_to_guest_indicator
+        description: ""
+
+      - name: bottom_color_id
+        description: ""
+
+      - name: bottom_color_code
+        description: ""
+
+      - name: bottom_color_name
+        description: ""
+
+      - name: bottom_color_available_to_guest_indicator
+        description: ""
+
+      - name: minimum_fulfillment_day_count
+        description: ""
+
+      - name: ship_to_resort_indicator
+        description: ""
+
+      - name: availability_start_date
+        description: ""
+
+      - name: availability_end_date
+        description: ""
+
+      - name: source_system_create_user_id
+        description: ""
+
+      - name: source_system_create_datetime
+        description: ""
+
+      - name: source_system_update_user_id
+        description: ""
+
+      - name: source_system_update_datetime
+        description: ""
+
+      - name: source_system_logical_delete_indicator
+        description: ""

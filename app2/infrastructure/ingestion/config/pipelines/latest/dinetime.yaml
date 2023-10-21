@@ -1,0 +1,30 @@
+stack_extension: &se dinetime
+ingest_pattern: &ip kinesis2kinesis
+active: True
+pattern_instances:
+  - region: us-east-1
+    resources:
+      cross_account:  # include this section if your kinesis stream is a non Guest-360 account
+        cross_account_type: &cat target
+        cross_account_id: &id 722059247410 # provide the target account where your source kinesis stream is
+        cross_account_role_name: wdpr-revmgmt-S0001422-use1-lst_role  # Name of IAM role your cross-account lambda is using
+# Adding USW2 resources as they were provided by upstream team and current construct does not support association of more than once CA role.
+# Construct may need to be adjusted in the future, or additional config with only USW2 resources may be needed.
+#  - region: us-west-2
+#    resources:
+#      cross_account:  # include this section if your kinesis stream is a non Guest-360 account
+#        cross_account_type: &cat target
+#        cross_account_id: &id 722059247410 # provide the target account where your source kinesis stream is
+#        cross_account_role_name: dlr-revmgmt-S0001535-usw2-lst_role  # Name of IAM role your cross-account lambda is using
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_LATEST_LANDING # Needs update to appropriate default routing
+#      data_contracts:
+#        - data_contract: 
+#          class_name: 
+#          data_contract_version: 0.0.1
+#          key_path:
+#            - name: 
+#              value: 
+#          router_database: LATEST_LANDING
+#          router_schema: LND_DINETIME
+#          router_table: 

@@ -1,0 +1,97 @@
+[
+    {
+        "data": {
+            "FEE_CHRG_ID": 3408295197,
+            "FEE_NM": "Cancellation Fee",
+            "CREATE_USR_ID_CD": "IVRNuance",
+            "CREATE_DTS": "2023-06-09T10:40:42.176000Z",
+            "PKG_ID": 149855,
+            "transact_seq": "20230609144045000000000000016503457"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T02:55:47.031722Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FEE_CHRG",
+            "transaction-id": 1769476
+        }
+    },
+    {
+        "data": {
+            "FEE_CHRG_ID": 3408306030,
+            "FEE_NM": "Cancellation Fee",
+            "CREATE_USR_ID_CD": "WDPRO1",
+            "CREATE_DTS": "2023-06-09T11:16:10.431000Z",
+            "transact_commit_timestamp": "2023-06-09T15:16:10Z"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T03:38:03.723983Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FEE_CHRG",
+            "transaction-id": 786455
+        }
+    },
+    {
+        "data": {
+            "FEE_CHRG_ID": 3408306084,
+            "FEE_NM": "Cancellation Fee",
+            "CREATE_USR_ID_CD": "WDPRO",
+            "CREATE_DTS": "2023-06-09T11:18:11.923000Z",
+            "transact_commit_timestamp": "2023-06-09T15:18:12Z",
+            "transact_seq": "20230609151812000000000000017861653"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T03:40:05.278800Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FEE_CHRG"
+        }
+    },
+    {
+        "data": {
+            "FEE_CHRG_ID": 3408307053,
+            "FEE_NM": "Cancellation Fee",
+            "CREATE_USR_ID_CD": "IVRNuance",
+            "CREATE_DTS": "2023-06-09T11:19:38.817000Z",
+            "PKG_ID": 54165,
+            "transact_commit_timestamp": "2023-06-09T15:19:42Z",
+            "transact_seq": "20230609151942000000000000017922401"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T03:42:09.823334Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FEE_CHRG",
+            "transaction-id": 65576
+        }
+    },
+    {
+        "data": {
+            "FEE_CHRG_ID": 3408516270,
+            "FEE_NM": "Cancellation Fee",
+            "CREATE_USR_ID_CD": "IVRNuance",
+            "CREATE_DTS": "2023-06-10T09:16:10.744000Z",
+            "PKG_ID": 1174426,
+            "transact_commit_timestamp": "2023-06-10T13:16:14Z",
+            "transact_seq": "20230610131614000000000000053963497"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T22:29:34.695446Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "FEE_CHRG",
+            "transaction-id": 655361
+        }
+    }
+]

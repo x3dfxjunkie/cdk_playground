@@ -1,0 +1,28 @@
+#collector.yaml in the root directory
+#Set an environemnt variable 'OPENTELEMETRY_COLLECTOR_CONFIG_FILE' to '/var/task/collector.yaml'
+
+receivers:
+  otlp:
+    protocols:
+      grpc:
+      http:
+exporters:
+  logging:
+    verbosity: detailed
+  awsxray:
+  awsemf:
+    namespace: ${env:OTEL_NAMESPACE}
+    output_destination: stdout
+    dimension_rollup_option: 1
+    resource_to_telemetry_conversion:
+      enabled: false
+    max_retries: 5
+    detailed_metrics: true
+service:
+  pipelines:
+    traces:
+      receivers: [otlp]
+      exporters: [awsxray]
+    metrics:
+      receivers: [otlp]
+      exporters: [logging,awsemf]

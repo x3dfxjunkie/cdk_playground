@@ -1,0 +1,10 @@
+nextPage:
+  type: object
+  properties:
+    nextPage:
+      type: object
+      properties:
+        href:
+          type: string
+          example: "https://link.to.next/page.of.results"
+  description: object providing link to next page of results if applicable

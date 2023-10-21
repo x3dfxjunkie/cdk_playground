@@ -1,0 +1,47 @@
+{% docs sil__intermediate__travelbox__east__product_type_cleansed %}
+
+#### Object Name
+product_type_cleansed
+
+#### Object Definition
+Different types of products named as &#39;Product Types&#39; within a product group which are used for specifying the type of prebuilt package holidays. Set up under &#39;Coding Levels&#39; menu in Setup Client
+
+#### Business Rules
+This is a cleansed and deduplicated version of the bronze table inside the silver intermediate layer.
+
+#### Granularity
+One record per data_code & metadata_checksum combination.
+
+#### Primary key
+data_code
+
+#### Tags
+    - object_name=product_type
+    - layer=silver_intermediate
+    - sub_layer=silver_intermediate_cleansed
+
+{% enddocs %}
+
+{% docs sil__intermediate__travelbox__east__product_type_versioned %}
+
+#### Object Name
+product_type_versioned
+
+#### Object Definition
+Different types of products named as &#39;Product Types&#39; within a product group which are used for specifying the type of prebuilt package holidays. Set up under &#39;Coding Levels&#39; menu in Setup Client
+
+#### Business Rules
+This table is built on the top of the cleansed table. In addition to the cleansed table fields, it contains the versioning fields also.
+
+#### Granularity
+One record per data_code & metadata_checksum combination.
+
+#### Primary key
+data_code
+
+#### Tags
+    - object_name=product_type
+    - layer=silver_intermediate
+    - sub_layer=silver_intermediate_versioned
+
+{% enddocs %}

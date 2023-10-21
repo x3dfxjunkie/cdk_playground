@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__inventory__inventory_request_current
+    description: "{{ doc('sil__hotel_lodging__inventory__inventory_request_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=inventory
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: reservable_resource_owner_id
+        description: ""
+
+      - name: reservable_resource_id
+        description: ""
+
+      - name: inventory_request_type_name
+        description: ""
+
+      - name: inventory_request_status_name
+        description: ""
+
+      - name: inventory_request_start_datetime
+        description: ""
+
+      - name: inventory_request_end_datetime
+        description: ""

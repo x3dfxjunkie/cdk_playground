@@ -1,0 +1,62 @@
+{
+    "OperaCancelModel": {
+        "data-source-folder": "opera/v0",
+        "data-contract-name": "opera_cancel_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360": {
+                "key-path-name": null,
+                "key-path-value": null
+            }
+        }
+    },
+    "OperaCheckinModel": {
+        "data-source-folder": "opera/v0",
+        "data-contract-name": "opera_checkin_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360": {
+                "key-path-name": null,
+                "key-path-value": null
+            }
+        }
+    },
+    "OperaCheckoutModel": {
+        "data-source-folder": "opera/v0",
+        "data-contract-name": "opera_checkout_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360": {
+                "key-path-name": null,
+                "key-path-value": null
+            }
+        }
+    },
+    "OperaNewModel": {
+        "data-source-folder": "opera/v0",
+        "data-contract-name": "opera_new_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360": {
+                "key-path-name": null,
+                "key-path-value": null
+            }
+        }
+    },
+    "OperaNoshowModel": {
+        "data-source-folder": "opera/v0",
+        "data-contract-name": "opera_noshow_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360": {
+                "key-path-name": null,
+                "key-path-value": null
+            }
+        }
+    },
+    "OperaUpdateModel": {
+        "data-source-folder": "opera/v0",
+        "data-contract-name": "opera_update_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360": {
+                "key-path-name": null,
+                "key-path-value": null
+            }
+        }
+    }
+}

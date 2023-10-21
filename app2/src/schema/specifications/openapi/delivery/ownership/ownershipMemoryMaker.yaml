@@ -1,0 +1,54 @@
+ownershipMemoryMaker:
+  allOf:
+    - $ref: "../openapi.yaml#/components/schemas/ownershipCommon"
+    - type: object
+      properties:
+        transactionItemId:
+          type: string
+          description: Unique Level N Entitlement ID for Memory Maker purchase
+          example: 3995880
+        productId:
+          type: string
+          description: ID link to product master for metadata of the product item.  Value to be confirmed
+          example: Memory Maker Advance Purchase
+        productCategory:
+          allOf:
+            - $ref: "../openapi.yaml#/components/schemas/productCategory"
+            - type: string
+              example: "Memory Maker"
+        status:
+          $ref: "../openapi.yaml#/components/schemas/ownershipStatus"
+      required:
+        - transactionItemId
+        - productId
+        - productCatgory
+        - status
+    - type: object
+      properties:
+        transactionDetails:
+          type: object
+          properties:
+            validityStartDate:
+              type: string
+              format: date
+              description: start date of memory maker product, when guest downloads the first media
+            validityEndDate:
+              type: string
+              format: date
+              description: end date of when guest is able to download media
+            claimTime:
+              type: string
+              format: date-time
+              description: when memory make entitlement was claimed
+            redemptionTime:
+              type: string
+              format: date-time
+              description: when first photo was downloaded to start
+            captureStartTime:
+              type: string
+              format: date-time
+              description: starting media capture date/time. Any photo taken between validityStartDate and validityEndDate can be downloaded as part of this entitlement
+            captureEndTime:
+              type: string
+              format: date-time
+              description: ending media capture date/time. Any photo taken between validtyStartDate and validityEndDate can be downloaded as part of this entitlement

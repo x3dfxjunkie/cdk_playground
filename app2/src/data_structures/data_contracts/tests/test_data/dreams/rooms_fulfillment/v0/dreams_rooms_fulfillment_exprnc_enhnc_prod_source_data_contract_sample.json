@@ -1,0 +1,48 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "2013-04-30T06:14:23Z",
+            "CREATE_USR_ID_CD": "DUCKD001",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "EXPRNC_ENHNC_PROD_END_DT": null,
+            "EXPRNC_ENHNC_PROD_STRT_DT": "2013-04-30T06:14:23Z",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROD_ID": 146370,
+            "UPDT_DTS": "2013-04-30T09:09:46.229932Z",
+            "UPDT_USR_ID_CD": "DMTeam",
+            "ZERO_PRICE_IN": "Y"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_prod",
+            "timestamp": "2023-09-08T00:44:29.809975Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2013-04-30T06:14:23Z",
+            "CREATE_USR_ID_CD": "DUCKD001",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "EXPRNC_ENHNC_PROD_END_DT": null,
+            "EXPRNC_ENHNC_PROD_STRT_DT": "2013-04-30T06:14:23Z",
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PROD_ID": 146370,
+            "UPDT_DTS": "2013-04-30T09:09:46.229932Z",
+            "UPDT_USR_ID_CD": "DMTeam",
+            "ZERO_PRICE_IN": "Y"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "exprnc_enhnc_prod",
+            "timestamp": "2023-08-29T19:39:42.744238Z"
+        }
+    }
+]

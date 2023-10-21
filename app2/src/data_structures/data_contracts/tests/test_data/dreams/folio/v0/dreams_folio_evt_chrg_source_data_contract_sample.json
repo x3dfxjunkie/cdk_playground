@@ -1,0 +1,1029 @@
+[
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409183741,
+			"FNC_TYP_ID": 29,
+			"RPT_CTGY_ID": 47,
+			"EVT_ID": 16,
+			"EVT_DT": "2023-06-12T07:30:00Z",
+			"EVT_LOC_NM": "Salons 1-5",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T03:41:01Z",
+			"transact_commit_timestamp": null,
+			"transact_seq": null
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T13:31:30.794187Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": null
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409184022,
+			"FNC_TYP_ID": 115,
+			"RPT_CTGY_ID": 47,
+			"EVT_ID": 17,
+			"EVT_DT": "2023-06-12T07:30:00Z",
+			"EVT_LOC_NM": "Whitehall Room & Patio",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T03:42:10Z",
+			"transact_commit_timestamp": "2023-06-13T11:42:10Z",
+			"transact_seq": "20230613114210000000000000169847937"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T13:32:18.070094Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1310744
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409184320,
+			"FNC_TYP_ID": 18,
+			"RPT_CTGY_ID": 47,
+			"EVT_ID": 2,
+			"EVT_DT": "2023-06-12T07:00:00Z",
+			"EVT_LOC_NM": "Cancun",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T03:44:24Z",
+			"transact_commit_timestamp": "2023-06-13T11:44:24Z",
+			"transact_seq": "20230613114424000000000000169888253"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T13:33:51.057618Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1638415
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409184535,
+			"FNC_TYP_ID": 132,
+			"RPT_CTGY_ID": 47,
+			"EVT_ID": 25,
+			"EVT_DT": "2023-06-12T19:00:00Z",
+			"EVT_LOC_NM": "Salons 1-5",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T03:44:57Z",
+			"transact_commit_timestamp": "2023-06-13T11:44:58Z",
+			"transact_seq": "20230613114458000000000000169897889"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T13:34:11.931547Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 2097180
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409184555,
+			"FNC_TYP_ID": 30,
+			"RPT_CTGY_ID": 47,
+			"EVT_ID": 17,
+			"EVT_DT": "2023-06-12T09:00:00Z",
+			"EVT_LOC_NM": "Baja",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T03:45:08Z",
+			"transact_commit_timestamp": "2023-06-13T11:45:09Z",
+			"transact_seq": "20230613114509000000000000169899805"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T13:34:16.754556Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 851971
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409184349,
+			"FNC_TYP_ID": 55,
+			"RPT_CTGY_ID": 47,
+			"EVT_ID": 18,
+			"EVT_DT": "2023-06-12T11:00:00Z",
+			"EVT_LOC_NM": "CS Guest Room - TBD",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T03:45:18Z",
+			"transact_commit_timestamp": "2023-06-13T11:45:18Z",
+			"transact_seq": "20230613114518000000000000169900765"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T13:34:18.935236Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1441802
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409220740,
+			"FNC_TYP_ID": 55,
+			"RPT_CTGY_ID": 45,
+			"EVT_ID": 1,
+			"EVT_DT": "2023-06-12T00:00:00Z",
+			"EVT_LOC_NM": "Remote Location - See Below",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T06:39:29Z",
+			"transact_commit_timestamp": "2023-06-13T14:39:28Z",
+			"transact_seq": "20230613143928000000000000175204541"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T16:55:34.272553Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1703965
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409305223,
+			"FNC_TYP_ID": 115,
+			"RPT_CTGY_ID": 45,
+			"EVT_ID": 3,
+			"EVT_DT": "2023-06-12T12:00:00Z",
+			"EVT_LOC_NM": "Gd Republic B",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T11:01:33Z",
+			"transact_commit_timestamp": "2023-06-13T19:01:33Z",
+			"transact_seq": "20230613190133000000000000184703797"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T23:39:28.773321Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1572878
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409305840,
+			"FNC_TYP_ID": 164,
+			"RPT_CTGY_ID": 156,
+			"EVT_ID": 4,
+			"EVT_DT": "2023-06-12T18:00:00Z",
+			"EVT_LOC_NM": "Westside Bus Pickup",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T11:04:47Z",
+			"transact_commit_timestamp": "2023-06-13T19:04:47Z",
+			"transact_seq": "20230613190447000000000000184785945"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T23:42:16.929202Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 2031648
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409305930,
+			"FNC_TYP_ID": 164,
+			"RPT_CTGY_ID": 156,
+			"EVT_ID": 10,
+			"EVT_DT": "2023-06-12T18:15:00Z",
+			"EVT_LOC_NM": "Porte Cochere Conv. Center",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T11:04:54Z",
+			"transact_commit_timestamp": "2023-06-13T19:04:54Z",
+			"transact_seq": "20230613190454000000000000184787245"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T23:42:19.354802Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 131096
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409188536,
+			"FNC_TYP_ID": 109,
+			"RPT_CTGY_ID": 157,
+			"EVT_DT": "2023-06-13T00:00:00Z",
+			"EVT_LOC_NM": "c",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T08:15:31.868000Z",
+			"transact_commit_timestamp": "2023-06-13T12:15:32Z",
+			"transact_seq": "20230613121532000000000000170529597"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T13:56:45.201409Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 26
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409188261,
+			"FNC_TYP_ID": 109,
+			"RPT_CTGY_ID": 157,
+			"EVT_DT": "2023-06-13T00:00:00Z",
+			"EVT_LOC_NM": "C",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T08:17:36.180000Z",
+			"transact_commit_timestamp": "2023-06-13T12:17:36Z",
+			"transact_seq": "20230613121736000000000000170570953"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T13:58:13.034003Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 655373
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409188563,
+			"FNC_TYP_ID": 109,
+			"RPT_CTGY_ID": 157,
+			"EVT_DT": "2023-06-13T00:00:00Z",
+			"EVT_LOC_NM": "C",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T08:18:59.900000Z",
+			"transact_commit_timestamp": "2023-06-13T12:19:00Z",
+			"transact_seq": "20230613121900000000000000170604389"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T13:59:23.489203Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 393256
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409197377,
+			"FNC_TYP_ID": 49,
+			"RPT_CTGY_ID": 45,
+			"EVT_ID": 60,
+			"EVT_DT": "2023-06-10T09:00:00Z",
+			"EVT_LOC_NM": "World ShowPlace Pavilion",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T05:04:32Z",
+			"transact_commit_timestamp": "2023-06-13T13:04:33Z",
+			"transact_seq": "20230613130433000000000000172004501"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T15:12:20.375751Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1179672
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409218870,
+			"FNC_TYP_ID": 49,
+			"RPT_CTGY_ID": 36,
+			"EVT_ID": 5,
+			"EVT_DT": "2023-06-12T19:30:00Z",
+			"EVT_LOC_NM": "Living Seas Salon",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T06:33:44Z",
+			"transact_commit_timestamp": "2023-06-13T14:33:43Z",
+			"transact_seq": "20230613143343000000000000174987953"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T16:48:43.941377Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 196617
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409218975,
+			"FNC_TYP_ID": 51,
+			"RPT_CTGY_ID": 36,
+			"EVT_ID": 6,
+			"EVT_DT": "2023-06-12T20:45:00Z",
+			"EVT_LOC_NM": "Rue de Paris",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T06:33:50Z",
+			"transact_commit_timestamp": "2023-06-13T14:33:49Z",
+			"transact_seq": "20230613143349000000000000174992261"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T16:48:52.486382Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1900575
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409262211,
+			"FNC_TYP_ID": 109,
+			"RPT_CTGY_ID": 5,
+			"EVT_ID": 4,
+			"EVT_DT": "2023-06-12T14:00:00Z",
+			"EVT_LOC_NM": "Billing BEO - 1N See Below",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T08:42:55Z",
+			"transact_commit_timestamp": "2023-06-13T16:42:55Z",
+			"transact_seq": "20230613164255000000000000179744609"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T20:50:34.727313Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 852000
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409190375,
+			"FNC_TYP_ID": 49,
+			"RPT_CTGY_ID": 47,
+			"EVT_ID": 5,
+			"EVT_DT": "2023-06-12T19:30:00Z",
+			"EVT_LOC_NM": "Living Seas Salon",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T04:24:54Z",
+			"transact_commit_timestamp": "2023-06-13T12:24:55Z",
+			"transact_seq": "20230613122455000000000000170733357"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T14:03:49.379974Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1507343
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409190502,
+			"FNC_TYP_ID": 30,
+			"RPT_CTGY_ID": 47,
+			"EVT_ID": 8,
+			"EVT_DT": "2023-06-12T08:00:00Z",
+			"EVT_LOC_NM": "Asbury BC",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T04:25:00Z",
+			"transact_commit_timestamp": "2023-06-13T12:25:00Z",
+			"transact_seq": "20230613122500000000000000170735961"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T14:03:55.540652Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1835036
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409190111,
+			"FNC_TYP_ID": 109,
+			"RPT_CTGY_ID": 157,
+			"EVT_DT": "2023-06-13T00:00:00Z",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T08:25:01.580000Z",
+			"transact_commit_timestamp": "2023-06-13T12:25:03Z",
+			"transact_seq": "20230613122503000000000000170736493"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T14:03:56.613968Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1572896
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409190610,
+			"FNC_TYP_ID": 129,
+			"RPT_CTGY_ID": 47,
+			"EVT_ID": 9,
+			"EVT_DT": "2023-06-12T09:00:00Z",
+			"EVT_LOC_NM": "Asbury A",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T04:25:18Z",
+			"transact_commit_timestamp": "2023-06-13T12:25:18Z",
+			"transact_seq": "20230613122518000000000000170742297"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T14:04:09.191488Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 2162726
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409190932,
+			"FNC_TYP_ID": 51,
+			"RPT_CTGY_ID": 47,
+			"EVT_ID": 6,
+			"EVT_DT": "2023-06-12T20:45:00Z",
+			"EVT_LOC_NM": "Rue de Paris",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T04:28:27Z",
+			"transact_commit_timestamp": "2023-06-13T12:28:27Z",
+			"transact_seq": "20230613122827000000000000170807789"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T14:06:28.865455Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1179688
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409213526,
+			"FNC_TYP_ID": 153,
+			"RPT_CTGY_ID": 47,
+			"EVT_ID": 14,
+			"EVT_DT": "2023-06-12T08:00:00Z",
+			"EVT_LOC_NM": "Coronado L",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T06:14:13Z",
+			"transact_commit_timestamp": "2023-06-13T14:14:13Z",
+			"transact_seq": "20230613141413000000000000174156509"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T16:23:07.741088Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 262174
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409170049,
+			"FNC_TYP_ID": 55,
+			"RPT_CTGY_ID": 11,
+			"EVT_ID": 1,
+			"EVT_DT": "2023-06-12T00:00:00Z",
+			"EVT_LOC_NM": "Bell Desk",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T03:24:50.721000Z",
+			"transact_commit_timestamp": "2023-06-13T07:24:50Z",
+			"transact_seq": "20230613072450000000000000165513505"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T11:02:16.395081Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 458805
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409169885,
+			"FNC_TYP_ID": 55,
+			"RPT_CTGY_ID": 11,
+			"EVT_ID": 1,
+			"EVT_DT": "2023-06-12T00:00:00Z",
+			"EVT_LOC_NM": "Bell Desk",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T03:28:14.099000Z",
+			"transact_commit_timestamp": "2023-06-13T07:28:14Z",
+			"transact_seq": "20230613072814000000000000165534737"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T11:02:57.549203Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 917536
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409305374,
+			"FNC_TYP_ID": 139,
+			"RPT_CTGY_ID": 157,
+			"EVT_DT": "2023-06-13T00:00:00Z",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T15:06:45.897000Z",
+			"transact_commit_timestamp": "2023-06-13T19:06:46Z",
+			"transact_seq": "20230613190646000000000000184837945"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T23:44:03.154177Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1310728
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409184835,
+			"FNC_TYP_ID": 115,
+			"RPT_CTGY_ID": 47,
+			"EVT_ID": 4,
+			"EVT_DT": "2023-06-12T07:00:00Z",
+			"EVT_LOC_NM": "SAB",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T03:51:04Z",
+			"transact_commit_timestamp": "2023-06-13T11:51:04Z",
+			"transact_seq": "20230613115104000000000000170006681"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T13:37:43.704964Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 327699
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409185059,
+			"FNC_TYP_ID": 115,
+			"RPT_CTGY_ID": 47,
+			"EVT_ID": 3,
+			"EVT_DT": "2023-06-12T12:00:00Z",
+			"EVT_LOC_NM": "Gd Republic B",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T03:53:11Z",
+			"transact_commit_timestamp": "2023-06-13T11:53:11Z",
+			"transact_seq": "20230613115311000000000000170042205"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T13:39:01.340686Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1048605
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409286696,
+			"FNC_TYP_ID": 115,
+			"RPT_CTGY_ID": 36,
+			"EVT_ID": 3,
+			"EVT_DT": "2023-06-12T12:00:00Z",
+			"EVT_LOC_NM": "Gd Republic B",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T10:02:26Z",
+			"transact_commit_timestamp": "2023-06-13T18:02:26Z",
+			"transact_seq": "20230613180226000000000000182545205"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T22:26:38.927774Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1507384
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409207779,
+			"FNC_TYP_ID": 154,
+			"RPT_CTGY_ID": 47,
+			"EVT_ID": 1,
+			"EVT_DT": "2023-06-09T08:00:00Z",
+			"EVT_LOC_NM": "CS Other Location - See Below",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T05:51:09Z",
+			"transact_commit_timestamp": "2023-06-13T13:51:09Z",
+			"transact_seq": "20230613135109000000000000173361781"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T15:58:08.106983Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 2031660
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409169694,
+			"FNC_TYP_ID": 55,
+			"RPT_CTGY_ID": 11,
+			"EVT_ID": 1,
+			"EVT_DT": "2023-06-12T00:00:00Z",
+			"EVT_LOC_NM": "Bell Desk",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T02:41:26.561000Z",
+			"transact_commit_timestamp": "2023-06-13T06:41:26Z",
+			"transact_seq": "20230613064126000000000000164194317"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T10:22:29.601064Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 786470
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409170027,
+			"FNC_TYP_ID": 55,
+			"RPT_CTGY_ID": 11,
+			"EVT_ID": 1,
+			"EVT_DT": "2023-06-12T00:00:00Z",
+			"EVT_LOC_NM": "Bell Desk",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T02:27:44.378000Z",
+			"transact_commit_timestamp": "2023-06-13T06:27:44Z",
+			"transact_seq": "20230613062744000000000000163353945"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T09:53:54.276987Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1703963
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409169691,
+			"FNC_TYP_ID": 55,
+			"RPT_CTGY_ID": 11,
+			"EVT_ID": 1,
+			"EVT_DT": "2023-06-12T00:00:00Z",
+			"EVT_LOC_NM": "Bell Desk",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T02:32:35.162000Z",
+			"transact_commit_timestamp": "2023-06-13T06:32:35Z",
+			"transact_seq": "20230613063235000000000000163381045"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T09:54:45.345784Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 393268
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409170314,
+			"FNC_TYP_ID": 55,
+			"RPT_CTGY_ID": 11,
+			"EVT_ID": 1,
+			"EVT_DT": "2023-06-12T00:00:00Z",
+			"EVT_LOC_NM": "Bell Services",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T03:14:12.986000Z",
+			"transact_commit_timestamp": "2023-06-13T07:14:14Z",
+			"transact_seq": "20230613071414000000000000164594565"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T10:31:38.183644Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 720906
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409195809,
+			"FNC_TYP_ID": 109,
+			"RPT_CTGY_ID": 5,
+			"EVT_ID": 81,
+			"EVT_DT": "2023-06-12T12:00:00Z",
+			"EVT_LOC_NM": "Billing BEO - 1Y See Below",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T04:54:58Z",
+			"transact_commit_timestamp": "2023-06-13T12:54:58Z",
+			"transact_seq": "20230613125458000000000000171716601"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T15:02:03.057083Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 2097183
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409194501,
+			"FNC_TYP_ID": 55,
+			"RPT_CTGY_ID": 45,
+			"EVT_ID": 88,
+			"EVT_DT": "2023-06-09T09:00:00Z",
+			"EVT_LOC_NM": "Event Services Office",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T04:48:26Z",
+			"transact_commit_timestamp": "2023-06-13T12:48:26Z",
+			"transact_seq": "20230613124826000000000000171547593"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T14:34:20.698565Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1703958
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409294695,
+			"FNC_TYP_ID": 49,
+			"RPT_CTGY_ID": 47,
+			"EVT_ID": 4,
+			"EVT_DT": "2023-06-10T18:00:00Z",
+			"EVT_LOC_NM": "Ka'ala II-IV",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T10:26:47Z",
+			"transact_commit_timestamp": "2023-06-13T18:26:48Z",
+			"transact_seq": "20230613182648000000000000183418061"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T22:56:15.877337Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1703977
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409295080,
+			"FNC_TYP_ID": 49,
+			"RPT_CTGY_ID": 5,
+			"EVT_ID": 4,
+			"EVT_DT": "2023-06-10T18:00:00Z",
+			"EVT_LOC_NM": "Ka'ala II-IV",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T10:27:08Z",
+			"transact_commit_timestamp": "2023-06-13T18:27:08Z",
+			"transact_seq": "20230613182708000000000000183430317"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T22:56:42.252502Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 262146
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409198377,
+			"FNC_TYP_ID": 18,
+			"RPT_CTGY_ID": 139,
+			"EVT_ID": 2,
+			"EVT_DT": "2023-06-12T07:00:00Z",
+			"EVT_LOC_NM": "Cancun",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T05:10:33Z",
+			"transact_commit_timestamp": "2023-06-13T13:10:34Z",
+			"transact_seq": "20230613131034000000000000172156101"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T15:17:37.500418Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 196646
+		}
+	},
+	{
+		"data": {
+			"FNC_TYP_ID": 118,
+			"RPT_CTGY_ID": 19,
+			"EVT_DT": "2023-06-12T00:00:00Z",
+			"EVT_LOC_NM": "CS Ricoh Business Center:11005",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-12T16:22:21.459000Z",
+			"EVT_CHRG_ID": 3409063180,
+			"transact_commit_timestamp": "2023-06-13T18:19:05Z",
+			"transact_seq": "20230613181905000000000000183174125"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T22:47:45.823222Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1376293
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409170055,
+			"FNC_TYP_ID": 55,
+			"RPT_CTGY_ID": 11,
+			"EVT_ID": 1,
+			"EVT_DT": "2023-06-12T00:00:00Z",
+			"EVT_LOC_NM": "Bell Desk",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T03:32:36.189000Z",
+			"transact_commit_timestamp": "2023-06-13T07:32:36Z",
+			"transact_seq": "20230613073236000000000000165744241"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T11:13:53.144593Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1114148
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409169881,
+			"FNC_TYP_ID": 55,
+			"RPT_CTGY_ID": 11,
+			"EVT_ID": 1,
+			"EVT_DT": "2023-06-12T00:00:00Z",
+			"EVT_LOC_NM": "Bell Desk",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T03:17:00.440000Z",
+			"transact_commit_timestamp": "2023-06-13T07:17:00Z",
+			"transact_seq": "20230613071700000000000000165186529"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T10:49:37.048421Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1572893
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409169882,
+			"FNC_TYP_ID": 55,
+			"RPT_CTGY_ID": 11,
+			"EVT_ID": 1,
+			"EVT_DT": "2023-06-12T00:00:00Z",
+			"EVT_LOC_NM": "Bell Desk",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T03:18:53.130000Z",
+			"transact_commit_timestamp": "2023-06-13T07:18:53Z",
+			"transact_seq": "20230613071853000000000000165200233"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T10:50:02.540611Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 1507354
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409289487,
+			"FNC_TYP_ID": 132,
+			"RPT_CTGY_ID": 36,
+			"EVT_ID": 25,
+			"EVT_DT": "2023-06-12T19:00:00Z",
+			"EVT_LOC_NM": "Salons 1-5",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T10:10:25Z",
+			"transact_commit_timestamp": "2023-06-13T18:10:26Z",
+			"transact_seq": "20230613181026000000000000182879037"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T22:37:35.111529Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 65543
+		}
+	},
+	{
+		"data": {
+			"EVT_CHRG_ID": 3409290712,
+			"FNC_TYP_ID": 132,
+			"RPT_CTGY_ID": 36,
+			"EVT_ID": 99999,
+			"EVT_DT": "2023-06-12T15:00:00Z",
+			"EVT_LOC_NM": "Buena Vista Palace (Rm TBD)",
+			"CREATE_USR_ID_CD": "Duck",
+			"CREATE_DTS": "2023-06-13T10:13:41Z",
+			"transact_commit_timestamp": "2023-06-13T18:13:41Z",
+			"transact_seq": "20230613181341000000000000182981481"
+		},
+		"metadata": {
+			"timestamp": "2023-06-13T22:41:12.067365Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "EVT_CHRG",
+			"transaction-id": 196634
+		}
+	}
+]

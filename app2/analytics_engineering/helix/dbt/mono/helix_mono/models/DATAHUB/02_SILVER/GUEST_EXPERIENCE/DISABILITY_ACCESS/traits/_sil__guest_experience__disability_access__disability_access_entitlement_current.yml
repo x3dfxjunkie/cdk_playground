@@ -1,0 +1,118 @@
+version: 2
+
+models:
+  - name: sil__guest_experience__disability_access__disability_access_entitlement_current
+    description: "{{ doc('sil__guest_experience__disability_access__disability_access_entitlement_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=guest_experience
+        - sub_domain=disability_access
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: entitlement_id
+        description: ""
+
+      - name: start_datetime
+        description: ""
+
+      - name: start_date
+        description: ""
+
+      - name: start_time
+        description: ""
+
+      - name: end_datetime
+        description: ""
+
+      - name: end_date
+        description: ""
+
+      - name: end_time
+        description: ""
+
+      - name: terms_and_conditions_version
+        description: ""
+
+      - name: terms_and_conditions_text
+        description: ""
+
+      - name: terms_and_conditions_start_datetime
+        description: ""
+
+      - name: terms_and_conditions_end_datetime
+        description: ""
+
+      - name: maximum_experience_count
+        description: ""
+
+      - name: guest_id
+        description: ""
+
+      - name: supplemental_guest_id_name
+        description: ""
+
+      - name: supplemental_guest_id_value
+        description: ""
+
+      - name: guest_title
+        description: ""
+
+      - name: guest_first_name
+        description: ""
+
+      - name: guest_middle_initial
+        description: ""
+
+      - name: guest_last_name
+        description: ""
+
+      - name: guest_suffix_name
+        description: ""
+
+      - name: guest_link_start_datetime
+        description: ""
+
+      - name: guest_link_start_date
+        description: ""
+
+      - name: guest_link_start_time
+        description: ""
+
+      - name: guest_link_end_datetime
+        description: ""
+
+      - name: guest_link_end_date
+        description: ""
+
+      - name: guest_link_end_time
+        description: ""
+
+      - name: guest_with_disability_role_indicator
+        description: ""
+
+      - name: guest_with_disability_infant_indicator
+        description: ""
+
+      - name: guest_with_disability_media_opt_out_indicator
+        description: ""
+
+      - name: source_system_create_user_id
+        description: ""
+
+      - name: source_system_create_datetime
+        description: ""
+
+      - name: source_system_update_user_id
+        description: ""
+
+      - name: source_system_update_datetime
+        description: ""
+
+      - name: source_system_logical_delete_indicator
+        description: ""

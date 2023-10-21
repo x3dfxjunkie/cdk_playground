@@ -1,0 +1,41 @@
+stack_extension: &se lambdashreddertest
+construct_id: batch_shredder_job
+ingest_pattern: lambdashredder
+active: True
+pattern_instances:
+  - region: us-east-1
+    resources:
+      stack_extension: *se
+      kinesis:
+        retention_period: &kdr !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 14
+        stream_mode: &ksm !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - PROVISIONED
+        shard_count: &ksc 5
+        encryption_key: NULL
+      kinesis_firehose:
+        enabled: False
+        bucket_name: raw
+        buffering_hints:
+          interval: 60
+          unit_of_time: SECONDS
+      iam:
+        name: g360-lambda-shredder-role
+      lambda:
+        name: lambda-shredder
+        directory: bazel-bin/app/src/ingestion/lambda_shredder/lambda_archive.zip
+        timeout: 900
+        environment:
+          REGION: us-east-1
+          MAX_FILE_SIZE: '250000000'
+      s3:
+        notifications:
+          key_filters:
+            suffixs:
+              - parquet
+              - avro
+              - csv
+              - json
+              - xml
+              - orc
+              - gz

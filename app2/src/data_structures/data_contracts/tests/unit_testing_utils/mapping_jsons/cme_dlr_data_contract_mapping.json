@@ -1,0 +1,201 @@
+{
+    "CMEDLRReservationModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_reservation_source_data_contract",
+        "kinesis-stream": {
+            "wdpr-dpp-B0243684-use1-prd-cme-dlr": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "reservation"
+            }
+        }
+    },
+    "CMEDLRResSummaryStatsModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_res_summary_stats_source_data_contract",
+        "kinesis-stream": {
+            "wdpr-dpp-B0243684-use1-prd-cme-dlr": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_summary_stats"
+            }
+        }
+    },
+    "CMEDLRResByDatesStatsModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_res_by_dates_stats_source_data_contract",
+        "kinesis-stream": {
+            "wdpr-dpp-B0243684-use1-prd-cme-dlr": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_by_dates_stats"
+            }
+        }
+    },
+    "CMEDLRParkModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_park_source_data_contract",
+        "kinesis-stream": {
+            "wdpr-dpp-B0243684-use1-prd-cme-dlr": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "park"
+            }
+        }
+    },
+    "CMEDLRInventoryProductModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_inventory_product_source_data_contract",
+        "kinesis-stream": {
+            "wdpr-dpp-B0243684-use1-prd-cme-dlr": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "inventory_product"
+            }
+        }
+    },
+    "CMEDLRInvBucketModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_inv_bucket_source_data_contract",
+        "kinesis-stream": {
+            "wdpr-dpp-B0243684-use1-prd-cme-dlr": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "inv_bucket"
+            }
+        }
+    },
+    "CMEDLRInvBucketDateTimeModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_inv_bucket_date_time_source_data_contract",
+        "kinesis-stream": {
+            "wdpr-dpp-B0243684-use1-prd-cme-dlr": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "inv_bucket_date_time"
+            }
+        }
+    },
+    "CMEDLRDestinationModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_destination_source_data_contract",
+        "kinesis-stream": {
+            "wdpr-dpp-B0243684-use1-prd-cme-dlr": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "destination"
+            }
+        }
+    },
+    "CMEDLRCheckpointLocationModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_checkpoint_location_source_data_contract",
+        "kinesis-stream": {
+            "lod-use1-guest360-cmedlr-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "checkpoint_location"
+            }
+        }
+    },
+    "CMEDLRReservationCommunicationModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_reservation_communication_source_data_contract",
+        "kinesis-stream": {
+            "lod-use1-guest360-cmedlr-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "reservation_communication"
+            }
+        }
+    },
+    "CMEDLRReservationNoteModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_reservation_note_source_data_contract",
+        "kinesis-stream": {
+            "lod-use1-guest360-cmedlr-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "reservation_note"
+            }
+        }
+    },
+    "CMEDLRShedlockModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_shedlock_source_data_contract",
+        "kinesis-stream": {
+            "lod-use1-guest360-cmedlr-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "shedlock"
+            }
+        }
+    },
+    "CMEDLRRuleSettingModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_rule_setting_source_data_contract",
+        "s3": {
+            "lst-use1-guest360-ingestion-raw": {
+                "path-filter": "snowpipe/database=DEFAULT_ROUTER_LATEST_LANDING/schema=AWAKENING/table=RULE_SETTING/stream=lst-use1-guest360-cme-dlr-kinesis-dmz/2023/07/10/16/"
+            }
+        }
+    },
+    "CMEDLRRuleGroupModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_rule_group_source_data_contract",
+        "s3": {
+            "lst-use1-guest360-ingestion-raw": {
+                "path-filter": "snowpipe/database=DEFAULT_ROUTER_LATEST_LANDING/schema=AWAKENING/table=RULE_GROUP/stream=lst-use1-guest360-cme-dlr-kinesis-dmz/2023/07/10/16/"
+            }
+        }
+    },
+    "CMEDLRRuleConstraintModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_rule_constraint_source_data_contract",
+        "s3": {
+            "lst-use1-guest360-ingestion-raw": {
+                "path-filter": "snowpipe/database=DEFAULT_ROUTER_LATEST_LANDING/schema=AWAKENING/table=RULE_CONSTRAINT/stream=lst-use1-guest360-cme-dlr-kinesis-dmz/2023/07/10/16/"
+            }
+        }
+    },
+    "CMEDLRProductCategoryModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_product_category_source_data_contract",
+        "s3": {
+            "lst-use1-guest360-ingestion-raw": {
+                "path-filter": "snowpipe/database=DEFAULT_ROUTER_LATEST_LANDING/schema=AWAKENING/table=PRODUCT_CATEGORY/stream=lst-use1-guest360-cme-dlr-kinesis-dmz/2023/07/10/16/"
+            }
+        }
+    },
+    "CMEDLRProductTypeProductCategoryModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_product_type_product_category_source_data_contract",
+        "s3": {
+            "lst-use1-guest360-ingestion-raw": {
+                "path-filter": "snowpipe/database=DEFAULT_ROUTER_LATEST_LANDING/schema=AWAKENING/table=PRODUCT_TYPE_PRODUCT_CATEGORY/stream=lst-use1-guest360-cme-dlr-kinesis-dmz/2023/07/10/16/"
+            }
+        }
+    },
+    "CMEDLRAuditInvBucketDateTimeModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_audit_inv_bucket_date_time_source_data_contract",
+        "s3": {
+            "lst-use1-guest360-ingestion-raw": {
+                "path-filter": "snowpipe/database=DEFAULT_ROUTER_LATEST_LANDING/schema=AWAKENING/table=AUDIT_INV_BUCKET_DATE_TIME/stream=lst-use1-guest360-cme-dlr-kinesis-dmz/2023/07/10/16/"
+            }
+        }
+    },
+    "CMEDLRNodeIdModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_node_id_source_data_contract",
+        "s3": {
+            "lst-use1-guest360-ingestion-raw": {
+                "path-filter": "snowpipe/database=DEFAULT_ROUTER_LATEST_LANDING/schema=AWAKENING/table=NODE_ID/stream=lst-use1-guest360-cme-dlr-kinesis-dmz/2023/07/10/16/"
+            }
+        }
+    },
+    "CMEDLRReservationMergeBckModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_reservation_merge_bck_source_data_contract"
+    },
+    "CMEDLRSwidsToMergeModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_swids_to_merge_source_data_contract"
+    },
+    "CMEDLRTicketCodeMappingModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_ticket_code_mapping_source_data_contract"
+    },
+    "CMEDLRUsersModel": {
+        "data-source-folder": "cme_dlr/v0",
+        "data-contract-name": "cme_dlr_users_source_data_contract"
+    }
+}

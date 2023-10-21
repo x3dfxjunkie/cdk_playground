@@ -1,0 +1,2002 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "2021-06-25T15:38:50.184347Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2021-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2021-04-26T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2021-06-25T15:38:50.184347Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:21.973466Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2021-06-25T15:39:54.477402Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2021-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2021-04-26T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2021-06-25T15:39:54.477402Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:22.357513Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-20T06:16:23.971803Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-07T21:00:00Z",
+            "PDS_STRT_DT": "2023-05-21T15:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-20T06:16:23.971803Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:27.486922Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-20T00:11:07.344786Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-17T15:45:00Z",
+            "PDS_STRT_DT": "2023-04-20T08:45:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-20T00:11:07.344786Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:34.876145Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-20T06:16:25.731742Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-17T17:55:00Z",
+            "PDS_STRT_DT": "2023-05-21T15:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-20T06:16:25.731742Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:28.182305Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-08-03T11:19:23.445663Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2018-12-29T00:00:00Z",
+            "PDS_STRT_DT": "2017-06-06T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2017-08-03T11:19:23.445663Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:37.349762Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-08-03T11:19:23.650455Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2018-12-29T00:00:00Z",
+            "PDS_STRT_DT": "2017-06-06T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2017-08-03T11:19:23.650455Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:39.870671Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-12T04:15:38.990619Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2017-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2016-02-28T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2017-02-12T04:15:38.990619Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:41.799249Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2021-06-25T15:38:50.184347Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2021-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2021-04-26T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2021-06-25T15:38:50.184347Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:21.973466Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-20T06:18:49.837727Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-17T11:25:00Z",
+            "PDS_STRT_DT": "2023-05-21T07:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-20T06:18:49.837727Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:17.933201Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-15T16:23:27.261436Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-11-14T10:55:00Z",
+            "PDS_STRT_DT": "2023-06-16T09:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-08-15T16:23:27.261436Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:26.264373Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2021-06-25T15:39:54.477402Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2021-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2021-04-26T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2021-06-25T15:39:54.477402Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:22.357513Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2021-06-25T15:38:50.175969Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2021-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2021-04-26T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2021-06-25T15:38:50.175969Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:21.846466Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-26T13:23:34.876143Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-24T16:55:00Z",
+            "PDS_STRT_DT": "2023-05-27T14:05:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-26T13:23:34.876143Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:39.951884Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-20T06:16:30.414642Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-17T21:00:00Z",
+            "PDS_STRT_DT": "2023-05-21T17:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-20T06:16:30.414642Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:29.473816Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-05-15T08:25:53.760380Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-08-14T15:55:00Z",
+            "PDS_STRT_DT": "2023-03-16T11:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-05-15T08:25:53.760380Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:45.005234Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-05-15T06:26:07.117121Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-07-25T22:00:00Z",
+            "PDS_STRT_DT": "2023-03-16T10:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-05-15T06:26:07.117121Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:43.820962Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-20T06:16:30.414642Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-17T21:00:00Z",
+            "PDS_STRT_DT": "2023-05-21T17:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-20T06:16:30.414642Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:29.473816Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-05-15T08:25:27.377197Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-08-14T11:00:00Z",
+            "PDS_STRT_DT": "2023-03-16T07:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-05-15T08:25:27.377197Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:44.509999Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-26T13:23:33.517992Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-24T22:00:00Z",
+            "PDS_STRT_DT": "2023-05-27T17:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-26T13:23:33.517992Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:39.404937Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-15T16:23:27.261436Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-11-14T10:55:00Z",
+            "PDS_STRT_DT": "2023-06-16T09:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-08-15T16:23:27.261436Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:26.264373Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-08-03T11:19:23.645695Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2018-12-29T00:00:00Z",
+            "PDS_STRT_DT": "2017-06-06T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2017-08-03T11:19:23.645695Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:39.801521Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-18T10:23:27.136257Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-11-16T23:00:00Z",
+            "PDS_STRT_DT": "2023-07-12T17:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-08-18T10:23:27.136257Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:34.747547Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-06-14T17:02:27.570294Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-09-12T10:00:00Z",
+            "PDS_STRT_DT": "2023-07-04T10:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-06-14T17:02:27.570294Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:49.175931Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-05-15T08:25:49.721714Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-08-14T16:55:00Z",
+            "PDS_STRT_DT": "2023-03-16T11:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-05-15T08:25:49.721714Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:44.932143Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-09-25T12:17:03.773615Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2016-10-01T00:00:00Z",
+            "PDS_STRT_DT": "2015-10-04T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2015-09-25T12:17:03.773615Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:43.456754Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-05-20T08:24:45.719955Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-08-19T22:00:00Z",
+            "PDS_STRT_DT": "2023-03-21T16:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-05-20T08:24:45.719955Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:45.768919Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-05-08T15:23:25.190970Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-07-29T18:30:00Z",
+            "PDS_STRT_DT": "2023-03-09T16:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-05-08T15:23:25.190970Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:48.580389Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-05-01T14:38:54.925159Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2018-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2017-03-02T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2017-05-01T14:38:54.925159Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:37.203562Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-18T10:23:27.136257Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-11-16T23:00:00Z",
+            "PDS_STRT_DT": "2023-07-12T17:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-08-18T10:23:27.136257Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:34.747547Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2019-02-05T10:33:11.893349Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2021-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2018-12-07T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2019-02-05T10:33:11.893349Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:53.260133Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2019-02-05T10:33:11.911585Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2021-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2018-12-07T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2019-02-05T10:33:11.911585Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:53.561422Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-03-24T18:44:28.982588Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2017-09-04T00:00:00Z",
+            "PDS_STRT_DT": "2017-04-11T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2017-03-24T18:44:28.982588Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:54.971041Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-05-12T08:22:36.838801Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-08-11T15:55:00Z",
+            "PDS_STRT_DT": "2023-03-13T11:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-05-12T08:22:36.838801Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:55.794895Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-03-24T18:44:28.980453Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2017-09-04T00:00:00Z",
+            "PDS_STRT_DT": "2017-04-11T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2017-03-24T18:44:28.980453Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:54.886721Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-01-28T12:00:34.780540Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2015-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2014-11-29T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2015-01-28T12:00:34.780540Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:56.489011Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-20T00:11:07.384559Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-17T15:45:00Z",
+            "PDS_STRT_DT": "2023-04-20T08:45:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-20T00:11:07.384559Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:55.948694Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-01-28T12:00:34.364825Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2015-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2014-11-29T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2015-01-28T12:00:34.364825Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:13:58.438299Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2022-10-13T09:53:03.884730Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2022-12-22T00:00:00Z",
+            "PDS_STRT_DT": "2022-10-31T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2022-10-13T09:53:03.884730Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:57.804405Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-06-13T17:54:58.208671Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-09-11T17:30:00Z",
+            "PDS_STRT_DT": "2023-07-28T16:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-06-13T17:54:58.208671Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:48.464983Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-14T08:12:14.325148Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-11-13T21:30:00Z",
+            "PDS_STRT_DT": "2023-06-15T17:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-08-14T08:12:14.325148Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:44.403187Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-20T06:26:41.800133Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-17T19:00:00Z",
+            "PDS_STRT_DT": "2023-05-21T16:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-20T06:26:41.800133Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:57.107493Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-03-18T08:19:18.138981Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-06-17T20:00:00Z",
+            "PDS_STRT_DT": "2023-03-03T20:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-03-18T08:19:18.138981Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:50.498481Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-18T08:25:22.260138Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-11-17T23:00:00Z",
+            "PDS_STRT_DT": "2023-06-19T17:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-08-18T08:25:22.260138Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:50.328319Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-20T06:26:41.795385Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-17T19:00:00Z",
+            "PDS_STRT_DT": "2023-05-21T16:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-20T06:26:41.795385Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:56.940947Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-05-12T08:22:58.758377Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-08-11T15:55:00Z",
+            "PDS_STRT_DT": "2023-03-13T10:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-05-12T08:22:58.758377Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:02.714451Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-06-13T18:11:58.674992Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-09-11T16:15:00Z",
+            "PDS_STRT_DT": "2023-07-28T15:45:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-06-13T18:11:58.674992Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:54.908961Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-20T06:26:41.795385Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-17T19:00:00Z",
+            "PDS_STRT_DT": "2023-05-21T16:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-20T06:26:41.795385Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:56.940947Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2016-03-11T11:59:29.829182Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2017-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2016-01-11T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2016-03-11T11:59:29.829182Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:07.089409Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2016-03-11T11:59:29.122871Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2017-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2016-01-11T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2016-03-11T11:59:29.122871Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:06.122369Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-09-03T08:05:36.445758Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2015-10-31T00:00:00Z",
+            "PDS_STRT_DT": "2015-07-05T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2015-09-03T08:05:36.445758Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:47.379337Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-20T06:16:00.875159Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-17T15:40:00Z",
+            "PDS_STRT_DT": "2023-05-21T11:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-20T06:16:00.875159Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:47.544306Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-20T06:03:23.925331Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-17T13:30:00Z",
+            "PDS_STRT_DT": "2023-05-21T13:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-20T06:03:23.925331Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:52.975037Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-12T04:15:39.069269Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2017-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2016-02-28T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2017-02-12T04:15:39.069269Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:51.416042Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-05-12T08:22:18.964678Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-08-11T10:30:00Z",
+            "PDS_STRT_DT": "2023-03-13T08:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-05-12T08:22:18.964678Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:00.694833Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-08-03T11:19:23.652211Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2018-12-29T00:00:00Z",
+            "PDS_STRT_DT": "2017-06-06T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2017-08-03T11:19:23.652211Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:39.900377Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-25T14:23:32.465466Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-14T19:00:00Z",
+            "PDS_STRT_DT": "2023-05-26T16:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-25T14:23:32.465466Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:00.876155Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-20T06:31:41.345042Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-17T18:15:00Z",
+            "PDS_STRT_DT": "2023-05-21T18:15:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-20T06:31:41.345042Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:09.106741Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-04-28T04:03:33.654793Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2030-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2005-01-01T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-04-28T04:03:33.654793Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:16:00.353640Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2016-05-17T17:48:53.733674Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2016-09-05T00:00:00Z",
+            "PDS_STRT_DT": "2016-05-28T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2016-05-17T17:48:53.733674Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:57.828012Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-06-13T08:13:26.641036Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-09-12T14:00:00Z",
+            "PDS_STRT_DT": "2023-04-14T08:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-06-13T08:13:26.641036Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:52.460303Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-06-13T17:54:21.814732Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-09-11T16:15:00Z",
+            "PDS_STRT_DT": "2023-07-28T16:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-06-13T17:54:21.814732Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:59.055909Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-04-25T08:12:16.599812Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-07-25T16:30:00Z",
+            "PDS_STRT_DT": "2023-02-24T10:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-04-25T08:12:16.599812Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:58.860995Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-17T13:53:24.551985Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-07T19:00:00Z",
+            "PDS_STRT_DT": "2023-05-18T20:20:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-17T13:53:24.551985Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:59.665355Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-06-03T08:27:08.878921Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-09-02T11:30:00Z",
+            "PDS_STRT_DT": "2023-04-04T07:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-06-03T08:27:08.878921Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:49.920694Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-18T08:25:22.260138Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-11-17T23:00:00Z",
+            "PDS_STRT_DT": "2023-06-19T17:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-08-18T08:25:22.260138Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:50.328319Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-03-24T18:44:28.982123Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2017-09-04T00:00:00Z",
+            "PDS_STRT_DT": "2017-04-11T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2017-03-24T18:44:28.982123Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:54.954633Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-20T06:47:21.900828Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-17T14:00:00Z",
+            "PDS_STRT_DT": "2023-05-20T09:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-20T06:47:21.900828Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:52.871889Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-25T14:23:32.465466Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-14T19:00:00Z",
+            "PDS_STRT_DT": "2023-05-26T16:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-25T14:23:32.465466Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:00.876155Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-05-12T08:22:18.964678Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-08-11T10:30:00Z",
+            "PDS_STRT_DT": "2023-03-13T08:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-05-12T08:22:18.964678Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:00.694833Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2016-03-11T11:59:29.073601Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2017-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2016-01-11T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2016-03-11T11:59:29.073601Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:06.048527Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-14T20:04:16.409002Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-09-30T15:00:00Z",
+            "PDS_STRT_DT": "2023-05-15T12:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-14T20:04:16.409002Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:59.595361Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2021-07-10T04:02:09.440500Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2030-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2005-01-01T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2021-07-10T04:02:09.440500Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:03.279285Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-05-20T08:24:36.125073Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-08-19T23:30:00Z",
+            "PDS_STRT_DT": "2023-03-21T16:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-05-20T08:24:36.125073Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:45.607807Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2022-03-25T00:42:11.195136Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2022-06-23T00:00:00Z",
+            "PDS_STRT_DT": "2022-01-23T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2022-03-25T00:42:11.195136Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:16:02.925088Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-05-18T10:57:06.299606Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2015-11-26T00:00:00Z",
+            "PDS_STRT_DT": "2015-11-26T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2015-05-18T10:57:06.299606Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:57.939989Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-05-20T08:24:36.125073Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-08-19T23:30:00Z",
+            "PDS_STRT_DT": "2023-03-21T16:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-05-20T08:24:36.125073Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:45.607807Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-12T04:15:39.029184Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2017-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2016-02-28T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2017-02-12T04:15:39.029184Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:38.128537Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-08-03T11:19:23.652211Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2018-12-29T00:00:00Z",
+            "PDS_STRT_DT": "2017-06-06T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2017-08-03T11:19:23.652211Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:39.900377Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-06-13T17:54:30.183678Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-09-11T15:30:00Z",
+            "PDS_STRT_DT": "2023-07-28T11:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-06-13T17:54:30.183678Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:47.343696Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-03-15T20:22:44.596019Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-06-14T21:00:00Z",
+            "PDS_STRT_DT": "2023-01-14T16:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-03-15T20:22:44.596019Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:47.184159Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-20T06:03:27.777063Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-17T21:30:00Z",
+            "PDS_STRT_DT": "2023-05-21T17:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-20T06:03:27.777063Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:03.773658Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-05-12T08:22:25.658205Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-08-11T15:40:00Z",
+            "PDS_STRT_DT": "2023-03-13T11:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-05-12T08:22:25.658205Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:00.860506Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-12T04:15:39.029184Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2017-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2016-02-28T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2017-02-12T04:15:39.029184Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:38.128537Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2014-11-07T11:36:25.060320Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2015-02-28T00:00:00Z",
+            "PDS_STRT_DT": "2014-12-12T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2014-11-07T11:36:25.060320Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:14.163143Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-05-12T08:22:22.859058Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-08-11T15:30:00Z",
+            "PDS_STRT_DT": "2023-03-13T11:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-05-12T08:22:22.859058Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:00.796392Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-20T06:32:09.008050Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-10-17T18:15:00Z",
+            "PDS_STRT_DT": "2023-05-21T18:15:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-20T06:32:09.008050Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:53.969273Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-08-03T11:19:23.652211Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2018-12-29T00:00:00Z",
+            "PDS_STRT_DT": "2017-06-06T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2017-08-03T11:19:23.652211Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:39.900377Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2014-11-06T14:30:20.473987Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2015-06-14T00:00:00Z",
+            "PDS_STRT_DT": "2015-05-04T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2014-11-06T14:30:20.473987Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:13.771970Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-01-28T12:00:35.927478Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2015-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2014-11-29T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2015-01-28T12:00:35.927478Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:11.428052Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-04-25T08:22:55.289247Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-07-25T18:15:00Z",
+            "PDS_STRT_DT": "2023-02-24T18:15:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-04-25T08:22:55.289247Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:16:05.497143Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-03-18T08:32:12.749782Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-06-17T23:59:00Z",
+            "PDS_STRT_DT": "2023-01-17T16:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-03-18T08:32:12.749782Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:16:09.519954Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-02-26T07:26:43.477123Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-05-28T15:55:00Z",
+            "PDS_STRT_DT": "2023-03-03T12:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-02-26T07:26:43.477123Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:16:09.933668Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-15T08:28:28.642693Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-11-14T15:30:00Z",
+            "PDS_STRT_DT": "2023-06-16T11:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-08-15T08:28:28.642693Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:43.663026Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-01-28T12:00:35.865369Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2015-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2014-11-29T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2015-01-28T12:00:35.865369Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:11.068164Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-15T08:28:28.642693Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-11-14T15:30:00Z",
+            "PDS_STRT_DT": "2023-06-16T11:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-08-15T08:28:28.642693Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:43.663026Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2015-01-28T12:00:34.749955Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2015-12-31T00:00:00Z",
+            "PDS_STRT_DT": "2014-11-29T00:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2015-01-28T12:00:34.749955Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:56.389326Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-05-12T08:22:25.658205Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-08-11T15:40:00Z",
+            "PDS_STRT_DT": "2023-03-13T11:30:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-05-12T08:22:25.658205Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:00.860506Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-08-16T08:27:55.352506Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-11-15T19:00:00Z",
+            "PDS_STRT_DT": "2023-06-17T16:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-08-16T08:27:55.352506Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:15:16.459298Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-14T20:04:16.409002Z",
+            "DLY_SCH_ID": 12345678,
+            "JDO_SEQ_NB": 0,
+            "PDS_END_DT": "2023-09-30T15:00:00Z",
+            "PDS_STRT_DT": "2023-05-15T12:00:00Z",
+            "PRGE_DTS": null,
+            "PROD_ID": 1234567,
+            "UPDT_DTS": "2023-07-14T20:04:16.409002Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PROD_DLY_SCH_T",
+            "timestamp": "2023-08-25T23:14:59.595361Z"
+        }
+    }
+]

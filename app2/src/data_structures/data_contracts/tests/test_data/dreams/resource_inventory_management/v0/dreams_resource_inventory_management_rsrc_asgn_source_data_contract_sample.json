@@ -1,0 +1,4487 @@
+[
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "CREATE_DTS": "2010-12-01T13:00:35.904000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "UPDT_DTS": "2010-12-01T13:00:35.904000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:57:10.848297Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T13:06:22.422000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-01T13:06:22.422000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:57:10.973959Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T13:06:22.422000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-01T13:06:22.422000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:57:11.005431Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T13:06:22.422000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-01T13:06:22.422000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:57:11.016490Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T13:06:22.422000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-01T13:06:22.422000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:57:11.026727Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T13:24:42.944000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-01T13:24:48.884000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:57:11.062802Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "Y",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T13:29:01.020000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "SHOWD001",
+            "UPDT_DTS": "2010-12-01T13:30:02.113000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:57:11.070157Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "Y",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T13:29:41.042000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "MOJED001",
+            "UPDT_DTS": "2010-12-01T13:29:53.502000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:57:11.078451Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "Y",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T13:29:41.042000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "MOJED001",
+            "UPDT_DTS": "2010-12-01T13:29:53.502000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:57:11.098014Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "Y",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T13:29:41.042000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "MOJED001",
+            "UPDT_DTS": "2010-12-01T13:29:53.502000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:57:11.110807Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T13:37:30.939000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-01T13:37:36.206000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:57:11.120340Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.096519Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.103093Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.109941Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.119252Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.135802Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.158698Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.194879Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.221555Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.229048Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.257913Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.278614Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.303125Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.348349Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.357613Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.365967Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.372790Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.380455Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.388355Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.396333Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.404833Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.421696Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.436043Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.443672Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.450474Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.459373Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.467816Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.475661Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.487014Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T11:14:55.334000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T11:14:55.334000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:02:35.906559Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T11:14:55.334000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T11:14:55.334000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:02:35.933060Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T11:15:20.458000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T11:15:20.458000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:02:35.944770Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T11:15:20.458000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T11:15:20.458000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:02:36.029703Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T11:15:34.133000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T11:15:34.133000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:02:36.052584Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T11:15:34.133000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T11:15:34.133000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:02:36.065890Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T11:15:34.133000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T11:15:34.133000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:02:36.075047Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T11:15:34.133000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T11:15:34.133000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:02:36.082430Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T11:20:41.044000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T11:20:41.044000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:02:36.142808Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T11:20:41.044000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T11:20:41.044000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:02:36.156258Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T11:20:41.044000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T11:20:41.044000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:02:36.170416Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T11:14:21.559000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T11:14:21.559000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:02:36.192311Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T11:14:21.559000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T11:14:21.559000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:02:36.206647Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T11:15:07.536000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T11:15:07.536000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:02:36.230102Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T11:15:07.536000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T11:15:07.536000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:02:36.236681Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T14:34:38.511000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "KEITA011",
+            "UPDT_DTS": "2014-09-17T14:37:52.416000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:03:35.864534Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T14:34:38.511000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "KEITA011",
+            "UPDT_DTS": "2014-09-17T14:37:52.416000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:03:35.948109Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T14:33:24.317000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DENSJ002",
+            "UPDT_DTS": "2014-09-20T11:30:22.820000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:03:36.004405Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T14:33:24.317000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DENSJ002",
+            "UPDT_DTS": "2014-09-20T11:30:22.820000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:03:36.014103Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T14:33:24.317000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DENSJ002",
+            "UPDT_DTS": "2014-09-20T11:30:22.820000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:03:36.022552Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T14:33:24.317000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DENSJ002",
+            "UPDT_DTS": "2014-09-20T10:22:01.661000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:03:36.031421Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T14:33:24.317000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DENSJ002",
+            "UPDT_DTS": "2014-09-20T10:22:01.661000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:03:36.040202Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T14:33:24.317000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DENSJ002",
+            "UPDT_DTS": "2014-09-20T10:22:01.661000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:03:36.049077Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T14:33:24.317000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DENSJ002",
+            "UPDT_DTS": "2014-09-20T10:22:01.661000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:03:36.068147Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T14:33:24.317000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DENSJ002",
+            "UPDT_DTS": "2014-09-20T10:22:01.661000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:03:36.085265Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T14:33:24.317000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DENSJ002",
+            "UPDT_DTS": "2014-09-20T10:22:01.661000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:03:36.095722Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T14:37:29.653000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T14:37:29.653000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:03:36.102769Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T14:37:29.653000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T14:37:29.653000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:03:36.110545Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T14:39:13.443000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "WATEA014",
+            "UPDT_DTS": "2014-09-19T18:11:13.734000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:03:36.117829Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T14:39:13.443000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "WATEA014",
+            "UPDT_DTS": "2014-09-19T18:11:13.734000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:03:36.151152Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T14:39:13.443000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "WATEA014",
+            "UPDT_DTS": "2014-09-19T18:16:38.388000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:03:36.175812Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:53:07.957000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:53:07.957000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.393324Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:53:07.957000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:53:07.957000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.401920Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:53:59.597000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:53:59.597000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.409072Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:56:17.395000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:56:17.395000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.502477Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:56:17.395000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:56:17.395000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.512454Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:56:17.395000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:56:17.395000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.527999Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:56:17.395000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:56:17.395000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.536379Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:44:55.160089Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:44:55.171289Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:44:55.180541Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:44:55.196367Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:44:55.207140Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:44:55.222230Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:44:55.250022Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:44:55.265851Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:44:55.276719Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:44:55.314213Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:44:55.321678Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:44:55.340691Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:44:55.363645Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:44:55.389185Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:44:55.398835Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:44:55.408369Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:44:55.433508Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:44:55.462282Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:45:08.812751Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:45:08.896572Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:45:08.903526Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:45:08.912157Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:45:08.937304Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:45:08.947838Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:45:08.963973Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:45:08.993658Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:45:09.001971Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:45:09.025366Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:45:09.049882Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:45:09.059669Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:45:09.085538Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:45:09.129642Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-11-17T00:44:53Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-11-17T00:44:53Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:45:09.164599Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-18T01:28:57.822000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-18T01:28:57.822000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T23:05:25.343151Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-18T01:28:57.822000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-18T01:28:57.822000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T23:05:25.392273Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-18T01:29:06.343000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-18T01:29:06.343000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T23:05:25.422444Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-18T01:41:10.399000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-18T01:41:10.399000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T23:05:25.429250Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-18T01:41:10.399000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-18T01:41:10.399000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T23:05:25.445930Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:56:17.395000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:56:17.395000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.599196Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:56:17.395000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:56:17.395000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.605850Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:56:57.824000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:56:57.824000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.624789Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:56:57.824000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:56:57.824000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.638411Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:56:57.824000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:56:57.824000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.646640Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:56:57.824000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:56:57.824000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.655705Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:56:57.824000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:56:57.824000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.665276Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:56:57.824000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:56:57.824000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.713054Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:56:57.824000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:56:57.824000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.722098Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:56:57.824000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:56:57.824000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.734754Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:56:57.824000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:56:57.824000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.754633Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:51:42.742000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:51:42.742000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.780500Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:51:42.742000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:51:42.742000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.798657Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:51:42.742000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:51:42.742000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.807523Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:51:42.742000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:51:42.742000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.830444Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:51:42.742000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:51:42.742000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.842623Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:51:42.742000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:51:42.742000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.849919Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:51:42.742000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:51:42.742000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.867411Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-17T15:52:39.386000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-17T15:52:39.386000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:04:10.876260Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.494649Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.511819Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.518987Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-02T16:01:56.708000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-02T16:01:56.708000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T22:01:15.527436Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-18T02:26:42.562000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-18T02:26:42.562000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T23:05:25.470008Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-18T04:02:50.399000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-18T04:02:59.084000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T23:05:25.505254Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-18T04:02:50.399000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-18T04:02:59.084000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T23:05:25.513017Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-18T04:02:50.399000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-18T04:02:59.084000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T23:05:25.552348Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "Y",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-18T06:24:35.802000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DOUCJ003",
+            "UPDT_DTS": "2010-12-18T06:24:44.384000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T23:05:25.566092Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "Y",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-18T06:24:35.802000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DOUCJ003",
+            "UPDT_DTS": "2010-12-18T06:24:44.384000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T23:05:25.572462Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-18T06:27:03.790000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-18T06:27:03.790000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T23:05:25.614256Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "Y",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2011-01-01T15:24:08.158000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "LEAGS001",
+            "UPDT_DTS": "2011-01-01T15:24:36.184000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-26T00:01:30.261069Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "Y",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2011-01-01T15:24:17.652000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "CASES014",
+            "UPDT_DTS": "2011-01-01T15:24:28.352000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-26T00:01:30.363580Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "Y",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2011-01-01T15:24:17.652000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "CASES014",
+            "UPDT_DTS": "2011-01-01T15:24:28.352000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-26T00:01:30.395726Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "Y",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2011-01-01T15:24:17.652000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "CASES014",
+            "UPDT_DTS": "2011-01-01T15:24:28.352000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-26T00:01:30.441341Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "Y",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2011-01-01T15:24:17.652000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "CASES014",
+            "UPDT_DTS": "2011-01-01T15:24:28.352000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-26T00:01:30.451099Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2011-01-01T15:24:16.087000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2011-01-01T15:24:16.087000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-26T00:01:30.457016Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2011-01-01T15:08:48.976000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2011-01-01T15:08:54.536000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-26T00:02:35.974995Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2011-01-01T15:08:48.976000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2011-01-01T15:08:54.536000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-26T00:02:35.987320Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "Y",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-30T10:01:14.197000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "PATTC013",
+            "UPDT_DTS": "2010-12-30T10:01:25.070000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T23:54:35.048970Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "Y",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-30T10:01:14.197000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "PATTC013",
+            "UPDT_DTS": "2010-12-30T10:01:25.070000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T23:54:35.064491Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "Y",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-30T10:01:14.197000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "PATTC013",
+            "UPDT_DTS": "2010-12-30T10:01:25.070000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T23:54:35.071876Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "Y",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-30T10:12:49.682000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "OVERS003",
+            "UPDT_DTS": "2010-12-30T10:12:57.691000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T23:54:35.079269Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-30T10:21:07.293000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-30T10:21:15.792000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T23:54:35.107654Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-30T10:32:40.339000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 1,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2010-12-30T10:32:48.554000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T23:54:35.122700Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:05.929648Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:05.942421Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:05.956612Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:05.980786Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:05.988414Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.012807Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.031963Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.040154Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.073824Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.093576Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.101024Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.108986Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.134206Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.150579Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.158879Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.168508Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.177975Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.185884Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.195606Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.204903Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.218625Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.225195Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.251094Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.260254Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2010-12-01T00:20:28Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "TMP_STS_USR_NM": "DPMS CONV",
+            "UPDT_DTS": "2010-12-01T00:20:28Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T21:35:06.277305Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-19T09:22:46.097000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-19T09:22:46.097000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:10:45.063381Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-19T09:22:46.097000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-19T09:22:46.097000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:10:45.150392Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-19T09:22:46.097000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-19T09:22:46.097000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:10:45.168980Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-19T09:22:46.097000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-19T09:22:46.097000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:10:45.179784Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-19T09:21:20.542000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-19T09:21:20.542000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:10:45.287490Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-19T09:21:20.542000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-19T09:21:20.542000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:10:45.301903Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-19T09:21:20.542000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-19T09:21:20.542000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:10:45.312237Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-19T09:22:17.336000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-19T09:22:17.336000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:10:45.330963Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-19T09:22:17.336000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-19T09:22:17.336000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:10:45.339406Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-19T09:22:17.336000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-19T09:22:17.336000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:10:45.351292Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-19T09:25:03.995000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-19T09:25:03.995000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:10:45.394848Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-19T09:25:03.995000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-19T09:25:03.995000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:10:45.412124Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-19T11:31:38.476000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-19T11:31:38.476000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:11:36.001417Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-19T11:31:38.476000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-19T11:31:38.476000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:11:36.009386Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-19T11:31:38.476000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-19T11:31:38.476000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:11:36.025050Z"
+        }
+    },
+    {
+        "data": {
+            "ASGN_ID": 12345678,
+            "ASGN_LCK_IN": "N",
+            "ASGN_STS_NM": "BOOKED",
+            "CREATE_DTS": "2014-09-19T11:31:38.476000Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "JDO_SEQ_NB": 0,
+            "RSRC_ASGN_REQ_ID": 12345678,
+            "RSRC_ID": 12345,
+            "UPDT_DTS": "2014-09-19T11:31:38.476000Z",
+            "UPDT_USR_ID_CD": "DDONALD01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "rsrc_asgn",
+            "timestamp": "2023-07-25T20:11:36.039843Z"
+        }
+    }
+]

@@ -1,0 +1,54 @@
+
+# Name your project! Project names should contain only lowercase characters
+# and underscores. A good package name should reflect your organization's
+# name or the intended use of these models
+name: 'helix_mono'
+version: '1.0.0'
+config-version: 2
+
+# This setting configures which "profile" dbt uses for this project.
+profile: 'helix_mono'
+
+# These configurations specify where dbt should look for different types of files.
+# The `model-paths` config, for example, states that models in this project can be
+# found in the "models/" directory. You probably won't need to change these!
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+packages-install-path: "/home/{{env_var('RUNNER_USER_NAME', 'helix-user')}}/package-directory/helix_mono"
+
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+
+# Configuring models
+# Full documentation: https://docs.getdbt.com/docs/configuring-models
+
+# In this example config, we tell dbt to build all models in the example/
+# directory as views. These settings can be overridden in the individual model
+# files using the `{{ config(...) }}` macro.
+models:
+  +transient: true
+  helix_mono:
+    # Config indicated by + and applies to all files under models/example/
+    EPHEMERAL:
+      +materialized: ephemeral
+    DATAHUB:
+      +materialized: view
+      +persist_docs:
+        relation: true
+        columns: true
+      02_SILVER:
+        +pre-hook: ["{{get_warehouse_prehook()}}"]
+
+vars:
+  # required for dbt-expectations
+  'dbt_date:time_zone': 'America/New_York'
+  # required for silver intermediate layer versioning
+  'metadata_version_end_date': '9999-12-31'
+  environment: "{{ env_var('ENV', 'LOCAL') }}"

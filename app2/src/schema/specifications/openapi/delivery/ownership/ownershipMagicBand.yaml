@@ -1,0 +1,47 @@
+ownershipMagicBand:
+  allOf:
+    - $ref: "../openapi.yaml#/components/schemas/ownershipCommon"
+    - type: object
+      properties:
+        transactionItemId:
+          type: string
+          description: Unique ID for the Magic Band
+          example: 2403362631D7
+        productId:
+          type: string
+          description: To be determined
+        productCategory:
+          allOf:
+            - $ref: "../openapi.yaml#/components/schemas/productCategory"
+            - type: string
+              example: "Magic Band"
+        status:
+          $ref: "../openapi.yaml#/components/schemas/ownershipStatus"
+      required:
+        - transactionItemId
+        - productCatgory
+        - status
+    - type: object
+      properties:
+        productDetails:
+          type: object
+          properties:
+            type:
+              type: string
+              description: Magic Band Generation (1, 2)
+              example: Magic Band+
+            customized:
+              type: boolean
+              description: Indicates if Magic Band is customized by the Guest
+            design:
+              type: string
+              description: Character design on the Magic Band
+              example: Fantasmic
+            topColor:
+              type: string
+              description: color on the top of the Magic Band
+              example: Sparkly Rose Gold
+            bottomColor:
+              type: string
+              description: color on the bottom of the Magic Band
+              example: Gray

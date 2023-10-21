@@ -1,0 +1,32 @@
+---
+rabbitmq_consumer:
+  enabled: true
+  ephemeral_enabled: true
+  file: consumer.Dockerfile
+  base_repo: guest360/infrastructure/base_image
+  base_tag: "v0.x"
+  directory: rabbitmq
+  platform: aws_ecr_assets.Platform.LINUX_AMD64
+  target_version: v0.2.3
+  special_replication: false
+google_pubsub_consumer:
+  enabled: true
+  ephemeral_enabled: true
+  file: consumer.Dockerfile
+  base_repo: containers.disney.com/python
+  base_tag: "3.10-slim-build-202330"
+  directory: google_pubsub
+  platform: aws_ecr_assets.Platform.LINUX_AMD64
+  target_version: v0.1.7
+  special_replication: false
+data_contract_automater:
+  enabled: true
+  ephemeral_enabled: true
+  file: Dockerfile
+  base_repo: public.ecr.aws/lambda/python
+  base_tag: "3.10"
+  directory: ../../../app/src/data_structures/utilities/ui/dataclass_generator
+  platform: aws_ecr_assets.Platform.LINUX_AMD64
+  target_version: v1.0.1
+  special_replication: false
+...

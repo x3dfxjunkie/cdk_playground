@@ -1,0 +1,274 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__east__gen_category_cleansed
+    description: '{{ doc("sil__intermediate__travelbox__east__gen_category_cleansed") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_cleansed
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_category_no
+            - data_contract_id
+            - metadata_checksum
+
+    columns:
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 2006-06-15 05:22:15"
+        meta:
+          checksum: True
+
+      - name: data_voucher_code
+        description: "Voucher Code assigned to the contract | example: kEZtQxlxyAGJzSbzlwqW"
+        meta:
+          checksum: True
+
+      - name: data_fulfillment_freq
+        description: "Specify the frequency type of gategory, P: per Person, I: Per Item | example: P"
+        meta:
+          checksum: True
+
+      - name: data_los_variation_code
+        description: "NaN | example: WcpJEYtAxMzhZArQqkhE"
+        meta:
+          checksum: True
+
+      - name: data_dynamic
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_dynamic_name
+        description: "NaN | example: JDlZYINAsbRDIHLKkYok"
+        meta:
+          checksum: True
+
+      - name: data_daily
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_single_day
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_contract_id
+        description: "The system generated id of the contract | example: 10332"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_category_no
+        description: "Refer to CATEGORY_NO in GEN_CATEGORY table | example: 1"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_code
+        description: "The TravelBox code of the board basis | example: TRANSFEE30"
+        meta:
+          checksum: True
+
+      - name: data_name
+        description: "The name of the contract type | example: Transportation Fee Disney Cup"
+        meta:
+          checksum: True
+
+      - name: data_errata_group
+        description: "Refers to the errata_group_id of errata_group table when user adds Free Text Conditions in contract level.  The option is available in &#39;Free Text Conditions&#39; node in contract. | example: 277638"
+        meta:
+          checksum: True
+
+      - name: data_prepaid
+        description: "SOME PASSES ARE PREPAID. FOR EXAMPLE GOWAY MAY BUY 100 PASSES FOR 30 EACH. BOOKING STATUS SHOULD BE CONFIRMED AND SUPPLIER STATUS SHOULD BE SET TO PAID. | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_max_adults
+        description: "The maximum number of adults a booking from this category can have | example: 50"
+        meta:
+          checksum: True
+
+      - name: data_max_child
+        description: "Maximum number of children that needs to satisfy the Rule | example: 10"
+        meta:
+          checksum: True
+
+      - name: data_description
+        description: "The TravelBox name of the board basis | example: Transportation Fee for Disney Cup"
+        meta:
+          checksum: True
+
+      - name: data_max_infant
+        description: "Maximum number of infants that needs to satisfy the Rule | example: 5"
+        meta:
+          checksum: True
+
+      - name: data_min_adults
+        description: "The minimum number of adults a booking from this category needs to have | example: 6986"
+        meta:
+          checksum: True
+
+      - name: data_cost_type
+        description: "PS - Per Stay, PN - Per Night | example: PS"
+        meta:
+          checksum: True
+
+      - name: data_max_teens
+        description: "The maximum number of teens a booking from this category can have | example: PrFXuFvRaHmsHXsCWFwS"
+        meta:
+          checksum: True
+
+      - name: data_valid_before
+        description: "The number of days the bokking should be in the Category | example: 0"
+        meta:
+          checksum: True
+
+      - name: min_metadata_timestamp
+        description: "The Minimum Metadata Timestamp field is used for updating the version end date of the active record in the target table"
+        tests:
+          - not_null
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

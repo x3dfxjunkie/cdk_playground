@@ -1,0 +1,410 @@
+[
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_PUB_ONLY_ALLOW_MISC_UPD",
+            "FEATURE_DESC": "Only allow Misc accommodation packages that existed prior to ARP WDW Go-live to be updated in Publish process",
+            "FEATURE_ENABLED": 0,
+            "FEATURE_ID": 4,
+            "LAST_UPDATE_DATETIME": "2017-08-07T15:03:01.583304Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-30T02:24:25.342021Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_ALLOW_PACKAGE_COMPONENT_CALCULATOR",
+            "FEATURE_DESC": "Enable the PackageComponentSheetPriceCalculator for calculation of component prices",
+            "FEATURE_ENABLED": 1,
+            "FEATURE_ID": 12,
+            "LAST_UPDATE_DATETIME": "2021-06-29T03:44:12.077776Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-30T02:24:25.380290Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_DISABLE_ONESOURCE_TICKET_PUBLISH",
+            "FEATURE_DESC": "Toggle whether OneSource ticket publishing is disabled.",
+            "FEATURE_ENABLED": 0,
+            "FEATURE_ID": 10,
+            "LAST_UPDATE_DATETIME": "2018-08-28T09:04:50.157324Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-30T02:24:25.390302Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_PUB_ONLY_ALLOW_ACCO_NON_RO_UPD",
+            "FEATURE_DESC": "Only allow Non-Room Only accommodation packages that existed prior to ARP WDW Go-live to be updated in Publish process",
+            "FEATURE_ENABLED": 0,
+            "FEATURE_ID": 2,
+            "LAST_UPDATE_DATETIME": "2017-08-07T15:09:06.354958Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-30T02:24:25.321226Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_UPD_CUST_PKG",
+            "FEATURE_DESC": "When enabled, disables ability to update custom packages",
+            "FEATURE_ENABLED": 1,
+            "FEATURE_ID": 7,
+            "LAST_UPDATE_DATETIME": "2017-08-07T15:09:06.356184Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-30T02:24:25.371600Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_DELTA_EXTERNAL_PRICING",
+            "FEATURE_DESC": "Enable DELTA external ticket pricing",
+            "FEATURE_ENABLED": 1,
+            "FEATURE_ID": 9,
+            "LAST_UPDATE_DATETIME": "2018-10-12T23:33:17.636420Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-30T02:24:25.398911Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_AUTHZ_GATE_PRICING_WEBSERVICE",
+            "FEATURE_DESC": "Toggle whether Pricing webservice calls are gated by AuthZ.",
+            "FEATURE_ENABLED": 0,
+            "FEATURE_ID": 8,
+            "LAST_UPDATE_DATETIME": "2017-07-20T14:45:38.659481Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-30T02:24:25.416512Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_PUB_ONLY_ALLOW_ACCO_RO_CRT",
+            "FEATURE_DESC": "Only allow Room Only accommodation packages to be created during Publish process",
+            "FEATURE_ENABLED": 0,
+            "FEATURE_ID": 1,
+            "LAST_UPDATE_DATETIME": "2016-11-19T04:10:43.357558Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-30T02:24:25.314390Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_PUB_DISABLE_MISC_CRT",
+            "FEATURE_DESC": "Disable the ability to create new miscellaneous packages during Publish process",
+            "FEATURE_ENABLED": 0,
+            "FEATURE_ID": 3,
+            "LAST_UPDATE_DATETIME": "2016-11-19T04:10:43.364438Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-30T02:24:25.331128Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_PUB_DISABLE_PKG_CRT",
+            "FEATURE_DESC": "Disable the ability to create new packages (non misc)",
+            "FEATURE_ENABLED": 0,
+            "FEATURE_ID": 5,
+            "LAST_UPDATE_DATETIME": "2017-08-07T14:42:51.939409Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-30T02:24:25.348581Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_CRT_CUST_PKG",
+            "FEATURE_DESC": "When enabled, disables ability to create custom packages",
+            "FEATURE_ENABLED": 1,
+            "FEATURE_ID": 6,
+            "LAST_UPDATE_DATETIME": "2017-06-11T11:58:36.149822Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-30T02:24:25.361234Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_SEND_SCHEDULE_CHANGES_TO_AVAIL_VIA_REST",
+            "FEATURE_DESC": "Enabled sending daily schedule updates to avail via REST instead of JMS.",
+            "FEATURE_ENABLED": 0,
+            "FEATURE_ID": 11,
+            "LAST_UPDATE_DATETIME": "2022-02-11T05:37:57.781085Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-30T02:24:25.409156Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_PUB_ONLY_ALLOW_MISC_UPD",
+            "FEATURE_DESC": "Only allow Misc accommodation packages that existed prior to ARP WDW Go-live to be updated in Publish process",
+            "FEATURE_ENABLED": 0,
+            "FEATURE_ID": 4,
+            "LAST_UPDATE_DATETIME": "2017-08-07T15:03:01.583304Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-25T20:35:36.064747Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_ALLOW_PACKAGE_COMPONENT_CALCULATOR",
+            "FEATURE_DESC": "Enable the PackageComponentSheetPriceCalculator for calculation of component prices",
+            "FEATURE_ENABLED": 1,
+            "FEATURE_ID": 12,
+            "LAST_UPDATE_DATETIME": "2021-06-29T03:44:12.077776Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-25T20:35:36.100223Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_DISABLE_ONESOURCE_TICKET_PUBLISH",
+            "FEATURE_DESC": "Toggle whether OneSource ticket publishing is disabled.",
+            "FEATURE_ENABLED": 0,
+            "FEATURE_ID": 10,
+            "LAST_UPDATE_DATETIME": "2018-08-28T09:04:50.157324Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-25T20:35:36.108554Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_PUB_ONLY_ALLOW_ACCO_RO_CRT",
+            "FEATURE_DESC": "Only allow Room Only accommodation packages to be created during Publish process",
+            "FEATURE_ENABLED": 0,
+            "FEATURE_ID": 1,
+            "LAST_UPDATE_DATETIME": "2016-11-19T04:10:43.357558Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-25T20:35:36.014068Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_PUB_DISABLE_MISC_CRT",
+            "FEATURE_DESC": "Disable the ability to create new miscellaneous packages during Publish process",
+            "FEATURE_ENABLED": 0,
+            "FEATURE_ID": 3,
+            "LAST_UPDATE_DATETIME": "2016-11-19T04:10:43.364438Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-25T20:35:36.029998Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_PUB_DISABLE_PKG_CRT",
+            "FEATURE_DESC": "Disable the ability to create new packages (non misc)",
+            "FEATURE_ENABLED": 0,
+            "FEATURE_ID": 5,
+            "LAST_UPDATE_DATETIME": "2017-08-07T14:42:51.939409Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-25T20:35:36.072641Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_CRT_CUST_PKG",
+            "FEATURE_DESC": "When enabled, disables ability to create custom packages",
+            "FEATURE_ENABLED": 1,
+            "FEATURE_ID": 6,
+            "LAST_UPDATE_DATETIME": "2017-06-11T11:58:36.149822Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-25T20:35:36.083262Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_SEND_SCHEDULE_CHANGES_TO_AVAIL_VIA_REST",
+            "FEATURE_DESC": "Enabled sending daily schedule updates to avail via REST instead of JMS.",
+            "FEATURE_ENABLED": 0,
+            "FEATURE_ID": 11,
+            "LAST_UPDATE_DATETIME": "2022-02-11T05:37:57.781085Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-25T20:35:36.122519Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_PUB_ONLY_ALLOW_ACCO_NON_RO_UPD",
+            "FEATURE_DESC": "Only allow Non-Room Only accommodation packages that existed prior to ARP WDW Go-live to be updated in Publish process",
+            "FEATURE_ENABLED": 0,
+            "FEATURE_ID": 2,
+            "LAST_UPDATE_DATETIME": "2017-08-07T15:09:06.354958Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-25T20:35:36.020360Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_UPD_CUST_PKG",
+            "FEATURE_DESC": "When enabled, disables ability to update custom packages",
+            "FEATURE_ENABLED": 1,
+            "FEATURE_ID": 7,
+            "LAST_UPDATE_DATETIME": "2017-08-07T15:09:06.356184Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-25T20:35:36.091191Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_DELTA_EXTERNAL_PRICING",
+            "FEATURE_DESC": "Enable DELTA external ticket pricing",
+            "FEATURE_ENABLED": 1,
+            "FEATURE_ID": 9,
+            "LAST_UPDATE_DATETIME": "2018-10-12T23:33:17.636420Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-25T20:35:36.115285Z"
+        }
+    },
+    {
+        "data": {
+            "FEATURE_CODE": "TOG_AUTHZ_GATE_PRICING_WEBSERVICE",
+            "FEATURE_DESC": "Toggle whether Pricing webservice calls are gated by AuthZ.",
+            "FEATURE_ENABLED": 0,
+            "FEATURE_ID": 8,
+            "LAST_UPDATE_DATETIME": "2017-07-20T14:45:38.659481Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "FEATURE_TOGGLE_T",
+            "timestamp": "2023-08-25T20:35:36.131248Z"
+        }
+    }
+]

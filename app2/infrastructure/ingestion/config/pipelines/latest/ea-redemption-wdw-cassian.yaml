@@ -1,0 +1,34 @@
+stack_extension: &se ea-redemption-wdw-cassian
+ingest_pattern: &ip kinesis2kinesis
+active: true
+pattern_instances:
+  - region: us-east-1
+    resources:
+      cross_account:
+        cross_account_type: target
+        cross_account_id: 795965727170
+        cross_account_role_name: lllingest-use1-lst-lllingest-lambda
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_LATEST_LANDING # Needs update to appropriate default routing
+      default_schema: &schema LND_EA_WDW
+#      table_path:  # This should match key_path_name
+      data_contracts:
+        - data_contract: app.src.data_structures.data_contracts.source.ea_wdw.redemption.v0.ea_redemption_wdw_plus_one_source_data_contract
+          class_name: EARedemptionWDWPlusOneModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: item.redemptionEventType
+              value: PLUS_ONE
+          router_database: &database LATEST_LANDING
+          router_schema: *schema
+          router_table: PLUS_ONE
+        - data_contract: app.src.data_structures.data_contracts.source.ea_wdw.redemption.v0.ea_redemption_wdw_redemption_attempt_source_data_contract
+          class_name: EARedemptionWDWRedemptionAttemptModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: item.redemptionEventType
+              value: REDEMPTION_ATTEMPT
+          router_database: *database
+          router_schema: *schema
+          router_table: REDEMPTION_ATTEMPT
+

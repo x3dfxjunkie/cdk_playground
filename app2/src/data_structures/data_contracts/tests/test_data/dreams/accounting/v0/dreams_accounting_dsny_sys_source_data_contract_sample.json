@@ -1,0 +1,102 @@
+[
+    {
+        "data": {
+            "DSNY_SYS_CD": "PROTP",
+            "DSNY_SYS_NM": "PROTP",
+            "CREATE_USR_ID_CD": "Winter 07",
+            "CREATE_DTS": "2007-12-12T06:44:34.694Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.431588Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "DSNY_SYS"
+        }
+    },
+    {
+        "data": {
+            "DSNY_SYS_CD": "DDRMB",
+            "DSNY_SYS_NM": "Disneyland DREAMS Back Office",
+            "CREATE_USR_ID_CD": "MDMUPD",
+            "CREATE_DTS": "2010-04-30T12:57:50.295Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.460274Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "DSNY_SYS",
+            "transaction-id": 1264
+        }
+    },
+    {
+        "data": {
+            "DSNY_SYS_CD": "DDRMC",
+            "DSNY_SYS_NM": "Disneyland DREAMS Call Center",
+            "CREATE_USR_ID_CD": "MDMUPD",
+            "CREATE_DTS": "2010-04-30T12:57:50.499Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.479165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "DSNY_SYS",
+            "transaction-id": 1297
+        }
+    },
+    {
+        "data": {
+            "DSNY_SYS_CD": "DDRMS",
+            "DSNY_SYS_NM": "Disneyland DREAMS Speech",
+            "CREATE_USR_ID_CD": "MDMUPD",
+            "CREATE_DTS": "2010-04-30T12:57:50.651Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.604399Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "DSNY_SYS",
+            "transaction-id": 12894
+        }
+    },
+    {
+        "data": {
+            "DSNY_SYS_CD": "DDRMW",
+            "DSNY_SYS_NM": "Disneyland DREAMS Internet",
+            "CREATE_USR_ID_CD": "MDMUPD",
+            "CREATE_DTS": "2010-04-30T12:57:50.807Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.479165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "DSNY_SYS",
+            "transaction-id": 1297
+        }
+    },
+    {
+        "data": {
+            "DSNY_SYS_CD": "DLILB",
+            "DSNY_SYS_NM": "Disneyland Lilo Back Office",
+            "CREATE_USR_ID_CD": "MDMUPD",
+            "CREATE_DTS": "2010-04-30T12:57:50.957Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.604399Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "DSNY_SYS"
+        }
+    }
+]

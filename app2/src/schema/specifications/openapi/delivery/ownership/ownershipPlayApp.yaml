@@ -1,0 +1,35 @@
+ownershipPlayApp:
+  allOf:
+    - $ref: "../openapi.yaml#/components/schemas/ownershipCommon"
+    - type: object
+      properties:
+        transactionItemId:
+          type: string
+          description: Achievement ID
+          example: bountyApprenticeHunter
+        productId:
+          type: string
+          description: Not Applicable to PlayApp Achievements
+        productCategory:
+          allOf:
+            - $ref: "../openapi.yaml#/components/schemas/productCategory"
+            - type: string
+              example: "PlayApp"
+        status:
+          $ref: "../openapi.yaml#/components/schemas/ownershipStatus"
+      required:
+        - transactionItemId
+        - productCatgory
+    - type: object
+      properties:
+        transactionDetails:
+          type: object
+          properties:
+            location:
+              type: string
+              description: Location associated to the PlayApp Achievement.  Can be a physical or virtual location
+            achievementType(TBD):
+              type: string
+              description: (TBD) Identifies the type of earned achievement such as ingame, inqueue, 50th quest, etc
+              enum:
+                - tbd

@@ -1,0 +1,2401 @@
+[
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "a28cde97-e9da-6552-8bcf-6e24822f38db",
+            "FSELL_INVTRY_SRVC_DTS": "2023-09-07T18:50:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "C9EC4031-045C-51C6-E043-9906F4D151C6",
+            "UPDT_DTS": "",
+            "VERSION_SN": 19
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:01.114679Z",
+            "transaction-id": 28046214265836
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "e7342281-0c96-c9bc-dafa-16036ae14583",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-19T20:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "204271d3-8bf8-4592-b766-9038c290c236",
+            "UPDT_DTS": "2023-08-18T12:59:55.820000Z",
+            "VERSION_SN": 16
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:01.122156Z",
+            "transaction-id": 28046214267377
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 4,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "2c1560dd-a04f-5390-5dfc-da090d334887",
+            "FSELL_INVTRY_SRVC_DTS": "2023-09-22T19:30:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "93b3fd3d-55a1-4069-9cc9-7a6e53a127ca",
+            "UPDT_DTS": "2023-08-18T12:59:57.340417Z",
+            "VERSION_SN": 7
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:01.129330Z",
+            "transaction-id": 28046214276379
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 19,
+            "BK_CN": 16,
+            "COMBO_BK_CN": 16,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 2,
+            "FSELL_INVTRY_ID": "d3720690-d988-96d5-6f3e-a0ddf36e7c88",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T14:20:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "1bb2a2f3-6cae-400a-a0bf-fa908f17ca5f",
+            "UPDT_DTS": "2023-08-18T12:59:58.448970Z",
+            "VERSION_SN": 27
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:01.135979Z",
+            "transaction-id": 28046214281588
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 15,
+            "BK_CN": 3,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "07af7189-8952-f421-cc69-45aca0a3d916",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T17:30:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "b37df40d-bfcf-4e79-a978-07be3d0766c5",
+            "UPDT_DTS": "2023-08-18T12:59:58.509000Z",
+            "VERSION_SN": 15
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:01.142725Z",
+            "transaction-id": 28046214284740
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 2,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "5ae6c194-103d-45a3-196e-91190a1637c3",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T10:20:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "bdd578d1-b946-40ab-b0fb-6a7ddf15af8d",
+            "UPDT_DTS": "2023-08-18T12:59:58.533000Z",
+            "VERSION_SN": 14
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:01.149206Z",
+            "transaction-id": 28046214289909
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 4,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "0c132881-e9ce-3616-a638-95f400541af1",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-17T14:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "F8938B0A-B686-D771-18BD-E3A504C58440",
+            "UPDT_DTS": "2023-08-18T13:00:00.876559Z",
+            "VERSION_SN": 4
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:01.155810Z",
+            "transaction-id": 28046214295597
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "303c0cd6-9e0f-1b60-c5d6-cd79bc22cef8",
+            "FSELL_INVTRY_SRVC_DTS": "2023-09-02T18:30:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "0AF34F72-0489-103B-5417-EC281ACAFFEA",
+            "UPDT_DTS": "2023-08-18T13:00:01.274520Z",
+            "VERSION_SN": 21
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:06.238441Z",
+            "transaction-id": 28046214297752
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 9,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "37d7593b-1bdf-ecce-2242-8a3d00412b2a",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-20T10:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "a1c4953b-15a3-c9d5-14bf-ed7fc3bd3602",
+            "UPDT_DTS": "2023-08-18T13:00:01.433293Z",
+            "VERSION_SN": 58
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:06.246498Z",
+            "transaction-id": 28046214299352
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 3,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "27e8a5be-7e8f-3089-fc6f-d4f70e682a41",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-23T18:45:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "718062B8-AE83-D2C4-E043-9906F4D1D2C4",
+            "UPDT_DTS": "2023-08-18T13:00:01.037000Z",
+            "VERSION_SN": 4
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:06.253422Z",
+            "transaction-id": 28046214301338
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 4,
+            "BK_CN": 3,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "b8a30ad8-fb85-3909-b0d6-0ce88d3803ad",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-16T12:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "3C60CF53-9FA0-1BFF-6499-EE3DF7F00445",
+            "UPDT_DTS": "2023-08-18T13:00:01.909000Z",
+            "VERSION_SN": 7
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:06.260960Z",
+            "transaction-id": 28046214306062
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 12,
+            "BK_CN": 4,
+            "COMBO_BK_CN": 4,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "a56ecf8b-49e0-5fa7-8faf-ed0759bfb2d9",
+            "FSELL_INVTRY_SRVC_DTS": "2023-09-06T11:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "2a4fdb86-19b8-ace7-14e0-21d10425ceab",
+            "UPDT_DTS": "2023-08-18T13:00:01.907000Z",
+            "VERSION_SN": 9
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:06.268009Z",
+            "transaction-id": 28046214311215
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 4,
+            "BK_CN": 4,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "a02c3f7d-f573-fbbe-d0b4-4838a2d110d6",
+            "FSELL_INVTRY_SRVC_DTS": "2023-09-01T15:40:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "019f04fc-be93-438c-89d2-86cda5088755",
+            "UPDT_DTS": "2023-08-18T13:00:02.756000Z",
+            "VERSION_SN": 24
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:06.274946Z",
+            "transaction-id": 28046214319241
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 13,
+            "BK_CN": 2,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "41804df2-9123-3174-fd29-6f47291452e0",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-21T13:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "12CD164E-5736-285E-E053-4ABD06995633",
+            "UPDT_DTS": "2023-08-18T13:00:03.059243Z",
+            "VERSION_SN": 14
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:06.281833Z",
+            "transaction-id": 28046214324962
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "7801037f-9e0a-c2cc-e0d5-7b4d53a5c90d",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T13:25:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "720924A7-2B57-E750-4DF3-899F10A22FA4",
+            "UPDT_DTS": "2023-08-18T13:00:04.017551Z",
+            "VERSION_SN": 10
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:06.288587Z",
+            "transaction-id": 28046214326536
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 1,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "194eee3f-d6e1-5a96-f874-33b392ad370a",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-20T17:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "78C05EA9-3C79-7ECB-2C30-D31203C35AE3",
+            "UPDT_DTS": "2023-08-18T13:00:05.174895Z",
+            "VERSION_SN": 15
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:06.295174Z",
+            "transaction-id": 28046214328110
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "d954d06f-c5a6-71ec-b9b2-f382dfc58607",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-16T12:15:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "d3c3ac54-dd21-a54c-ac08-f1cb12eb1bbc",
+            "UPDT_DTS": "2023-08-18T13:00:05.480163Z",
+            "VERSION_SN": 7
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:06.302272Z",
+            "transaction-id": 28046214329684
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "4328a165-2232-808f-54f4-09fd75a61ed2",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-16T12:15:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "4a542dc1-68c6-a3c0-7188-769607724658",
+            "UPDT_DTS": "2023-08-18T13:00:05.480611Z",
+            "VERSION_SN": 7
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:06.308574Z",
+            "transaction-id": 28046214329684
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": null,
+            "FREEZE_CN": 2,
+            "FSELL_INVTRY_ID": "72b14576-4cf0-52e9-50b5-46ff79ad6de4",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-19T19:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "7055D1D9-C789-1072-E043-9906F4D11072",
+            "UPDT_DTS": "2023-08-18T13:00:05.612523Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:06.320350Z",
+            "transaction-id": 28046214332417
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 3,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": null,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "6e592c16-2de0-e1aa-9b7f-4cfff9c256c4",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-16T12:05:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "718062B8-AE83-D2C4-E043-9906F4D1D2C4",
+            "UPDT_DTS": "2023-08-18T13:00:05.918885Z",
+            "VERSION_SN": 4
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:06.327408Z",
+            "transaction-id": 28046214333956
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "bcb11773-4bcf-876c-c1fa-84024ee1a35c",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T17:45:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "9959487d-16f2-4905-96a4-2a1e86bb154f",
+            "UPDT_DTS": "2023-08-18T13:00:06.599818Z",
+            "VERSION_SN": 14
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:11.322103Z",
+            "transaction-id": 28046214335522
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "ae923396-813c-df64-de1d-bfdb7fff855d",
+            "FSELL_INVTRY_SRVC_DTS": "2023-09-01T14:10:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "FED73CA9-B355-99DF-74E1-4FB1F3F4F2C5",
+            "UPDT_DTS": "2023-08-18T13:00:06.699000Z",
+            "VERSION_SN": 3
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:11.329978Z",
+            "transaction-id": 28046214337683
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": null,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "e1909a9e-ff3b-fcdc-fd76-34da5e9babab",
+            "FSELL_INVTRY_SRVC_DTS": "2023-09-01T13:25:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "d72cf962-6776-4f33-8b3e-541cc29bf6c4",
+            "UPDT_DTS": "2023-08-18T13:00:07.063862Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:11.337248Z",
+            "transaction-id": 28046214343025
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": null,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "7efcc871-7f5d-a10f-44d5-080bc0fe993b",
+            "FSELL_INVTRY_SRVC_DTS": "2023-09-29T07:40:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "CD4A0976-EABD-8058-E043-9906F4D18058",
+            "UPDT_DTS": "2023-08-18T13:00:08.911484Z",
+            "VERSION_SN": 22
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:11.344109Z",
+            "transaction-id": 28046214345163
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 3,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "b188f5c1-bf1c-1cbd-bf00-5861abe1b9ab",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-30T14:10:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "1BFD604D-C042-D694-F89C-2CC5F0B234F3",
+            "UPDT_DTS": "2023-08-18T13:00:08.883000Z",
+            "VERSION_SN": 3
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:11.350646Z",
+            "transaction-id": 28046214346664
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "b6984cbb-cd36-5cc5-9a08-12c2af5ab8a5",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-17T16:45:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "718062B8-ADCF-D2C4-E043-9906F4D1D2C4",
+            "UPDT_DTS": "2023-08-18T13:00:09.118110Z",
+            "VERSION_SN": 11
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:11.357610Z",
+            "transaction-id": 28046214351985
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 4,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": null,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "85e04f0b-4813-5016-3eb9-7dbbc1e524e9",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-25T19:40:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "718062B8-AE92-D2C4-E043-9906F4D1D2C4",
+            "UPDT_DTS": "2023-08-18T13:00:09.935490Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:11.364542Z",
+            "transaction-id": 28046214353585
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 23,
+            "BK_CN": 18,
+            "COMBO_BK_CN": 18,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 3,
+            "FSELL_INVTRY_ID": "34867253-e573-a70c-7b17-5b221e1f9435",
+            "FSELL_INVTRY_SRVC_DTS": "2023-09-08T18:40:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "edf03727-2f6c-be43-30e3-1ff2190ecdfb",
+            "UPDT_DTS": "2023-08-18T13:00:11.000787Z",
+            "VERSION_SN": 112
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:11.371071Z",
+            "transaction-id": 28046214355125
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": null,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "deaf88f6-ec56-c34e-7cbf-417474a4c8c7",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-19T14:10:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "4805E768-B19A-473B-4054-21475950E62F",
+            "UPDT_DTS": "2023-08-18T13:00:11.385727Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.396352Z",
+            "transaction-id": 28046214357258
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "094a686a-1c0e-8911-55db-fe3d7937b485",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T13:10:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "C9FB1345-A3F7-4124-E043-9906F4D14124",
+            "UPDT_DTS": "2023-08-18T13:00:11.213000Z",
+            "VERSION_SN": 4
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.403541Z",
+            "transaction-id": 28046214359385
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 3,
+            "BK_CN": 3,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "4f03aa9e-95d7-7b08-4f98-32e4b68cc7bb",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T19:05:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "1BFD604D-C042-D694-F89C-2CC5F0B234F3",
+            "UPDT_DTS": "2023-08-18T13:00:11.806000Z",
+            "VERSION_SN": 21
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.410272Z",
+            "transaction-id": 28046214362642
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "1a991e74-6b47-31ef-6730-af51bc5adf69",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-20T22:40:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "7e7d27f8-aff0-4205-b086-2eccf732cd2f",
+            "UPDT_DTS": "2023-08-18T13:00:12.046656Z",
+            "VERSION_SN": 18
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.418201Z",
+            "transaction-id": 28046214367995
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 2,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "2a3a3295-53e5-1f93-ed59-9cb6d754be42",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T20:30:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "78ee0dc5-7dd9-4532-a19d-b782a8e26294",
+            "UPDT_DTS": "2023-08-18T13:00:12.435000Z",
+            "VERSION_SN": 10
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.425129Z",
+            "transaction-id": 28046214370567
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 4,
+            "BK_CN": 2,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 2,
+            "FSELL_INVTRY_ID": "79adbe70-ae3e-b697-6a82-a081a51b5c23",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T16:15:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "12CD164E-5736-285E-E053-4ABD06995633",
+            "UPDT_DTS": "2023-08-18T13:00:12.700554Z",
+            "VERSION_SN": 10
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.431832Z",
+            "transaction-id": 28046214377533
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "7801037f-9e0a-c2cc-e0d5-7b4d53a5c90d",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T13:25:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "720924A7-2B57-E750-4DF3-899F10A22FA4",
+            "UPDT_DTS": "2023-08-18T13:00:12.915000Z",
+            "VERSION_SN": 11
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.438568Z",
+            "transaction-id": 28046214379693
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "212f9f29-eab3-d466-5f93-24bf0deb1685",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-19T20:35:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "4e414547-b68e-44a2-a056-33f960b562d8",
+            "UPDT_DTS": "2023-08-18T13:00:13.567000Z",
+            "VERSION_SN": 6
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.445767Z",
+            "transaction-id": 28046214387236
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 2,
+            "COMBO_BK_CN": 1,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "194eee3f-d6e1-5a96-f874-33b392ad370a",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-20T17:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "78C05EA9-3C79-7ECB-2C30-D31203C35AE3",
+            "UPDT_DTS": "2023-08-18T13:00:13.680000Z",
+            "VERSION_SN": 16
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.452948Z",
+            "transaction-id": 28046214392670
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "6a4064e2-bb23-25d1-e4ba-5dc47ae9d149",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-17T14:05:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "A96A2B09-3440-D00E-54F4-CE4DF3845C9D",
+            "UPDT_DTS": "2023-08-18T13:00:13.702000Z",
+            "VERSION_SN": 5
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.460366Z",
+            "transaction-id": 28046214398201
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1200,
+            "BK_CN": 1103,
+            "COMBO_BK_CN": 1103,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "47e16d1e-d2eb-64d2-6299-162b58f72a23",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-18T21:30:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "4cafc352-62d4-4e88-98f3-16474db25aa7",
+            "UPDT_DTS": "2023-08-18T13:00:13.903000Z",
+            "VERSION_SN": 1235
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.467530Z",
+            "transaction-id": 28046214398201
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": null,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "9fd62f46-fec8-3c1c-a56b-9f1d0c332ce8",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T14:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "401DDB97-1DA4-2740-F061-B0BCD83AD730",
+            "UPDT_DTS": "2023-08-18T13:00:14.069920Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.475034Z",
+            "transaction-id": 28046214407813
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 2,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "884c26b2-c2b0-1cf8-5409-f759b031822c",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T11:35:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "C9FB1345-A53C-4124-E043-9906F4D14124",
+            "UPDT_DTS": "2023-08-18T13:00:14.862000Z",
+            "VERSION_SN": 9
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.482588Z",
+            "transaction-id": 28046214413874
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": null,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "0c5e37fa-fa6f-ad50-9737-e5d4805a7ed5",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T09:55:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "6b0e6faf-69f5-472c-ada0-a489010d0f99",
+            "UPDT_DTS": "2023-08-18T13:00:14.990414Z",
+            "VERSION_SN": 7
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.489565Z",
+            "transaction-id": 28046214419438
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "1068e157-222d-d229-a26c-4a501d9433d6",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T11:20:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "6b0e6faf-69f5-472c-ada0-a489010d0f99",
+            "UPDT_DTS": "2023-08-18T13:00:14.993476Z",
+            "VERSION_SN": 32
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.496142Z",
+            "transaction-id": 28046214420174
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": null,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "1479d01f-3c71-9a22-ac4f-53bca50076a5",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T10:10:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "6b0e6faf-69f5-472c-ada0-a489010d0f99",
+            "UPDT_DTS": "2023-08-18T13:00:14.995995Z",
+            "VERSION_SN": 25
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.502996Z",
+            "transaction-id": 28046214420944
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "179f04cc-959c-9c92-8016-21d2fd82f51d",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T11:15:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "6b0e6faf-69f5-472c-ada0-a489010d0f99",
+            "UPDT_DTS": "2023-08-18T13:00:14.998299Z",
+            "VERSION_SN": 32
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.509259Z",
+            "transaction-id": 28046214421680
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": null,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "1ad3da1b-a63c-e449-8647-7efefa1efe44",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T10:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "6b0e6faf-69f5-472c-ada0-a489010d0f99",
+            "UPDT_DTS": "2023-08-18T13:00:15.000748Z",
+            "VERSION_SN": 25
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.515952Z",
+            "transaction-id": 28046214422450
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "25f7597c-2f76-b222-7e07-02338bbcfc3a",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T11:05:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "6b0e6faf-69f5-472c-ada0-a489010d0f99",
+            "UPDT_DTS": "2023-08-18T13:00:15.003765Z",
+            "VERSION_SN": 32
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.522349Z",
+            "transaction-id": 28046214423186
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "2a057de3-7dda-c3f4-c84e-9173761b704b",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T10:45:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "6b0e6faf-69f5-472c-ada0-a489010d0f99",
+            "UPDT_DTS": "2023-08-18T13:00:15.006151Z",
+            "VERSION_SN": 28
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.529085Z",
+            "transaction-id": 28046214423956
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "2bf1e1ed-05a7-4373-8217-d6ae873d8b0a",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T10:50:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "6b0e6faf-69f5-472c-ada0-a489010d0f99",
+            "UPDT_DTS": "2023-08-18T13:00:15.008472Z",
+            "VERSION_SN": 28
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.536523Z",
+            "transaction-id": 28046214424726
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "2ff884e2-e331-3222-f8cf-a61add8c0aac",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T11:10:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "6b0e6faf-69f5-472c-ada0-a489010d0f99",
+            "UPDT_DTS": "2023-08-18T13:00:15.010980Z",
+            "VERSION_SN": 32
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.544869Z",
+            "transaction-id": 28046214425496
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": null,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "30977670-84c9-c31d-68ea-8fb353e0cbd4",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T10:05:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "6b0e6faf-69f5-472c-ada0-a489010d0f99",
+            "UPDT_DTS": "2023-08-18T13:00:15.013273Z",
+            "VERSION_SN": 25
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.551667Z",
+            "transaction-id": 28046214426266
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "3c860256-756e-ff1c-1cf9-70894449923b",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T10:30:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "6b0e6faf-69f5-472c-ada0-a489010d0f99",
+            "UPDT_DTS": "2023-08-18T13:00:15.015691Z",
+            "VERSION_SN": 30
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.558622Z",
+            "transaction-id": 28046214427002
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "70a9ae31-eca1-8f62-7604-1aac3d2bad81",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T10:20:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "6b0e6faf-69f5-472c-ada0-a489010d0f99",
+            "UPDT_DTS": "2023-08-18T13:00:15.018000Z",
+            "VERSION_SN": 30
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.565248Z",
+            "transaction-id": 28046214427772
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "829e1ec3-0926-4128-ac36-b80a3fe749ed",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T11:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "6b0e6faf-69f5-472c-ada0-a489010d0f99",
+            "UPDT_DTS": "2023-08-18T13:00:15.020408Z",
+            "VERSION_SN": 32
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.571765Z",
+            "transaction-id": 28046214428542
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "83f47d64-bf6f-153c-47c1-02555da035fb",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T10:15:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "6b0e6faf-69f5-472c-ada0-a489010d0f99",
+            "UPDT_DTS": "2023-08-18T13:00:15.022841Z",
+            "VERSION_SN": 30
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.577912Z",
+            "transaction-id": 28046214429312
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "914546d9-37b6-e44a-de75-bd77c688d8c0",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T10:35:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "6b0e6faf-69f5-472c-ada0-a489010d0f99",
+            "UPDT_DTS": "2023-08-18T13:00:15.025846Z",
+            "VERSION_SN": 30
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.585126Z",
+            "transaction-id": 28046214430082
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "a7c5e4aa-f8f4-a485-17cd-2d6eab73c202",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T10:25:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "6b0e6faf-69f5-472c-ada0-a489010d0f99",
+            "UPDT_DTS": "2023-08-18T13:00:15.037957Z",
+            "VERSION_SN": 30
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.592216Z",
+            "transaction-id": 28046214430852
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "c43ac2e1-b58c-8ea9-9848-a54210d755a0",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T10:55:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "6b0e6faf-69f5-472c-ada0-a489010d0f99",
+            "UPDT_DTS": "2023-08-18T13:00:15.040466Z",
+            "VERSION_SN": 28
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.598843Z",
+            "transaction-id": 28046214431622
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 10,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "ebc2d14b-aeec-b8cc-d355-6e750480f3ff",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T10:40:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "6b0e6faf-69f5-472c-ada0-a489010d0f99",
+            "UPDT_DTS": "2023-08-18T13:00:15.042676Z",
+            "VERSION_SN": 30
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:16.605934Z",
+            "transaction-id": 28046214432392
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "3ca9ce93-e151-6792-fd8e-5e4043301709",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-18T20:15:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "71c188c3-2b7d-f869-33aa-c7601014dafe",
+            "UPDT_DTS": "2023-08-18T13:00:16.468681Z",
+            "VERSION_SN": 4
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:21.487207Z",
+            "transaction-id": 28046214447092
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 14,
+            "BK_CN": 4,
+            "COMBO_BK_CN": 2,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "8dae2fa7-0215-4969-de96-0c79869bc3c5",
+            "FSELL_INVTRY_SRVC_DTS": "2023-09-26T20:05:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "498d59d6-9365-4142-912b-5608f01f5097",
+            "UPDT_DTS": "2023-08-18T13:00:16.663070Z",
+            "VERSION_SN": 25
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:21.494208Z",
+            "transaction-id": 28046214448666
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "0c2cf93a-4edc-3bca-e7b4-874650eaaf15",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T13:25:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "2DAB3C7C-2244-6002-8B98-CF644ACBAD11",
+            "UPDT_DTS": "2023-08-18T13:00:16.842880Z",
+            "VERSION_SN": 18
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:21.501723Z",
+            "transaction-id": 28046214450648
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 2,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "d0b7d707-7843-b30a-c9f1-56a00cb6440e",
+            "FSELL_INVTRY_SRVC_DTS": "2023-09-17T17:15:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "718062B8-ADC0-D2C4-E043-9906F4D1D2C4",
+            "UPDT_DTS": "2023-08-18T13:00:16.871000Z",
+            "VERSION_SN": 20
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:21.508170Z",
+            "transaction-id": 28046214453164
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "12a1a131-259f-c7da-42ac-39403747882a",
+            "FSELL_INVTRY_SRVC_DTS": "2023-09-20T17:45:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "718062B8-ADC0-D2C4-E043-9906F4D1D2C4",
+            "UPDT_DTS": "2023-08-18T13:00:16.873000Z",
+            "VERSION_SN": 6
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:21.514899Z",
+            "transaction-id": 28046214453164
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 4,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "6dda5f77-0113-e971-2aad-9c3cc3a51123",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-13T19:10:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "F0C01C78-E538-0F0D-65D1-BF1FB408A55D",
+            "UPDT_DTS": "2023-08-18T13:00:17.642974Z",
+            "VERSION_SN": 35
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:21.521478Z",
+            "transaction-id": 28046214461271
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "877b124f-1c30-3825-f3f0-315adf10195b",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-17T15:35:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "718062B8-ADC0-D2C4-E043-9906F4D1D2C4",
+            "UPDT_DTS": "2023-08-18T13:00:17.937272Z",
+            "VERSION_SN": 10
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:21.528023Z",
+            "transaction-id": 28046214462844
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "4b8230f6-5260-21e0-887c-9fd002f4d812",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-28T18:25:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "30D2D485-7846-3279-E053-C8BC0699D046",
+            "UPDT_DTS": "2023-08-18T13:00:19.967835Z",
+            "VERSION_SN": 7
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:21.534769Z",
+            "transaction-id": 28046214468665
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 5,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 2,
+            "FSELL_INVTRY_ID": "80eabd15-59a8-8de0-98e2-d1dc602ce64c",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T19:15:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "F0C01C78-E538-0F0D-65D1-BF1FB408A55D",
+            "UPDT_DTS": "2023-08-18T13:00:21.024937Z",
+            "VERSION_SN": 53
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:21.541095Z",
+            "transaction-id": 28046214470239
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 3,
+            "BK_CN": 3,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "b454fb9a-189f-80a7-5b1e-959ca3906fa0",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-23T08:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "F0C01C78-E538-0F0D-65D1-BF1FB408A55D",
+            "UPDT_DTS": "2023-08-18T13:00:19.675000Z",
+            "VERSION_SN": 7
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:21.547499Z",
+            "transaction-id": 28046214471813
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 4,
+            "BK_CN": 3,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "8e49e6b4-7267-ca25-f87b-f6c2131f1594",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T17:45:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "91bcd0e5-94c1-4417-b788-94e727f087d8",
+            "UPDT_DTS": "2023-08-18T13:00:21.293705Z",
+            "VERSION_SN": 35
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:21.554089Z",
+            "transaction-id": 28046214482950
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "7098b9a9-d687-3427-53c6-d2401978aff7",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-21T20:30:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "3C8DA37C-6388-7050-E053-BCF206996066",
+            "UPDT_DTS": "2023-08-18T13:00:22.030006Z",
+            "VERSION_SN": 6
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:26.560710Z",
+            "transaction-id": 28046214485110
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "7c860766-1be7-d99e-4b0a-fe4807b683cf",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-27T17:30:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "AEE52925-743F-5C81-6DF7-4D3A6A2EDB75",
+            "UPDT_DTS": "2023-08-18T13:00:22.231000Z",
+            "VERSION_SN": 6
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:26.567960Z",
+            "transaction-id": 28046214487270
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 4,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": null,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "c2450f47-2469-244e-a1ce-3b53c44cd8ab",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-03T15:50:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "74164CC4-083C-43BD-68DA-CBCA7A93609D",
+            "UPDT_DTS": "2023-08-18T13:00:22.453181Z",
+            "VERSION_SN": 10
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:26.575395Z",
+            "transaction-id": 28046214492214
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 3,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": null,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "bb897488-37ed-f3c9-6e39-9c49478221cb",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T14:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "9a0c0b5f-2f35-4f82-b3c3-7aee387adc0a",
+            "UPDT_DTS": "2023-08-18T13:00:22.656171Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:26.582342Z",
+            "transaction-id": 28046214493754
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "b9c2239d-a701-15e5-3f85-96201efa1131",
+            "FSELL_INVTRY_SRVC_DTS": "2023-09-23T18:45:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "23a58a6a-ae8b-4a10-b773-7bc0457df11e",
+            "UPDT_DTS": "2023-08-18T13:00:23.063466Z",
+            "VERSION_SN": 4
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:26.588743Z",
+            "transaction-id": 28046214495294
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 5,
+            "BK_CN": 2,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "a155e885-b648-af07-c138-7cc6742ceec2",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-15T20:30:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "abb58ed5-ae18-40bb-a548-a18d96d1ff7b",
+            "UPDT_DTS": "2023-08-18T13:00:21.536000Z",
+            "VERSION_SN": 13
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:26.595955Z",
+            "transaction-id": 28046214496868
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 4,
+            "BK_CN": 3,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "79adbe70-ae3e-b697-6a82-a081a51b5c23",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T16:15:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "12CD164E-5736-285E-E053-4ABD06995633",
+            "UPDT_DTS": "2023-08-18T13:00:23.378000Z",
+            "VERSION_SN": 11
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:26.602526Z",
+            "transaction-id": 28046214511908
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 13,
+            "BK_CN": 6,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "d9c57ab7-9b11-9e75-892b-747436b69554",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T16:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "12CD164E-5736-285E-E053-4ABD06995633",
+            "UPDT_DTS": "2023-08-18T13:00:23.380000Z",
+            "VERSION_SN": 81
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:26.609604Z",
+            "transaction-id": 28046214511908
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 2,
+            "COMBO_BK_CN": 2,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "72b14576-4cf0-52e9-50b5-46ff79ad6de4",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-19T19:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "7055D1D9-C789-1072-E043-9906F4D11072",
+            "UPDT_DTS": "2023-08-18T13:00:23.742000Z",
+            "VERSION_SN": 3
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:26.616254Z",
+            "transaction-id": 28046214520578
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": null,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "97bf89da-49e7-5bb3-6ab5-29b57c2f0231",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-23T19:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "720924A7-2B57-E750-4DF3-899F10A22FA4",
+            "UPDT_DTS": "2023-08-18T13:00:24.114897Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:26.622593Z",
+            "transaction-id": 28046214528609
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 20,
+            "BK_CN": 6,
+            "COMBO_BK_CN": 6,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 5,
+            "FSELL_INVTRY_ID": "7191e8c5-1810-deb2-21be-ef91aa9d6c5c",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-04T10:30:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "1bb2a2f3-6cae-400a-a0bf-fa908f17ca5f",
+            "UPDT_DTS": "2023-08-18T13:00:26.292554Z",
+            "VERSION_SN": 9
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:26.629160Z",
+            "transaction-id": 28046214530175
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 3,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "63ca459c-c21c-d526-4b35-3718b36dcc2b",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-20T18:30:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "718062B8-AE83-D2C4-E043-9906F4D1D2C4",
+            "UPDT_DTS": "2023-08-18T13:00:26.725862Z",
+            "VERSION_SN": 5
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:31.637244Z",
+            "transaction-id": 28046214532330
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 12,
+            "BK_CN": 7,
+            "COMBO_BK_CN": 7,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "6519a83a-316d-466e-89df-5c18b3003f1f",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-19T14:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "2a4fdb86-19b8-ace7-14e0-21d10425ceab",
+            "UPDT_DTS": "2023-08-18T13:00:26.782491Z",
+            "VERSION_SN": 21
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:31.644778Z",
+            "transaction-id": 28046214533930
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "ac3b589e-a83e-391a-453a-854bd616e8e6",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T19:05:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "a8f197d0-090b-4aa5-8333-28ad7c0537f2",
+            "UPDT_DTS": "2023-08-18T13:00:27.033208Z",
+            "VERSION_SN": 19
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:31.651856Z",
+            "transaction-id": 28046214536092
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "e6281def-9498-c503-dac8-d6a4a1642e65",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-04T16:10:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "64AFD9D9-9D13-554D-3D0E-FDD0F98A1CC4",
+            "UPDT_DTS": "2023-08-18T13:00:26.496000Z",
+            "VERSION_SN": 11
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:31.658404Z",
+            "transaction-id": 28046214537666
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 3,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 2,
+            "FSELL_INVTRY_ID": "c3499193-f2c4-517a-4ae9-ea7789512401",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T18:25:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "DE80CE8A-3AEE-466C-3CB0-1A821CC95022",
+            "UPDT_DTS": "2023-08-18T13:00:27.686628Z",
+            "VERSION_SN": 8
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:31.664660Z",
+            "transaction-id": 28046214541873
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "1a991e74-6b47-31ef-6730-af51bc5adf69",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-20T22:40:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "7e7d27f8-aff0-4205-b086-2eccf732cd2f",
+            "UPDT_DTS": "2023-08-18T13:00:27.614000Z",
+            "VERSION_SN": 19
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:31.670868Z",
+            "transaction-id": 28046214543447
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "396dd347-3363-16f3-390c-f1a667acc227",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-20T13:15:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "EB8A53DD-91B8-0530-E040-0699BABD6FE3",
+            "UPDT_DTS": "2023-08-18T13:00:27.616000Z",
+            "VERSION_SN": 11
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:31.677496Z",
+            "transaction-id": 28046214543447
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 2,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "bcb11773-4bcf-876c-c1fa-84024ee1a35c",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T17:45:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "9959487d-16f2-4905-96a4-2a1e86bb154f",
+            "UPDT_DTS": "2023-08-18T13:00:28.589000Z",
+            "VERSION_SN": 15
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:31.686478Z",
+            "transaction-id": 28046214552152
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 4,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "0110928a-493c-3006-0202-c078d4cddb57",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-04T20:50:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "019f04fc-be93-438c-89d2-86cda5088755",
+            "UPDT_DTS": "2023-08-18T13:00:29.573000Z",
+            "VERSION_SN": 3
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:31.693842Z",
+            "transaction-id": 28046214558549
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "dc83c09d-6cb3-6037-be13-4d035ea6074b",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T13:15:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "32bbe946-644d-4072-8a86-850673a32c14",
+            "UPDT_DTS": "2023-08-18T13:00:29.907000Z",
+            "VERSION_SN": 13
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T17:00:31.700675Z",
+            "transaction-id": 28046214565072
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 245,
+            "BK_CN": 242,
+            "COMBO_BK_CN": 240,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 3,
+            "FSELL_INVTRY_ID": "43303a0e-5fcb-5c26-a8f3-a87d5dbb5184",
+            "FSELL_INVTRY_SRVC_DTS": "2023-09-10T19:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "2ba15e5c-9ca4-e50a-f891-25cf09b6fe06",
+            "UPDT_DTS": "2023-08-18T12:57:59.908345Z",
+            "VERSION_SN": 344
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T16:58:04.416834Z",
+            "transaction-id": 28046213206161
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 4,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": null,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "9b92bbd2-a778-e034-ebd0-5cccef08dc7e",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T13:40:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "019f04fc-be93-438c-89d2-86cda5088755",
+            "UPDT_DTS": "2023-08-18T12:58:00.204077Z",
+            "VERSION_SN": 4
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T16:58:04.424022Z",
+            "transaction-id": 28046213207734
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "68ab83ac-62b1-d7bb-b0e1-bff87d706151",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-16T16:10:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "917A263E-234E-9757-A182-FB599A30B73B",
+            "UPDT_DTS": "2023-08-18T12:58:00.485780Z",
+            "VERSION_SN": 6
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T16:58:04.430675Z",
+            "transaction-id": 28046213209274
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "cfe9605b-f3e5-0c5f-e0c5-0ebd3ce53557",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-30T16:30:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "CD4A0976-EBCD-8058-E043-9906F4D18058",
+            "UPDT_DTS": "2023-08-18T12:58:01.056000Z",
+            "VERSION_SN": 8
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T16:58:04.438184Z",
+            "transaction-id": 28046213211460
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 20,
+            "BK_CN": 12,
+            "COMBO_BK_CN": 12,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 2,
+            "FSELL_INVTRY_ID": "647a05f2-de8d-2858-5269-4512020ba0a4",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-02T21:00:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "1bb2a2f3-6cae-400a-a0bf-fa908f17ca5f",
+            "UPDT_DTS": "2023-08-18T12:58:01.711198Z",
+            "VERSION_SN": 17
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T16:58:04.444939Z",
+            "transaction-id": 28046213217813
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 1,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 0,
+            "FSELL_INVTRY_ID": "cc574dd4-f9ee-d777-a8ed-f6bbdc890a02",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T13:35:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "40fa8161-2f9c-4a5f-960e-622829547091",
+            "UPDT_DTS": "2023-08-18T12:58:01.663000Z",
+            "VERSION_SN": 9
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T16:58:04.452068Z",
+            "transaction-id": 28046213219413
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "4ecfa2ed-cb51-a503-1ff8-5fbf5f07f123",
+            "FSELL_INVTRY_SRVC_DTS": "2023-08-18T17:45:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "daa7eb45-2bd5-41f0-8b80-d611605e8e8f",
+            "UPDT_DTS": "2023-08-18T12:58:02.000240Z",
+            "VERSION_SN": 9
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T16:58:04.458252Z",
+            "transaction-id": 28046213224783
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 1200,
+            "BK_CN": 1180,
+            "COMBO_BK_CN": 1180,
+            "DSNY_CTRL_INVTRY_CN": 0,
+            "FREEZE_CN": 6,
+            "FSELL_INVTRY_ID": "5a9cd46e-4945-1412-a973-4be75b808af4",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-15T21:30:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "4cafc352-62d4-4e88-98f3-16474db25aa7",
+            "UPDT_DTS": "2023-08-18T12:58:02.215741Z",
+            "VERSION_SN": 1766
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T16:58:04.464377Z",
+            "transaction-id": 28046213226357
+        }
+    },
+    {
+        "data": {
+            "AUTH_INVTRY_CN": 2,
+            "BK_CN": 0,
+            "COMBO_BK_CN": 0,
+            "DSNY_CTRL_INVTRY_CN": null,
+            "FREEZE_CN": 1,
+            "FSELL_INVTRY_ID": "397e4e36-6104-50c9-3469-2f117655ba5a",
+            "FSELL_INVTRY_SRVC_DTS": "2023-10-15T17:15:00Z",
+            "FSELL_INVTRY_TYP_NM": "free sell invtry",
+            "RSRVBL_RSRC_ID": "D41414BD-30ED-FA37-66B4-8902FC76EA31",
+            "UPDT_DTS": "2023-08-18T12:58:02.276972Z",
+            "VERSION_SN": 2
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "fsell_invtry",
+            "timestamp": "2023-08-18T16:58:04.471445Z"
+        }
+    }
+]

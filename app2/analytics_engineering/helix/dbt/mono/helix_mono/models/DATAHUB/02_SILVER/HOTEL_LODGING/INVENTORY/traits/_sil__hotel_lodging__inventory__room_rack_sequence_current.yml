@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__inventory__room_rack_sequence_current
+    description: "{{ doc('sil__hotel_lodging__inventory__room_rack_sequence_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=inventory
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: reservable_resource_id
+        description: ""
+
+      - name: room_sequence_number
+        description: ""
+
+      - name: resort_sequence_id
+        description: ""
+
+      - name: facility_id
+        description: ""
+
+      - name: sequence_name
+        description: ""

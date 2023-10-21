@@ -1,0 +1,22 @@
+{
+    "DREAMSChargeAccountChrgGrpModel": {
+        "data-source-folder": "dreams/charge_account/v0",
+        "data-contract-name": "dreams_charge_account_chrg_grp_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "chrg_grp"
+            }
+        }
+    },
+    "DREAMSChargeAccountChrgGrpLnkModel": {
+        "data-source-folder": "dreams/charge_account/v0",
+        "data-contract-name": "dreams_charge_account_chrg_grp_lnk_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-chgac-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "chrg_grp_lnk"
+            }
+        }
+    }
+}

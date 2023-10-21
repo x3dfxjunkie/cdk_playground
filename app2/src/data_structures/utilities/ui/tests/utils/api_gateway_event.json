@@ -1,0 +1,83 @@
+{
+    "resource": "/",
+    "path": "/",
+    "httpMethod": "GET",
+    "headers": {
+        "Accept": "*/*",
+        "Host": "elw68tqwyl-vpce-0081be8a6c5e738e3.execute-api.us-east-1.amazonaws.com",
+        "User-Agent": "insomnia/2022.5.1",
+        "x-amzn-cipher-suite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "x-amzn-tls-version": "TLSv1.2",
+        "x-amzn-vpc-id": "vpc-02da7a04db8bee27b",
+        "x-amzn-vpce-config": "1",
+        "x-amzn-vpce-id": "vpce-0081be8a6c5e738e3",
+        "X-Forwarded-For": "10.164.113.249"
+    },
+    "multiValueHeaders": {
+        "Accept": [
+            "*/*"
+        ],
+        "Host": [
+            "elw68tqwyl-vpce-0081be8a6c5e738e3.execute-api.us-east-1.amazonaws.com"
+        ],
+        "User-Agent": [
+            "insomnia/2022.5.1"
+        ],
+        "x-amzn-cipher-suite": [
+            "ECDHE-RSA-AES128-GCM-SHA256"
+        ],
+        "x-amzn-tls-version": [
+            "TLSv1.2"
+        ],
+        "x-amzn-vpc-id": [
+            "vpc-02da7a04db8bee27b"
+        ],
+        "x-amzn-vpce-config": [
+            "1"
+        ],
+        "x-amzn-vpce-id": [
+            "vpce-0081be8a6c5e738e3"
+        ],
+        "X-Forwarded-For": [
+            "10.164.113.249"
+        ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+        "resourceId": "kxmeim13lg",
+        "resourcePath": "/",
+        "httpMethod": "GET",
+        "extendedRequestId": "IUwxPG9joAMF2pQ=",
+        "requestTime": "19/Jul/2023:18:41:50 +0000",
+        "path": "/latest/",
+        "accountId": "543276908693",
+        "protocol": "HTTP/1.1",
+        "stage": "latest",
+        "domainPrefix": "elw68tqwyl-vpce-0081be8a6c5e738e3",
+        "requestTimeEpoch": 1689792110020,
+        "requestId": "ee3191c9-3b1c-4871-9947-371e91d2491b",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "cognitoIdentityId": null,
+            "vpceId": "vpce-0081be8a6c5e738e3",
+            "principalOrgId": null,
+            "cognitoAuthenticationType": null,
+            "userArn": null,
+            "userAgent": "insomnia/2022.5.1",
+            "accountId": null,
+            "caller": null,
+            "sourceIp": "10.164.113.249",
+            "accessKey": null,
+            "vpcId": "vpc-02da7a04db8bee27b",
+            "cognitoAuthenticationProvider": null,
+            "user": null
+        },
+        "domainName": "elw68tqwyl-vpce-0081be8a6c5e738e3.execute-api.us-east-1.amazonaws.com",
+        "apiId": "elw68tqwyl"
+    },
+    "body": null,
+    "isBase64Encoded": false
+}

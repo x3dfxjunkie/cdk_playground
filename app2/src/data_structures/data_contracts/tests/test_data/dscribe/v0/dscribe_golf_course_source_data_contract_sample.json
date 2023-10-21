@@ -1,0 +1,666 @@
+[
+    {
+        "id": "90001145",
+        "contentType": "GolfCourse",
+        "title": "Disney's Lake Buena Vista Golf Course",
+        "siteChannel": [
+            "Additional Integrations/FACSVC/All Content/Golf Course",
+            "Campus/Golf Course",
+            "IGS/Direct/WDW Sports and Recreation"
+        ],
+        "channel": [
+            {
+                "siteName": "Additional Integrations",
+                "channelName": "/FACSVC/All Content/Golf Course"
+            },
+            {
+                "siteName": "Campus",
+                "channelName": "/Golf Course"
+            },
+            {
+                "siteName": "IGS",
+                "channelName": "/Direct/WDW Sports and Recreation"
+            }
+        ],
+        "externalSystems": {
+            "types": {
+                "enterprise": "Facility",
+                "finder": "Recreation",
+                "finderList": [
+                    "Recreation"
+                ]
+            }
+        },
+        "destination": "WDW",
+        "Facet": [
+            "16726768",
+            "16727047",
+            "16727023",
+            "16726825",
+            "16984436",
+            "16984442",
+            "18662561",
+            "19340127",
+            "19340129",
+            "19340128",
+            "19381876",
+            "19381883",
+            "19381901"
+        ],
+        "Name": [
+            "80003221"
+        ],
+        "Contact": [
+            "411170244"
+        ]
+    },
+    {
+        "id": "114294",
+        "contentType": "GolfCourse",
+        "title": "Disney's Palm Driving Range",
+        "type": "Golf Course",
+        "typeId": "80001146",
+        "operationalStatus": "Operating",
+        "operationalStatusId": "80000299",
+        "parentFacility": "114147",
+        "facilityHierarchy": [
+            {
+                "id": "80007798",
+                "contentType": "Facility",
+                "facilityLevel": "1",
+                "type": "Destination",
+                "subType": null,
+                "nameText": "Walt Disney World Resort",
+                "nameHtml": "<strong>Walt Disney World</strong>® Resort",
+                "destination": "WDW"
+            },
+            {
+                "id": "1258",
+                "contentType": "Facility",
+                "facilityLevel": "2",
+                "type": "WDW Resort Area",
+                "subType": "Magic Kingdom Resort Area",
+                "nameText": "Magic Kingdom Resort Area",
+                "nameHtml": "Magic Kingdom Resort Area",
+                "destination": "WDW"
+            },
+            {
+                "id": "17843788",
+                "contentType": "Facility",
+                "facilityLevel": "3",
+                "type": "WDW Resort Facility",
+                "subType": null,
+                "nameText": "Disney's Polynesian Village Resort",
+                "nameHtml": "Disney's Polynesian Village Resort",
+                "destination": "WDW"
+            },
+            {
+                "id": "80010388",
+                "contentType": "Resort",
+                "facilityLevel": "4",
+                "type": "Walt Disney World Owned & Operated",
+                "subType": "Deluxe",
+                "nameText": "Disney's Polynesian Village Resort",
+                "nameHtml": "Disney's Polynesian Village Resort",
+                "destination": "WDW"
+            },
+            {
+                "id": "114147",
+                "contentType": "Facility",
+                "facilityLevel": "3",
+                "type": "Parks & More",
+                "subType": "Golf Club",
+                "nameText": "Disney's Magnolia Palm and Oak Trail Golf Club",
+                "nameHtml": "Disney's Magnolia Palm and Oak Trail Golf Club",
+                "destination": "WDW"
+            }
+        ],
+        "facilityLevel": "5",
+        "disneyOwnedOperated": true,
+        "siteChannel": [
+            "Additional Integrations/FACSVC/All Content/Golf Course"
+        ],
+        "channel": [
+            {
+                "siteName": "Additional Integrations",
+                "channelName": "/FACSVC/All Content/Golf Course"
+            }
+        ],
+        "externalSystems": {
+            "types": {
+                "enterprise": "GolfCourse"
+            }
+        },
+        "destination": "WDW",
+        "Name": [
+            "114262"
+        ]
+    },
+    {
+        "id": "17564707",
+        "contentType": "GolfCourse",
+        "title": "Four Seasons Golf Course",
+        "type": "Golf Course",
+        "typeId": "80001146",
+        "operationalStatus": "Operating",
+        "operationalStatusId": "80000299",
+        "parentFacility": "17564709",
+        "facilityHierarchy": [
+            {
+                "id": "80007798",
+                "contentType": "Facility",
+                "facilityLevel": "1",
+                "type": "Destination",
+                "subType": null,
+                "nameText": "Walt Disney World Resort",
+                "nameHtml": "<strong>Walt Disney World</strong>® Resort",
+                "destination": "WDW"
+            },
+            {
+                "id": "1268",
+                "contentType": "Facility",
+                "facilityLevel": "2",
+                "type": "WDW Resort Area",
+                "subType": "Disney Springs Resort Area",
+                "nameText": "Disney Springs Resort Area",
+                "nameHtml": "Disney Springs Resort Area",
+                "destination": "WDW"
+            },
+            {
+                "id": "17713641",
+                "contentType": "Facility",
+                "facilityLevel": "3",
+                "type": "Parks & More",
+                "subType": "Retail, Dining and Entertainment",
+                "nameText": "Four Seasons Resort Orlando at Walt Disney World Resort",
+                "nameHtml": "Four Seasons Resort Orlando at Walt Disney World Resort",
+                "destination": "WDW"
+            },
+            {
+                "id": "16633205",
+                "contentType": "Resort",
+                "facilityLevel": "4",
+                "type": "Disney Springs Resort Area Hotel",
+                "subType": "Deluxe",
+                "nameText": "Four Seasons Resort Orlando at Walt Disney World Resort",
+                "nameHtml": "Four Seasons Resort Orlando at Walt Disney World Resort",
+                "destination": "WDW"
+            },
+            {
+                "id": "17564709",
+                "contentType": "Facility",
+                "facilityLevel": "4",
+                "type": "Building",
+                "subType": null,
+                "nameText": "Four Seasons Golf Club House",
+                "nameHtml": "Four Seasons Golf Club House",
+                "destination": "WDW"
+            }
+        ],
+        "facilityLevel": "6",
+        "disneyOwnedOperated": true,
+        "siteChannel": [
+            "Additional Integrations/D3/Facility"
+        ],
+        "channel": [
+            {
+                "siteName": "Additional Integrations",
+                "channelName": "/D3/Facility"
+            }
+        ],
+        "externalSystems": {
+            "types": {
+                "enterprise": "GolfCourse"
+            }
+        },
+        "destination": "WDW",
+        "Name": [
+            "17564704"
+        ]
+    },
+    {
+        "id": "411859244",
+        "contentType": "GolfCourse",
+        "title": "Walt Disney World Golf",
+        "type": "Golf Course",
+        "typeId": "80001146",
+        "operationalStatus": "Operating",
+        "operationalStatusId": "80000299",
+        "parentFacility": "80007798",
+        "facilityHierarchy": [
+            {
+                "id": "80007798",
+                "contentType": "Facility",
+                "facilityLevel": "1",
+                "type": "Destination",
+                "subType": null,
+                "nameText": "Walt Disney World Resort",
+                "nameHtml": "<strong>Walt Disney World</strong>® Resort",
+                "destination": "WDW"
+            }
+        ],
+        "facilityLevel": "6",
+        "disneyOwnedOperated": true,
+        "siteChannel": [
+            "Additional Integrations/D3/Facility",
+            "IGS/Direct/WDW Sports and Recreation"
+        ],
+        "channel": [
+            {
+                "siteName": "Additional Integrations",
+                "channelName": "/D3/Facility"
+            },
+            {
+                "siteName": "IGS",
+                "channelName": "/Direct/WDW Sports and Recreation"
+            }
+        ],
+        "externalSystems": {
+            "types": {
+                "enterprise": "GolfCourse",
+                "finder": "recreation-activity",
+                "finderList": [
+                    "recreation-activity",
+                    "activity-product"
+                ]
+            }
+        },
+        "destination": "WDW",
+        "Facet": [
+            "411858807",
+            "16726825",
+            "16984442",
+            "18662538",
+            "18635841",
+            "18634260",
+            "18662466",
+            "18635894",
+            "18662547",
+            "18662554",
+            "17437780"
+        ],
+        "Name": [
+            "411859059"
+        ]
+    },
+    {
+        "id": "50228",
+        "contentType": "GolfCourse",
+        "title": "Disney's Lake Buena Vista Driving Range",
+        "type": "Driving Range",
+        "typeId": "80001145",
+        "operationalStatus": "Operating",
+        "operationalStatusId": "80000299",
+        "parentFacility": "114146",
+        "facilityHierarchy": [
+            {
+                "id": "80007798",
+                "contentType": "Facility",
+                "facilityLevel": "1",
+                "type": "Destination",
+                "subType": null,
+                "nameText": "Walt Disney World Resort",
+                "nameHtml": "<strong>Walt Disney World</strong>® Resort",
+                "destination": "WDW"
+            },
+            {
+                "id": "1268",
+                "contentType": "Facility",
+                "facilityLevel": "2",
+                "type": "WDW Resort Area",
+                "subType": "Disney Springs Resort Area",
+                "nameText": "Disney Springs Resort Area",
+                "nameHtml": "Disney Springs Resort Area",
+                "destination": "WDW"
+            },
+            {
+                "id": "18427435",
+                "contentType": "Facility",
+                "facilityLevel": "3",
+                "type": "WDW Resort Area",
+                "subType": "Disney Springs Resort Area",
+                "nameText": "Disney's Saratoga Springs Resort & Spa",
+                "nameHtml": "Disney's Saratoga Springs Resort & Spa",
+                "destination": "WDW"
+            },
+            {
+                "id": "80010383",
+                "contentType": "Resort",
+                "facilityLevel": "4",
+                "type": "Walt Disney World Owned & Operated",
+                "subType": "Deluxe Villa",
+                "nameText": "Disney's Saratoga Springs Resort & Spa",
+                "nameHtml": "Disney's Saratoga Springs Resort & Spa",
+                "destination": "WDW"
+            },
+            {
+                "id": "114146",
+                "contentType": "Facility",
+                "facilityLevel": "3",
+                "type": "Parks & More",
+                "subType": "Golf Club",
+                "nameText": "Disney's Lake Buena Vista Golf Club",
+                "nameHtml": "Disney's Lake Buena Vista Golf Club",
+                "destination": "WDW"
+            }
+        ],
+        "facilityLevel": "5",
+        "disneyOwnedOperated": true,
+        "siteChannel": [
+            "Additional Integrations/FACSVC/All Content/Golf Course",
+            "Campus/Golf Course"
+        ],
+        "channel": [
+            {
+                "siteName": "Additional Integrations",
+                "channelName": "/FACSVC/All Content/Golf Course"
+            },
+            {
+                "siteName": "Campus",
+                "channelName": "/Golf Course"
+            }
+        ],
+        "externalSystems": {
+            "types": {
+                "enterprise": "GolfCourse"
+            }
+        },
+        "destination": "WDW",
+        "Name": [
+            "90057933"
+        ]
+    },
+    {
+        "id": "62058",
+        "contentType": "GolfCourse",
+        "title": "Disney's Magnolia Driving Range",
+        "type": "Driving Range",
+        "typeId": "80001145",
+        "operationalStatus": "Operating",
+        "operationalStatusId": "80000299",
+        "parentFacility": "114147",
+        "facilityHierarchy": [
+            {
+                "id": "80007798",
+                "contentType": "Facility",
+                "facilityLevel": "1",
+                "type": "Destination",
+                "subType": null,
+                "nameText": "Walt Disney World Resort",
+                "nameHtml": "<strong>Walt Disney World</strong>® Resort",
+                "destination": "WDW"
+            },
+            {
+                "id": "1258",
+                "contentType": "Facility",
+                "facilityLevel": "2",
+                "type": "WDW Resort Area",
+                "subType": "Magic Kingdom Resort Area",
+                "nameText": "Magic Kingdom Resort Area",
+                "nameHtml": "Magic Kingdom Resort Area",
+                "destination": "WDW"
+            },
+            {
+                "id": "17843788",
+                "contentType": "Facility",
+                "facilityLevel": "3",
+                "type": "WDW Resort Facility",
+                "subType": null,
+                "nameText": "Disney's Polynesian Village Resort",
+                "nameHtml": "Disney's Polynesian Village Resort",
+                "destination": "WDW"
+            },
+            {
+                "id": "80010388",
+                "contentType": "Resort",
+                "facilityLevel": "4",
+                "type": "Walt Disney World Owned & Operated",
+                "subType": "Deluxe",
+                "nameText": "Disney's Polynesian Village Resort",
+                "nameHtml": "Disney's Polynesian Village Resort",
+                "destination": "WDW"
+            },
+            {
+                "id": "114147",
+                "contentType": "Facility",
+                "facilityLevel": "3",
+                "type": "Parks & More",
+                "subType": "Golf Club",
+                "nameText": "Disney's Magnolia Palm and Oak Trail Golf Club",
+                "nameHtml": "Disney's Magnolia Palm and Oak Trail Golf Club",
+                "destination": "WDW"
+            }
+        ],
+        "facilityLevel": "5",
+        "disneyOwnedOperated": true,
+        "siteChannel": [
+            "Additional Integrations/FACSVC/All Content/Golf Course"
+        ],
+        "channel": [
+            {
+                "siteName": "Additional Integrations",
+                "channelName": "/FACSVC/All Content/Golf Course"
+            }
+        ],
+        "scheduleId": "411287361",
+        "externalSystems": {
+            "types": {
+                "enterprise": "GolfCourse"
+            }
+        },
+        "destination": "WDW",
+        "Name": [
+            "90057934"
+        ]
+    },
+    {
+        "id": "90001146",
+        "contentType": "GolfCourse",
+        "title": "Disney's Magnolia Golf Course",
+        "siteChannel": [
+            "Additional Integrations/FACSVC/All Content/Golf Course",
+            "IGS/Direct/WDW Sports and Recreation"
+        ],
+        "channel": [
+            {
+                "siteName": "Additional Integrations",
+                "channelName": "/FACSVC/All Content/Golf Course"
+            },
+            {
+                "siteName": "IGS",
+                "channelName": "/Direct/WDW Sports and Recreation"
+            }
+        ],
+        "externalSystems": {
+            "types": {
+                "enterprise": "GolfCourse",
+                "finder": "Recreation",
+                "finderList": [
+                    "Recreation"
+                ]
+            }
+        },
+        "destination": "WDW",
+        "Facet": [
+            "16726768",
+            "16726825",
+            "16727047",
+            "16727023",
+            "16984442",
+            "16984436",
+            "18662561",
+            "19340129",
+            "19340128",
+            "19340127",
+            "19381883",
+            "19381876",
+            "19381901"
+        ],
+        "Name": [
+            "411414783"
+        ]
+    },
+    {
+        "id": "90001147",
+        "contentType": "GolfCourse",
+        "title": "Disney's Oak Trail Golf Course",
+        "siteChannel": [
+            "Additional Integrations/FACSVC/All Content/Golf Course",
+            "IGS/Direct/WDW Sports and Recreation"
+        ],
+        "channel": [
+            {
+                "siteName": "Additional Integrations",
+                "channelName": "/FACSVC/All Content/Golf Course"
+            },
+            {
+                "siteName": "IGS",
+                "channelName": "/Direct/WDW Sports and Recreation"
+            }
+        ],
+        "externalSystems": {
+            "types": {
+                "enterprise": "GolfCourse",
+                "finder": "Recreation",
+                "finderList": [
+                    "Recreation"
+                ]
+            }
+        },
+        "destination": "WDW",
+        "Facet": [
+            "16726768",
+            "16727047",
+            "16727023",
+            "16726942",
+            "16669903",
+            "16726825",
+            "16984436",
+            "16984442",
+            "19340129",
+            "19340128",
+            "19340127",
+            "19381883",
+            "19381876",
+            "19381901"
+        ],
+        "Name": [
+            "90000648"
+        ]
+    },
+    {
+        "id": "90001149",
+        "contentType": "GolfCourse",
+        "title": "Disney's Palm Golf Course",
+        "type": "Golf Course",
+        "typeId": "80001146",
+        "operationalStatus": "Operating",
+        "operationalStatusId": "80000299",
+        "parentFacility": "114147",
+        "facilityHierarchy": [
+            {
+                "id": "80007798",
+                "contentType": "Facility",
+                "facilityLevel": "1",
+                "type": "Destination",
+                "subType": null,
+                "nameText": "Walt Disney World Resort",
+                "nameHtml": "<strong>Walt Disney World</strong>® Resort",
+                "destination": "WDW"
+            },
+            {
+                "id": "1258",
+                "contentType": "Facility",
+                "facilityLevel": "2",
+                "type": "WDW Resort Area",
+                "subType": "Magic Kingdom Resort Area",
+                "nameText": "Magic Kingdom Resort Area",
+                "nameHtml": "Magic Kingdom Resort Area",
+                "destination": "WDW"
+            },
+            {
+                "id": "17843788",
+                "contentType": "Facility",
+                "facilityLevel": "3",
+                "type": "WDW Resort Facility",
+                "subType": null,
+                "nameText": "Disney's Polynesian Village Resort",
+                "nameHtml": "Disney's Polynesian Village Resort",
+                "destination": "WDW"
+            },
+            {
+                "id": "80010388",
+                "contentType": "Resort",
+                "facilityLevel": "4",
+                "type": "Walt Disney World Owned & Operated",
+                "subType": "Deluxe",
+                "nameText": "Disney's Polynesian Village Resort",
+                "nameHtml": "Disney's Polynesian Village Resort",
+                "destination": "WDW"
+            },
+            {
+                "id": "114147",
+                "contentType": "Facility",
+                "facilityLevel": "3",
+                "type": "Parks & More",
+                "subType": "Golf Club",
+                "nameText": "Disney's Magnolia Palm and Oak Trail Golf Club",
+                "nameHtml": "Disney's Magnolia Palm and Oak Trail Golf Club",
+                "destination": "WDW"
+            }
+        ],
+        "parentFacilityContentType": "Facility",
+        "facilityLevel": "4",
+        "disneyOwnedOperated": true,
+        "coordinates": [
+            {
+                "locationType": "Guest Entrance",
+                "latitude": "28.403456",
+                "longitude": "-81.592361"
+            }
+        ],
+        "siteChannel": [
+            "Additional Integrations/FACSVC/All Content/Golf Course",
+            "IGS/Direct/WDW Sports and Recreation"
+        ],
+        "channel": [
+            {
+                "siteName": "Additional Integrations",
+                "channelName": "/FACSVC/All Content/Golf Course"
+            },
+            {
+                "siteName": "IGS",
+                "channelName": "/Direct/WDW Sports and Recreation"
+            }
+        ],
+        "externalSystems": {
+            "types": {
+                "enterprise": "GolfCourse",
+                "finder": "Recreation",
+                "finderList": [
+                    "Recreation",
+                    "overview"
+                ]
+            }
+        },
+        "destination": "WDW",
+        "Facet": [
+            "16726768",
+            "19381876",
+            "16984436",
+            "16984442",
+            "16726825",
+            "16727047",
+            "16727023",
+            "19340129",
+            "19340128",
+            "19340127",
+            "19381883",
+            "19381901",
+            "18662561"
+        ],
+        "Name": [
+            "90000650"
+        ]
+    }
+]

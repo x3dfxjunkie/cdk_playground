@@ -1,0 +1,52 @@
+{% for decorator in decorators -%}
+{{ decorator }}
+{% endfor -%}
+class {{ class_name }}({{ base_class }}):{% if comment is defined %}  # {{ comment }}{% endif %}
+{%- if description %}
+    """
+    {{ description | indent(4) }}
+    """
+{%- endif %}
+{% if class_name == "Model" or class_name == "ModelItem" or class_name == title %}
+{%- filter indent(4) %}
+{% include 'Config.jinja2' %}
+{%- endfilter %}
+{% endif %}
+{%- if not fields and not description %}
+    pass
+{%- endif %}
+{%- if config %}
+{%- filter indent(4) %}
+{%- endfilter %}
+{%- endif %}
+{% for field in fields %}
+    {% set example = field.extras.example %}
+    {% set example_exists = example is defined %}
+    {% set example_is_number = (example is number) %}
+    {% set example_is_string = (example is string) %}
+    {% set type_optional = (field.data_type.is_optional) %}
+    {{ field.name }}: {{ field.type_hint }} = Field(
+        {{ None if not field.required or type_optional else "..." }},
+        alias="{{ field.original_name }}",
+        name="",
+        description="{{ field.description }}",
+        {% if example_exists %}
+        {% set example_value = 
+            example if example_is_number 
+            else '"' + example + '"' if example_is_string 
+            else 'None' if not example
+            else example if field.type_hint
+            else "''"
+        %}
+        example={{ example_value }},
+        guest_identifier=False,
+        transaction_identifier=False,
+        identifier_tag="{{ field.identifier_tag }}"
+        {% endif %}
+    )
+    {%- if field.docstring %}
+    """
+    {{ field.docstring | indent(4) }}
+    """
+    {% endif %}
+{% endfor %}

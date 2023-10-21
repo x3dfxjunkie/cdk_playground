@@ -1,0 +1,127 @@
+[
+    {
+        "data": {
+            "ELIG_CRTR_NM": "Online Check In",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "EXPRNC_ENHNC_CRTR_VL": "Yes",
+            "TC_ID": 9999992298,
+            "TC_EXPRNC_ENHNC_CRTR_DTS": "2023-05-24T09:47:24.677000Z",
+            "CREATE_USR_ID_CD": "MOUSM001",
+            "CREATE_DTS": "2023-05-24T09:47:24.677000Z",
+            "UPDT_USR_ID_CD": "MOUSM001",
+            "UPDT_DTS": "2023-05-24T09:47:24.677000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": null,
+            "transact_seq": "20230524134726000000000001912886305"
+        },
+        "metadata": {
+            "timestamp": "2023-05-24T13:47:29.756669Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_exprnc_enhnc_crtr",
+            "transaction-id": null
+        }
+    },
+    {
+        "data": {
+            "ELIG_CRTR_NM": "Contact Information",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "EXPRNC_ENHNC_CRTR_VL": "Yes",
+            "TC_ID": 9999992298,
+            "TC_EXPRNC_ENHNC_CRTR_DTS": "2023-05-24T09:47:24.682000Z",
+            "CREATE_USR_ID_CD": "MOUSM001",
+            "CREATE_DTS": "2023-05-24T09:47:24.682000Z",
+            "UPDT_USR_ID_CD": "MOUSM001",
+            "UPDT_DTS": "2023-05-24T09:47:24.682000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-05-24T13:47:26Z",
+            "transact_seq": "20230524134726000000000001912886309"
+        },
+        "metadata": {
+            "timestamp": "2023-05-24T13:47:29.767442Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_exprnc_enhnc_crtr",
+            "transaction-id": 72718129726919
+        }
+    },
+    {
+        "data": {
+            "ELIG_CRTR_NM": "Payment Guarantee",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "EXPRNC_ENHNC_CRTR_VL": "Group Guaranteed",
+            "TC_ID": 9999992298,
+            "TC_EXPRNC_ENHNC_CRTR_DTS": "2023-05-23T04:02:19.409000Z",
+            "CREATE_USR_ID_CD": "MOUSM001",
+            "CREATE_DTS": "2023-05-23T04:00:06.795000Z",
+            "UPDT_USR_ID_CD": "MOUSM001",
+            "UPDT_DTS": "2023-05-23T04:00:06.795000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-05-24T13:47:26Z",
+            "transact_seq": "20230524134726000000000001912886317"
+        },
+        "metadata": {
+            "timestamp": "2023-05-24T13:47:29.787574Z",
+            "record-type": "data",
+            "operation": "delete",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_exprnc_enhnc_crtr",
+            "transaction-id": 72718129726919
+        }
+    },
+    {
+        "data": {
+            "ELIG_CRTR_NM": "Payment Guarantee",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "EXPRNC_ENHNC_CRTR_VL": "Credit Card Guaranteed",
+            "TC_ID": 9999992298,
+            "TC_EXPRNC_ENHNC_CRTR_DTS": "2023-05-24T09:47:24.708000Z",
+            "CREATE_USR_ID_CD": "MOUSM001",
+            "CREATE_DTS": "2023-05-24T09:47:24.708000Z",
+            "UPDT_USR_ID_CD": "MOUSM001",
+            "UPDT_DTS": "2023-05-24T09:47:24.708000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-05-24T13:47:26Z",
+            "transact_seq": "20230524134726000000000001912886321"
+        },
+        "metadata": {
+            "timestamp": "2023-05-24T13:47:29.798705Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_exprnc_enhnc_crtr",
+            "transaction-id": 72718129726919
+        }
+    },
+    {
+        "data": {
+            "ELIG_CRTR_NM": "Online Check In",
+            "EXPRNC_ENHNC_NM": "Bypass Front Desk",
+            "EXPRNC_ENHNC_CRTR_VL": "Yes",
+            "TC_ID": 9999992858,
+            "TC_EXPRNC_ENHNC_CRTR_DTS": "2023-05-24T09:47:29.949000Z",
+            "CREATE_USR_ID_CD": "MOUSM001",
+            "CREATE_DTS": "2023-05-24T09:47:29.949000Z",
+            "UPDT_USR_ID_CD": "MOUSM001",
+            "UPDT_DTS": "2023-05-24T09:47:29.949000Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-05-24T13:47:32Z",
+            "transact_seq": "20230524134732000000000001912887085"
+        },
+        "metadata": {
+            "timestamp": "2023-05-24T13:47:35.153609Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_exprnc_enhnc_crtr",
+            "transaction-id": 72718129764051
+        }
+    }
+]

@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__transactional_individual_party_reference_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__transactional_individual_party_reference_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: transactional_individual_party_id
+        description: ""
+
+      - name: party_external_source_name
+        description: ""
+
+      - name: reference_id
+        description: ""
+
+      - name: create_datetime
+        description: ""
+
+      - name: source_update_datetime
+        description: ""

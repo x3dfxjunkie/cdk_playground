@@ -1,0 +1,722 @@
+stack_extension: &se dreams-folio # 12 Character Limit!
+ingest_pattern: &ip dms # DO NOT UPDATE must = dms for dms pattern
+active: True
+feature_branch: False # set to False unless you want to deploy DMS in ephemeral envs
+pattern_instances:
+  - region: &region-1 us-east-1 # DO NOT UPDATE
+    resources:
+      dms_repl_instance:
+        engine_version: "3.5.1"
+        multi_az: True
+      dms_repl_task: # AWS DMS replication task
+        - &replication_task_definitions
+          replication_task_identifier: ful1 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "FOLIO"
+                  table-name: "%" #Table qualifier
+              - rule-type: selection
+                rule-id: "2"
+                rule-name: "2"
+                rule-action: exclude
+                object-locator:
+                  schema-name: "FOLIO"
+                  table-name: "CHRG_%" #Table qualifier
+              - rule-type: selection
+                rule-id: "3"
+                rule-name: "3"
+                rule-action: exclude
+                object-locator:
+                  schema-name: "FOLIO"
+                  table-name: "FOLIO_%" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc1
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - &replication_task_definitions2
+          replication_task_identifier: ful2 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "FOLIO"
+                  table-name: "CHRG_%" #Table qualifier
+        - <<: *replication_task_definitions2 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc2
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - &replication_task_definitions3
+          replication_task_identifier: ful3 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "FOLIO"
+                  table-name: "FOLIO_%" #Table qualifier
+        - <<: *replication_task_definitions3 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc3
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+      source_endpoint: # AWS DMS Source Endpoint.
+        engine_name: oracle # The type of engine for the endpoint, depending on the EndpointType value. Valid values : mysql | oracle | mariadb | kinesis
+        database_name: foliorecon.wdw.disney.com
+        settings: # See https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Source.html
+#          server_timezone: US/Eastern # #Specifies the time zone for the target MySQL-compatible database, e.g., US/Eastern, US/Pacific, UTC / remove if UTC
+          secrets_manager_secret_id: arn:aws:secretsmanager:us-east-1:863175788676:secret:stg-use1-dreams-accounting-folio-secret-aoQysa #pragma: allowlist secret, The ARN, or display name of the SecretsManagerSecret that contains the MySQL endpoint connection details.
+      source_kms_key: 017988b5-2e46-431c-a9b6-ca94217fc8de # Update for the secrets_manager_secret_id kms key
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_STAGE_LANDING # Needs update to appropriate default routing
+      data_contracts:
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_acb_chrg_source_data_contract
+          class_name: DREAMSFolioAcbChrgModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: ACB_CHRG
+          router_database: &database STAGE_LANDING
+          router_schema: &schema LND_DREAMS_FOLIO
+          router_table: ACB_CHRG
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_ar_folio_itm_pmt_source_data_contract
+          class_name: DREAMSFolioArFolioItmPmtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: AR_FOLIO_ITM_PMT
+          router_database: *database
+          router_schema: *schema
+          router_table: AR_FOLIO_ITM_PMT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_bank_in_source_data_contract
+          class_name: DREAMSFolioBankInModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: BANK_IN
+          router_database: *database
+          router_schema: *schema
+          router_table: BANK_IN
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_bank_out_source_data_contract
+          class_name: DREAMSFolioBankOutModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: BANK_OUT
+          router_database: *database
+          router_schema: *schema
+          router_table: BANK_OUT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_bill_aplcbl_source_data_contract
+          class_name: DREAMSFolioBillAplcblModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: BILL_APLCBL
+          router_database: *database
+          router_schema: *schema
+          router_table: BILL_APLCBL
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_card_auth_source_data_contract
+          class_name: DREAMSFolioCardAuthModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CARD_AUTH
+          router_database: *database
+          router_schema: *schema
+          router_table: CARD_AUTH
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_card_pmt_source_data_contract
+          class_name: DREAMSFolioCardPmtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CARD_PMT
+          router_database: *database
+          router_schema: *schema
+          router_table: CARD_PMT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_chrg_source_data_contract
+          class_name: DREAMSFolioChrgModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CHRG
+          router_database: *database
+          router_schema: *schema
+          router_table: CHRG
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_chrg_age_typ_source_data_contract
+          class_name: DREAMSFolioChrgAgeTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CHRG_AGE_TYP
+          router_database: *database
+          router_schema: *schema
+          router_table: CHRG_AGE_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_chrg_alloc_source_data_contract
+          class_name: DREAMSFolioChrgAllocModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CHRG_ALLOC
+          router_database: *database
+          router_schema: *schema
+          router_table: CHRG_ALLOC
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_chrg_extnl_ref_source_data_contract
+          class_name: DREAMSFolioChrgExtnlRefModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CHRG_EXTNL_REF
+          router_database: *database
+          router_schema: *schema
+          router_table: CHRG_EXTNL_REF
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_chrg_grp_source_data_contract
+          class_name: DREAMSFolioChrgGrpModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CHRG_GRP
+          router_database: *database
+          router_schema: *schema
+          router_table: CHRG_GRP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_chrg_grp_extnl_ref_source_data_contract
+          class_name: DREAMSFolioChrgGrpExtnlRefModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CHRG_GRP_EXTNL_REF
+          router_database: *database
+          router_schema: *schema
+          router_table: CHRG_GRP_EXTNL_REF
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_chrg_grp_fol_smth_source_data_contract
+          class_name: DREAMSFolioChrgGrpFolSmthModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CHRG_GRP_FOL_SMTH
+          router_database: *database
+          router_schema: *schema
+          router_table: CHRG_GRP_FOL_SMTH
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_chrg_grp_folio_source_data_contract
+          class_name: DREAMSFolioChrgGrpFolioModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CHRG_GRP_FOLIO
+          router_database: *database
+          router_schema: *schema
+          router_table: CHRG_GRP_FOLIO
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_chrg_grp_trvl_gst_source_data_contract
+          class_name: DREAMSFolioChrgGrpTrvlGstModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CHRG_GRP_TRVL_GST
+          router_database: *database
+          router_schema: *schema
+          router_table: CHRG_GRP_TRVL_GST
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_chrg_item_source_data_contract
+          class_name: DREAMSFolioChrgItemModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CHRG_ITEM
+          router_database: *database
+          router_schema: *schema
+          router_table: CHRG_ITEM
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_chrg_item_dpst_source_data_contract
+          class_name: DREAMSFolioChrgItemDpstModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CHRG_ITEM_DPST
+          router_database: *database
+          router_schema: *schema
+          router_table: CHRG_ITEM_DPST
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_chrg_mkt_pkg_source_data_contract
+          class_name: DREAMSFolioChrgMktPkgModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CHRG_MKT_PKG
+          router_database: *database
+          router_schema: *schema
+          router_table: CHRG_MKT_PKG
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_chrg_rpst_diff_log_source_data_contract
+          class_name: DREAMSFolioChrgRpstDiffLogModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CHRG_RPST_DIFF_LOG
+          router_database: *database
+          router_schema: *schema
+          router_table: CHRG_RPST_DIFF_LOG
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_cmp_extnl_ref_source_data_contract
+          class_name: DREAMSFolioCmpExtnlRefModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CMP_EXTNL_REF
+          router_database: *database
+          router_schema: *schema
+          router_table: CMP_EXTNL_REF
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_denom_item_bnk_out_source_data_contract
+          class_name: DREAMSFolioDenomItemBnkOutModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: DENOM_ITEM_BNK_OUT
+          router_database: *database
+          router_schema: *schema
+          router_table: DENOM_ITEM_BNK_OUT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_evt_chrg_source_data_contract
+          class_name: DREAMSFolioEvtChrgModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: EVT_CHRG
+          router_database: *database
+          router_schema: *schema
+          router_table: EVT_CHRG
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_extnl_ref_source_data_contract
+          class_name: DREAMSFolioExtnlRefModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: EXTNL_REF
+          router_database: *database
+          router_schema: *schema
+          router_table: EXTNL_REF
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_fee_chrg_source_data_contract
+          class_name: DREAMSFolioFeeChrgModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: FEE_CHRG
+          router_database: *database
+          router_schema: *schema
+          router_table: FEE_CHRG
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_folio_source_data_contract
+          class_name: DREAMSFolioFolioModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: FOLIO
+          router_database: *database
+          router_schema: *schema
+          router_table: FOLIO
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_folio_chkot_opt_source_data_contract
+          class_name: DREAMSFolioFolioChkotOptModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: FOLIO_CHKOT_OPT
+          router_database: *database
+          router_schema: *schema
+          router_table: FOLIO_CHKOT_OPT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_folio_item_source_data_contract
+          class_name: DREAMSFolioFolioItemModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: FOLIO_ITEM
+          router_database: *database
+          router_schema: *schema
+          router_table: FOLIO_ITEM
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_folio_pmt_source_data_contract
+          class_name: DREAMSFolioFolioPmtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: FOLIO_PMT
+          router_database: *database
+          router_schema: *schema
+          router_table: FOLIO_PMT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_folio_prfl_source_data_contract
+          class_name: DREAMSFolioFolioPrflModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: FOLIO_PRFL
+          router_database: *database
+          router_schema: *schema
+          router_table: FOLIO_PRFL
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_folio_tax_exmpt_source_data_contract
+          class_name: DREAMSFolioFolioTaxExmptModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: FOLIO_TAX_EXMPT
+          router_database: *database
+          router_schema: *schema
+          router_table: FOLIO_TAX_EXMPT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_folio_txn_source_data_contract
+          class_name: DREAMSFolioFolioTxnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: FOLIO_TXN
+          router_database: *database
+          router_schema: *schema
+          router_table: FOLIO_TXN
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_folio_txn_bal_source_data_contract
+          class_name: DREAMSFolioFolioTxnBalModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: FOLIO_TXN_BAL
+          router_database: *database
+          router_schema: *schema
+          router_table: FOLIO_TXN_BAL
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_folio_txn_cmt_source_data_contract
+          class_name: DREAMSFolioFolioTxnCmtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: FOLIO_TXN_CMT
+          router_database: *database
+          router_schema: *schema
+          router_table: FOLIO_TXN_CMT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_folio_txn_txn_item_source_data_contract
+          class_name: DREAMSFolioFolioTxnTxnItemModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: FOLIO_TXN_TXN_ITEM
+          router_database: *database
+          router_schema: *schema
+          router_table: FOLIO_TXN_TXN_ITEM
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_node_chrg_grp_source_data_contract
+          class_name: DREAMSFolioNodeChrgGrpModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: NODE_CHRG_GRP
+          router_database: *database
+          router_schema: *schema
+          router_table: NODE_CHRG_GRP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_non_folio_rfnd_itm_source_data_contract
+          class_name: DREAMSFolioNonFolioRfndItmModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: NON_FOLIO_RFND_ITM
+          router_database: *database
+          router_schema: *schema
+          router_table: NON_FOLIO_RFND_ITM
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_phn_chrg_source_data_contract
+          class_name: DREAMSFolioPhnChrgModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: PHN_CHRG
+          router_database: *database
+          router_schema: *schema
+          router_table: PHN_CHRG
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_pmt_source_data_contract
+          class_name: DREAMSFolioPmtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: PMT
+          router_database: *database
+          router_schema: *schema
+          router_table: PMT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_pmt_card_source_data_contract
+          class_name: DREAMSFolioPmtCardModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: PMT_CARD
+          router_database: *database
+          router_schema: *schema
+          router_table: PMT_CARD
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_pmt_extnl_ref_source_data_contract
+          class_name: DREAMSFolioPmtExtnlRefModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: PMT_EXTNL_REF
+          router_database: *database
+          router_schema: *schema
+          router_table: PMT_EXTNL_REF
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_pmt_rcpnt_source_data_contract
+          class_name: DREAMSFolioPmtRcpntModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: PMT_RCPNT
+          router_database: *database
+          router_schema: *schema
+          router_table: PMT_RCPNT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_pos_chrg_source_data_contract
+          class_name: DREAMSFolioPosChrgModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: POS_CHRG
+          router_database: *database
+          router_schema: *schema
+          router_table: POS_CHRG
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_prod_chrg_source_data_contract
+          class_name: DREAMSFolioProdChrgModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: PROD_CHRG
+          router_database: *database
+          router_schema: *schema
+          router_table: PROD_CHRG
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_root_chrg_grp_source_data_contract
+          class_name: DREAMSFolioRootChrgGrpModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: ROOT_CHRG_GRP
+          router_database: *database
+          router_schema: *schema
+          router_table: ROOT_CHRG_GRP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_rsr_pmt_source_data_contract
+          class_name: DREAMSFolioRsrPmtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: RSR_PMT
+          router_database: *database
+          router_schema: *schema
+          router_table: RSR_PMT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_se_txn_source_data_contract
+          class_name: DREAMSFolioSeTxnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: SE_TXN
+          router_database: *database
+          router_schema: *schema
+          router_table: SE_TXN
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_settl_meth_source_data_contract
+          class_name: DREAMSFolioSettlMethModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: SETTL_METH
+          router_database: *database
+          router_schema: *schema
+          router_table: SETTL_METH
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_settl_meth_card_source_data_contract
+          class_name: DREAMSFolioSettlMethCardModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: SETTL_METH_CARD
+          router_database: *database
+          router_schema: *schema
+          router_table: SETTL_METH_CARD
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_settl_meth_folio_source_data_contract
+          class_name: DREAMSFolioSettlMethFolioModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: SETTL_METH_FOLIO
+          router_database: *database
+          router_schema: *schema
+          router_table: SETTL_METH_FOLIO
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_settl_meth_rsr_source_data_contract
+          class_name: DREAMSFolioSettlMethRsrModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: SETTL_METH_RSR
+          router_database: *database
+          router_schema: *schema
+          router_table: SETTL_METH_RSR
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_sys_pmt_source_data_contract
+          class_name: DREAMSFolioSysPmtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: SYS_PMT
+          router_database: *database
+          router_schema: *schema
+          router_table: SYS_PMT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_ta_acm_comm_source_data_contract
+          class_name: DREAMSFolioTaAcmCommModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: TA_ACM_COMM
+          router_database: *database
+          router_schema: *schema
+          router_table: TA_ACM_COMM
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_trvl_agcy_source_data_contract
+          class_name: DREAMSFolioTrvlAgcyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: TRVL_AGCY
+          router_database: *database
+          router_schema: *schema
+          router_table: TRVL_AGCY
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_trvl_agcy_chrg_com_source_data_contract
+          class_name: DREAMSFolioTrvlAgcyChrgComModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: TRVL_AGCY_CHRG_COM
+          router_database: *database
+          router_schema: *schema
+          router_table: TRVL_AGCY_CHRG_COM
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_trvl_agcy_comm_source_data_contract
+          class_name: DREAMSFolioTrvlAgcyCommModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: TRVL_AGCY_COMM
+          router_database: *database
+          router_schema: *schema
+          router_table: TRVL_AGCY_COMM
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_unappl_ppty_source_data_contract
+          class_name: DREAMSFolioUnapplPptyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: UNAPPL_PPTY
+          router_database: *database
+          router_schema: *schema
+          router_table: UNAPPL_PPTY
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_vchr_pmt_source_data_contract
+          class_name: DREAMSFolioVchrPmtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: VCHR_PMT
+          router_database: *database
+          router_schema: *schema
+          router_table: VCHR_PMT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_bank_dpst_source_data_contract
+          class_name: DREAMSFolioBankDpstModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: BANK_DPST
+          router_database: *database
+          router_schema: *schema
+          router_table: BANK_DPST
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_bill_source_data_contract
+          class_name: DREAMSFolioBillModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: BILL
+          router_database: *database
+          router_schema: *schema
+          router_table: BILL
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_cash_pmt_source_data_contract
+          class_name: DREAMSFolioCashPmtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CASH_PMT
+          router_database: *database
+          router_schema: *schema
+          router_table: CASH_PMT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_chk_pmt_source_data_contract
+          class_name: DREAMSFolioChkPmtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CHK_PMT
+          router_database: *database
+          router_schema: *schema
+          router_table: CHK_PMT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_crncy_source_data_contract
+          class_name: DREAMSFolioCrncyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: CRNCY
+          router_database: *database
+          router_schema: *schema
+          router_table: CRNCY
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_exprnc_card_pmt_source_data_contract
+          class_name: DREAMSFolioExprncCardPmtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: EXPRNC_CARD_PMT
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_CARD_PMT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_gbl_tkt_comm_source_data_contract
+          class_name: DREAMSFolioGblTktCommModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: GBL_TKT_COMM
+          router_database: *database
+          router_schema: *schema
+          router_table: GBL_TKT_COMM
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_lock_bx_pmt_source_data_contract
+          class_name: DREAMSFolioLockBxPmtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: LOCK_BX_PMT
+          router_database: *database
+          router_schema: *schema
+          router_table: LOCK_BX_PMT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_settl_meth_dir_bill_source_data_contract
+          class_name: DREAMSFolioSettlMethDirBillModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: SETTL_METH_DIR_BILL
+          router_database: *database
+          router_schema: *schema
+          router_table: SETTL_METH_DIR_BILL
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_ta_comm_rt_spec_source_data_contract
+          class_name: DREAMSFolioTaCommRtSpecModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: TA_COMM_RT_SPEC
+          router_database: *database
+          router_schema: *schema
+          router_table: TA_COMM_RT_SPEC
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_tax_exmpt_typ_source_data_contract
+          class_name: DREAMSFolioTaxExmptTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: TAX_EXMPT_TYP
+          router_database: *database
+          router_schema: *schema
+          router_table: TAX_EXMPT_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.folio.v0.dreams_folio_txn_rsn_source_data_contract
+          class_name: DREAMSFolioTxnRsnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: TXN_RSN
+          router_database: *database
+          router_schema: *schema
+          router_table: TXN_RSN

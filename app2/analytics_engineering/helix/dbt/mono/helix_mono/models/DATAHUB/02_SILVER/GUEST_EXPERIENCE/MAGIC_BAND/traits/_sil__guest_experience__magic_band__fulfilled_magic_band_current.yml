@@ -1,0 +1,169 @@
+version: 2
+
+models:
+  - name: sil__guest_experience__magic_band__fulfilled_magic_band_current
+    description: "{{ doc('sil__guest_experience__magic_band__fulfilled_magic_band_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=guest_experience
+        - sub_domain=magic_band
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: fulfilled_magic_band_id
+        description: ""
+
+      - name: magic_band_id
+        description: ""
+
+      - name: public_id
+        description: ""
+
+      - name: secure_id
+        description: ""
+
+      - name: external_number
+        description: ""
+
+      - name: short_range_tag_number
+        description: ""
+
+      - name: long_range_tag_number
+        description: ""
+
+      - name: lot_number
+        description: ""
+
+      - name: current_guest_link_id
+        description: ""
+
+      - name: original_guest_link_id
+        description: ""
+
+      - name: magic_band_unique_identifier
+        description: ""
+
+      - name: magic_band_sequence_number
+        description: ""
+
+      - name: guest_confirmation_indicator
+        description: ""
+
+      - name: customized_print_name_indicator
+        description: ""
+
+      - name: retail_indicator
+        description: ""
+
+      - name: guest_opt_out_indicator
+        description: ""
+
+      - name: printed_name
+        description: ""
+
+      - name: override_printed_name
+        description: ""
+
+      - name: current_magic_band_status_id
+        description: ""
+
+      - name: current_status_code
+        description: ""
+
+      - name: current_status_description
+        description: ""
+
+      - name: current_magic_band_status_category_id
+        description: ""
+
+      - name: current_satatus_category_code
+        description: ""
+
+      - name: current_status_category_description
+        description: ""
+
+      - name: magic_band_configuration_id
+        description: ""
+
+      - name: configuration_description
+        description: ""
+
+      - name: available_to_guest_indicator
+        description: ""
+
+      - name: configuration_confirmation_indicator
+        description: ""
+
+      - name: module_configuration_id
+        description: ""
+
+      - name: module_id
+        description: ""
+
+      - name: module_version_id
+        description: ""
+
+      - name: module_code
+        description: ""
+
+      - name: module_description
+        description: ""
+
+      - name: module_available_to_guest_indicator
+        description: ""
+
+      - name: facility_id
+        description: ""
+
+      - name: facility_name
+        description: ""
+
+      - name: manufacture_tool_id
+        description: ""
+
+      - name: manufacture_tool_code
+        description: ""
+
+      - name: manufacture_tool_description
+        description: ""
+
+      - name: vendor_id
+        description: ""
+
+      - name: vendor_code
+        description: ""
+
+      - name: vendor_name
+        description: ""
+
+      - name: vendor_role_id
+        description: ""
+
+      - name: vendor_role_code
+        description: ""
+
+      - name: vendor_role_description
+        description: ""
+
+      - name: shipment_case_id
+        description: ""
+
+      - name: source_system_create_user_id
+        description: ""
+
+      - name: source_system_create_datetime
+        description: ""
+
+      - name: source_system_update_user_id
+        description: ""
+
+      - name: source_system_update_datetime
+        description: ""
+
+      - name: source_system_logical_delete_indicator
+        description: ""

@@ -1,0 +1,346 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_sales_reservations__contract_current
+    description: "{{ doc('sil__hotel_lodging__room_sales_reservations__contract_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_sales_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: contract_group_supplier_id
+        description: ""
+
+      - name: contract_group_reference
+        description: ""
+
+      - name: contract_group_description
+        description: ""
+
+      - name: contract_group_company
+        description: ""
+
+      - name: contract_group_division
+        description: ""
+
+      - name: contract_group_product
+        description: ""
+
+      - name: contract_group_addon
+        description: ""
+
+      - name: contract_group_addon_priority
+        description: ""
+
+      - name: contract_group_pre_departure
+        description: ""
+
+      - name: contract_group_last_modified_time
+        description: ""
+
+      - name: contract_group_contract_source
+        description: ""
+
+      - name: contract_group_destination
+        description: ""
+
+      - name: company_name
+        description: ""
+
+      - name: division_name
+        description: ""
+
+      - name: supplier_code
+        description: ""
+
+      - name: supplier_identity_value
+        description: ""
+
+      - name: supplier_name
+        description: ""
+
+      - name: supplier_address
+        description: ""
+
+      - name: supplier_city
+        description: ""
+
+      - name: supplier_resort
+        description: ""
+
+      - name: supplier_tourist_region
+        description: ""
+
+      - name: supplier_post_code
+        description: ""
+
+      - name: contract_id
+        description: ""
+
+      - name: contract_group_id
+        description: ""
+
+      - name: contract_type
+        description: ""
+
+      - name: contract_version
+        description: ""
+
+      - name: contract_parent_version
+        description: ""
+
+      - name: contract_status
+        description: ""
+
+      - name: contract_status_name
+        description: ""
+
+      - name: contract_stage
+        description: ""
+
+      - name: contract_valid_from
+        description: ""
+
+      - name: contract_valid_to
+        description: ""
+
+      - name: contract_sales_from
+        description: ""
+
+      - name: contract_sales_to
+        description: ""
+
+      - name: contract_entered_by
+        description: ""
+
+      - name: contract_entered_on
+        description: ""
+
+      - name: contract_modified_by
+        description: ""
+
+      - name: contract_modified_on
+        description: ""
+
+      - name: contract_net_currency
+        description: ""
+
+      - name: contract_rate_type
+        description: ""
+
+      - name: contract_default_gross_currency
+        description: ""
+
+      - name: contract_prorata
+        description: ""
+
+      - name: contract_sell_alone
+        description: ""
+
+      - name: contract_pay_supplier_gross
+        description: ""
+
+      - name: contract_errata_group
+        description: ""
+
+      - name: contract_country
+        description: ""
+
+      - name: contract_stage_reason
+        description: ""
+
+      - name: contract_tax_exempt_indicator
+        description: ""
+
+      - name: contract_tax_override
+        description: ""
+
+      - name: contract_item_wise
+        description: ""
+
+      - name: contract_terms_and_conditions
+        description: ""
+
+      - name: contract_group_rates
+        description: ""
+
+      - name: contract_date_wise_supplier
+        description: ""
+
+      - name: contract_trackable
+        description: ""
+
+      - name: contract_voucher_code
+        description: ""
+
+      - name: contract_last_modified_timestamp
+        description: ""
+
+      - name: generic_contract_product
+        description: ""
+
+      - name: generic_contract_starting_days
+        description: ""
+
+      - name: generic_contract_price_guaranteed
+        description: ""
+
+      - name: generic_contract_customer_pay_supplier
+        description: ""
+
+      - name: generic_contract_tourist_region
+        description: ""
+
+      - name: generic_contract_city
+        description: ""
+
+      - name: generic_contract_resort
+        description: ""
+
+      - name: generic_contract_airport
+        description: ""
+
+      - name: generic_contract_duration_type
+        description: ""
+
+      - name: generic_contract_state_value
+        description: ""
+
+      - name: generic_contract_accom_id
+        description: ""
+
+      - name: generic_contract_accom_code
+        description: ""
+
+      - name: generic_contract_accom_name
+        description: ""
+
+      - name: generic_contract_content_supplier_id
+        description: ""
+
+      - name: generic_contract_content_supplier_code
+        description: ""
+
+      - name: generic_contract_content_supplier_name
+        description: ""
+
+      - name: generic_contract_send_documents_to_supplier
+        description: ""
+
+      - name: generic_contract_special_pricing
+        description: ""
+
+      - name: generic_contract_special_pricing_method
+        description: ""
+
+      - name: generic_contract_pricing_override
+        description: ""
+
+      - name: generic_contract_usage_override
+        description: ""
+
+      - name: generic_contract_bundle_product
+        description: ""
+
+      - name: accommodation_contract_eclc_allowed
+        description: ""
+
+      - name: accommodation_contract_eclc_guranteed
+        description: ""
+
+      - name: accommodation_contract_checkin_time
+        description: ""
+
+      - name: accommodation_contract_checkout_time
+        description: ""
+
+      - name: accommodation_contract_customer_pay_supplier
+        description: ""
+
+      - name: accommodation_contract_pay_supplier_gross
+        description: ""
+
+      - name: accommodation_contract_preferred_board_basis
+        description: ""
+
+      - name: accommodation_contract_allocation_contract_id
+        description: ""
+
+      - name: accommodation_contract_room_wise_or_pax_wise
+        description: ""
+
+      - name: accommodation_contract_calculation_weight
+        description: ""
+
+      - name: accommodation_contract_document_send_to_supplier
+        description: ""
+
+      - name: accommodation_contract_rate_plan_code
+        description: ""
+
+      - name: accommodation_contract_rate_plan_name
+        description: ""
+
+      - name: accommodation_contract_deleted
+        description: ""
+
+      - name: accommodation_contract_supplier_commission
+        description: ""
+
+      - name: car_contract_daily_weekly_rental
+        description: ""
+
+      - name: car_contract_one_way_free
+        description: ""
+
+      - name: car_contract_min_age
+        description: ""
+
+      - name: car_contract_max_age
+        description: ""
+
+      - name: car_contract_issue_voucher
+        description: ""
+
+      - name: car_contract_multi_hire
+        description: ""
+
+      - name: car_contract_one_way_fee_payable_locally
+        description: ""
+
+      - name: car_contract_daily_or_24hourly_rate
+        description: ""
+
+      - name: car_contract_max_duration
+        description: ""
+
+      - name: car_contract_periodic_factor
+        description: ""
+
+      - name: car_contract_calculation_type
+        description: ""
+
+      - name: car_contract_fc
+        description: ""
+
+      - name: contract_min_bank_to_deposit_days
+        description: ""
+
+      - name: insurance_contract_family_policy
+        description: ""
+
+      - name: insurance_contract_annual_policy
+        description: ""
+
+      - name: insurance_contract_commission
+        description: ""
+
+      - name: insurance_contract_policy_type
+        description: ""

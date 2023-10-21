@@ -1,0 +1,339 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__west__pkg_holiday_versioned
+    description: '{{ doc("sil__intermediate__travelbox__west__pkg_holiday_versioned") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_versioned
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_package_id
+            - metadata_checksum
+
+    columns:
+      - name: data_template_type
+        description: "Indicate package template type | example: 1"
+
+      - name: data_last_modified_timestamp
+        description: "The time at which the last modification has done. | example: 1989-01-17 08:22:18"
+
+      - name: data_block_code
+        description: "Unique code of the block | example: EFaHllDUwsKoLVGULXHs"
+
+      - name: data_bp_override
+        description: "NaN | example: 0"
+
+      - name: data_prod_defn_id
+        description: "NaN | example: 2270"
+
+      - name: data_prod_defn_temp_grp_code
+        description: "NaN | example: eniFOKePJAYaACUOuFAq"
+
+      - name: data_rate_category_code
+        description: "Rate category code | example: xpvnKaTlmucNMJTacfxT"
+
+      - name: data_offer_group_code
+        description: "NaN | example: lYNMAGLtfXBdVaVrcNUj"
+
+      - name: data_offer_group_name
+        description: "NaN | example: rxHYMRmqMsUFAeyJpRjD"
+
+      - name: data_time_to_publish
+        description: "NaN | example: 1993-07-05 09:32:01"
+
+      - name: data_last_audited_time
+        description: "NaN | example: 2001-08-28 11:35:10"
+
+      - name: data_package_id
+        description: "The foreign key which refers the field PACKAGE_ID of the table PKG_HOLIDAY | example: 13768"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_pkg_group_id
+        description: "Id of the Package Group associated with the Scheme Rule. | example: 13857"
+
+      - name: data_version
+        description: "The version of the contract | example: 1"
+
+      - name: data_parent_version
+        description: "Deprecated | example: 0"
+
+      - name: data_product_type
+        description: "Other Cost applicable Product Type Code | example: MISC"
+
+      - name: data_holiday_type
+        description: "The TravelBox code of the holiday type for which the limit is defined for | example: RMLS"
+
+      - name: data_valid_from
+        description: "The start date of the valid stay date period of the contract. A booking from this contract needs to be within this range. | example: 2017-11-01 18:04:40"
+
+      - name: data_valid_to
+        description: "The end date of the valid stay date period of the contract. A booking from this contract needs to be within this range. | example: 2019-06-20 06:22:59"
+
+      - name: data_sales_from
+        description: "The start date of the valid sales period of this contract | example: 2003-06-28 06:00:17"
+
+      - name: data_sales_to
+        description: "The end date of the valid sales period of this contract | example: 2015-08-25 05:09:26"
+
+      - name: data_status
+        description: "The TravelBox code of the status of the contract | example: 503"
+
+      - name: data_stage
+        description: "The TravelBox code of the stage of the contract | example: 50301"
+
+      - name: data_stage_reason
+        description: "The TravelBox name of the reason for the stage of the contract | example: TtuxlNzBNOjKbGlGrygn"
+
+      - name: data_original_package
+        description: "deprecated | example: 0"
+
+      - name: data_average_margin
+        description: "Deprecated | example: 0.0"
+
+      - name: data_description
+        description: "The TravelBox name of the board basis | example: PLaGQHxAjlLAWhNDbQlJ"
+
+      - name: data_entered_by
+        description: "The TravelBox user id of the user who has entered this accomodation contract in to system | example: 15073"
+
+      - name: data_entered_on
+        description: "The date/time on which this accomodation contract is entered into the system | example: 2021-12-03 15:58:19"
+
+      - name: data_modified_on
+        description: "The date on which the contract get modified. If no modifications done after the creation, this field holds the contract created date. | example: 2023-05-24 04:54:30"
+
+      - name: data_modified_by
+        description: "The TravelBox user id of the user who modified the contract. If no modification done after the creation, this field holds the user id of the user who created the contract | example: 15873"
+
+      - name: data_costing_currency
+        description: "The TravelBox code of the currency which the rates are defined in the package | example: USD"
+
+      - name: data_ext_main_pkg_duration
+        description: "deprecated | example: 0"
+
+      - name: data_company
+        description: "The TravelBox code of the company for which the limit is defined for | example: WDTC"
+
+      - name: data_calc_cli_group
+        description: "The TravelBox code of the client group defined for package cost and prices when pricing method is Markup, Contract markup or Package Markup | example: DIRECT"
+
+      - name: data_calc_dist_channel
+        description: "The TravelBox code of the distribution channel defined for package cost and prices when pricing method is Markup, Contract markup or Package Markup  | example: C"
+
+      - name: data_calc_type
+        description: ", possible values are_x000D_
+C - Cost_x000D_
+P - Price_x000D_
+CP - Both | example: CP"
+
+      - name: data_calc_pricing_method
+        description: "The pricing method of the packages, possible values are_x000D_
+1 - Margin_x000D_
+2 - Markup_x000D_
+3 - Contract Markup_x000D_
+4 - Package Markup | example: 3"
+
+      - name: data_element_level_margin_markup
+        description: "Flag to indicate whether elements inside an itinerary can have_x000D_
+different margins and markups. In Costs and Prices node , Element_x000D_
+Markup/Margin checkbox | example: 0"
+
+      - name: data_calc_brand
+        description: "The TravelBox code of the brand defined for package cost and prices when pricing method is Markup, Contract markup or Package Markup | example: CORE"
+
+      - name: data_minimum_margin
+        description: "The minimum profit margin percentage of the package | example: 77798.0"
+
+      - name: data_minimum_margin_amount_type
+        description: "deprecated | example: lbeYyhzbWGaGFzOpDLLO"
+
+      - name: data_calc_pax_base
+        description: "Setup at Departure tab of Dates node of the package. Used to determine_x000D_
+the group size of the contract for which are defined as group rate contracts. | example: 0"
+
+      - name: data_division
+        description: "The TravelBox code of the division for which the limit is defined for | example: WDTCDLR"
+
+      - name: data_dep_date_exist
+        description: "deprecated | example: 0"
+
+      - name: data_constant_air_tax
+        description: "deprecated | example: 0"
+
+      - name: data_cms_code
+        description: "User defined CMS code which is taken as parameter values for tb_code, tb_itin, tb_pricegrid in package, itinerary and price grid respectively in the CMS URL which refers from travelbox to CMS. If this value is not defined the system will take package code, itinerary code and price grid name as default value of above variables. | example: bTBMkgRulAEquJqZrIpp"
+
+      - name: data_children_as_adult
+        description: "If this flag is selected it is allowed book the package even if in the search criteria number of_x000D_
+children are higher than what is mentioned in the sharing rules. But for the number of children_x000D_
+exceeding the no of child in sharing rules, adult charge will be applied | example: 0"
+
+      - name: data_no_of_pax
+        description: "The Maximum total number of passengers that can be in a booking, in order to apply the Scheme Rule. | example: 0"
+
+      - name: data_separate_itin_no_next_val
+        description: "When entries are added to pkg_seperate_itinerary table assigned_itinerary_no is given SEPARATE_ITIN_NO_NEXT_VAL + 1 | example: 500"
+
+      - name: data_calc_booking_date
+        description: "The date which the rates are calculated from contracts for the package | example: 2010-08-04 06:10:36"
+
+      - name: data_calc_cost_dep_date_only
+        description: "Boolean value can take 0 or 1_x000D_
+If 1 only the departure dates of the element are considered for the package calculation_x000D_
+elese calculation happens for the whole valid period of the element | example: 0"
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: metadata_version_start_datetime
+        description: "Version start datetime"
+        tests:
+          - not_null
+
+      - name: metadata_version_end_datetime
+        description: "Version end datetime"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

@@ -1,0 +1,166 @@
+[
+    {
+        "data": {
+            "CHRG_RPST_DIFF_LOG_ID": 309049895,
+            "EXTNL_TKT_NB": "0400101395",
+            "EXPRNC_CARD_NB": "993753024551406902",
+            "PST_DTS": "2023-06-10T21:23:00Z",
+            "TXN_ACCT_CTR_ID": 218202,
+            "CHRG_RPST_AM": 5.5,
+            "RPST_CRNCY_CD": "USD",
+            "STRTS_RTRVL_REF_NB": "235181824614",
+            "transact_commit_timestamp": "2023-06-11T14:40:44Z",
+            "transact_seq": "20230611144044000000000000092438269"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T18:42:23.071543Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CHRG_RPST_DIFF_LOG",
+            "transaction-id": 327713
+        }
+    },
+    {
+        "data": {
+            "CHRG_RPST_DIFF_LOG_ID": 309049896,
+            "EXTNL_TKT_NB": "0400002078",
+            "EXPRNC_CARD_NB": "994752311645372401",
+            "PST_DTS": "2023-06-11T01:08:00Z",
+            "TXN_ACCT_CTR_ID": 11685,
+            "TNDR_TYP_NM": "13",
+            "CHRG_RPST_AM": 19.16,
+            "RPST_CRNCY_CD": "USD",
+            "STRTS_RTRVL_REF_NB": "235282114376",
+            "transact_commit_timestamp": "2023-06-11T14:40:44Z",
+            "transact_seq": "20230611144044000000000000092439289"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T18:42:24.334361Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CHRG_RPST_DIFF_LOG",
+            "transaction-id": 1703987
+        }
+    },
+    {
+        "data": {
+            "CHRG_RPST_DIFF_LOG_ID": 309049975,
+            "EXTNL_TKT_NB": "0400002433",
+            "EXPRNC_CARD_NB": "991075311975798201",
+            "PST_DTS": "2023-06-11T00:59:00Z",
+            "TXN_ACCT_CTR_ID": 10164,
+            "TNDR_TYP_NM": "13",
+            "CHRG_RPST_AM": 5.1,
+            "RPST_CRNCY_CD": "USD",
+            "STRTS_RTRVL_REF_NB": "235282107918",
+            "transact_commit_timestamp": "2023-06-11T14:40:44Z",
+            "transact_seq": "20230611144044000000000000092440081"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T18:42:25.392281Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CHRG_RPST_DIFF_LOG",
+            "transaction-id": 786444
+        }
+    },
+    {
+        "data": {
+            "CHRG_RPST_DIFF_LOG_ID": 309049976,
+            "EXTNL_TKT_NB": "0500050181",
+            "EXPRNC_CARD_NB": "991552169681129203",
+            "PST_DTS": "2023-06-10T18:04:00Z",
+            "TXN_ACCT_CTR_ID": 11169,
+            "TNDR_TYP_NM": "13",
+            "CHRG_RPST_AM": 5,
+            "RPST_CRNCY_CD": "USD",
+            "STRTS_RTRVL_REF_NB": "235181511654",
+            "transact_commit_timestamp": "2023-06-11T14:40:45Z",
+            "transact_seq": "20230611144045000000000000092441089"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T18:42:26.512517Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CHRG_RPST_DIFF_LOG",
+            "transaction-id": 2031619
+        }
+    },
+    {
+        "data": {
+            "CHRG_RPST_DIFF_LOG_ID": 309049977,
+            "EXTNL_TKT_NB": "0300008455",
+            "EXPRNC_CARD_NB": "993552256696442101",
+            "PST_DTS": "2023-06-11T00:15:00Z",
+            "TXN_ACCT_CTR_ID": 82803,
+            "TNDR_TYP_NM": "13",
+            "CHRG_RPST_AM": 77.02,
+            "RPST_CRNCY_CD": "USD",
+            "STRTS_RTRVL_REF_NB": "235282050744",
+            "transact_seq": "20230611144045000000000000092441953"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T18:42:27.728163Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CHRG_RPST_DIFF_LOG",
+            "transaction-id": 917544
+        }
+    },
+    {
+        "data": {
+            "CHRG_RPST_DIFF_LOG_ID": 309049978,
+            "EXTNL_TKT_NB": "0600002015",
+            "EXPRNC_CARD_NB": "992252340932986502",
+            "PST_DTS": "2023-06-09T15:36:00Z",
+            "TXN_ACCT_CTR_ID": 11203,
+            "TNDR_TYP_NM": "13",
+            "CHRG_RPST_AM": 18.71,
+            "RPST_CRNCY_CD": "USD",
+            "STRTS_RTRVL_REF_NB": "235089923326",
+            "transact_commit_timestamp": "2023-06-11T14:40:45Z"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T18:42:29.266073Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CHRG_RPST_DIFF_LOG",
+            "transaction-id": 1703947
+        }
+    },
+    {
+        "data": {
+            "CHRG_RPST_DIFF_LOG_ID": 309049979,
+            "EXTNL_TKT_NB": "0300005641",
+            "EXPRNC_CARD_NB": "993475313692575201",
+            "PST_DTS": "2023-06-10T23:14:00Z",
+            "TXN_ACCT_CTR_ID": 56803,
+            "TNDR_TYP_NM": "13",
+            "CHRG_RPST_AM": 20.22,
+            "RPST_CRNCY_CD": "USD",
+            "STRTS_RTRVL_REF_NB": "235181944068",
+            "transact_commit_timestamp": "2023-06-11T14:40:45Z",
+            "transact_seq": "20230611144045000000000000092443717"
+        },
+        "metadata": {
+            "timestamp": "2023-06-11T18:42:30.171003Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CHRG_RPST_DIFF_LOG"
+        }
+    }
+]

@@ -1,0 +1,191 @@
+[
+	{
+		"data": {
+			"CREATE_DTS": "2023-08-15T16:59:53.495000Z",
+			"CREATE_USR_ID_CD": "NIEVS009",
+			"EXTNL_OWN_REF_VAL": "753227015759",
+			"OWN_REF_TYP_NM": "TP",
+			"PRGE_DTS": null,
+			"RSRC_OWN_ID": 309095440
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "rsrc_own_ref",
+			"timestamp": "2023-08-15T20:59:56.859668Z",
+			"transaction-id": 14727516181373
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-08-15T16:59:53.495000Z",
+			"CREATE_USR_ID_CD": "NIEVS009",
+			"EXTNL_OWN_REF_VAL": "153227998571",
+			"OWN_REF_TYP_NM": "TPS",
+			"PRGE_DTS": null,
+			"RSRC_OWN_ID": 309095440
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "rsrc_own_ref",
+			"timestamp": "2023-08-15T20:59:56.867338Z",
+			"transaction-id": 14727516181373
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-08-15T16:59:53.495000Z",
+			"CREATE_USR_ID_CD": "NIEVS009",
+			"EXTNL_OWN_REF_VAL": "12099958061",
+			"OWN_REF_TYP_NM": "TC",
+			"PRGE_DTS": null,
+			"RSRC_OWN_ID": 309095440
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "rsrc_own_ref",
+			"timestamp": "2023-08-15T20:59:56.873082Z",
+			"transaction-id": 14727516181373
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-08-15T16:59:53.986000Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"EXTNL_OWN_REF_VAL": "753227016013",
+			"OWN_REF_TYP_NM": "TP",
+			"PRGE_DTS": null,
+			"RSRC_OWN_ID": 309095441
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "rsrc_own_ref",
+			"timestamp": "2023-08-15T20:59:57.301471Z",
+			"transaction-id": 14727516188606
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-08-15T16:59:53.986000Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"EXTNL_OWN_REF_VAL": "353227472448",
+			"OWN_REF_TYP_NM": "TPS",
+			"PRGE_DTS": null,
+			"RSRC_OWN_ID": 309095441
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "rsrc_own_ref",
+			"timestamp": "2023-08-15T20:59:57.307758Z",
+			"transaction-id": 14727516188606
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-08-15T16:59:53.986000Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"EXTNL_OWN_REF_VAL": "32120548589",
+			"OWN_REF_TYP_NM": "TC",
+			"PRGE_DTS": null,
+			"RSRC_OWN_ID": 309095441
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "rsrc_own_ref",
+			"timestamp": "2023-08-15T20:59:57.316121Z",
+			"transaction-id": 14727516188606
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-08-15T16:58:05.618000Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"EXTNL_OWN_REF_VAL": "32120548420",
+			"OWN_REF_TYP_NM": "TC",
+			"PRGE_DTS": null,
+			"RSRC_OWN_ID": 309095353
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "rsrc_own_ref",
+			"timestamp": "2023-08-15T20:59:57.511641Z",
+			"transaction-id": 14727516192804
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-08-15T16:58:05.618000Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"EXTNL_OWN_REF_VAL": "353227472713",
+			"OWN_REF_TYP_NM": "TPS",
+			"PRGE_DTS": null,
+			"RSRC_OWN_ID": 309095353
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "rsrc_own_ref",
+			"timestamp": "2023-08-15T20:59:57.517481Z",
+			"transaction-id": 14727516192804
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-08-15T16:58:05.618000Z",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"EXTNL_OWN_REF_VAL": "753214881896",
+			"OWN_REF_TYP_NM": "TP",
+			"PRGE_DTS": null,
+			"RSRC_OWN_ID": 309095353
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "rsrc_own_ref",
+			"timestamp": "2023-08-15T20:59:57.525465Z",
+			"transaction-id": 14727516192804
+		}
+	},
+	{
+		"data": {
+			"CREATE_DTS": "2023-08-15T16:59:56.252000Z",
+			"CREATE_USR_ID_CD": "SUANL002",
+			"EXTNL_OWN_REF_VAL": "23732832",
+			"OWN_REF_TYP_NM": "INVENTORY_REQUEST",
+			"PRGE_DTS": null,
+			"RSRC_OWN_ID": 309095442
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "rsrc_own_ref",
+			"timestamp": "2023-08-15T20:59:57.764732Z"
+		}
+	}
+]

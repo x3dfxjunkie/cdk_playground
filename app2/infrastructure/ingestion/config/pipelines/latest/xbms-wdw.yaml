@@ -1,0 +1,2293 @@
+stack_extension: &se xbms-wdw # 12 Character Limit!
+ingest_pattern: &ip dms # DO NOT UPDATE must = dms for dms pattern
+active: True
+feature_branch: False # set to False unless you want to deploy DMS in ephemeral envs
+pattern_instances:
+  - region: &region-1 us-east-1 # DO NOT UPDATE
+    resources:
+      dms_repl_instance:
+        engine_version: "3.5.1"
+        multi_az: True
+      dms_repl_task: # AWS DMS replication task
+          # XBMS - Due to the large number of tables in XBMS, need to split the tables into different tasks to make it more managable.
+          # The rules are designed this way because certain wildcard expression filters in DMS don't seem to work as documented.
+        - &replication_task_definitions_1
+          replication_task_identifier: full1 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 1 - Rule 1 - Tablenames Starting with A" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: &source_schema xbandmd
+                  table-name: "a%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "2" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 1 - Rule 2 - Tablenames Starting with B" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "b%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "3" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 1 - Rule 3 - Tablenames Starting with C" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "c%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "4" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 1 - Rule 4 - Tablenames Starting with D" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "d%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "5" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 1 - Rule 5 - Exclude tables starting with batch_" # Unique name to identify the rule.
+                rule-action: exclude # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "batch[_]%" #Table qualifier
+          # Majority of the tables in XBMS start with EXPRNC_BAND (around 60 tables), so this has been split into several tasks.
+        - &replication_task_definitions_2
+          replication_task_identifier: full2 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 1 - Rule 1 - EVT_ADT_LOG" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "EVT_ADT_LOG" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "2" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 1 - Rule 2 - Tablenames Starting with EXPRNC_BAND_A" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]a%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "3" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 3 - Rule 3 - Tablenames Starting with EXPRNC_BAND_C" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]c%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "4" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 4 - Rule 4 - Tablenames Starting with EXPRNC_BAND_D" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]d%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "5" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 5 - Rule 5 - Tablenames Starting with EXPRNC_BAND_E" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]e%" #Table qualifier
+        - &replication_task_definitions_3
+          replication_task_identifier: full3 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 3 - Rule 1 - EVT_ADT_LOG" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "EVT_ADT_LOG" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "2" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 3 - Rule 2 - Tablenames Starting with EXPRNC_BAND_A" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]a%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "3" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 3 - Rule 3 - Tablenames Starting with EXPRNC_BAND_C" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]c%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "4" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 3 - Rule 4 - Tablenames Starting with EXPRNC_BAND_D" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]d%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "5" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 3 - Rule 5 - Tablenames Starting with EXPRNC_BAND_E" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]e%" #Table qualifier
+        - &replication_task_definitions_4
+          replication_task_identifier: full4 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 4 - Rule 1 -  Tablenames Starting with EXPRNC_BAND_F" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]f" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "2" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 4 - Rule 2 - Tablenames Starting with EXPRNC_BAND_G" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]g%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "3" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 4 - Rule 3 - Tablenames Starting with EXPRNC_BAND_H" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]h%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "4" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 4 - Rule 4 - Tablenames Starting with EXPRNC_BAND_I" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]i%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "5" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 4 - Rule 5 - Tablenames Starting with EXPRNC_BAND_L" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]l%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "6" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 4 - Rule 6 - Tablenames Starting with EXPRNC_BAND_M" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]m%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "7" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 4 - Rule 7 - Tablenames Starting with EXPRNC_BAND_O" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]o%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "8" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 4 - Rule 8 - Tablenames Starting with EXPRNC_BAND_P" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]p%" #Table qualifier
+        - &replication_task_definitions_5
+          replication_task_identifier: full5 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 5 - Rule 1 -  Tablenames Starting with EXPRNC_BAND_R" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]r" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "2" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 5 - Rule 2 - Tablenames Starting with EXPRNC_BAND_S" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]s%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "3" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 5 - Rule 3 - Tablenames Starting with EXPRNC_BAND_T" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]t%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "4" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 5 - Rule 4 - Tablenames Starting with EXPRNC_BAND_V" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "exprnc[_]band[_]v%" #Table qualifier
+        - &replication_task_definitions_6
+          replication_task_identifier: full6 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 6 - Rule 1 -  Tablenames Starting with F" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "f%" #Table qualifier
+        - &replication_task_definitions_7
+          replication_task_identifier: full7 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 7 - Rule 1 -  Tablenames Starting with G" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "g%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "2" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 7 - Rule 2 -  Tablenames Starting with H" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "h%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "3" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 7 - Rule 3 -  Tablenames Starting with I" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "i%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "4" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 7 - Rule 4 -  Tablenames Starting with L" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "l%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "5" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 7 - Rule 5 -  Tablenames Starting with M" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "m%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "6" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 7 - Rule 6 -  Tablenames Starting with O" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "o%" #Table qualifier
+        - &replication_task_definitions_8
+          replication_task_identifier: full8 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 8 - Rule 1 -  Tablenames Starting with P" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "p%" #Table qualifier
+        - &replication_task_definitions_9
+          replication_task_identifier: full9 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 9 - Rule 1 -  Tablenames Starting with R" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "r%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "2" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 9 - Rule 2 -  Tablenames Starting with S" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "s%" #Table qualifier
+        - &replication_task_definitions_10
+          replication_task_identifier: full10 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 10 - Rule 1 -  Tablenames Starting with T" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "t%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "2" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 10 - Rule 2 -  Tablenames Starting with U" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "u%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "3" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 10 - Rule 3 -  Tablenames Starting with V" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "v%" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "4" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 10 - Rule 4 -  Tablenames Starting with W" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "w%" #Table qualifier
+        - &replication_task_definitions_11
+          replication_task_identifier: full11 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "XBMS WDW - Task 11 - Rule 1 -  Test task for testing pipeline" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *source_schema
+                  table-name: "chrctr_grp" #Table qualifier
+        - <<: *replication_task_definitions_1 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc1
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - <<: *replication_task_definitions_2 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc2
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - <<: *replication_task_definitions_3 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc3
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - <<: *replication_task_definitions_4 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc4
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - <<: *replication_task_definitions_5 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc5
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - <<: *replication_task_definitions_6 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc6
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - <<: *replication_task_definitions_7 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc7
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - <<: *replication_task_definitions_8 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc8
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - <<: *replication_task_definitions_9 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc9
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - <<: *replication_task_definitions_10 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc10
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+      source_endpoint: # AWS DMS Source Endpoint.
+        engine_name: mariadb # The type of engine for the endpoint, depending on the EndpointType value. Valid values : mysql | oracle | mariadb | kinesis
+        ssl_mode: verify-ca #Enable Secure Sockets Layer (SSL) mode to use for the SSL connection. Allowed values: verify-ca,verify-full
+        settings: # See https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Source.html
+          secrets_manager_secret_id: arn:aws:secretsmanager:us-east-1:543276908693:secret:lst-use1-xbms-wdw-secret-fjRNVR #pragma: allowlist secret, The ARN, or display name of the SecretsManagerSecret that contains the MySQL endpoint connection details.
+      source_kms_key: 18661da4-1f67-4552-b213-3016e9c81a8d # Update for the secrets_manager_secret_id kms key
+      source_ssl_cert: rds-global-bundle # Update for the appropriate source dms certificate, most AWS DBs will use the rds-global-bundle by default
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_LATEST_LANDING # Needs update to appropriate default routing
+      data_contracts:
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_addr_source_data_contract
+          class_name: XBMSWDWAddrModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: addr
+          router_database: &database LATEST_LANDING
+          router_schema: &schema LND_XBMS_WDW
+          router_table: ADDR
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_arch_exprnc_band_lnk_lnk_source_data_contract
+          class_name: XBMSWDWArchExprncBandLnkLnkModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: arch_exprnc_band_lnk_lnk
+          router_database: *database
+          router_schema: *schema
+          router_table: ARCH_EXPRNC_BAND_LNK_LNK
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_ble_sku_source_data_contract
+          class_name: XBMSWDWBleSkuModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: ble_sku
+          router_database: *database
+          router_schema: *schema
+          router_table: BLE_SKU
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_brand_id_source_data_contract
+          class_name: XBMSWDWBrandIdModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: brand_id
+          router_database: *database
+          router_schema: *schema
+          router_table: BRAND_ID
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_build_band_req_fflmt_source_data_contract
+          class_name: XBMSWDWBuildBandReqFflmtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: build_band_req_fflmt
+          router_database: *database
+          router_schema: *schema
+          router_table: BUILD_BAND_REQ_FFLMT
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_build_band_sku_source_data_contract
+          class_name: XBMSWDWBuildBandSkuModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: build_band_sku
+          router_database: *database
+          router_schema: *schema
+          router_table: BUILD_BAND_SKU
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_build_band_sku_actvy_source_data_contract
+          class_name: XBMSWDWBuildBandSkuActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: build_band_sku_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: BUILD_BAND_SKU_ACTVY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_bus_area_source_data_contract
+          class_name: XBMSWDWBusAreaModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: bus_area
+          router_database: *database
+          router_schema: *schema
+          router_table: BUS_AREA
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_chrctr_grp_source_data_contract
+          class_name: XBMSWDWChrctrGrpModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: chrctr_grp
+          router_database: *database
+          router_schema: *schema
+          router_table: CHRCTR_GRP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_cntry_source_data_contract
+          class_name: XBMSWDWCntryModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: cntry
+          router_database: *database
+          router_schema: *schema
+          router_table: CNTRY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_cost_ctr_source_data_contract
+          class_name: XBMSWDWCostCtrModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: cost_ctr
+          router_database: *database
+          router_schema: *schema
+          router_table: COST_CTR
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_cost_ctr_config_source_data_contract
+          class_name: XBMSWDWCostCtrConfigModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: cost_ctr_config
+          router_database: *database
+          router_schema: *schema
+          router_table: COST_CTR_CONFIG
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_dsny_fac_source_data_contract
+          class_name: XBMSWDWDsnyFacModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: dsny_fac
+          router_database: *database
+          router_schema: *schema
+          router_table: DSNY_FAC
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_dsny_fac_band_stk_lvl_source_data_contract
+          class_name: XBMSWDWDsnyFacBandStkLvlModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: dsny_fac_band_stk_lvl
+          router_database: *database
+          router_schema: *schema
+          router_table: DSNY_FAC_BAND_STK_LVL
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_dsny_fac_lnk_source_data_contract
+          class_name: XBMSWDWDsnyFacLnkModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: dsny_fac_lnk
+          router_database: *database
+          router_schema: *schema
+          router_table: DSNY_FAC_LNK
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_dsny_fac_nm_source_data_contract
+          class_name: XBMSWDWDsnyFacNmModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: dsny_fac_nm
+          router_database: *database
+          router_schema: *schema
+          router_table: DSNY_FAC_NM
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_dsny_fac_txp_loc_source_data_contract
+          class_name: XBMSWDWDsnyFacTxpLocModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: dsny_fac_txp_loc
+          router_database: *database
+          router_schema: *schema
+          router_table: DSNY_FAC_TXP_LOC
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_dsny_fac_typ_source_data_contract
+          class_name: XBMSWDWDsnyFacTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: dsny_fac_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: DSNY_FAC_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_evt_adt_log_source_data_contract
+          class_name: XBMSWDWEvtAdtLogModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: evt_adt_log
+          router_database: *database
+          router_schema: *schema
+          router_table: EVT_ADT_LOG
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_accsry_source_data_contract
+          class_name: XBMSWDWExprncBandAccsryModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_accsry
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_ACCSRY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_accsry_band_source_data_contract
+          class_name: XBMSWDWExprncBandAccsryBandModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_accsry_band
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_ACCSRY_BAND
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_accsry_enttl_source_data_contract
+          class_name: XBMSWDWExprncBandAccsryEnttlModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_accsry_enttl
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_ACCSRY_ENTTL
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_accsry_prod_source_data_contract
+          class_name: XBMSWDWExprncBandAccsryProdModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_accsry_prod
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_ACCSRY_PROD
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_accsry_typ_source_data_contract
+          class_name: XBMSWDWExprncBandAccsryTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_accsry_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_ACCSRY_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_actvy_source_data_contract
+          class_name: XBMSWDWExprncBandActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_ACTVY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_claim_rule_source_data_contract
+          class_name: XBMSWDWExprncBandClaimRuleModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_claim_rule
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_CLAIM_RULE
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_claim_typ_source_data_contract
+          class_name: XBMSWDWExprncBandClaimTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_claim_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_CLAIM_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_color_source_data_contract
+          class_name: XBMSWDWExprncBandColorModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_color
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_COLOR
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_config_source_data_contract
+          class_name: XBMSWDWExprncBandConfigModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_config
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_CONFIG
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_dsny_fac_txfr_source_data_contract
+          class_name: XBMSWDWExprncBandDsnyFacTxfrModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_dsny_fac_txfr
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_DSNY_FAC_TXFR
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_dsny_prod_source_data_contract
+          class_name: XBMSWDWExprncBandDsnyProdModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_dsny_prod
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_DSNY_PROD
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_dsny_prod_sfx_source_data_contract
+          class_name: XBMSWDWExprncBandDsnyProdSfxModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_dsny_prod_sfx
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_DSNY_PROD_SFX
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_enttl_source_data_contract
+          class_name: XBMSWDWExprncBandEnttlModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_enttl
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_ENTTL
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_enttl_acq_typ_source_data_contract
+          class_name: XBMSWDWExprncBandEnttlAcqTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_enttl_acq_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_ENTTL_ACQ_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_enttl_actvy_source_data_contract
+          class_name: XBMSWDWExprncBandEnttlActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_enttl_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_ENTTL_ACTVY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_enttl_gst_lnk_source_data_contract
+          class_name: XBMSWDWExprncBandEnttlGstLnkModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_enttl_gst_lnk
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_ENTTL_GST_LNK
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_enttl_prod_source_data_contract
+          class_name: XBMSWDWExprncBandEnttlProdModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_enttl_prod
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_ENTTL_PROD
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_enttl_prod_actvy_source_data_contract
+          class_name: XBMSWDWExprncBandEnttlProdActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_enttl_prod_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_ENTTL_PROD_ACTVY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_enttl_rsn_source_data_contract
+          class_name: XBMSWDWExprncBandEnttlRsnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_enttl_rsn
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_ENTTL_RSN
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_fac_req_source_data_contract
+          class_name: XBMSWDWExprncBandFacReqModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_fac_req
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_FAC_REQ
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_fac_req_actvy_source_data_contract
+          class_name: XBMSWDWExprncBandFacReqActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_fac_req_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_FAC_REQ_ACTVY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_fac_req_item_source_data_contract
+          class_name: XBMSWDWExprncBandFacReqItemModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_fac_req_item
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_FAC_REQ_ITEM
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_fflmt_ord_source_data_contract
+          class_name: XBMSWDWExprncBandFflmtOrdModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_fflmt_ord
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_FFLMT_ORD
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_fflmt_ord_sts_source_data_contract
+          class_name: XBMSWDWExprncBandFflmtOrdStsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_fflmt_ord_sts
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_FFLMT_ORD_STS
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_gmr_prod_source_data_contract
+          class_name: XBMSWDWExprncBandGmrProdModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_gmr_prod
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_GMR_PROD
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_hlth_source_data_contract
+          class_name: XBMSWDWExprncBandHlthModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_hlth
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_HLTH
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_hlth_config_source_data_contract
+          class_name: XBMSWDWExprncBandHlthConfigModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_hlth_config
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_HLTH_CONFIG
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_idvl_req_source_data_contract
+          class_name: XBMSWDWExprncBandIdvlReqModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_idvl_req
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_IDVL_REQ
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_lnk_lnk_source_data_contract
+          class_name: XBMSWDWExprncBandLnkLnkModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_lnk_lnk
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_LNK_LNK
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_manu_tool_source_data_contract
+          class_name: XBMSWDWExprncBandManuToolModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_manu_tool
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_MANU_TOOL
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_mdle_source_data_contract
+          class_name: XBMSWDWExprncBandMdleModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_mdle
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_MDLE
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_mdle_config_source_data_contract
+          class_name: XBMSWDWExprncBandMdleConfigModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_mdle_config
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_MDLE_CONFIG
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_mdle_vrsn_source_data_contract
+          class_name: XBMSWDWExprncBandMdleVrsnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_mdle_vrsn
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_MDLE_VRSN
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_opt_out_rsn_source_data_contract
+          class_name: XBMSWDWExprncBandOptOutRsnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_opt_out_rsn
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_OPT_OUT_RSN
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_ord_sts_source_data_contract
+          class_name: XBMSWDWExprncBandOrdStsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_ord_sts
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_ORD_STS
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_ord_sts_actvy_source_data_contract
+          class_name: XBMSWDWExprncBandOrdStsActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_ord_sts_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_ORD_STS_ACTVY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_ord_sts_ctgy_source_data_contract
+          class_name: XBMSWDWExprncBandOrdStsCtgyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_ord_sts_ctgy
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_ORD_STS_CTGY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_pkg_source_data_contract
+          class_name: XBMSWDWExprncBandPkgModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_pkg
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_PKG
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_pkg_cmpnt_source_data_contract
+          class_name: XBMSWDWExprncBandPkgCmpntModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_pkg_cmpnt
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_PKG_CMPNT
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_pkg_cmpnt_attr_source_data_contract
+          class_name: XBMSWDWExprncBandPkgCmpntAttrModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_pkg_cmpnt_attr
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_PKG_CMPNT_ATTR
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_req_cnl_rsn_source_data_contract
+          class_name: XBMSWDWExprncBandReqCnlRsnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_req_cnl_rsn
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_REQ_CNL_RSN
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_req_hld_rsn_source_data_contract
+          class_name: XBMSWDWExprncBandReqHldRsnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_req_hld_rsn
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_REQ_HLD_RSN
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_req_lnk_source_data_contract
+          class_name: XBMSWDWExprncBandReqLnkModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_req_lnk
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_REQ_LNK
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_req_rsn_source_data_contract
+          class_name: XBMSWDWExprncBandReqRsnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_req_rsn
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_REQ_RSN
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_req_sts_source_data_contract
+          class_name: XBMSWDWExprncBandReqStsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_req_sts
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_REQ_STS
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_req_sts_actvy_source_data_contract
+          class_name: XBMSWDWExprncBandReqStsActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_req_sts_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_REQ_STS_ACTVY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_req_sts_ctgy_source_data_contract
+          class_name: XBMSWDWExprncBandReqStsCtgyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_req_sts_ctgy
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_REQ_STS_CTGY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_req_typ_source_data_contract
+          class_name: XBMSWDWExprncBandReqTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_req_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_REQ_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_res_tm_source_data_contract
+          class_name: XBMSWDWExprncBandResTmModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_res_tm
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_RES_TM
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_rl_source_data_contract
+          class_name: XBMSWDWExprncBandRlModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_rl
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_RL
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_rplmt_lnk_source_data_contract
+          class_name: XBMSWDWExprncBandRplmtLnkModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_rplmt_lnk
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_RPLMT_LNK
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_rplmt_mech_source_data_contract
+          class_name: XBMSWDWExprncBandRplmtMechModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_rplmt_mech
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_RPLMT_MECH
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_sts_source_data_contract
+          class_name: XBMSWDWExprncBandStsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_sts
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_STS
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_sts_ctgy_source_data_contract
+          class_name: XBMSWDWExprncBandStsCtgyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_sts_ctgy
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_STS_CTGY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_sub_sts_source_data_contract
+          class_name: XBMSWDWExprncBandSubStsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_sub_sts
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_SUB_STS
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_typ_source_data_contract
+          class_name: XBMSWDWExprncBandTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_typ_ctgy_source_data_contract
+          class_name: XBMSWDWExprncBandTypCtgyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_typ_ctgy
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_TYP_CTGY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_vndr_source_data_contract
+          class_name: XBMSWDWExprncBandVndrModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_vndr
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_VNDR
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_vndr_invtry_source_data_contract
+          class_name: XBMSWDWExprncBandVndrInvtryModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_vndr_invtry
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_VNDR_INVTRY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_vndr_rl_source_data_contract
+          class_name: XBMSWDWExprncBandVndrRlModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_vndr_rl
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_VNDR_RL
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_vndr_stk_lvl_source_data_contract
+          class_name: XBMSWDWExprncBandVndrStkLvlModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_vndr_stk_lvl
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_VNDR_STK_LVL
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_fac_req_hld_rsn_actvy_source_data_contract
+          class_name: XBMSWDWFacReqHldRsnActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: fac_req_hld_rsn_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: FAC_REQ_HLD_RSN_ACTVY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_fac_req_invtry_actn_source_data_contract
+          class_name: XBMSWDWFacReqInvtryActnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: fac_req_invtry_actn
+          router_database: *database
+          router_schema: *schema
+          router_table: FAC_REQ_INVTRY_ACTN
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_fac_req_invtry_actn_sts_source_data_contract
+          class_name: XBMSWDWFacReqInvtryActnStsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: fac_req_invtry_actn_sts
+          router_database: *database
+          router_schema: *schema
+          router_table: FAC_REQ_INVTRY_ACTN_STS
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_fac_req_invtry_txn_source_data_contract
+          class_name: XBMSWDWFacReqInvtryTxnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: fac_req_invtry_txn
+          router_database: *database
+          router_schema: *schema
+          router_table: FAC_REQ_INVTRY_TXN
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_fac_req_invtry_txn_typ_source_data_contract
+          class_name: XBMSWDWFacReqInvtryTxnTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: fac_req_invtry_txn_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: FAC_REQ_INVTRY_TXN_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_fac_req_item_accsry_source_data_contract
+          class_name: XBMSWDWFacReqItemAccsryModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: fac_req_item_accsry
+          router_database: *database
+          router_schema: *schema
+          router_table: FAC_REQ_ITEM_ACCSRY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_fac_req_shipmt_cnfirm_source_data_contract
+          class_name: XBMSWDWFacReqShipmtCnfirmModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: fac_req_shipmt_cnfirm
+          router_database: *database
+          router_schema: *schema
+          router_table: FAC_REQ_SHIPMT_CNFIRM
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_fac_req_shipmt_item_cnfirm_source_data_contract
+          class_name: XBMSWDWFacReqShipmtItemCnfirmModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: fac_req_shipmt_item_cnfirm
+          router_database: *database
+          router_schema: *schema
+          router_table: FAC_REQ_SHIPMT_ITEM_CNFIRM
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_fac_req_shipmt_item_stg_source_data_contract
+          class_name: XBMSWDWFacReqShipmtItemStgModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: fac_req_shipmt_item_stg
+          router_database: *database
+          router_schema: *schema
+          router_table: FAC_REQ_SHIPMT_ITEM_STG
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_family_grp_source_data_contract
+          class_name: XBMSWDWFamilyGrpModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: family_grp
+          router_database: *database
+          router_schema: *schema
+          router_table: FAMILY_GRP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_ffld_exprnc_band_source_data_contract
+          class_name: XBMSWDWFfldExprncBandModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: ffld_exprnc_band
+          router_database: *database
+          router_schema: *schema
+          router_table: FFLD_EXPRNC_BAND
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_fflmt_loc_source_data_contract
+          class_name: XBMSWDWFflmtLocModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: fflmt_loc
+          router_database: *database
+          router_schema: *schema
+          router_table: FFLMT_LOC
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_fflmt_procurmt_rsn_source_data_contract
+          class_name: XBMSWDWFflmtProcurmtRsnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: fflmt_procurmt_rsn
+          router_database: *database
+          router_schema: *schema
+          router_table: FFLMT_PROCURMT_RSN
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_fflmt_procurmt_rsn_config_source_data_contract
+          class_name: XBMSWDWFflmtProcurmtRsnConfigModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: fflmt_procurmt_rsn_config
+          router_database: *database
+          router_schema: *schema
+          router_table: FFLMT_PROCURMT_RSN_CONFIG
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_fflmt_shipmt_case_source_data_contract
+          class_name: XBMSWDWFflmtShipmtCaseModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: fflmt_shipmt_case
+          router_database: *database
+          router_schema: *schema
+          router_table: FFLMT_SHIPMT_CASE
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_fflmt_shipmt_direction_source_data_contract
+          class_name: XBMSWDWFflmtShipmtDirectionModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: fflmt_shipmt_direction
+          router_database: *database
+          router_schema: *schema
+          router_table: FFLMT_SHIPMT_DIRECTION
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_franchise_grp_source_data_contract
+          class_name: XBMSWDWFranchiseGrpModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: franchise_grp
+          router_database: *database
+          router_schema: *schema
+          router_table: FRANCHISE_GRP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_gmr_redir_instr_actvy_source_data_contract
+          class_name: XBMSWDWGmrRedirInstrActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: gmr_redir_instr_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: GMR_REDIR_INSTR_ACTVY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_gnrl_ldgr_source_data_contract
+          class_name: XBMSWDWGnrlLdgrModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: gnrl_ldgr
+          router_database: *database
+          router_schema: *schema
+          router_table: GNRL_LDGR
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_grp_mstr_rec_source_data_contract
+          class_name: XBMSWDWGrpMstrRecModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_mstr_rec
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_MSTR_REC
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_grp_mstr_rec_actvy_source_data_contract
+          class_name: XBMSWDWGrpMstrRecActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_mstr_rec_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_MSTR_REC_ACTVY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_grp_mstr_rec_dlvr_sum_source_data_contract
+          class_name: XBMSWDWGrpMstrRecDlvrSumModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_mstr_rec_dlvr_sum
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_MSTR_REC_DLVR_SUM
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_grp_mstr_rec_dlvr_sum_actvy_source_data_contract
+          class_name: XBMSWDWGrpMstrRecDlvrSumActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_mstr_rec_dlvr_sum_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_MSTR_REC_DLVR_SUM_ACTVY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_grp_mstr_rec_redir_instr_source_data_contract
+          class_name: XBMSWDWGrpMstrRecRedirInstrModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_mstr_rec_redir_instr
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_MSTR_REC_REDIR_INSTR
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_grp_mstr_rec_sort_source_data_contract
+          class_name: XBMSWDWGrpMstrRecSortModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_mstr_rec_sort
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_MSTR_REC_SORT
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_grp_mstr_rec_sort_actvy_source_data_contract
+          class_name: XBMSWDWGrpMstrRecSortActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_mstr_rec_sort_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_MSTR_REC_SORT_ACTVY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_grp_mstr_rec_sort_loc_source_data_contract
+          class_name: XBMSWDWGrpMstrRecSortLocModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_mstr_rec_sort_loc
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_MSTR_REC_SORT_LOC
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_grp_mstr_rec_sort_typ_source_data_contract
+          class_name: XBMSWDWGrpMstrRecSortTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_mstr_rec_sort_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_MSTR_REC_SORT_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_grp_mstr_rec_tm_source_data_contract
+          class_name: XBMSWDWGrpMstrRecTmModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_mstr_rec_tm
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_MSTR_REC_TM
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_gst_res_seg_lnk_source_data_contract
+          class_name: XBMSWDWGstResSegLnkModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: gst_res_seg_lnk
+          router_database: *database
+          router_schema: *schema
+          router_table: GST_RES_SEG_LNK
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_hardware_typ_source_data_contract
+          class_name: XBMSWDWHardwareTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: hardware_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: HARDWARE_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_hawkeye_asin_sku_source_data_contract
+          class_name: XBMSWDWHawkeyeAsinSkuModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: hawkeye_asin_sku
+          router_database: *database
+          router_schema: *schema
+          router_table: HAWKEYE_ASIN_SKU
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_incognito_req_source_data_contract
+          class_name: XBMSWDWIncognitoReqModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: incognito_req
+          router_database: *database
+          router_schema: *schema
+          router_table: INCOGNITO_REQ
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_lnk_arch_exprnc_band_source_data_contract
+          class_name: XBMSWDWLnkArchExprncBandModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: lnk_arch_exprnc_band
+          router_database: *database
+          router_schema: *schema
+          router_table: LNK_ARCH_EXPRNC_BAND
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_lnk_arch_exprnc_band_lnk_lnk_source_data_contract
+          class_name: XBMSWDWLnkArchExprncBandLnkLnkModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: lnk_arch_exprnc_band_lnk_lnk
+          router_database: *database
+          router_schema: *schema
+          router_table: LNK_ARCH_EXPRNC_BAND_LNK_LNK
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_lnk_arch_res_gst_source_data_contract
+          class_name: XBMSWDWLnkArchResGstModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: lnk_arch_res_gst
+          router_database: *database
+          router_schema: *schema
+          router_table: LNK_ARCH_RES_GST
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_mdl_chng_source_data_contract
+          class_name: XBMSWDWMdlChngModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: mdl_chng
+          router_database: *database
+          router_schema: *schema
+          router_table: MDL_CHNG
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_mdl_vrsn_source_data_contract
+          class_name: XBMSWDWMdlVrsnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: mdl_vrsn
+          router_database: *database
+          router_schema: *schema
+          router_table: MDL_VRSN
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_op_ntfctn_source_data_contract
+          class_name: XBMSWDWOpNtfctnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: op_ntfctn
+          router_database: *database
+          router_schema: *schema
+          router_table: OP_NTFCTN
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_op_ntfctn_typ_source_data_contract
+          class_name: XBMSWDWOpNtfctnTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: op_ntfctn_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: OP_NTFCTN_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_ord_proc_param_source_data_contract
+          class_name: XBMSWDWOrdProcParamModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: ord_proc_param
+          router_database: *database
+          router_schema: *schema
+          router_table: ORD_PROC_PARAM
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_ord_proc_param_typ_source_data_contract
+          class_name: XBMSWDWOrdProcParamTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: ord_proc_param_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: ORD_PROC_PARAM_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pii_arch_addr_source_data_contract
+          class_name: XBMSWDWPiiArchAddrModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pii_arch_addr
+          router_database: *database
+          router_schema: *schema
+          router_table: PII_ARCH_ADDR
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pii_arch_addr_hist_source_data_contract
+          class_name: XBMSWDWPiiArchAddrHistModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pii_arch_addr_hist
+          router_database: *database
+          router_schema: *schema
+          router_table: PII_ARCH_ADDR_HIST
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pii_arch_exprnc_band_source_data_contract
+          class_name: XBMSWDWPiiArchExprncBandModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pii_arch_exprnc_band
+          router_database: *database
+          router_schema: *schema
+          router_table: PII_ARCH_EXPRNC_BAND
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pii_arch_exprnc_band_hist_source_data_contract
+          class_name: XBMSWDWPiiArchExprncBandHistModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pii_arch_exprnc_band_hist
+          router_database: *database
+          router_schema: *schema
+          router_table: PII_ARCH_EXPRNC_BAND_HIST
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pii_arch_exprnc_band_lnk_source_data_contract
+          class_name: XBMSWDWPiiArchExprncBandLnkModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pii_arch_exprnc_band_lnk
+          router_database: *database
+          router_schema: *schema
+          router_table: PII_ARCH_EXPRNC_BAND_LNK
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pii_arch_exprncbandlnk_hist_source_data_contract
+          class_name: XBMSWDWPiiArchExprncbandlnkHistModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pii_arch_exprncbandlnk_hist
+          router_database: *database
+          router_schema: *schema
+          router_table: PII_ARCH_EXPRNCBANDLNK_HIST
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pii_arch_hist_typ_source_data_contract
+          class_name: XBMSWDWPiiArchHistTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pii_arch_hist_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: PII_ARCH_HIST_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pii_arch_res_gst_source_data_contract
+          class_name: XBMSWDWPiiArchResGstModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pii_arch_res_gst
+          router_database: *database
+          router_schema: *schema
+          router_table: PII_ARCH_RES_GST
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pii_arch_res_gst_actvy_source_data_contract
+          class_name: XBMSWDWPiiArchResGstActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pii_arch_res_gst_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: PII_ARCH_RES_GST_ACTVY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pii_arch_res_gst_actvy_hist_source_data_contract
+          class_name: XBMSWDWPiiArchResGstActvyHistModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pii_arch_res_gst_actvy_hist
+          router_database: *database
+          router_schema: *schema
+          router_table: PII_ARCH_RES_GST_ACTVY_HIST
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pii_arch_res_gst_hist_source_data_contract
+          class_name: XBMSWDWPiiArchResGstHistModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pii_arch_res_gst_hist
+          router_database: *database
+          router_schema: *schema
+          router_table: PII_ARCH_RES_GST_HIST
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pkg_cmpnt_source_data_contract
+          class_name: XBMSWDWPkgCmpntModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pkg_cmpnt
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_CMPNT
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pkg_cmpnt_attr_source_data_contract
+          class_name: XBMSWDWPkgCmpntAttrModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pkg_cmpnt_attr
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_CMPNT_ATTR
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pkg_cmpnt_attr_lnk_source_data_contract
+          class_name: XBMSWDWPkgCmpntAttrLnkModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pkg_cmpnt_attr_lnk
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_CMPNT_ATTR_LNK
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pkg_cmpnt_band_enttl_source_data_contract
+          class_name: XBMSWDWPkgCmpntBandEnttlModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pkg_cmpnt_band_enttl
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_CMPNT_BAND_ENTTL
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pkg_cmpnt_band_enttl_actvy_source_data_contract
+          class_name: XBMSWDWPkgCmpntBandEnttlActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pkg_cmpnt_band_enttl_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_CMPNT_BAND_ENTTL_ACTVY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pkg_cmpnt_band_enttl_typ_source_data_contract
+          class_name: XBMSWDWPkgCmpntBandEnttlTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pkg_cmpnt_band_enttl_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_CMPNT_BAND_ENTTL_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pkg_cmpnt_cnstrct_rule_source_data_contract
+          class_name: XBMSWDWPkgCmpntCnstrctRuleModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pkg_cmpnt_cnstrct_rule
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_CMPNT_CNSTRCT_RULE
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pkg_cmpnt_enttl_dsny_prod_source_data_contract
+          class_name: XBMSWDWPkgCmpntEnttlDsnyProdModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pkg_cmpnt_enttl_dsny_prod
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_CMPNT_ENTTL_DSNY_PROD
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pkg_cmpnt_reord_config_source_data_contract
+          class_name: XBMSWDWPkgCmpntReordConfigModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pkg_cmpnt_reord_config
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_CMPNT_REORD_CONFIG
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pkg_cmpnt_rl_source_data_contract
+          class_name: XBMSWDWPkgCmpntRlModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pkg_cmpnt_rl
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_CMPNT_RL
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pkg_cmpnt_typ_source_data_contract
+          class_name: XBMSWDWPkgCmpntTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pkg_cmpnt_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_CMPNT_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pkg_cmpnt_typ_config_source_data_contract
+          class_name: XBMSWDWPkgCmpntTypConfigModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pkg_cmpnt_typ_config
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_CMPNT_TYP_CONFIG
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_pkg_tmplt_config_source_data_contract
+          class_name: XBMSWDWPkgTmpltConfigModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pkg_tmplt_config
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_TMPLT_CONFIG
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_po_source_data_contract
+          class_name: XBMSWDWPoModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: po
+          router_database: *database
+          router_schema: *schema
+          router_table: PO
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_po_item_source_data_contract
+          class_name: XBMSWDWPoItemModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: po_item
+          router_database: *database
+          router_schema: *schema
+          router_table: PO_ITEM
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_po_item_rcpt_item_lnk_source_data_contract
+          class_name: XBMSWDWPoItemRcptItemLnkModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: po_item_rcpt_item_lnk
+          router_database: *database
+          router_schema: *schema
+          router_table: PO_ITEM_RCPT_ITEM_LNK
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_po_sts_source_data_contract
+          class_name: XBMSWDWPoStsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: po_sts
+          router_database: *database
+          router_schema: *schema
+          router_table: PO_STS
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_req_hld_rsn_actvy_source_data_contract
+          class_name: XBMSWDWReqHldRsnActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: req_hld_rsn_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: REQ_HLD_RSN_ACTVY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_res_source_data_contract
+          class_name: XBMSWDWResModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: res
+          router_database: *database
+          router_schema: *schema
+          router_table: RES
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_res_actvy_source_data_contract
+          class_name: XBMSWDWResActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: res_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_ACTVY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_res_gst_source_data_contract
+          class_name: XBMSWDWResGstModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: res_gst
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_GST
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_res_gst_actvy_source_data_contract
+          class_name: XBMSWDWResGstActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: res_gst_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_GST_ACTVY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_res_gst_bndl_source_data_contract
+          class_name: XBMSWDWResGstBndlModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: res_gst_bndl
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_GST_BNDL
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_res_lnk_source_data_contract
+          class_name: XBMSWDWResLnkModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: res_lnk
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_LNK
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_res_seg_source_data_contract
+          class_name: XBMSWDWResSegModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: res_seg
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_SEG
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_res_src_sys_native_id_seq_source_data_contract
+          class_name: XBMSWDWResSrcSysNativeIdSeqModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: res_src_sys_native_id_seq
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_SRC_SYS_NATIVE_ID_SEQ
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_rsrt_addr_source_data_contract
+          class_name: XBMSWDWRsrtAddrModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrt_addr
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRT_ADDR
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_sap_goods_issue_skip_rsn_source_data_contract
+          class_name: XBMSWDWSapGoodsIssueSkipRsnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: sap_goods_issue_skip_rsn
+          router_database: *database
+          router_schema: *schema
+          router_table: SAP_GOODS_ISSUE_SKIP_RSN
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_sap_updt_sts_source_data_contract
+          class_name: XBMSWDWSapUpdtStsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: sap_updt_sts
+          router_database: *database
+          router_schema: *schema
+          router_table: SAP_UPDT_STS
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_sequence_source_data_contract
+          class_name: XBMSWDWSequenceModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: sequence
+          router_database: *database
+          router_schema: *schema
+          router_table: SEQUENCE
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_ship_carrier_source_data_contract
+          class_name: XBMSWDWShipCarrierModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: ship_carrier
+          router_database: *database
+          router_schema: *schema
+          router_table: SHIP_CARRIER
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_ship_ctct_source_data_contract
+          class_name: XBMSWDWShipCtctModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: ship_ctct
+          router_database: *database
+          router_schema: *schema
+          router_table: SHIP_CTCT
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_ship_srvc_source_data_contract
+          class_name: XBMSWDWShipSrvcModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: ship_srvc
+          router_database: *database
+          router_schema: *schema
+          router_table: SHIP_SRVC
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_shipmt_case_source_data_contract
+          class_name: XBMSWDWShipmtCaseModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: shipmt_case
+          router_database: *database
+          router_schema: *schema
+          router_table: SHIPMT_CASE
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_shipmt_cnfirm_txn_sts_source_data_contract
+          class_name: XBMSWDWShipmtCnfirmTxnStsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: shipmt_cnfirm_txn_sts
+          router_database: *database
+          router_schema: *schema
+          router_table: SHIPMT_CNFIRM_TXN_STS
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_shipmt_ntc_source_data_contract
+          class_name: XBMSWDWShipmtNtcModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: shipmt_ntc
+          router_database: *database
+          router_schema: *schema
+          router_table: SHIPMT_NTC
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_shipmt_ntc_item_source_data_contract
+          class_name: XBMSWDWShipmtNtcItemModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: shipmt_ntc_item
+          router_database: *database
+          router_schema: *schema
+          router_table: SHIPMT_NTC_ITEM
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_shipmt_ntc_item_log_source_data_contract
+          class_name: XBMSWDWShipmtNtcItemLogModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: shipmt_ntc_item_log
+          router_database: *database
+          router_schema: *schema
+          router_table: SHIPMT_NTC_ITEM_LOG
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_shipmt_ntc_log_source_data_contract
+          class_name: XBMSWDWShipmtNtcLogModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: shipmt_ntc_log
+          router_database: *database
+          router_schema: *schema
+          router_table: SHIPMT_NTC_LOG
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_shipmt_pallet_source_data_contract
+          class_name: XBMSWDWShipmtPalletModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: shipmt_pallet
+          router_database: *database
+          router_schema: *schema
+          router_table: SHIPMT_PALLET
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_shipmt_rcpt_source_data_contract
+          class_name: XBMSWDWShipmtRcptModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: shipmt_rcpt
+          router_database: *database
+          router_schema: *schema
+          router_table: SHIPMT_RCPT
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_shipmt_rcpt_item_source_data_contract
+          class_name: XBMSWDWShipmtRcptItemModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: shipmt_rcpt_item
+          router_database: *database
+          router_schema: *schema
+          router_table: SHIPMT_RCPT_ITEM
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_shipmt_rcpt_item_log_source_data_contract
+          class_name: XBMSWDWShipmtRcptItemLogModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: shipmt_rcpt_item_log
+          router_database: *database
+          router_schema: *schema
+          router_table: SHIPMT_RCPT_ITEM_LOG
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_st_source_data_contract
+          class_name: XBMSWDWStModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: st
+          router_database: *database
+          router_schema: *schema
+          router_table: ST
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_stg_ffld_exprnc_band_source_data_contract
+          class_name: XBMSWDWStgFfldExprncBandModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: stg_ffld_exprnc_band
+          router_database: *database
+          router_schema: *schema
+          router_table: STG_FFLD_EXPRNC_BAND
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_submit_ord_execution_source_data_contract
+          class_name: XBMSWDWSubmitOrdExecutionModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: submit_ord_execution
+          router_database: *database
+          router_schema: *schema
+          router_table: SUBMIT_ORD_EXECUTION
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_submit_ord_execution_actvy_source_data_contract
+          class_name: XBMSWDWSubmitOrdExecutionActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: submit_ord_execution_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: SUBMIT_ORD_EXECUTION_ACTVY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_suplmnt_log_tbl_source_data_contract
+          class_name: XBMSWDWSuplmntLogTblModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: suplmnt_log_tbl
+          router_database: *database
+          router_schema: *schema
+          router_table: SUPLMNT_LOG_TBL
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_trtry_source_data_contract
+          class_name: XBMSWDWTrtryModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: trtry
+          router_database: *database
+          router_schema: *schema
+          router_table: TRTRY
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_trtry_typ_source_data_contract
+          class_name: XBMSWDWTrtryTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: trtry_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: TRTRY_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_trvl_cmpnt_sts_source_data_contract
+          class_name: XBMSWDWTrvlCmpntStsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: trvl_cmpnt_sts
+          router_database: *database
+          router_schema: *schema
+          router_table: TRVL_CMPNT_STS
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_txn_src_sys_reord_config_source_data_contract
+          class_name: XBMSWDWTxnSrcSysReordConfigModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: txn_src_sys_reord_config
+          router_database: *database
+          router_schema: *schema
+          router_table: TXN_SRC_SYS_REORD_CONFIG
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_txn_typ_source_data_contract
+          class_name: XBMSWDWTxnTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: txn_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: TXN_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_unexpect_po_item_source_data_contract
+          class_name: XBMSWDWUnexpectPoItemModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: unexpect_po_item
+          router_database: *database
+          router_schema: *schema
+          router_table: UNEXPECT_PO_ITEM
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_vndr_invtry_item_source_data_contract
+          class_name: XBMSWDWVndrInvtryItemModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: vndr_invtry_item
+          router_database: *database
+          router_schema: *schema
+          router_table: VNDR_INVTRY_ITEM
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_vndr_perf_source_data_contract
+          class_name: XBMSWDWVndrPerfModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: vndr_perf
+          router_database: *database
+          router_schema: *schema
+          router_table: VNDR_PERF
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_wbs_elmnt_source_data_contract
+          class_name: XBMSWDWWbsElmntModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: wbs_elmnt
+          router_database: *database
+          router_schema: *schema
+          router_table: WBS_ELMNT
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_xband_enttl_source_data_contract
+          class_name: XBMSWDWXbandEnttlModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: xband_enttl
+          router_database: *database
+          router_schema: *schema
+          router_table: XBAND_ENTTL
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_xband_enttl_prod_assc_source_data_contract
+          class_name: XBMSWDWXbandEnttlProdAsscModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: xband_enttl_prod_assc
+          router_database: *database
+          router_schema: *schema
+          router_table: XBAND_ENTTL_PROD_ASSC
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_xband_enttl_prod_assc_typ_source_data_contract
+          class_name: XBMSWDWXbandEnttlProdAsscTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: xband_enttl_prod_assc_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: XBAND_ENTTL_PROD_ASSC_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_xband_extnl_prod_source_data_contract
+          class_name: XBMSWDWXbandExtnlProdModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: xband_extnl_prod
+          router_database: *database
+          router_schema: *schema
+          router_table: XBAND_EXTNL_PROD
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_xband_req_source_data_contract
+          class_name: XBMSWDWXbandReqModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: xband_req
+          router_database: *database
+          router_schema: *schema
+          router_table: XBAND_REQ
+          
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_source_data_contract
+          class_name: XBMSWDWExprncBandModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND
+
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_ord_source_data_contract
+          class_name: XBMSWDWExprncBandOrdModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_ord
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_ORD
+
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_sts_actvy_source_data_contract
+          class_name: XBMSWDWExprncBandStsActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_sts_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_STS_ACTVY
+
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_lnk_source_data_contract
+          class_name: XBMSWDWExprncBandLnkModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_lnk
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_LNK
+
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_req_source_data_contract
+          class_name: XBMSWDWExprncBandReqModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_req
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_REQ
+
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_dsny_fac_band_invtry_source_data_contract
+          class_name: XBMSWDWDsnyFacBandInvtryModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: dsny_fac_band_invtry
+          router_database: *database
+          router_schema: *schema
+          router_table: DSNY_FAC_BAND_INVTRY
+
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_lnk_actvy_source_data_contract
+          class_name: XBMSWDWExprncBandLnkActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_lnk_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_LNK_ACTVY
+
+        - data_contract: app.src.data_structures.data_contracts.source.xbms_wdw.v0.xbms_wdw_exprnc_band_rl_actvy_source_data_contract
+          class_name: XBMSWDWExprncBandRlActvyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_band_rl_actvy
+          router_database: *database
+          router_schema: *schema
+          router_table: EXPRNC_BAND_RL_ACTVY
+          
+          

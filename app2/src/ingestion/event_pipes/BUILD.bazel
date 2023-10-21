@@ -1,0 +1,49 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+py_lambda_library(
+    name = "event_pipes",
+    srcs = glob(["*.py"]),
+    data = [
+        "__init__.py",
+        "//app/src/ingestion",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+    ],
+)
+
+py_lambda_library(
+    name = "event_pipes_utils",
+    srcs = glob([
+        "validation/*.py",
+        "utils/*.py",
+        "data_mapper/*.py"
+    ]),
+    visibility = ["//visibility:public"],
+    deps = [
+        ":event_pipes",
+        "//app/src/data_structures/data_contracts",
+        "//app/src/reliability:reliability_config_infra",
+        "//app/src/reliability:reliability_yamlhandler",
+        "//app/src/utils/helpers",
+        requirement("pyyaml"),
+        requirement("aws-lambda-powertools"),
+    ],
+)
+
+pytest_test(
+    name = "event_pipes_utils_tests",
+    srcs = glob(
+        [
+            "tests/**/*.py",
+        ],
+    ),
+    data = [
+        "//app/infrastructure/ingestion:ingestion_config_pipelines",
+    ],
+    deps = [
+        ":event_pipes_utils",
+    ],
+)

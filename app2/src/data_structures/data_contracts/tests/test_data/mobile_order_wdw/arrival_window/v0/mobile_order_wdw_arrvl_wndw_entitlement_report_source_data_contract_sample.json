@@ -1,0 +1,70 @@
+[
+    {
+        "data": {
+            "booking_opened": "2023-09-13T12:13:40.702287Z",
+            "business_date": "2023-09-13",
+            "end_time": "2023-09-13T12:40:00Z",
+            "guest": "{AAAAAAAA-BBBB-CCCC-DDDD-EE0123456789}",
+            "location": "Docking Bay 7 Food and Cargo",
+            "meal_period": "Docking Bay - Lunch",
+            "order_id": 12345678,
+            "start_time": "2023-09-13T12:10:00Z",
+            "status": "RED",
+            "updated_date": "2023-09-13T16:17:17.049653Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "gxpwdw",
+            "table-name": "enttl_report",
+            "timestamp": "2023-09-15T08:03:52.130141Z",
+            "transaction-id": 528401236500917
+        }
+    },
+    {
+        "data": {
+            "booking_opened": "2023-09-13T12:13:38.338569Z",
+            "business_date": "2023-09-13",
+            "end_time": "2023-09-13T12:30:00Z",
+            "guest": "{AAAAAAAA-BBBB-CCCC-DDDD-EE0123456789}",
+            "location": "Pecos Bill Tall Tale Inn and Cafe",
+            "meal_period": "Pecos Bill Cafe Lunch/Dinner",
+            "order_id": 12345678,
+            "start_time": "2023-09-13T12:15:00Z",
+            "status": "RED",
+            "updated_date": "2023-09-13T16:35:39.197299Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "gxpwdw",
+            "table-name": "enttl_report",
+            "timestamp": "2023-09-15T08:03:52.123520Z",
+            "transaction-id": 528401236500917
+        }
+    },
+    {
+        "data": {
+            "booking_opened": "2023-09-13T12:13:37.336752Z",
+            "business_date": "2023-09-13",
+            "end_time": "2023-09-13T12:25:00Z",
+            "guest": "{AAAAAAAA-BBBB-CCCC-DDDD-EE0123456789}",
+            "location": "Cosmic Ray's Starlight Cafe",
+            "meal_period": "Cosmic Ray's Starlight Cafe Lunch/Dinner",
+            "order_id": 12345678,
+            "start_time": "2023-09-13T12:10:00Z",
+            "status": "RED",
+            "updated_date": "2023-09-13T16:43:42.411826Z"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "gxpwdw",
+            "table-name": "enttl_report",
+            "timestamp": "2023-09-15T08:03:52.115866Z"
+        }
+    }
+]

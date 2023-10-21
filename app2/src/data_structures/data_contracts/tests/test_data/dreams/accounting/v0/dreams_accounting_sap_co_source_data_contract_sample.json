@@ -1,0 +1,102 @@
+[
+    {
+        "data": {
+            "SAP_CO_CD": "1001",
+            "SAP_CO_NM": "WD Parks & Resorts US,Inc",
+            "CREATE_USR_ID_CD": "IM468218",
+            "CREATE_DTS": "2012-06-06T20:28:43.152Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.431588Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "SAP_CO"
+        }
+    },
+    {
+        "data": {
+            "SAP_CO_CD": "1004",
+            "SAP_CO_NM": "Walt Disney Travel Co",
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:43.360Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.460274Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "SAP_CO",
+            "transaction-id": 1264
+        }
+    },
+    {
+        "data": {
+            "SAP_CO_CD": "1005",
+            "SAP_CO_NM": "Disney Destinations, LLC",
+            "CREATE_USR_ID_CD": "IM468218",
+            "CREATE_DTS": "2012-06-06T20:30:52.870Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.479165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "SAP_CO",
+            "transaction-id": 1297
+        }
+    },
+    {
+        "data": {
+            "SAP_CO_CD": "1029",
+            "SAP_CO_NM": "Walt DisneyWorld-Division",
+            "CREATE_USR_ID_CD": "IM468218",
+            "CREATE_DTS": "2012-06-07T13:19:46.760Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.604399Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "SAP_CO",
+            "transaction-id": 12894
+        }
+    },
+    {
+        "data": {
+            "SAP_CO_CD": "1201",
+            "SAP_CO_NM": "DVC Management Corp",
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:43.382Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.479165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "SAP_CO",
+            "transaction-id": 1297
+        }
+    },
+    {
+        "data": {
+            "SAP_CO_CD": "1594",
+            "SAP_CO_NM": "Magical Cruise Co, Ltd",
+            "CREATE_USR_ID_CD": "IM468218",
+            "CREATE_DTS": "2012-06-07T13:30:00.417Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.604399Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "SAP_CO"
+        }
+    }
+]

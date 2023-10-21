@@ -1,0 +1,16 @@
+# IDE
+.vscode
+.idea/
+
+# Test Files
+src/tests/
+.coverage
+.pytest_cache
+htmlcov/
+
+# Virtualenv
+local/
+venv/
+
+# notebooks
+**/*.ipynb

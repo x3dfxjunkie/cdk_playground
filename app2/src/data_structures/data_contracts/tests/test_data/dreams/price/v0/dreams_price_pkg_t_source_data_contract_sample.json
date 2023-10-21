@@ -1,0 +1,622 @@
+[
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "N",
+            "PKG_ID": 139396,
+            "PKG_PROD_CLS_NM": null,
+            "PKG_PROD_COMM_TYP_NM": "None",
+            "PKG_PROD_GRP_ID": null,
+            "PKG_PROD_GRP_NM": null,
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 0,
+            "PKG_PROD_PLN_TYP_ID": null,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": null,
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "N"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:03:10.707417Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "Y",
+            "PKG_ID": 131952,
+            "PKG_PROD_CLS_NM": "Promotional Offers 03",
+            "PKG_PROD_COMM_TYP_NM": "WDTC",
+            "PKG_PROD_GRP_ID": 308,
+            "PKG_PROD_GRP_NM": "A1TESTTESTAA01",
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 0,
+            "PKG_PROD_PLN_TYP_ID": 7995154,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": "Coupon Package",
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "Y"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:02:01.241350Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "Y",
+            "PKG_ID": 131970,
+            "PKG_PROD_CLS_NM": "Never Recommend: Promotional 05",
+            "PKG_PROD_COMM_TYP_NM": "WDTC",
+            "PKG_PROD_GRP_ID": 308,
+            "PKG_PROD_GRP_NM": "A1TESTTESTAA01",
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 0,
+            "PKG_PROD_PLN_TYP_ID": 5039744,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": "Coupon Package",
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "Y"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:02:01.402265Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "N",
+            "PKG_ID": 138161,
+            "PKG_PROD_CLS_NM": null,
+            "PKG_PROD_COMM_TYP_NM": "None",
+            "PKG_PROD_GRP_ID": null,
+            "PKG_PROD_GRP_NM": null,
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 0,
+            "PKG_PROD_PLN_TYP_ID": null,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": null,
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "N"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:02:59.659308Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "Y",
+            "PKG_ID": 139297,
+            "PKG_PROD_CLS_NM": "Promotional Offers 03",
+            "PKG_PROD_COMM_TYP_NM": "WDTC",
+            "PKG_PROD_GRP_ID": 707,
+            "PKG_PROD_GRP_NM": "A1TESTTESTAA01",
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 0,
+            "PKG_PROD_PLN_TYP_ID": 7995160,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": "Coupon Package",
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "Y"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:03:09.701687Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "Y",
+            "PKG_ID": 139274,
+            "PKG_PROD_CLS_NM": "Promotional Offers 05",
+            "PKG_PROD_COMM_TYP_NM": "WDTC",
+            "PKG_PROD_GRP_ID": 416,
+            "PKG_PROD_GRP_NM": "A1TESTTESTAA01",
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 0,
+            "PKG_PROD_PLN_TYP_ID": 7995160,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": "Coupon Package",
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "Y"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:03:09.490975Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "Y",
+            "PKG_ID": 128057,
+            "PKG_PROD_CLS_NM": "Never Recommend: Promotional 03",
+            "PKG_PROD_COMM_TYP_NM": "None",
+            "PKG_PROD_GRP_ID": 34,
+            "PKG_PROD_GRP_NM": "Q1 Targeted 01",
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 1,
+            "PKG_PROD_PLN_TYP_ID": 7995160,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": "Coupon Package",
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "Y"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:01:23.382138Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "Y",
+            "PKG_ID": 131962,
+            "PKG_PROD_CLS_NM": "Never Recommend: Promotional 03",
+            "PKG_PROD_COMM_TYP_NM": "WDTC",
+            "PKG_PROD_GRP_ID": 308,
+            "PKG_PROD_GRP_NM": "A1TESTTESTAA01",
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 0,
+            "PKG_PROD_PLN_TYP_ID": 5039744,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": "Coupon Package",
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "Y"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:02:01.328474Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "Y",
+            "PKG_ID": 129430,
+            "PKG_PROD_CLS_NM": "Never Recommend: Promotional 03",
+            "PKG_PROD_COMM_TYP_NM": "None",
+            "PKG_PROD_GRP_ID": 589,
+            "PKG_PROD_GRP_NM": "A1TESTTESTAA01",
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 0,
+            "PKG_PROD_PLN_TYP_ID": 7995160,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": "Ticket + Deluxe Dining Plan",
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "N"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:01:37.053447Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "N",
+            "PKG_ID": 131446,
+            "PKG_PROD_CLS_NM": null,
+            "PKG_PROD_COMM_TYP_NM": "None",
+            "PKG_PROD_GRP_ID": null,
+            "PKG_PROD_GRP_NM": "A1TESTTESTAA01",
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 0,
+            "PKG_PROD_PLN_TYP_ID": null,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": null,
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "N"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:01:56.490040Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "Y",
+            "PKG_ID": 132660,
+            "PKG_PROD_CLS_NM": "Annual Product 07",
+            "PKG_PROD_COMM_TYP_NM": "WDTC",
+            "PKG_PROD_GRP_ID": 775,
+            "PKG_PROD_GRP_NM": "A1TESTTESTAA01, Packages 5",
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 1,
+            "PKG_PROD_PLN_TYP_ID": 5039744,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": "Coupon Package",
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "Y"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:02:08.006373Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "Y",
+            "PKG_ID": 132537,
+            "PKG_PROD_CLS_NM": "Annual Product 07",
+            "PKG_PROD_COMM_TYP_NM": "WDTC",
+            "PKG_PROD_GRP_ID": 775,
+            "PKG_PROD_GRP_NM": "A1TESTTESTAA01",
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 0,
+            "PKG_PROD_PLN_TYP_ID": 5039744,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": "Coupon Package",
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "Y"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:02:06.865329Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "Y",
+            "PKG_ID": 130897,
+            "PKG_PROD_CLS_NM": "Promotional Offers 05",
+            "PKG_PROD_COMM_TYP_NM": "WDTC",
+            "PKG_PROD_GRP_ID": 619,
+            "PKG_PROD_GRP_NM": "A1TESTTESTAA01, Targeted 04",
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 1,
+            "PKG_PROD_PLN_TYP_ID": 7995160,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": "Coupon Package",
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "Y"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:01:51.289017Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "Y",
+            "PKG_ID": 130929,
+            "PKG_PROD_CLS_NM": "Promotional Offers 05",
+            "PKG_PROD_COMM_TYP_NM": "WDTC",
+            "PKG_PROD_GRP_ID": 596,
+            "PKG_PROD_GRP_NM": "A1TESTTESTAA01, Targeted 03",
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 1,
+            "PKG_PROD_PLN_TYP_ID": 7995160,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": "Coupon Package",
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "Y"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:01:51.580176Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "Y",
+            "PKG_ID": 129430,
+            "PKG_PROD_CLS_NM": "Never Recommend: Promotional 03",
+            "PKG_PROD_COMM_TYP_NM": "None",
+            "PKG_PROD_GRP_ID": 589,
+            "PKG_PROD_GRP_NM": "A1TESTTESTAA01, Targeted 01",
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 0,
+            "PKG_PROD_PLN_TYP_ID": 7995160,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": "Ticket + Deluxe Dining Plan",
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "N"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:01:37.053447Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "Y",
+            "PKG_ID": 129474,
+            "PKG_PROD_CLS_NM": "Never Recommend: Promotional 03",
+            "PKG_PROD_COMM_TYP_NM": "None",
+            "PKG_PROD_GRP_ID": 589,
+            "PKG_PROD_GRP_NM": "A1TESTTESTAA01, Targeted 01",
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 0,
+            "PKG_PROD_PLN_TYP_ID": 7995160,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": "Ticket + Deluxe Dining Plan",
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "N"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:01:37.542721Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "N",
+            "PKG_ID": 135466,
+            "PKG_PROD_CLS_NM": null,
+            "PKG_PROD_COMM_TYP_NM": "None",
+            "PKG_PROD_GRP_ID": null,
+            "PKG_PROD_GRP_NM": "A1TESTTESTAA01",
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 0,
+            "PKG_PROD_PLN_TYP_ID": null,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": null,
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "N"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:02:34.221844Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "Y",
+            "PKG_ID": 133324,
+            "PKG_PROD_CLS_NM": "Signature Dining",
+            "PKG_PROD_COMM_TYP_NM": "None",
+            "PKG_PROD_GRP_ID": 0,
+            "PKG_PROD_GRP_NM": "A1TESTTESTAA01",
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 0,
+            "PKG_PROD_PLN_TYP_ID": 0,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": null,
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "N"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:02:14.079974Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "Y",
+            "PKG_ID": 133213,
+            "PKG_PROD_CLS_NM": "Promotional Offers 05",
+            "PKG_PROD_COMM_TYP_NM": "WDTC",
+            "PKG_PROD_GRP_ID": 504,
+            "PKG_PROD_GRP_NM": "A1TESTTESTAA01, CMR 10",
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 1,
+            "PKG_PROD_PLN_TYP_ID": 7995160,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": "Coupon Package",
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "Y"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:02:13.083498Z"
+        }
+    },
+    {
+        "data": {
+            "HYBRD_MKT_CD": null,
+            "HYBRD_MKT_LONG_NM": null,
+            "MKT_OFFER_CD": null,
+            "MKT_OFFER_NM": null,
+            "PKG_ACTV_IN": "N",
+            "PKG_GRP_CD": null,
+            "PKG_GUAR_IN": "Y",
+            "PKG_ID": 131336,
+            "PKG_PROD_CLS_NM": "Promotional Offers 09",
+            "PKG_PROD_COMM_TYP_NM": "WDTC",
+            "PKG_PROD_GRP_ID": 595,
+            "PKG_PROD_GRP_NM": "A1TESTTESTAA01",
+            "PKG_PROD_MAX_NB": 0,
+            "PKG_PROD_MIN_NB": 0,
+            "PKG_PROD_PLN_TYP_ID": 7935969,
+            "PKG_PROD_SRC_SYS_NM": null,
+            "PLAN_TYP_NM": "Coupon Package",
+            "PRGE_DTS": null,
+            "SUB_PKG_IN": "Y"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PKG_T",
+            "timestamp": "2023-08-25T21:01:55.453220Z"
+        }
+    }
+]

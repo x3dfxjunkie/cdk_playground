@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <link rel="icon"
+        href="https://cdn11.bigcommerce.com/s-5ylnei6or5/products/528/images/1025/1753_Mater_CarsRefresh_46__37747.1514658593.500.750.jpg?c=2">
+    <title>Data Contract Auto-Mater | {% block title %}{% endblock %}</title>
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="{{ lambda_url_for('static', filename='css/base.css') }}" />
+    <link type="text/css" rel="stylesheet" href="{{ lambda_url_for('static', filename='css/blurt.min.css') }}" />
+    {% block css %}{% endblock %}
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <script src="{{ lambda_url_for('static', filename='js/base.js') }}"></script>
+    <script src="{{ lambda_url_for('static', filename='js/blurt.min.js') }}"></script>
+    <script src="https://kit.fontawesome.com/cbaf16e07c.js" crossorigin="anonymous"></script>
+    {% block js %}{% endblock %}
+</head>
+
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light cars-red">
+            <div class="container-fluid ">
+                <h2 class="navbar-brand text-white" href="{{lambda_url_for('index')}}">Data Contract Auto-Mater</h2>
+            </div>
+        </nav>
+    </section>
+
+    <section class="container p-3">{% block content %}{% endblock %}</section>
+    {% include "modal.html" %}
+</body>
+<footer class="cars-red text-white">
+    <div class="container p-3">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h5>Getting Started</h5>
+                <p class="text-justify">
+                    This program requires Docker or python and can be hosted on AWS.
+                    S3 Feature can only be opened through python or on AWS.
+                    Python Users need to authenticate via aws-saml-auth to actually have access to any buckets
+                </p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+            </div>
+        </div>
+    </div>
+    <div class="p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <small class="text-white">© 2023 Disney Parks.</small>
+    </div>
+</footer>
+
+</html>

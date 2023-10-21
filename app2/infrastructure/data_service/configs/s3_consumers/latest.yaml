@@ -1,0 +1,33 @@
+---
+- s3_consumer:
+    name: S3ConsumerExperiences
+  kinesis_source:
+    stream_name: curated-experiences-stream
+  KinesisFirehoseProps:
+    enabled: True
+    bucket_name: ingestion-raw
+    partitioning:
+      dynamic: null
+      custom_keys:
+        snowpipe: null
+        database: LATEST1_LANDING
+        schema: CURATED_EXPERIENCES
+        table: CURATED_EXPERIENCES
+        source: S3_CONSUMER_EXPERIENCES
+    stack_extension: null
+    bucket: null
+    kinesis_stream: null
+    data_transformation:
+      enabled: True
+      lambda_properties:
+        code: "bazel-bin/app/src/data_service/s3_producer/s3_producer_lambda_archive.zip"
+        handler: "producer.lambda_handler"
+        runtime: "python3.9"
+        timeout: !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.duration.Duration
+          - seconds
+          - 120
+        environment:
+          dynamodb_event_types: "INSERT"
+    buffering_hints: 
+      interval: 60
+      unit_of_time: SECONDS

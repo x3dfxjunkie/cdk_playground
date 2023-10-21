@@ -1,0 +1,155 @@
+[
+    {
+        "data": {
+            "BUS_ORG_ID": 1,
+            "BUS_ORG_NM": "WDW SE",
+            "CMPS_ID": 0,
+            "CREATE_DTS": "2009-09-10T14:08:23Z",
+            "CREATE_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "cmps_bus_org",
+            "timestamp": "2023-07-26T01:12:17.753460Z"
+        }
+    },
+    {
+        "data": {
+            "BUS_ORG_ID": 3,
+            "BUS_ORG_NM": "WDW DRC",
+            "CMPS_ID": 0,
+            "CREATE_DTS": "2009-09-10T14:08:23Z",
+            "CREATE_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "cmps_bus_org",
+            "timestamp": "2023-07-26T01:12:17.768311Z"
+        }
+    },
+    {
+        "data": {
+            "BUS_ORG_ID": 5,
+            "BUS_ORG_NM": "DLR Resort Ops",
+            "CMPS_ID": 0,
+            "CREATE_DTS": "2009-08-12T12:16:23Z",
+            "CREATE_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "cmps_bus_org",
+            "timestamp": "2023-07-26T01:12:17.783254Z"
+        }
+    },
+    {
+        "data": {
+            "BUS_ORG_ID": 8,
+            "BUS_ORG_NM": "Pacific Region Resort Ops",
+            "CMPS_ID": 0,
+            "CREATE_DTS": "2010-06-03T11:58:19.974303Z",
+            "CREATE_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "cmps_bus_org",
+            "timestamp": "2023-07-26T01:12:17.810791Z"
+        }
+    },
+    {
+        "data": {
+            "BUS_ORG_ID": 9,
+            "BUS_ORG_NM": "Pacific Region DRC",
+            "CMPS_ID": 0,
+            "CREATE_DTS": "2010-06-03T11:58:20.171089Z",
+            "CREATE_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "cmps_bus_org",
+            "timestamp": "2023-07-26T01:12:17.819837Z"
+        }
+    },
+    {
+        "data": {
+            "BUS_ORG_ID": 2,
+            "BUS_ORG_NM": "WDW Resort Ops",
+            "CMPS_ID": 0,
+            "CREATE_DTS": "2009-09-10T14:08:23Z",
+            "CREATE_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "cmps_bus_org",
+            "timestamp": "2023-07-26T01:12:17.760689Z"
+        }
+    },
+    {
+        "data": {
+            "BUS_ORG_ID": 4,
+            "BUS_ORG_NM": "DLR SE",
+            "CMPS_ID": 0,
+            "CREATE_DTS": "2009-08-12T12:16:23Z",
+            "CREATE_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "cmps_bus_org",
+            "timestamp": "2023-07-26T01:12:17.775248Z"
+        }
+    },
+    {
+        "data": {
+            "BUS_ORG_ID": 6,
+            "BUS_ORG_NM": "DLR DRC",
+            "CMPS_ID": 0,
+            "CREATE_DTS": "2009-08-12T12:16:23Z",
+            "CREATE_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "cmps_bus_org",
+            "timestamp": "2023-07-26T01:12:17.792682Z"
+        }
+    },
+    {
+        "data": {
+            "BUS_ORG_ID": 7,
+            "BUS_ORG_NM": "Pacific Region SE",
+            "CMPS_ID": 0,
+            "CREATE_DTS": "2010-06-03T11:58:19.668147Z",
+            "CREATE_USR_ID_CD": "MMOUSE01"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "cmps_bus_org",
+            "timestamp": "2023-07-26T01:12:17.801729Z"
+        }
+    }
+]

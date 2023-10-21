@@ -1,0 +1,14 @@
+### :test_tube:SYSTEM TESTING:test_tube:
+:memo: **Scenario** : {{ scenario_name }}
+| :label: label | :globe_with_meridians: namespace | :chart_with_upwards_trend: metric_name | :bar_chart: statistic | :mag: value |
+|-|-|-|-|-|
+{% for metric in metrics -%}
+| {{ metric.label }} | {{ metric.namespace }} | {{ metric.metric_name }} | {{ metric.statistic }} | {{ ', '.join(metric.value) }} |
+{% endfor %}
+
+| :id: Name| :monocle_face: condition| :traffic_light: status|
+|-|-|-|
+{% for test in tests -%}
+{% set status_emoji = ":green_circle: Success" if test.status.strip().lower() == "pass" else ":red_circle: Fail" -%}
+| {{ test.name }} | {{ test.condition }} | {{ status_emoji }} |
+{% endfor %}

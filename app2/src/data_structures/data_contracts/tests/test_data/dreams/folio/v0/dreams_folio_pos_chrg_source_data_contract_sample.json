@@ -1,0 +1,536 @@
+[
+    {
+        "data": {
+            "CPN_CD": null,
+            "CREATE_DTS": "2023-08-22T14:45:27Z",
+            "CREATE_USR_ID_CD": "6139",
+            "MEAL_PRD_NM": "01",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567895,
+            "PRGE_DTS": null,
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T18:45:37.587515Z",
+            "transaction-id": 458789
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "00",
+            "CREATE_DTS": "2023-08-22T14:45:43Z",
+            "CREATE_USR_ID_CD": "9778",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "03",
+            "MRCHT_NM": "WDW F&B SALE",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567897,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "9778",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T18:45:55.468693Z",
+            "transaction-id": 1703968
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "00",
+            "CREATE_DTS": "2023-08-22T14:45:11Z",
+            "CREATE_USR_ID_CD": "9768",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "00",
+            "MRCHT_NM": "WDW F&B SALE",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567899,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "9768",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T18:45:17.410972Z",
+            "transaction-id": 1048600
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "00",
+            "CREATE_DTS": "2023-08-22T14:45:28Z",
+            "CREATE_USR_ID_CD": "7501",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "03",
+            "MRCHT_NM": "WDWHRC F&B SALES",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567891,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "7501",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T18:45:39.330931Z",
+            "transaction-id": 196643
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "00",
+            "CREATE_DTS": "2023-08-22T14:45:11Z",
+            "CREATE_USR_ID_CD": "9768",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "00",
+            "MRCHT_NM": "WDW F&B SALE",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567899,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "9768",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T18:45:17.410972Z",
+            "transaction-id": 1048600
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "00",
+            "CREATE_DTS": "2023-08-22T14:45:38Z",
+            "CREATE_USR_ID_CD": "2207",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "05",
+            "MRCHT_NM": "WDWHRC F&B SALES",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567891,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "2207",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T18:45:50.531003Z",
+            "transaction-id": 131105
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "00",
+            "CREATE_DTS": "2023-08-22T15:09:01Z",
+            "CREATE_USR_ID_CD": "0940",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "07",
+            "MRCHT_NM": "WDW F&B SALE",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567890,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "0940",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T19:10:17.252352Z",
+            "transaction-id": 131079
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "26",
+            "CREATE_DTS": "2023-08-22T14:15:01Z",
+            "CREATE_USR_ID_CD": "1693",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "00",
+            "MRCHT_NM": "1693-Dok Ondars Den of Antiquities",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567890,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "1693",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T18:15:14.231189Z",
+            "transaction-id": 1048586
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "00",
+            "CREATE_DTS": "2023-08-22T14:15:44Z",
+            "CREATE_USR_ID_CD": "5978",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "03",
+            "MRCHT_NM": "WDW F&B SALE",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567895,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "5978",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T18:16:02.309562Z",
+            "transaction-id": 2162719
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "00",
+            "CREATE_DTS": "2023-08-22T14:16:07Z",
+            "CREATE_USR_ID_CD": "0950",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "01",
+            "MRCHT_NM": "WDW F&B SALE",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567895,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "0950",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T18:16:23.443789Z",
+            "transaction-id": 1245191
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "00",
+            "CREATE_DTS": "2023-08-22T14:38:03Z",
+            "CREATE_USR_ID_CD": "3017",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "01",
+            "MRCHT_NM": "WDW F&B SALE TIP",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567896,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "3017",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T18:38:39.177739Z",
+            "transaction-id": 720922
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "00",
+            "CREATE_DTS": "2023-08-22T14:38:59Z",
+            "CREATE_USR_ID_CD": "7421",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "03",
+            "MRCHT_NM": "WDWHRC F&B SALES",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567897,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "7421",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T18:39:24.737807Z",
+            "transaction-id": 720925
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "00",
+            "CREATE_DTS": "2023-08-22T14:38:04Z",
+            "CREATE_USR_ID_CD": "3023",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "01",
+            "MRCHT_NM": "WDW F&B SALE TIP",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567897,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "3023",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T18:38:40.476437Z",
+            "transaction-id": 262151
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "00",
+            "CREATE_DTS": "2023-08-22T14:38:09Z",
+            "CREATE_USR_ID_CD": "0344",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "01",
+            "MRCHT_NM": "WDW F&B SALE TIP",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567895,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "0344",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T18:38:43.869841Z",
+            "transaction-id": 1966115
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "00",
+            "CREATE_DTS": "2023-08-22T14:38:53Z",
+            "CREATE_USR_ID_CD": "2800",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "01",
+            "MRCHT_NM": "AULANI MERCHANDISE",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567893,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "2800",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T18:39:19.142085Z",
+            "transaction-id": 1638416
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "00",
+            "CREATE_DTS": "2023-08-22T15:02:07Z",
+            "CREATE_USR_ID_CD": "6559",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "02",
+            "MRCHT_NM": "WDWHRC F&B SALES",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567890,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "6559",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T19:02:18.275507Z",
+            "transaction-id": 262184
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "00",
+            "CREATE_DTS": "2023-08-22T15:03:28Z",
+            "CREATE_USR_ID_CD": "4055",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "01",
+            "MRCHT_NM": "WDWHRC F&B SALES TIP",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567898,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "4055",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T19:03:43.022037Z",
+            "transaction-id": 1638411
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "00",
+            "CREATE_DTS": "2023-08-22T15:03:13Z",
+            "CREATE_USR_ID_CD": "7100",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "03",
+            "MRCHT_NM": "DVC VERO BEACH REC",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567895,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "7100",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T19:03:30.958379Z",
+            "transaction-id": 1179655
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "00",
+            "CREATE_DTS": "2023-08-22T14:17:19Z",
+            "CREATE_USR_ID_CD": "0355",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "06",
+            "MRCHT_NM": "WDWHRC F&B SALES",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567892,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "0355",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T18:17:46.932976Z",
+            "transaction-id": 262184
+        }
+    },
+    {
+        "data": {
+            "CPN_CD": null,
+            "CPN_TNDR_CD": "26",
+            "CREATE_DTS": "2023-08-22T14:17:25Z",
+            "CREATE_USR_ID_CD": "2193",
+            "DSNY_ID_CD": "N",
+            "MEAL_PRD_NM": "00",
+            "MRCHT_NM": "2193-Ye Olde Christmas Shoppe",
+            "MSG_NB": null,
+            "POS_CHRG_ID": 1234567898,
+            "PRGE_DTS": null,
+            "RTRV_REF_NB": "123456789012",
+            "SLD_ID_VL": "2193",
+            "TRMNL_REF_TX": null,
+            "TRMNL_SEQ_NB": null
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "FOLIO",
+            "table-name": "POS_CHRG",
+            "timestamp": "2023-08-22T18:17:50.523339Z"
+        }
+    }
+]

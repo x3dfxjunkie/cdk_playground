@@ -1,0 +1,331 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_sales_reservations__payment_receipt_current
+    description: "{{ doc('sil__hotel_lodging__room_sales_reservations__payment_receipt_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_sales_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: receipt_booking_id
+        description: ""
+
+      - name: receipt_index
+        description: ""
+
+      - name: receipt_currency
+        description: ""
+
+      - name: receipt_amount
+        description: ""
+
+      - name: receipt_pay_or_refund
+        description: ""
+
+      - name: receipt_note
+        description: ""
+
+      - name: receipt_realized
+        description: ""
+
+      - name: receipt_date
+        description: ""
+
+      - name: receipt_realized_date
+        description: ""
+
+      - name: receipt_authorized
+        description: ""
+
+      - name: receipt_to_selling_exchange_rate
+        description: ""
+
+      - name: receipt_to_base_exchange_rate
+        description: ""
+
+      - name: receipt_type
+        description: ""
+
+      - name: receipt_transaction_id
+        description: ""
+
+      - name: receipt_batch_number
+        description: ""
+
+      - name: receipt_valid
+        description: ""
+
+      - name: receipt_pending
+        description: ""
+
+      - name: receipt_booking_transfer_exist
+        description: ""
+
+      - name: receipt_reconciled
+        description: ""
+
+      - name: receipt_reconciled_date
+        description: ""
+
+      - name: receipt_modified
+        description: ""
+
+      - name: receipt_statement_id_value
+        description: ""
+
+      - name: receipt_bank_transaction_id
+        description: ""
+
+      - name: receipt_entered_user
+        description: ""
+
+      - name: receipt_bank_code
+        description: ""
+
+      - name: receipt_account_number
+        description: ""
+
+      - name: receipt_bounced_exist
+        description: ""
+
+      - name: receipt_bounced_index
+        description: ""
+
+      - name: receipt_batch_id
+        description: ""
+
+      - name: receipt_doc_exists
+        description: ""
+
+      - name: receipt_remittance_id
+        description: ""
+
+      - name: receipt_location_id
+        description: ""
+
+      - name: receipt_external_interface_reconciled
+        description: ""
+
+      - name: receipt_last_modified_time
+        description: ""
+
+      - name: booking_client_id
+        description: ""
+
+      - name: booking_company
+        description: ""
+
+      - name: booking_division
+        description: ""
+
+      - name: booking_brand
+        description: ""
+
+      - name: booking_status
+        description: ""
+
+      - name: booking_status_name
+        description: ""
+
+      - name: booking_option_status
+        description: ""
+
+      - name: option_status_name
+        description: ""
+
+      - name: booking_date
+        description: ""
+
+      - name: booking_arrival_date
+        description: ""
+
+      - name: booking_departure_date
+        description: ""
+
+      - name: booking_balance_due_date
+        description: ""
+
+      - name: client_type
+        description: ""
+
+      - name: client_reference
+        description: ""
+
+      - name: client_name
+        description: ""
+
+      - name: client_group
+        description: ""
+
+      - name: direct_client_profile_id
+        description: ""
+
+      - name: cc_receipt_transaction_reference
+        description: ""
+
+      - name: cc_receipt_card_type
+        description: ""
+
+      - name: cc_card_type_name
+        description: ""
+
+      - name: cc_card_type_merchant_fee
+        description: ""
+
+      - name: cc_card_type_merchant_fee_customer
+        description: ""
+
+      - name: cc_card_type_taxable
+        description: ""
+
+      - name: client_refund_type
+        description: ""
+
+      - name: cc_receipt_transaction_status
+        description: ""
+
+      - name: cc_receipt_auth_code
+        description: ""
+
+      - name: cc_receipt_transaction_ref_id_returned
+        description: ""
+
+      - name: cc_receipt_transaction_ref_number_returned
+        description: ""
+
+      - name: cc_receipt_cc_last_five_digits
+        description: ""
+
+      - name: cc_receipt_settlement_date
+        description: ""
+
+      - name: cc_receipt_cc_fee_cost
+        description: ""
+
+      - name: cc_receipt_airline_merchant
+        description: ""
+
+      - name: cc_receipt_cc_fee_price_tax
+        description: ""
+
+      - name: cc_receipt_cc_fee_cost_tax
+        description: ""
+
+      - name: cc_receipt_house_number
+        description: ""
+
+      - name: cc_receipt_airline_commission_amount
+        description: ""
+
+      - name: cc_receipt_company_credit_card
+        description: ""
+
+      - name: cc_receipt_card_number_first_six_digits
+        description: ""
+
+      - name: cc_receipt_issue_number
+        description: ""
+
+      - name: cc_receipt_passenger_number
+        description: ""
+
+      - name: cc_receipt_product_code
+        description: ""
+
+      - name: cc_receipt_item_number
+        description: ""
+
+      - name: cc_receipt_security_number
+        description: ""
+
+      - name: cc_receipt_address
+        description: ""
+
+      - name: cc_receipt_city
+        description: ""
+
+      - name: cc_receipt_state
+        description: ""
+
+      - name: cc_receipt_subscription_number_deleted
+        description: ""
+
+      - name: cc_receipt_remittance_number
+        description: ""
+
+      - name: cc_receipt_remittance_date
+        description: ""
+
+      - name: cc_receipt_hash_card_number
+        description: ""
+
+      - name: cc_receipt_merchant
+        description: ""
+
+      - name: cc_receipt_last_modified_time
+        description: ""
+
+      - name: cc_receipt_card_category
+        description: ""
+
+      - name: cc_receipt_credit_card_brand
+        description: ""
+
+      - name: refund_authorized
+        description: ""
+
+      - name: refund_transfer_receipt_index
+        description: ""
+
+      - name: refund_batch_number
+        description: ""
+
+      - name: refund_auto_refund
+        description: ""
+
+      - name: refund_authorized_user
+        description: ""
+
+      - name: refund_cheque_refund_index
+        description: ""
+
+      - name: refund_last_modified_time
+        description: ""
+
+      - name: refund_type_code
+        description: ""
+
+      - name: refund_type_name
+        description: ""
+
+      - name: refund_type_exgratia
+        description: ""
+
+      - name: refund_type_sys_defined
+        description: ""
+
+      - name: booking_transfer_booking_id
+        description: ""
+
+      - name: booking_transfer_receipt_index
+        description: ""
+
+      - name: booking_transfer_from_booking
+        description: ""
+
+      - name: booking_transfer_from_receipt_index
+        description: ""
+
+      - name: booking_transfer_to_booking
+        description: ""
+
+      - name: booking_transfer_last_modified_time
+        description: ""

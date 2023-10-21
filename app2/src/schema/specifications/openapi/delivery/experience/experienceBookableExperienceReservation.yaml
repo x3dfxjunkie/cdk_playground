@@ -1,0 +1,54 @@
+experienceBookableExperienceReservation:
+  allOf:
+    - $ref: "../openapi.yaml#/components/schemas/experienceCommon"
+    - type: object
+      properties:
+        transactionId:
+          type: string
+          description: unique identifier for the Bookable Experence Reservation transaction
+          example: 479999999999
+        experienceId:
+          type: string
+          description: Enterprise ID for the Bookable Exerperience, also referenced as Activity Product.  This can be referenced via D-Scribe APIs for additional product metadata
+          example: "19277673"
+        experienceCategory:
+          allOf:
+            - $ref: "../openapi.yaml#/components/schemas/experienceCategory"
+            - type: string
+              example: "Experience Reservation"
+        status:
+          $ref: "../openapi.yaml#/components/schemas/experienceStatus"
+        businessDate:
+          type: string
+          format: date
+          description: Date of the Bookable Experience Reservation
+        experienceStart:
+          type: string
+          format: date-time
+          description: UTC start date/Time of the Bookable Experience Reservation
+        experienceEnd:
+          type: string
+          format: date-time
+          description: UTC end date/Time of the Bookable Experience Reservation, may not apply to most or all experiences
+      required:
+        - transactionId
+        - experienceId
+        - experienceCategory
+        - status
+        - businessDate
+        - experienceStart
+    - type: object
+      properties:
+        reservationDetails:
+          type: object
+          description: reservation details
+          properties:
+            guestCount:
+              type: integer
+              example: 5
+            guestPartyMix:
+              $ref: "../openapi.yaml#/components/schemas/guestPartyMix"
+            bookingChannel:
+              type: string
+              description: The channel used to book the reservation - Internet | Contact Center | Guest Facing | etc
+              example: Guest Facing

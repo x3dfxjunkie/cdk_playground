@@ -1,0 +1,103 @@
+[
+    {
+        "data": {
+            "SAP_TAX_CD": "I0",
+            "SAP_TAX_NM": "A\/P Tax Exempt (Vertex) - Input Tax",
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:43.918Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T21:37:35.000847Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "SAP_TAX",
+            "transaction-id": 2031637
+        }
+    },
+    {
+        "data": {
+            "SAP_TAX_CD": "Z0",
+            "SAP_TAX_NM": "A\/R Tax exempt (FoH)",
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:43.995Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T23:07:55.051097Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "SAP_TAX",
+            "transaction-id": 2031638
+        }
+    },
+    {
+        "data": {
+            "SAP_TAX_CD": "Z1",
+            "SAP_TAX_NM": "A\/R Sales tax (FoH)",
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:44.004Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T23:08:00.280006Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "SAP_TAX",
+            "transaction-id": 131086
+        }
+    },
+    {
+        "data": {
+            "SAP_TAX_CD": "Z2",
+            "SAP_TAX_NM": "A\/R Non taxable (FoH)",
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:44.012Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T23:08:00.288339Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "SAP_TAX",
+            "transaction-id": 2162710
+        }
+    },
+    {
+        "data": {
+            "SAP_TAX_CD": "Z5",
+            "SAP_TAX_NM": "A\/R Resort tax (FoH)",
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:44.019Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T23:08:00.368385Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "SAP_TAX",
+            "transaction-id": 589855
+        }
+    },
+    {
+        "data": {
+            "SAP_TAX_CD": "Z6",
+            "SAP_TAX_NM": "A\/P Self Assessment Use Tax (FOH)",
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:44.023Z"
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T23:08:00.378064Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "SAP_TAX"
+        }
+    }
+]

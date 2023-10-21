@@ -1,0 +1,122 @@
+[
+    {
+        "data": {
+            "id": 2792481,
+            "when_reported": "2022-12-29T16:00:00Z",
+            "report_period_minutes": 5,
+            "inv_bucket_id": "DLR_CA_AP_DAILY",
+            "facility_id": "DLR_CA",
+            "slot": "DAILY",
+            "num_res_bookings": 34,
+            "num_confirmations": 15,
+            "num_res_redemptions": 0,
+            "num_res_cancellations": 4,
+            "num_guests": 34
+        },
+        "metadata": {
+            "timestamp": "2022-12-30T00:00:02.330210Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "awakening",
+            "table-name": "res_summary_stats",
+            "transaction-id": 1.17450175677621e+15
+        }
+    },
+    {
+        "data": {
+            "id": 2792482,
+            "when_reported": "2022-12-29T16:00:00Z",
+            "report_period_minutes": 5,
+            "inv_bucket_id": "DLR_CA_CAST_COMP_DAILY",
+            "facility_id": "DLR_CA",
+            "slot": "DAILY",
+            "num_res_bookings": 0,
+            "num_confirmations": 0,
+            "num_res_redemptions": 0,
+            "num_res_cancellations": 0,
+            "num_guests": 0
+        },
+        "metadata": {
+            "timestamp": "2022-12-30T00:00:02.338785Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "awakening",
+            "table-name": "res_summary_stats",
+            "transaction-id": 1174501756776777
+        }
+    },
+    {
+        "data": {
+            "id": 2792483,
+            "when_reported": "2022-12-29T16:00:00Z",
+            "report_period_minutes": 5,
+            "inv_bucket_id": "DLR_CA_GROUPS_DAILY",
+            "facility_id": "DLR_CA",
+            "slot": "DAILY",
+            "num_res_bookings": 0,
+            "num_confirmations": 0,
+            "num_res_redemptions": 0,
+            "num_res_cancellations": 0,
+            "num_guests": 0
+        },
+        "metadata": {
+            "timestamp": "2022-12-30T00:00:02.362431Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "awakening",
+            "table-name": "res_summary_stats",
+            "transaction-id": null
+        }
+    },
+    {
+        "data": {
+            "id": 2792484,
+            "when_reported": "2022-12-29T16:00:00Z",
+            "report_period_minutes": 5,
+            "inv_bucket_id": "DLR_CA_PH_DAILY",
+            "facility_id": "DLR_CA",
+            "slot": "DAILY",
+            "num_res_bookings": 37,
+            "num_confirmations": 13,
+            "num_res_redemptions": 10,
+            "num_res_cancellations": 0,
+            "num_guests": 37
+        },
+        "metadata": {
+            "timestamp": "2022-12-30T00:00:02.376865Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "awakening",
+            "table-name": "res_summary_stats",
+            "transaction-id": 1174501756777927
+        }
+    },
+    {
+        "data": {
+            "id": 2792485,
+            "when_reported": "2022-12-29T16:00:00Z",
+            "report_period_minutes": 5,
+            "inv_bucket_id": "DLR_CA_RESORT_DAILY",
+            "facility_id": "DLR_CA",
+            "slot": "DAILY",
+            "num_res_bookings": 10,
+            "num_confirmations": 3,
+            "num_res_redemptions": 3,
+            "num_res_cancellations": 4,
+            "num_guests": 10
+        },
+        "metadata": {
+            "timestamp": "2022-12-30T00:00:02.386822Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "awakening",
+            "table-name": "res_summary_stats",
+            "transaction-id": 1174501756778495
+        }
+    }
+]

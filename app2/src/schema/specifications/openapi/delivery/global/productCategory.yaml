@@ -1,0 +1,11 @@
+productCategory:
+  type: string
+  description: Corresponding Product category with the Product Ownership Paradigm
+  enum:
+    - Ticket
+    - Merchandise
+    - Tickets
+    - Memory Maker
+    - PhotoPass
+    - PlayApp Achievement
+    - Magicband

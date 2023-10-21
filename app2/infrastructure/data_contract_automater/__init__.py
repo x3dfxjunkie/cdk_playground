@@ -1,0 +1,1 @@
+from .data_contract_automater import DataContractAutomaterStack

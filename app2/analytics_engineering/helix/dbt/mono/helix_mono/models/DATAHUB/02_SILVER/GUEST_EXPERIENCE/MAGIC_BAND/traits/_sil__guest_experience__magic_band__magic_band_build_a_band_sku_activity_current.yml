@@ -1,0 +1,79 @@
+version: 2
+
+models:
+  - name: sil__guest_experience__magic_band__magic_band_build_a_band_sku_activity_current
+    description: "{{ doc('sil__guest_experience__magic_band__magic_band_build_a_band_sku_activity_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=guest_experience
+        - sub_domain=magic_band
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: build_band_sku_id
+        description: ""
+
+      - name: product_id
+        description: ""
+
+      - name: product_type_id
+        description: ""
+
+      - name: product_type_code
+        description: ""
+
+      - name: product_type_description
+        description: ""
+
+      - name: top_color_id
+        description: ""
+
+      - name: magic_band_top_color_code
+        description: ""
+
+      - name: magic_band_top_color_name
+        description: ""
+
+      - name: bottom_color_id
+        description: ""
+
+      - name: magic_band_bottom_color_code
+        description: ""
+
+      - name: magic_band_bottom_color_name
+        description: ""
+
+      - name: sku_code
+        description: ""
+
+      - name: sku_type
+        description: ""
+
+      - name: sku_activity_id
+        description: ""
+
+      - name: sku_deleted_indicator
+        description: ""
+
+      - name: activity_create_datetime
+        description: ""
+
+      - name: source_system_create_user_id
+        description: ""
+
+      - name: source_system_create_datetime
+        description: ""
+
+      - name: source_system_update_user_id
+        description: ""
+
+      - name: source_system_update_datetime
+        description: ""
+
+      - name: source_system_logical_delete_indicator
+        description: ""

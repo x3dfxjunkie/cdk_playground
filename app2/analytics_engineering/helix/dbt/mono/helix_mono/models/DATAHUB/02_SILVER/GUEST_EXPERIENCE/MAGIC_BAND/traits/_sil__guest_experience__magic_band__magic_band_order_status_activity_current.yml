@@ -1,0 +1,82 @@
+version: 2
+
+models:
+  - name: sil__guest_experience__magic_band__magic_band_order_status_activity_current
+    description: "{{ doc('sil__guest_experience__magic_band__magic_band_order_status_activity_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=guest_experience
+        - sub_domain=magic_band
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: order_status_activity_id
+        description: ""
+
+      - name: order_id
+        description: ""
+
+      - name: order_unique_identifier
+        description: ""
+
+      - name: expected_ship_date
+        description: ""
+
+      - name: expected_delivery_date
+        description: ""
+
+      - name: actual_delivery_date
+        description: ""
+
+      - name: magic_band_order_status_id
+        description: ""
+
+      - name: status_code
+        description: ""
+
+      - name: status_description
+        description: ""
+
+      - name: order_status_category_id
+        description: ""
+
+      - name: category_code
+        description: ""
+
+      - name: category_description
+        description: ""
+
+      - name: status_error_number
+        description: ""
+
+      - name: status_error_description
+        description: ""
+
+      - name: status_update_datetime
+        description: ""
+
+      - name: status_update_date
+        description: ""
+
+      - name: status_update_time
+        description: ""
+
+      - name: source_system_logical_delete_indicator
+        description: ""
+
+      - name: source_system_create_user_id
+        description: ""
+
+      - name: source_system_create_datetime
+        description: ""
+
+      - name: source_system_update_user_id
+        description: ""
+
+      - name: source_system_update_datetime
+        description: ""

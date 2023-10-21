@@ -1,0 +1,324 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__east__res_generic_booking_cleansed
+    description: '{{ doc("sil__intermediate__travelbox__east__res_generic_booking_cleansed") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_cleansed
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_booking_id
+            - data_item_no
+            - data_product_code
+            - metadata_checksum
+
+    columns:
+      - name: data_booking_id
+        description: "The system generated id of the booking | example: 10160883"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_product_code
+        description: "Deprecated | example: GEN"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_item_no
+        description: "Deprecated | example: 1"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_duration
+        description: "Duration of the booking item | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_departure_time
+        description: "Same column properties as GEN_DEPARTURE_TIME.DEPARTURE_TIME | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_unit_cost
+        description: "Flag to indicate if the fare is specified per person ( 0 ) or as a unit cost ( 1 ) when fare defined method is selected as &#39;Amount&#39; | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_units
+        description: "The number of allocations | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_pax_unit
+        description: "Pax unit which is defined  under manual property edit in gen summary tab | example: N/A"
+        meta:
+          checksum: True
+
+      - name: data_category_id
+        description: "The system generated id of the supplement type | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_reservation_id
+        description: "The system generated id of the reservation | example: 592107"
+        meta:
+          checksum: True
+
+      - name: data_duration_type
+        description: "Generic item valid duration type_x000D_
+Days = &#39;D&#39; (Default)_x000D_
+Nights = &#39;N&#39;_x000D_
+Hours = &#39;H&#39; | example: U"
+        meta:
+          checksum: True
+
+      - name: data_category_type_id
+        description: "Category type foreign key | example: 6567"
+        meta:
+          checksum: True
+
+      - name: data_element_group_id
+        description: "The generic element group for which the mentioned permutation is valid | example: 3848"
+        meta:
+          checksum: True
+
+      - name: data_voucher_used
+        description: "whether a voucher used or not for  particular item : 1 or 0 value ( if it is not used , cancellation will charge Before voucher use value which is defined under supplier cancellation schema setup) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_ticketing_dead_line
+        description: "Ticketing deadline date for generic bookings (used for bus ticket implementation) | example: 1981-04-06 05:30:39"
+        meta:
+          checksum: True
+
+      - name: data_max_release_day
+        description: "Maximum day of release allocation  within allocations period of the booking | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_category_code
+        description: "Refer to CODE in GEN_CATEGORY table | example: MAGEXTW"
+        meta:
+          checksum: True
+
+      - name: data_category_name
+        description: "The name of the car supplement category | example: Magical Extras - WWS"
+        meta:
+          checksum: True
+
+      - name: data_product_group_code
+        description: "The TravelBox Code of the Product Group | example: MAGEXW"
+        meta:
+          checksum: True
+
+      - name: data_product_group_name
+        description: "The TravelBox Name of the Product Group | example: WDTC Magical Extras - WWS"
+        meta:
+          checksum: True
+
+      - name: data_product_type_code
+        description: "Comma seperated product type codes | example: MAGEXTW"
+        meta:
+          checksum: True
+
+      - name: data_product_type_name
+        description: "The TravelBox Name of the Product Type | example: WDTC Magical Extras -EWWS"
+        meta:
+          checksum: True
+
+      - name: data_content_supplier
+        description: "The TravelBox id of the supplier who provides content for the contract | example: 29931"
+        meta:
+          checksum: True
+
+      - name: data_ticketed
+        description: "Specifies whether the tickets have been issued for flight booking item Ticketed - 1, Not ticketed - 0 | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_searched_as_fc
+        description: "whether this item add as a forced component (value 1) or not (value 0) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 1984-07-05 00:49:56"
+        meta:
+          checksum: True
+
+      - name: data_fulfillment_freq
+        description: "Specify the frequency type of gategory, P: per Person, I: Per Item | example: I"
+        meta:
+          checksum: True
+
+      - name: data_usage_lov_from
+        description: "NaN | example: 1998-09-13 19:20:59"
+        meta:
+          checksum: True
+
+      - name: data_usage_lov_to
+        description: "NaN | example: 2023-06-25 21:49:15"
+        meta:
+          checksum: True
+
+      - name: data_pricing_lov_from
+        description: "NaN | example: 1983-03-29 06:21:11"
+        meta:
+          checksum: True
+
+      - name: data_pricing_lov_to
+        description: "NaN | example: 1976-02-22 00:51:33"
+        meta:
+          checksum: True
+
+      - name: min_metadata_timestamp
+        description: "The Minimum Metadata Timestamp field is used for updating the version end date of the active record in the target table"
+        tests:
+          - not_null
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

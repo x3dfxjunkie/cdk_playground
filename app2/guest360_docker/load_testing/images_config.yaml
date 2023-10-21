@@ -1,0 +1,22 @@
+---
+rabbitmq:
+  enabled: true
+  ephemeral_enabled: false
+  file: rabbitmq.Dockerfile
+  base_repo: containers.disney.com/rabbitmq
+  base_tag: "3.10-management-build-202332"
+  directory: rabbitmq
+  platform: aws_ecr_assets.Platform.LINUX_AMD64
+  target_version: v0.1.6
+  special_replication: false
+locust:
+  enabled: true
+  ephemeral_enabled: true
+  file: load_testing/Dockerfile
+  base_repo: guest360/infrastructure/base_image
+  base_tag: "latest"
+  directory: ../../../app/src
+  platform: aws_ecr_assets.Platform.LINUX_AMD64
+  target_version: v0.1.7
+  special_replication: false
+...

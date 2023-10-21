@@ -1,0 +1,41 @@
+[
+    {
+      "data": {
+        "GRP_FREE_TM_LVL_NM": "High"
+      },
+      "metadata": {
+        "operation": "load",
+        "partition-key-type": "primary-key",
+        "record-type": "data",
+        "schema-name": "group_mgmt",
+        "table-name": "grp_free_tm_lvl",
+        "timestamp": "2023-07-26T01:12:17.004186Z"
+      }
+    },
+    {
+      "data": {
+        "GRP_FREE_TM_LVL_NM": "Low"
+      },
+      "metadata": {
+        "operation": "load",
+        "partition-key-type": "primary-key",
+        "record-type": "data",
+        "schema-name": "group_mgmt",
+        "table-name": "grp_free_tm_lvl",
+        "timestamp": "2023-07-26T01:12:17.011177Z"
+      }
+    },
+    {
+      "data": {
+        "GRP_FREE_TM_LVL_NM": "Medium"
+      },
+      "metadata": {
+        "operation": "load",
+        "partition-key-type": "primary-key",
+        "record-type": "data",
+        "schema-name": "group_mgmt",
+        "table-name": "grp_free_tm_lvl",
+        "timestamp": "2023-07-26T01:12:17.018771Z"
+      }
+    }
+  ]

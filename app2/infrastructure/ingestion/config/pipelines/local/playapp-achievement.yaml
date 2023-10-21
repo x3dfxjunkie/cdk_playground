@@ -1,0 +1,19 @@
+stack_extension: &se playapp-achievement
+ingest_pattern: &ip kinesis2kinesis
+active: True
+pattern_instances:
+  - region: us-east-1
+    resources:
+      kinesis_firehose:
+        enabled: True
+        partitioning:
+          dynamic: 
+            enabled: false
+            keys: null
+          custom_keys:
+            source: *ip 
+            data_entity: *se           
+      cross_account:
+        cross_account_type: &cat 
+        cross_account_id: &id  
+        cross_account_role_name: 

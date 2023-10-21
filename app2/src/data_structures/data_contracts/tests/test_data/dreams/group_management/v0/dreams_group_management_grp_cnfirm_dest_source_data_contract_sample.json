@@ -1,0 +1,29 @@
+[
+    {
+        "data": {
+            "GRP_CNFIRM_DEST_NM": "External"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "group_mgmt",
+            "table-name": "grp_cnfirm_dest",
+            "timestamp": "2023-07-14T19:50:05.298004Z",
+            "transaction-id": 103090675629
+        }
+    },
+    {
+        "data": {
+            "GRP_CNFIRM_DEST_NM": "Internal"
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "group_mgmt",
+            "table-name": "grp_cnfirm_dest",
+            "timestamp": "2023-07-14T19:50:20.511834Z"
+        }
+    }
+]

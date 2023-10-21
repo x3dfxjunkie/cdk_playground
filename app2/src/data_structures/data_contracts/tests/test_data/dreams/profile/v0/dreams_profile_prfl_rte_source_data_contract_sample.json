@@ -1,0 +1,48 @@
+[
+    {
+        "data": {
+            "PRFL_RTE_ID": 233,
+            "PRFL_ID": 233,
+            "PRFL_RTE_TYP_NM": "Reservation",
+            "DFLT_PRFL_RTE_IN": "Y",
+            "KODO_PRFL_RTE_TYP_NM": "Routing",
+            "CREATE_USR_ID_CD": "LILO CONV",
+            "CREATE_DTS": "2009-08-12T05:50:36.000-05:00",
+            "UPDT_USR_ID_CD": "LILO CONV",
+            "UPDT_DTS": "2009-08-12T05:50:36.000-05:00",
+            "JDO_SEQ_NB": 0,
+            "load_dts": 20230619
+        },
+        "metadata": {
+            "timestamp": "2023-06-02T14:10:44.467240Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "prfl_mgmt",
+            "table-name": "prfl",
+            "transaction-id": 8637179232677
+        }
+    },
+    {
+        "data": {
+            "PRFL_RTE_ID": 234,
+            "PRFL_ID": 234,
+            "PRFL_RTE_TYP_NM": "Reservation",
+            "DFLT_PRFL_RTE_IN": "Y",
+            "KODO_PRFL_RTE_TYP_NM": "Routing",
+            "CREATE_USR_ID_CD": "LILO CONV",
+            "CREATE_DTS": "2009-08-12T05:50:36.000-05:00",
+            "UPDT_USR_ID_CD": "LILO CONV",
+            "UPDT_DTS": "2009-08-12T05:50:36.000-05:00",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-02T14:10:44.467240Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "prfl_mgmt",
+            "table-name": "prfl"
+        }
+    }
+]

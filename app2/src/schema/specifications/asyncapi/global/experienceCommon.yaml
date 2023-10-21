@@ -1,0 +1,24 @@
+experienceCommon:
+  type: object
+  description: Common event attributes for the Experience Paradigm
+  properties:
+    statusConfidenceLabel:
+      $ref: "../asyncapi.yaml#/components/schemas/statusConfidenceLabel"
+    created:
+      $ref: "../asyncapi.yaml#/components/schemas/created"
+    lastModified:
+      $ref: "../asyncapi.yaml#/components/schemas/lastModified"
+    experienceTimezoneOffSet:
+      type: string
+      description: Solution / Value design in progress, to be determined
+      example: "TBD"
+    eventTime:
+      $ref: "../asyncapi.yaml#/components/schemas/eventTime"
+    destination:
+      $ref: "../asyncapi.yaml#/components/schemas/destination"
+  required:
+    - created
+    - lastModified
+    - eventTime
+    - experienceTimezoneOffSet
+    - destination

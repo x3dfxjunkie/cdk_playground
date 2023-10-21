@@ -1,0 +1,844 @@
+[
+    {
+        "History": [
+            {
+                "Visit": {
+                    "ID": "99999999-5130-4402-829e-d82a70b78b22",
+                    "IID": 2040155963,
+                    "LastUpdate": "2023-05-17T17:39:08.139+00:00",
+                    "ServerLastUpdate": "2023-05-17T17:39:09.056+00:00",
+                    "GuestID": "99999999-eff6-43ee-8481-73ed4f9b614c",
+                    "Guest": null,
+                    "Type": "CallAhead",
+                    "Status": "Completed",
+                    "Size": 2,
+                    "VisitSource": "DineTimeAPI",
+                    "PagerID": null,
+                    "SeatedTables": [
+                        {
+                            "TableID": "ffd586d6-dc36-4228-9860-f83787ff33e0",
+                            "TableName": "254",
+                            "StartTime": "2023-05-17T12:31:10-04:00",
+                            "IsActive": false,
+                            "IsCurrent": true
+                        }
+                    ],
+                    "PreassignedTables": null,
+                    "Quote": {
+                        "QuoteLow": 51,
+                        "QuoteHigh": 55,
+                        "SiteQuoteString": "55 minutes",
+                        "ConsumerQuoteString": "55 minutes",
+                        "ExactQuote": null
+                    },
+                    "CreationTime": "2023-05-17T11:30:53-04:00",
+                    "EstimatedArrivalTime": null,
+                    "ArrivalTime": "2023-05-17T11:30:54-04:00",
+                    "PagedTime": "2023-05-17T11:34:08-04:00",
+                    "CompletedTime": "2023-05-17T13:39:08-04:00",
+                    "CanceledTime": null,
+                    "ConfirmationNumber": "2FKVXC",
+                    "ConfirmationNumberId": 0,
+                    "SeatingAreaID": null,
+                    "SeatingAreaName": null,
+                    "Notes": "Adults(2)\nfirst-visit",
+                    "CustomValues": [
+                        {
+                            "Name": "requesterID",
+                            "Value": "WDW-iOS-7.24"
+                        },
+                        {
+                            "Name": "clientFlow",
+                            "Value": "MOBILE-APP"
+                        }
+                    ],
+                    "ExternalID": null,
+                    "PartyMix": {
+                        "Mixes": [
+                            {
+                                "Type": "Adult",
+                                "Count": 2
+                            }
+                        ]
+                    },
+                    "NotificationType": "SMS"
+                },
+                "CreatedDate": "0001-01-01T00:00:00+00:00",
+                "CleanedTime": "2023-05-17T13:46:34+00:00",
+                "StationName": "4",
+                "FloorPlanName": "Brown Derby 3",
+                "ShiftName": "17 Servers",
+                "OperatingPeriodName": "Lunch",
+                "VisitUID": "99999999-5130-4402-829e-d82a70b78b22",
+                "TeamMemberUID": "99999999-4fa8-431c-9758-b647d23d795e",
+                "ServerLastUpdate": "2023-05-17T17:56:28.109+00:00",
+                "ID": "99999999-dc36-4228-9860-f83787ff33e0",
+                "LastUpdate": "2023-05-17T17:46:33.931+00:00",
+                "Name": "254",
+                "SeatCount": 4,
+                "MinimumSeatCount": 2,
+                "MaximumSeatCount": 4,
+                "IsActive": true,
+                "SeatingAreaId": null
+            },
+            {
+                "Visit": {
+                    "ID": "99999999-d300-4218-bcc7-f4f8ceb2b5b2",
+                    "IID": 9999999999,
+                    "LastUpdate": "2023-05-17T17:36:27.453+00:00",
+                    "ServerLastUpdate": "2023-05-17T17:36:28.646+00:00",
+                    "GuestID": "99999999-a2c8-46a9-9d60-e05908c67085",
+                    "Guest": null,
+                    "Type": "Reservation",
+                    "Status": "Completed",
+                    "Size": 3,
+                    "VisitSource": "DineTimeAPI",
+                    "PagerID": null,
+                    "SeatedTables": [
+                        {
+                            "TableID": "cef37f5e-18af-4f12-9849-ec5702c0de3f",
+                            "TableName": "414",
+                            "StartTime": "2023-05-17T12:34:44-04:00",
+                            "EndTime": "2023-05-17T13:36:27-04:00",
+                            "IsActive": false,
+                            "IsCurrent": true
+                        }
+                    ],
+                    "PreassignedTables": null,
+                    "Quote": null,
+                    "CreationTime": "2023-05-17T05:31:23-04:00",
+                    "EstimatedArrivalTime": "2023-05-17T12:30:00-04:00",
+                    "ArrivalTime": "2023-05-17T12:28:51-04:00",
+                    "PagedTime": "2023-05-17T12:29:49-04:00",
+                    "SeatedTime": "2023-05-17T12:34:44-04:00",
+                    "CompletedTime": "2023-05-17T13:36:27-04:00",
+                    "CanceledTime": null,
+                    "ConfirmationNumber": "L6WBJG",
+                    "ConfirmationNumberId": 0,
+                    "SeatingAreaID": null,
+                    "SeatingAreaName": null,
+                    "Notes": "The Hollywood Brown Derby Lunch\nAdults(2)\nChildren(1)\nbooster seats(1)\nbirthday",
+                    "CustomValues": [
+                        {
+                            "Name": "requesterID",
+                            "Value": "WDW-iOS-7.24"
+                        },
+                        {
+                            "Name": "clientFlow",
+                            "Value": "MOBILE-APP"
+                        }
+                    ],
+                    "ExternalID": "999999999999",
+                    "PartyMix": {
+                        "Mixes": [
+                            {
+                                "Type": "Child",
+                                "Count": 1
+                            },
+                            {
+                                "Type": "Adult",
+                                "Count": 2
+                            }
+                        ]
+                    },
+                    "NotificationType": "None"
+                },
+                "CreatedDate": "0001-01-01T00:00:00+00:00",
+                "CleanedTime": "2023-05-17T13:47:46+00:00",
+                "DirtiedTime": "2023-05-17T13:36:27+00:00",
+                "StationName": "14",
+                "FloorPlanName": "Brown Derby 3",
+                "ShiftName": "17 Servers",
+                "OperatingPeriodName": "Lunch",
+                "VisitUID": "99999999-d300-4218-bcc7-f4f8ceb2b5b2",
+                "TeamMemberUID": "99999999-2fba-43c0-bb60-a9cceec5c84a",
+                "ServerLastUpdate": "2023-05-17T18:01:28.305+00:00",
+                "ID": "99999999-18af-4f12-9849-ec5702c0de3f",
+                "LastUpdate": "2023-05-17T18:01:24.356+00:00",
+                "Name": "414",
+                "SeatCount": 4,
+                "MinimumSeatCount": 2,
+                "MaximumSeatCount": 4,
+                "IsActive": true,
+                "SeatingAreaId": null
+            },
+            {
+                "Visit": {
+                    "ID": "99999999-7604-40c2-91c3-cb0be149e4cb",
+                    "IID": 9999999999,
+                    "LastUpdate": "2023-05-17T17:29:45.992+00:00",
+                    "ServerLastUpdate": "2023-05-17T17:29:46.559+00:00",
+                    "GuestID": "99999999-de96-4cdb-90ad-5071d27d2e25",
+                    "Guest": null,
+                    "Type": "Reservation",
+                    "Status": "Completed",
+                    "Size": 6,
+                    "VisitSource": "DineTimeAPI",
+                    "PagerID": null,
+                    "SeatedTables": [
+                        {
+                            "TableID": "89aa945b-633a-4dbe-9348-32451ce681fb",
+                            "TableName": "422",
+                            "StartTime": "2023-05-17T12:36:15-04:00",
+                            "EndTime": "2023-05-17T13:29:46-04:00",
+                            "IsActive": false,
+                            "IsCurrent": true
+                        }
+                    ],
+                    "PreassignedTables": null,
+                    "Quote": null,
+                    "CreationTime": "2023-05-17T10:49:21-04:00",
+                    "EstimatedArrivalTime": "2023-05-17T12:25:00-04:00",
+                    "ArrivalTime": "2023-05-17T12:28:10-04:00",
+                    "PagedTime": "2023-05-17T12:36:15-04:00",
+                    "SeatedTime": "2023-05-17T12:36:15-04:00",
+                    "CompletedTime": "2023-05-17T13:29:46-04:00",
+                    "CanceledTime": null,
+                    "ConfirmationNumber": "P87SQS",
+                    "ConfirmationNumberId": 0,
+                    "SeatingAreaID": null,
+                    "SeatingAreaName": null,
+                    "Notes": "The Hollywood Brown Derby Lunch\nAdults(4)\nChildren(2)\nbirthday",
+                    "CustomValues": [
+                        {
+                            "Name": "requesterID",
+                            "Value": "WDW-iOS-7.21"
+                        },
+                        {
+                            "Name": "clientFlow",
+                            "Value": "MOBILE-APP"
+                        }
+                    ],
+                    "ExternalID": "999999999999",
+                    "PartyMix": {
+                        "Mixes": [
+                            {
+                                "Type": "Child",
+                                "Count": 2
+                            },
+                            {
+                                "Type": "Adult",
+                                "Count": 4
+                            }
+                        ]
+                    },
+                    "NotificationType": "SMS"
+                },
+                "CreatedDate": "0001-01-01T00:00:00+00:00",
+                "CleanedTime": "2023-05-17T13:44:44+00:00",
+                "DirtiedTime": "2023-05-17T13:29:46+00:00",
+                "StationName": "15",
+                "FloorPlanName": "Brown Derby 3",
+                "ShiftName": "17 Servers",
+                "OperatingPeriodName": "Lunch",
+                "VisitUID": "99999999-7604-40c2-91c3-cb0be149e4cb",
+                "TeamMemberUID": "99999999-c2cd-4641-b4d4-99315fa2fa18",
+                "ServerLastUpdate": "2023-05-17T18:06:28.456+00:00",
+                "ID": "99999999-633a-4dbe-9348-32451ce681fb",
+                "LastUpdate": "2023-05-17T18:02:44.15+00:00",
+                "Name": "422",
+                "SeatCount": 8,
+                "MinimumSeatCount": 3,
+                "MaximumSeatCount": 8,
+                "IsActive": true,
+                "SeatingAreaId": null
+            },
+            {
+                "Visit": {
+                    "ID": "99999999-6aea-4cd0-a011-3f8339471e9d",
+                    "IID": 9999999999,
+                    "LastUpdate": "2023-05-17T17:54:36.954+00:00",
+                    "ServerLastUpdate": "2023-05-17T17:54:37.19+00:00",
+                    "GuestID": "99999999-9231-4be3-8ec7-16a942914df8",
+                    "Guest": null,
+                    "Type": "Reservation",
+                    "Status": "Completed",
+                    "Size": 5,
+                    "VisitSource": "DineTimeAPI",
+                    "PagerID": null,
+                    "SeatedTables": [
+                        {
+                            "TableID": "157e126d-2d7a-41af-acd4-540564ff1700",
+                            "TableName": "111",
+                            "StartTime": "2023-05-17T12:42:30-04:00",
+                            "EndTime": "2023-05-17T13:54:37-04:00",
+                            "IsActive": false,
+                            "IsCurrent": true
+                        }
+                    ],
+                    "PreassignedTables": null,
+                    "Quote": null,
+                    "CreationTime": "2023-05-17T05:31:27-04:00",
+                    "EstimatedArrivalTime": "2023-05-17T12:50:00-04:00",
+                    "ArrivalTime": "2023-05-17T12:42:12-04:00",
+                    "PagedTime": "2023-05-17T12:42:30-04:00",
+                    "SeatedTime": "2023-05-17T12:42:30-04:00",
+                    "CompletedTime": "2023-05-17T13:54:37-04:00",
+                    "CanceledTime": null,
+                    "ConfirmationNumber": "G3X5W0",
+                    "ConfirmationNumberId": 0,
+                    "SeatingAreaID": null,
+                    "SeatingAreaName": null,
+                    "Notes": "was4, now5 // rl // ci 1242// verbal call\r\n\r\nFantasmic 1st Show",
+                    "CustomValues": null,
+                    "ExternalID": "999999999999",
+                    "PartyMix": {
+                        "Mixes": [
+                            {
+                                "Type": "Adult",
+                                "Count": 3
+                            },
+                            {
+                                "Type": "Child",
+                                "Count": 2
+                            }
+                        ]
+                    },
+                    "NotificationType": "None"
+                },
+                "CreatedDate": "0001-01-01T00:00:00+00:00",
+                "CleanedTime": "2023-05-17T14:00:08+00:00",
+                "DirtiedTime": "2023-05-17T13:54:37+00:00",
+                "StationName": "11",
+                "FloorPlanName": "Brown Derby 3",
+                "ShiftName": "17 Servers",
+                "OperatingPeriodName": "Lunch",
+                "VisitUID": "99999999-6aea-4cd0-a011-3f8339471e9d",
+                "TeamMemberUID": "99999999-b4f7-4388-a348-dddf4eb0c4e4",
+                "ServerLastUpdate": "2023-05-17T18:06:28.494+00:00",
+                "ID": "99999999-2d7a-41af-acd4-540564ff1700",
+                "LastUpdate": "2023-05-17T17:54:36.814+00:00",
+                "Name": "111",
+                "SeatCount": 6,
+                "MinimumSeatCount": 3,
+                "MaximumSeatCount": 6,
+                "IsActive": true,
+                "SeatingAreaId": null
+            },
+            {
+                "Visit": {
+                    "ID": "99999999-757a-4510-a35a-d1005b2d0aa0",
+                    "IID": 9999999999,
+                    "LastUpdate": "2023-05-17T17:49:19.114+00:00",
+                    "ServerLastUpdate": "2023-05-17T17:49:20.125+00:00",
+                    "GuestID": "99999999-a42d-4043-abd3-03bceb676d12",
+                    "Guest": null,
+                    "Type": "WalkIn",
+                    "Status": "Completed",
+                    "Size": 2,
+                    "VisitSource": "DineTimeHost",
+                    "PagerID": null,
+                    "SeatedTables": [
+                        {
+                            "TableID": "99999999-e855-45ca-90e7-d06f76029ca0",
+                            "TableName": "213",
+                            "StartTime": "2023-05-17T12:59:43-04:00",
+                            "EndTime": "2023-05-17T13:49:19-04:00",
+                            "IsActive": false,
+                            "IsCurrent": true
+                        }
+                    ],
+                    "PreassignedTables": null,
+                    "Quote": {
+                        "QuoteLow": 0,
+                        "QuoteHigh": 0,
+                        "SiteQuoteString": "45 minutes",
+                        "ConsumerQuoteString": "45 minutes",
+                        "ExactQuote": null
+                    },
+                    "CreationTime": "2023-05-17T12:42:15-04:00",
+                    "EstimatedArrivalTime": null,
+                    "ArrivalTime": "2023-05-17T12:42:15-04:00",
+                    "PagedTime": "2023-05-17T12:55:39-04:00",
+                    "SeatedTime": "2023-05-17T12:59:42-04:00",
+                    "CompletedTime": "2023-05-17T13:49:19-04:00",
+                    "CanceledTime": null,
+                    "ConfirmationNumber": null,
+                    "ConfirmationNumberId": 0,
+                    "SeatingAreaID": null,
+                    "SeatingAreaName": null,
+                    "Notes": "ST 1242",
+                    "CustomValues": null,
+                    "ExternalID": null,
+                    "PartyMix": {
+                        "Mixes": [
+                            {
+                                "Type": "Adult",
+                                "Count": 2
+                            }
+                        ]
+                    },
+                    "NotificationType": "SMS"
+                },
+                "CreatedDate": "0001-01-01T00:00:00+00:00",
+                "CleanedTime": "2023-05-17T13:56:06+00:00",
+                "DirtiedTime": "2023-05-17T13:49:19+00:00",
+                "StationName": "1",
+                "FloorPlanName": "Brown Derby 3",
+                "ShiftName": "17 Servers",
+                "OperatingPeriodName": "Lunch",
+                "VisitUID": "99999999-757a-4510-a35a-d1005b2d0aa0",
+                "TeamMemberUID": "99999999-6c34-436b-8ce3-97585d359ebf",
+                "ServerLastUpdate": "2023-05-17T18:06:28.542+00:00",
+                "ID": "99999999-e855-45ca-90e7-d06f76029ca0",
+                "LastUpdate": "2023-05-17T17:49:19.005+00:00",
+                "Name": "213",
+                "SeatCount": 4,
+                "MinimumSeatCount": 2,
+                "MaximumSeatCount": 4,
+                "IsActive": true,
+                "SeatingAreaId": null
+            },
+            {
+                "Visit": {
+                    "ID": "99999999-4a3e-471d-9474-3fd4c9bbdf3c",
+                    "IID": 9999999999,
+                    "LastUpdate": "2023-05-17T17:38:06.846+00:00",
+                    "ServerLastUpdate": "2023-05-17T17:38:07.716+00:00",
+                    "GuestID": "99999999-b690-4637-b795-59d2b8336443",
+                    "Guest": null,
+                    "Type": "Reservation",
+                    "Status": "Completed",
+                    "Size": 2,
+                    "VisitSource": "DineTimeAPI",
+                    "PagerID": null,
+                    "SeatedTables": [
+                        {
+                            "TableID": "be2675f4-5de2-45bf-9f72-3bc30191badf",
+                            "TableName": "315",
+                            "StartTime": "2023-05-17T12:36:32-04:00",
+                            "IsActive": false,
+                            "IsCurrent": true
+                        }
+                    ],
+                    "PreassignedTables": null,
+                    "Quote": null,
+                    "CreationTime": "2023-05-17T05:31:27-04:00",
+                    "EstimatedArrivalTime": "2023-05-17T12:55:00-04:00",
+                    "ArrivalTime": "2023-05-17T12:33:48-04:00",
+                    "PagedTime": "2023-05-17T12:36:32-04:00",
+                    "SeatedTime": "2023-05-17T12:36:32-04:00",
+                    "CompletedTime": "2023-05-17T13:38:07-04:00",
+                    "CanceledTime": null,
+                    "ConfirmationNumber": "7JW5SV",
+                    "ConfirmationNumberId": 0,
+                    "SeatingAreaID": null,
+                    "SeatingAreaName": null,
+                    "Notes": "ST 1233",
+                    "CustomValues": null,
+                    "ExternalID": "999999999999",
+                    "PartyMix": {
+                        "Mixes": [
+                            {
+                                "Type": "Child",
+                                "Count": 0
+                            },
+                            {
+                                "Type": "Adult",
+                                "Count": 2
+                            },
+                            {
+                                "Type": "Infant",
+                                "Count": 0
+                            }
+                        ]
+                    },
+                    "NotificationType": "SMS"
+                },
+                "CreatedDate": "0001-01-01T00:00:00+00:00",
+                "CleanedTime": "2023-05-17T14:01:47+00:00",
+                "DirtiedTime": "2023-05-17T13:38:07+00:00",
+                "StationName": "10",
+                "FloorPlanName": "Brown Derby 3",
+                "ShiftName": "17 Servers",
+                "OperatingPeriodName": "Lunch",
+                "VisitUID": "99999999-4a3e-471d-9474-3fd4c9bbdf3c",
+                "TeamMemberUID": "99999999-dbec-427c-ac34-435279f392c7",
+                "ServerLastUpdate": "2023-05-17T18:11:28.73+00:00",
+                "ID": "99999999-5de2-45bf-9f72-3bc30191badf",
+                "LastUpdate": "2023-05-17T18:01:46.802+00:00",
+                "Name": "315",
+                "SeatCount": 2,
+                "MinimumSeatCount": 1,
+                "MaximumSeatCount": 2,
+                "IsActive": true,
+                "SeatingAreaId": null
+            },
+            {
+                "Visit": {
+                    "ID": "99999999-6724-45dd-95e4-0372504a1a3a",
+                    "IID": 9999999999,
+                    "LastUpdate": "2023-05-17T17:23:06.752+00:00",
+                    "ServerLastUpdate": "2023-05-17T17:23:07.725+00:00",
+                    "GuestID": "99999999-49c5-43f7-b304-e28dad62d971",
+                    "Guest": null,
+                    "Type": "Reservation",
+                    "Status": "Completed",
+                    "Size": 2,
+                    "VisitSource": "DineTimeAPI",
+                    "PagerID": null,
+                    "SeatedTables": [
+                        {
+                            "TableID": "d0520620-9e33-4e53-8c02-868ae757c835",
+                            "TableName": "126",
+                            "StartTime": "2023-05-17T12:26:08-04:00",
+                            "EndTime": "2023-05-17T13:23:07-04:00",
+                            "IsActive": false,
+                            "IsCurrent": true
+                        }
+                    ],
+                    "PreassignedTables": null,
+                    "Quote": null,
+                    "CreationTime": "2023-05-17T05:31:25-04:00",
+                    "EstimatedArrivalTime": "2023-05-17T12:35:00-04:00",
+                    "ArrivalTime": "2023-05-17T12:24:48-04:00",
+                    "PagedTime": "2023-05-17T12:26:04-04:00",
+                    "SeatedTime": "2023-05-17T12:26:08-04:00",
+                    "CompletedTime": "2023-05-17T13:23:07-04:00",
+                    "CanceledTime": null,
+                    "ConfirmationNumber": "G7DMDQ",
+                    "ConfirmationNumberId": 0,
+                    "SeatingAreaID": null,
+                    "SeatingAreaName": null,
+                    "Notes": "The Hollywood Brown Derby Lunch\nAdults(2)",
+                    "CustomValues": [
+                        {
+                            "Name": "clientFlow",
+                            "Value": "MOBILE-APP"
+                        },
+                        {
+                            "Name": "requesterID",
+                            "Value": "WDW-iOS-7.24"
+                        }
+                    ],
+                    "ExternalID": "999999999999",
+                    "PartyMix": {
+                        "Mixes": [
+                            {
+                                "Type": "Adult",
+                                "Count": 2
+                            }
+                        ]
+                    },
+                    "NotificationType": "None"
+                },
+                "CreatedDate": "0001-01-01T00:00:00+00:00",
+                "CleanedTime": "2023-05-17T14:05:25+00:00",
+                "DirtiedTime": "2023-05-17T13:23:07+00:00",
+                "StationName": "13",
+                "FloorPlanName": "Brown Derby 3",
+                "ShiftName": "17 Servers",
+                "OperatingPeriodName": "Lunch",
+                "VisitUID": "99999999-6724-45dd-95e4-0372504a1a3a",
+                "TeamMemberUID": "99999999-c189-4385-85c6-5cab07342afd",
+                "ServerLastUpdate": "2023-05-17T18:11:28.756+00:00",
+                "ID": "99999999-9e33-4e53-8c02-868ae757c835",
+                "LastUpdate": "2023-05-17T18:05:24.798+00:00",
+                "Name": "126",
+                "SeatCount": 2,
+                "MinimumSeatCount": 1,
+                "MaximumSeatCount": 2,
+                "IsActive": true,
+                "SeatingAreaId": null
+            },
+            {
+                "Visit": {
+                    "ID": "99999999-9389-4c37-9cd2-329bbcb16610",
+                    "IID": 9999999999,
+                    "LastUpdate": "2023-05-17T18:00:45.323+00:00",
+                    "ServerLastUpdate": "2023-05-17T18:00:45.635+00:00",
+                    "GuestID": "99999999-166c-4e1f-889c-d487c8123c2b",
+                    "Guest": null,
+                    "Type": "Reservation",
+                    "Status": "Notified",
+                    "Size": 3,
+                    "VisitSource": "DineTimeAPI",
+                    "PagerID": null,
+                    "SeatedTables": [
+                        {
+                            "TableID": "d7ee63ba-c901-4be8-84c4-037209a07e05",
+                            "TableName": "233",
+                            "StartTime": "2023-05-17T12:36:06-04:00",
+                            "EndTime": "2023-05-17T14:00:45-04:00",
+                            "IsActive": false,
+                            "IsCurrent": true
+                        }
+                    ],
+                    "PreassignedTables": null,
+                    "Quote": null,
+                    "CreationTime": "2023-05-17T05:31:31-04:00",
+                    "EstimatedArrivalTime": "2023-05-17T13:15:00-04:00",
+                    "ArrivalTime": "2023-05-17T12:35:17-04:00",
+                    "SeatedTime": "2023-05-17T12:36:06-04:00",
+                    "CompletedTime": null,
+                    "CanceledTime": null,
+                    "ConfirmationNumber": "K756IS",
+                    "ConfirmationNumberId": 0,
+                    "SeatingAreaID": null,
+                    "SeatingAreaName": null,
+                    "Notes": "ST 1235",
+                    "CustomValues": null,
+                    "ExternalID": "999999999999",
+                    "PartyMix": {
+                        "Mixes": [
+                            {
+                                "Type": "Adult",
+                                "Count": 2
+                            },
+                            {
+                                "Type": "Child",
+                                "Count": 1
+                            }
+                        ]
+                    },
+                    "NotificationType": "SMS"
+                },
+                "CreatedDate": "0001-01-01T00:00:00+00:00",
+                "CleanedTime": "2023-05-17T14:14:19+00:00",
+                "DirtiedTime": "2023-05-17T14:00:45+00:00",
+                "StationName": "3",
+                "FloorPlanName": "Brown Derby 3",
+                "ShiftName": "17 Servers",
+                "OperatingPeriodName": "Lunch",
+                "VisitUID": "99999999-9389-4c37-9cd2-329bbcb16610",
+                "TeamMemberUID": "99999999-317b-479d-8cd6-79a030f6e02e",
+                "ServerLastUpdate": "2023-05-17T18:16:28.986+00:00",
+                "ID": "99999999-c901-4be8-84c4-037209a07e05",
+                "LastUpdate": "2023-05-17T18:14:19.366+00:00",
+                "Name": "233",
+                "SeatCount": 2,
+                "MinimumSeatCount": 2,
+                "MaximumSeatCount": 4,
+                "IsActive": true,
+                "SeatingAreaId": null
+            },
+            {
+                "Visit": {
+                    "ID": "99999999-3ce3-4651-8f90-11193503fdcc",
+                    "IID": 9999999999,
+                    "LastUpdate": "2023-05-17T17:54:07.921+00:00",
+                    "ServerLastUpdate": "2023-05-17T17:54:08.175+00:00",
+                    "GuestID": "99999999-b8cb-4454-b833-3ad2eeb45382",
+                    "Guest": null,
+                    "Type": "Reservation",
+                    "Status": "Notified",
+                    "Size": 3,
+                    "VisitSource": "DineTimeAPI",
+                    "PagerID": null,
+                    "SeatedTables": [
+                        {
+                            "TableID": "c85b83bc-4fae-4020-ace2-3194ee0b237e",
+                            "TableName": "224",
+                            "StartTime": "2023-05-17T13:00:13-04:00",
+                            "EndTime": "2023-05-17T13:54:08-04:00",
+                            "IsActive": false,
+                            "IsCurrent": true
+                        }
+                    ],
+                    "PreassignedTables": null,
+                    "Quote": null,
+                    "CreationTime": "2023-05-17T05:31:25-04:00",
+                    "EstimatedArrivalTime": "2023-05-17T13:20:00-04:00",
+                    "ArrivalTime": "2023-05-17T12:56:43-04:00",
+                    "PagedTime": "2023-05-17T13:00:13-04:00",
+                    "SeatedTime": "2023-05-17T13:00:13-04:00",
+                    "CompletedTime": null,
+                    "CanceledTime": null,
+                    "ConfirmationNumber": "B9J74M",
+                    "ConfirmationNumberId": 0,
+                    "SeatingAreaID": null,
+                    "SeatingAreaName": null,
+                    "Notes": "IK 1255",
+                    "CustomValues": null,
+                    "ExternalID": "999999999999",
+                    "PartyMix": {
+                        "Mixes": [
+                            {
+                                "Type": "Child",
+                                "Count": 0
+                            },
+                            {
+                                "Type": "Adult",
+                                "Count": 3
+                            },
+                            {
+                                "Type": "Infant",
+                                "Count": 0
+                            }
+                        ]
+                    },
+                    "NotificationType": "SMS"
+                },
+                "CreatedDate": "0001-01-01T00:00:00+00:00",
+                "CleanedTime": "2023-05-17T14:07:11+00:00",
+                "DirtiedTime": "2023-05-17T13:54:08+00:00",
+                "StationName": "4",
+                "FloorPlanName": "Brown Derby 3",
+                "ShiftName": "17 Servers",
+                "OperatingPeriodName": "Lunch",
+                "VisitUID": "99999999-3ce3-4651-8f90-11193503fdcc",
+                "TeamMemberUID": "99999999-4fa8-431c-9758-b647d23d795e",
+                "ServerLastUpdate": "2023-05-17T18:16:29.007+00:00",
+                "ID": "99999999-4fae-4020-ace2-3194ee0b237e",
+                "LastUpdate": "2023-05-17T18:07:11.497+00:00",
+                "Name": "224",
+                "SeatCount": 4,
+                "MinimumSeatCount": 2,
+                "MaximumSeatCount": 4,
+                "IsActive": true,
+                "SeatingAreaId": null
+            },
+            {
+                "Visit": {
+                    "ID": "99999999-2e65-4d4b-a51f-ca7dba4e1991",
+                    "IID": 9999999999,
+                    "LastUpdate": "2023-05-17T17:57:14.541+00:00",
+                    "ServerLastUpdate": "2023-05-17T17:57:17.678+00:00",
+                    "GuestID": "99999999-0123-4c37-aa63-6c8cdab869a6",
+                    "Guest": null,
+                    "Type": "Reservation",
+                    "Status": "Completed",
+                    "Size": 5,
+                    "VisitSource": "DineTimeAPI",
+                    "PagerID": null,
+                    "SeatedTables": [
+                        {
+                            "TableID": "9f81794a-0c65-4175-aa1a-7c8066823d66",
+                            "TableName": "323",
+                            "StartTime": "2023-05-17T12:47:55-04:00",
+                            "EndTime": "2023-05-17T13:57:14-04:00",
+                            "IsActive": false,
+                            "IsCurrent": true
+                        }
+                    ],
+                    "PreassignedTables": null,
+                    "Quote": null,
+                    "CreationTime": "2023-05-17T05:31:29-04:00",
+                    "EstimatedArrivalTime": "2023-05-17T13:05:00-04:00",
+                    "ArrivalTime": "2023-05-17T12:46:09-04:00",
+                    "PagedTime": "2023-05-17T12:47:55-04:00",
+                    "SeatedTime": "2023-05-17T12:47:55-04:00",
+                    "CompletedTime": "2023-05-17T13:57:14-04:00",
+                    "CanceledTime": null,
+                    "ConfirmationNumber": "B768GB",
+                    "ConfirmationNumberId": 0,
+                    "SeatingAreaID": null,
+                    "SeatingAreaName": null,
+                    "Notes": "Allergy: Other. //rl // ci 1246",
+                    "CustomValues": null,
+                    "ExternalID": "999999999999",
+                    "PartyMix": {
+                        "Mixes": [
+                            {
+                                "Type": "Adult",
+                                "Count": 5
+                            }
+                        ]
+                    },
+                    "NotificationType": "SMS"
+                },
+                "CreatedDate": "0001-01-01T00:00:00+00:00",
+                "CleanedTime": "2023-05-17T14:03:19+00:00",
+                "DirtiedTime": "2023-05-17T13:57:14+00:00",
+                "StationName": "8",
+                "FloorPlanName": "Brown Derby 3",
+                "ShiftName": "17 Servers",
+                "OperatingPeriodName": "Lunch",
+                "VisitUID": "99999999-2e65-4d4b-a51f-ca7dba4e1991",
+                "TeamMemberUID": "99999999-038b-4956-a01f-fabf8c628cee",
+                "ServerLastUpdate": "2023-05-17T18:16:29.04+00:00",
+                "ID": "99999999-0c65-4175-aa1a-7c8066823d66",
+                "LastUpdate": "2023-05-17T17:57:14.401+00:00",
+                "Name": "323",
+                "SeatCount": 5,
+                "MinimumSeatCount": 3,
+                "MaximumSeatCount": 5,
+                "IsActive": true,
+                "SeatingAreaId": null
+            },
+            {
+                "Visit": {
+                    "ID": "99999999-bece-47e5-b702-78b35b62bc31",
+                    "IID": 9999999999,
+                    "LastUpdate": "2023-05-17T19:49:05.114+00:00",
+                    "ServerLastUpdate": "2023-05-17T19:49:06.041+00:00",
+                    "GuestID": "99999999-6977-484f-a6ae-bfbab9beb921",
+                    "Guest": null,
+                    "Type": "Reservation",
+                    "Status": "Completed",
+                    "Size": 8,
+                    "VisitSource": "DineTimeAPI",
+                    "PagerID": null,
+                    "SeatedTables": [
+                        {
+                            "TableID": "99999999-1d94-4655-8651-ec0e68aed7ba",
+                            "TableName": "234",
+                            "StartTime": "2023-05-17T14:11:03-04:00",
+                            "EndTime": "2023-05-17T15:49:04-04:00",
+                            "IsActive": false,
+                            "IsCurrent": true
+                        },
+                        {
+                            "TableID": "99999999-4fae-4020-ace2-3194ee0b237e",
+                            "TableName": "224",
+                            "StartTime": "2023-05-17T14:11:03-04:00",
+                            "EndTime": "2023-05-17T15:49:04-04:00",
+                            "IsActive": false,
+                            "IsCurrent": true
+                        }
+                    ],
+                    "PreassignedTables": null,
+                    "Quote": null,
+                    "CreationTime": "2023-05-17T05:31:30-04:00",
+                    "EstimatedArrivalTime": "2023-05-17T14:30:00-04:00",
+                    "ArrivalTime": "2023-05-17T14:10:48-04:00",
+                    "PagedTime": "2023-05-17T14:11:03-04:00",
+                    "SeatedTime": "2023-05-17T14:11:03-04:00",
+                    "CompletedTime": "2023-05-17T15:49:04-04:00",
+                    "CanceledTime": null,
+                    "ConfirmationNumber": "6H3BDM",
+                    "ConfirmationNumberId": 0,
+                    "SeatingAreaID": null,
+                    "SeatingAreaName": null,
+                    "Notes": "Milk Chocolate - Congratulations - Mickey Mouse Celebration Cake\r\nKC CI 210",
+                    "CustomValues": null,
+                    "ExternalID": "999999999999",
+                    "PartyMix": {
+                        "Mixes": [
+                            {
+                                "Type": "Adult",
+                                "Count": 6
+                            },
+                            {
+                                "Type": "Child",
+                                "Count": 2
+                            }
+                        ]
+                    },
+                    "NotificationType": "SMS"
+                },
+                "CreatedDate": "0001-01-01T00:00:00+00:00",
+                "CleanedTime": null,
+                "DirtiedTime": "2023-05-17T15:49:05+00:00",
+                "StationName": "4",
+                "FloorPlanName": "Brown Derby 3",
+                "ShiftName": "17 Servers",
+                "OperatingPeriodName": "Lunch",
+                "VisitUID": "99999999-bece-47e5-b702-78b35b62bc31",
+                "TeamMemberUID": "99999999-4fa8-431c-9758-b647d23d795e",
+                "ServerLastUpdate": "2023-05-17T20:01:32.345+00:00",
+                "ID": "99999999-1d94-4655-8651-ec0e68aed7ba",
+                "LastUpdate": "2023-05-17T19:49:04.833+00:00",
+                "Name": "234",
+                "SeatCount": 2,
+                "MinimumSeatCount": 2,
+                "MaximumSeatCount": 4,
+                "IsActive": true,
+                "SeatingAreaId": null
+            }
+        ],
+        "HasMoreData": false,
+        "CutOffDate": "2023-05-17T20:01:32.345+00:00",
+        "SiteId": "99999999-c5b7-4424-b953-f8aaecaa2aa0"
+    }
+]

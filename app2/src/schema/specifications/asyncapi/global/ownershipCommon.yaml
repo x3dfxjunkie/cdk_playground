@@ -1,0 +1,19 @@
+ownershipCommon:
+  type: object
+  description: Common event attributes for the Ownership Paradigm
+  properties:
+    created:
+      $ref: "../asyncapi.yaml#/components/schemas/created"
+    lastModified:
+      $ref: "../asyncapi.yaml#/components/schemas/lastModified"
+    destination:
+      $ref: "../asyncapi.yaml#/components/schemas/destination"
+    ownershipTimezoneOffSet:
+      type: string
+      description: Solution / Value design in progress, to be determined
+      example: "TBD"
+  required:
+    - created
+    - lastModified
+    - destination
+    - ownershipTimezoneOffset

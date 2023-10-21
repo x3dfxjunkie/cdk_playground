@@ -1,0 +1,295 @@
+version: 2
+
+models:
+  - name: sil__guest_experience__magic_band__magic_band_order_current
+    description: "{{ doc('sil__guest_experience__magic_band__magic_band_order_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=guest_experience
+        - sub_domain=magic_band
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: order_id
+        description: ""
+
+      - name: request_id
+        description: ""
+
+      - name: request_type_id
+        description: ""
+
+      - name: request_type_code
+        description: ""
+
+      - name: request_type_description
+        description: ""
+
+      - name: request_reason_id
+        description: ""
+
+      - name: request_reason_code
+        description: ""
+
+      - name: request_reason_description
+        description: ""
+
+      - name: current_request_status_id
+        description: ""
+
+      - name: current_request_status_category_id
+        description: ""
+
+      - name: current_request_status_category_code
+        description: ""
+
+      - name: current_request_status_category_description
+        description: ""
+
+      - name: current_request_status_code
+        description: ""
+
+      - name: current_request_status_description
+        description: ""
+
+      - name: fulfillment_order_id
+        description: ""
+
+      - name: fulfillment_vendor_id
+        description: ""
+
+      - name: vendor_role_id
+        description: ""
+
+      - name: vendor_role_code
+        description: ""
+
+      - name: vendor_role_description
+        description: ""
+
+      - name: vendor_shipment_contact_id
+        description: ""
+
+      - name: vendor_shipment_contact_full_name
+        description: ""
+
+      - name: vendor_shipment_contact_title_name
+        description: ""
+
+      - name: vendor_shipment_contact_email_address_value
+        description: ""
+
+      - name: vendor_name
+        description: ""
+
+      - name: vendor_code
+        description: ""
+
+      - name: vendor_available_purchase_order_indicator
+        description: ""
+
+      - name: vendor_sap_id
+        description: ""
+
+      - name: vendor_guest_shipment_start_day_count
+        description: ""
+
+      - name: vendor_guest_shipment_end_day_count
+        description: ""
+
+      - name: fulfillment_order_status_id
+        description: ""
+
+      - name: fulfillment_order_status_code
+        description: ""
+
+      - name: fulfillment_order_status_description
+        description: ""
+
+      - name: fulfillment_order_submit_date
+        description: ""
+
+      - name: order_shipping_service_id
+        description: ""
+
+      - name: order_shipping_service_code
+        description: ""
+
+      - name: order_shipping_fulfillment_vendor_code
+        description: ""
+
+      - name: order_shipping_service_description
+        description: ""
+
+      - name: order_shipping_service_delivery_date_interval
+        description: ""
+
+      - name: magic_band_order_unique_identifier
+        description: ""
+
+      - name: order_address_id
+        description: ""
+
+      - name: order_country_id
+        description: ""
+
+      - name: order_country_code
+        description: ""
+
+      - name: order_country_iso_3166_alpha_3_code
+        description: ""
+
+      - name: order_country_name
+        description: ""
+
+      - name: order_address_1_value
+        description: ""
+
+      - name: order_address_2_value
+        description: ""
+
+      - name: order_address_3_value
+        description: ""
+
+      - name: order_address_4_value
+        description: ""
+
+      - name: order_city_name
+        description: ""
+
+      - name: order_state_name
+        description: ""
+
+      - name: order_postal_code
+        description: ""
+
+      - name: order_recipient_phone_number
+        description: ""
+
+      - name: order_recipient_name
+        description: ""
+
+      - name: resort_shipment_facility_id
+        description: ""
+
+      - name: facility_address_id
+        description: ""
+
+      - name: facility_country_id
+        description: ""
+
+      - name: facility_country_code
+        description: ""
+
+      - name: facility_country_iso_3166_alpha_3_code
+        description: ""
+
+      - name: facility_country_name
+        description: ""
+
+      - name: facility_address_1_value
+        description: ""
+
+      - name: facility_address_2_value
+        description: ""
+
+      - name: facility_address_3_value
+        description: ""
+
+      - name: facility_address_4_value
+        description: ""
+
+      - name: facility_city_name
+        description: ""
+
+      - name: facility_state_name
+        description: ""
+
+      - name: facility_postal_code
+        description: ""
+
+      - name: facility_recipient_phone_number
+        description: ""
+
+      - name: facility_recipient_name
+        description: ""
+
+      - name: facility_type_id
+        description: ""
+
+      - name: facility_type_code
+        description: ""
+
+      - name: facility_type_description
+        description: ""
+
+      - name: facility_shipment_contact_id
+        description: ""
+
+      - name: shipment_contact_full_name
+        description: ""
+
+      - name: shipment_contact_title_name
+        description: ""
+
+      - name: shipment_contact_email_address_value
+        description: ""
+
+      - name: enterprise_facility_id
+        description: ""
+
+      - name: facility_name
+        description: ""
+
+      - name: facility_available_for_bulk_order_indicator
+        description: ""
+
+      - name: facility_guest_order_indicator
+        description: ""
+
+      - name: order_expected_shipping_date
+        description: ""
+
+      - name: order_expected_delivery_date
+        description: ""
+
+      - name: order_actual_delivery_date
+        description: ""
+
+      - name: order_status_id
+        description: ""
+
+      - name: order_status_category_id
+        description: ""
+
+      - name: order_status_category_code
+        description: ""
+
+      - name: order_status_category_description
+        description: ""
+
+      - name: order_status_code
+        description: ""
+
+      - name: order_status_description
+        description: ""
+
+      - name: source_system_create_user_id
+        description: ""
+
+      - name: source_system_create_datetime
+        description: ""
+
+      - name: source_system_update_user_id
+        description: ""
+
+      - name: source_system_update_datetime
+        description: ""
+
+      - name: source_system_logical_delete_indicator
+        description: ""

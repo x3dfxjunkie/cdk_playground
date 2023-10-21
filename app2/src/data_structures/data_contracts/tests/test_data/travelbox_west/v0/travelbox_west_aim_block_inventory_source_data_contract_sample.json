@@ -1,0 +1,168 @@
+[
+    {
+        "data": {
+            "BLK_CODE" : "GTA001",
+            "ACCOM_CODE" : "FALCH",
+            "ROOM_CODE" : "CW4",
+            "RATE_CODE" : "GEN",
+            "SERVICE_DATE" : "2023-09-29T18:30:00.000Z",
+            "CREATED_DATE" : "2023-09-13T18:30:00.000Z",
+            "MODIFIED_DATE" : "2023-09-30T18:02:12.000Z",
+            "SYATEM_CREATED" : "1",
+            "TRIM_COUNT" : 0
+        },
+        "metadata": {
+            "timestamp": "2016-09-05 19:12:34",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "AIM_BLOCK_INVENTORY",
+            "transaction-id": 2559,
+            "transaction_record_id": 70974432245344,
+            "prev_transaction_id": 70974432245344,
+            "prev_transaction_record_id": 70974432245344,
+            "commit_timestamp": "2023-03-29T15:30:19.109655Z",
+            "stream_position": ""
+        }
+    },
+    {
+        "data": {
+            "BLK_CODE" : "DDRK25A",
+            "ACCOM_CODE" : "GBLDH",
+            "ROOM_CODE" : "DS4",
+            "RATE_CODE" : "GRP",
+            "SERVICE_DATE" : "2025-10-30T18:30:00.000Z",
+            "BLOCK_INV_COUNT" : 0,
+            "BLOCK_ALOT_COUNT" : 0,
+            "BOOK_COUNT" : 0,
+            "HOLD_COUNT" : 0,
+            "BLK_INV_WASH_FACTOR" : 0,
+            "BK_BLK_IMPACT_COUNT" : 0,
+            "BK_ALOT_IMPACT_COUNT" : 0,
+            "PRNT_BRW_IMPACT_COUNT" : 0,
+            "CREATED_DATE" : "2022-09-05T18:30:00.000Z",
+            "CREATED_USER" : "Kristen DelCont",
+            "MODIFIED_DATE" : "2022-09-06T09:19:43.000Z",
+            "MODIFIED_USER" : "Kristen DelCont",
+            "SYATEM_CREATED" : "0",
+            "TRIM_COUNT" : 0,
+            "MODIFICATION_TYPE" : null,
+            "BOOK_LIMIT" : 23,
+            "ROOT_BRW_IMPACT_COUNT" : 0
+        },
+        "metadata": {
+            "timestamp": "2001-05-26 11:03:15",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "AIM_BLOCK_INVENTORY",
+            "transaction-id": 362
+        }
+    },
+    {
+        "data": {
+            "BLK_CODE" : "TTWDT19",
+            "ACCOM_CODE" : "FALCH",
+            "ROOM_CODE" : "CB4",
+            "RATE_CODE" : "GEN",
+            "SERVICE_DATE" : "2023-11-21T18:30:00.000Z",
+            "BLOCK_INV_COUNT" : 0,
+            "BLOCK_ALOT_COUNT" : 0,
+            "BOOK_COUNT" : 1,
+            "HOLD_COUNT" : 0,
+            "BLK_INV_WASH_FACTOR" : 0,
+            "BK_BLK_IMPACT_COUNT" : 1,
+            "BK_ALOT_IMPACT_COUNT" : 0,
+            "PRNT_BRW_IMPACT_COUNT" : 0,
+            "CREATED_DATE" : "2023-08-14T18:30:00.000Z",
+            "CREATED_USER" : "System",
+            "MODIFIED_DATE" : "2023-09-05T10:28:24.000Z",
+            "MODIFIED_USER" : "System",
+            "SYATEM_CREATED" : "1",
+            "TRIM_COUNT" : 0,
+            "MODIFICATION_TYPE" : "NOT_SET",
+            "BOOK_LIMIT" : null,
+            "ROOT_BRW_IMPACT_COUNT" : 0
+        },
+        "metadata": {
+            "timestamp": "1979-05-02 22:22:20",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "AIM_BLOCK_INVENTORY",
+            "transaction-id": 2598
+        }
+    },
+    {
+        "data": {
+            "BLK_CODE" : "GCAWL",
+            "ACCOM_CODE" : "15",
+            "ROOM_CODE" : "V5B",
+            "RATE_CODE" : "GRP",
+            "SERVICE_DATE" : "2023-10-12T18:30:00.000Z",
+            "BLOCK_INV_COUNT" : 0,
+            "BLOCK_ALOT_COUNT" : 0,
+            "BOOK_COUNT" : 0,
+            "HOLD_COUNT" : 0,
+            "BLK_INV_WASH_FACTOR" : 0,
+            "BK_BLK_IMPACT_COUNT" : 0,
+            "BK_ALOT_IMPACT_COUNT" : 0,
+            "PRNT_BRW_IMPACT_COUNT" : 0,
+            "CREATED_DATE" : "2021-11-18T18:30:00.000Z",
+            "CREATED_USER" : "MRABATCH",
+            "MODIFIED_DATE" : "2021-11-18T21:33:52.000Z",
+            "MODIFIED_USER" : "MRABATCH",
+            "SYATEM_CREATED" : "0",
+            "TRIM_COUNT" : 0,
+            "MODIFICATION_TYPE" : null,
+            "BOOK_LIMIT" : null,
+            "ROOT_BRW_IMPACT_COUNT" : 0
+        },
+        "metadata": {
+            "timestamp": "2007-11-24 03:20:47",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "AIM_BLOCK_INVENTORY",
+            "transaction-id": 6404
+        }
+    },
+    {
+        "data": {
+            "BLK_CODE" : "QTGp8el36h",
+            "ACCOM_CODE" : "EGLPH",
+            "ROOM_CODE" : "PS5",
+            "RATE_CODE" : "GEN",
+            "SERVICE_DATE" : "2023-10-27T18:30:00.000Z",
+            "BLOCK_INV_COUNT" : 0,
+            "BLOCK_ALOT_COUNT" : 0,
+            "BOOK_COUNT" : 0,
+            "HOLD_COUNT" : 0,
+            "BLK_INV_WASH_FACTOR" : 1.5,
+            "BK_BLK_IMPACT_COUNT" : 0,
+            "BK_ALOT_IMPACT_COUNT" : 0,
+            "PRNT_BRW_IMPACT_COUNT" : 0,
+            "CREATED_DATE" : "2023-10-27T18:30:00.000Z",
+            "CREATED_USER" : "QTUser",
+            "MODIFIED_DATE" : "2023-08-13T17:59:13.000Z",
+            "MODIFIED_USER" : "Zmy7eWS3uV",
+            "SYATEM_CREATED" : "0",
+            "TRIM_COUNT" : 0,
+            "MODIFICATION_TYPE" : null,
+            "BOOK_LIMIT" : null,
+            "ROOT_BRW_IMPACT_COUNT" : 0
+        },
+        "metadata": {
+            "timestamp": "2017-07-26 18:16:30",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "AIM_BLOCK_INVENTORY"
+        }
+    }
+]

@@ -1,0 +1,94 @@
+version: 2
+
+models:
+  - name: sil__guest_experience__magic_band__magic_band_request_status_activity_current
+    description: "{{ doc('sil__guest_experience__magic_band__magic_band_request_status_activity_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=guest_experience
+        - sub_domain=magic_band
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: request_status_activity_id
+        description: ""
+
+      - name: request_id
+        description: ""
+
+      - name: request_status_id
+        description: ""
+
+      - name: request_status_code
+        description: ""
+
+      - name: request_status_description
+        description: ""
+
+      - name: request_status_category_id
+        description: ""
+
+      - name: request_status_category_code
+        description: ""
+
+      - name: request_status_category_description
+        description: ""
+
+      - name: magic_band_request_unique_identifier
+        description: ""
+
+      - name: shipping_service_id
+        description: ""
+
+      - name: address_id
+        description: ""
+
+      - name: address_confirmed_indicator
+        description: ""
+
+      - name: request_type_id
+        description: ""
+
+      - name: request_type_code
+        description: ""
+
+      - name: request_type_description
+        description: ""
+
+      - name: request_reason_id
+        description: ""
+
+      - name: request_reason_code
+        description: ""
+
+      - name: request_reason_description
+        description: ""
+
+      - name: request_status_update_datetime
+        description: ""
+
+      - name: request_status_update_date
+        description: ""
+
+      - name: request_status_update_time
+        description: ""
+
+      - name: source_system_create_user_id
+        description: ""
+
+      - name: source_system_create_datetime
+        description: ""
+
+      - name: source_system_update_user_id
+        description: ""
+
+      - name: source_system_update_datetime
+        description: ""
+
+      - name: source_system_logical_delete_indicator
+        description: ""

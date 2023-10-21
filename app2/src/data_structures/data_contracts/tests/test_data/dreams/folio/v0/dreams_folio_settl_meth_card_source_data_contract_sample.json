@@ -1,0 +1,781 @@
+[
+	{
+		"data": {
+			"SETTL_METH_ID": 427415667,
+			"PMT_CARD_ID": 264069231,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T09:25:51Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:47Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:21:37.565954Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 393269
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415668,
+			"PMT_CARD_ID": 264069232,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:08:47.956000Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:48Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:21:37.962003Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": null
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415723,
+			"PMT_CARD_ID": 264069071,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:08:48.140000Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:48Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:21:39.171542Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 196626
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415669,
+			"PMT_CARD_ID": 264069233,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T09:17:16Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:48Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:21:42.796027Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 1441806
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415670,
+			"PMT_CARD_ID": 264069234,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T09:15:59Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:50Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:21:49.303009Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 1769525
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415727,
+			"PMT_CARD_ID": 264069072,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T09:18:46Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:50Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:21:49.575249Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 65561
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415671,
+			"PMT_CARD_ID": 264069235,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T09:21:07Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:50Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:21:53.907045Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 1310739
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415562,
+			"PMT_CARD_ID": 264069131,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T09:15:13Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:52Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:04.753519Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 1114146
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415673,
+			"PMT_CARD_ID": 264069236,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T03:56:43Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:52Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:08.038279Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 327684
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415731,
+			"PMT_CARD_ID": 264069073,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:08:52.912000Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:52Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:08.117930Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 1835056
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415675,
+			"PMT_CARD_ID": 264069237,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:08:53.466000Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:53Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:11.431280Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 65558
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415733,
+			"PMT_CARD_ID": 264069074,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T09:18:46Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:53Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:11.977140Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 196635
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415563,
+			"PMT_CARD_ID": 264069132,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:08:53.775000Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:53Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:13.063400Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 1441846
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415734,
+			"PMT_CARD_ID": 264069075,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:08:53.849000Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:53Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:13.582552Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 655368
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415738,
+			"PMT_CARD_ID": 264069076,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:08:54.674000Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:54Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:19.237974Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 327689
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415676,
+			"PMT_CARD_ID": 264069238,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T09:16:45Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:55Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:21.501334Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 1900595
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415739,
+			"PMT_CARD_ID": 264069077,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T09:25:51Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:56Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:27.225427Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 1638422
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415565,
+			"PMT_CARD_ID": 264069133,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T04:06:35Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:57Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:32.808965Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 589842
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415566,
+			"PMT_CARD_ID": 264069134,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:08:57.159000Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:57Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:33.753251Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 2031639
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415681,
+			"PMT_CARD_ID": 264069239,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T09:19:22Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:57Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:35.397874Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 917534
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415567,
+			"PMT_CARD_ID": 264069135,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:08:57.829000Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:57Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:37.582015Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 917508
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415740,
+			"PMT_CARD_ID": 264069078,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T09:19:18Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:58Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:38.935877Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 1507367
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415682,
+			"PMT_CARD_ID": 264069240,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T09:15:38Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:58Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:42.207310Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 2
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415570,
+			"PMT_CARD_ID": 264069136,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T09:15:38Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:59Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:45.498489Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 852000
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415571,
+			"PMT_CARD_ID": 264069137,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:08:59.347000Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:59Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:47.251454Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 458806
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415683,
+			"PMT_CARD_ID": 264069241,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:08:59.703000Z",
+			"transact_commit_timestamp": "2023-06-10T10:08:59Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:52.187131Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 1835034
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415744,
+			"PMT_CARD_ID": 264069079,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:09:00.017000Z",
+			"transact_commit_timestamp": "2023-06-10T10:09:00Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:54.695145Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 655397
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415574,
+			"PMT_CARD_ID": 264069138,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:09:00.206000Z",
+			"transact_commit_timestamp": "2023-06-10T10:09:00Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:55.556809Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 1310763
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415685,
+			"PMT_CARD_ID": 264069242,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:09:00.525000Z",
+			"transact_commit_timestamp": "2023-06-10T10:09:00Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:57.344439Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 65565
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415575,
+			"PMT_CARD_ID": 264069139,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:09:00.826000Z",
+			"transact_commit_timestamp": "2023-06-10T10:09:00Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:22:59.707097Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 2031653
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415687,
+			"PMT_CARD_ID": 264069243,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:09:01.996000Z",
+			"transact_commit_timestamp": "2023-06-10T10:09:02Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:23:07.085617Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 720922
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415577,
+			"PMT_CARD_ID": 264069140,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:09:02.504000Z",
+			"transact_commit_timestamp": "2023-06-10T10:09:02Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:23:10.296112Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 458783
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415750,
+			"PMT_CARD_ID": 264069080,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:09:02.579000Z",
+			"transact_commit_timestamp": "2023-06-10T10:09:02Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:23:10.863042Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 19
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415753,
+			"PMT_CARD_ID": 264069081,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:09:04.288000Z",
+			"transact_commit_timestamp": "2023-06-10T10:09:04Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:23:25.824745Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 1703969
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415691,
+			"PMT_CARD_ID": 264069244,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:09:04.414000Z",
+			"transact_commit_timestamp": "2023-06-10T10:09:04Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:23:26.586072Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 1769483
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415692,
+			"PMT_CARD_ID": 264069245,
+			"CREATE_USR_ID_CD": "MOUSE1",
+			"CREATE_DTS": "2023-06-10T06:09:04.463000Z",
+			"transact_commit_timestamp": "2023-06-10T10:09:04Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:23:26.685859Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 1048623
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415693,
+			"PMT_CARD_ID": 264069246,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T09:19:50Z",
+			"transact_commit_timestamp": "2023-06-10T10:09:04Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:23:28.612926Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 1507385
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415694,
+			"PMT_CARD_ID": 264069247,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T03:35:14Z",
+			"transact_commit_timestamp": "2023-06-10T10:09:05Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:23:29.278479Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 1966092
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415696,
+			"PMT_CARD_ID": 264069248,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T03:44:48Z",
+			"transact_commit_timestamp": "2023-06-10T10:09:05Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:23:30.053677Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 1900587
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415754,
+			"PMT_CARD_ID": 264069082,
+			"CREATE_USR_ID_CD": "MOUSE",
+			"CREATE_DTS": "2023-05-24T03:20:56Z",
+			"transact_commit_timestamp": "2023-06-10T10:09:06Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:23:30.527243Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 1835034
+		}
+	},
+	{
+		"data": {
+			"SETTL_METH_ID": 427415579,
+			"PMT_CARD_ID": 264069141,
+			"CREATE_USR_ID_CD": "WDW-MDX-IOS-",
+			"CREATE_DTS": "2023-06-10T06:09:06.652000Z",
+			"transact_commit_timestamp": "2023-06-10T10:09:06Z",
+			"transact_seq": "20230610100847000000000000000000000"
+		},
+		"metadata": {
+			"timestamp": "2023-06-10T20:23:31.237232Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "SETTL_METH_CARD",
+			"transaction-id": 131101
+		}
+	}
+]

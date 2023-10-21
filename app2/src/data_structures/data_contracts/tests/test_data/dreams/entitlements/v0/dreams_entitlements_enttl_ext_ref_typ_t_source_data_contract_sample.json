@@ -1,0 +1,62 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "2017-10-17T03:33:54Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_EXT_REF_TYP_NM": "Facility"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_EXT_REF_TYP_T",
+            "timestamp": "2023-08-21T18:51:29.188670Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-17T11:18:43Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_EXT_REF_TYP_NM": "Travel Plan"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_EXT_REF_TYP_T",
+            "timestamp": "2023-08-21T18:51:29.161381Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-17T11:18:43Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_EXT_REF_TYP_NM": "Room"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_EXT_REF_TYP_T",
+            "timestamp": "2023-08-21T18:51:29.181942Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-08-17T11:18:43Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "ENTTL_EXT_REF_TYP_NM": "Travel Component Grouping"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "ENTTLMNT",
+            "table-name": "ENTTL_EXT_REF_TYP_T",
+            "timestamp": "2023-08-21T18:51:29.169499Z"
+        }
+    }
+]

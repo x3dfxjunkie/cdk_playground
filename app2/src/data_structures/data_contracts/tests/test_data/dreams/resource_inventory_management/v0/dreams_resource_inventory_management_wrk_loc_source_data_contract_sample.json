@@ -1,0 +1,161 @@
+[
+	{
+		"data": {
+			"WRK_LOC_ID": 51,
+			"HM_ENTRPRS_FAC_ID": 80010385,
+			"WRK_LOC_NM": "Disney's Contemporary Resort",
+			"SRC_ACCT_CTR_ID": 2,
+			"BUS_ORG_ID": 2,
+			"CREATE_USR_ID_CD": "LILO CONV",
+			"CREATE_DTS": "2009-12-09T18:01:48.071235Z",
+			"UPDT_USR_ID_CD": "DAVIB154",
+			"UPDT_DTS": "2023-06-08T10:16:35.398000Z",
+			"JDO_SEQ_NB": 64,
+			"transact_commit_timestamp": "2023-06-08T14:16:35Z",
+			"transact_seq": "20230608141635000000000000063373345"
+		},
+		"metadata": {
+			"timestamp": "2023-06-08T14:26:34.095542Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "tfdb_3",
+			"table-name": "wrk_loc"
+		}
+	},
+	{
+		"data": {
+			"WRK_LOC_ID": 42,
+			"HM_ENTRPRS_FAC_ID": 80010402,
+			"WRK_LOC_NM": "Disney's All-Star Movies Resort",
+			"TXN_ACCT_CTR_ID": 16,
+			"BANK_ACCT_CTR_ID": 10349,
+			"SRC_ACCT_CTR_ID": 2,
+			"BUS_ORG_ID": 2,
+			"CREATE_USR_ID_CD": "LILO CONV",
+			"CREATE_DTS": "2009-12-09T18:01:48.071235Z",
+			"UPDT_USR_ID_CD": "DAVIB154",
+			"UPDT_DTS": "2023-06-08T10:20:11.605000Z",
+			"JDO_SEQ_NB": 179,
+			"transact_commit_timestamp": "2023-06-08T14:20:11Z",
+			"transact_seq": "20230608142011000000000000063540261"
+		},
+		"metadata": {
+			"timestamp": "2023-06-08T14:32:45.624433Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "tfdb_3",
+			"table-name": "wrk_loc",
+			"transaction-id": 902763470913945
+		}
+	},
+	{
+		"data": {
+			"WRK_LOC_ID": 62,
+			"HM_ENTRPRS_FAC_ID": 80010405,
+			"WRK_LOC_NM": "Disney's Vero Beach Resort",
+			"TXN_ACCT_CTR_ID": 32,
+			"BANK_ACCT_CTR_ID": 10582,
+			"SRC_ACCT_CTR_ID": 2,
+			"BUS_ORG_ID": 2,
+			"CREATE_USR_ID_CD": "LILO CONV",
+			"CREATE_DTS": "2009-12-09T18:01:48.071235Z",
+			"UPDT_USR_ID_CD": "DAVIB154",
+			"UPDT_DTS": "2023-06-08T10:20:37.546000Z",
+			"JDO_SEQ_NB": 94,
+			"transact_commit_timestamp": "2023-06-08T14:20:37Z",
+			"transact_seq": "20230608142037000000000000063546505"
+		},
+		"metadata": {
+			"timestamp": "2023-06-08T14:32:58.087735Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "tfdb_3",
+			"table-name": "wrk_loc",
+			"transaction-id": 902763471178982
+		}
+	},
+	{
+		"data": {
+			"WRK_LOC_ID": 62,
+			"HM_ENTRPRS_FAC_ID": 80010405,
+			"WRK_LOC_NM": "Disney's Vero Beach Resort",
+			"TXN_ACCT_CTR_ID": 32,
+			"BANK_ACCT_CTR_ID": 10582,
+			"SRC_ACCT_CTR_ID": 2,
+			"BUS_ORG_ID": 2,
+			"CREATE_USR_ID_CD": "LILO CONV",
+			"CREATE_DTS": "2009-12-09T18:01:48.071235Z",
+			"UPDT_USR_ID_CD": "DAVIB154",
+			"UPDT_DTS": "2023-06-08T10:20:49.508000Z",
+			"JDO_SEQ_NB": 95,
+			"transact_commit_timestamp": "2023-06-08T14:20:49Z",
+			"transact_seq": "20230608142049000000000000063547381"
+		},
+		"metadata": {
+			"timestamp": "2023-06-08T14:32:59.617045Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "tfdb_3",
+			"table-name": "wrk_loc",
+			"transaction-id": 902763471219663
+		}
+	},
+	{
+		"data": {
+			"WRK_LOC_ID": 55,
+			"HM_ENTRPRS_FAC_ID": 80010406,
+			"WRK_LOC_NM": "Disney's Hilton Head Island Resort",
+			"TXN_ACCT_CTR_ID": 33,
+			"BANK_ACCT_CTR_ID": 10510,
+			"SRC_ACCT_CTR_ID": 2,
+			"BUS_ORG_ID": 2,
+			"CREATE_USR_ID_CD": "LILO CONV",
+			"CREATE_DTS": "2009-12-09T18:01:48.071235Z",
+			"UPDT_USR_ID_CD": "DAVIB154",
+			"UPDT_DTS": "2023-06-08T10:21:05.641000Z",
+			"JDO_SEQ_NB": 41,
+			"transact_commit_timestamp": "2023-06-08T14:21:05Z",
+			"transact_seq": "20230608142105000000000000063548313"
+		},
+		"metadata": {
+			"timestamp": "2023-06-08T14:33:01.305062Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "tfdb_3",
+			"table-name": "wrk_loc",
+			"transaction-id": 902763471263540
+		}
+	},
+	{
+		"data": {
+			"WRK_LOC_ID": 55,
+			"HM_ENTRPRS_FAC_ID": 80010406,
+			"WRK_LOC_NM": "Disney's Hilton Head Island Resort",
+			"TXN_ACCT_CTR_ID": 33,
+			"BANK_ACCT_CTR_ID": 10510,
+			"SRC_ACCT_CTR_ID": 2,
+			"BUS_ORG_ID": 2,
+			"CREATE_USR_ID_CD": "LILO CONV",
+			"CREATE_DTS": "2009-12-09T18:01:48.071235Z",
+			"UPDT_USR_ID_CD": "DAVIB154",
+			"UPDT_DTS": "2023-06-08T10:21:18.936000Z",
+			"JDO_SEQ_NB": 42,
+			"transact_commit_timestamp": "2023-06-08T14:21:19Z",
+			"transact_seq": "20230608142119000000000000063549685"
+		},
+		"metadata": {
+			"timestamp": "2023-06-08T14:33:04.014476Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "tfdb_3",
+			"table-name": "wrk_loc",
+			"transaction-id": 902763471318523
+		}
+	}
+]

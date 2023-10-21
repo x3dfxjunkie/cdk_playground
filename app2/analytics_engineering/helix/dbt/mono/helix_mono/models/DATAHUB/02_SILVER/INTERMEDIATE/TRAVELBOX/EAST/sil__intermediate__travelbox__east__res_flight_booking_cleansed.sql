@@ -1,0 +1,236 @@
+{{
+    config(
+        materialized='incremental',
+        unique_key= ['data_booking_id', 'data_item_no', 'data_product_code','metadata_checksum'],
+        on_schema_change='append_new_columns'
+    )
+}}
+
+-- source is the bronze table
+with source as (
+    select *, case when metadata_operation = 'delete' then 'D' else 'S' end as dms_operation
+    from {{ source('brz_travelbox_east', 'res_flight_booking') }}
+
+    {% if is_incremental() %}
+
+    -- this filter will only be applied on an incremental run
+    where metadata_timestamp > (select max(metadata_timestamp) from {{ this }})
+
+    {% endif %}
+),
+
+min_source_update_datetime as
+(
+    select
+        data_booking_id,
+        data_item_no,
+        data_product_code,
+        min(metadata_timestamp) as min_metadata_timestamp
+    from
+        source
+    group by
+        data_booking_id,
+        data_item_no,
+        data_product_code
+),
+
+-- cleansing the table
+renamed as (
+    select
+        src.data_out_rule as data_out_rule,
+        src.data_in_contract as data_in_contract,
+        src.data_cost_offset as data_cost_offset,
+        TRIM(src.data_crs) as data_crs,
+        src.data_fare_diff_with_basic_flight as data_fare_diff_with_basic_flight,
+        src.data_ext_charge as data_ext_charge,
+        src.data_class_upgrade_charge as data_class_upgrade_charge,
+        src.data_supplement_charge as data_supplement_charge,
+        src.data_addon_charge as data_addon_charge,
+        TRIM(src.data_fare_created_office_id) as data_fare_created_office_id,
+        TRIM(src.data_tour_code) as data_tour_code,
+        TRIM(src.data_endorsement) as data_endorsement,
+        src.data_iata_comm_persc as data_iata_comm_persc,
+        src.data_whole_sale_comm as data_whole_sale_comm,
+        TRIM(src.data_whole_sale_comm_type) as data_whole_sale_comm_type,
+        TRIM(src.data_user_letter_generated) as data_user_letter_generated,
+        src.data_ticketed_user as data_ticketed_user,
+        TRIM(src.data_bsp_travel_code) as data_bsp_travel_code,
+        TRIM(src.data_crs_rules) as data_crs_rules,
+        TRIM(src.data_cancel_pnr) as data_cancel_pnr,
+        src.data_connected_item_no as data_connected_item_no,
+        src.data_minimal_deposit_amount as data_minimal_deposit_amount,
+        TRIM(src.data_deposit_date_emergency) as data_deposit_date_emergency,
+        TRIM(src.data_valid_for_ticketing) as data_valid_for_ticketing,
+        TRIM(src.data_manual_ticket_only) as data_manual_ticket_only,
+        src.data_pnr_price_override_date as data_pnr_price_override_date,
+        TRIM(src.data_manually_priced_flight) as data_manually_priced_flight,
+        TRIM(src.data_pnr_cnx_checked) as data_pnr_cnx_checked,
+        TRIM(src.data_ssr_notes) as data_ssr_notes,
+        TRIM(src.data_corporate_id) as data_corporate_id,
+        src.data_h2_h_hold_release_time as data_h2_h_hold_release_time,
+        TRIM(src.data_gds_queue_msg) as data_gds_queue_msg,
+        TRIM(src.data_original_crs) as data_original_crs,
+        TRIM(src.data_original_pnr) as data_original_pnr,
+        src.data_migrated_date as data_migrated_date,
+        TRIM(src.data_apis_info_sent) as data_apis_info_sent,
+        src.data_last_modified_time as data_last_modified_time,
+        TRIM(src.data_seat_type) as data_seat_type,
+        src.data_gds_queue_error_id as data_gds_queue_error_id,
+        TRIM(src.data_mask) as data_mask,
+        TRIM(src.data_is_lcc_result) as data_is_lcc_result,
+        TRIM(src.data_transport_type) as data_transport_type,
+        TRIM(src.data_org_fare_type) as data_org_fare_type,
+        TRIM(src.data_doc_delivery_email) as data_doc_delivery_email,
+        TRIM(src.data_instant_ticketed) as data_instant_ticketed,
+        TRIM(src.data_is_tbx_only_name_change) as data_is_tbx_only_name_change,
+        TRIM(src.data_dynamic_ptc) as data_dynamic_ptc,
+        src.data_booking_id as data_booking_id,
+        TRIM(src.data_product_code) as data_product_code,
+        src.data_item_no as data_item_no,
+        TRIM(src.data_contract_type) as data_contract_type,
+        TRIM(src.data_fare_type) as data_fare_type,
+        src.data_out_contract as data_out_contract,
+        src.data_out_route_group as data_out_route_group,
+        src.data_out_route as data_out_route,
+        src.data_out_ticket_info_id as data_out_ticket_info_id,
+        src.data_in_rule as data_in_rule,
+        src.data_in_route_group as data_in_route_group,
+        src.data_in_route as data_in_route,
+        src.data_in_ticket_info_id as data_in_ticket_info_id,
+        TRIM(src.data_pnr) as data_pnr,
+        src.data_ticketing_deadline as data_ticketing_deadline,
+        TRIM(src.data_ticketed) as data_ticketed,
+        src.data_ticket_issue_date as data_ticket_issue_date,
+        src.data_tax_offset as data_tax_offset,
+        TRIM(src.data_airline_for_comm_calc) as data_airline_for_comm_calc,
+        TRIM(src.data_domestic_for_comm_calc) as data_domestic_for_comm_calc,
+        TRIM(src.data_history_created) as data_history_created,
+        TRIM(src.data_out_cabin) as data_out_cabin,
+        TRIM(src.data_in_cabin) as data_in_cabin,
+        TRIM(src.data_ticket_type) as data_ticket_type,
+        min_source_update_datetime.min_metadata_timestamp as min_metadata_timestamp,
+        {{ macro_generate_checksum([
+            'src.data_out_rule',
+            'src.data_in_contract',
+            'src.data_cost_offset',
+            'src.data_crs',
+            'src.data_fare_diff_with_basic_flight',
+            'src.data_ext_charge',
+            'src.data_class_upgrade_charge',
+            'src.data_supplement_charge',
+            'src.data_addon_charge',
+            'src.data_fare_created_office_id',
+            'src.data_tour_code',
+            'src.data_endorsement',
+            'src.data_iata_comm_persc',
+            'src.data_whole_sale_comm',
+            'src.data_whole_sale_comm_type',
+            'src.data_user_letter_generated',
+            'src.data_ticketed_user',
+            'src.data_bsp_travel_code',
+            'src.data_crs_rules',
+            'src.data_cancel_pnr',
+            'src.data_connected_item_no',
+            'src.data_minimal_deposit_amount',
+            'src.data_deposit_date_emergency',
+            'src.data_valid_for_ticketing',
+            'src.data_manual_ticket_only',
+            'src.data_pnr_price_override_date',
+            'src.data_manually_priced_flight',
+            'src.data_pnr_cnx_checked',
+            'src.data_ssr_notes',
+            'src.data_corporate_id',
+            'src.data_h2_h_hold_release_time',
+            'src.data_gds_queue_msg',
+            'src.data_original_crs',
+            'src.data_original_pnr',
+            'src.data_migrated_date',
+            'src.data_apis_info_sent',
+            'src.data_last_modified_time',
+            'src.data_seat_type',
+            'src.data_gds_queue_error_id',
+            'src.data_mask',
+            'src.data_is_lcc_result',
+            'src.data_transport_type',
+            'src.data_org_fare_type',
+            'src.data_doc_delivery_email',
+            'src.data_instant_ticketed',
+            'src.data_is_tbx_only_name_change',
+            'src.data_dynamic_ptc',
+            'src.data_contract_type',
+            'src.data_fare_type',
+            'src.data_out_contract',
+            'src.data_out_route_group',
+            'src.data_out_route',
+            'src.data_out_ticket_info_id',
+            'src.data_in_rule',
+            'src.data_in_route_group',
+            'src.data_in_route',
+            'src.data_in_ticket_info_id',
+            'src.data_pnr',
+            'src.data_ticketing_deadline',
+            'src.data_ticketed',
+            'src.data_ticket_issue_date',
+            'src.data_tax_offset',
+            'src.data_airline_for_comm_calc',
+            'src.data_domestic_for_comm_calc',
+            'src.data_history_created',
+            'src.data_out_cabin',
+            'src.data_in_cabin',
+            'src.data_ticket_type',
+            'src.dms_operation']) }} as metadata_checksum,
+        metadata_timestamp,
+        metadata_record_type,
+        metadata_operation,
+        metadata_partition_key_type,
+        metadata_schema_name,
+        metadata_table_name,
+        metadata_transaction_id,
+        metadata_transaction_record_id,
+        metadata_prev_transaction_id,
+        metadata_prev_transaction_record_id,
+        metadata_commit_timestamp,
+        metadata_stream_position,
+        SYSDATE() as metadata_insert_datetime,
+        '{{ env_var('DBT_SYNTHETIC_ID', "dbt") }}' as metadata_batch_user,
+        landing_id,
+        landing_file_name,
+        landing_file_row_number,
+        landing_file_last_modified,
+        landing_timestamp,
+        landing_cloudevent_id,
+        landing_cloudevent_specversion,
+        landing_cloudevent_time,
+        landing_cloudevent_source,
+        landing_cloudevent_subject,
+        landing_cloudevent_stream,
+        landing_cloudevent_type,
+        landing_cloudevent_dataschema,
+        landing_cloudevent_traceparent,
+        landing_cloudevent_tracestate,
+        landing_cloudevent_check_sum,
+        landing_cloudevent_router_database,
+        landing_cloudevent_router_schema,
+        landing_cloudevent_router_table,
+        landing_cloudevent_validated,
+        landing_cloudevent_data_contract_version,
+        landing_cloudevent_datacontenttype,
+        landing_cloudevent_exception_error
+
+    from source src
+    inner join min_source_update_datetime
+    on src.data_booking_id = min_source_update_datetime.data_booking_id
+    and src.data_item_no = min_source_update_datetime.data_item_no
+    and src.data_product_code = min_source_update_datetime.data_product_code
+),
+
+-- removing duplicates from incremental set
+final as (
+    {{ dbt_utils.deduplicate(
+        relation = 'renamed',
+        partition_by = 'data_booking_id, data_item_no, data_product_code, metadata_checksum',
+        order_by = "metadata_timestamp desc",
+    ) }}
+)
+
+select * from final

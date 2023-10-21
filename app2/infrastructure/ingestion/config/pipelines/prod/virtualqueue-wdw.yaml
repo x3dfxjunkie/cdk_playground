@@ -1,0 +1,151 @@
+stack_extension: &se virtualqueue-wdw
+ingest_pattern: kinesis2kinesis
+active: true
+pattern_instances:
+  - region: us-east-1
+    resources:
+      kinesis:
+        retention_period: &kdr !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+        stream_mode: &ksm !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      kinesis_dmz:
+        retention_period: &kdr_dmz !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+        stream_mode: &ksm_dmz !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      cross_account:
+        cross_account_type: &cat target
+        cross_account_id: &id 271854961096
+        cross_account_role_name: wdw-fastpass-S0001539-use1-prd_role
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_PROD_LANDING # Needs update to appropriate default routing
+      default_schema: &schema LND_VIRTUALQUEUE_WDW
+      table_path: _type # This should match key_path_name
+      data_contracts:
+        - data_contract: app.src.data_structures.data_contracts.source.virtualqueue_wdw.v0.virtualqueue_wdw_boarding_group_created_event_source_data_contract
+          class_name: VirtualQueueWDWBoardingGroupCreatedEventModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: _type
+              value: BoardingGroupCreatedEvent
+          router_database: &database PROD_LANDING
+          router_schema: *schema
+          router_table: BOARDING_GROUP_CREATED_EVENT
+        - data_contract: app.src.data_structures.data_contracts.source.virtualqueue_wdw.v0.virtualqueue_wdw_boarding_group_released_event_source_data_contract
+          class_name: VirtualQueueWDWBoardingGroupReleasedEventModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: _type
+              value: BoardingGroupReleasedEvent
+          router_database: *database
+          router_schema: *schema
+          router_table: BOARDING_GROUP_RELEASED_EVENT
+        - data_contract: app.src.data_structures.data_contracts.source.virtualqueue_wdw.v0.virtualqueue_wdw_boarding_group_summoned_event_source_data_contract
+          class_name: VirtualQueueWDWBoardingGroupSummonedEventModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: _type
+              value: BoardingGroupSummonedEvent
+          router_database: *database
+          router_schema: *schema
+          router_table: BOARDING_GROUP_SUMMONED_EVENT
+        - data_contract: app.src.data_structures.data_contracts.source.virtualqueue_wdw.v0.virtualqueue_wdw_join_boarding_group_queue_event_source_data_contract
+          class_name: VirtualQueueWDWJoinBoardingGroupQueueEventModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: _type
+              value: JoinBoardingGroupQueueEvent
+          router_database: *database
+          router_schema: *schema
+          router_table: JOIN_BOARDING_GROUP_QUEUE_EVENT
+        - data_contract: app.src.data_structures.data_contracts.source.virtualqueue_wdw.v0.virtualqueue_wdw_leave_boarding_group_queue_event_source_data_contract
+          class_name: VirtualQueueWDWLeaveBoardingGroupQueueEventModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: _type
+              value: LeaveBoardingGroupQueueEvent
+          router_database: *database
+          router_schema: *schema
+          router_table: LEAVE_BOARDING_GROUP_QUEUE_EVENT
+        - data_contract: app.src.data_structures.data_contracts.source.virtualqueue_wdw.v0.virtualqueue_wdw_mobile_join_boarding_group_queue_event_source_data_contract
+          class_name: VirtualQueueWDWMobileJoinBoardingGroupQueueEventModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: _type
+              value: MobileJoinBoardingGroupQueueEvent
+          router_database: *database
+          router_schema: *schema
+          router_table: MOBILE_JOIN_BOARDING_GROUP_QUEUE_EVENT
+        - data_contract: app.src.data_structures.data_contracts.source.virtualqueue_wdw.v0.virtualqueue_wdw_mobile_leave_queue_event_source_data_contract
+          class_name: VirtualQueueWDWMobileLeaveQueueEventModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: _type
+              value: MobileLeaveQueueEvent
+          router_database: *database
+          router_schema: *schema
+          router_table: MOBILE_LEAVE_QUEUE_EVENT
+        - data_contract: app.src.data_structures.data_contracts.source.virtualqueue_wdw.v0.virtualqueue_wdw_queue_autosummon_snoozed_event_source_data_contract
+          class_name: VirtualQueueWDWQueueAutosummonSnoozedEventModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: _type
+              value: QueueAutosummonSnoozedEvent
+          router_database: *database
+          router_schema: *schema
+          router_table: QUEUE_AUTOSUMMON_SNOOZED_EVENT
+        - data_contract: app.src.data_structures.data_contracts.source.virtualqueue_wdw.v0.virtualqueue_wdw_queue_config_modified_event_source_data_contract
+          class_name: VirtualQueueWDWQueueConfigModifiedEventModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: _type
+              value: QueueConfigModifiedEvent
+          router_database: *database
+          router_schema: *schema
+          router_table: QUEUE_CONFIG_MODIFIED_EVENT
+        - data_contract: app.src.data_structures.data_contracts.source.virtualqueue_wdw.v0.virtualqueue_wdw_queue_emptied_event_source_data_contract
+          class_name: VirtualQueueWDWQueueEmptiedEventModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: _type
+              value: QueueEmptiedEvent
+          router_database: *database
+          router_schema: *schema
+          router_table: QUEUE_EMPTIED_EVENT
+        - data_contract: app.src.data_structures.data_contracts.source.virtualqueue_wdw.v0.virtualqueue_wdw_queue_is_autosummon_enabled_updated_event_source_data_contract
+          class_name: VirtualQueueWDWQueueIsAutosummonEnabledUpdatedEventModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: _type
+              value: QueueIsAutosummonEnabledUpdatedEvent
+          router_database: *database
+          router_schema: *schema
+          router_table: QUEUE_IS_AUTOSUMMON_ENABLED_UPDATED_EVENT
+        - data_contract: app.src.data_structures.data_contracts.source.virtualqueue_wdw.v0.virtualqueue_wdw_redemption_join_boarding_group_queue_event_source_data_contract
+          class_name: VirtualQueueWDWRedemptionJoinBoardingGroupQueueEventModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: _type
+              value: RedemptionJoinBoardingGroupQueueEvent
+          router_database: *database
+          router_schema: *schema
+          router_table: REDEMPTION_JOIN_BOARDING_GROUP_QUEUE_EVENT
+        - data_contract: app.src.data_structures.data_contracts.source.virtualqueue_wdw.v0.virtualqueue_wdw_redemption_leave_queue_event_source_data_contract
+          class_name: VirtualQueueWDWRedemptionLeaveQueueEventModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: _type
+              value: RedemptionLeaveQueueEvent
+          router_database: *database
+          router_schema: *schema
+          router_table: REDEMPTION_LEAVE_QUEUE_EVENT
+        - data_contract: app.src.data_structures.data_contracts.source.virtualqueue_wdw.v0.virtualqueue_wdw_redemption_redeem_boarding_group_position_event_source_data_contract
+          class_name: VirtualQueueWDWRedemptionRedeemBoardingGroupPositionEventModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: _type
+              value: RedemptionRedeemBoardingGroupPositionEvent
+          router_database: *database
+          router_schema: *schema
+          router_table: REDEMPTION_REDEEM_BOARDING_GROUP_POSITION_EVENT

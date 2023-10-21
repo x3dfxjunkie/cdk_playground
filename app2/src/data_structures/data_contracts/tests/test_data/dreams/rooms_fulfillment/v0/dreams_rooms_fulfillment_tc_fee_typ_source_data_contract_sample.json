@@ -1,0 +1,32 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "1980-01-01T00:00:00Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_FEE_TYP_NM": "Cancel"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_fee_typ",
+            "timestamp": "2023-07-26T01:12:17.821855Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "1980-01-01T00:00:00Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "TC_FEE_TYP_NM": "Exchange"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "res_fulfill_mgmt",
+            "table-name": "tc_fee_typ",
+            "timestamp": "2023-07-26T01:12:17.832375Z"
+        }
+    }
+]

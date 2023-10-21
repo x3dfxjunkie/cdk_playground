@@ -1,0 +1,955 @@
+[
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-10T03:50:00Z",
+            "PHN_SYS_REC_DT": "2023-06-10T03:50:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T03:52:27Z",
+            "PHN_CL_TERM_PT_CTY_NM": "HARVESTER",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "16367228881",
+            "PHN_CL_SEC_CN": 100,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-10T03:50:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-10T03:50:00Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T19:33:42.317050Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG"
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T18:07:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T18:07:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T18:09:39Z",
+            "PHN_CL_TERM_PT_CTY_NM": "NEW ALBANY",
+            "PHN_CHRG_CL_TM": "1970-01-01T18:07:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "16625388237",
+            "PHN_CL_SEC_CN": 46,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T18:07:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T18:07:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T22:10:02Z",
+            "transact_seq": "20230609221002000000000000031792893"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T11:04:23.103005Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 196649
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T11:13:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T11:13:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T11:18:29Z",
+            "PHN_CL_TERM_PT_CTY_NM": "NEWARK",
+            "PHN_CHRG_CL_TM": "1970-01-01T11:13:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "19735176639",
+            "PHN_CL_SEC_CN": 286,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T11:13:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T11:13:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T15:18:50Z",
+            "transact_seq": "20230609151850000000000000017888777"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T03:41:01.495558Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 1245228
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-10T09:38:00Z",
+            "PHN_SYS_REC_DT": "2023-06-10T09:38:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T09:43:43Z",
+            "PHN_CL_TERM_PT_CTY_NM": "SANANTONIO",
+            "PHN_CHRG_CL_TM": "1970-01-01T09:38:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "12102751580",
+            "PHN_CL_SEC_CN": 178,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-10T09:38:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-10T09:38:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-10T13:44:08Z",
+            "transact_seq": "20230610134408000000000000054739601"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T22:55:11.109891Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 196642
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-10T09:47:00Z",
+            "PHN_SYS_REC_DT": "2023-06-10T09:47:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T09:47:43Z",
+            "PHN_CL_TERM_PT_CTY_NM": "LAS VEGAS",
+            "PHN_CHRG_CL_TM": "1970-01-01T09:47:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "17022355855",
+            "PHN_CL_SEC_CN": 28,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-10T09:47:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-10T09:47:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-10T13:48:09Z",
+            "transact_seq": "20230610134809000000000000054848501"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T22:58:36.541658Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 983079
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T08:32:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T08:32:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T08:33:57Z",
+            "PHN_CL_TERM_PT_CTY_NM": "W PALM BCH",
+            "PHN_CHRG_CL_TM": "1970-01-01T08:32:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "15619513197",
+            "PHN_CL_SEC_CN": 70,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T08:32:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T08:32:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T12:34:17Z",
+            "transact_seq": "20230609123417000000000000012178493"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T00:35:59.460552Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 27
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T17:21:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T17:21:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T17:26:04Z",
+            "PHN_CL_TERM_PT_CTY_NM": "NEW CASTLE",
+            "PHN_CHRG_CL_TM": "1970-01-01T17:21:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "17246510483",
+            "PHN_CL_SEC_CN": 196,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T17:21:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T17:21:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T21:26:26Z",
+            "transact_seq": "20230609212626000000000000030592685"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T10:26:28.551651Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 786449
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T16:51:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T16:51:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T16:54:43Z",
+            "PHN_CL_TERM_PT_CTY_NM": "PENSACOLA",
+            "PHN_CHRG_CL_TM": "1970-01-01T16:51:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "18505723321",
+            "PHN_CL_SEC_CN": 122,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T16:51:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T16:51:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T20:55:06Z",
+            "transact_seq": "20230609205506000000000000029678329"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T09:57:23.428191Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 1179681
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T18:23:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T18:23:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T18:25:44Z",
+            "PHN_CL_TERM_PT_CTY_NM": "CINCINNATI",
+            "PHN_CHRG_CL_TM": "1970-01-01T18:23:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "15133014232",
+            "PHN_CL_SEC_CN": 34,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T18:23:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T18:23:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T22:26:06Z",
+            "transact_seq": "20230609222606000000000000032242165"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T11:18:12.956464Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 1703980
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T18:29:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T18:29:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T18:31:48Z",
+            "PHN_CL_TERM_PT_CTY_NM": "GRANBY",
+            "PHN_CHRG_CL_TM": "1970-01-01T18:29:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "14508307552",
+            "PHN_CL_SEC_CN": 106,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T18:29:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T18:29:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T22:32:11Z",
+            "transact_seq": "20230609223211000000000000032379437"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T11:22:38.635294Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 65582
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T18:30:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T18:30:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T18:32:49Z",
+            "PHN_CL_TERM_PT_CTY_NM": "YORK",
+            "PHN_CHRG_CL_TM": "1970-01-01T18:30:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "17174342442",
+            "PHN_CL_SEC_CN": 56,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T18:30:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T18:30:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T22:33:11Z",
+            "transact_seq": "20230609223311000000000000032403249"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T11:23:24.817088Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 1507372
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-10T07:32:00Z",
+            "PHN_SYS_REC_DT": "2023-06-10T07:32:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T07:42:35Z",
+            "PHN_CL_TERM_PT_CTY_NM": "HARVESTER",
+            "PHN_CHRG_CL_TM": "1970-01-01T07:32:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "16367227111",
+            "PHN_CL_SEC_CN": 594,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-10T07:32:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-10T07:32:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-10T11:43:00Z",
+            "transact_seq": "20230610114300000000000000051652341"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T21:12:42.572226Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 196651
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T18:39:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T18:39:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T18:42:56Z",
+            "PHN_CL_TERM_PT_CTY_NM": "COLUMBIA",
+            "PHN_CHRG_CL_TM": "1970-01-01T18:39:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "17176932017",
+            "PHN_CL_SEC_CN": 100,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T18:39:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T18:39:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T22:43:18Z",
+            "transact_seq": "20230609224318000000000000032703713"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T11:32:38.041433Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 917542
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T18:41:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T18:41:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T18:43:57Z",
+            "PHN_CL_TERM_PT_CTY_NM": "YORK",
+            "PHN_CHRG_CL_TM": "1970-01-01T18:41:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "17177584246",
+            "PHN_CL_SEC_CN": 52,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T18:41:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T18:41:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T22:44:18Z",
+            "transact_seq": "20230609224418000000000000032719917"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T11:33:08.107138Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 131086
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T15:40:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T15:40:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T15:41:57Z",
+            "PHN_CL_TERM_PT_CTY_NM": "AKRON",
+            "PHN_CHRG_CL_TM": "1970-01-01T15:40:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "13306960941",
+            "PHN_CL_SEC_CN": 20,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T15:40:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T15:40:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T19:42:19Z",
+            "transact_seq": "20230609194219000000000000027422601"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T08:46:51.110190Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 1966087
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T22:10:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T22:10:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T22:13:15Z",
+            "PHN_CL_TERM_PT_CTY_NM": "INDIANAPLS",
+            "PHN_CHRG_CL_TM": "1970-01-01T22:10:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "13173624481",
+            "PHN_CL_SEC_CN": 80,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T22:10:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T22:10:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-10T02:13:38Z",
+            "transact_seq": "20230610021338000000000000037125413"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T13:52:39.317841Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 917537
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T22:12:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T22:12:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T22:15:16Z",
+            "PHN_CL_TERM_PT_CTY_NM": "INDIANAPLS",
+            "PHN_CHRG_CL_TM": "1970-01-01T22:12:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "13173624481",
+            "PHN_CL_SEC_CN": 72,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T22:12:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T22:12:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-10T02:15:39Z",
+            "transact_seq": "20230610021539000000000000037155197"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T13:53:40.210800Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 131119
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T10:19:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T10:19:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T10:22:58Z",
+            "PHN_CL_TERM_PT_CTY_NM": "KISSIMMEE",
+            "PHN_CHRG_CL_TM": "1970-01-01T10:19:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "14073055174",
+            "PHN_CL_SEC_CN": 210,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T10:19:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T10:19:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T14:23:18Z",
+            "transact_seq": "20230609142318000000000000015693657"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T02:30:45.939138Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 655417
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T18:31:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T18:31:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T18:38:53Z",
+            "PHN_CL_TERM_PT_CTY_NM": "COLUMBIA",
+            "PHN_CHRG_CL_TM": "1970-01-01T18:31:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "17176932017",
+            "PHN_CL_SEC_CN": 290,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T18:31:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T18:31:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T22:39:15Z",
+            "transact_seq": "20230609223915000000000000032548757"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T11:28:14.931701Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 1835016
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T18:37:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T18:37:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T18:39:54Z",
+            "PHN_CL_TERM_PT_CTY_NM": "COLUMBIA",
+            "PHN_CHRG_CL_TM": "1970-01-01T18:37:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "17176932017",
+            "PHN_CL_SEC_CN": 32,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T18:37:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T18:37:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T22:40:15Z",
+            "transact_seq": "20230609224015000000000000032576189"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T11:29:09.819278Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 1835048
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T17:13:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T17:13:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T17:19:06Z",
+            "PHN_CL_TERM_PT_CTY_NM": "NEW CASTLE",
+            "PHN_CHRG_CL_TM": "1970-01-01T17:13:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "17247306557",
+            "PHN_CL_SEC_CN": 310,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T17:13:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T17:13:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T21:19:28Z",
+            "transact_seq": "20230609211928000000000000030409853"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T10:20:21.397190Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 917526
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T17:45:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T17:45:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T17:47:19Z",
+            "PHN_CL_TERM_PT_CTY_NM": "BLAINE",
+            "PHN_CHRG_CL_TM": "1970-01-01T17:45:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "17635160726",
+            "PHN_CL_SEC_CN": 38,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T17:45:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T17:45:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T21:47:40Z",
+            "transact_seq": "20230609214740000000000000031235389"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T10:46:35.856859Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 1048609
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T17:39:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T17:39:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T17:41:14Z",
+            "PHN_CL_TERM_PT_CTY_NM": "BLAINE",
+            "PHN_CHRG_CL_TM": "1970-01-01T17:39:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "17635160726",
+            "PHN_CL_SEC_CN": 100,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T17:39:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T17:39:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T21:41:36Z",
+            "transact_seq": "20230609214136000000000000031019125"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T10:40:22.720213Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 1900564
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T21:28:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T21:28:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T21:29:56Z",
+            "PHN_CL_TERM_PT_CTY_NM": "WICHITA",
+            "PHN_CHRG_CL_TM": "1970-01-01T21:28:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "13163914164",
+            "PHN_CL_SEC_CN": 38,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T21:28:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T21:28:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-10T01:30:19Z",
+            "transact_seq": "20230610013019000000000000036330717"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T13:27:01.367100Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 458773
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-10T09:04:00Z",
+            "PHN_SYS_REC_DT": "2023-06-10T09:04:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T09:07:20Z",
+            "PHN_CL_TERM_PT_CTY_NM": "COLUMBUS",
+            "PHN_CHRG_CL_TM": "1970-01-01T09:04:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "17069870254",
+            "PHN_CL_SEC_CN": 68,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-10T09:04:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-10T09:04:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-10T13:07:46Z",
+            "transact_seq": "20230610130746000000000000053722325"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T22:21:02.115289Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 458773
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T22:23:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T22:23:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T22:27:23Z",
+            "PHN_CL_TERM_PT_CTY_NM": "BLAINE",
+            "PHN_CHRG_CL_TM": "1970-01-01T22:23:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "165132936746",
+            "PHN_CL_SEC_CN": 120,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T22:23:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T22:23:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-10T02:27:46Z",
+            "transact_seq": "20230610022746000000000000037398173"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T14:01:17.178271Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 1900587
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T22:30:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T22:30:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T22:31:25Z",
+            "PHN_CL_TERM_PT_CTY_NM": "FRANKLINTN",
+            "PHN_CHRG_CL_TM": "1970-01-01T22:30:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "19855157260",
+            "PHN_CL_SEC_CN": 28,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T22:30:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T22:30:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-10T02:31:48Z",
+            "transact_seq": "20230610023148000000000000037477509"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T14:03:52.037122Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 524314
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-10T08:55:00Z",
+            "PHN_SYS_REC_DT": "2023-06-10T08:55:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T08:57:16Z",
+            "PHN_CL_TERM_PT_CTY_NM": "JACKSONVL",
+            "PHN_CHRG_CL_TM": "1970-01-01T08:55:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "19044182818",
+            "PHN_CL_SEC_CN": 64,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-10T08:55:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-10T08:55:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-10T12:57:41Z",
+            "transact_seq": "20230610125741000000000000053382285"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T22:09:50.720012Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 2031635
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T21:56:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T21:56:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T21:58:08Z",
+            "PHN_CL_TERM_PT_CTY_NM": "MIAMI",
+            "PHN_CHRG_CL_TM": "1970-01-01T21:56:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "13053216611",
+            "PHN_CL_SEC_CN": 56,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T21:56:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T21:56:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-10T01:58:32Z",
+            "transact_seq": "20230610015832000000000000036856129"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T13:43:43.601609Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 393219
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T21:58:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T21:58:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T21:59:07Z",
+            "PHN_CL_TERM_PT_CTY_NM": "MIAMI",
+            "PHN_CHRG_CL_TM": "1970-01-01T21:58:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "13059849116",
+            "PHN_CL_SEC_CN": 30,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T21:58:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T21:58:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-10T01:59:29Z",
+            "transact_seq": "20230610015929000000000000036873221"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T13:44:18.671728Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 327727
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T21:59:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T21:59:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T22:00:07Z",
+            "PHN_CL_TERM_PT_CTY_NM": "MIAMI",
+            "PHN_CHRG_CL_TM": "1970-01-01T21:59:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "13059751256",
+            "PHN_CL_SEC_CN": 28,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T21:59:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T21:59:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-10T02:00:30Z",
+            "transact_seq": "20230610020030000000000000036891109"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T13:44:54.879721Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 1179659
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-10T00:25:00Z",
+            "PHN_SYS_REC_DT": "2023-06-10T00:25:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T00:28:33Z",
+            "PHN_CL_TERM_PT_CTY_NM": "DALLAS",
+            "PHN_CHRG_CL_TM": "1970-01-01T00:25:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "12147603582",
+            "PHN_CL_SEC_CN": 76,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-10T00:25:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-10T00:25:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-10T04:28:56Z",
+            "transact_seq": "20230610042856000000000000040658777"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T15:50:42.093133Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 1572896
+        }
+    },
+    {
+        "data": {
+            "PHN_CHRG_ID": 1234567890,
+            "PHN_CHRG_CL_DT": "2023-06-09T10:41:00Z",
+            "PHN_SYS_REC_DT": "2023-06-09T10:41:00Z",
+            "PHN_SYS_REC_TM": "1970-01-01T10:45:11Z",
+            "PHN_CL_TERM_PT_CTY_NM": "ST CLOUD",
+            "PHN_CHRG_CL_TM": "1970-01-01T10:41:00Z",
+            "PHN_CL_TYP_NM": "LD",
+            "PHN_NB": "14077091176",
+            "PHN_CL_SEC_CN": 180,
+            "CREATE_USR_ID_CD": "DUCKD009",
+            "CREATE_DTS": "2023-06-09T10:41:00Z",
+            "UPDT_USR_ID_CD": "DUCKD009",
+            "UPDT_DTS": "2023-06-09T10:41:00Z",
+            "JDO_SEQ_NB": 0,
+            "transact_commit_timestamp": "2023-06-09T14:45:31Z",
+            "transact_seq": "20230609144531000000000000016694377"
+        },
+        "metadata": {
+            "timestamp": "2023-06-10T03:02:01.796805Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "PHN_CHRG",
+            "transaction-id": 2162734
+        }
+    }
+]

@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block css %}
+<link type="text/css" rel="stylesheet" href="{{lambda_url_for('static', filename='css/home.css')}}" />
+{% endblock %}
+{% block js %}{% endblock %}
+
+{% block content %}
+<section class="text-center">
+    <div class="row align-items-center justify-content-center">
+        <img class src="{{lambda_url_for('static', filename = 'img/Data-Contract-Auto-Mater.png')}}"
+            style="width: 70%;">
+        <h5 class="row header col-sm-12 light">
+            The Data Contract Auto-Mater tool allows users to generate data contract framework via sample data files, DB
+            connections using DDL schemas, or direct connection to AWS S3 buckets.
+        </h5>
+    </div>
+    <style>
+        .custom-btn {
+            background-color: #EC7B4B;
+            color: white;
+            border: 2px solid #EC7B4B;
+        }
+
+        .custom-btn:hover,
+        .custom-btn:active {
+            background-color: #b75e39;
+            border-color: #b75e39;
+        }
+    </style>
+    <!-- <div class="row m-3">
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <a class="btn btn-primary btn-lg custom-btn" role="button"
+                href="{{lambda_url_for('sample_load_bp.sample_load')}}">Sample
+                Load</a>
+            <a class="btn btn-primary btn-lg custom-btn" role="button"
+                href="{{lambda_url_for('ddl_extractor_bp.ddl_extractor')}}">DDL
+                Extractor</a>
+            <a class="btn btn-primary btn-lg custom-btn" role="button">S3
+                Extractor</a>
+        </div>
+    </div> -->
+</section>
+<section class="text-center">
+    <div class="row align-items-center justify-content-center">
+        <img class src="{{lambda_url_for('static', filename = 'img/mater_image.jpg')}}" style="width: 20%;">
+    </div>
+</section>
+<section class="section">
+    <!--   Icon Section   -->
+    <div class="d-flex justify-content-center">
+        <div class="col-sm-12 col-md-4">
+            <div class="icon-block">
+                <div class="text-center">
+                    <a class="btn btn-primary btn-lg custom-btn" role="button"
+                        href="{{lambda_url_for('sample_load_bp.sample_load')}}">Sample
+                        Load</a>
+                    <p class="text-justify">
+                </div>
+                Sample Load allows users to load JSON, CSV, XML, or openAPI (Yaml) files and process them to
+                generate data contract framework.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4">
+            <div class="icon-block">
+                <!-- <h4 class="text-center">DDL Extractor</h4> -->
+                <div class="text-center">
+                    <a class="btn btn-primary btn-lg custom-btn" role="button"
+                        href="{{lambda_url_for('ddl_extractor_bp.ddl_extractor')}}">DDL
+                        Extractor</a>
+                    <p class="text-justify">
+                </div>
+                DDL Extractor allows users to extract DDL code through a MariaDB or OracleDB connection by
+                setting credentials and selecting the table.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4">
+            <div class="icon-block">
+                <!-- <h4 class="text-center">S3 Extractor</h4> -->
+                <div class="text-center">
+                    <a class="btn btn-primary btn-lg custom-btn" role="button"
+                        href="{{lambda_url_for('s3_extractor_bp.s3_extractor')}}">S3
+                        Extractor</a>
+                    <p class="text-justify">
+                </div>
+                S3 Extractor allows users to extract samples from an AWS S3 bucket giving an ARN.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

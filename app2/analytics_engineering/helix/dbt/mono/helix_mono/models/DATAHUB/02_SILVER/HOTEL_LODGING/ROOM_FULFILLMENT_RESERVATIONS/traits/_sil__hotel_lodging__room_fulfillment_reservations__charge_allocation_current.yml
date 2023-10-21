@@ -1,0 +1,100 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__charge_allocation_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__charge_allocation_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: folio_id
+        description: ""
+
+      - name: root_charge_group_id
+        description: ""
+
+      - name: charge_group_id
+        description: ""
+
+      - name: bill_id
+        description: ""
+
+      - name: bill_code_name
+        description: ""
+
+      - name: bill_code_description
+        description: ""
+
+      - name: bill_charge_group_id
+        description: ""
+
+      - name: bill_charge_group_description
+        description: ""
+
+      - name: transaction_individual_party_id
+        description: ""
+
+      - name: revenue_class_id
+        description: ""
+
+      - name: revenue_class_name
+        description: ""
+
+      - name: revenue_class_active_indicator
+        description: ""
+
+      - name: transaction_facility_id
+        description: ""
+
+      - name: transaction_facility_name
+        description: ""
+
+      - name: allocation_start_date
+        description: ""
+
+      - name: allocation_end_date
+        description: ""
+
+      - name: split_type_name
+        description: ""
+
+      - name: split_value
+        description: ""
+
+      - name: pick_all_in
+        description: ""
+
+      - name: folio_profile_id
+        description: ""
+
+      - name: default_settlement_method_id
+        description: ""
+
+      - name: charge_allocation_inactive_date
+        description: ""
+
+      - name: create_user_id
+        description: ""
+
+      - name: create_datetime
+        description: ""
+
+      - name: create_date
+        description: ""
+
+      - name: source_update_user_id
+        description: ""
+
+      - name: sourc_update_datetime
+        description: ""
+
+      - name: source_update_date
+        description: ""

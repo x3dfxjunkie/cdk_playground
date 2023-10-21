@@ -1,0 +1,47 @@
+Comment: A step function that orchestrates a System Test for Kinesis Ingest
+StartAt: run_locust_task
+States:
+  run_locust_task:
+    Parameters:
+      Cluster: >-
+        ${fargate_cluster_arn}
+      LaunchType: FARGATE
+      NetworkConfiguration:
+        AwsvpcConfiguration:
+          AssignPublicIp: DISABLED
+          SecurityGroups:
+            - ${security_groups_id}
+          Subnets:
+            - ${subnets_ids}
+      Overrides:
+        ContainerOverrides:
+          - Command:
+              - '--config=app/src/load_testing/app/config/config_kinesis.conf'
+            Environment:
+              - Name: app_config
+                Value.$: $$.Execution.Input.app_config
+              - Name: LOCUST_USERS
+                Value: '1'
+              - Name: LOCUST_SPAWN_RATE
+                Value: '1'
+              - Name: LOCUST_RUN_TIME
+                Value.$: $$.Execution.Input.execution_context.limit_time
+              - Name: EXECUTION_ID
+                Value.$: $$.Execution.Input.execution_context.execution_id
+              - Name: prefix
+                Value: ${prefix}
+              - Name: environment
+                Value: ${environment}
+              - Name: limit_records
+                Value: ${limit_records}
+            Name: ${container_name}
+      ReferenceId.$: $$.Execution.Id
+      Tags:
+        - Key: StartedBy
+          Value.$: $$.Execution.Id
+      TaskDefinition: >-
+        ${task_definition_arn}
+    Resource: arn:aws:states:::ecs:runTask.sync
+    ResultPath: $.output_run_locust_task
+    Type: Task
+    End: true

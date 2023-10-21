@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  locustmaster:
+    image: locust_test 
+    build:
+      context: . 
+      dockerfile: ./docker/Dockerfile
+    ports:
+     - "8089:8089"
+    command: [ "--config=config/master.conf" ]
+
+  locustworker:
+    image: locust_test
+    depends_on:
+      - locustmaster
+    links:
+      - "locustmaster:locustmaster.locustmaster"
+    command: [ "--config=config/worker.conf" ]
+    volumes:
+      - $HOME/.aws/credentials:/home/locust/.aws/credentials:ro

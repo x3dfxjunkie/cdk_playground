@@ -1,0 +1,44 @@
+[
+    {
+        "data": {
+            "RSRC_STS_NM": "Open",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "rsrc_sts",
+            "timestamp": "2023-08-23T19:22:05.938186Z"
+        }
+    },
+    {
+        "data": {
+            "RSRC_STS_NM": "Out Of Service",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "rsrc_sts",
+            "timestamp": "2023-08-23T19:22:05.949719Z"
+        }
+    },
+    {
+        "data": {
+            "RSRC_STS_NM": "Reserved",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "rsrc_sts",
+            "timestamp": "2023-08-23T19:22:05.961674Z"
+        }
+    }
+]

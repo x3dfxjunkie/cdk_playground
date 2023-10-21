@@ -1,0 +1,1129 @@
+[
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111E1A3}",
+        "regionId": "ak-park-entrance",
+        "regionLevel": "LAND",
+        "sourceId": "80007815",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685576198,
+        "lastSeen": 1685576212,
+        "processTimestamp": 1685576397005,
+        "publishTimestamp": 1685576397105,
+        "activeRegions": {
+            "LOCATION": {
+                "regionId": "the-oasis-exhibits",
+                "lastSeen": 1685576175,
+                "sourceId": "80010214",
+                "additionalSourceIds": null
+            },
+            "AREA": {
+                "regionId": "animal-kingdom",
+                "lastSeen": 1685576212,
+                "sourceId": "80007823",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685576212,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "ak-park-entrance",
+                "lastSeen": 1685576212,
+                "sourceId": "80007815",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111116BC5}",
+        "regionId": "hollywood-studios",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "80007998",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685570393,
+        "lastSeen": 1685571881,
+        "processTimestamp": 1685576340006,
+        "publishTimestamp": 1685576397282,
+        "activeRegions": {
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685570857,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685570857,
+                "sourceId": null,
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222cc5c"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111B8E3}",
+        "regionId": "mk-main-street",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "80007958",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685575946,
+        "lastSeen": 1685575982,
+        "processTimestamp": 1685576340006,
+        "publishTimestamp": 1685576397000,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "magic-kingdom",
+                "lastSeen": 1685576384,
+                "sourceId": "80007944",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685576384,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685576384,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "mk-main-street",
+                "lastSeen": 1685576384,
+                "sourceId": "80007958",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111118955}",
+        "regionId": "mk-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "80007946",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685575976,
+        "lastSeen": 1685575980,
+        "processTimestamp": 1685576340006,
+        "publishTimestamp": 1685576397301,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "magic-kingdom",
+                "lastSeen": 1685575980,
+                "sourceId": "80007944",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685575980,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685575980,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111E484}",
+        "regionId": "epcot",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "80007838",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685576368,
+        "lastSeen": 1685576368,
+        "processTimestamp": 1685576397284,
+        "publishTimestamp": 1685576397319,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "epcot",
+                "lastSeen": 1685576368,
+                "sourceId": "80007838",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685576385,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685576385,
+                "sourceId": null,
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222e981"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111118018}",
+        "regionId": "mk-main-street",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "80007958",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685575981,
+        "lastSeen": 1685575981,
+        "processTimestamp": 1685576340006,
+        "publishTimestamp": 1685576397226,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "magic-kingdom",
+                "lastSeen": 1685575981,
+                "sourceId": "80007944",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685575981,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685575981,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111115E26}",
+        "regionId": "ep-international-gateway",
+        "regionLevel": "LOCATION",
+        "regionTags": [],
+        "sourceId": null,
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685575963,
+        "lastSeen": 1685576100,
+        "processTimestamp": 1685576340006,
+        "publishTimestamp": 1685576397305,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "epcot",
+                "lastSeen": 1685576100,
+                "sourceId": "80007838",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685576100,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685576100,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "ep-ig-entrance",
+                "lastSeen": 1685576100,
+                "sourceId": "00000000",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-222222222882"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111A140}",
+        "regionId": "ep-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "80007913",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685575871,
+        "lastSeen": 1685575980,
+        "processTimestamp": 1685576340006,
+        "publishTimestamp": 1685576397385,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "epcot",
+                "lastSeen": 1685575980,
+                "sourceId": "80007838",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685575980,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685575980,
+                "sourceId": null,
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111582B}",
+        "regionId": "walt-disney-world",
+        "regionLevel": "DESTINATION",
+        "regionTags": [],
+        "sourceId": "80007798",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685573158,
+        "lastSeen": 1685579081,
+        "processTimestamp": 1685576340006,
+        "publishTimestamp": 1685576397278,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "animal-kingdom",
+                "lastSeen": 1685579081,
+                "sourceId": "80007823",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685579081,
+                "sourceId": null,
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-2222222248b7"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111E484}",
+        "regionId": "hollywood-studios",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "80007998",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685571975,
+        "lastSeen": 1685574389,
+        "processTimestamp": 1685576397284,
+        "publishTimestamp": 1685576397296,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "hollywood-studios",
+                "lastSeen": 1685574389,
+                "sourceId": "80007998",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685576385,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685576385,
+                "sourceId": null,
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222cc5c"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111110821}",
+        "regionId": "mk-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "80007946",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685576391,
+        "lastSeen": 1685576395,
+        "processTimestamp": 1685576397719,
+        "publishTimestamp": 1685576397746,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "magic-kingdom",
+                "lastSeen": 1685576395,
+                "sourceId": "80007944",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685576395,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685576395,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "mk-entrance",
+                "lastSeen": 1685576395,
+                "sourceId": "80007946",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111F9A5}",
+        "regionId": "mk-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "80007946",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685575980,
+        "lastSeen": 1685575980,
+        "processTimestamp": 1685576340006,
+        "publishTimestamp": 1685576397767,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "magic-kingdom",
+                "lastSeen": 1685575980,
+                "sourceId": "80007944",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685575980,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685575980,
+                "sourceId": null,
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111FE89}",
+        "regionId": "mk-main-street",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "80007958",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685576396,
+        "lastSeen": 1685576396,
+        "processTimestamp": 1685576397719,
+        "publishTimestamp": 1685576397746,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "magic-kingdom",
+                "lastSeen": 1685574283,
+                "sourceId": "80007944",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685574686,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685574686,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "mk-main-street",
+                "lastSeen": 1685576396,
+                "sourceId": "80007958",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111918D}",
+        "regionId": "dhs-park-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "80008004",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685575983,
+        "lastSeen": 1685575980,
+        "processTimestamp": 1685576340006,
+        "publishTimestamp": 1685576397844,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "hollywood-studios",
+                "lastSeen": 1685575980,
+                "sourceId": "80007998",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685575980,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685575980,
+                "sourceId": null,
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111117D22}",
+        "regionId": "mk-main-street",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "80007958",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685576396,
+        "lastSeen": 1685576396,
+        "processTimestamp": 1685576397796,
+        "publishTimestamp": 1685576397825,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "magic-kingdom",
+                "lastSeen": 1685573712,
+                "sourceId": "80007944",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685573712,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685573712,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "mk-main-street",
+                "lastSeen": 1685576396,
+                "sourceId": "80007958",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111B7D3}",
+        "regionId": "epcot",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "80007838",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685575868,
+        "lastSeen": 1685575868,
+        "processTimestamp": 1685575874022,
+        "publishTimestamp": 1685575874052,
+        "activeRegions": {
+            "LOCATION": {
+                "regionId": "ep-skyliner",
+                "lastSeen": 1685575868,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "AREA": {
+                "regionId": "epcot",
+                "lastSeen": 1685575868,
+                "sourceId": "80007838",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685575289,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685575289,
+                "sourceId": null,
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222e981"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111114FA8}",
+        "regionId": "dhs-park-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "80008004",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685575871,
+        "lastSeen": 1685575871,
+        "processTimestamp": 1685575874028,
+        "publishTimestamp": 1685575874135,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "magic-kingdom",
+                "lastSeen": 1685577559,
+                "sourceId": "80007944",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685578814,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685578814,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "dhs-park-entrance",
+                "lastSeen": 1685575871,
+                "sourceId": "80008004",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-1111111196C3}",
+        "regionId": "dhs-park-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "80008004",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685575870,
+        "lastSeen": 1685575870,
+        "processTimestamp": 1685575874162,
+        "publishTimestamp": 1685575874197,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "hollywood-studios",
+                "lastSeen": 1685575709,
+                "sourceId": "80007998",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685575709,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685575709,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "dhs-park-entrance",
+                "lastSeen": 1685575870,
+                "sourceId": "80008004",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111114FA8}",
+        "regionId": "magic-kingdom",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "80007944",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685570294,
+        "lastSeen": 1685577559,
+        "processTimestamp": 1685575874028,
+        "publishTimestamp": 1685575874127,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "magic-kingdom",
+                "lastSeen": 1685577559,
+                "sourceId": "80007944",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685578814,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685578814,
+                "sourceId": null,
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222f894"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111DD04}",
+        "regionId": "mk-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "80007946",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685575583,
+        "lastSeen": 1685575625,
+        "processTimestamp": 1685575874426,
+        "publishTimestamp": 1685575874463,
+        "activeRegions": {
+            "LOCATION": {
+                "regionId": "mk-monorail",
+                "lastSeen": 1685575625,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "AREA": {
+                "regionId": "magic-kingdom",
+                "lastSeen": 1685575714,
+                "sourceId": "80007944",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685575873,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685575733,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "mk-entrance",
+                "lastSeen": 1685575625,
+                "sourceId": "80007946",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-111111114FA8}",
+        "regionId": "hollywood-studios",
+        "regionLevel": "AREA",
+        "regionTags": [],
+        "sourceId": "80007998",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685575871,
+        "lastSeen": 1685575871,
+        "processTimestamp": 1685575874028,
+        "publishTimestamp": 1685575874139,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "hollywood-studios",
+                "lastSeen": 1685575871,
+                "sourceId": "80007998",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685578814,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685578814,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "dhs-park-entrance",
+                "lastSeen": 1685575871,
+                "sourceId": "80008004",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-22222222cc5c"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111823A}",
+        "regionId": "dhs-park-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "80008004",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685575316,
+        "lastSeen": 1685575533,
+        "processTimestamp": 1685575874398,
+        "publishTimestamp": 1685575874420,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "hollywood-studios",
+                "lastSeen": 1685575860,
+                "sourceId": "80007998",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685575860,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685575860,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "dhs-park-entrance",
+                "lastSeen": 1685575533,
+                "sourceId": "80008004",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111DD04}",
+        "regionId": "mk-main-street",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "80007958",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685575733,
+        "lastSeen": 1685575733,
+        "processTimestamp": 1685575874426,
+        "publishTimestamp": 1685575874471,
+        "activeRegions": {
+            "LOCATION": {
+                "regionId": "mk-monorail",
+                "lastSeen": 1685575625,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "AREA": {
+                "regionId": "magic-kingdom",
+                "lastSeen": 1685575625,
+                "sourceId": "80007944",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685575704,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685575625,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "mk-main-street",
+                "lastSeen": 1685575733,
+                "sourceId": "80007958",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111D06F}",
+        "regionId": "dhs-park-entrance",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "80008004",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685573140,
+        "lastSeen": 1685573140,
+        "processTimestamp": 1685575800020,
+        "publishTimestamp": 1685575874789,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "hollywood-studios",
+                "lastSeen": 1685573140,
+                "sourceId": "80007998",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685575740,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685575740,
+                "sourceId": null,
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-1111111131EC}",
+        "regionId": "mk-main-street",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "80007958",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685573076,
+        "lastSeen": 1685573076,
+        "processTimestamp": 1685575800020,
+        "publishTimestamp": 1685575874795,
+        "activeRegions": {
+            "AREA": {
+                "regionId": "magic-kingdom",
+                "lastSeen": 1685573076,
+                "sourceId": "80007944",
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685575749,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685575749,
+                "sourceId": null,
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111090B}",
+        "regionId": "mk-main-street",
+        "regionLevel": "LAND",
+        "regionTags": [],
+        "sourceId": "80007958",
+        "additionalSourceIds": null,
+        "status": "ABANDONED",
+        "firstSeen": 1685573607,
+        "lastSeen": 1685573673,
+        "processTimestamp": 1685575800020,
+        "publishTimestamp": 1685575874642,
+        "activeRegions": {
+            "LOCATION": {
+                "regionId": "big-thunder-mountain",
+                "lastSeen": 1685575731,
+                "sourceId": "80010110",
+                "additionalSourceIds": null
+            },
+            "AREA": {
+                "regionId": "magic-kingdom",
+                "lastSeen": 1685575861,
+                "sourceId": "80007944",
+                "additionalSourceIds": null
+            },
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685575861,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685575861,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            },
+            "LAND": {
+                "regionId": "mk-frontierland",
+                "lastSeen": 1685575861,
+                "sourceId": "80007922",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": null,
+        "subscriptions": [
+            "shuri"
+        ]
+    },
+    {
+        "guestIdType": "swid",
+        "guestId": "{AAAAAAAA-1111-AAAA-1111-11111111FDFF}",
+        "regionId": "walt-disney-world",
+        "regionLevel": "DESTINATION",
+        "regionTags": [],
+        "sourceId": "80007798",
+        "additionalSourceIds": null,
+        "status": "ACTIVE",
+        "firstSeen": 1685575873,
+        "lastSeen": 1685575873,
+        "processTimestamp": 1685575874893,
+        "publishTimestamp": 1685575874934,
+        "activeRegions": {
+            "TERRITORY": {
+                "regionId": "central-florida",
+                "lastSeen": 1685575873,
+                "sourceId": null,
+                "additionalSourceIds": null
+            },
+            "DESTINATION": {
+                "regionId": "walt-disney-world",
+                "lastSeen": 1685575873,
+                "sourceId": "80007798",
+                "additionalSourceIds": null
+            }
+        },
+        "thirdPartyIdentifiers": {
+            "adobe_places": "bbbbbbbb-2222-bbbb-2222-2222222248b7"
+        },
+        "subscriptions": [
+            "shuri"
+        ]
+    }
+]

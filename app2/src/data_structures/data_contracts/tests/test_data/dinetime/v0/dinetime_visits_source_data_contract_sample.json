@@ -1,0 +1,687 @@
+[
+    {
+        "MoreData": true,
+        "SiteId": "99999999-c5b7-4424-b953-f8aaecaa2aa0",
+        "TimestampCutoff": "2023-02-28T19:33:05.904+00:00",
+        "Visits": [
+            {
+                "ArrivalTime": "2023-02-28T12:08:04-05:00",
+                "CompletedTime": "2023-02-28T13:59:54-05:00",
+                "ConfirmationNumber": "D7NJ9L",
+                "ConfirmationNumberId": 0,
+                "CreationTime": "2023-02-28T05:32:12-05:00",
+                "CustomValues": [
+                    {
+                        "Name": "requesterID",
+                        "Value": "WDW-iOS-7.21"
+                    },
+                    {
+                        "Name": "clientFlow",
+                        "Value": "MOBILE-APP"
+                    }
+                ],
+                "EstimatedArrivalTime": "2023-02-28T12:25:00-05:00",
+                "ExternalID": "353059352999",
+                "Guest": {
+                    "FirstName": "Mickey Mouse",
+                    "ID": "99999999-83ef-4073-9606-146a4c414e7c",
+                    "IsAnonymous": false,
+                    "IsSubscribedToEmailMarketing": false,
+                    "IsSubscribedToQsrMarketing": false,
+                    "IsSubscribedToSmsMarketing": false,
+                    "LastName": "Mouse",
+                    "LastUpdate": "0001-01-01T00:00:00+00:00",
+                    "Loyalty": {
+                        "LoyaltyCardID": ""
+                    },
+                    "Notes": "",
+                    "ServerLastUpdate": "0001-01-01T00:00:00+00:00"
+                },
+                "GuestID": "99999999-9999-4073-9606-146a4c414e7c",
+                "ID": "99999999-faa9-44f6-81d3-c37df62e9ffe",
+                "IID": 9999999999,
+                "LastUpdate": "2023-02-28T18:59:54.309+00:00",
+                "Notes": "The Hollywood Brown Derby Lunch\\nAdults(3)\\nChildren(1)\\nInfants(1)\\nhigh chairs(1)",
+                "NotificationType": "None",
+                "PagedTime": "2023-02-28T12:11:07-05:00",
+                "PartyMix": {
+                    "Mixes": [
+                        {
+                            "Count": 3,
+                            "Type": "Adult"
+                        },
+                        {
+                            "Count": 1,
+                            "Type": "Child"
+                        },
+                        {
+                            "Count": 1,
+                            "Type": "Infant"
+                        }
+                    ]
+                },
+                "SeatedTables": [
+                    {
+                        "EndTime": "2023-02-28T13:59:54-05:00",
+                        "IsActive": false,
+                        "IsCurrent": true,
+                        "StartTime": "2023-02-28T12:12:40-05:00",
+                        "TableID": "99999999-2d7a-41af-acd4-540564ff1700",
+                        "TableName": "111"
+                    }
+                ],
+                "SeatedTime": "2023-02-28T12:12:40-05:00",
+                "ServerLastUpdate": "2023-02-28T18:59:55.561+00:00",
+                "Size": 5,
+                "Status": "Completed",
+                "Type": "Reservation",
+                "VisitSource": "DineTimeAPI"
+            },
+            {
+                "ArrivalTime": "2023-02-28T13:59:54-05:00",
+                "CompletedTime": "2023-02-28T13:59:59-05:00",
+                "ConfirmationNumber": "7PXT9G",
+                "ConfirmationNumberId": 0,
+                "CreationTime": "2023-02-28T13:37:36-05:00",
+                "EstimatedArrivalTime": "2023-02-28T14:05:00-05:00",
+                "Guest": {
+                    "FirstName": "Mickey",
+                    "ID": "99999999-9c60-4905-9385-54d6bbd01a8b",
+                    "IsAnonymous": false,
+                    "IsSubscribedToEmailMarketing": false,
+                    "IsSubscribedToQsrMarketing": false,
+                    "IsSubscribedToSmsMarketing": false,
+                    "LastName": "Mouse",
+                    "LastUpdate": "0001-01-01T00:00:00+00:00",
+                    "Loyalty": {
+                        "LoyaltyCardID": ""
+                    },
+                    "Notes": "",
+                    "ServerLastUpdate": "0001-01-01T00:00:00+00:00"
+                },
+                "GuestID": "99999999-9c60-4905-9385-54d6bbd01a8b",
+                "ID": "99999999-8620-4abb-8267-4bf064750e20",
+                "IID": 9999999999,
+                "LastUpdate": "2023-02-28T18:59:58.978+00:00",
+                "Notes": "The Hollywood Brown Derby Lunch",
+                "NotificationType": "None",
+                "PartyMix": {
+                    "Mixes": [
+                        {
+                            "Count": 1,
+                            "Type": "Adult"
+                        },
+                        {
+                            "Count": 0,
+                            "Type": "Child"
+                        },
+                        {
+                            "Count": 0,
+                            "Type": "Infant"
+                        }
+                    ]
+                },
+                "ServerLastUpdate": "2023-02-28T19:00:00.038+00:00",
+                "Size": 1,
+                "Status": "WalkAway",
+                "Type": "Reservation",
+                "VisitSource": "DineTimeAPI"
+            },
+            {
+                "ArrivalTime": "2023-02-28T12:53:52-05:00",
+                "CompletedTime": "2023-02-28T14:00:21-05:00",
+                "ConfirmationNumber": "3CW3AB",
+                "ConfirmationNumberId": 0,
+                "CreationTime": "2023-02-28T05:32:18-05:00",
+                "EstimatedArrivalTime": "2023-02-28T12:55:00-05:00",
+                "ExternalID": "352365977499",
+                "Guest": {
+                    "FirstName": "Mickey",
+                    "ID": "99999999-e3d0-4073-95c9-919e875456f3",
+                    "IsAnonymous": false,
+                    "IsSubscribedToEmailMarketing": false,
+                    "IsSubscribedToQsrMarketing": false,
+                    "IsSubscribedToSmsMarketing": false,
+                    "LastName": "Mouse",
+                    "LastUpdate": "0001-01-01T00:00:00+00:00",
+                    "Loyalty": {
+                        "LoyaltyCardID": ""
+                    },
+                    "Notes": "",
+                    "PhoneNumbers": [
+                        {
+                            "ID": "99999999-0cd4-4f7c-bdb7-61e771d5a26c",
+                            "PhoneNumber": "9999999999",
+                            "PhoneNumberString": "+19999999999",
+                            "Sort": 1,
+                            "Type": "Mobile"
+                        }
+                    ],
+                    "ServerLastUpdate": "0001-01-01T00:00:00+00:00"
+                },
+                "GuestID": "99999999-e3d0-4073-95c9-919e875456f3",
+                "ID": "99999999-25ab-4920-bd77-085207a3d8e9",
+                "IID": 9999999999,
+                "LastUpdate": "2023-02-28T19:00:21.081+00:00",
+                "Notes": "ci 1253 iuri",
+                "NotificationType": "SMS",
+                "PagedTime": "2023-02-28T12:53:59-05:00",
+                "PartyMix": {
+                    "Mixes": [
+                        {
+                            "Count": 3,
+                            "Type": "Adult"
+                        },
+                        {
+                            "Count": 0,
+                            "Type": "Child"
+                        },
+                        {
+                            "Count": 0,
+                            "Type": "Infant"
+                        }
+                    ]
+                },
+                "SeatedTables": [
+                    {
+                        "EndTime": "2023-02-28T14:00:21-05:00",
+                        "IsActive": false,
+                        "IsCurrent": true,
+                        "StartTime": "2023-02-28T12:53:59-05:00",
+                        "TableID": "99999999-72c6-4078-90b4-576a889a01b1",
+                        "TableName": "255"
+                    }
+                ],
+                "SeatedTime": "2023-02-28T12:53:59-05:00",
+                "ServerLastUpdate": "2023-02-28T19:00:22.461+00:00",
+                "Size": 3,
+                "Status": "Completed",
+                "Type": "Reservation",
+                "VisitSource": "DineTimeAPI"
+            },
+            {
+                "ArrivalTime": "2023-02-28T12:32:20-05:00",
+                "CompletedTime": "2023-02-28T14:09:40-05:00",
+                "ConfirmationNumber": "WYA059",
+                "ConfirmationNumberId": 0,
+                "CreationTime": "2023-02-28T05:32:17-05:00",
+                "CustomValues": [
+                    {
+                        "Name": "requesterID",
+                        "Value": "WDW-iOS-7.21"
+                    },
+                    {
+                        "Name": "clientFlow",
+                        "Value": "MOBILE-APP"
+                    }
+                ],
+                "EstimatedArrivalTime": "2023-02-28T12:50:00-05:00",
+                "ExternalID": "353057273849",
+                "Guest": {
+                    "FirstName": "MICKEY",
+                    "ID": "99999999-999e-410c-b6bb-7fc504bcfcb8",
+                    "IsAnonymous": false,
+                    "IsSubscribedToEmailMarketing": false,
+                    "IsSubscribedToQsrMarketing": false,
+                    "IsSubscribedToSmsMarketing": false,
+                    "LastName": "MOUSE",
+                    "LastUpdate": "0001-01-01T00:00:00+00:00",
+                    "Loyalty": {
+                        "LoyaltyCardID": ""
+                    },
+                    "Notes": "",
+                    "PhoneNumbers": [
+                        {
+                            "ID": "99999999-088a-4a77-bf63-d5ea8b01cb7a",
+                            "PhoneNumber": "99999999999",
+                            "PhoneNumberString": "+199999999999",
+                            "Sort": 1,
+                            "Type": "Mobile"
+                        }
+                    ],
+                    "ServerLastUpdate": "0001-01-01T00:00:00+00:00"
+                },
+                "GuestID": "99999999-999e-410c-b6bb-7fc504bcfcb8",
+                "ID": "99999999-b2a7-4c87-ab4e-dcb82bceb9b2",
+                "IID": 9999999999,
+                "LastUpdate": "2023-02-28T19:09:40.112+00:00",
+                "Notes": "The Hollywood Brown Derby Lunch\\nAdults(6)",
+                "NotificationType": "SMS",
+                "PartyMix": {
+                    "Mixes": [
+                        {
+                            "Count": 6,
+                            "Type": "Adult"
+                        }
+                    ]
+                },
+                "SeatedTables": [
+                    {
+                        "EndTime": "2023-02-28T14:09:40-05:00",
+                        "IsActive": false,
+                        "IsCurrent": true,
+                        "StartTime": "2023-02-28T12:46:07-05:00",
+                        "TableID": "3a8c73df-0463-451f-a862-3284af016d6e",
+                        "TableName": "421"
+                    }
+                ],
+                "SeatedTime": "2023-02-28T12:46:07-05:00",
+                "ServerLastUpdate": "2023-02-28T19:09:40.807+00:00",
+                "Size": 6,
+                "Status": "Completed",
+                "Type": "Reservation",
+                "VisitSource": "DineTimeAPI"
+            },
+            {
+                "ArrivalTime": "2023-02-28T12:23:03-05:00",
+                "CompletedTime": "2023-02-28T14:10:39-05:00",
+                "ConfirmationNumber": "8W3JY0",
+                "ConfirmationNumberId": 0,
+                "CreationTime": "2023-02-28T12:19:40-05:00",
+                "EstimatedArrivalTime": "2023-02-28T14:15:00-05:00",
+                "ExternalID": "353059388004",
+                "Guest": {
+                    "FirstName": "Mickey",
+                    "ID": "99999999-9784-4135-9ec7-95a7e9f8dced",
+                    "IsAnonymous": false,
+                    "IsSubscribedToEmailMarketing": false,
+                    "IsSubscribedToQsrMarketing": false,
+                    "IsSubscribedToSmsMarketing": false,
+                    "LastName": "Mouse",
+                    "LastUpdate": "0001-01-01T00:00:00+00:00",
+                    "Loyalty": {
+                        "LoyaltyCardID": ""
+                    },
+                    "Notes": "",
+                    "ServerLastUpdate": "0001-01-01T00:00:00+00:00"
+                },
+                "GuestID": "99999999-9784-4135-9ec7-95a7e9f8dced",
+                "ID": "99999999-14a0-4014-a8a3-8574550494cc",
+                "IID": 9999999999,
+                "LastUpdate": "2023-02-28T19:10:38.794+00:00",
+                "Notes": "",
+                "NotificationType": "None",
+                "PagedTime": "2023-02-28T12:23:35-05:00",
+                "PartyMix": {
+                    "Mixes": [
+                        {
+                            "Count": 5,
+                            "Type": "Adult"
+                        },
+                        {
+                            "Count": 1,
+                            "Type": "Child"
+                        }
+                    ]
+                },
+                "SeatedTables": [
+                    {
+                        "EndTime": "2023-02-28T14:10:39-05:00",
+                        "IsActive": false,
+                        "IsCurrent": true,
+                        "StartTime": "2023-02-28T12:23:35-05:00",
+                        "TableID": "d2ad05e4-560d-499d-be71-5a515437f770",
+                        "TableName": "511"
+                    }
+                ],
+                "SeatedTime": "2023-02-28T12:23:35-05:00",
+                "ServerLastUpdate": "2023-02-28T19:10:39.375+00:00",
+                "Size": 6,
+                "Status": "Completed",
+                "Type": "Reservation",
+                "VisitSource": "DineTimeAPI"
+            },
+            {
+                "CanceledTime": "2023-02-04T10:18:53-05:00",
+                "CompletedTime": "2023-02-04T10:18:53-05:00",
+                "ConfirmationNumberId": 0,
+                "CreationTime": "2023-02-04T05:33:07-05:00",
+                "ExternalID": "353029139480",
+                "Guest": {
+                    "FirstName": "Mickey",
+                    "ID": "99999999-2c11-4481-99ed-ad0c12783aa1",
+                    "IsAnonymous": false,
+                    "IsSubscribedToEmailMarketing": false,
+                    "IsSubscribedToQsrMarketing": false,
+                    "IsSubscribedToSmsMarketing": false,
+                    "LastName": "Mouse",
+                    "LastUpdate": "0001-01-01T00:00:00+00:00",
+                    "Loyalty": {
+                        "LoyaltyCardID": ""
+                    },
+                    "Notes": "",
+                    "ServerLastUpdate": "0001-01-01T00:00:00+00:00"
+                },
+                "GuestID": "99999999-2c11-4481-99ed-ad0c12783aa1",
+                "ID": "99999999-19f5-43cf-b143-ce3c0aea0e47",
+                "IID": 9999999999,
+                "LastUpdate": "2023-02-04T15:18:53.505+00:00",
+                "Notes": "The Hollywood Brown Derby Lunch",
+                "NotificationType": "None",
+                "PartyMix": {
+                    "Mixes": [
+                        {
+                            "Count": 3,
+                            "Type": "Adult"
+                        },
+                        {
+                            "Count": 0,
+                            "Type": "Child"
+                        },
+                        {
+                            "Count": 0,
+                            "Type": "Infant"
+                        }
+                    ]
+                },
+                "ServerLastUpdate": "2023-02-04T15:18:53.505+00:00",
+                "Size": 3,
+                "Status": "Canceled",
+                "Type": "Reservation",
+                "VisitSource": "DineTimeAPI"
+            },
+            {
+                "CanceledTime": "2023-02-04T10:19:29-05:00",
+                "CompletedTime": "2023-02-04T10:19:29-05:00",
+                "ConfirmationNumber": "5PUIQF",
+                "ConfirmationNumberId": 0,
+                "CreationTime": "2023-02-04T05:33:14-05:00",
+                "EstimatedArrivalTime": "2023-02-04T18:35:00-05:00",
+                "ExternalID": "352364910122",
+                "Guest": {
+                    "FirstName": "Mickey",
+                    "ID": "99999999-1055-4fbb-99da-0a90ec116244",
+                    "IsAnonymous": false,
+                    "IsSubscribedToEmailMarketing": false,
+                    "IsSubscribedToQsrMarketing": false,
+                    "IsSubscribedToSmsMarketing": false,
+                    "LastName": "Mouse",
+                    "LastUpdate": "0001-01-01T00:00:00+00:00",
+                    "Loyalty": {
+                        "LoyaltyCardID": ""
+                    },
+                    "Notes": "",
+                    "ServerLastUpdate": "0001-01-01T00:00:00+00:00"
+                },
+                "GuestID": "99999999-1055-4fbb-99da-0a90ec116244",
+                "ID": "99999999-898b-4d55-8a2e-18e8ceb0400b",
+                "IID": 9999999999,
+                "LastUpdate": "2023-02-04T15:19:29.884+00:00",
+                "Notes": "The Hollywood Brown Derby Dinner",
+                "NotificationType": "None",
+                "PartyMix": {
+                    "Mixes": [
+                        {
+                            "Count": 4,
+                            "Type": "Adult"
+                        },
+                        {
+                            "Count": 0,
+                            "Type": "Child"
+                        },
+                        {
+                            "Count": 0,
+                            "Type": "Infant"
+                        }
+                    ]
+                },
+                "ServerLastUpdate": "2023-02-04T15:19:29.884+00:00",
+                "Size": 4,
+                "Status": "Canceled",
+                "Type": "Reservation",
+                "VisitSource": "DineTimeAPI"
+            },
+            {
+                "ConfirmationNumber": "KN5N60",
+                "ConfirmationNumberId": 0,
+                "CreationTime": "2023-02-04T10:26:08-05:00",
+                "EstimatedArrivalTime": "2023-02-04T12:25:00-05:00",
+                "ExternalID": "353035557576",
+                "Guest": {
+                    "FirstName": "Mickey",
+                    "ID": "99999999-3b8f-46d3-8f6e-54fd99734bf2",
+                    "IsAnonymous": false,
+                    "IsSubscribedToEmailMarketing": false,
+                    "IsSubscribedToQsrMarketing": false,
+                    "IsSubscribedToSmsMarketing": false,
+                    "LastName": "Mouse",
+                    "LastUpdate": "0001-01-01T00:00:00+00:00",
+                    "Loyalty": {
+                        "LoyaltyCardID": ""
+                    },
+                    "Notes": "",
+                    "ServerLastUpdate": "0001-01-01T00:00:00+00:00"
+                },
+                "GuestID": "99999999-3b8f-46d3-8f6e-54fd99734bf2",
+                "ID": "99999999-71d2-4ff8-9d05-8e6c9ae08fe4",
+                "IID": 9999999999,
+                "LastUpdate": "2023-02-04T15:26:07.483+00:00",
+                "Notes": "The Hollywood Brown Derby Lunch",
+                "NotificationType": "None",
+                "PartyMix": {
+                    "Mixes": [
+                        {
+                            "Count": 3,
+                            "Type": "Adult"
+                        },
+                        {
+                            "Count": 1,
+                            "Type": "Child"
+                        },
+                        {
+                            "Count": 0,
+                            "Type": "Infant"
+                        }
+                    ]
+                },
+                "ServerLastUpdate": "2023-02-04T15:26:07.62+00:00",
+                "Size": 4,
+                "Status": "NotYetArrived",
+                "Type": "Reservation",
+                "VisitSource": "DineTimeAPI"
+            },
+            {
+                "CanceledTime": "2023-02-04T15:32:31-05:00",
+                "CompletedTime": "2023-02-04T15:32:31-05:00",
+                "ConfirmationNumber": "G2FEH1",
+                "ConfirmationNumberId": 0,
+                "CreationTime": "2023-02-04T10:32:31-05:00",
+                "EstimatedArrivalTime": "2023-02-04T12:30:00-05:00",
+                "ExternalID": "353035550012",
+                "Guest": {
+                    "FirstName": "Mickey",
+                    "ID": "0d12ecb9-cd81-4416-8c84-696c72b31bda",
+                    "IsAnonymous": false,
+                    "IsSubscribedToEmailMarketing": false,
+                    "IsSubscribedToQsrMarketing": false,
+                    "IsSubscribedToSmsMarketing": false,
+                    "LastName": "Mouse",
+                    "LastUpdate": "0001-01-01T00:00:00+00:00",
+                    "Loyalty": {
+                        "LoyaltyCardID": ""
+                    },
+                    "Notes": "",
+                    "ServerLastUpdate": "0001-01-01T00:00:00+00:00"
+                },
+                "GuestID": "99999999-cd81-4416-8c84-696c72b31bda",
+                "ID": "99999999-c860-4d46-9517-9780452674e9",
+                "IID": 9999999999,
+                "LastUpdate": "2023-02-04T15:32:30.65+00:00",
+                "Notes": "The Hollywood Brown Derby Lunch Fantasmic 1st Show",
+                "NotificationType": "None",
+                "PartyMix": {
+                    "Mixes": [
+                        {
+                            "Count": 2,
+                            "Type": "Adult"
+                        },
+                        {
+                            "Count": 1,
+                            "Type": "Child"
+                        },
+                        {
+                            "Count": 0,
+                            "Type": "Infant"
+                        }
+                    ]
+                },
+                "ServerLastUpdate": "2023-02-04T15:32:30.78+00:00",
+                "Size": 3,
+                "Status": "Canceled",
+                "Type": "Reservation",
+                "VisitSource": "DineTimeAPI"
+            },
+            {
+                "CanceledTime": "2023-02-04T10:38:10-05:00",
+                "CompletedTime": "2023-02-04T10:38:10-05:00",
+                "ConfirmationNumber": "XRRP6G",
+                "ConfirmationNumberId": 0,
+                "CreationTime": "2023-02-04T05:33:10-05:00",
+                "EstimatedArrivalTime": "2023-02-04T17:30:00-05:00",
+                "ExternalID": "352330359355",
+                "Guest": {
+                    "FirstName": "Club 33",
+                    "ID": "99999999-8b21-4a9d-a8c8-eae61ccaa7f1",
+                    "IsAnonymous": false,
+                    "IsSubscribedToEmailMarketing": false,
+                    "IsSubscribedToQsrMarketing": false,
+                    "IsSubscribedToSmsMarketing": false,
+                    "LastName": "Member Services",
+                    "LastUpdate": "0001-01-01T00:00:00+00:00",
+                    "Loyalty": {
+                        "LoyaltyCardID": ""
+                    },
+                    "Notes": "",
+                    "ServerLastUpdate": "0001-01-01T00:00:00+00:00"
+                },
+                "GuestID": "99999999-8b21-4a9d-a8c8-eae61ccaa7f1",
+                "ID": "99999999-bac0-4a89-b46e-ac02de7eb15a",
+                "IID": 9999999999,
+                "LastUpdate": "2023-02-04T15:38:10.234+00:00",
+                "Notes": "The Hollywood Brown Derby Dinner",
+                "NotificationType": "None",
+                "PartyMix": {
+                    "Mixes": [
+                        {
+                            "Count": 4,
+                            "Type": "Adult"
+                        },
+                        {
+                            "Count": 0,
+                            "Type": "Child"
+                        },
+                        {
+                            "Count": 0,
+                            "Type": "Infant"
+                        }
+                    ]
+                },
+                "ServerLastUpdate": "2023-02-04T15:38:10.234+00:00",
+                "Size": 4,
+                "Status": "Canceled",
+                "Type": "Reservation",
+                "VisitSource": "DineTimeAPI"
+            },
+            {
+                "ConfirmationNumber": "IXTGKP",
+                "ConfirmationNumberId": 0,
+                "CreationTime": "2023-02-04T05:33:13-05:00",
+                "EstimatedArrivalTime": "2023-02-04T19:50:00-05:00",
+                "ExternalID": "353012912352",
+                "Guest": {
+                    "FirstName": "Mickey",
+                    "ID": "99999999-c116-4ea7-8953-a7fabe38ac78",
+                    "IsAnonymous": false,
+                    "IsSubscribedToEmailMarketing": false,
+                    "IsSubscribedToQsrMarketing": false,
+                    "IsSubscribedToSmsMarketing": false,
+                    "LastName": "Mouse",
+                    "LastUpdate": "0001-01-01T00:00:00+00:00",
+                    "Loyalty": {
+                        "LoyaltyCardID": ""
+                    },
+                    "Notes": "Allergy: No Wheat or Gluten.",
+                    "ServerLastUpdate": "0001-01-01T00:00:00+00:00"
+                },
+                "GuestID": "99999999-c116-4ea7-8953-a7fabe38ac78",
+                "ID": "99999999-58e9-446d-8936-e3c1df0b1a67",
+                "IID": 9999999999,
+                "LastUpdate": "2023-02-04T15:38:43.473+00:00",
+                "Notes": "Allergy: No Wheat or Gluten.\\n\\nThe Hollywood Brown Derby Dinner",
+                "NotificationType": "None",
+                "PartyMix": {
+                    "Mixes": [
+                        {
+                            "Count": 2,
+                            "Type": "Adult"
+                        },
+                        {
+                            "Count": 0,
+                            "Type": "Child"
+                        },
+                        {
+                            "Count": 0,
+                            "Type": "Infant"
+                        }
+                    ]
+                },
+                "ServerLastUpdate": "2023-02-04T15:38:43.578+00:00",
+                "Size": 2,
+                "Status": "NotYetArrived",
+                "Type": "Reservation",
+                "VisitSource": "DineTimeAPI"
+            },
+            {
+                "CanceledTime": "2023-02-04T10:42:37-05:00",
+                "CompletedTime": "2023-02-04T10:42:37-05:00",
+                "ConfirmationNumber": "RD6247",
+                "ConfirmationNumberId": 0,
+                "CreationTime": "2023-02-04T05:33:14-05:00",
+                "EstimatedArrivalTime": "2023-02-04T19:35:00-05:00",
+                "ExternalID": "352364907647",
+                "Guest": {
+                    "FirstName": "Mickey",
+                    "ID": "99999999-ae1b-4369-8e8e-c240aebf934e",
+                    "IsAnonymous": false,
+                    "IsSubscribedToEmailMarketing": false,
+                    "IsSubscribedToQsrMarketing": false,
+                    "IsSubscribedToSmsMarketing": false,
+                    "LastName": "Mouse",
+                    "LastUpdate": "0001-01-01T00:00:00+00:00",
+                    "Loyalty": {
+                        "LoyaltyCardID": ""
+                    },
+                    "Notes": "",
+                    "ServerLastUpdate": "0001-01-01T00:00:00+00:00"
+                },
+                "GuestID": "99999999-ae1b-4369-8e8e-c240aebf934e",
+                "ID": "99999999-51a4-492e-800b-127da403c33e",
+                "IID": 9999999999,
+                "LastUpdate": "2023-02-04T15:42:37.88+00:00",
+                "Notes": "The Hollywood Brown Derby Dinner",
+                "NotificationType": "None",
+                "PartyMix": {
+                    "Mixes": [
+                        {
+                            "Count": 4,
+                            "Type": "Adult"
+                        },
+                        {
+                            "Count": 0,
+                            "Type": "Child"
+                        },
+                        {
+                            "Count": 0,
+                            "Type": "Infant"
+                        }
+                    ]
+                },
+                "ServerLastUpdate": "2023-02-04T15:42:37.88+00:00",
+                "Size": 4,
+                "Status": "Canceled",
+                "Type": "Reservation",
+                "VisitSource": "DineTimeAPI"
+            }
+        ]
+    }
+]

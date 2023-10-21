@@ -1,0 +1,61 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/build_rules/lambda_packaging:lambda.bzl", "contains", "endswith", "startswith")
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+load("//app/tools/macros/zip_py_lambda_library:def.bzl", "zip_py_lambda_library")
+
+library_name = "experience_api"
+
+lambda_archive_name = "lambda_archive"
+
+py_lambda_library(
+    name = library_name,
+    srcs = glob([library_name + "/*.py"]),
+    data = [
+        "__init__.py",
+        "//app/src/data_service",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        "//app/src/data_service/rest_api",
+        requirement("boto3"),
+        requirement("aws-lambda-powertools"),
+    ],
+)
+
+zip_py_lambda_library(
+    name = lambda_archive_name,
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+
+        # Ignore boto since it's provided by Lambda.
+        startswith("boto3"),
+        startswith("botocore"),
+        startswith("s3transfer"),
+        startswith("setuptools"),
+
+        # With the move to hermetic toolchains, the zip gets a lib/ directory containing the
+        # python runtime. We don't need that.
+        startswith("lib/"),
+        startswith("__init__.py"),
+    ],
+    target = ":" + library_name,
+)
+
+pytest_test(
+    name = library_name + "_libraries",
+    srcs = glob([
+        "tests/unit_tests/*.py",
+    ]),
+    deps = [
+        "//app/src/data_service/" + library_name,
+        "//app/src/data_structures/tests/utils",
+        "//app/src/data_structures:test_data_structures",
+        requirement("pyyaml"),
+        requirement("moto"),
+        requirement("mock"),
+        requirement("boto3"),
+    ],
+)

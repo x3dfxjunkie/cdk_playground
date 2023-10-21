@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__inventory__disney_vacation_club_room_inventory_tracking_reference_current
+    description: "{{ doc('sil__hotel_lodging__inventory__disney_vacation_club_room_inventory_tracking_reference_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=inventory
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: room_owner_id
+        description: ""
+
+      - name: reference_id
+        description: ""
+
+      - name: create_datetime
+        description: ""
+
+      - name: create_date
+        description: ""
+
+      - name: create_usr_id
+        description: ""

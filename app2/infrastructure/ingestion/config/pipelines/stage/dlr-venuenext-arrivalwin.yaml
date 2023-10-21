@@ -1,0 +1,10 @@
+stack_extension: &se dlr-venuenext-arrivalwin
+ingest_pattern: kinesis2kinesis
+active: false
+pattern_instances:
+  - region: us-east-1
+    resources:
+      cross_account:
+        cross_account_type: &cat target
+        cross_account_id: &id 536797260050 
+        cross_account_role_name: guest360-stg-dlr-venuenext-arrivalwin/lambda/guest360-stg-dlr-venuenext-arrivalwin-lambda-stage_role

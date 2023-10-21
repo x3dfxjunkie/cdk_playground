@@ -1,0 +1,90 @@
+experiences:
+  get:
+    tags:
+      - Guest Experiences
+    description: Get a list of past and future guest experiences explicitly linked to the guest by ID type
+    operationId: getGuestExperiences
+    parameters:
+      - name: id
+        in: query
+        description: specify the guest identifier for lookup
+        required: true
+        schema:
+          type: string
+      - name: idType
+        in: query
+        description: specify the guest identifier type, ex - swid
+        required: true
+        schema:
+          $ref: "../openapi.yaml#/components/schemas/idTypes"
+        example: swid
+      - name: experienceCategories
+        in: query
+        description: specify the list of experiences linked to the guest.  If unspecified, all categories are returned.
+        required: false
+        explode: false
+        allowEmptyValue: false
+        schema:
+          type: array
+          items:
+            $ref: "../openapi.yaml#/components/schemas/experienceCategoriesParam"
+      - name: period
+        in: query
+        description: Specify the time period to include in the response. Past or Future based on current date.  If startDate or endDate is not specified.
+        required: false
+        schema:
+          type: string
+          enum:
+            - past
+            - future
+      - name: startDate
+        in: query
+        description: specify start date bounding list of events to be included in the respond
+        required: false
+        schema:
+          type: string
+          format: date
+          example: "2021-11-28"
+      - name: endDate
+        in: query
+        description: specify end date bounding list of events to be included in the respond
+        required: false
+        schema:
+          type: string
+          format: date
+          example: "2023-11-28"
+      - name: limit
+        in: query
+        schema:
+          type: integer
+          maximum: 50 #example value, maximum to be determined
+        description: The maximum number of entries to return. If the value exceeds the maximum, then the maximum value will be used.
+      - name: offset
+        in: query
+        schema:
+          type: integer
+        description: The number of items to skip before starting to collect the result set
+    responses:
+      "200":
+        description: successful operation
+        content:
+          application/json:
+            schema:
+              $ref: "../openapi.yaml#/components/schemas/experienceParadigm"
+      "400":
+        description: Invalid request
+      "401":
+        description: Unauthorized request
+      "404":
+        description: ID / ID Type not found
+      "405":
+        description: Method not allowed
+    x-amazon-apigateway-integration:
+      credentials: "${ApiGatewayLambdaRole.Arn}"
+      type: aws_proxy
+      httpMethod: POST
+      uri: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${APILambda.Arn}/invocations
+      passthroughBehavior: when_no_templates
+      payloadFormatVersion: "1.0"
+    security:
+      - authz-authorizer: []

@@ -1,0 +1,154 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__product_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__product_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: product_id
+        description: ""
+
+      - name: product_class_id
+        description: ""
+
+      - name: account_revenue_class_id
+        description: ""
+
+      - name: parent_product_class_id
+        description: ""
+
+      - name: product_class_level_number
+        description: ""
+
+      - name: product_class_name
+        description: ""
+
+      - name: product_year_number
+        description: ""
+
+      - name: product_type_name
+        description: ""
+
+      - name: product_code
+        description: ""
+
+      - name: product_internal_name
+        description: ""
+
+      - name: product_internal_description
+        description: ""
+
+      - name: product_booking_start_dts
+        description: ""
+
+      - name: product_usage_start_dts
+        description: ""
+
+      - name: facility_product_type_name
+        description: ""
+
+      - name: facility_id
+        description: ""
+
+      - name: acm_prod_id
+        description: ""
+
+      - name: rm_typ_cd
+        description: ""
+
+      - name: acm_prod_addl_chg_thrshld_nb
+        description: ""
+
+      - name: entrprs_data_fac_id
+        description: ""
+
+      - name: data_fac_short_nm
+        description: ""
+
+      - name: admission_ticket_code
+        description: ""
+
+      - name: parent_account_revenue_class_id
+        description: ""
+
+      - name: account_revenue_class_level_number
+        description: ""
+
+      - name: account_revenue_class_name
+        description: ""
+
+      - name: age_type_name
+        description: ""
+
+      - name: enterprise_age_type_id
+        description: ""
+
+      - name: age_default_min_age_nb
+        description: ""
+
+      - name: age_default_max_age_nb
+        description: ""
+
+      - name: enterprise_age_type_name
+        description: ""
+
+      - name: ticket_sales_start_date
+        description: ""
+
+      - name: ticket_sales_end_date
+        description: ""
+
+      - name: admission_day_valid_count
+        description: ""
+
+      - name: admission_expiration_day_count
+        description: ""
+
+      - name: admission_additional_description
+        description: ""
+
+      - name: admission_feature_frequency_name
+        description: ""
+
+      - name: admission_feature_description
+        description: ""
+
+      - name: admission_feature_name
+        description: ""
+
+      - name: admission_ticket_amount
+        description: ""
+
+      - name: admission_ticket_tax_amount
+        description: ""
+
+      - name: product_channel_id
+        description: ""
+
+      - name: product_channel_type_name
+        description: ""
+
+      - name: product_channel_name
+        description: ""
+
+      - name: product_channel_start_date
+        description: ""
+
+      - name: product_channel_end_date
+        description: ""
+
+      - name: product_channel_active_indicator
+        description: ""
+
+      - name: product_channel_resort_special_reservation_indicator
+        description: ""

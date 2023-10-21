@@ -1,0 +1,58 @@
+[
+    {
+        "data": {
+            "UOM_TYP_NM": "Hour",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "uom_typ",
+            "timestamp": "2023-08-23T19:22:31.167801Z"
+        }
+    },
+    {
+        "data": {
+            "UOM_TYP_NM": "Minute",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "uom_typ",
+            "timestamp": "2023-08-23T19:22:31.177133Z"
+        }
+    },
+    {
+        "data": {
+            "UOM_TYP_NM": "Day",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "uom_typ",
+            "timestamp": "2023-08-23T19:22:31.159535Z"
+        }
+    },
+    {
+        "data": {
+            "UOM_TYP_NM": "Week",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "uom_typ",
+            "timestamp": "2023-08-23T19:22:31.186077Z"
+        }
+    }
+]

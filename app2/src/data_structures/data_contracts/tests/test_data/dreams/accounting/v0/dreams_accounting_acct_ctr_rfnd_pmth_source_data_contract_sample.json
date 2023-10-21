@@ -1,0 +1,138 @@
+[
+    {
+        "data": {
+            "ACCT_CTR_RFND_PMT_METH_ID": 501,
+            "ACCT_CTR_PMT_METH_ID": 5274,
+            "RFND_PMT_METH_ID": 10006,
+            "DFLT_RFND_PMT_METH_IN": "Y",
+            "RFND_PMT_METH_SEQ_NB": 1,
+            "CREATE_USR_ID_CD": "TESTA003",
+            "CREATE_DTS": "2010-03-19T02:11:35.613Z",
+            "UPDT_USR_ID_CD": "SC5_SS1_BHM",
+            "UPDT_DTS": "2010-03-19T02:11:35.613Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.431588Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "ACCT_CTR_RFND_PMTH"
+        }
+    },
+    {
+        "data": {
+            "ACCT_CTR_RFND_PMT_METH_ID": 200002,
+            "ACCT_CTR_PMT_METH_ID": 200043,
+            "RFND_PMT_METH_ID": 10006,
+            "DFLT_RFND_PMT_METH_IN": "Y",
+            "RFND_PMT_METH_SEQ_NB": 1,
+            "CREATE_USR_ID_CD": "TESTA003",
+            "CREATE_DTS": "2010-01-20T07:55:50.799Z",
+            "UPDT_USR_ID_CD": "LILOCONV",
+            "UPDT_DTS": "2010-01-20T07:55:50.799Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.460274Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "ACCT_CTR_RFND_PMTH",
+            "transaction-id": 1264
+        }
+    },
+    {
+        "data": {
+            "ACCT_CTR_RFND_PMT_METH_ID": 7001,
+            "ACCT_CTR_PMT_METH_ID": 7003,
+            "RFND_PMT_METH_ID": 10012,
+            "DFLT_RFND_PMT_METH_IN": "Y",
+            "RFND_PMT_METH_SEQ_NB": 10,
+            "CREATE_USR_ID_CD": "TESTA003",
+            "CREATE_DTS": "2010-06-18T18:26:17.905Z",
+            "UPDT_USR_ID_CD": "SC6_S1_BHM",
+            "UPDT_DTS": "2010-06-18T18:26:17.905Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.479165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "ACCT_CTR_RFND_PMTH",
+            "transaction-id": 1297
+        }
+    },
+    {
+        "data": {
+            "ACCT_CTR_RFND_PMT_METH_ID": 7002,
+            "ACCT_CTR_PMT_METH_ID": 7004,
+            "RFND_PMT_METH_ID": 10053,
+            "DFLT_RFND_PMT_METH_IN": "Y",
+            "RFND_PMT_METH_SEQ_NB": 10,
+            "CREATE_USR_ID_CD": "TESTA003",
+            "CREATE_DTS": "2010-06-18T18:26:18.070Z",
+            "UPDT_USR_ID_CD": "SC6_S1_BHM",
+            "UPDT_DTS": "2010-06-18T18:26:18.070Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.604399Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "ACCT_CTR_RFND_PMTH",
+            "transaction-id": 12894
+        }
+    },
+    {
+        "data": {
+            "ACCT_CTR_RFND_PMT_METH_ID": 7003,
+            "ACCT_CTR_PMT_METH_ID": 7005,
+            "RFND_PMT_METH_ID": 10053,
+            "DFLT_RFND_PMT_METH_IN": "Y",
+            "RFND_PMT_METH_SEQ_NB": 10,
+            "CREATE_USR_ID_CD": "TESTA003",
+            "CREATE_DTS": "2010-06-18T18:26:18.235Z",
+            "UPDT_USR_ID_CD": "SC6_S1_BHM",
+            "UPDT_DTS": "2010-06-18T18:26:18.235Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.479165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "ACCT_CTR_RFND_PMTH",
+            "transaction-id": 1297
+        }
+    },
+    {
+        "data": {
+            "ACCT_CTR_RFND_PMT_METH_ID": 7004,
+            "ACCT_CTR_PMT_METH_ID": 7006,
+            "RFND_PMT_METH_ID": 10053,
+            "DFLT_RFND_PMT_METH_IN": "Y",
+            "RFND_PMT_METH_SEQ_NB": 10,
+            "CREATE_USR_ID_CD": "TESTA003",
+            "CREATE_DTS": "2010-06-18T18:26:18.402Z",
+            "UPDT_USR_ID_CD": "SC6_S1_BHM",
+            "UPDT_DTS": "2010-06-18T18:26:18.402Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-06-14T01:02:11.604399Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "ACCT_CTR_RFND_PMTH"
+        }
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "data": {
+            "COMNCTN_CHAN_ID": 14,
+            "COMNCTN_CHAN_NM": "GDS ECM",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "comnctn_chan",
+            "timestamp": "2023-08-23T19:21:48.815294Z"
+        }
+    },
+    {
+        "data": {
+            "COMNCTN_CHAN_ID": 12,
+            "COMNCTN_CHAN_NM": "Guest Facing",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "comnctn_chan",
+            "timestamp": "2023-08-23T19:21:48.794799Z"
+        }
+    },
+    {
+        "data": {
+            "COMNCTN_CHAN_ID": 9,
+            "COMNCTN_CHAN_NM": "Internet",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "comnctn_chan",
+            "timestamp": "2023-08-23T19:21:48.774661Z"
+        }
+    },
+    {
+        "data": {
+            "COMNCTN_CHAN_ID": 13,
+            "COMNCTN_CHAN_NM": "Contact Center",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "comnctn_chan",
+            "timestamp": "2023-08-23T19:21:48.805087Z"
+        }
+    },
+    {
+        "data": {
+            "COMNCTN_CHAN_ID": 15,
+            "COMNCTN_CHAN_NM": "Unknown",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "comnctn_chan",
+            "timestamp": "2023-08-23T19:21:48.825951Z"
+        }
+    },
+    {
+        "data": {
+            "COMNCTN_CHAN_ID": 16,
+            "COMNCTN_CHAN_NM": "IVR",
+            "UPDT_DTS": "0000-00-00T00:00:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "availse",
+            "table-name": "comnctn_chan",
+            "timestamp": "2023-08-23T19:21:48.839445Z"
+        }
+    }
+]

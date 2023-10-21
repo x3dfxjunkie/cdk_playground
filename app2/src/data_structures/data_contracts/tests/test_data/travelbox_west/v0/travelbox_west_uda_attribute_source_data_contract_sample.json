@@ -1,0 +1,126 @@
+[
+    {
+        "data": {
+            "ATTRIBUTE_ID" : 421,
+            "ATTRIBUTE_NAME" : "Avail Room Type Surrogate",
+            "LEVEL_ID" : 41,
+            "ACTIVE" : "1",
+            "SYSTEM_DEFINED" : "0",
+            "DEFAULT" : null,
+            "MANDATORY" : "0",
+            "TYPE" : 0,
+            "LAST_MODIFIED_TIME" : "2020-05-11T18:44:22.000Z",
+            "MIN_LENGTH" : null,
+            "MAX_LENGTH" : null,
+            "ATTRIBUTE_CODE" : "UDA_CODE_1"
+        },
+        "metadata": {
+            "timestamp": "2016-09-05 19:12:34",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "UDA_ATTRIBUTE",
+            "transaction-id": 2559,
+            "transaction_record_id": 70974432245344,
+            "prev_transaction_id": 70974432245344,
+            "prev_transaction_record_id": 70974432245344,
+            "commit_timestamp": "2023-03-29T15:30:19.109655Z",
+            "stream_position": ""
+        }
+    },
+    {
+        "data": {
+            "ATTRIBUTE_ID" : 221,
+            "ATTRIBUTE_NAME" : "Roomless Explosion option",
+            "LEVEL_ID" : 32,
+            "ACTIVE" : "1",
+            "SYSTEM_DEFINED" : "0",
+            "DEFAULT" : "0",
+            "MANDATORY" : "0",
+            "TYPE" : 1,
+            "LAST_MODIFIED_TIME" : "2020-05-11T18:44:22.000Z",
+            "MIN_LENGTH" : 0,
+            "MAX_LENGTH" : 0,
+            "ATTRIBUTE_CODE" : "UDA_CODE_2"
+        },
+        "metadata": {
+            "timestamp": "2001-05-26 11:03:15",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "UDA_ATTRIBUTE",
+            "transaction-id": 362
+        }
+    },
+    {
+        "data": {
+            "ATTRIBUTE_ID" : 151,
+            "LEVEL_ID" : 28,
+            "ACTIVE" : "1",
+            "SYSTEM_DEFINED" : "0",
+            "MANDATORY" : "0",
+            "TYPE" : 0,
+            "LAST_MODIFIED_TIME" : "2020-05-11T18:44:22.000Z"
+        },
+        "metadata": {
+            "timestamp": "1979-05-02 22:22:20",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "UDA_ATTRIBUTE",
+            "transaction-id": 2598
+        }
+    },
+    {
+        "data": {
+            "ATTRIBUTE_ID" : 152,
+            "ATTRIBUTE_NAME" : "Ticket Duration",
+            "LEVEL_ID" : 31,
+            "ACTIVE" : "1",
+            "SYSTEM_DEFINED" : "0",
+            "DEFAULT" : null,
+            "MANDATORY" : "0",
+            "TYPE" : 1,
+            "LAST_MODIFIED_TIME" : "2020-05-11T18:44:22.000Z",
+            "MIN_LENGTH" : null,
+            "MAX_LENGTH" : null,
+            "ATTRIBUTE_CODE" : "UDA_CODE_4"
+        },
+        "metadata": {
+            "timestamp": "2007-11-24 03:20:47",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "UDA_ATTRIBUTE",
+            "transaction-id": 6404
+        }
+    },
+    {
+        "data": {
+            "ATTRIBUTE_ID" : 153,
+            "ATTRIBUTE_NAME" : "Product Sub-Type",
+            "LEVEL_ID" : 31,
+            "ACTIVE" : "1",
+            "SYSTEM_DEFINED" : "0",
+            "DEFAULT" : null,
+            "MANDATORY" : "0",
+            "TYPE" : 1,
+            "LAST_MODIFIED_TIME" : "2020-05-11T18:44:22.000Z",
+            "MIN_LENGTH" : null,
+            "MAX_LENGTH" : null,
+            "ATTRIBUTE_CODE" : "UDA_CODE_5"
+        },
+        "metadata": {
+            "timestamp": "2017-07-26 18:16:30",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "UDA_ATTRIBUTE"
+        }
+    }
+]

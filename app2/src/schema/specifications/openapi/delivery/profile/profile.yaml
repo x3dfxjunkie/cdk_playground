@@ -1,0 +1,331 @@
+profile:
+  type: object
+  properties:
+    swid:
+      $ref: "../openapi.yaml#/components/schemas/swid"
+    guestDetails:
+      type: object
+      properties:
+        firstName:
+          type: string
+          example: Mark
+          description: First name of the guest
+        lastName:
+          type: string
+          example: Goesmann
+          description: Last name of the guest
+        title:
+          type: string
+          example:
+          description: Title of the guest
+        suffix:
+          type: string
+          example:
+          description: Suffix of the guest
+        dateOfBirth:
+          type: string
+          format: date
+          example: 02/15/1984
+          description: Date the guest was born
+        guestAssertedLegalCountry:
+          type: string
+          example: USA
+          description: Country the guest selected that they identity as.
+        childIndicator:
+          type: boolean
+          description: Indicator that flags if a guest is under the age of 18
+        preferredLanguage:
+          type: string
+          example: English
+          description: Language the guest prefers us to use when speaking to them.
+        avatarID:
+          type: string
+          example:
+          description: Id of the guests OneID account avatar.
+        avatarName:
+          type: string
+          example:
+          description: Name of the guests OneID account avatar.
+        maxGuestActivityDate:
+          type: string
+          format: date-time
+          description: Maximum date of the guest activity with DPEP.
+        addresses:
+          type: array
+          items:
+            type: object
+            description: object that includes the information needed to link a phisical address to the guest.
+            properties:
+              addressDetails:
+                type: object
+                description: Details of the guest phisical address
+                properties:
+                  addressId:
+                    type: string
+                    description: ID that uniquely identifies a phisical address
+                  addressLine1:
+                    type: string
+                    example: 123 Main Street
+                    description: Address line 1
+                  addressLine2:
+                    type: string
+                    description: Address line 2
+                    example: B
+                  addressLine3:
+                    type: string
+                    description: Address line 3
+                    example:
+                  city:
+                    type: string
+                    description: City name
+                    example: Springfield
+                  stateProvince:
+                    type: string
+                    description: State or Province code
+                    example: FL
+                  postalCode:
+                    type: string
+                    description: Address postal code
+                    example: "32323"
+                  postalCodeExtension:
+                    type: string
+                    description: Address postal code extension
+                    example: "0000"
+                  county:
+                    type: string
+                    description: County name
+                    example:
+                  countryRegion:
+                    type: string
+                    description: ISO-3166 country code for the guests
+                    example: USA
+                  created:
+                    $ref: "../openapi.yaml#/components/schemas/created"
+                  lastModified:
+                    $ref: "../openapi.yaml#/components/schemas/lastModified"
+              addressType:
+                type: string
+                description: Address type (business or residence)
+                example: Billing
+              linkDate:
+                type: string
+                description: Date the address was first associated to the guest.
+                format: date-time
+                example:
+        emails:
+          type: array
+          items:
+            type: object
+            properties:
+              emailDetails:
+                type: object
+                description: Details of the email address
+                properties:
+                  emailID:
+                    type: string
+                    description: Id that uniquely identifies an email address
+                  emailAddress:
+                    type: string
+                    description: emails address string
+                    example: mark@disney.com
+                  created:
+                    $ref: "../openapi.yaml#/components/schemas/created"
+                  lastModified:
+                    $ref: "../openapi.yaml#/components/schemas/lastModified"
+                  EPC:
+                    type: object
+                    description: Enterprise permission center
+                    properties:
+                      EPCPermission:
+                        type: array
+                        description: Array of current permissions
+                        items:
+                          type: object
+                          description: permission
+                          properties:
+                            lineOfBusiness:
+                              type: string
+                              description: Line of business for the permission
+                              example: WDW
+                            maxPermissionDate:
+                              type: string
+                              description: Date the permission was captured
+                              format: date-time
+                            permissionValue:
+                              type: string
+                              description: Value of the permission (E,D,X)
+                              example: E
+                      encryptedEmail:
+                        type: string
+                        description: Unique id for an email address that is used for CANSPAM links
+              linkDate:
+                type: string
+                description: Date the email was first associated with this guest.
+                format: date-time
+        phones:
+          type: array
+          description: a
+          items:
+            type: object
+            description: linking object between a guest and the phone number
+            properties:
+              PhoneDetails:
+                type: object
+                description: Detail about the phone number
+                properties:
+                  phoneID:
+                    type: string
+                    description: Unique identifier for a phone number.
+                  phoneNumber:
+                    type: string
+                    description: Phone number for the guest
+                    example: (555) 555-5555
+                  phoneType:
+                    type: string
+                    description: Type of phone (home or cell)
+                    example: Home
+                  countryCode:
+                    type: string
+                    description: country code of the phone number
+                    example: 001
+                  created:
+                    $ref: "../openapi.yaml#/components/schemas/created"
+                  lastModified:
+                    $ref: "../openapi.yaml#/components/schemas/lastModified"
+              linkDate:
+                type: string
+                description: Date the phone number was first associated to the guest
+                format: date-time
+                example: Home
+    affiliations:
+      type: object
+      description: a
+      properties:
+        membership:
+          type: object
+          description: Memberships are groups a guest does something to become a part of. they also have an expiration date.
+          properties:
+            dvcIndicator:
+              type: boolean
+              description: Indicates if the guest is an active DVC Member
+            club33Indicator:
+              type: boolean
+              description: Indicates if the guest is an active Club 33 Member
+            goldenOakIndicator:
+              type: boolean
+              description: Indicates if the guest is an active Golden Oak property Owner
+            castMemberIndicator:
+              type: boolean
+              description: Indicates if the guest is an active Cast Member
+            d23Indicator:
+              type: boolean
+              description: Indicates if the guest is an active D23 Member
+        loyalties:
+          type: object
+          description: A club a guest is included in after completing an action
+          properties:
+            adventureInsiderIndicator:
+              type: boolean
+              description: Adventure By Disney Insider
+            castawayClubIndicator:
+              type: boolean
+              description: Disney Cruise Line Castaway Club
+            nationalGeographicIndicator:
+              type: boolean
+              description: National Geographic Club
+    geographic:
+      type: object
+      description: Profile attributes related to where the guest lives or is currently at
+      properties:
+        residency:
+          type: string
+          description: Flag that indicates if the guest lives in one of our key residency states
+          example: FL Res
+        Segment:
+          type: object
+          properties:
+            distanceToWDW:
+              type: number
+              description: Distance from the guests home to WDW
+            distanceToDLR:
+              type: number
+              description: Distance from the guests home to DLR
+    models:
+      type: object
+      description: attributes about a guest that are modeled
+      properties:
+        affiliation:
+          type: string
+          description: Brand affinity this guest is most likley interested in
+          example: Mickey
+    indicators:
+      type: object
+      description: Set of data points about a guest based on past activity with DPEP
+      properties:
+        ownership:
+          type: object
+          properties:
+            gateClick:
+              type: object
+              description: Attributes related to entering a theme park
+              properties:
+                WDW:
+                  type: object
+                  properties:
+                    hardTicketindicator:
+                      type: boolean
+                    themeParkVisitedIndicator:
+                      type: boolean
+                    lastParkVisited:
+                      type: string
+                    numberOfParksVisited:
+                      type: integer
+                    maxParkVisitedDate:
+                      type: string
+                      format: date
+                    waterParkVisitedIndicator:
+                      type: boolean
+                DLR:
+                  type: object
+                  properties:
+                    hardTicketindicator:
+                      type: boolean
+                    themeParkVisitedIndicator:
+                      type: boolean
+                    lastParkVisited:
+                      type: string
+                    numberOfParksVisited:
+                      type: integer
+                    maxParkVisitedDate:
+                      type: string
+                      format: date
+        experiences:
+          type: object
+          description: a
+          properties:
+            lightningLane:
+              type: object
+              description: attributes related to a Lightning lane.
+              properties:
+                WDW:
+                  type: object
+                  properties:
+                    LLRedeamedCount:
+                      type: integer
+                    parkWithMostLLUsages:
+                      type: string
+                    lastLLUsed:
+                      type: string
+                    futureLLIndicator:
+                      type: boolean
+                DLR:
+                  type: object
+                  properties:
+                    LLRedeamedCount:
+                      type: integer
+                    parkWithMostLLUsages:
+                      type: string
+                    lastLLUsed:
+                      type: string
+                    futureLLIndicator:
+                      type: boolean

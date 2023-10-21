@@ -1,0 +1,9 @@
+experienceExtendedStatus:
+  type: string
+  description: Curated status viable to Experience Paradigm with extended periods like a resort reservation
+  enum:
+    - Booked
+    - In Progress
+    - Experienced
+    - Not Experienced
+  example: In Progress

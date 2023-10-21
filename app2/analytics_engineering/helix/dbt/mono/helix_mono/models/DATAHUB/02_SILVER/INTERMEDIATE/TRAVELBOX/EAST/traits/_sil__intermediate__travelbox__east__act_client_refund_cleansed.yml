@@ -1,0 +1,229 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__east__act_client_refund_cleansed
+    description: '{{ doc("sil__intermediate__travelbox__east__act_client_refund_cleansed") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_cleansed
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_booking_id
+            - data_receipt_index
+            - metadata_checksum
+
+    columns:
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 1992-07-26 03:39:11"
+        meta:
+          checksum: True
+
+      - name: data_booking_id
+        description: "The system generated id of the booking | example: 26013651"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_receipt_index
+        description: "A foreign key which refers to the field RECEIPT_INDEX of the ACT_CLIENT_ACCOUNT_RECEIPT table | example: 10"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_refund_type
+        description: "Refund type mapping for the PAYMENT_TYPE | example: 283"
+        meta:
+          checksum: True
+
+      - name: data_authorised
+        description: "Whether this is an authorized payment or not | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_transfer_receipt_index
+        description: "If this payment is a refund from other payment then receipt index of original payment | example: 9"
+        meta:
+          checksum: True
+
+      - name: data_refund_batch_no
+        description: "THIS WILL BE GEENRATED  AFTER SAING THE REFUNDS | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_auto_refund
+        description: "Flag to chek the auto refund | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_comm_payment_as_refund
+        description: "Deprecated | example: MlVBahyPRqmpJVFDWgje"
+        meta:
+          checksum: True
+
+      - name: data_comm_payment_printed
+        description: "Deprecated | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_temp_user
+        description: "Deprecated | example: OPcpYMeThmHuBYAEIuRU"
+        meta:
+          checksum: True
+
+      - name: data_authorised_user
+        description: "Payment authorized user id | example: 15297"
+        meta:
+          checksum: True
+
+      - name: data_cheque_refund_index
+        description: "Refund index of the cheque refund summary (only for cheque refunds) | example: 3315"
+        meta:
+          checksum: True
+
+      - name: min_metadata_timestamp
+        description: "The Minimum Metadata Timestamp field is used for updating the version end date of the active record in the target table"
+        tests:
+          - not_null
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

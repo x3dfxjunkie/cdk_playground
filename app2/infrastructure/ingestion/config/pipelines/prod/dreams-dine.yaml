@@ -1,0 +1,681 @@
+stack_extension: &se dreams-dine # 12 Character Limit!
+ingest_pattern: &ip dms # DO NOT UPDATE must = dms for dms pattern
+active: True
+feature_branch: False # set to False unless you want to deploy DMS in ephemeral envs
+pattern_instances:
+  - region: &region-1 us-east-1 # DO NOT UPDATE
+    resources:
+      kinesis_dmz:
+        stream_mode: !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      kinesis:
+        stream_mode: !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+        retention_period: &kdr !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+      dms_repl_task: # AWS DMS replication task
+        - &replication_task_definitions
+          replication_task_identifier: ful1 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "res_mgmt"
+                  table-name: "%" #Table qualifier
+              - rule-type: selection
+                rule-id: "2"
+                rule-name: "2"
+                rule-action: exclude
+                object-locator:
+                  schema-name: "res_mgmt"
+                  table-name: "res%" #Table qualifier
+              - rule-type: selection
+                rule-id: "3"
+                rule-name: "3"
+                rule-action: exclude
+                object-locator:
+                  schema-name: "res_mgmt"
+                  table-name: "tc%" #Table qualifier
+              - rule-type: selection
+                rule-id: "4"
+                rule-name: "4"
+                rule-action: exclude
+                object-locator:
+                  schema-name: "res_mgmt"
+                  table-name: "tp%" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc1
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - &replication_task_definitions2
+          replication_task_identifier: full2 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "res_mgmt"
+                  table-name: "res%" #Table qualifier
+        - <<: *replication_task_definitions2 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc2
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - &replication_task_definitions3
+          replication_task_identifier: full3 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "res_mgmt"
+                  table-name: "tc%" #Table qualifier
+        - <<: *replication_task_definitions3 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc3
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - &replication_task_definitions4
+          replication_task_identifier: full4 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "res_mgmt"
+                  table-name: "tp%" #Table qualifier
+        - <<: *replication_task_definitions4 # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc4
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - <<: *replication_task_definitions 
+          replication_task_identifier: low  #Low volume tables needing data for Contract Creation
+          migration_type: full-load 
+          table_mappings: 
+            rules:
+              - rule-type: selection
+                rule-id: "1" 
+                rule-name: "1"
+                rule-action: &low_rule_action explicit
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "alrgy"
+              - rule-type: selection
+                rule-id: "2" 
+                rule-name: "2"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "bkng_auth_seq"
+              - rule-type: selection
+                rule-id: "3" 
+                rule-name: "3"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "cmt_req_typ"
+              - rule-type: selection
+                rule-id: "4" 
+                rule-name: "4"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "comnctn_chan"
+              - rule-type: selection
+                rule-id: "5" 
+                rule-name: "5"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "dlvr_meth"
+              - rule-type: selection
+                rule-id: "6" 
+                rule-name: "6"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "dvc_res_typ"
+              - rule-type: selection
+                rule-id: "7" 
+                rule-name: "7"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "event_config"
+              - rule-type: selection
+                rule-id: "8" 
+                rule-name: "8"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "event_log"
+              - rule-type: selection
+                rule-id: "9" 
+                rule-name: "9"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "event_log_detail"
+              - rule-type: selection
+                rule-id: "10" 
+                rule-name: "10"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "gid"
+              - rule-type: selection
+                rule-id: "11" 
+                rule-name: "11"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "grdrl_alrt_track"
+              - rule-type: selection
+                rule-id: "12" 
+                rule-name: "12"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "gres_proc_run_sts"
+              - rule-type: selection
+                rule-id: "13" 
+                rule-name: "13"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "grp_res_proc_typ"
+              - rule-type: selection
+                rule-id: "14" 
+                rule-name: "14"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "ovrbk_alrt_track"
+              - rule-type: selection
+                rule-id: "15" 
+                rule-name: "15"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "prdf_tc_rsn"
+              - rule-type: selection
+                rule-id: "16" 
+                rule-name: "16"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "res_mgmt_req_typ"
+              - rule-type: selection
+                rule-id: "17" 
+                rule-name: "17"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "rmgmt_msg_dvlr_sts"
+              - rule-type: selection
+                rule-id: "18" 
+                rule-name: "18"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "sls_chan"
+              - rule-type: selection
+                rule-id: "19" 
+                rule-name: "19"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "srvc_req_recur"
+              - rule-type: selection
+                rule-id: "20" 
+                rule-name: "20"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "tc_fee_typ"
+              - rule-type: selection
+                rule-id: "21" 
+                rule-name: "21"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "tc_grp_typ"
+              - rule-type: selection
+                rule-id: "22" 
+                rule-name: "22"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "tc_rsn_typ"
+              - rule-type: selection
+                rule-id: "23" 
+                rule-name: "23"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "tc_typ"
+              - rule-type: selection
+                rule-id: "24" 
+                rule-name: "24"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "tp_extnl_src"
+              - rule-type: selection
+                rule-id: "25" 
+                rule-name: "25"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "tps_extnl_ref_typ"
+              - rule-type: selection
+                rule-id: "26" 
+                rule-name: "26"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "trvl_sts"
+              - rule-type: selection
+                rule-id: "27" 
+                rule-name: "27"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "upgrd_typ"
+              - rule-type: selection
+                rule-id: "28" 
+                rule-name: "28"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "vip_lvl"
+              - rule-type: selection
+                rule-id: "29" 
+                rule-name: "29"
+                rule-action: *low_rule_action 
+                object-locator: 
+                  schema-name: "res_mgmt"
+                  table-name: "vst_prps"
+      source_endpoint: # AWS DMS Source Endpoint.
+        engine_name: mariadb # The type of engine for the endpoint, depending on the EndpointType value. Valid values : mysql | oracle | mariadb | kinesis
+        ssl_mode: verify-ca #Enable Secure Sockets Layer (SSL) mode to use for the SSL connection. Allowed values: verify-ca,verify-full
+        settings: # See https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Source.html
+#          server_timezone: US/Eastern # #Specifies the time zone for the target MySQL-compatible database, e.g., US/Eastern, US/Pacific, UTC / remove if UTC
+          secrets_manager_secret_id: arn:aws:secretsmanager:us-east-1:920268603720:secret:prd-use1-dreams-availse-ca-secret-O9C9QG #pragma: allowlist secret, The ARN, or display name of the SecretsManagerSecret that contains the MySQL endpoint connection details.
+      source_kms_key: fac797d2-56d1-43ab-bf10-2568eab74922 # Update for the secrets_manager_secret_id kms key
+      source_ssl_cert: rds-global-bundle # Update for the appropriate source dms certificate, most AWS DBs will use the rds-global-bundle by default
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_PROD_LANDING # Needs update to appropriate default routing
+      data_contracts:
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_acm_cmpnt_source_data_contract
+          class_name: DREAMSDiningAcmCmpntModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: acm_cmpnt
+          router_database: &database PROD_LANDING
+          router_schema: &schema LND_DREAMS_DINING
+          router_table: ACM_CMPNT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_adm_cmpnt_enttl_source_data_contract
+          class_name: DREAMSDiningAdmCmpntEnttlModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: adm_cmpnt_enttl
+          router_database: *database
+          router_schema: *schema
+          router_table: ADM_CMPNT_ENTTL
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_pkg_tc_source_data_contract
+          class_name: DREAMSDiningPkgTcModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pkg_tc
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_TC
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tc_source_data_contract
+          class_name: DREAMSDiningTcModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tc
+          router_database: *database
+          router_schema: *schema
+          router_table: TC
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tc_extnl_ref_source_data_contract
+          class_name: DREAMSDiningTcExtnlRefModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tc_extnl_ref
+          router_database: *database
+          router_schema: *schema
+          router_table: TC_EXTNL_REF
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tc_grp_source_data_contract
+          class_name: DREAMSDiningTcGrpModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tc_grp
+          router_database: *database
+          router_schema: *schema
+          router_table: TC_GRP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tc_gst_source_data_contract
+          class_name: DREAMSDiningTcGstModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tc_gst
+          router_database: *database
+          router_schema: *schema
+          router_table: TC_GST
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tc_rsn_source_data_contract
+          class_name: DREAMSDiningTcRsnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tc_rsn
+          router_database: *database
+          router_schema: *schema
+          router_table: TC_RSN
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tc_rsrvbl_rsrc_source_data_contract
+          class_name: DREAMSDiningTcRsrvblRsrcModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tc_rsrvbl_rsrc
+          router_database: *database
+          router_schema: *schema
+          router_table: TC_RSRVBL_RSRC
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_grp_tc_grp_source_data_contract
+          class_name: DREAMSDiningGrpTcGrpModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_tc_grp
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_TC_GRP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_res_hist_source_data_contract
+          class_name: DREAMSDiningResHistModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: res_hist
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_HIST
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_res_mgmt_req_source_data_contract
+          class_name: DREAMSDiningResMgmtReqModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: res_mgmt_req
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_MGMT_REQ
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_res_mgmt_req_rte_source_data_contract
+          class_name: DREAMSDiningResMgmtReqRteModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: res_mgmt_req_rte
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_MGMT_REQ_RTE
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tp_source_data_contract
+          class_name: DREAMSDiningTpModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tp
+          router_database: *database
+          router_schema: *schema
+          router_table: TP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tp_gthr_source_data_contract
+          class_name: DREAMSDiningTpGthrModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tp_gthr
+          router_database: *database
+          router_schema: *schema
+          router_table: TP_GTHR
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tp_pty_source_data_contract
+          class_name: DREAMSDiningTpPtyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tp_pty
+          router_database: *database
+          router_schema: *schema
+          router_table: TP_PTY
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tps_source_data_contract
+          class_name: DREAMSDiningTpsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tps
+          router_database: *database
+          router_schema: *schema
+          router_table: TPS
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tps_alrgy_source_data_contract
+          class_name: DREAMSDiningTpsAlrgyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tps_alrgy
+          router_database: *database
+          router_schema: *schema
+          router_table: TPS_ALRGY
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tps_cnfirm_rcpnt_source_data_contract
+          class_name: DREAMSDiningTpsCnfirmRcpntModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tps_cnfirm_rcpnt
+          router_database: *database
+          router_schema: *schema
+          router_table: TPS_CNFIRM_RCPNT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tps_extnl_ref_source_data_contract
+          class_name: DREAMSDiningTpsExtnlRefModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tps_extnl_ref
+          router_database: *database
+          router_schema: *schema
+          router_table: TPS_EXTNL_REF
+        #20230816
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_adm_cmpnt_source_data_contract
+          class_name: DREAMSDiningAdmCmpntModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: adm_cmpnt
+          router_database: *database
+          router_schema: *schema
+          router_table: ADM_CMPNT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_alrgy_source_data_contract
+          class_name: DREAMSDiningAlrgyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: alrgy
+          router_database: *database
+          router_schema: *schema
+          router_table: ALRGY
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_comnctn_chan_source_data_contract
+          class_name: DREAMSDiningComnctnChanModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: comnctn_chan
+          router_database: *database
+          router_schema: *schema
+          router_table: COMNCTN_CHAN
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_pkg_tc_tkt_source_data_contract
+          class_name: DREAMSDiningPkgTcTktModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: pkg_tc_tkt
+          router_database: *database
+          router_schema: *schema
+          router_table: PKG_TC_TKT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_prdf_tc_rsn_source_data_contract
+          class_name: DREAMSDiningPrdfTcRsnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: prdf_tc_rsn
+          router_database: *database
+          router_schema: *schema
+          router_table: PRDF_TC_RSN
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_res_mgmt_feat_req_source_data_contract
+          class_name: DREAMSDiningResMgmtFeatReqModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: res_mgmt_feat_req
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_MGMT_FEAT_REQ
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_res_mgmt_msg_source_data_contract
+          class_name: DREAMSDiningResMgmtMsgModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: res_mgmt_msg
+          router_database: *database
+          router_schema: *schema
+          router_table: RES_MGMT_MSG
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_rsrt_gst_bkng_wndw_opt_source_data_contract
+          class_name: DREAMSDiningRsrtGstBkngWndwOptModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: rsrt_gst_bkng_wndw_opt
+          router_database: *database
+          router_schema: *schema
+          router_table: RSRT_GST_BKNG_WNDW_OPT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_sls_chan_source_data_contract
+          class_name: DREAMSDiningSlsChanModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: sls_chan
+          router_database: *database
+          router_schema: *schema
+          router_table: SLS_CHAN
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tc_fee_source_data_contract
+          class_name: DREAMSDiningTcFeeModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tc_fee
+          router_database: *database
+          router_schema: *schema
+          router_table: TC_FEE
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tc_fee_typ_source_data_contract
+          class_name: DREAMSDiningTcFeeTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tc_fee_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: TC_FEE_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tc_grp_typ_source_data_contract
+          class_name: DREAMSDiningTcGrpTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tc_grp_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: TC_GRP_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tc_rsn_typ_source_data_contract
+          class_name: DREAMSDiningTcRsnTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tc_rsn_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: TC_RSN_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tc_typ_source_data_contract
+          class_name: DREAMSDiningTcTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tc_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: TC_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_trvl_sts_source_data_contract
+          class_name: DREAMSDiningTrvlStsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: trvl_sts
+          router_database: *database
+          router_schema: *schema
+          router_table: TRVL_STS
+        #20230816-wave2
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tps_extnl_ref_typ_source_data_contract
+          class_name: DREAMSDiningTpsExtnlRefTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tps_extnl_ref_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: TPS_EXTNL_REF_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_tp_extnl_ref_source_data_contract
+          class_name: DREAMSDiningTpExtnlRefModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: tp_extnl_ref
+          router_database: *database
+          router_schema: *schema
+          router_table: TP_EXTNL_REF
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_vip_lvl_source_data_contract
+          class_name: DREAMSDiningVipLvlModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: vip_lvl
+          router_database: *database
+          router_schema: *schema
+          router_table: VIP_LVL
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.dining.v0.dreams_dining_vst_prps_source_data_contract
+          class_name: DREAMSDiningVstPrpsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: vst_prps
+          router_database: *database
+          router_schema: *schema
+          router_table: VST_PRPS

@@ -1,0 +1,233 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__west__cli_direct_client_cleansed
+    description: '{{ doc("sil__intermediate__travelbox__west__cli_direct_client_cleansed") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_cleansed
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_client_id
+            - metadata_checksum
+
+    columns:
+      - name: data_exclude_archiving
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_client_id
+        description: "The TravelBox id of the trade client for which the commission rule is applied to. This field is null if the rule is applied to any client | example: 15073"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_profile_id
+        description: "The system  generated id of the H2H profile | example: 32700"
+        meta:
+          checksum: True
+
+      - name: data_grade
+        description: "Deprecated | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_do_not_contact
+        description: "Flag to indicate if the direct client is Excluded from E-mailings_x000D_
+1 - Excluded_x000D_
+0 - Not Excluded | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_alloc_user_id
+        description: "Deprecated | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_exclude_from_mailings
+        description: "Flag to indicate if the direct client is Excluded from Mailings_x000D_
+1 - Excluded_x000D_
+0 - Not Excluded | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_vip
+        description: "Flag to indicate if the client is VIP (1) or not (0) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_sales_allowed
+        description: "Flag to indicate if sales are allowed for the specific client (1) or not (0) | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_documents_allowed
+        description: "Flag to indicate if documents are allowed for the specific client (1) or not (0) | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_exclude_partner_emailing
+        description: "Flag to indicate if the direct client is Excluded from Partner E-mailings_x000D_
+1 - Excluded_x000D_
+0 - Not Excluded | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_type_id
+        description: "The TravelBox id of the generic product type for which the scheme is applicable | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 1995-07-05 06:22:10"
+        meta:
+          checksum: True
+
+      - name: min_metadata_timestamp
+        description: "The Minimum Metadata Timestamp field is used for updating the version end date of the active record in the target table"
+        tests:
+          - not_null
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

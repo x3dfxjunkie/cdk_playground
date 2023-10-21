@@ -1,0 +1,2102 @@
+[
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "60PHOTOSPOTMANSION",
+            "id": 54834,
+            "isenabled": 0,
+            "name": "60th Photo Spot Mansion - Icon nc",
+            "prettyname": "Haunted Mansion",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.634226Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "60PHOTOSPOTSCREAMIN",
+            "id": 54838,
+            "isenabled": 0,
+            "name": "60th Photo Spot Screamin - Icon nc",
+            "prettyname": "Incredicoaster",
+            "venuecode": "DCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.654935Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "BVSCHARACTER1",
+            "id": 54858,
+            "isenabled": 0,
+            "name": "BVS - Character",
+            "prettyname": "Buena Vista Street",
+            "venuecode": "DCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.736265Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "BVSCHARACTER2",
+            "id": 54860,
+            "isenabled": 0,
+            "name": "BVS 2 - Character",
+            "prettyname": "Buena Vista Street",
+            "venuecode": "DCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.743382Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "PPHBALLROOM02",
+            "id": 54870,
+            "isenabled": 1,
+            "name": "Ballroom 2",
+            "prettyname": "Paradise Pier Hotel",
+            "venuecode": "PPIERHOTEL",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.786048Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "DLBIGTH",
+            "id": 54874,
+            "isenabled": 0,
+            "name": "Big Thunder - Icon nc",
+            "prettyname": "Big Thunder Mountain Railroad",
+            "venuecode": "DLPCA",
+            "xcoord": 360,
+            "ycoord": 300
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.809104Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "CARSCHAR1",
+            "id": 54880,
+            "isenabled": 1,
+            "name": "Cars Land - Cozy Cone - Character",
+            "prettyname": "Cozy Cone Motel",
+            "venuecode": "DCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.831602Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "CARSLANDENTRANCE",
+            "id": 54884,
+            "isenabled": 1,
+            "name": "Cars Land - Entrance - Icon",
+            "prettyname": "Cars Land",
+            "venuecode": "DCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.857717Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "CARSLANDSTANLEY",
+            "id": 54890,
+            "isenabled": 1,
+            "name": "Cars Land - Flo's - Icon",
+            "prettyname": "Flo's V8 Cafe",
+            "venuecode": "DCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.884289Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "CASTACTIVITIESFUNCTIONS",
+            "id": 54892,
+            "isenabled": 0,
+            "name": "Cast Activities Functions",
+            "prettyname": "Disneyland Hotel",
+            "venuecode": "DLRHOTEL",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.893916Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "CASTLEICON2NC",
+            "id": 54898,
+            "isenabled": 0,
+            "name": "Castle 2 - Icon nc",
+            "prettyname": "Sleeping Beauty Castle",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.918484Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "XMASTREE3",
+            "id": 54906,
+            "isenabled": 1,
+            "name": "TS - Christmas Tree C - Icon",
+            "prettyname": "Main Street USA",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.951323Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "D23ELETURTLE",
+            "id": 54918,
+            "isenabled": 1,
+            "name": "D23 Electrical Parade Turtle",
+            "prettyname": "D23 Electrical Parade Turtle",
+            "venuecode": "D23EXPO",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.995666Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "DPFFEAST3",
+            "id": 54930,
+            "isenabled": 1,
+            "name": "DPFF East 3 - Character",
+            "prettyname": "Fantasy Faire",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.040739Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "DPFFWEST2",
+            "id": 54934,
+            "isenabled": 1,
+            "name": "DPFF West 2 - Character",
+            "prettyname": "Fantasy Faire",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.054979Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "DPFFWEST3",
+            "id": 54936,
+            "isenabled": 1,
+            "name": "DPFF West 3 - Character",
+            "prettyname": "Fantasy Faire",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.061596Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "DTDMARQUEE",
+            "id": 54938,
+            "isenabled": 0,
+            "name": "DTD Marquee",
+            "prettyname": "Downtown Disney",
+            "venuecode": "DLRDTD",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.068288Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GRANDCALIFORNIANHOTEL",
+            "id": 54946,
+            "isenabled": 0,
+            "name": "Disneys Grand Californian Hotel",
+            "prettyname": "Disney's Grand Californian Hotel & Spa",
+            "venuecode": "SPCLEVENT",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.100144Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "FHPCLASCHAR",
+            "id": 54952,
+            "isenabled": 0,
+            "name": "FHP Classic Characters - Char",
+            "prettyname": "Disney California Adventure Park",
+            "venuecode": "SPCLEVENTDCA",
+            "xcoord": 296,
+            "ycoord": 479
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.122724Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "FHPHOLSET",
+            "id": 54954,
+            "isenabled": 0,
+            "name": "FHP Holiday Set",
+            "prettyname": "Disney California Adventure Park",
+            "venuecode": "SPCLEVENTDCA",
+            "xcoord": 570,
+            "ycoord": 275
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.129222Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "FIVEDIMESHOW",
+            "id": 54964,
+            "isenabled": 0,
+            "name": "Five and Dime Show Moments",
+            "prettyname": "Buena Vista Street",
+            "venuecode": "DCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.168458Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GCSANTA",
+            "id": 54970,
+            "isenabled": 1,
+            "name": "GC Hotel Santa - character",
+            "prettyname": "Disney's Grand Californian Hotel & Spa",
+            "venuecode": "GCAHOTEL",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.193540Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "60PHOTOSPOTMATTERHORN",
+            "id": 54836,
+            "isenabled": 0,
+            "name": "60th Photo Spot Matterhorn - Icon nc",
+            "prettyname": "Matterhorn Bobsleds",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.642692Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "ANIMATIONCHAR2",
+            "id": 54844,
+            "isenabled": 1,
+            "name": "HLWD - Animation East - Character",
+            "prettyname": "Hollywood Land",
+            "venuecode": "DCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.679372Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "ANIMATIONCHAR1",
+            "id": 54846,
+            "isenabled": 1,
+            "name": "HLWD - Animation West - Character",
+            "prettyname": "Hollywood Land",
+            "venuecode": "DCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.687949Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "BBB1",
+            "id": 54848,
+            "isenabled": 0,
+            "name": "BBB 1 - Studio",
+            "prettyname": "Bibbidi Bobbidi Boutique",
+            "venuecode": "DLPCA",
+            "xcoord": 503,
+            "ycoord": 274
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.695611Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "BIGTHUNHALLCARN",
+            "id": 54852,
+            "isenabled": 0,
+            "name": "BTR Halloween - Icon nc",
+            "prettyname": "Big Thunder Ranch",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.714673Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "BVSELIASSANTA",
+            "id": 54854,
+            "isenabled": 0,
+            "name": "BVS - Elias Santa - Character",
+            "prettyname": "Buena Vista Street",
+            "venuecode": "DCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.722673Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "BVSXMASTREE",
+            "id": 54866,
+            "isenabled": 0,
+            "name": "BVS Christmas Tree 3 - Icon nc",
+            "prettyname": "Buena Vista Street",
+            "venuecode": "DCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.767549Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "CARSLANDFOURCORNERSNC",
+            "id": 54886,
+            "isenabled": 1,
+            "name": "Cars Land - Ramone's - Icon",
+            "prettyname": "Ramone's House of Body Shop",
+            "venuecode": "DCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.867678Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "ROUTE66",
+            "id": 54888,
+            "isenabled": 1,
+            "name": "Cars Land - Route 66 - Icon",
+            "prettyname": "Route 66",
+            "venuecode": "DCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.875470Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "CASTLEICON3NC",
+            "id": 54900,
+            "isenabled": 0,
+            "name": "Castle 3 - Icon nc",
+            "prettyname": "Sleeping Beauty Castle",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.925159Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "XMASTREE2",
+            "id": 54904,
+            "isenabled": 1,
+            "name": "TS - Christmas Tree B - Icon",
+            "prettyname": "Main Street USA",
+            "venuecode": "DLPCA",
+            "xcoord": 583,
+            "ycoord": 271
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.942846Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "CLUB33",
+            "id": 54910,
+            "isenabled": 0,
+            "name": "Club 33",
+            "prettyname": "Club 33",
+            "venuecode": "SPCLEVENT",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.964629Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "CONJURETENTCHAR",
+            "id": 54912,
+            "isenabled": 0,
+            "name": "Conjure Tent - Character",
+            "prettyname": "Frontierland",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.972118Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "D23CRYSTALCOACH",
+            "id": 54916,
+            "isenabled": 1,
+            "name": "D23 Crystal Coach",
+            "prettyname": "D23 Crystal Coach",
+            "venuecode": "D23EXPO",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.987931Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "DLHICONNC",
+            "id": 54924,
+            "isenabled": 0,
+            "name": "DLH Icon NC",
+            "prettyname": "Disneyland Hotel",
+            "venuecode": "DLRHOTEL",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.018369Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "DPFFEAST1",
+            "id": 54926,
+            "isenabled": 1,
+            "name": "DPFF East 1 - Character",
+            "prettyname": "Fantasy Faire",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.024481Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "DISNEYLANDHOTEL",
+            "id": 54944,
+            "isenabled": 0,
+            "name": "Disneyland Hotel",
+            "prettyname": "Disneyland Hotel",
+            "venuecode": "SPCLEVENT",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.091051Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "DOWNTOWNDISNEY",
+            "id": 54948,
+            "isenabled": 0,
+            "name": "Downtown Disney",
+            "prettyname": "Downtown Disney",
+            "venuecode": "SPCLEVENT",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.107575Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "ETICKPOOL",
+            "id": 54950,
+            "isenabled": 0,
+            "name": "E-Ticket Pool",
+            "prettyname": "Disneyland Hotel",
+            "venuecode": "DLRHOTEL",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.115994Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "FHPPRINCCHAR",
+            "id": 54956,
+            "isenabled": 0,
+            "name": "FHP Princesses - Char",
+            "prettyname": "Disney California Adventure Park",
+            "venuecode": "SPCLEVENTDCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.136744Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "FANTASYFAIREATMOCHAR",
+            "id": 54958,
+            "isenabled": 1,
+            "name": "Fantasyland - Character",
+            "prettyname": "Disneyland Park",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.143490Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GRIZZLYAIRCHARACTER",
+            "id": 54974,
+            "isenabled": 1,
+            "name": "Grizzly Airfield - Character",
+            "prettyname": "Grizzly Peak Airfield",
+            "venuecode": "DCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.208741Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GROUP01",
+            "id": 54980,
+            "isenabled": 1,
+            "name": "Group 01",
+            "prettyname": "Disneyland Resort",
+            "venuecode": "DISNEYARTS",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.233590Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GROUP03",
+            "id": 54984,
+            "isenabled": 1,
+            "name": "Group 03",
+            "prettyname": "Disneyland Resort",
+            "venuecode": "DISNEYARTS",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.250447Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GROUP05",
+            "id": 54988,
+            "isenabled": 1,
+            "name": "Group 05",
+            "prettyname": "Disneyland Resort",
+            "venuecode": "DISNEYARTS",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.266720Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GROUP12",
+            "id": 55002,
+            "isenabled": 1,
+            "name": "Group 12",
+            "prettyname": "Disneyland Resort",
+            "venuecode": "DISNEYARTS",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.324371Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GROUP21",
+            "id": 55020,
+            "isenabled": 1,
+            "name": "Group 21",
+            "prettyname": "Disneyland Resort",
+            "venuecode": "DISNEYARTS",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.396099Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GROUP24",
+            "id": 55026,
+            "isenabled": 1,
+            "name": "Group 24",
+            "prettyname": "Disneyland Resort",
+            "venuecode": "DISNEYARTS",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.419519Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "60PHOTOSPOTBIGTHUNDER",
+            "id": 54830,
+            "isenabled": 0,
+            "name": "60th Photo Spot Big Thunder - Icon nc",
+            "prettyname": "Big Thunder Mountain Railroad",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.611323Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "APPRIVATEPARTY",
+            "id": 54842,
+            "isenabled": 0,
+            "name": "AP Private Party - Event",
+            "prettyname": "Disneyland Park",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.671555Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GROUP02",
+            "id": 54982,
+            "isenabled": 1,
+            "name": "Group 02",
+            "prettyname": "Disneyland Resort",
+            "venuecode": "DISNEYARTS",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.242569Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GROUP08",
+            "id": 54994,
+            "isenabled": 1,
+            "name": "Group 08",
+            "prettyname": "Disneyland Resort",
+            "venuecode": "DISNEYARTS",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.291387Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GROUP10",
+            "id": 54998,
+            "isenabled": 1,
+            "name": "Group 10",
+            "prettyname": "Disneyland Resort",
+            "venuecode": "DISNEYARTS",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.307183Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GROUP11",
+            "id": 55000,
+            "isenabled": 1,
+            "name": "Group 11",
+            "prettyname": "Disneyland Resort",
+            "venuecode": "DISNEYARTS",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.315484Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GROUP15",
+            "id": 55008,
+            "isenabled": 1,
+            "name": "Group 15",
+            "prettyname": "Disneyland Resort",
+            "venuecode": "DISNEYARTS",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.347950Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GROUP19",
+            "id": 55016,
+            "isenabled": 1,
+            "name": "Group 19",
+            "prettyname": "Disneyland Resort",
+            "venuecode": "DISNEYARTS",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.380386Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GROUP20",
+            "id": 55018,
+            "isenabled": 1,
+            "name": "Group 20",
+            "prettyname": "Disneyland Resort",
+            "venuecode": "DISNEYARTS",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.389251Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GROUP29",
+            "id": 55036,
+            "isenabled": 1,
+            "name": "Group 29",
+            "prettyname": "Disneyland Resort",
+            "venuecode": "DISNEYARTS",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.460383Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "FRFXMRKTIC",
+            "id": 55054,
+            "isenabled": 1,
+            "name": "HLWD - Cloud Wall - Icon",
+            "prettyname": "Hollywood Land",
+            "venuecode": "DCA",
+            "xcoord": 222,
+            "ycoord": 420
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.541667Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "INNOVENTIONSICONNC",
+            "id": 55056,
+            "isenabled": 0,
+            "name": "Innoventions - Icon nc",
+            "prettyname": "Innoventions",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.550737Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "JEDI1",
+            "id": 55060,
+            "isenabled": 0,
+            "name": "Jedi A - Show",
+            "prettyname": "Jedi Training Academy",
+            "venuecode": "DLPCA",
+            "xcoord": 808,
+            "ycoord": 320
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.568295Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "ADVOASISCHARACTER",
+            "id": 55066,
+            "isenabled": 0,
+            "name": "MHP - Adv Oasis - Character",
+            "prettyname": "Adventureland",
+            "venuecode": "SPCLEVENT",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.593243Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "MHPDPFF2CHAR",
+            "id": 55072,
+            "isenabled": 0,
+            "name": "MHP - CFF2 - Character",
+            "prettyname": "Fantasy Faire",
+            "venuecode": "SPCLEVENT",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.620641Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "MHPFROLNDGCHAR",
+            "id": 55078,
+            "isenabled": 0,
+            "name": "MHP - Frontier Landing - Character",
+            "prettyname": "Frontierland",
+            "venuecode": "SPCLEVENT",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.640528Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "MHPNEWORLCHAR",
+            "id": 55084,
+            "isenabled": 0,
+            "name": "MHP - New Orleans - Character",
+            "prettyname": "New Orleans at Disneyland Park",
+            "venuecode": "SPCLEVENT",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.659800Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "MHPFROZENMAGIC",
+            "id": 55108,
+            "isenabled": 0,
+            "name": "MHP Frozen Magic",
+            "prettyname": "Frozen",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.758086Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "MTTPANIMCHAR",
+            "id": 55110,
+            "isenabled": 0,
+            "name": "MTTP Animation - character",
+            "prettyname": "Hollywood Land",
+            "venuecode": "SPCLEVENTDCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.767480Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "MTTPARIELBRG",
+            "id": 55112,
+            "isenabled": 0,
+            "name": "MTTP Ariels Bridge",
+            "prettyname": "Paradise Pier",
+            "venuecode": "SPCLEVENTDCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.775304Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "MTTPBUGSCHAR",
+            "id": 55116,
+            "isenabled": 0,
+            "name": "MTTP Bugs Land - character",
+            "prettyname": "a bug's land",
+            "venuecode": "SPCLEVENTDCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.788221Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "MTTPHOLLCHAR",
+            "id": 55120,
+            "isenabled": 0,
+            "name": "MTTP Holiday Character",
+            "prettyname": "Disney California Adventure Park",
+            "venuecode": "SPCLEVENTDCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.802233Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "MTTPHYPQCHAR",
+            "id": 55122,
+            "isenabled": 0,
+            "name": "MTTP Hyperion Q - character",
+            "prettyname": "Hollywood Land",
+            "venuecode": "SPCLEVENTDCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.811133Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "MTTPTOYSCHAR",
+            "id": 55124,
+            "isenabled": 0,
+            "name": "MTTP Toy Story- character",
+            "prettyname": "Pixar Pier",
+            "venuecode": "SPCLEVENTDCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.819490Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "MARVEL2CHAR",
+            "id": 55136,
+            "isenabled": 0,
+            "name": "Marvel 2 - Character",
+            "prettyname": "Tomorrowland",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.871987Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GROUP25",
+            "id": 55028,
+            "isenabled": 1,
+            "name": "Group 25",
+            "prettyname": "Disneyland Resort",
+            "venuecode": "DISNEYARTS",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.430029Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GROUP26",
+            "id": 55030,
+            "isenabled": 1,
+            "name": "Group 26",
+            "prettyname": "Disneyland Resort",
+            "venuecode": "DISNEYARTS",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.438606Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GROUP31",
+            "id": 55040,
+            "isenabled": 1,
+            "name": "Group 31",
+            "prettyname": "Disneyland Resort",
+            "venuecode": "DISNEYARTS",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.474998Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "GUEST",
+            "id": 55042,
+            "isenabled": 1,
+            "name": "Guest Photos for DVD",
+            "prettyname": "Disneyland Resort",
+            "venuecode": "GUEST1",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.483808Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "HAUNTEDMANSIONCHAR",
+            "id": 55050,
+            "isenabled": 0,
+            "name": "Haunted Mansion - Character",
+            "prettyname": "Haunted Mansion",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.523410Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "LOBBY",
+            "id": 55064,
+            "isenabled": 1,
+            "name": "Lobby",
+            "prettyname": "Disneyland Hotel",
+            "venuecode": "DLRHOTEL",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.585611Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "MHPBIGTHNTRLICON",
+            "id": 55068,
+            "isenabled": 0,
+            "name": "MHP - Big Thunder Trail - Character",
+            "prettyname": "Frontierland",
+            "venuecode": "SPCLEVENT",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.602076Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "MHPDPFF1CHAR",
+            "id": 55070,
+            "isenabled": 0,
+            "name": "MHP - CFF1 - Character",
+            "prettyname": "Fantasy Faire",
+            "venuecode": "SPCLEVENT",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.611610Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "MHPPIRATESPALCH",
+            "id": 55088,
+            "isenabled": 0,
+            "name": "MHP - Pirates Palooza - Character",
+            "prettyname": "Disneyland Park",
+            "venuecode": "SPCLEVENT",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.676594Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "HPVILLAINS1",
+            "id": 55102,
+            "isenabled": 0,
+            "name": "MHP - Villains 1 - Character",
+            "prettyname": "Disneyland Park",
+            "venuecode": "SPCLEVENT",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.731296Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "MHPVILLAINS2",
+            "id": 55104,
+            "isenabled": 0,
+            "name": "MHP - Villains 2 - Character",
+            "prettyname": "Disneyland Park",
+            "venuecode": "SPCLEVENT",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.738305Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "PPXMASTREE",
+            "id": 55152,
+            "isenabled": 0,
+            "name": "PP Christmas Tree",
+            "prettyname": "Buena Vista Street",
+            "venuecode": "DCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.937805Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "DCAPRTE1",
+            "id": 55156,
+            "isenabled": 1,
+            "name": "Parade Route Waterfall - Icon",
+            "prettyname": "Disney California Adventure Park",
+            "venuecode": "DCA",
+            "xcoord": 449,
+            "ycoord": 370
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:37.952814Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "POOHCRNRCHAR",
+            "id": 55184,
+            "isenabled": 0,
+            "name": "Pooh Corner - Character",
+            "prettyname": "Critter Country",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:38.070748Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "RCCT",
+            "id": 55198,
+            "isenabled": 1,
+            "name": "RCCT - Character",
+            "prettyname": "Grizzly Peak",
+            "venuecode": "DCA",
+            "xcoord": 714,
+            "ycoord": 354
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:38.122604Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "SERVICEAWARDSPORTRAITS",
+            "id": 55214,
+            "isenabled": 0,
+            "name": "Service Awards Portraits",
+            "prettyname": "Disney California Adventure Park",
+            "venuecode": "SPCLEVENTDCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:38.185589Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "SESSION1",
+            "id": 55218,
+            "isenabled": 1,
+            "name": "Session 001",
+            "prettyname": "Bibbidi Bobbidi Boutique",
+            "venuecode": "EVNTBBB",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:38.201363Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "SESSION2",
+            "id": 55220,
+            "isenabled": 1,
+            "name": "Session 002",
+            "prettyname": "Bibbidi Bobbidi Boutique",
+            "venuecode": "EVNTBBB",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:38.208674Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "SMALLWORLDCHARACTER",
+            "id": 55224,
+            "isenabled": 0,
+            "name": "Small World - Character",
+            "prettyname": "It's a Small World",
+            "venuecode": "DLPCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:38.223649Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "SMWRLD2",
+            "id": 55228,
+            "isenabled": 0,
+            "name": "Small World 2 - Icon nc",
+            "prettyname": "It's a Small World",
+            "venuecode": "DLPCA",
+            "xcoord": 739,
+            "ycoord": 189
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:38.238864Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "SPACEMTN",
+            "id": 55232,
+            "isenabled": 1,
+            "name": "Space Mountain - Icon",
+            "prettyname": "Space Mountain",
+            "venuecode": "DLPCA",
+            "xcoord": 829,
+            "ycoord": 396
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:38.256056Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "BVSCHARACTER3",
+            "id": 54862,
+            "isenabled": 0,
+            "name": "BVS 3 - Character",
+            "prettyname": "Buena Vista Street",
+            "venuecode": "DCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.751860Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "PPHBALLROOM03",
+            "id": 54872,
+            "isenabled": 1,
+            "name": "Ballroom 3",
+            "prettyname": "Paradise Pier Hotel",
+            "venuecode": "PPIERHOTEL",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.795135Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "CALIFORNIASCREAMINRIDE",
+            "id": 54876,
+            "isenabled": 0,
+            "name": "California Screamin - Ride",
+            "prettyname": "California Screamin'",
+            "venuecode": "DCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.816665Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DLR",
+            "code": "CANYONOVERLOOK",
+            "id": 54878,
+            "isenabled": 1,
+            "name": "Cars Land - Canyon - Icon",
+            "prettyname": "Cars Land",
+            "venuecode": "DCA",
+            "xcoord": 0,
+            "ycoord": 0
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "dlr_photopass",
+            "table-name": "meta_location",
+            "timestamp": "2023-09-07T18:36:36.824384Z"
+        }
+    }
+]

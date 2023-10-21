@@ -1,0 +1,102 @@
+[
+    {
+        "data": {
+            "PMT_ID": 2271011,
+            "CREATE_USR_ID_CD": "TESTA003",
+            "CREATE_DTS": "2006-10-27T14:22:29.706Z",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:02:00.413880Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CASH_PMT"
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 2271081,
+            "CREATE_USR_ID_CD": "TESTA003",
+            "CREATE_DTS": "2006-10-27T14:31:50.028Z",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:34:09.796620Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CASH_PMT",
+            "transaction-id": 983055
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 2573841,
+            "CREATE_USR_ID_CD": "TESTA003",
+            "CREATE_DTS": "2006-11-01T14:04:57.855Z",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:50:38.177366Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CASH_PMT",
+            "transaction-id": 458786
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 2574001,
+            "CREATE_USR_ID_CD": "TESTA003",
+            "CREATE_DTS": "2006-11-01T14:26:54.513Z",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:51:32.310602Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CASH_PMT",
+            "transaction-id": 1835051
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 2574041,
+            "CREATE_USR_ID_CD": "TESTA003",
+            "CREATE_DTS": "2006-11-01T14:31:01.041Z",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T01:43:59.316378Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CASH_PMT",
+            "transaction-id": 1638444
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 2724961,
+            "CREATE_USR_ID_CD": "TESTA003",
+            "CREATE_DTS": "2006-11-03T21:00:32.790Z",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T02:55:17.813713Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "CASH_PMT"
+        }
+    }
+]

@@ -1,0 +1,109 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__travel_agency_charge_commission_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__travel_agency_charge_commission_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: travel_agency_charge_commission_id
+        description: ""
+
+      - name: travel_agency_commission_id
+        description: ""
+
+      - name: facility_id
+        description: ""
+
+      - name: facility_name
+        description: ""
+
+      - name: accommodation_commission_start_date
+        description: ""
+
+      - name: accommodation_commission_end_date
+        description: ""
+
+      - name: charge_id
+        description: ""
+
+      - name: revenue_class_id
+        description: ""
+
+      - name: revenue_class_name
+        description: ""
+
+      - name: package_id
+        description: ""
+
+      - name: charge_unit_count
+        description: ""
+
+      - name: room_number
+        description: ""
+
+      - name: commission_unit_description
+        description: ""
+
+      - name: base_charge_amount
+        description: ""
+
+      - name: potential_commission_amount
+        description: ""
+
+      - name: calculated_commission_amount
+        description: ""
+
+      - name: paid_commission_amount
+        description: ""
+
+      - name: sap_general_ledger_account_number
+        description: ""
+
+      - name: sap_general_ledger_account_name
+        description: ""
+
+      - name: sap_company_code
+        description: ""
+
+      - name: sap_company_name
+        description: ""
+
+      - name: sap_business_area_code
+        description: ""
+
+      - name: sap_business_area_name
+        description: ""
+
+      - name: sap_cost_center_code
+        description: ""
+
+      - name: sap_cost_center_name
+        description: ""
+
+      - name: create_user_id
+        description: ""
+
+      - name: create_datetime
+        description: ""
+
+      - name: create_date
+        description: ""
+
+      - name: source_update_user_id
+        description: ""
+
+      - name: source_update_datetime
+        description: ""
+
+      - name: source_update_date
+        description: ""

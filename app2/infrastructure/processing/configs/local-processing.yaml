@@ -1,0 +1,18 @@
+kinesis:
+  stream_name: &sn "curated-experiences-stream"
+  retention_period:  !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+    - 14
+  stream_mode:  !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+  - PROVISIONED
+  shard_count: 1
+  encryption_key: NULL
+profile_table_name: "profile-table"
+curated_experience_events_table_name: "curated-experiences"
+curated_experience_events_stream_name: *sn
+source_data_streams:
+  - name: "dlr-lightning-lane"
+    description: "DLR Lightning Lane Data Event Source"
+    stream_name: "dlr-lightning-lane-kinesis-dmz"
+  - name: "wdw-lightning-lane"
+    description: "WDW Lightning Lane Data Event Source"
+    stream_name: "wdw-lightning-lane-kinesis-dmz"

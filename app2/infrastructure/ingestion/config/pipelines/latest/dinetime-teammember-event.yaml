@@ -1,0 +1,24 @@
+stack_extension: &se dinetime-teammember-event
+ingest_pattern: kinesis2kinesis
+active: True
+pattern_instances:
+  - region: us-east-1
+    resources:
+      kinesis:
+        retention_period: &kdr !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 7
+      cross_account:
+        cross_account_type: &cat  target
+        cross_account_id: 795965727170
+        cross_account_role_name: lllingest-use1-lst-lllingest-lambda
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_LATEST_LANDING # Needs update to appropriate default routing
+      data_mapper_type: singleton
+#      table_path: "Dinetime-teammember-event"
+      data_contracts:
+        - data_contract: app.src.data_structures.data_contracts.source.dinetime.v0.dinetime_team_member_events_source_data_contract
+          class_name: DineTimeTeamMemberEventsModel
+          data_contract_version: 0.0.1 
+          router_database: LATEST_LANDING
+          router_schema: LND_DINETIME
+          router_table: TEAM_MEMBER_EVENTS

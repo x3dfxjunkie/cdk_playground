@@ -1,0 +1,78 @@
+stack_extension: &se galaxy
+ingest_pattern: &ip messaging
+active: True
+pattern_instances:
+  - region: &region-1 us-east-1
+    resources:
+      cluster_name: &rcm galaxy-mq
+      kinesis: &kinesis
+        stream_name: &stream_name galaxy-kinesis
+        retention_period: &kdr !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+        stream_mode: &ksm !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      kinesis_dmz: &kinesis_dmz
+        retention_period: &kdr_dmz !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+        stream_mode: &ksm_dmz !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      ecs:
+        networking:
+          vpc_id: vpc-0d29f1e134f1fe44e
+        ecr:
+          repository_name: guest360/ingestion/rabbitmq_consumer
+        secret_name: &secret_name lod-use1-galaxy-rmq-secret
+        s3:
+          bucket_name: *rcm
+        services:
+          - service_name: GALAXY-REPORTING-GUEST360
+            image_tag: &image v0.2.x
+            desired_count : 2
+            cloudmap: False
+            environment: &environment
+              DEFAULT_BATCH_SIZE : 400                                # Integer value gather than 0  Required: No  Default Value =  400
+              DEFAULT_MAX_RETRY_ATTEMPT : 3                           # Integer value gather than 0  Required: No  Default Value =  3
+              DEFAULT_RETRY_BATCH_SIZE :  5                           # Integer value gather than 0  Required: No  Default Value =  5
+              DEFAULT_MAX_WAIT_MILLISECS : 100                        # Integer value gather than 0  Required: No  Default Value =  1000
+              MAX_BATCH_SIZE : 500                                    # This is batch size limit from Kinesis. # Integer value gather than 0  Required: No  Default Value =  500
+              MAX_WAIT_MILLISECS : 300                                # This is batch size limit from Kinesis. # Integer value gather than 0  Required: No  Default Value =  500
+              LOGLEVEL : INFO                                         # Required: No  , Default Value = INFO  Python logging package severity level. [DEBUG, INFO, WARNING, ERROR, CRITICAL]
+              ENVIRONMENT :  stage                                   # Required: Yes , Default Value = “” ,Environment value (latest,stage,prod)
+              REGION : *region-1                                      # Required: No  , Default Value = us-east-1     , AWS region
+              KINESIS_STREAM :  *stream_name                          # Required: Yes , Default Value = “”, Kinesis stream name
+              KINESIS_PARTITIONS : 10000                              # Required: No  , Default Value =  10000 , Number of distinct unique partition keys generated when sending data to kinesis
+              KINESIS_BATCH_SIZE :   400                              # Required: No  , Default Value =  400 , Max number of records to send in each api put_records request to Kinesis stream
+              KINESIS_RETRY_BATCH_SIZE : 5050                         # Required: No  , Default Value = DEFAULT_RETRY_BATCH_SIZE  , Max number of records to send in each api put_records request to Kinesis stream
+              KINESIS_MAX_WAIT_MILLISECS : 100                        # Required: No  , Default Value = 1000 , Maximum amount to wait send data in batch even when records to be sent are less than batch size
+              FAILED_MSG_BUCKET_NAME : load-fail-objects-0          # Required: Yes , S3 bucket name to store records after exhausting max retry attempt
+              FAILED_MSG_BUCKET_PATH : /GALAXY.REPORTING.GUEST360/   # Required: Yes , Default Value = no have, “/”
+              MAX_RETRY_ATTEMPT :   3                                 # Required: Yes , Default Value =  3  Number of attempts to send record to kinesis before writing to failed records S3 bucket
+              RABBITMQ_SECRET_PATH : *secret_name                     # pragma: allowlist secret # Required: Yes , Secret manager secret path. value is prepended to this path value by connector code , “Secretname”
+              RABBITMQ_HOST :  load.inventoryadapter-rmq.wdprapps.disney.com # Required: Yes , Default Value = “localhost”  RabbitMQ server host name or IP address
+              RABBITMQ_VHOST : experience-dlrinventory-vhl                        # Required: No  , Default Value = “/” RabbitMQ virtual host name
+              RABBITMQ_PORT :  5671                                   # Required: No  , Default Value = 5762  RabbitMQ port
+              RABBITMQ_QUEUE :   GALAXY.REPORTING.GUEST360           # Required: Yes , RabbitMQ queue name
+              RABBITMQ_QUEUE_DURABLE : True                           # Required: No  , Default Value = False RabbitMQ queue “durable” flag
+              RABBITMQ_QOS_PREFETCH_COUNT :  65535                    # Required: No  , Default Value = KINESIS_BATCH_SIZE Queue prefetch count value
+              RABBITMQ_ROUTING_KEY :                    # Required: No  , Default Value = RABBITMQ_QUEUE , RabbitMQ routing key
+              RABBITMQ_EXCHANGE :                 # Required: No  , Default Value =  <empty string>  , RabbitMQ exchange name
+              RABBITMQ_EXCHANGE_TYPE :   topic                        # Required: No  , Default Value = direct  RabbitMQ exchange type. Valid values [direct, fanout, headers, topic]
+              RABBITMQ_EXCHANGE_PASSIVE :   True                      # Required: No  , Default Value = False RabbitMQ exchange config value for passive flag (BOOL)
+              RABBITMQ_EXCHANGE_DURABLE :  True                       # Required: No  , Default Value = False (BOOL)
+              RABBITMQ_EXCHANGE_AUTO_DELETE : True                    # Required: No  , Default Value = False (BOOL)
+              USE_SSL: True
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_LOAD_LANDING # Needs update to appropriate default routing
+      table_path: Header.Namepace
+      key_to_load: Payload
+      data_mapper_type: wrapped
+#      data_contracts: # This section needs to be updated for all data contracts for the source
+#        - data_contract:
+#          class_name:
+#          data_contract_version: 0.0.1
+#          key_path:
+#            - name:
+#              value:
+#          router_database: &router_database LATEST_LANDING
+#          router_schema: &router_schema LND_GALAXY
+#          router_table:

@@ -1,0 +1,516 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "2010-01-08T09:38:31.049938Z",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_ID": 12225686,
+            "PRICE_SHEET_ID": 3464405,
+            "RT_CTGY_CD": "GRP",
+            "UPDT_DTS": "2010-01-08T09:38:31.049938Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-26T13:22:38.566099Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2010-01-26T14:08:53.618569Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": "2011-01-31T00:00:00Z",
+            "PRICE_SHEET_ELMNT_ID": 12517238,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": "2010-01-30T00:00:00Z",
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2010-01-29T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2010-01-01T00:00:00Z",
+            "PRICE_SHEET_ID": 3531374,
+            "RT_CTGY_CD": "GEN",
+            "UPDT_DTS": "2010-01-26T14:08:53.618569Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-26T13:15:37.514803Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-06-29T15:17:51.685939Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": "2009-12-24T00:00:00Z",
+            "PRICE_SHEET_ELMNT_ID": 9014602,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": "2009-12-24T00:00:00Z",
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2009-10-04T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2009-07-22T00:00:00Z",
+            "PRICE_SHEET_ID": 2911717,
+            "RT_CTGY_CD": null,
+            "UPDT_DTS": "2009-06-29T15:17:51.685939Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-26T13:23:50.999126Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2010-01-26T14:07:53.097312Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": "2011-01-31T00:00:00Z",
+            "PRICE_SHEET_ELMNT_ID": 12500380,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": "2010-02-11T00:00:00Z",
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2010-02-07T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2010-01-01T00:00:00Z",
+            "PRICE_SHEET_ID": 3531222,
+            "RT_CTGY_CD": "GEN",
+            "UPDT_DTS": "2010-01-26T14:07:53.097312Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-26T13:11:24.919111Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-06-29T14:52:22.151979Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": "2009-12-24T00:00:00Z",
+            "PRICE_SHEET_ELMNT_ID": 9014550,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": "2009-12-24T00:00:00Z",
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2009-10-04T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2009-07-22T00:00:00Z",
+            "PRICE_SHEET_ID": 2911665,
+            "RT_CTGY_CD": null,
+            "UPDT_DTS": "2009-06-29T14:52:22.151979Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-26T13:23:50.636036Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-05-30T17:25:05.048699Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": "2014-01-31T00:00:00Z",
+            "PRICE_SHEET_ELMNT_ID": 36244650,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": "2013-05-02T00:00:00Z",
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2013-04-28T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2013-01-01T00:00:00Z",
+            "PRICE_SHEET_ID": 8989164,
+            "RT_CTGY_CD": "GRP",
+            "UPDT_DTS": "2012-05-30T17:25:05.048699Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-28T12:39:41.187239Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-05-30T17:25:05.138249Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": "2014-01-31T00:00:00Z",
+            "PRICE_SHEET_ELMNT_ID": 36244665,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": "2013-10-17T00:00:00Z",
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2013-10-14T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2013-01-01T00:00:00Z",
+            "PRICE_SHEET_ID": 8989164,
+            "RT_CTGY_CD": "GRP",
+            "UPDT_DTS": "2012-05-30T17:25:05.138249Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-28T12:39:41.361761Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-05-30T17:25:05.146032Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": "2014-01-31T00:00:00Z",
+            "PRICE_SHEET_ELMNT_ID": 36244668,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": "2013-10-05T00:00:00Z",
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2013-10-04T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2013-01-01T00:00:00Z",
+            "PRICE_SHEET_ID": 8989164,
+            "RT_CTGY_CD": "GRP",
+            "UPDT_DTS": "2012-05-30T17:25:05.146032Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-28T12:39:41.395721Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-05-30T17:25:05.156236Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": "2014-01-31T00:00:00Z",
+            "PRICE_SHEET_ELMNT_ID": 36244672,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": "2014-01-01T00:00:00Z",
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2014-01-01T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2013-01-01T00:00:00Z",
+            "PRICE_SHEET_ID": 8989164,
+            "RT_CTGY_CD": "GRP",
+            "UPDT_DTS": "2012-05-30T17:25:05.156236Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-28T12:39:41.435867Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-05-30T17:25:05.175329Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": "2014-01-31T00:00:00Z",
+            "PRICE_SHEET_ELMNT_ID": 36244679,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": "2013-07-27T00:00:00Z",
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2013-07-26T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2013-01-01T00:00:00Z",
+            "PRICE_SHEET_ID": 8989164,
+            "RT_CTGY_CD": "GRP",
+            "UPDT_DTS": "2012-05-30T17:25:05.175329Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-28T12:39:41.500692Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-05-30T17:25:05.178084Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": "2014-01-31T00:00:00Z",
+            "PRICE_SHEET_ELMNT_ID": 36244680,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": "2013-08-03T00:00:00Z",
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2013-08-02T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2013-01-01T00:00:00Z",
+            "PRICE_SHEET_ID": 8989164,
+            "RT_CTGY_CD": "GRP",
+            "UPDT_DTS": "2012-05-30T17:25:05.178084Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-28T12:39:41.511918Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-05-30T17:25:05.188473Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": "2014-01-31T00:00:00Z",
+            "PRICE_SHEET_ELMNT_ID": 36244684,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": "2013-12-12T00:00:00Z",
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2013-12-08T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2013-01-01T00:00:00Z",
+            "PRICE_SHEET_ID": 8989164,
+            "RT_CTGY_CD": "GRP",
+            "UPDT_DTS": "2012-05-30T17:25:05.188473Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-28T12:39:41.552833Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-05-30T17:25:05.196146Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": "2014-01-31T00:00:00Z",
+            "PRICE_SHEET_ELMNT_ID": 36244687,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": "2013-11-07T00:00:00Z",
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2013-11-03T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2013-01-01T00:00:00Z",
+            "PRICE_SHEET_ID": 8989164,
+            "RT_CTGY_CD": "GRP",
+            "UPDT_DTS": "2012-05-30T17:25:05.196146Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-28T12:39:41.580335Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-05-30T17:25:05.212683Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": "2014-01-31T00:00:00Z",
+            "PRICE_SHEET_ELMNT_ID": 36244693,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": "2013-11-09T00:00:00Z",
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2013-11-08T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2013-01-01T00:00:00Z",
+            "PRICE_SHEET_ID": 8989164,
+            "RT_CTGY_CD": "GRP",
+            "UPDT_DTS": "2012-05-30T17:25:05.212683Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-28T12:39:41.645576Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-05-30T17:25:05.215062Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": "2014-01-31T00:00:00Z",
+            "PRICE_SHEET_ELMNT_ID": 36244694,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": "2013-11-16T00:00:00Z",
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2013-11-15T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2013-01-01T00:00:00Z",
+            "PRICE_SHEET_ID": 8989164,
+            "RT_CTGY_CD": "GRP",
+            "UPDT_DTS": "2012-05-30T17:25:05.215062Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-28T12:39:41.654879Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-05-30T17:25:05.234298Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": "2014-01-31T00:00:00Z",
+            "PRICE_SHEET_ELMNT_ID": 36244700,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": "2013-06-06T00:00:00Z",
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2013-06-02T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2013-01-01T00:00:00Z",
+            "PRICE_SHEET_ID": 8989164,
+            "RT_CTGY_CD": "GRP",
+            "UPDT_DTS": "2012-05-30T17:25:05.234298Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-28T12:39:41.710260Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-05-30T17:25:05.247275Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": "2014-01-31T00:00:00Z",
+            "PRICE_SHEET_ELMNT_ID": 36244705,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": "2013-07-11T00:00:00Z",
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2013-07-07T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2013-01-01T00:00:00Z",
+            "PRICE_SHEET_ID": 8989164,
+            "RT_CTGY_CD": "GRP",
+            "UPDT_DTS": "2012-05-30T17:25:05.247275Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-28T12:39:41.764959Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-05-30T17:25:05.265207Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": "2014-01-31T00:00:00Z",
+            "PRICE_SHEET_ELMNT_ID": 36244712,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": "2013-06-22T00:00:00Z",
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2013-06-21T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2013-01-01T00:00:00Z",
+            "PRICE_SHEET_ID": 8989164,
+            "RT_CTGY_CD": "GRP",
+            "UPDT_DTS": "2012-05-30T17:25:05.265207Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-28T12:39:41.838215Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-05-30T17:25:05.267544Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": "2014-01-31T00:00:00Z",
+            "PRICE_SHEET_ELMNT_ID": 36244713,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": "2013-02-17T00:00:00Z",
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2013-02-15T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2013-01-01T00:00:00Z",
+            "PRICE_SHEET_ID": 8989164,
+            "RT_CTGY_CD": "GRP",
+            "UPDT_DTS": "2012-05-30T17:25:05.267544Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-28T12:39:41.847516Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2012-05-30T17:25:05.273249Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "ENTRPRS_PRICE_ID": null,
+            "JDO_SEQ_NB": 0,
+            "PRGE_DTS": null,
+            "PRICE_SHEET_ELMNT_BKNG_END_DTS": null,
+            "PRICE_SHEET_ELMNT_ID": 36244715,
+            "PRICE_SHEET_ELMNT_USG_END_DTS": null,
+            "PRICE_SHEET_ELMNT_USG_STRT_DTS": "2013-10-11T00:00:00Z",
+            "PRICE_SHEET_ELMT_BKNG_STRT_DTS": "2013-01-01T00:00:00Z",
+            "PRICE_SHEET_ID": 8989164,
+            "RT_CTGY_CD": "GRP",
+            "UPDT_DTS": "2012-05-30T17:25:05.273249Z",
+            "UPDT_USR_ID_CD": "UNKNOWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "PRICE_SHEET_ELMNT_T",
+            "timestamp": "2023-08-28T12:39:41.868573Z"
+        }
+    }
+]

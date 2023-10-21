@@ -1,0 +1,2427 @@
+[
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-20T11:46:56Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0508152",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "CA",
+      "GRP_CTRC_RSRT_RT_TX": "189",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-20T11:46:56Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.549299Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-22T13:09:26Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0513433",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "1Y",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "YA",
+      "GRP_CTRC_RSRT_RT_TX": "$324",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-22T13:09:26Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.558786Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-22T13:09:26Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0513433",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$15",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "1O",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "OA",
+      "GRP_CTRC_RSRT_RT_TX": "$158",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-22T13:09:26Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.569697Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-22T16:16:34Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0513549",
+      "GRP_CTRC_RSRT_END_DT": "2008-03-07T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "$291",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-03-05T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-22T16:16:34Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.578891Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-23T11:22:54Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0512674",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25.00",
+      "GRP_CTRC_RSRT_END_DT": "2008-03-21T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "Grandl Floridian",
+      "GRP_CTRC_RSRT_PKG_TX": "Group Res",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BP",
+      "GRP_CTRC_RSRT_RT_TX": "$305.00",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-03-18T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-23T11:22:54Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.591893Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-23T11:22:54Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0512674",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25.00",
+      "GRP_CTRC_RSRT_END_DT": "2008-03-21T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "Grand Floridian",
+      "GRP_CTRC_RSRT_PKG_TX": "Group Res",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "$305.00",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-03-18T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-23T11:22:54Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.603767Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-23T11:22:54Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0512674",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25.00",
+      "GRP_CTRC_RSRT_END_DT": "2008-03-21T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "Grand Floridian",
+      "GRP_CTRC_RSRT_PKG_TX": "Group Res",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BC",
+      "GRP_CTRC_RSRT_RT_TX": "$305.00",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-03-18T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-23T11:22:54Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.613144Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-23T13:13:28Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0502785",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$15",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "O",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "OA",
+      "GRP_CTRC_RSRT_RT_TX": "$128",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-23T13:13:28Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.620831Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-23T13:13:28Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0502785",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "W",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "WA",
+      "GRP_CTRC_RSRT_RT_TX": "$229",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-23T13:13:28Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.630434Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-23T14:56:18Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0505887",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$15",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "R",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "RA",
+      "GRP_CTRC_RSRT_RT_TX": "$127",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-23T14:56:18Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.639985Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-23T14:56:18Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0505887",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$10",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "G",
+      "GRP_CTRC_RSRT_PKG_TX": "grp",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "GA",
+      "GRP_CTRC_RSRT_RT_TX": "$74",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-23T14:56:18Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.649598Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-23T14:56:18Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0505887",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "W",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "WA",
+      "GRP_CTRC_RSRT_RT_TX": "$228",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-23T14:56:18Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.658285Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-23T14:56:18Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0505887",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "P",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "PB",
+      "GRP_CTRC_RSRT_RT_TX": "$289",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-23T14:56:18Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.665587Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-23T15:49:00Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0509767",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$15",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "O",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "OA",
+      "GRP_CTRC_RSRT_RT_TX": "$146",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-23T15:49:00Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.673562Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-23T15:49:00Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0509767",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "W",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "WA",
+      "GRP_CTRC_RSRT_RT_TX": "$261",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-23T15:49:00Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.681837Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-23T15:49:00Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0509767",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$15",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "N",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "NA",
+      "GRP_CTRC_RSRT_RT_TX": "$146",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-23T15:49:00Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.690959Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-23T15:49:00Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0509767",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$10",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "A",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "AA",
+      "GRP_CTRC_RSRT_RT_TX": "$93",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-23T15:49:00Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.699992Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-23T16:39:43Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0512154",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "J",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "JA",
+      "GRP_CTRC_RSRT_RT_TX": "$191",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-23T16:39:43Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.707161Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-23T16:39:43Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0512154",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "W",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "WA",
+      "GRP_CTRC_RSRT_RT_TX": "$228",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-23T16:39:43Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.721029Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-23T16:39:43Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0512154",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "P",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "PB",
+      "GRP_CTRC_RSRT_RT_TX": "$289",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-23T16:39:43Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.728791Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-24T11:20:16Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0512921",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "Y",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "YG",
+      "GRP_CTRC_RSRT_RT_TX": "$418",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-24T11:20:16Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.737249Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-24T11:20:16Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0512921",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$15",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "R",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "RA",
+      "GRP_CTRC_RSRT_RT_TX": "$146",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-24T11:20:16Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.743679Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-24T11:20:16Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0512921",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "Y",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "YA",
+      "GRP_CTRC_RSRT_RT_TX": "$261",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-24T11:20:16Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.751017Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-24T11:20:16Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0512921",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$10",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "G",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "GA",
+      "GRP_CTRC_RSRT_RT_TX": "$93",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-24T11:20:16Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.759550Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-26T09:37:56Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0502538",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "10",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "GA",
+      "GRP_CTRC_RSRT_RT_TX": "98",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-26T09:37:56Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.768332Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-26T09:37:56Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0502538",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "273",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-26T09:37:56Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.775443Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-27T09:24:43Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0493101",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "10",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "EA",
+      "GRP_CTRC_RSRT_RT_TX": "111",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-27T09:24:43Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.782865Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-27T09:24:43Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0493101",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "15",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "OA",
+      "GRP_CTRC_RSRT_RT_TX": "164",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-27T09:24:43Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.791771Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-27T09:24:43Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0493101",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "YA",
+      "GRP_CTRC_RSRT_RT_TX": "312",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-27T09:24:43Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.801184Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-27T09:24:43Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0493101",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "0",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "KA",
+      "GRP_CTRC_RSRT_RT_TX": "336",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-27T09:24:43Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.808349Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-27T09:37:44Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0492918",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "10",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "EA",
+      "GRP_CTRC_RSRT_RT_TX": "111",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-27T09:37:44Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.817229Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-27T09:37:44Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0492918",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "CA",
+      "GRP_CTRC_RSRT_RT_TX": "247",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-27T09:37:44Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.826917Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-27T09:37:44Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0492918",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "15",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "RA",
+      "GRP_CTRC_RSRT_RT_TX": "164",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-27T09:37:44Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.833386Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-27T09:37:44Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0492918",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "360",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-27T09:37:44Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.840733Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-28T09:46:54Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0472603",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25.00",
+      "GRP_CTRC_RSRT_END_DT": "2008-03-01T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "1B",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "295.00",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-02-28T00:00:00Z",
+      "JDO_SEQ_NB": 1,
+      "UPDT_DTS": "2008-01-29T14:18:21Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.847811Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-29T13:45:21Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0508468",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25.00",
+      "GRP_CTRC_RSRT_END_DT": "2008-04-17T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "GF",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "292.00",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-04-10T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-29T13:45:21Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.855850Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-29T17:00:03Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0513692",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "IA",
+      "GRP_CTRC_RSRT_RT_TX": "259",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-29T17:00:03Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.879966Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-29T17:00:03Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0513692",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "15",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "RA",
+      "GRP_CTRC_RSRT_RT_TX": "152",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-29T17:00:03Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.887638Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-29T17:00:03Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0513692",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "10",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "AA",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-29T17:00:03Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.896680Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-29T17:36:32Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0461124",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "1B",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "195",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-29T17:36:32Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.909176Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-30T08:47:41Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0511759",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "15",
+      "GRP_CTRC_RSRT_END_DT": "2008-12-22T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "O",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "OA",
+      "GRP_CTRC_RSRT_RT_TX": "185",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-12-20T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-30T08:47:41Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.919142Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-30T08:47:41Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0511759",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_END_DT": "2008-12-25T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "W",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "WA",
+      "GRP_CTRC_RSRT_RT_TX": "441",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-12-22T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-30T08:47:41Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.928672Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-30T08:47:41Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0511759",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_END_DT": "2008-12-25T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "B",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "545",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-12-22T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-30T08:47:41Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.935846Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-30T14:35:42Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0514586",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_END_DT": "2008-06-15T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "GF",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "239",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-06-11T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-30T14:35:42Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.944639Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-31T11:38:41Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0508871",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25.00",
+      "GRP_CTRC_RSRT_END_DT": "2008-03-05T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "Grand Floridian",
+      "GRP_CTRC_RSRT_PKG_TX": "Group Res",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "290.00",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-03-03T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-31T11:38:41Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.951679Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-31T11:38:41Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0508871",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25.00",
+      "GRP_CTRC_RSRT_END_DT": "2008-03-05T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "Grand Floridian",
+      "GRP_CTRC_RSRT_PKG_TX": "Group Res",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BL",
+      "GRP_CTRC_RSRT_RT_TX": "290.00",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-03-02T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-31T11:38:41Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.961604Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-31T11:38:41Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0508871",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25.00",
+      "GRP_CTRC_RSRT_END_DT": "2008-03-05T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "Grand Floridian",
+      "GRP_CTRC_RSRT_PKG_TX": "Group Res",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "B5",
+      "GRP_CTRC_RSRT_RT_TX": "290.00",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-03-02T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-31T11:38:41Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.968899Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-31T11:38:41Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0508871",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25.00",
+      "GRP_CTRC_RSRT_END_DT": "2008-03-05T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "Grand Floridian",
+      "GRP_CTRC_RSRT_PKG_TX": "Group Res",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BG",
+      "GRP_CTRC_RSRT_RT_TX": "290.00",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-03-01T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-31T11:38:41Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.978500Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-31T12:53:07Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0512006",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "1B",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "266",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-31T12:53:07Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.987181Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-31T12:53:07Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0512006",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "1W",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "WA",
+      "GRP_CTRC_RSRT_RT_TX": "233",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-31T12:53:07Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:42.995903Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-31T12:53:07Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0512006",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "15",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "1L",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "LA",
+      "GRP_CTRC_RSRT_RT_TX": "131",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-31T12:53:07Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.005342Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-31T17:05:47Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0500248",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25.00",
+      "GRP_CTRC_RSRT_END_DT": "2008-11-02T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "Grand Floridian",
+      "GRP_CTRC_RSRT_PKG_TX": "Group Res",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BC",
+      "GRP_CTRC_RSRT_RT_TX": "$265.00",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-10-26T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-31T17:05:47Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.012110Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-01-31T17:05:47Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0500248",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25.00",
+      "GRP_CTRC_RSRT_END_DT": "2008-11-02T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "Grand Floridian",
+      "GRP_CTRC_RSRT_PKG_TX": "Group Res",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "$265.00",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-10-27T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-01-31T17:05:47Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.021302Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-02T09:46:22Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0510937",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_END_DT": "2008-04-02T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "GF",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "295",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-03-30T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-02T09:46:22Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.030824Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T10:33:42Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0504322",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "W",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "WA",
+      "GRP_CTRC_RSRT_RT_TX": "259",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T10:33:42Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.038534Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T10:33:42Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0504322",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "10",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "A",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "AA",
+      "GRP_CTRC_RSRT_RT_TX": "89",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T10:33:42Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.047134Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T10:33:42Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0504322",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "15",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "R",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "RA",
+      "GRP_CTRC_RSRT_RT_TX": "140",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T10:33:42Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.053722Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T10:51:28Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0503107",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "10",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "E",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "EA",
+      "GRP_CTRC_RSRT_RT_TX": "74",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T10:51:28Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.062804Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T10:51:28Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0503107",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "15",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "L",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "LA",
+      "GRP_CTRC_RSRT_RT_TX": "127",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T10:51:28Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.071816Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T10:51:28Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0503107",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "I",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "IA",
+      "GRP_CTRC_RSRT_RT_TX": "228",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T10:51:28Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.082341Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T11:21:49Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0503829",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "Y",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "YG",
+      "GRP_CTRC_RSRT_RT_TX": "309",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T11:21:49Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.091008Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T11:21:49Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0503829",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "10",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "A",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "AA",
+      "GRP_CTRC_RSRT_RT_TX": "77",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T11:21:49Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.099740Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T11:21:49Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0503829",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "15",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "O",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "OA",
+      "GRP_CTRC_RSRT_RT_TX": "128",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T11:21:49Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.111007Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T11:21:49Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0503829",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "Y",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "YA",
+      "GRP_CTRC_RSRT_RT_TX": "229",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T11:21:49Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.121003Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T11:37:11Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0505237",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "15",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "L",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "LA",
+      "GRP_CTRC_RSRT_RT_TX": "127",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T11:37:11Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.132895Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T11:37:11Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0505237",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "C",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "CA",
+      "GRP_CTRC_RSRT_RT_TX": "189",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T11:37:11Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.143233Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T11:37:11Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0505237",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "I",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "IF",
+      "GRP_CTRC_RSRT_RT_TX": "427",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T11:37:11Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.153359Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T11:37:11Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0505237",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "10",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "G",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "GA",
+      "GRP_CTRC_RSRT_RT_TX": "74",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T11:37:11Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.160914Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T13:00:04Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0506034",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "10.00",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "1S",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "SA",
+      "GRP_CTRC_RSRT_RT_TX": "77.00",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T13:00:04Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.171223Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T13:00:04Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0506034",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25.00",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "1I",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "IA",
+      "GRP_CTRC_RSRT_RT_TX": "229.00",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T13:00:04Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.180830Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T13:00:04Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0506034",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25.00",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "1B",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "273.00",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T13:00:04Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.190681Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T13:00:04Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0506034",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "15.00",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "1N",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "NA",
+      "GRP_CTRC_RSRT_RT_TX": "128.00",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T13:00:04Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.200270Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T13:15:17Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0508685",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "Y",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "YA",
+      "GRP_CTRC_RSRT_RT_TX": "228",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T13:15:17Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.211090Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T13:15:17Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0508685",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "15",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "O",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "OA",
+      "GRP_CTRC_RSRT_RT_TX": "127",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T13:15:17Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.222153Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T13:15:17Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0508685",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "10",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "A",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "AA",
+      "GRP_CTRC_RSRT_RT_TX": "74",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T13:15:17Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.230884Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T13:27:44Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0503122",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25.0",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "1B",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "270.0",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T13:27:44Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.239326Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T13:27:44Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0503122",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "15.0",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "1N",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "NA",
+      "GRP_CTRC_RSRT_RT_TX": "127.0",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T13:27:44Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.247157Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T13:27:44Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0503122",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25.0",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "1B",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BU",
+      "GRP_CTRC_RSRT_RT_TX": "336.0",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T13:27:44Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.253925Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-03T13:27:44Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0503122",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "10.0",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "1S",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "SA",
+      "GRP_CTRC_RSRT_RT_TX": "74.0",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-03T13:27:44Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.263603Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-04T11:36:00Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0503092",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "Y",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "YA",
+      "GRP_CTRC_RSRT_RT_TX": "$228",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-04T11:36:00Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.273235Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-04T11:36:00Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0503092",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$10",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "E",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "EA",
+      "GRP_CTRC_RSRT_RT_TX": "$74",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-04T11:36:00Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.283374Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-04T11:36:00Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0503092",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$15",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "N",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "NA",
+      "GRP_CTRC_RSRT_RT_TX": "$127",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-04T11:36:00Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.292774Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-04T15:43:31Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0503276",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$10",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "E",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "EA",
+      "GRP_CTRC_RSRT_RT_TX": "$77",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-04T15:43:31Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.302271Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-04T15:43:31Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0503276",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "W",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "WA",
+      "GRP_CTRC_RSRT_RT_TX": "$229",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-04T15:43:31Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.311900Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-04T16:37:33Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0508595",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$15",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "R",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "RA",
+      "GRP_CTRC_RSRT_RT_TX": "$127",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-04T16:37:33Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.322210Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-04T16:37:33Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0508595",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$10",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "E",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "EA",
+      "GRP_CTRC_RSRT_RT_TX": "$74",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-04T16:37:33Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.330883Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-05T12:46:54Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0507541",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$10",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "E",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "EA",
+      "GRP_CTRC_RSRT_RT_TX": "$74",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-05T12:46:54Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.338144Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-05T12:46:54Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0507541",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "B",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "$270",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-05T12:46:54Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.347147Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-05T12:46:54Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0507541",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "C",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "CF",
+      "GRP_CTRC_RSRT_RT_TX": "$287",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-05T12:46:54Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.354648Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-05T12:46:54Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0507541",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "I",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "IA",
+      "GRP_CTRC_RSRT_RT_TX": "$228",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-05T12:46:54Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.364360Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-05T12:46:54Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0507541",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$15",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "L",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "LA",
+      "GRP_CTRC_RSRT_RT_TX": "$127",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-05T12:46:54Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.374538Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-05T12:50:54Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0513991",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_END_DT": "2008-02-21T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "GF",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BU",
+      "GRP_CTRC_RSRT_RT_TX": "269",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-02-20T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-05T12:50:54Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.386556Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-05T16:08:41Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0484668",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "$25.00",
+      "GRP_CTRC_RSRT_END_DT": "2008-11-24T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "Grand Floridian",
+      "GRP_CTRC_RSRT_PKG_TX": "Group Res",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "$253.00",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-11-19T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-05T16:08:41Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.395157Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-06T08:29:23Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0514660",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_END_DT": "2008-05-28T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "b",
+      "GRP_CTRC_RSRT_PKG_TX": "grp",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "ba",
+      "GRP_CTRC_RSRT_RT_TX": "305.00",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-05-23T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-06T08:29:23Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.404155Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-06T08:29:23Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0514660",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_END_DT": "2008-05-28T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "b",
+      "GRP_CTRC_RSRT_PKG_TX": "grp",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "bp",
+      "GRP_CTRC_RSRT_RT_TX": "532.00",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-05-26T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-06T08:29:23Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.413619Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-06T08:29:23Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0514660",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25.00",
+      "GRP_CTRC_RSRT_END_DT": "2008-05-30T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "c",
+      "GRP_CTRC_RSRT_PKG_TX": "grp",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "ca",
+      "GRP_CTRC_RSRT_RT_TX": "221.00",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-05-23T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-06T08:29:23Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.420914Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-06T09:31:42Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0508509",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_END_DT": "2008-04-13T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "GF",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "$299",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-04-09T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-06T09:31:42Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.428261Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-06T12:04:28Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0514183",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_END_DT": "2008-03-16T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "P",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "PB",
+      "GRP_CTRC_RSRT_RT_TX": "229",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-03-13T00:00:00Z",
+      "JDO_SEQ_NB": 1,
+      "UPDT_DTS": "2008-02-19T11:29:28Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.435881Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-06T12:54:30Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0515191",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_END_DT": "2008-05-16T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "GF",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "BA",
+      "GRP_CTRC_RSRT_RT_TX": "295",
+      "GRP_CTRC_RSRT_STRT_DT": "2008-05-14T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-06T12:54:30Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.443368Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2008-02-07T10:30:50Z",
+      "CREATE_USR_ID_CD": "DDONALD01",
+      "GRP_CD": "G0503869",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": "25",
+      "GRP_CTRC_RSRT_ID": 1234,
+      "GRP_CTRC_RSRT_NM_TX": "Y",
+      "GRP_CTRC_RSRT_PKG_TX": "GRP",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "YA",
+      "GRP_CTRC_RSRT_RT_TX": "228",
+      "JDO_SEQ_NB": 0,
+      "UPDT_DTS": "2008-02-07T10:30:50Z",
+      "UPDT_USR_ID_CD": "MMOUSE01"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-07-26T01:12:43.450038Z"
+    }
+  },
+  {
+    "data": {
+      "CREATE_DTS": "2020-09-01T04:10:54Z",
+      "CREATE_USR_ID_CD": "XTQ248",
+      "GRP_CD": "Rsr20st",
+      "GRP_CTRC_RSRT_ADDL_ADLT_RT_TX": null,
+      "GRP_CTRC_RSRT_END_DT": "2020-09-12T00:00:00Z",
+      "GRP_CTRC_RSRT_ID": 12008000,
+      "GRP_CTRC_RSRT_NM_TX": "Disney's Caribbean Beach Resort",
+      "GRP_CTRC_RSRT_PKG_TX": "Pa4f6",
+      "GRP_CTRC_RSRT_RM_TYP_TX": "Standard Room",
+      "GRP_CTRC_RSRT_RT_TX": "400",
+      "GRP_CTRC_RSRT_STRT_DT": "2020-09-09T00:00:00Z",
+      "JDO_SEQ_NB": 0,
+      "PRGE_DTS": null,
+      "UPDT_DTS": "2020-09-01T04:10:54Z",
+      "UPDT_USR_ID_CD": "XTQ248"
+    },
+    "metadata": {
+      "operation": "load",
+      "partition-key-type": "primary-key",
+      "record-type": "data",
+      "schema-name": "group_mgmt",
+      "table-name": "grp_ctrc_rsrt",
+      "timestamp": "2023-09-18T06:47:55.697018Z"
+    }
+  }
+]

@@ -1,0 +1,2004 @@
+[
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "AAACONV",
+            "id": 1436,
+            "isenabled": 0,
+            "name": "AAA Convention",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.600822Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "STUDIO",
+            "id": 1439,
+            "isenabled": 1,
+            "name": "Studios",
+            "onlinegroup": "DISNE3",
+            "onsitegroup": "STUDIO",
+            "prettyname": "Disney's Hollywood Studios",
+            "rovergroup": "PARK",
+            "sort": 3
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.630066Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "BLIZZARD",
+            "id": 1441,
+            "isenabled": 1,
+            "name": "Blizzard Beach",
+            "onlinegroup": "WATER1",
+            "onsitegroup": "WATERPARK",
+            "prettyname": "Disney's Blizzard Beach Water Park",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.649911Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "FANTGRDN",
+            "id": 1442,
+            "isenabled": 0,
+            "name": "Fantasia Gardens",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Fantasia Gardens Miniature Golf Course",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.658788Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "ZZERROR",
+            "id": 1447,
+            "isenabled": 0,
+            "name": "Error - default submit btn",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.701318Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "LBVGOLF",
+            "id": 1454,
+            "isenabled": 0,
+            "name": "Lake Buena Vista Golf",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Disney's Lake Buena Vista Golf Course",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.762212Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "CONTEMP",
+            "id": 1456,
+            "isenabled": 1,
+            "name": "Contemporary",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's Contemporary Resort",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.779155Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "POP",
+            "id": 1462,
+            "isenabled": 1,
+            "name": "Pop Century",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's Pop Century Resort",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.832820Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "ASMOVIES",
+            "id": 1463,
+            "isenabled": 1,
+            "name": "All-Star Movies",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's All-Star Movies Resort",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.841144Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "ASMUSIC",
+            "id": 1465,
+            "isenabled": 1,
+            "name": "All-Star Music",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's All-Star Music Resort",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.859002Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "AKLODGE",
+            "id": 1467,
+            "isenabled": 1,
+            "name": "Animal Kingdom Lodge",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's Animal Kingdom Lodge",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.875282Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "DVCBOARD",
+            "id": 1471,
+            "isenabled": 0,
+            "name": "Boardwalk Villas",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's Boardwalk Villas",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.910635Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "EVNTCRT",
+            "id": 1478,
+            "isenabled": 0,
+            "name": "Event CRT",
+            "onlinegroup": "MAGIC5",
+            "onsitegroup": "MK",
+            "prettyname": "Cinderellas Royal Table",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.982095Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "RIDETESTTRK",
+            "id": 1480,
+            "isenabled": 0,
+            "name": "Ride - Test Track",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Test Track",
+            "rovergroup": "PARKS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.999556Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "DVCLUB",
+            "id": 1481,
+            "isenabled": 0,
+            "name": "Disney Vacation Club",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.009090Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "DVC",
+            "id": 1483,
+            "isenabled": 0,
+            "name": "DVC",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.027347Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "ABC",
+            "id": 1496,
+            "isenabled": 1,
+            "name": "ABC",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "PARK",
+            "sort": 50
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.132852Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "EVNTTUSKER",
+            "id": 1498,
+            "isenabled": 0,
+            "name": "Event Tusker House",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "AK",
+            "prettyname": "Tusker House",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.148596Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "EVNTESPN",
+            "id": 1505,
+            "isenabled": 0,
+            "name": "Event ESPN (DO NOT USE)",
+            "onlinegroup": "ESPNW2",
+            "onsitegroup": "RESORTS",
+            "prettyname": "ESPN Wide World of Sports",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.249422Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "DEGCONTEMPORARY",
+            "id": 1513,
+            "isenabled": 1,
+            "name": "DEG Contemporary",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's Contemporary Resort",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.323630Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "DEGDISNEYUNIV",
+            "id": 1514,
+            "isenabled": 1,
+            "name": "DEG Disney University",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.332714Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "DEGCELEBRATION",
+            "id": 1515,
+            "isenabled": 1,
+            "name": "DEG Celebration",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.341510Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "AMAZPICT",
+            "id": 1522,
+            "isenabled": 1,
+            "name": "Amazing Pictures",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.390146Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "FOURSEASONS",
+            "id": 1528,
+            "isenabled": 1,
+            "name": "Four Seasons",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "EPCOT",
+            "prettyname": "Good Morning Breakfast With Goofy And His Pals",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.406673Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "VILLAINSUNLEASH",
+            "id": 1530,
+            "isenabled": 0,
+            "name": "Villains Unleashed",
+            "onlinegroup": "DISNE3",
+            "onsitegroup": "STUDIO",
+            "prettyname": "Villains Unleashed",
+            "rovergroup": "PARK",
+            "sort": 50
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.413674Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "EPCOT",
+            "id": 1434,
+            "isenabled": 1,
+            "name": "EPCOT",
+            "onlinegroup": "EPCOT4",
+            "onsitegroup": "EPCOT",
+            "prettyname": "Epcot",
+            "rovergroup": "PARK",
+            "sort": 2
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.584803Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "MK",
+            "id": 1438,
+            "isenabled": 1,
+            "name": "Magic Kingdom",
+            "onlinegroup": "MAGIC5",
+            "onsitegroup": "MK",
+            "prettyname": "Magic Kingdom Park",
+            "rovergroup": "PARK",
+            "sort": 1
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.617457Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "WINSUM",
+            "id": 1448,
+            "isenabled": 0,
+            "name": "Winter Sumerland Golf",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Winter Summerland Miniature Golf Course",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.710781Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "YACHT",
+            "id": 1451,
+            "isenabled": 1,
+            "name": "Yacht Club",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's Yacht Club Resort",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.733218Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "MAGNOLIA",
+            "id": 1455,
+            "isenabled": 0,
+            "name": "Magnolia Golf",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Disney's Magnolia Golf Course",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.770132Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "WILDRNS",
+            "id": 1457,
+            "isenabled": 1,
+            "name": "Wilderness Lodge",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "PORTRAITS",
+            "prettyname": "Disney's Wilderness Lodge",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.788098Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "CARIB",
+            "id": 1458,
+            "isenabled": 1,
+            "name": "Caribbean Beach",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's Caribbean Beach Resort",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.796772Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "PORIVER",
+            "id": 1461,
+            "isenabled": 1,
+            "name": "Port Orleans Riverside",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Port Orleans Resort - Riverside",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.825281Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "WODNY",
+            "id": 1578,
+            "isenabled": 0,
+            "name": "GameDay Photos",
+            "onlinegroup": "ESPNW2",
+            "onsitegroup": "WODNY",
+            "prettyname": "GameDay Photos",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.451034Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "RUNDISNEY",
+            "id": 1582,
+            "isenabled": 0,
+            "name": "runDisney",
+            "onlinegroup": "RUNDI7",
+            "onsitegroup": "WODNY",
+            "prettyname": "runDisney",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.459675Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPRSPORTS",
+            "code": "WDWRUNDISNEY",
+            "id": 1588,
+            "isenabled": 0,
+            "name": "runDisney",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "WDWPRSPORTS",
+            "prettyname": "runDisney",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.476715Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPRSPORTS",
+            "code": "STADIUM",
+            "id": 1612,
+            "isenabled": 0,
+            "name": "Champion Stadium",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "WDWPRSPORTS",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.582573Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPRSPORTS",
+            "code": "OCCCENTER",
+            "id": 1614,
+            "isenabled": 0,
+            "name": "Orange County Convention Center",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "WDWPRSPORTS",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.591898Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLWONDER",
+            "id": 2146,
+            "isenabled": 1,
+            "name": "Wonder",
+            "onlinegroup": "DCLWONDER",
+            "onsitegroup": "DCLWONDER",
+            "prettyname": "Disney Wonder",
+            "rovergroup": "DCLWONDER",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.649407Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLDREAM",
+            "id": 2147,
+            "isenabled": 1,
+            "name": "Dream",
+            "onlinegroup": "DCLDREAM",
+            "onsitegroup": "DCLDREAM",
+            "prettyname": "Disney Dream",
+            "rovergroup": "DCLDREAM",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.660293Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "ESPNSPECIALEVENT",
+            "id": 2152,
+            "isenabled": 1,
+            "name": "Special Event ESPN",
+            "onlinegroup": "ESPNW2",
+            "onsitegroup": "RESORTS",
+            "prettyname": "ESPN Wide World of Sports",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.696788Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "PALM",
+            "id": 1466,
+            "isenabled": 0,
+            "name": "Palm Golf",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Disney's Palm Golf Course",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.867023Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "BOARDWLK",
+            "id": 1468,
+            "isenabled": 1,
+            "name": "Boardwalk",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's Boardwalk Inn",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.886023Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "DVCWILD",
+            "id": 1473,
+            "isenabled": 0,
+            "name": "Villas at Wilderness Lodge",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "The Villas at Disney's Wilderness Lodge",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.931163Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "GUEST",
+            "id": 1474,
+            "isenabled": 0,
+            "name": "Guest Photos for DVD",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "DVD",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.942404Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "TOONTOWN",
+            "id": 1477,
+            "isenabled": 0,
+            "name": "ToonTown",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "PARK",
+            "sort": 50
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.972511Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "SPCEVENT",
+            "id": 1482,
+            "isenabled": 1,
+            "name": "Special Event",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.018764Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "EVNTDVC",
+            "id": 1484,
+            "isenabled": 0,
+            "name": "DVC",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.038030Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "MNSSHP",
+            "id": 1493,
+            "isenabled": 0,
+            "name": "Mickey's Not So Scary Halloween Party",
+            "onlinegroup": "MAGIC5",
+            "onsitegroup": "MK",
+            "prettyname": "Mickey's Not So Scary Halloween Party",
+            "rovergroup": "PARK",
+            "sort": 50
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.108208Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "MVMCP",
+            "id": 1494,
+            "isenabled": 0,
+            "name": "Mickey's Very Merry Christmas Party",
+            "onlinegroup": "MAGIC5",
+            "onsitegroup": "MK",
+            "prettyname": "Mickey's Very Merry Christmas Party",
+            "rovergroup": "PARK",
+            "sort": 50
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.118163Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "GRADNITE",
+            "id": 1495,
+            "isenabled": 0,
+            "name": "GradNite",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "PARK",
+            "sort": 50
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.124771Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "OLDKEYWEST",
+            "id": 1500,
+            "isenabled": 1,
+            "name": "Old Key West",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's Old Key West Resort",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.164192Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "EVNTPIRATES",
+            "id": 1503,
+            "isenabled": 0,
+            "name": "Event Pirates",
+            "onlinegroup": "MAGIC5",
+            "onsitegroup": "MK",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.192574Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "DEGCORONADO",
+            "id": 1510,
+            "isenabled": 1,
+            "name": "DEG Coronado",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's Coronado Springs Resort",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.296825Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "TOURS",
+            "id": 1532,
+            "isenabled": 1,
+            "name": "Tours",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Tours",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.423232Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPRSPORTS",
+            "code": "WDWGAMEDAY",
+            "id": 1586,
+            "isenabled": 0,
+            "name": "GameDay Photos",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "WDWPRSPORTS",
+            "prettyname": "GameDay Photos",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.468267Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPRSPORTS",
+            "code": "WDWMARATHONSPECIAL",
+            "id": 1602,
+            "isenabled": 0,
+            "name": "runDisney WDW Special",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "WDWPRSPORTS",
+            "prettyname": "runDisney Walt Disney World",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.540949Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPRSPORTS",
+            "code": "FIELDS",
+            "id": 1608,
+            "isenabled": 0,
+            "name": "Fields",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "WDWPRSPORTS",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.566428Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPRSPORTS",
+            "code": "RESERVATION",
+            "id": 1622,
+            "isenabled": 0,
+            "name": "Reservation",
+            "onlinegroup": "ESPNW2",
+            "onsitegroup": "WDWPRSPORTS",
+            "prettyname": "ESPN Wide World of Sports",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.621159Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "STARCRUISER",
+            "id": 2151,
+            "isenabled": 1,
+            "name": "Star Wars: Galactic Starcruiser",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Star Wars: Galactic Starcruiser",
+            "rovergroup": "RESORTS",
+            "sort": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.686963Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPRSPORTS",
+            "code": "ESPNWWOS",
+            "id": 2154,
+            "isenabled": 1,
+            "name": "ESPN WWOS",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "WDWPRSPORTS",
+            "prettyname": "ESPN WWOS",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.716619Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "TYPHOON",
+            "id": 1440,
+            "isenabled": 1,
+            "name": "Typhoon Lagoon",
+            "onlinegroup": "WATER1",
+            "onsitegroup": "WATERPARK",
+            "prettyname": "Disney's Typhoon Lagoon Water Park",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.641111Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "FORTWILD",
+            "id": 1446,
+            "isenabled": 1,
+            "name": "Fort Wilderness",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's Fort Wilderness Resort and Campground",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.692962Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "PETTY",
+            "id": 1449,
+            "isenabled": 0,
+            "name": "Richard Petty Driving Experience",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Richard Petty Driving Experience",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.718150Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "OAKTRAIL",
+            "id": 1450,
+            "isenabled": 0,
+            "name": "Oak Trail Golf",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Disney's Oak Trail Golf Course",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.725843Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "EAGLE",
+            "id": 1453,
+            "isenabled": 0,
+            "name": "Eagle Pines Golf",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Disney's Eagle Pines Golf Course",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.751355Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "CORO",
+            "id": 1459,
+            "isenabled": 1,
+            "name": "Coronado",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's Coronado Springs Resort",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.804326Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "ASSPORTS",
+            "id": 1464,
+            "isenabled": 1,
+            "name": "All-Star Sports",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's All-Star Sports Resort",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.849094Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "DVCSARA",
+            "id": 1472,
+            "isenabled": 0,
+            "name": "Saratoga Springs",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's Saratoga Springs Resort and Spa",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.919011Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "TEST",
+            "id": 1479,
+            "isenabled": 1,
+            "name": "TEST",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "Test",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:46.990667Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "EVNTDAK",
+            "id": 1485,
+            "isenabled": 0,
+            "name": "Event DAK",
+            "onlinegroup": "DISNE9",
+            "onsitegroup": "AK",
+            "prettyname": "Disney's Animal Kingdom Theme Park",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.046665Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "EVNTBBQ",
+            "id": 1491,
+            "isenabled": 0,
+            "name": "Event Backyard BBQ",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Mickey's Backyard BBQ",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.091382Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "ABC2",
+            "id": 1497,
+            "isenabled": 0,
+            "name": "ABC2",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "PARK",
+            "sort": 50
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.139661Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "VEROBEACH",
+            "id": 1504,
+            "isenabled": 1,
+            "name": "Vero Beach",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's Vero Beach Resort",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.240314Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "BONUSCONTENT",
+            "id": 1507,
+            "isenabled": 0,
+            "name": "Website Bonus Content",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "MK",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.272061Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "BESTFRIENDS",
+            "id": 1508,
+            "isenabled": 0,
+            "name": "Best Friends",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.280366Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "DEGBOARDWALK",
+            "id": 1512,
+            "isenabled": 1,
+            "name": "DEG Boardwalk",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's Boardwalk Inn",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.312727Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "GLOBALLPP",
+            "id": 1518,
+            "isenabled": 1,
+            "name": "GLOBAL LPP",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "STUDIO",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "PARK",
+            "sort": 50
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.372923Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "BACKYARDBBQ",
+            "id": 1524,
+            "isenabled": 0,
+            "name": "Mickey's Backyard BBQ",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Mickey's Backyard BBQ",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.399361Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "KIDANIVILLAGE",
+            "id": 1566,
+            "isenabled": 1,
+            "name": "Kidani Village",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Kidani Village",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.431482Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "DAAR",
+            "id": 1572,
+            "isenabled": 1,
+            "name": "Disney's Art of Animation Resort",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's Art of Animation Resort",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.440362Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPRSPORTS",
+            "code": "DLRMARATHONCOURSE",
+            "id": 1594,
+            "isenabled": 0,
+            "name": "runDisney Disneyland",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "WDWPRSPORTS",
+            "prettyname": "runDisney Disneyland",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.502643Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "HILTONHEAD",
+            "id": 1598,
+            "isenabled": 1,
+            "name": "Hilton Head",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "RESORTS",
+            "prettyname": "Disney's Hilton Head Island Resort",
+            "rovergroup": "RESORTS",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.519677Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPRSPORTS",
+            "code": "HPFIELDHOUSE",
+            "id": 1600,
+            "isenabled": 0,
+            "name": "HP Field House",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "WDWPRSPORTS",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.528416Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPRSPORTS",
+            "code": "DLRMARATHONSPECIAL",
+            "id": 1604,
+            "isenabled": 0,
+            "name": "runDisney DLR Special",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "WDWPRSPORTS",
+            "prettyname": "runDisney Disneyland",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.550645Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPRSPORTS",
+            "code": "JOSTENSCENTER",
+            "id": 1606,
+            "isenabled": 0,
+            "name": "Josten's Center",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "WDWPRSPORTS",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.559492Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPRSPORTS",
+            "code": "TRACKFIELDCOMPLEX",
+            "id": 1610,
+            "isenabled": 0,
+            "name": "Track & Field Complex",
+            "onlinegroup": "RESOR8",
+            "onsitegroup": "WDWPRSPORTS",
+            "prettyname": "Walt Disney World Resort",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.575092Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "WDWPR",
+            "code": "EWWSRESERVATION",
+            "id": 1625,
+            "isenabled": 0,
+            "name": "EWWS Reservation",
+            "onlinegroup": "RESORTS",
+            "onsitegroup": "RESORTS",
+            "prettyname": "ESPN Wide World of Sports",
+            "rovergroup": "MISC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.629615Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLMAGIC",
+            "id": 2145,
+            "isenabled": 1,
+            "name": "Magic",
+            "onlinegroup": "DCLMAGIC",
+            "onsitegroup": "DCLMAGIC",
+            "prettyname": "Disney Magic",
+            "rovergroup": "DCLMAGIC",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.640339Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLFANTASY",
+            "id": 2148,
+            "isenabled": 1,
+            "name": "Fantasy",
+            "onlinegroup": "DCLFANTASY",
+            "onsitegroup": "DCLFANTASY",
+            "prettyname": "Disney Fantasy",
+            "rovergroup": "DCLFANTASY",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.668369Z"
+        }
+    },
+    {
+        "data": {
+            "campuscode": "DCL",
+            "code": "DCLWISH",
+            "id": 2149,
+            "isenabled": 1,
+            "name": "Wish",
+            "onlinegroup": "DCLWISH",
+            "onsitegroup": "DCLWISH",
+            "prettyname": "Disney Wish",
+            "rovergroup": "DCLWISH",
+            "sort": 99
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "wdw_photopass",
+            "table-name": "meta_venue",
+            "timestamp": "2023-09-07T18:35:47.678009Z"
+        }
+    }
+]

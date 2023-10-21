@@ -1,0 +1,18 @@
+stack_extension: &se dreams-resm
+ingest_pattern: kinesis2kinesis
+active: True
+pattern_instances:
+  - region: us-east-1
+    resources:
+      kinesis_dmz:
+        retention_period: &kdr !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+        stream_mode: &ksm !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      kinesis:
+        retention_period: *kdr
+        stream_mode: *ksm
+      cross_account:
+        cross_account_type: &cat target
+        cross_account_id: &id 536797260050
+        cross_account_role_name: lllingest-use1-lod-lllingest-lambda

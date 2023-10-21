@@ -1,0 +1,276 @@
+stack_extension: &se dscribe
+ingest_pattern: &ip kinesis2kinesis
+active: True
+pattern_instances:
+  - region: us-east-1
+    resources:
+      cross_account:  # include this section if your kinesis stream is a non Guest-360 account
+        cross_account_type: &cat target
+        cross_account_id: &id 539934483486 # provide the target account where your source kinesis stream is
+        cross_account_role_name: wdpr-content-S01431-usw2-lst-d-scribe-to-helix-iam_role  # Name of IAM role your cross-account lambda is using
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_LATEST_LANDING # Needs update to appropriate default routing
+      default_schema: &schema LND_DSCRIBE
+      table_path: &key_path_name contentType
+      data_contracts:
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_accommodation_source_data_contract
+          class_name: DScribeAccommodationModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: Accommodation
+          router_database: &database LATEST_LANDING
+          router_schema: *schema
+          router_table: ACCOMMODATION
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_activity_product_source_data_contract
+          class_name: DScribeActivityProductModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: ActivityProduct
+          router_database: *database
+          router_schema: *schema
+          router_table: ACTIVITY_PRODUCT
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_amenity_source_data_contract
+          class_name: DScribeAmenityModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: Amenity
+          router_database: *database
+          router_schema: *schema
+          router_table: AMENITY
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_attraction_source_data_contract
+          class_name: DScribeAttractionModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: Attraction
+          router_database: *database
+          router_schema: *schema
+          router_table: ATTRACTION
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_category_admin_source_data_contract
+          class_name: DScribeCategoryAdminModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: CategoryAdmin
+          router_database: *database
+          router_schema: *schema
+          router_table: CATEGORY_ADMIN
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_character_source_data_contract
+          class_name: DScribeCharacterModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: Character
+          router_database: *database
+          router_schema: *schema
+          router_table: CHARACTER
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_contact_source_data_contract
+          class_name: DScribeContactModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: Contact
+          router_database: *database
+          router_schema: *schema
+          router_table: CONTACT
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_entertainment_source_data_contract
+          class_name: DScribeEntertainmentModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: Entertainment
+          router_database: *database
+          router_schema: *schema
+          router_table: ENTERTAINMENT
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_event_source_data_contract
+          class_name: DScribeEventModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: Event
+          router_database: *database
+          router_schema: *schema
+          router_table: EVENT
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_facet_source_data_contract
+          class_name: DScribeFacetModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: Facet
+          router_database: *database
+          router_schema: *schema
+          router_table: FACET
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_facilities_source_data_contract
+          class_name: DScribeFacilitiesModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: Facility
+          router_database: *database
+          router_schema: *schema
+          router_table: FACILITIES
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_food_beverage_facility_source_data_contract
+          class_name: DScribeFoodBeverageFacilityModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: FoodBeverageFacility
+          router_database: *database
+          router_schema: *schema
+          router_table: FOOD_BEVERAGE_FACILITY
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_golf_course_source_data_contract
+          class_name: DScribeGolfCourseModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: GolfCourse
+          router_database: *database
+          router_schema: *schema
+          router_table: GOLF_COURSE
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_marketing_message_source_data_contract
+          class_name: DScribeMarketingMessageModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: MarketingMessage
+          router_database: *database
+          router_schema: *schema
+          router_table: MARKETING_MESSAGE
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_meal_period_source_data_contract
+          class_name: DScribeMealPeriodModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: MealPeriod
+          router_database: *database
+          router_schema: *schema
+          router_table: MEAL_PERIOD
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_membership_affiliation_source_data_contract
+          class_name: DScribeMembershipAffiliationModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: MembershipAffiliation
+          router_database: *database
+          router_schema: *schema
+          router_table: MEMBERSHIP_AFFILIATION
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_menu_group_source_data_contract
+          class_name: DScribeMenuGroupModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: MenuGroup
+          router_database: *database
+          router_schema: *schema
+          router_table: MENU_GROUP
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_menu_item_modifier_source_data_contract
+          class_name: DScribeMenuItemModifierModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: MenuItemModifier
+          router_database: *database
+          router_schema: *schema
+          router_table: MENU_ITEM_MODIFIER
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_menu_offering_source_data_contract
+          class_name: DScribeMenuOfferingModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: MenuOffering
+          router_database: *database
+          router_schema: *schema
+          router_table: MENU_OFFERING
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_merchandise_facility_source_data_contract
+          class_name: DScribeMerchandiseFacilityModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: MerchandiseFacility
+          router_database: *database
+          router_schema: *schema
+          router_table: MERCHANDISE_FACILITY
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_name_source_data_contract
+          class_name: DScribeNameModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: Name
+          router_database: *database
+          router_schema: *schema
+          router_table: NAME
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_package_source_data_contract
+          class_name: DScribePackageModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: Package
+          router_database: *database
+          router_schema: *schema
+          router_table: PACKAGE
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_point_of_interest_source_data_contract
+          class_name: DScribePointOfInterestModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: PointOfInterest
+          router_database: *database
+          router_schema: *schema
+          router_table: POINT_OF_INTEREST
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_policy_source_data_contract
+          class_name: DScribePolicyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: Policy
+          router_database: *database
+          router_schema: *schema
+          router_table: POLICY
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_product_source_data_contract
+          class_name: DScribeProductModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: Product
+          router_database: *database
+          router_schema: *schema
+          router_table: PRODUCT
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_resort_source_data_contract
+          class_name: DScribeResortModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: Resort
+          router_database: *database
+          router_schema: *schema
+          router_table: RESORT
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_room_category_source_data_contract
+          class_name: DScribeRoomCategoryModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: RoomCategory
+          router_database: *database
+          router_schema: *schema
+          router_table: ROOM_CATEGORY
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_service_product_source_data_contract
+          class_name: DScribeServiceProductModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: ServiceProduct
+          router_database: *database
+          router_schema: *schema
+          router_table: SERVICE_PRODUCT
+        - data_contract: app.src.data_structures.data_contracts.source.dscribe.v0.dscribe_services_source_data_contract
+          class_name: DScribeServicesModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: *key_path_name
+              value: Services
+          router_database: *database
+          router_schema: *schema
+          router_table: SERVICES

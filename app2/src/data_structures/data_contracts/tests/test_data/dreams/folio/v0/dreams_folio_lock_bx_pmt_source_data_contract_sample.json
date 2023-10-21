@@ -1,0 +1,120 @@
+[
+    {
+        "data": {
+            "PMT_ID": 8061,
+            "LCKBX_CHK_NB_VL": "8192",
+            "LCKBX_BTCH_EXTNL_NB_VAL": "N954",
+            "LCKBX_EXTNL_BTCH_DTS": "2006-05-02T04:00:00.000Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "CREATE_DTS": "2008-12-05T08:48:59.915Z",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:02:00.413880Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "LOCK_BX_PMT"
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 13831,
+            "LCKBX_CHK_NB_VL": "237",
+            "LCKBX_BTCH_EXTNL_NB_VAL": "N257",
+            "LCKBX_EXTNL_BTCH_DTS": "2006-08-01T04:00:00.000Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "CREATE_DTS": "2008-12-05T08:48:59.915Z",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:34:09.796620Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "LOCK_BX_PMT",
+            "transaction-id": 983055
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 17691,
+            "LCKBX_CHK_NB_VL": "96729",
+            "LCKBX_BTCH_EXTNL_NB_VAL": "N944",
+            "LCKBX_EXTNL_BTCH_DTS": "2006-09-03T04:00:00.000Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "CREATE_DTS": "2008-12-05T08:48:59.915Z",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:50:38.177366Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "LOCK_BX_PMT",
+            "transaction-id": 458786
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 21671,
+            "LCKBX_CHK_NB_VL": "177",
+            "LCKBX_BTCH_EXTNL_NB_VAL": "N535",
+            "LCKBX_EXTNL_BTCH_DTS": "2006-09-22T04:00:00.000Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "CREATE_DTS": "2008-12-05T08:48:59.915Z",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T00:51:32.310602Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "LOCK_BX_PMT",
+            "transaction-id": 1835051
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 29771,
+            "LCKBX_CHK_NB_VL": "1246",
+            "LCKBX_BTCH_EXTNL_NB_VAL": "N097",
+            "LCKBX_EXTNL_BTCH_DTS": "2006-07-04T04:00:00.000Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "CREATE_DTS": "2008-12-05T08:48:59.915Z",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T01:43:59.316378Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "LOCK_BX_PMT",
+            "transaction-id": 1638444
+        }
+    },
+    {
+        "data": {
+            "PMT_ID": 33731,
+            "LCKBX_CHK_NB_VL": "4718",
+            "LCKBX_BTCH_EXTNL_NB_VAL": "N965",
+            "LCKBX_EXTNL_BTCH_DTS": "2006-09-15T04:00:00.000Z",
+            "CREATE_USR_ID_CD": "UNKNOWN",
+            "CREATE_DTS": "2008-12-05T08:48:59.915Z",
+            "PRGE_DTS": null
+        },
+        "metadata": {
+            "timestamp": "2023-06-13T02:55:17.813713Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "FOLIO",
+            "table-name": "LOCK_BX_PMT"
+        }
+    }
+]

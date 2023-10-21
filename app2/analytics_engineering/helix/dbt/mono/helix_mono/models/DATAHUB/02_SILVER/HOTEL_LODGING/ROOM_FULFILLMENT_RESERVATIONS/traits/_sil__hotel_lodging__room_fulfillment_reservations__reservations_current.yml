@@ -1,0 +1,124 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__reservations_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__reservations_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: travel_plan_id
+        description: ""
+
+      - name: travel_plan_segment_id
+        description: ""
+
+      - name: travel_component_group_number
+        description: ""
+
+      - name: add_on_travel_component_group_number
+        description: ""
+
+      - name: travel_status_name
+        description: ""
+
+      - name: travel_plan_segment_arrival_date
+        description: ""
+
+      - name: travel_plan_segment_departure_date
+        description: ""
+
+      - name: travel_plan_segment_estimated_arrival_time
+        description: ""
+
+      - name: travel_plan_segment_estimated_departure_time
+        description: ""
+
+      - name: vip_level_name
+        description: ""
+
+      - name: gather_code
+        description: ""
+
+      - name: travel_agency_party_id
+        description: ""
+
+      - name: travel_agent_party_id
+        description: ""
+
+      - name: travel_plan_segment_secure_value
+        description: ""
+
+      - name: travel_plan_segment_contact_name
+        description: ""
+
+      - name: travel_plan_segment_cancel_dts
+        description: ""
+
+      - name: travel_plan_segment_cancel_number
+        description: ""
+
+      - name: travel_plan_segment_guaranteed_indicator
+        description: ""
+
+      - name: onsite_phone_number
+        description: ""
+
+      - name: website_transfer_code
+        description: ""
+
+      - name: terms_conditions_version_number
+        description: ""
+
+      - name: service_your_way_option_in
+        description: ""
+
+      - name: communication_channel_id
+        description: ""
+
+      - name: communication_channel_name
+        description: ""
+
+      - name: sales_channel_id
+        description: ""
+
+      - name: sales_channel_name
+        description: ""
+
+      - name: travel_component_group_type_name
+        description: ""
+
+      - name: advance_internet_check_in_indicator
+        description: ""
+
+      - name: group_code
+        description: ""
+
+      - name: group_team_name
+        description: ""
+
+      - name: travel_plan_segment_external_reference_type_name
+        description: ""
+
+      - name: travel_plan_segment_external_reference_source_name
+        description: ""
+
+      - name: travel_plan_segment_external_reference_value
+        description: ""
+
+      - name: travel_plan_segment_data_create_dts
+        description: ""
+
+      - name: travel_plan_segment_create_user_id_cd
+        description: ""
+
+      - name: travel_plan_segment_source_update_dts
+        description: ""

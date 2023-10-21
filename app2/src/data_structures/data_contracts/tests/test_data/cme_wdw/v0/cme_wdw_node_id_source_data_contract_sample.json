@@ -1,0 +1,31 @@
+[
+    {
+        "data": {
+            "id": 1,
+            "max_id": 2611
+        },
+        "metadata": {
+            "timestamp": "2023-07-10T16:16:19.725568Z",
+            "record-type": "data",
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "schema-name": "awakening",
+            "table-name": "node_id"
+        }
+    },
+    {
+        "data": {
+            "id": 1,
+            "max_id": 2615
+        },
+        "metadata": {
+            "timestamp": "2023-07-12T18:03:47.944358Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "awakening",
+            "table-name": "node_id",
+            "transaction-id": 1042809469551517
+        }
+    }
+]

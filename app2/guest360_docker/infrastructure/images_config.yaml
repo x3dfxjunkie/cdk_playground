@@ -1,0 +1,12 @@
+---
+base_image:
+  enabled: true
+  ephemeral_enabled: true
+  file: base_image.Dockerfile
+  base_repo: "876496569223.dkr.ecr.us-east-1.amazonaws.com/wdpr-ra/wdpr-ra-docker-base-root-debian12"
+  base_tag: "v1"
+  directory: .
+  platform: aws_ecr_assets.Platform.LINUX_AMD64
+  target_version: v0.1.1
+  special_replication: false
+...

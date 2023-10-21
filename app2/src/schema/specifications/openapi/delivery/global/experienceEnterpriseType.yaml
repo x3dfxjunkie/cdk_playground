@@ -1,0 +1,14 @@
+experienceEnterpriseType:
+  type: string
+  description: Experience Enterprise Type, a Guest360 curated attribute that determines if the experience is a Attraction, Entertainment, Park, etc
+  enum:
+    - Theme Park
+    - Water Park
+    - Resort
+    - Food and Beverage
+    - Entertainment
+    - Attraction
+    - Merchandise
+    - Itinerary
+    - Meal Period
+    - Activity Product

@@ -1,0 +1,52 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__inventory__rooms_current
+    description: "{{ doc('sil__hotel_lodging__inventory__rooms_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=inventory
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: room_id
+        description: ""
+
+      - name: room_inventory_type_id
+        description: ""
+
+      - name: room_type_code
+        description: ""
+
+      - name: room_number
+        description: ""
+
+      - name: facility_id
+        description: ""
+
+      - name: facility_name
+        description: ""
+
+      - name: room_description
+        description: ""
+
+      - name: connected_resource_inventory_id
+        description: ""
+
+      - name: connected_room_inventory_type_id
+        description: ""
+
+      - name: connected_room_type_code
+        description: ""
+
+      - name: connected_room_number
+        description: ""
+
+      - name: connected_room_description
+        description: ""

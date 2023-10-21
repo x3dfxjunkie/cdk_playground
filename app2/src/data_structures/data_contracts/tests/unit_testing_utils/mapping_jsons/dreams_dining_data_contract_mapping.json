@@ -1,0 +1,412 @@
+{
+    "DREAMSDiningTcExtnlRefModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tc_extnl_ref_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tc_extnl_ref"
+            }
+        }
+    },
+    "DREAMSDiningTcGrpModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tc_grp_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tc_grp"
+            }
+        }
+    },
+    "DREAMSDiningTcGstModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tc_gst_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tc_gst"
+            }
+        }
+    },
+    "DREAMSDiningAcmCmpntModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_acm_cmpnt_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "acm_cmpnt"
+            }
+        }
+    },
+    "DREAMSDiningAdmCmpntEnttlModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_adm_cmpnt_enttl_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "adm_cmpnt_enttl"
+            }
+        }
+    },
+    "DREAMSDiningPkgTcModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_pkg_tc_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "pkg_tc"
+            }
+        }
+    },
+    "DREAMSDiningTcRsnModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tc_rsn_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tc_rsn"
+            }
+        }
+    },
+    "DREAMSDiningTcRsrvblRsrcModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tc_rsrvbl_rsrc_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tc_rsrvbl_rsrc"
+            }
+        }
+    },
+    "DREAMSDiningTpGthrModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tp_gthr_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tp_gthr"
+            }
+        }
+    },
+    "DREAMSDiningGrpTcGrpModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_grp_tc_grp_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp_tc_grp"
+            }
+        }
+    },
+    "DREAMSDiningTcModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tc_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tc"
+            }
+        },
+        "s3": {
+            "lst-use1-guest360-ingestion-raw": {
+                "path-filter": "snowpipe/database=LATEST_LANDING/schema=LND_DREAMS_DINING/table=TC/stream=lst-use1-guest360-dreams-dine-kinesis-dmz/2023/07/"
+            }
+        }
+    },
+    "DREAMSDiningTpPtyModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tp_pty_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tp_pty"
+            }
+        }
+    },
+    "DREAMSDiningTpsModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tps_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tps"
+            }
+        },
+        "s3": {
+            "lst-use1-guest360-ingestion-raw": {
+                "path-filter": "snowpipe/database=DEFAULT_ROUTER_LATEST_LANDING/schema=res_mgmt/table=tps/stream=lst-use1-guest360-dreams-dine-kinesis-dmz/2023/07/"
+            }
+        }
+    },
+    "DREAMSDiningResHistModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_res_hist_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_hist"
+            }
+        }
+    },
+    "DREAMSDiningResMgmtReqRteModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_res_mgmt_req_rte_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_mgmt_req_rte"
+            }
+        },
+        "s3": {
+            "lst-use1-guest360-ingestion-raw": {
+                "path-filter": "snowpipe/database=DEFAULT_ROUTER_LATEST_LANDING/schema=res_mgmt/table=res_mgmt_req_rte/stream=lst-use1-guest360-dreams-dine-kinesis-dmz/2023/07/"
+            }
+        }
+    },
+    "DREAMSDiningResMgmtReqModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_res_mgmt_req_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_mgmt_req"
+            }
+        }
+    },
+    "DREAMSDiningTpModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tp_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tp"
+            }
+        }
+    },
+    "DREAMSDiningTpsAlrgyModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tps_alrgy_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tps_alrgy"
+            }
+        },
+        "s3": {
+            "lst-use1-guest360-ingestion-raw": {
+                "path-filter": "snowpipe/database=DEFAULT_ROUTER_LATEST_LANDING/schema=res_mgmt/table=tps_alrgy/stream=lst-use1-guest360-dreams-dine-kinesis-dmz/2023/07/"
+            }
+        }
+    },
+    "DREAMSDiningTpsCnfirmRcpntModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tps_cnfirm_rcpnt_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tps"
+            }
+        }
+    },
+    "DREAMSDiningTpsExtnlRefModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tps_extnl_ref_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tps_extnl_ref"
+            }
+        }
+    },
+    "DREAMSDiningComnctnChanModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_comnctn_chan_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "comnctn_chan"
+            }
+        }
+    },
+    "DREAMSDiningPrdfTcRsnModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_prdf_tc_rsn_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "prdf_tc_rsn"
+            }
+        }
+    },
+    "DREAMSDiningResMgmtFeatReqModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_res_mgmt_feat_req_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_mgmt_feat_req"
+            }
+        }
+    },
+    "DREAMSDiningResMgmtMsgModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_res_mgmt_msg_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "res_mgmt_msg"
+            }
+        }
+    },
+    "DREAMSDiningRsrtGstBkngWndwOptModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_rsrt_gst_bkng_wndw_opt_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "rsrt_gst_bkng_wndw_opt"
+            }
+        }
+    },
+    "DREAMSDiningAdmCmpntModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_adm_cmpnt_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "adm_cmpnt"
+            }
+        }
+    },
+    "DREAMSDiningAlrgyModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_alrgy_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "alrgy"
+            }
+        }
+    },
+    "DREAMSDiningPkgTcTktModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_pkg_tc_tkt_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "pkg_tc_tkt"
+            }
+        }
+    },
+    "DREAMSDiningSlsChanModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_sls_chan_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "sls_chan"
+            }
+        }
+    },
+    "DREAMSDiningTcFeeModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tc_fee_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tc_fee"
+            }
+        }
+    },
+    "DREAMSDiningTcFeeTypModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tc_fee_typ_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tc_fee_typ"
+            }
+        }
+    },
+    "DREAMSDiningTcGrpTypModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tc_grp_typ_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tc_grp_typ"
+            }
+        }
+    },
+    "DREAMSDiningTcRsnTypModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tc_rsn_typ_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tc_rsn_typ"
+            }
+        }
+    },
+    "DREAMSDiningTcTypModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tc_typ_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tc_typ"
+            }
+        }
+    },
+    "DREAMSDiningTrvlStsModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_trvl_sts_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "trvl_sts"
+            }
+        }
+    },
+    "DREAMSDiningTpExtnlRefModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tp_extnl_ref_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tp_extnl_ref"
+            }
+        }
+    },
+    "DREAMSDiningTpsExtnlRefTypModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_tps_extnl_ref_typ_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "tps_extnl_ref_typ"
+            }
+        }
+    },
+    "DREAMSDiningVipLvlModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_vip_lvl_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "vip_lvl"
+            }
+        }
+    },
+    "DREAMSDiningVstPrpsModel": {
+        "data-source-folder": "dreams/dining/v0",
+        "data-contract-name": "dreams_dining_vst_prps_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-dine-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "vst_prps"
+            }
+        }
+    }
+}

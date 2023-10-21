@@ -1,0 +1,182 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:05:55Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "OWN_REF_TYP_NM": "DPMS_TC"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "own_ref_typ",
+            "timestamp": "2023-07-26T01:12:19.318494Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:05:55Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "OWN_REF_TYP_NM": "INVTRY_TRACKING_ID"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "own_ref_typ",
+            "timestamp": "2023-07-26T01:12:19.341528Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:05:55Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "OWN_REF_TYP_NM": "PARENT_ASGNT_OWN"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "own_ref_typ",
+            "timestamp": "2023-07-26T01:12:19.357202Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:05:55Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "OWN_REF_TYP_NM": "TC"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "own_ref_typ",
+            "timestamp": "2023-07-26T01:12:19.374674Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:05:55Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "OWN_REF_TYP_NM": "TP"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "own_ref_typ",
+            "timestamp": "2023-07-26T01:12:19.430533Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:05:55Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "OWN_REF_TYP_NM": "TPS"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "own_ref_typ",
+            "timestamp": "2023-07-26T01:12:19.439125Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:05:55Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "OWN_REF_TYP_NM": "DPMS_RES_NUMBER"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "own_ref_typ",
+            "timestamp": "2023-07-26T01:12:19.309977Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:05:55Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "OWN_REF_TYP_NM": "FREEZE_ID"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "own_ref_typ",
+            "timestamp": "2023-07-26T01:12:19.327979Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:05:55Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "OWN_REF_TYP_NM": "INVENTORY_REQUEST"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "own_ref_typ",
+            "timestamp": "2023-07-26T01:12:19.334561Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2022-11-14T01:46:50.887449Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "OWN_REF_TYP_NM": "ORIGINAL_TC"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "own_ref_typ",
+            "timestamp": "2023-07-26T01:12:19.350719Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:05:55Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "OWN_REF_TYP_NM": "SE_RSRC_NO"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "own_ref_typ",
+            "timestamp": "2023-07-26T01:12:19.365233Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2009-09-10T14:05:55Z",
+            "CREATE_USR_ID_CD": "MMOUSE01",
+            "OWN_REF_TYP_NM": "TEAM_NM"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "rsrc_inv",
+            "table-name": "own_ref_typ",
+            "timestamp": "2023-07-26T01:12:19.418967Z"
+        }
+    }
+]

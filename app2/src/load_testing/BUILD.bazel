@@ -1,0 +1,435 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/build_rules/lambda_packaging:lambda.bzl", "contains", "endswith", "startswith")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+load("//app/tools/macros/zip_py_lambda_library:def.bzl", "zip_py_lambda_library")
+load("//app/tools/pytest:defs.bzl", "pytest_test")
+
+py_lambda_library(
+    name = "locust_library",
+    srcs = glob(
+        [
+            "app/data_mocker/**/*.py",
+            "lambdas/**/*.py",
+            "app/sources/**/*.py",
+            "app/event_hook/**/*.py",
+            "app/targets/**/*.py",
+            "app/metrics_logger/**/*.py",
+            "app/virtual_users/**/*.py",
+        ],
+    ),
+    imports = ["app"],
+    visibility = ["//visibility:public"],
+    deps = [
+        "//app/src/data_structures/data_contracts",
+        "//app/src/utils",
+        "//app/src/utils/otel",
+        requirement("Faker"),
+        requirement("pyyaml"),
+        requirement("boto3"),
+        requirement("dataclasses-json"),
+        requirement("moto"),
+        requirement("mock"),
+        requirement("pymysql"),
+        requirement("gevent"),
+        requirement("pydantic"),
+        requirement("polyfactory"),
+        requirement("sqlalchemy"),
+        requirement("pika"),
+    ],
+)
+
+pytest_test(
+    name = "load_testing_tests",
+    srcs = glob(
+        [
+            "tests/sources/**/*.py",
+            "tests/targets/**/*.py",
+            "tests/metrics_logger/**/*.py",
+            "tests/scenario_validation/**/*.py",
+            "tests/data_mocker/**/*.py",
+            "tests/virtual_users/**/*.py",
+        ],
+    ),
+    data = glob(["app/virtual_users/**/*.yaml"]) + ["//app/src/data_structures/data_contracts:test_data"],
+    deps = [":locust_library"],
+)
+
+py_lambda_library(
+    name = "ecs_calculator_library",
+    srcs = glob(["lambdas/ecs_calculator/*.py"]),
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("pyyaml"),
+    ],
+)
+
+zip_py_lambda_library(
+    name = "ecs_calculator",
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+
+        # With the move to hermetic toolchains, the zip gets a lib/ directory containing the
+        # python runtime. We don't need that.
+        startswith("lib/"),
+        startswith("__init__.py"),
+    ],
+    target = ":ecs_calculator_library",
+)
+
+py_lambda_library(
+    name = "init_rds_library",
+    srcs = glob([
+        "lambdas/init_rds/*.py",
+    ]),
+    data = glob(["lambdas/init_rds/*.pem"]),
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("boto3"),
+        requirement("pymysql"),
+    ],
+)
+
+zip_py_lambda_library(
+    name = "init_rds_lambda",
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+        startswith("boto3"),
+
+        # With the move to hermetic toolchains, the zip gets a lib/ directory containing the
+        # python runtime. We don't need that.
+        startswith("lib/"),
+        startswith("__init__.py"),
+    ],
+    target = ":init_rds_library",
+)
+
+py_lambda_library(
+    name = "sqs_validator_library",
+    srcs = glob(["lambdas/sqs_validator/*.py"]),
+    visibility = ["//visibility:public"],
+)
+
+zip_py_lambda_library(
+    name = "sqs_validator",
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+
+        # With the move to hermetic toolchains, the zip gets a lib/ directory containing the
+        # python runtime. We don't need that.
+        startswith("lib/"),
+        startswith("__init__.py"),
+    ],
+    target = ":sqs_validator_library",
+)
+
+py_lambda_library(
+    name = "list_files_s3_library",
+    srcs = glob(["lambdas/list_files_s3/*.py"]),
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("boto3"),
+    ],
+)
+
+zip_py_lambda_library(
+    name = "list_files_s3",
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+
+        # With the move to hermetic toolchains, the zip gets a lib/ directory containing the
+        # python runtime. We don't need that.
+        startswith("lib/"),
+        startswith("__init__.py"),
+    ],
+    target = ":list_files_s3_library",
+)
+
+pytest_test(
+    name = "lambdas_tests",
+    srcs = glob(
+        [
+            "lambdas/tests/**/*.py",
+        ],
+    ),
+    deps = [
+        "//app/src/load_testing:consolidate_results_library",
+        "//app/src/load_testing:ecs_calculator_library",
+        "//app/src/load_testing:eval_conditions_system_test_library",
+        "//app/src/load_testing:evaluator_system_test_library",
+        "//app/src/load_testing:get_app_config_library",
+        "//app/src/load_testing:get_list_app_config_library",
+        "//app/src/load_testing:list_files_s3_library",
+        "//app/src/load_testing:locust_library",
+        "//app/src/load_testing:send_s3_results_library",
+        "//app/src/load_testing:sfn_executor_library",
+        requirement("pytest-freezegun"),
+    ],
+)
+
+pytest_test(
+    name = "consolidate",
+    srcs = glob(
+        [
+            "lambdas/tests/**/test_consolidate_results.py",
+        ],
+    ),
+    deps = [
+        "//app/src/load_testing:consolidate_results_library",
+        "//app/src/load_testing:locust_library",
+    ],
+)
+
+py_lambda_library(
+    name = "evaluator_library",
+    srcs = glob(["lambdas/evaluator/*.py"]),
+    visibility = ["//visibility:public"],
+)
+
+zip_py_lambda_library(
+    name = "evaluator",
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+
+        # With the move to hermetic toolchains, the zip gets a lib/ directory containing the
+        # python runtime. We don't need that.
+        startswith("lib/"),
+        startswith("__init__.py"),
+    ],
+    target = ":evaluator_library",
+)
+
+py_lambda_library(
+    name = "evaluator_system_test_library",
+    srcs = glob(["lambdas/evaluator_system_test/*.py"]),
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("pytz"),
+    ],
+)
+
+zip_py_lambda_library(
+    name = "evaluator_system_test",
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+
+        # With the move to hermetic toolchains, the zip gets a lib/ directory containing the
+        # python runtime. We don't need that.
+        startswith("lib/"),
+        startswith("__init__.py"),
+    ],
+    target = ":evaluator_system_test_library",
+)
+
+py_lambda_library(
+    name = "consolidate_results_library",
+    srcs = glob([
+        "lambdas/consolidate_results/*.py",
+    ]),
+    data = glob([
+        "lambdas/consolidate_results/*.j2",
+    ]),
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("jinja2"),
+    ],
+)
+
+zip_py_lambda_library(
+    name = "consolidate_results",
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+        startswith("lib/"),
+        startswith("__init__.py"),
+        contains("boto3/"),  # Ignore boto3
+        contains("botocore/"),  # Ignore botocore
+    ],
+    target = ":consolidate_results_library",
+)
+
+py_lambda_library(
+    name = "send_s3_results_library",
+    srcs = glob([
+        "lambdas/send_s3_results/*.py",
+    ]),
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("jinja2"),
+    ],
+)
+
+zip_py_lambda_library(
+    name = "send_s3_results",
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+        startswith("lib/"),
+        startswith("__init__.py"),
+        contains("boto3/"),  # Ignore boto3
+        contains("botocore/"),  # Ignore botocore
+    ],
+    target = ":send_s3_results_library",
+)
+
+py_lambda_library(
+    name = "eval_conditions_system_test_library",
+    srcs = glob(["lambdas/eval_conditions_system_test/*.py"]),
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("pytz"),
+    ],
+)
+
+zip_py_lambda_library(
+    name = "eval_conditions_system_test",
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+        # With the move to hermetic toolchains, the zip gets a lib/ directory containing the
+        # python runtime. We don't need that.
+        startswith("lib/"),
+        startswith("__init__.py"),
+    ],
+    target = ":eval_conditions_system_test_library",
+)
+
+py_lambda_library(
+    name = "sfn_executor_library",
+    srcs = glob([
+        "lambdas/sfn_executor/*.py",
+    ]),
+    visibility = ["//visibility:public"],
+)
+
+zip_py_lambda_library(
+    name = "sfn_executor",
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+        startswith("lib/"),
+        startswith("__init__.py"),
+        contains("boto3/"),  # Ignore boto3
+        contains("botocore/"),  # Ignore botocore
+    ],
+    target = ":sfn_executor_library",
+)
+
+# test rabbitmq
+
+py_lambda_library(
+    name = "rabbitmq_test_library",
+    srcs = glob([
+        "lambdas/rabbitmq_test/*.py",
+    ]),
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("pika"),
+        requirement("python-json-logger"),
+    ],
+)
+
+zip_py_lambda_library(
+    name = "rabbitmq_test",
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+        startswith("lib/"),
+        startswith("__init__.py"),
+        contains("boto3/"),  # Ignore boto3
+        contains("botocore/"),  # Ignore botocore
+    ],
+    target = ":rabbitmq_test_library",
+)
+
+py_lambda_library(
+    name = "get_app_config_library",
+    srcs = glob([
+        "lambdas/get_app_config/*.py",
+    ]),
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("boto3"),
+    ],
+)
+
+zip_py_lambda_library(
+    name = "get_app_config",
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+        startswith("lib/"),
+        startswith("__init__.py"),
+        contains("boto3/"),  # Ignore boto3
+        contains("botocore/"),  # Ignore botocore
+    ],
+    target = ":get_app_config_library",
+)
+
+py_lambda_library(
+    name = "get_list_app_config_library",
+    srcs = glob([
+        "lambdas/get_list_app_config/*.py",
+    ]),
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("boto3"),
+    ],
+)
+
+zip_py_lambda_library(
+    name = "get_list_app_config",
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+        startswith("lib/"),
+        startswith("__init__.py"),
+        contains("boto3/"),  # Ignore boto3
+        contains("botocore/"),  # Ignore botocore
+    ],
+    target = ":get_list_app_config_library",
+)
+
+py_lambda_library(
+    name = "rds_manager_library",
+    srcs = glob([
+        "lambdas/rds_manager/*.py",
+    ]),
+    data = ["//app:app_level_conftest_file"],
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("boto3"),
+        requirement("aws-lambda-powertools"),
+    ],
+)
+
+zip_py_lambda_library(
+    name = "rds_manager_lambda",
+    ignore = [
+        contains("/__pycache__/"),
+        endswith(".pyc"),
+        endswith(".pyo"),
+        startswith("boto3"),
+        startswith("lib/"),
+        startswith("__init__.py"),
+    ],
+    target = ":rds_manager_library",
+)

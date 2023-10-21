@@ -1,0 +1,223 @@
+stack_extension: &se dreams-prfl # 12 Character Limit!
+ingest_pattern: &ip dms # DO NOT UPDATE must = dms for dms pattern
+active: True
+feature_branch: False # set to False unless you want to deploy DMS in ephemeral envs
+pattern_instances:
+  - region: &region-1 us-east-1 # DO NOT UPDATE
+    resources:
+      kinesis_dmz:
+        retention_period:
+          !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+        stream_mode: !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      kinesis:
+        retention_period:
+          !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+        stream_mode: !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      dms_repl_task: # AWS DMS replication task
+        - &replication_task_definitions
+          replication_task_identifier: ful1 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "prfl_mgmt"
+                  table-name: "%" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc1
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - <<: *replication_task_definitions
+          replication_task_identifier: low  #Low volume tables needing data for Contract Creation
+          migration_type: full-load
+          table_mappings:
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: &rule_action explicit # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "prfl_mgmt"
+                  table-name: "srvc_typ" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "2" # Unique numeric value to identify the rule.
+                rule-name: "2" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "prfl_mgmt"
+                  table-name: "gid" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "3" # Unique numeric value to identify the rule.
+                rule-name: "3" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "prfl_mgmt"
+                  table-name: "prfl_typ" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "4" # Unique numeric value to identify the rule.
+                rule-name: "4" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "prfl_mgmt"
+                  table-name: "prfl_rte_typ" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "5" # Unique numeric value to identify the rule.
+                rule-name: "5" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "prfl_mgmt"
+                  table-name: "hskp_prfl_rte" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "6" # Unique numeric value to identify the rule.
+                rule-name: "6" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "prfl_mgmt"
+                  table-name: "srvc" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "7" # Unique numeric value to identify the rule.
+                rule-name: "7" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "prfl_mgmt"
+                  table-name: "srvc_req_item" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "8" # Unique numeric value to identify the rule.
+                rule-name: "8" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "prfl_mgmt"
+                  table-name: "prfl_rte" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "9" # Unique numeric value to identify the rule.
+                rule-name: "9" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "prfl_mgmt"
+                  table-name: "prfl" #Table qualifier
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "10" # Unique numeric value to identify the rule.
+                rule-name: "10" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "prfl_mgmt"
+                  table-name: "prfl_crtra" #Table qualifier
+      source_endpoint: # AWS DMS Source Endpoint.
+        engine_name: mysql # The type of engine for the endpoint, depending on the EndpointType value. Valid values : mysql | oracle | mariadb | kinesis
+        ssl_mode: verify-ca #Enable Secure Sockets Layer (SSL) mode to use for the SSL connection. Allowed values: verify-ca,verify-full
+        settings: # See https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Source.html
+          #server_timezone: US/Pacific # #Specifies the time zone for the target MySQL-compatible database, e.g., US/Eastern, US/Pacific, UTC / remove if UTC
+          secrets_manager_secret_id: arn:aws:secretsmanager:us-east-1:920268603720:secret:prd-use1-dreams-profile-secret-HyB1sE #pragma: allowlist secret, The ARN, or display name of the SecretsManagerSecret that contains the MySQL endpoint connection details.
+      source_kms_key: 179d9ff2-1d6d-4fd1-b639-ee1fbeb1bc03 # Update for the secrets_manager_secret_id kms key
+      source_ssl_cert: rds-global-bundle # Update for the appropriate source dms certificate, most AWS DBs will use the rds-global-bundle by default
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_PROD_LANDING # Needs update to appropriate default routing
+      data_contracts: # This section needs to be updated for all data contracts for the source
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.profile.v0.dreams_profile_prfl_source_data_contract
+          class_name: DREAMSProfilePrflModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: prfl
+          router_database: &database PROD_LANDING
+          router_schema: &schema LND_DREAMS_PROFILE
+          router_table: PRFL
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.profile.v0.dreams_profile_prfl_rte_source_data_contract
+          class_name: DREAMSProfilePrflRteModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: prfl_rte
+          router_database: *database
+          router_schema: *schema
+          router_table: PRFL_RTE
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.profile.v0.dreams_profile_prfl_rte_typ_source_data_contract
+          class_name: DREAMSProfilePrflRteTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: prfl_rte_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: PRFL_RTE_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.profile.v0.dreams_profile_prfl_typ_source_data_contract
+          class_name: DREAMSProfilePrflTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: prfl_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: PRFL_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.profile.v0.dreams_profile_hskp_prfl_rte_source_data_contract
+          class_name: DREAMSProfileHskpPrflRteModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: hskp_prfl_rte
+          router_database: *database
+          router_schema: *schema
+          router_table: HSKP_PRFL_RTE
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.profile.v0.dreams_profile_prfl_crtra_source_data_contract
+          class_name: DREAMSProfilePrflCrtraModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: prfl_crtra
+          router_database: *database
+          router_schema: *schema
+          router_table: PRFL_CRTRA
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.profile.v0.dreams_profile_gid_source_data_contract
+          class_name: DREAMSProfileGidModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: gid
+          router_database: *database
+          router_schema: *schema
+          router_table: GID
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.profile.v0.dreams_profile_srvc_source_data_contract
+          class_name: DREAMSProfileSrvcModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: srvc
+          router_database: *database
+          router_schema: *schema
+          router_table: SRVC
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.profile.v0.dreams_profile_srvc_req_item_source_data_contract
+          class_name: DREAMSProfileSrvcReqItemModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: srvc_req_item
+          router_database: *database
+          router_schema: *schema
+          router_table: SRVC_REQ_ITEM
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.profile.v0.dreams_profile_srvc_typ_source_data_contract
+          class_name: DREAMSProfileSrvcTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: srvc_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: SRVC_TYP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.profile.v0.dreams_profile_comments_source_data_contract
+          class_name: DREAMSProfileCommentsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: comments
+          router_database: *database
+          router_schema: *schema
+          router_table: COMMENTS

@@ -1,0 +1,114 @@
+[
+	{
+		"data": {
+			"DSNY_FAC_BAND_INVTRY_ID": 16073805,
+			"DSNY_FAC_ID": 503300,
+			"FFLD_EXPRNC_BAND_ID": 30480995,
+			"EXPRNC_BAND_TXN_ID": "0x11EDBF4E5DFD5847AEFF040300000000",
+			"EXPRNC_BAND_FRST_REC_FAC_DTS": "2023-03-10 14:18:02",
+			"CREATE_USR_ID": "f-xbandapp",
+			"CREATE_DTS": "2023-03-10 14:18:02",
+			"UPDT_USR_ID": "f-xbandapp",
+			"UPDT_DTS": "2023-08-24 01:24:17.988000",
+			"LOGICAL_DEL_IN": "N",
+			"FAC_SHIPMT_CASE_NB": "CD52464400"
+		},
+		"metadata": {
+			"timestamp": "2023-08-24T05:24:19.747749Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "xbandmd",
+			"table-name": "dsny_fac_band_invtry"
+		}
+	},
+	{
+		"data": {
+			"DSNY_FAC_BAND_INVTRY_ID": 16073805,
+			"DSNY_FAC_ID": 503300,
+			"FFLD_EXPRNC_BAND_ID": 30480995,
+			"EXPRNC_BAND_TXN_ID": "0x11EDBF4E5DFD5847AEFF040300000000",
+			"EXPRNC_BAND_FRST_REC_FAC_DTS": "2023-03-10 14:18:02",
+			"CREATE_USR_ID": "f-xbandapp",
+			"CREATE_DTS": "2023-03-10 14:18:02",
+			"UPDT_USR_ID": "f-xbandapp",
+			"UPDT_DTS": "2023-08-24 01:24:17.988000",
+			"LOGICAL_DEL_IN": "N",
+			"FAC_SHIPMT_CASE_NB": "CD52464400"
+		},
+		"metadata": {
+			"timestamp": "2023-08-24T05:24:19.747749Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "xbandmd",
+			"table-name": "dsny_fac_band_invtry",
+			"transaction-id": 2393834382235541,
+			"transaction-record-id": 1,
+			"prev-transaction-id": 2393834382220566,
+			"prev-transaction-record-id": 1,
+			"commit-timestamp": "2023-08-24T05:24:17.000000Z",
+			"stream-position": "mysql-bin-changelog.557358:73274:0:73518:2393834382235541:mysql-bin-changelog.557358:73186"
+		}
+	},
+	{
+		"data": {
+			"DSNY_FAC_BAND_INVTRY_ID": 16073805,
+			"DSNY_FAC_ID": 503300,
+			"FFLD_EXPRNC_BAND_ID": 30480995,
+			"EXPRNC_BAND_TXN_ID": "0x11EDBF4E5DFD5847AEFF040300000000",
+			"EXPRNC_BAND_FRST_REC_FAC_DTS": "2023-03-10 14:18:02",
+			"EXPRNC_BAND_REC_LVG_FAC_DTS": "2023-08-24 01:24:17.981000",
+			"CREATE_USR_ID": "f-xbandapp",
+			"CREATE_DTS": "2023-03-10 14:18:02Z",
+			"UPDT_USR_ID": "f-xbandapp",
+			"UPDT_DTS": "2023-08-24 01:24:17.988000",
+			"LOGICAL_DEL_IN": "N",
+			"FAC_SHIPMT_CASE_NB": "CD52464400"
+		},
+		"metadata": {
+			"timestamp": "2023-08-24T05:24:19.747749Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "xbandmd",
+			"table-name": "dsny_fac_band_invtry",
+			"transaction-id": 2393834382235541,
+			"transaction-record-id": 1,
+			"prev-transaction-id": 2393834382220566,
+			"prev-transaction-record-id": 1,
+			"commit-timestamp": "2023-08-24T05:24:17.000000Z",
+			"stream-position": "mysql-bin-changelog.557358:73274:0:73518:2393834382235541:mysql-bin-changelog.557358:73186"
+		}
+	},
+	{
+		"data": {
+			"DSNY_FAC_BAND_INVTRY_ID": 16073805,
+			"DSNY_FAC_ID": 503300,
+			"FFLD_EXPRNC_BAND_ID": 30480995,
+			"EXPRNC_BAND_TXN_ID": "0x11EDBF4E5DFD5847AEFF040300000000",
+			"EXPRNC_BAND_FRST_REC_FAC_DTS": "2023-03-10 14:18:02",
+			"EXPRNC_BAND_REC_LVG_FAC_DTS": "2023-08-24 01:24:17.981000",
+			"CREATE_USR_ID": "f-xbandapp",
+			"CREATE_DTS": "2023-03-10 14:18:02",
+			"UPDT_USR_ID": "f-xbandapp",
+			"UPDT_DTS": "2023-08-24 01:24:17.988000",
+			"LOGICAL_DEL_IN": "N",
+			"FAC_SHIPMT_CASE_NB": "CD52464400"
+		},
+		"metadata": {
+			"timestamp": "2023-08-24T05:24:19.747749Z",
+			"record-type": "data",
+			"operation": "update",
+			"partition-key-type": "schema-table",
+			"schema-name": "xbandmd",
+			"table-name": "dsny_fac_band_invtry",
+			"transaction-id": 2393834382235541,
+			"transaction-record-id": 1,
+			"prev-transaction-id": 2393834382220566,
+			"prev-transaction-record-id": 1,
+			"commit-timestamp": "2023-08-24T05:24:17.000000Z",
+			"stream-position": "mysql-bin-changelog.557358:73274:0:73518:2393834382235541:mysql-bin-changelog.557358:73186"
+		}
+	}
+]

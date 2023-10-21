@@ -1,0 +1,14 @@
+active: True
+instances:
+  - name: &cn1 rds-global-bundle
+    certificate:
+      cert_name: *cn1
+      cert_url: https://truststore.pki.rds.amazonaws.com/global/global-bundle.pem
+  - name: &cn2 rds-east1-bundle
+    certificate:
+      cert_name: *cn2
+      cert_url: https://truststore.pki.rds.amazonaws.com/us-east-1/us-east-1-bundle.pem
+  - name: &cn3 rds-west2-bundle
+    certificate:
+      cert_name: *cn3
+      cert_url: https://truststore.pki.rds.amazonaws.com/us-west-2/us-west-2-bundle.pem

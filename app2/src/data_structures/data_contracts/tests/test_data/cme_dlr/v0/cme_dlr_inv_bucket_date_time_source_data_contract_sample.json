@@ -1,0 +1,132 @@
+[
+    {
+        "data": {
+            "id": 17362,
+            "inv_bucket_id": "DLR_DP_AP_DAILY",
+            "inv_date": "2023-06-20",
+            "time_zone": "America/Los_Angeles",
+            "max_inventory": 9391,
+            "soft_inventory_limit": 9366,
+            "curr_inventory": 8717,
+            "last_updated": "2023-06-18T17:40:25Z",
+            "update_usr": "MICKEY01",
+            "created_on": "2022-05-23T12:19:38Z",
+            "created_usr": "DUCKD01",
+            "is_active": 1,
+            "is_reservable": 1
+        },
+        "metadata": {
+            "timestamp": "2023-06-19T00:40:31.016301Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "awakening",
+            "table-name": "inv_bucket_date_time",
+            "transaction-id": null
+        }
+    },
+    {
+        "data": {
+            "id": 16302,
+            "inv_bucket_id": "DLR_DP_TICKET_DAILY",
+            "inv_date": "2023-06-22",
+            "time_zone": "America/Los_Angeles",
+            "max_inventory": 18376,
+            "soft_inventory_limit": 18351,
+            "curr_inventory": 12727,
+            "last_updated": "2023-06-18T17:40:26Z",
+            "update_usr": "MICKEY01",
+            "created_on": "2022-05-23T12:19:31Z",
+            "created_usr": "DUCKD01",
+            "is_active": 1,
+            "is_reservable": 1
+        },
+        "metadata": {
+            "timestamp": "2023-06-19T00:40:31.046077Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "awakening",
+            "table-name": "inv_bucket_date_time",
+            "transaction-id": 51754356103945
+        }
+    },
+    {
+        "data": {
+            "id": 17727,
+            "inv_bucket_id": "DLR_CA_AP_DAILY",
+            "inv_date": "2023-08-31",
+            "time_zone": "America/Los_Angeles",
+            "max_inventory": 8883,
+            "soft_inventory_limit": 8858,
+            "curr_inventory": 1289,
+            "last_updated": "2023-06-18T17:40:27Z",
+            "update_usr": "MICKEY01",
+            "created_on": "2022-05-23T12:20:59Z",
+            "created_usr": "DUCKD01",
+            "is_active": 1,
+            "is_reservable": 1
+        },
+        "metadata": {
+            "timestamp": "2023-06-19T00:40:31.093262Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "awakening",
+            "table-name": "inv_bucket_date_time",
+            "transaction-id": 51754356110748
+        }
+    },
+    {
+        "data": {
+            "id": 21346,
+            "inv_bucket_id": "DLR_DP_OFFER_DAILY",
+            "inv_date": "2023-06-21",
+            "time_zone": "America/Los_Angeles",
+            "max_inventory": 2454,
+            "soft_inventory_limit": 2434,
+            "curr_inventory": 1640,
+            "last_updated": "2023-06-18T17:40:30Z",
+            "update_usr": "MICKEY01",
+            "created_on": "2023-05-26T12:31:31Z",
+            "created_usr": "DUCKD01",
+            "is_active": 1,
+            "is_reservable": 1
+        },
+        "metadata": {
+            "timestamp": "2023-06-19T00:40:31.161699Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "awakening",
+            "table-name": "inv_bucket_date_time",
+            "transaction-id": 51754356119703
+        }
+    },
+    {
+        "data": {
+            "id": 21238,
+            "inv_bucket_id": "DLR_CA_OFFER_DAILY",
+            "inv_date": "2023-06-22",
+            "time_zone": "America/Los_Angeles",
+            "max_inventory": 1476,
+            "soft_inventory_limit": 1456,
+            "curr_inventory": 717,
+            "last_updated": "2023-06-18T17:40:30Z",
+            "update_usr": "MICKEY01",
+            "created_on": "2023-05-26T12:31:12Z",
+            "created_usr": "DUCKD01",
+            "is_active": 1,
+            "is_reservable": 1
+        },
+        "metadata": {
+            "timestamp": "2023-06-19T00:40:31.176137Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "awakening",
+            "table-name": "inv_bucket_date_time",
+            "transaction-id": 51754356119703
+        }
+    }
+]

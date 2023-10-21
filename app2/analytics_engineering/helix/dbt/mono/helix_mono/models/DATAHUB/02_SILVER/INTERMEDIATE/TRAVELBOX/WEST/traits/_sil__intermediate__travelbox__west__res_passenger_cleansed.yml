@@ -1,0 +1,331 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__west__res_passenger_cleansed
+    description: '{{ doc("sil__intermediate__travelbox__west__res_passenger_cleansed") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_cleansed
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_booking_id
+            - data_passenger_no
+            - metadata_checksum
+
+    columns:
+      - name: data_booking_id
+        description: "The system generated id of the booking | example: 14377684"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_per_person_price
+        description: "Per person price including tax_x000D_
+ | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_primary_pp_for_booking
+        description: "A flag to indicate whether the passenger use the primary passport for the booking or not. | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 2015-04-27 16:44:54"
+        meta:
+          checksum: True
+
+      - name: data_eligible_insurance
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_travel_status
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_passenger_no
+        description: "Passnger number of the details entered passenger | example: 7"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_profile_id
+        description: "The system  generated id of the H2H profile | example: 9478277"
+        meta:
+          checksum: True
+
+      - name: data_type
+        description: "The availbility type (1 = Available 2 = Free Sell) | example: A"
+        meta:
+          checksum: True
+
+      - name: data_lead
+        description: "A flag indicating that the passenger is the lead passenger ( value is &#39;1&#39; ) or not ( value is &#39;0&#39; ) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_note
+        description: "The note of Special Rate | example: TAQgKRPbRTwNGapBWwgv"
+        meta:
+          checksum: True
+
+      - name: data_per_person_tax
+        description: "TAX APPROPRIATED FOR THIS PERSON FROM THE BOOKING | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_active_for_booking
+        description: "Specifies whether the passenger is active with respect to the booking | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_assistance
+        description: "YES = &#39;Y&#39; NO  = &#39;N&#39; DONT KNOW = &#39;D&#39; | example: X"
+        meta:
+          checksum: True
+
+      - name: data_record_med_cond
+        description: "YES = &#39;Y&#39; NO  = &#39;N&#39; DONT KNOW = &#39;D&#39; | example: X"
+        meta:
+          checksum: True
+
+      - name: data_critical_med_condition
+        description: "A flag indicating whether this passenger has critical medical conditions_x000D_
+Y - has critical medical condition_x000D_
+N - no critical medical condition_x000D_
+D - don&#39;t know_x000D_
+X - not applicable | example: X"
+        meta:
+          checksum: True
+
+      - name: data_third_party_insurance
+        description: "Specifies whether the insurance is third party or not_x000D_
+Third party- 1, Not third party- 0 | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_optional_insurance
+        description: "Specifies whether the insurance is optional or not_x000D_
+Optional- 1, Not optional - 0 | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_send_visa_app_to_lead
+        description: "Specifies whether VISA application is sent to lead passenger_x000D_
+Sent - 1, Not sent - 0 | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_sub_type
+        description: "1 = TYPE1 (GET % OR AMOUNT IN DISCOUNT BEFORE SPECIFIC BOOKING DATE),_x000D_
+2 = TYPE2 (NON CALCULATED DESCRIPTION)_x000D_
+3 = TYPE3 ((GET % OR AMOUNT IN DISCOUNT  BASED ON BOOKING TO DEPARTURE DURATION) | example: A"
+        meta:
+          checksum: True
+
+      - name: data_refuse_insurance
+        description: "Specifies whether to refuse the insurance or not_x000D_
+Refuse - 1, Not refuse - 0 | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_passenger_category
+        description: "Category of the passenger_x000D_
+P - Passenger_x000D_
+A - Adult_x000D_
+C - Child_x000D_
+I - Infant | example: P"
+        meta:
+          checksum: True
+
+      - name: data_first_night_street
+        description: "The street specified for the APIS information of the passenger. | example: dWcgJmbwyAwMWPyYDkOj"
+        meta:
+          checksum: True
+
+      - name: data_first_night_country
+        description: "The TravelBox code of the country defined for the APIS information of the passenger | example: hLgNoERgFvtuKtDgcRTQ"
+        meta:
+          checksum: True
+
+      - name: data_first_night_state
+        description: "The TravelBox code of the state defined for the APIS information of the passenger | example: GZhBLUgUVQbWLbFhvJpp"
+        meta:
+          checksum: True
+
+      - name: data_first_night_city
+        description: "The TravelBox code of the city defined for the APIS information of the passenger | example: jTjVrGCEiCHtRamKzWBo"
+        meta:
+          checksum: True
+
+      - name: data_first_night_post_code
+        description: "The postcode defined for the APIS information of the passenger | example: AmMfZMNXdVkNuwuGpiPR"
+        meta:
+          checksum: True
+
+      - name: data_endorsed_pp_for_booking
+        description: "A flag indicating that the passenger uses an endorsed passport (e.g. a child uses one of the parent&#39;s passport). | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_endorsed_passenger_no
+        description: "If the passenger uses an endorsed passport, the number of the passenger who endorse this passenger_x000D_
+(e.g. if a child is endorsed by one of parents, the number of the parent). | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_visa_req
+        description: "Specifies whether VISA is required or not_x000D_
+Required - 1, Not required - 0 | example: 0"
+        meta:
+          checksum: True
+
+      - name: min_metadata_timestamp
+        description: "The Minimum Metadata Timestamp field is used for updating the version end date of the active record in the target table"
+        tests:
+          - not_null
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

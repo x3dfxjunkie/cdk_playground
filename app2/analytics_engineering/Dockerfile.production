@@ -1,0 +1,29 @@
+ARG REPO_NAME
+ARG IMAGE_TAG
+
+FROM ${REPO_NAME}:${IMAGE_TAG}
+#########################
+#How to build locally
+#docker buildx build --platform=linux/amd64 -f Dockerfile.production --build-arg REPO_NAME=543276908693.dkr.ecr.us-east-1.amazonaws.com/guest360/infrastructure/base_image --build-arg IMAGE_TAG=latest .
+
+LABEL image_name="analytics-engineering"
+LABEL image_version="v0.1.4"
+ENV RUNNING_IN_DOCKER true
+ENV DBT_PROFILES_DIR='/helix/dbt/mono/profile'
+WORKDIR /
+USER root
+COPY /helix /helix/
+COPY ./requirements.txt .
+COPY production/entry_point.sh /entry_point.sh
+RUN apt-get update; \ 
+    apt-get install --no-install-recommends -y curl git jq wget; \ 
+    install -d -o helix -g helix /home/helix /home/helix/.dbt /home/helix/.ssh; \
+    chown -R helix:helix /helix; \ 
+    chmod 755 /entry_point.sh; \
+    chmod 755 /helix; \
+    pip install -r ./requirements.txt --no-cache-dir --upgrade; \
+    rm ./requirements.txt; \
+    cd /helix/dbt/mono/helix_mono ; \
+    dbt deps --profiles-dir $DBT_PROFILES_DIR;
+USER helix
+ENTRYPOINT [ "/entry_point.sh" ]

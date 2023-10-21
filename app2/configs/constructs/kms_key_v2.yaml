@@ -1,0 +1,13 @@
+---
+defaults:
+  description: "Encrypting Data"
+  enable_key_rotation: true
+  enabled: true
+  pending_window: "aws_cdk.Duration.days(7)"
+  removal_policy: "aws_cdk.RemovalPolicy.DESTROY"
+  policy: "aws_cdk.aws_iam.PolicyDocument()"
+
+prod:
+  pending_window: "aws_cdk.Duration.days(30)"
+  removal_policy: "aws_cdk.RemovalPolicy.RETAIN"
+...

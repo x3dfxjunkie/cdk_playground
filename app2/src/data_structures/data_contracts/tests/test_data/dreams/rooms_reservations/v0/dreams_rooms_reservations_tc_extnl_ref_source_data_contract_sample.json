@@ -1,0 +1,121 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-11T13:37:38.414000Z",
+            "CREATE_USR_ID_CD": "FERNJ200",
+                    
+            "JDO_SEQ_NB": 2,
+            "TC_EXTNL_REF_ID": 1327840405,
+            "TC_EXTNL_REF_TYP_NM": "RESERVATION",
+            "TC_EXTNL_REF_VL": "30577053#PBP#3",
+            "TC_EXTNL_SRC_NM": "Accovia",
+            "TC_ID": 12096565555,
+            "UPDT_DTS": "2023-07-21T16:26:56.073000Z",
+            "UPDT_USR_ID_CD": "ELLWK003"
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_extnl_ref",
+            "timestamp": "2023-07-21T20:27:00.962683Z",
+            "transaction-id": 19069772259999
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-11T13:37:38.414000Z",
+            "CREATE_USR_ID_CD": "FERNJ200",
+            "PRGE_DTS":"2023-07-18T06:30:37.488000Z",        
+            "JDO_SEQ_NB": 2,
+            "TC_EXTNL_REF_ID": 1327840406,
+            "TC_EXTNL_REF_TYP_NM": "REQUEST_ID",
+            "TC_EXTNL_REF_VL": "1",
+            "TC_EXTNL_SRC_NM": "Sales_Offer",
+            "TC_ID": 12096565555,
+            "UPDT_DTS": "2023-07-21T16:26:56.073000Z",
+            "UPDT_USR_ID_CD": "ELLWK003"
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_extnl_ref",
+            "timestamp": "2023-07-21T20:27:00.969121Z",
+            "transaction-id": 19069772259999
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-11T13:37:38.414000Z",
+            "CREATE_USR_ID_CD": "FERNJ200",
+            "PRGE_DTS":"2023-07-18T06:30:37.488000Z",        
+            "JDO_SEQ_NB": 2,
+            "TC_EXTNL_REF_ID": 1327840407,
+            "TC_EXTNL_REF_TYP_NM": "CONVERSATION_ID",
+            "TC_EXTNL_REF_VL": "10c3d4f5-6c13-4732-854b-093ac3c8b500",
+            "TC_EXTNL_SRC_NM": "Sales_Offer",
+            "TC_ID": 12096565555,
+            "UPDT_DTS": "2023-07-21T16:26:56.073000Z",
+            "UPDT_USR_ID_CD": "ELLWK003"
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_extnl_ref",
+            "timestamp": "2023-07-21T20:27:00.980044Z",
+            "transaction-id": 19069772259999
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2022-12-05T16:56:37Z",
+            "CREATE_USR_ID_CD": "Passkey",
+            "PRGE_DTS":"2023-07-18T06:30:37.488000Z",        
+            "JDO_SEQ_NB": 3,
+            "TC_EXTNL_REF_ID": 303701356,
+            "TC_EXTNL_REF_TYP_NM": "RESERVATION",
+            "TC_EXTNL_REF_VL": "34SS8NDJ",
+            "TC_EXTNL_SRC_NM": "Passkey",
+            "TC_ID": 2072554286,
+            "UPDT_DTS": "2023-07-21T16:26:57.353000Z",
+            "UPDT_USR_ID_CD": "HORSJ018"
+        },
+        "metadata": {
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_extnl_ref",
+            "timestamp": "2023-07-21T20:27:01.193871Z",
+            "transaction-id": 19069772270978
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2023-07-21T16:27:01.494000Z",
+            "CREATE_USR_ID_CD": "CONVP002",
+            "PRGE_DTS":"2023-07-18T06:30:37.488000Z",        
+            "JDO_SEQ_NB": 0,
+            "TC_EXTNL_REF_ID": 1328336745,
+            "TC_EXTNL_REF_TYP_NM": "REQUEST_ID",
+            "TC_EXTNL_REF_VL": "1",
+            "TC_EXTNL_SRC_NM": "Sales_Offer",
+            "TC_ID": 12097627345,
+            "UPDT_DTS": "2023-07-21T16:27:01.494000Z",
+            "UPDT_USR_ID_CD": "CONVP002"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "res_mgmt",
+            "table-name": "tc_extnl_ref",
+            "timestamp": "2023-07-21T20:27:06.728759Z"
+        }
+    }
+]

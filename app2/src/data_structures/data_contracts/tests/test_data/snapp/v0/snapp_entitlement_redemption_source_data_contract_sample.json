@@ -1,0 +1,2216 @@
+[
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T18:19:40.692+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-12T18:19:40.644+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T18:19:39.503+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T18:19:40.686+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T18:19:39.503+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Demographics": {
+                        "DateOfBirth": "2023-01-01",
+                        "FirstName": "FirstName",
+                        "HomePhone": "1234567890",
+                        "LastName": "LastName",
+                        "OkToEmailOffers": "N"
+                    },
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": false,
+                    "MetaData": {
+                        "APSeasonClass": "S",
+                        "AnnualPassType": "SORCE",
+                        "Consume": "T",
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": "AP"
+                    },
+                    "Name": "FL SORCER PASS    AD",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": false,
+                    "CreateDate": "091223",
+                    "Dssn": "091223-ATI-0-01050",
+                    "ExpiredOnDateTime": "2023-09-27T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-12T18:19:38.507+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-12T18:19:38.507+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": true,
+                    "Price": 0,
+                    "PurchaseDate": "2023-09-12",
+                    "RedemptionPriorityOrder": 1,
+                    "RemainingValue": 0,
+                    "SerialNumber": "1050",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "Status": 0,
+                    "Tax": 0,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 1,
+                    "ValidEndDate": "2023-09-27",
+                    "ValidStartDate": "2023-09-12"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091223",
+                    "Dssn": "091223-ATI-0-00939",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "939",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": null,
+                    "EventCode": "EVT-MKGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-12T18:19:38.507+0000",
+                    "ValidateDateTime": null,
+                    "ValidationResult": 1
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T18:47:45.647+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-12T18:47:45.631+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T18:47:44.617+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T18:47:45.643+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T18:47:44.617+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": true,
+                    "MetaData": {
+                        "APSeasonClass": null,
+                        "AnnualPassType": null,
+                        "Consume": "T",
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": "BASE"
+                    },
+                    "Name": "2DAY 1P GATE      AD",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": false,
+                    "CreateDate": "091223",
+                    "Dssn": "091223-APS-228-00006",
+                    "ExpiredOnDateTime": "2023-09-15T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-12T18:47:44.397+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-12T18:47:44.397+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": false,
+                    "Price": 248.94,
+                    "PurchaseDate": "2023-09-12",
+                    "RedemptionPriorityOrder": 6,
+                    "RemainingValue": 116.87,
+                    "SerialNumber": "6",
+                    "Site": "APS",
+                    "Station": "228",
+                    "Status": 0,
+                    "Tax": 15.19,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 1,
+                    "ValidEndDate": "2023-09-15",
+                    "ValidStartDate": "2023-09-12"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091223",
+                    "Dssn": "091223-APS-228-00009",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "9",
+                    "Site": "APS",
+                    "Station": "228",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": 0,
+                    "EventCode": "EVT-STGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-12T18:47:44.397+0000",
+                    "ValidateDateTime": null,
+                    "ValidationResult": 1
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T18:48:43.497+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-12T18:48:43.485+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T18:48:42.440+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T18:48:43.496+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T18:48:42.440+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": true,
+                    "MetaData": {
+                        "APSeasonClass": null,
+                        "AnnualPassType": null,
+                        "Consume": "T",
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": "BASE"
+                    },
+                    "Name": "5DAY 1P GATE      AD",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": false,
+                    "CreateDate": "091223",
+                    "Dssn": "091223-APS-228-00007",
+                    "ExpiredOnDateTime": "2023-09-18T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-12T18:48:42.290+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-12T18:48:42.290+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": false,
+                    "Price": 564.01,
+                    "PurchaseDate": "2023-09-12",
+                    "RedemptionPriorityOrder": 6,
+                    "RemainingValue": 414.46,
+                    "SerialNumber": "7",
+                    "Site": "APS",
+                    "Station": "228",
+                    "Status": 0,
+                    "Tax": 34.42,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 1,
+                    "ValidEndDate": "2023-09-18",
+                    "ValidStartDate": "2023-09-11"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091223",
+                    "Dssn": "091223-APS-228-00009",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "9",
+                    "Site": "APS",
+                    "Station": "228",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": 0,
+                    "EventCode": "EVT-STGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-12T18:48:42.290+0000",
+                    "ValidateDateTime": null,
+                    "ValidationResult": 1
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-13T13:45:04.011+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-13T13:45:03.911+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-13T13:45:02.893+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-13T13:45:04.007+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-13T13:45:02.887+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": null
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": null,
+                    "Type": null,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": false,
+                    "MetaData": {
+                        "APSeasonClass": "A",
+                        "AnnualPassType": "INCRE",
+                        "Consume": "T",
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": "AP"
+                    },
+                    "Name": "INCRED PASS       AD",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": false,
+                    "CreateDate": "091323",
+                    "Dssn": "091323-ATI-0-01210",
+                    "ExpiredOnDateTime": "2023-09-23T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-13T13:45:02.000+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-13T13:45:02.000+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": true,
+                    "Price": 0,
+                    "PurchaseDate": "2023-09-13",
+                    "RedemptionPriorityOrder": 1,
+                    "RemainingValue": 0,
+                    "SerialNumber": "1210",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "Status": 0,
+                    "Tax": 0,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 1,
+                    "ValidEndDate": "2023-09-23",
+                    "ValidStartDate": "2023-09-13"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091323",
+                    "Dssn": "091323-ATI-0-00797",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "797",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": null,
+                    "EventCode": "EVT-MKGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-13T13:45:02.000+0000",
+                    "ValidateDateTime": "2023-09-13T13:45:00.000+0000",
+                    "ValidationResult": 1
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T21:17:36.904+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-12T21:17:36.892+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T21:17:35.873+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T21:17:36.899+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T21:17:35.870+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Demographics": {
+                        "FirstName": "FirstName",
+                        "OkToEmailOffers": "N"
+                    },
+                    "ExternalReference": [
+                        {
+                            "Type": "SWID",
+                            "Value": "{9566151C-20A3-478F-A916-34C9D0C0D12F}"
+                        }
+                    ],
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": true,
+                    "MetaData": {
+                        "APSeasonClass": null,
+                        "AnnualPassType": null,
+                        "Consume": "T",
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": "BASE"
+                    },
+                    "Name": "1DAY MK ONLY GATE AD",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": true,
+                    "CreateDate": "091223",
+                    "Dssn": "091223-ATI-0-01220",
+                    "ExpiredOnDateTime": "2023-09-12T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-12T21:17:35.733+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-12T21:17:35.733+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": false,
+                    "Price": 132.06,
+                    "PurchaseDate": "2023-09-12",
+                    "RedemptionPriorityOrder": 1,
+                    "RemainingValue": 0,
+                    "SerialNumber": "1220",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "Status": 0,
+                    "Tax": 8.06,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 1,
+                    "ValidEndDate": "2023-09-12",
+                    "ValidStartDate": "2023-09-12"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091223",
+                    "Dssn": "091223-ATI-0-01152",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "1152",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": null,
+                    "EventCode": "EVT-MKGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-12T21:17:35.733+0000",
+                    "ValidateDateTime": null,
+                    "ValidationResult": 1
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-13T14:34:19.717+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-13T14:34:19.704+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-13T14:34:18.687+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-13T14:34:19.712+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-13T14:34:18.687+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": null
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": null,
+                    "Type": null,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": false,
+                    "MetaData": {
+                        "APSeasonClass": null,
+                        "AnnualPassType": null,
+                        "Consume": "T",
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": "BASE"
+                    },
+                    "Name": "3D 1P MIL         AD",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": true,
+                    "CreateDate": "091123",
+                    "Dssn": "091123-APS-229-00007",
+                    "ExpiredOnDateTime": "2023-09-25T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-11T20:07:25.637+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-13T14:34:18.450+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": false,
+                    "Price": 283.5,
+                    "PurchaseDate": "2023-09-11",
+                    "RedemptionPriorityOrder": 1,
+                    "RemainingValue": 0,
+                    "SerialNumber": "7",
+                    "Site": "APS",
+                    "Station": "229",
+                    "Status": 0,
+                    "Tax": 0,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 3,
+                    "ValidEndDate": "2023-09-25",
+                    "ValidStartDate": "2023-09-11"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091123",
+                    "Dssn": "091123-APS-229-00004",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "4",
+                    "Site": "APS",
+                    "Station": "229",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": 0,
+                    "EventCode": "EVT-ECGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-13T14:34:18.450+0000",
+                    "ValidateDateTime": null,
+                    "ValidationResult": 1
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-13T19:17:51.613+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-13T19:17:51.573+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-13T19:17:50.530+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-13T19:17:51.613+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-13T19:17:50.527+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": null
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": null,
+                    "Type": null,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": false,
+                    "MetaData": {
+                        "APSeasonClass": "A",
+                        "AnnualPassType": "INCRE",
+                        "Consume": "T",
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": "AP"
+                    },
+                    "Name": "FL INCRED PASS    CH",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": false,
+                    "CreateDate": "091323",
+                    "Dssn": "091323-APS-163-00001",
+                    "ExpiredOnDateTime": "2024-09-12T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-13T19:07:33.313+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-13T19:17:50.393+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": false,
+                    "Price": 1489.94,
+                    "PurchaseDate": "2023-09-13",
+                    "RedemptionPriorityOrder": 1,
+                    "RemainingValue": 1399,
+                    "SerialNumber": "1",
+                    "Site": "APS",
+                    "Station": "163",
+                    "Status": 0,
+                    "Tax": 90.94,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 2,
+                    "ValidEndDate": "2024-09-12",
+                    "ValidStartDate": "2023-08-16"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091323",
+                    "Dssn": "091323-APS-163-00001",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "1",
+                    "Site": "APS",
+                    "Station": "163",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": 0,
+                    "EventCode": "EVT-STGA",
+                    "Type": 4,
+                    "UsageDateTime": "2023-09-13T19:17:50.393+0000",
+                    "ValidateDateTime": null,
+                    "ValidationResult": 10
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-13T16:35:09.341+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-13T16:35:09.278+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-13T16:35:08.247+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-13T16:35:09.335+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-13T16:35:08.247+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Demographics": {
+                        "FirstName": "FirstName",
+                        "OkToEmailOffers": "N"
+                    },
+                    "ExternalReference": [
+                        {
+                            "Type": "SWID",
+                            "Value": "{5928E874-B671-4AE6-9952-4DD282B403FD}"
+                        }
+                    ],
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": true,
+                    "MetaData": {
+                        "APSeasonClass": null,
+                        "AnnualPassType": null,
+                        "Consume": "T",
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": "BASE"
+                    },
+                    "Name": "1DAY MK ONLY GATE AD",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": true,
+                    "CreateDate": "091323",
+                    "Dssn": "091323-ATI-0-01506",
+                    "ExpiredOnDateTime": "2023-09-13T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-13T16:35:08.107+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-13T16:35:08.107+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": false,
+                    "Price": 137.39,
+                    "PurchaseDate": "2023-09-13",
+                    "RedemptionPriorityOrder": 1,
+                    "RemainingValue": 0,
+                    "SerialNumber": "1506",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "Status": 0,
+                    "Tax": 8.39,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 1,
+                    "ValidEndDate": "2023-09-13",
+                    "ValidStartDate": "2023-09-13"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091323",
+                    "Dssn": "091323-ATI-0-01446",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "1446",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": null,
+                    "EventCode": "EVT-MKGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-13T16:35:08.107+0000",
+                    "ValidateDateTime": null,
+                    "ValidationResult": 1
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-13T16:35:11.185+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-13T16:35:11.169+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-13T16:35:10.153+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-13T16:35:11.179+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-13T16:35:10.153+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Demographics": {
+                        "FirstName": "FirstName",
+                        "OkToEmailOffers": "N"
+                    },
+                    "ExternalReference": [
+                        {
+                            "Type": "GUID",
+                            "Value": "30709E8B-7D26-2823-5365-64E1B64FFEBA"
+                        }
+                    ],
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": true,
+                    "MetaData": {
+                        "APSeasonClass": null,
+                        "AnnualPassType": null,
+                        "Consume": "T",
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": "BASE"
+                    },
+                    "Name": "1DAY MK ONLY GATE CH",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": true,
+                    "CreateDate": "091323",
+                    "Dssn": "091323-ATI-0-01508",
+                    "ExpiredOnDateTime": "2023-09-13T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-13T16:35:10.043+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-13T16:35:10.043+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": false,
+                    "Price": 132.06,
+                    "PurchaseDate": "2023-09-13",
+                    "RedemptionPriorityOrder": 1,
+                    "RemainingValue": 0,
+                    "SerialNumber": "1508",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "Status": 0,
+                    "Tax": 8.06,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 1,
+                    "ValidEndDate": "2023-09-13",
+                    "ValidStartDate": "2023-09-13"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091323",
+                    "Dssn": "091323-ATI-0-01447",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "1447",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": null,
+                    "EventCode": "EVT-MKGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-13T16:35:10.043+0000",
+                    "ValidateDateTime": null,
+                    "ValidationResult": 1
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-13T16:35:12.729+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-13T16:35:12.714+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-13T16:35:11.693+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-13T16:35:12.723+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-13T16:35:11.690+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Demographics": {
+                        "FirstName": "FirstName",
+                        "OkToEmailOffers": "N"
+                    },
+                    "ExternalReference": [
+                        {
+                            "Type": "SWID",
+                            "Value": "{960A899D-B3BC-4AD0-B9D8-ECBB475D4475}"
+                        }
+                    ],
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": true,
+                    "MetaData": {
+                        "APSeasonClass": null,
+                        "AnnualPassType": null,
+                        "Consume": "T",
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": "BASE"
+                    },
+                    "Name": "1DAY MK ONLY GATE AD",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": true,
+                    "CreateDate": "091323",
+                    "Dssn": "091323-ATI-0-01512",
+                    "ExpiredOnDateTime": "2023-09-13T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-13T16:35:11.573+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-13T16:35:11.573+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": false,
+                    "Price": 137.39,
+                    "PurchaseDate": "2023-09-13",
+                    "RedemptionPriorityOrder": 1,
+                    "RemainingValue": 0,
+                    "SerialNumber": "1512",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "Status": 0,
+                    "Tax": 8.39,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 1,
+                    "ValidEndDate": "2023-09-13",
+                    "ValidStartDate": "2023-09-13"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091323",
+                    "Dssn": "091323-ATI-0-01453",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "1453",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": null,
+                    "EventCode": "EVT-MKGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-13T16:35:11.573+0000",
+                    "ValidateDateTime": null,
+                    "ValidationResult": 1
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-13T16:35:14.433+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-13T16:35:14.418+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-13T16:35:13.403+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-13T16:35:14.427+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-13T16:35:13.400+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Demographics": {
+                        "FirstName": "FirstName",
+                        "OkToEmailOffers": "N"
+                    },
+                    "ExternalReference": [
+                        {
+                            "Type": "GUID",
+                            "Value": "6CA7E6D5-5DE8-19E9-A24E-6AA19A67CE99"
+                        }
+                    ],
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": true,
+                    "MetaData": {
+                        "APSeasonClass": null,
+                        "AnnualPassType": null,
+                        "Consume": "T",
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": "BASE"
+                    },
+                    "Name": "1DAY MK ONLY GATE CH",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": true,
+                    "CreateDate": "091323",
+                    "Dssn": "091323-ATI-0-01510",
+                    "ExpiredOnDateTime": "2023-09-13T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-13T16:35:13.293+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-13T16:35:13.293+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": false,
+                    "Price": 132.06,
+                    "PurchaseDate": "2023-09-13",
+                    "RedemptionPriorityOrder": 1,
+                    "RemainingValue": 0,
+                    "SerialNumber": "1510",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "Status": 0,
+                    "Tax": 8.06,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 1,
+                    "ValidEndDate": "2023-09-13",
+                    "ValidStartDate": "2023-09-13"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091323",
+                    "Dssn": "091323-ATI-0-01452",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "1452",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": null,
+                    "EventCode": "EVT-MKGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-13T16:35:13.293+0000",
+                    "ValidateDateTime": null,
+                    "ValidationResult": 1
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-13T16:35:09.341+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-13T16:35:09.278+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-13T16:35:08.247+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-13T16:35:09.335+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-13T16:35:08.247+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Demographics": {
+                        "FirstName": "FirstName",
+                        "OkToEmailOffers": "N"
+                    },
+                    "ExternalReference": [
+                        {
+                            "Type": null,
+                            "Value": "{5928E874-B671-4AE6-9952-4DD282B403FD}"
+                        }
+                    ],
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": true,
+                    "MetaData": {
+                        "APSeasonClass": null,
+                        "AnnualPassType": null,
+                        "Consume": "T",
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": "BASE"
+                    },
+                    "Name": "1DAY MK ONLY GATE AD",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": true,
+                    "CreateDate": "091323",
+                    "Dssn": "091323-ATI-0-01506",
+                    "ExpiredOnDateTime": "2023-09-13T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-13T16:35:08.107+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-13T16:35:08.107+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": false,
+                    "Price": 137.39,
+                    "PurchaseDate": "2023-09-13",
+                    "RedemptionPriorityOrder": 1,
+                    "RemainingValue": 0,
+                    "SerialNumber": "1506",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "Status": 0,
+                    "Tax": 8.39,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 1,
+                    "ValidEndDate": "2023-09-13",
+                    "ValidStartDate": "2023-09-13"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091323",
+                    "Dssn": "091323-ATI-0-01446",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "1446",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": null,
+                    "EventCode": "EVT-MKGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-13T16:35:08.107+0000",
+                    "ValidateDateTime": null,
+                    "ValidationResult": 1
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-13T19:13:27.688+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-13T19:13:27.674+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-13T19:13:26.660+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-13T19:13:27.682+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-13T19:13:26.657+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": null
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": null,
+                    "Type": null,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": true,
+                    "MetaData": {
+                        "APSeasonClass": null,
+                        "AnnualPassType": null,
+                        "Consume": "T",
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": "PH"
+                    },
+                    "Name": "2DAY PH GATE      AD",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": false,
+                    "CreateDate": "091323",
+                    "Dssn": "091323-ATI-0-01649",
+                    "ExpiredOnDateTime": "2023-09-16T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-13T19:13:25.000+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-13T19:13:25.000+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": false,
+                    "Price": 347.73,
+                    "PurchaseDate": "2023-09-13",
+                    "RedemptionPriorityOrder": 1,
+                    "RemainingValue": 163.25,
+                    "SerialNumber": "1649",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "Status": 0,
+                    "Tax": 21.22,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 1,
+                    "ValidEndDate": "2023-09-16",
+                    "ValidStartDate": "2023-09-13"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091323",
+                    "Dssn": "091323-ATI-0-01675",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "1675",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": null,
+                    "EventCode": "EVT-AKGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-13T19:13:25.000+0000",
+                    "ValidateDateTime": "2023-09-13T19:13:00.000+0000",
+                    "ValidationResult": 1
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-13T19:13:33.497+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-13T19:13:33.484+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-13T19:13:32.470+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-13T19:13:33.491+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-13T19:13:32.470+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": null
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": null,
+                    "Type": null,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": true,
+                    "MetaData": {
+                        "APSeasonClass": null,
+                        "AnnualPassType": null,
+                        "Consume": "T",
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": "PH"
+                    },
+                    "Name": "2DAY PH GATE      AD",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": false,
+                    "CreateDate": "091323",
+                    "Dssn": "091323-ATI-0-01659",
+                    "ExpiredOnDateTime": "2023-09-16T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-13T19:13:32.000+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-13T19:13:32.000+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": false,
+                    "Price": 347.73,
+                    "PurchaseDate": "2023-09-13",
+                    "RedemptionPriorityOrder": 1,
+                    "RemainingValue": 163.25,
+                    "SerialNumber": "1659",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "Status": 0,
+                    "Tax": 21.22,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 1,
+                    "ValidEndDate": "2023-09-16",
+                    "ValidStartDate": "2023-09-13"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091323",
+                    "Dssn": "091323-ATI-0-01685",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "1685",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": null,
+                    "EventCode": "EVT-AKGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-13T19:13:32.000+0000",
+                    "ValidateDateTime": "2023-09-13T19:14:00.000+0000",
+                    "ValidationResult": 1
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-13T14:33:38.591+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-13T14:33:38.576+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-13T14:33:37.560+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-13T14:33:38.584+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-13T14:33:37.557+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": null
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": null,
+                    "Type": null,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": false,
+                    "MetaData": {
+                        "APSeasonClass": null,
+                        "AnnualPassType": null,
+                        "Consume": "T",
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": "BASE"
+                    },
+                    "Name": "3D 1P MIL         AD",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": true,
+                    "CreateDate": "091123",
+                    "Dssn": "091123-APS-229-00006",
+                    "ExpiredOnDateTime": "2023-09-21T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-07T13:16:00.000+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-13T14:33:37.293+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": false,
+                    "Price": 283.5,
+                    "PurchaseDate": "2023-09-11",
+                    "RedemptionPriorityOrder": 1,
+                    "RemainingValue": 0,
+                    "SerialNumber": "6",
+                    "Site": "APS",
+                    "Station": "229",
+                    "Status": 0,
+                    "Tax": 0,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 3,
+                    "ValidEndDate": "2023-09-21",
+                    "ValidStartDate": "2023-09-07"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091123",
+                    "Dssn": "091123-APS-229-00003",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "3",
+                    "Site": "APS",
+                    "Station": "229",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": 0,
+                    "EventCode": "EVT-ECGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-13T14:33:37.293+0000",
+                    "ValidateDateTime": null,
+                    "ValidationResult": 1
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-13T14:34:19.717+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-13T14:34:19.704+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-13T14:34:18.687+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-13T14:34:19.712+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-13T14:34:18.687+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": null
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": null,
+                    "Type": null,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": false,
+                    "MetaData": {
+                        "APSeasonClass": null,
+                        "AnnualPassType": null,
+                        "Consume": "T",
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": "BASE"
+                    },
+                    "Name": "3D 1P MIL         AD",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": true,
+                    "CreateDate": "091123",
+                    "Dssn": "091123-APS-229-00007",
+                    "ExpiredOnDateTime": "2023-09-25T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-11T20:07:25.637+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-13T14:34:18.450+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": false,
+                    "Price": 283.5,
+                    "PurchaseDate": "2023-09-11",
+                    "RedemptionPriorityOrder": 1,
+                    "RemainingValue": 0,
+                    "SerialNumber": "7",
+                    "Site": "APS",
+                    "Station": "229",
+                    "Status": 0,
+                    "Tax": 0,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 3,
+                    "ValidEndDate": "2023-09-25",
+                    "ValidStartDate": "2023-09-11"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091123",
+                    "Dssn": "091123-APS-229-00004",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "4",
+                    "Site": "APS",
+                    "Station": "229",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": 0,
+                    "EventCode": "EVT-ECGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-13T14:34:18.450+0000",
+                    "ValidateDateTime": null,
+                    "ValidationResult": 1
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T14:38:22.214+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-12T14:38:22.163+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T14:38:21.143+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T14:38:22.205+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T14:38:21.140+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": null
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": null,
+                    "Type": null,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": false,
+                    "MetaData": {
+                        "APSeasonClass": null,
+                        "AnnualPassType": null,
+                        "Consume": null,
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": null
+                    },
+                    "Name": "4DAY GOOD TO GO",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": false,
+                    "CreateDate": "091123",
+                    "Dssn": "091123-APS-229-00005",
+                    "ExpiredOnDateTime": "2023-09-25T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-11T14:49:17.673+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-12T14:30:00.000+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": false,
+                    "Price": 106.5,
+                    "PurchaseDate": "2023-09-11",
+                    "RedemptionPriorityOrder": 1,
+                    "RemainingValue": 47.36,
+                    "SerialNumber": "5",
+                    "Site": "APS",
+                    "Station": "229",
+                    "Status": 0,
+                    "Tax": 6.5,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 2,
+                    "ValidEndDate": "2023-09-25",
+                    "ValidStartDate": "2023-09-11"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091123",
+                    "Dssn": "091123-APS-229-00002",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "2",
+                    "Site": "APS",
+                    "Station": "229",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": null,
+                    "EventCode": "EVT-ECGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-12T14:30:00.000+0000",
+                    "ValidateDateTime": "2023-09-12T14:38:00.000+0000",
+                    "ValidationResult": 1
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T14:39:22.753+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-12T14:39:22.715+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T14:39:21.697+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T14:39:22.746+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T14:39:21.693+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": null
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": null,
+                    "Type": null,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": false,
+                    "MetaData": {
+                        "APSeasonClass": null,
+                        "AnnualPassType": null,
+                        "Consume": null,
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": null
+                    },
+                    "Name": "4DAY GOOD TO GO",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": false,
+                    "CreateDate": "091123",
+                    "Dssn": "091123-APS-229-00004",
+                    "ExpiredOnDateTime": "2023-09-25T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-11T14:50:22.053+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-12T14:30:00.000+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": false,
+                    "Price": 106.5,
+                    "PurchaseDate": "2023-09-11",
+                    "RedemptionPriorityOrder": 1,
+                    "RemainingValue": 47.36,
+                    "SerialNumber": "4",
+                    "Site": "APS",
+                    "Station": "229",
+                    "Status": 0,
+                    "Tax": 6.5,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 2,
+                    "ValidEndDate": "2023-09-25",
+                    "ValidStartDate": "2023-09-11"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091123",
+                    "Dssn": "091123-APS-229-00002",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "2",
+                    "Site": "APS",
+                    "Station": "229",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": null,
+                    "EventCode": "EVT-ECGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-12T14:30:00.000+0000",
+                    "ValidateDateTime": "2023-09-12T14:39:00.000+0000",
+                    "ValidationResult": 1
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-12T14:35:00.587+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-12T14:34:54.819+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-12T14:34:53.803+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-12T14:35:00.582+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-12T14:34:53.797+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "Status": null
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": null,
+                    "Type": null,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": true,
+                    "MetaData": {
+                        "APSeasonClass": null,
+                        "AnnualPassType": null,
+                        "Consume": "T",
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": "PH"
+                    },
+                    "Name": "1DAY PH GATE      AD",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": false,
+                    "CreateDate": "091223",
+                    "Dssn": "091223-APS-229-00001",
+                    "ExpiredOnDateTime": "2023-09-12T00:00:00.000+0000",
+                    "FirstUsageDateTime": "2023-09-12T14:30:00.000+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-12T14:30:00.000+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": false,
+                    "Price": 194.9,
+                    "PurchaseDate": "2023-09-12",
+                    "RedemptionPriorityOrder": 1,
+                    "RemainingValue": 0,
+                    "SerialNumber": "1",
+                    "Site": "APS",
+                    "Station": "229",
+                    "Status": 0,
+                    "Tax": 11.9,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 1,
+                    "ValidEndDate": "2023-09-12",
+                    "ValidStartDate": "2023-09-12"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091223",
+                    "Dssn": "091223-APS-229-00001",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "1",
+                    "Site": "APS",
+                    "Station": "229",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": null,
+                    "EventCode": "EVT-MKGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-12T14:30:00.000+0000",
+                    "ValidateDateTime": "2023-09-12T14:35:00.000+0000",
+                    "ValidationResult": 1
+                }
+            }
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-09-13T14:57:36.107+0000"
+                }
+            ],
+            "CorrelationId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DataCommitTimestamp": "2023-09-13T14:57:36.062+0000",
+            "DataId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "DispatchTimestamp": "2023-09-13T14:57:35.047+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "TEST1234-1234-TEST-1234-TEST12345678",
+            "MessageTimestamp": "2023-09-13T14:57:36.101+0000",
+            "Namespace": "SnApp.Entitlement.Redemption",
+            "Operation": "new",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-09-13T14:57:35.043+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "9.99.9.99",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "Redemption": {
+                "Account": {
+                    "Code": null,
+                    "Demographics": {
+                        "DateOfBirth": "2023-01-01",
+                        "FirstName": "FirstName",
+                        "HomePhone": "1234567890",
+                        "LastName": "LastName",
+                        "OkToEmailOffers": "N"
+                    },
+                    "Id": null,
+                    "Status": 1
+                },
+                "Media": {
+                    "MFRId": "12345678901234567",
+                    "SecureId": "12345678901234567",
+                    "Status": 0,
+                    "Type": 0,
+                    "VisualId": "T12345678901"
+                },
+                "Product": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "ExternallyPriced": false,
+                    "MetaData": {
+                        "APSeasonClass": "S",
+                        "AnnualPassType": "SORCE",
+                        "Consume": "T",
+                        "MemoryMaker": null,
+                        "ProductEntitlementType": "AP"
+                    },
+                    "Name": "FL SORCER PASS    AD",
+                    "Type": 1
+                },
+                "Ticket": {
+                    "Barcode": "TEST1TEST2TEST3TES",
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "Consumed": false,
+                    "CreateDate": "091323",
+                    "Dssn": "091323-ATI-0-01257",
+                    "ExpiredOnDateTime": null,
+                    "FirstUsageDateTime": "2023-09-13T14:57:34.710+0000",
+                    "GroupQuantity": 1,
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "LastUsageDateTime": "2023-09-13T14:57:34.710+0000",
+                    "MagneticCode": " TT9TT9TtTESTT99T9TTT9TESTTT9TESTTES9TT9T9T9TT9TESTT9TTT99TESTTESTTES9TT ",
+                    "NoCharge": true,
+                    "Price": 0,
+                    "PurchaseDate": "2023-09-13",
+                    "RedemptionPriorityOrder": 1,
+                    "RemainingValue": 0,
+                    "SerialNumber": "1257",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "Status": 0,
+                    "Tax": 0,
+                    "TicketCode": "P:9999.9.12345.9999",
+                    "UsagesCount": 1,
+                    "ValidEndDate": null,
+                    "ValidStartDate": "2023-09-13"
+                },
+                "Transaction": {
+                    "Code": "TEST1TEST2TEST3TEST4T",
+                    "CreateDate": "091323",
+                    "Dssn": "091323-ATI-0-00961",
+                    "Id": "TEST1234-1234-TEST-1234-TEST12345678",
+                    "SerialNumber": "961",
+                    "Site": "ATI",
+                    "Station": "0",
+                    "TransactionCode": "P:9999.9.12345.9999"
+                },
+                "UsageInfo": {
+                    "AccessPointCode": "TEST0001",
+                    "BioEnrollmentType": 0,
+                    "BiometricGroup": false,
+                    "BiometricGroupTicketId": null,
+                    "BiometricLevel": 30,
+                    "BiometricScore": null,
+                    "EventCode": "EVT-MKGA",
+                    "Type": 1,
+                    "UsageDateTime": "2023-09-13T14:57:34.710+0000",
+                    "ValidateDateTime": null,
+                    "ValidationResult": 1
+                }
+            }
+        }
+    }
+]

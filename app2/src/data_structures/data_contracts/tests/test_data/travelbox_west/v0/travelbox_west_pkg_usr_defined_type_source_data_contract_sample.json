@@ -1,0 +1,110 @@
+[
+    {
+        "data":{
+            "USER_DEFINED_TYPE_ID" : 30687,
+            "PACKAGE_ID" : 14013,
+            "LAST_MODIFIED_TIME" : "2016-05-02T06:29:50.427Z"
+        },
+        "metadata": {
+            "timestamp": "2016-09-05 19:12:34",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "PKG_USR_DEFINED_TYPE",
+            "transaction-id": 2559,
+            "transaction_record_id": 70974432245344,
+            "prev_transaction_id": 70974432245344,
+            "prev_transaction_record_id": 70974432245344,
+            "commit_timestamp": "2023-03-29T15:30:19.109655Z",
+            "stream_position": ""
+        }
+    },
+    {
+        "data": {
+            "USER_DEFINED_TYPE_ID" : 30688,
+            "PACKAGE_ID" : 14013,
+            "ELEMENT_ID" : null,
+            "ATTRIBUTE_ID" : 27,
+            "FREE_TEXT_VALUE" : null,
+            "ATTRIBUTE_TYPE" : 1,
+            "LAST_MODIFIED_TIME" : "2016-05-02T06:29:50.436Z",
+            "DATE_VALUE" : null,
+            "ELEMENT_HISTORY_ID" : null
+        },
+        "metadata": {
+            "timestamp": "2001-05-26 11:03:15",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "PKG_USR_DEFINED_TYPE",
+            "transaction-id": 362
+        }
+    },
+    {
+        "data": {
+            "USER_DEFINED_TYPE_ID" : 30665,
+            "PACKAGE_ID" : 14013,
+            "ELEMENT_ID" : null,
+            "ATTRIBUTE_ID" : 29,
+            "FREE_TEXT_VALUE" : null,
+            "ATTRIBUTE_TYPE" : 1,
+            "LAST_MODIFIED_TIME" : "2016-05-02T06:29:50.456Z",
+            "DATE_VALUE" : null,
+            "ELEMENT_HISTORY_ID" : null
+        },
+        "metadata": {
+            "timestamp": "1979-05-02 22:22:20",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "PKG_USR_DEFINED_TYPE",
+            "transaction-id": 2598
+        }
+    },
+    {
+        "data": {
+            "USER_DEFINED_TYPE_ID" : 30689,
+            "PACKAGE_ID" : 14013,
+            "ELEMENT_ID" : null,
+            "ATTRIBUTE_ID" : 30,
+            "FREE_TEXT_VALUE" : null,
+            "ATTRIBUTE_TYPE" : 1,
+            "LAST_MODIFIED_TIME" : "2016-05-02T06:29:50.460Z",
+            "DATE_VALUE" : null,
+            "ELEMENT_HISTORY_ID" : null
+        },
+        "metadata": {
+            "timestamp": "2007-11-24 03:20:47",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "PKG_USR_DEFINED_TYPE",
+            "transaction-id": 6404
+        }
+    },
+    {
+        "data": {
+            "USER_DEFINED_TYPE_ID" : 30690,
+            "PACKAGE_ID" : 14013,
+            "ELEMENT_ID" : 15,
+            "ATTRIBUTE_ID" : 61,
+            "FREE_TEXT_VALUE" : "4",
+            "ATTRIBUTE_TYPE" : 1,
+            "LAST_MODIFIED_TIME" : "2016-05-02T06:52:48.062Z",
+            "DATE_VALUE" :"2016-05-02T06:52:48.062Z",
+            "ELEMENT_HISTORY_ID" : 15
+        },
+        "metadata": {
+            "timestamp": "2017-07-26 18:16:30",
+            "record-type": "data",
+            "operation": "Insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "TBX",
+            "table-name": "PKG_USR_DEFINED_TYPE"
+        }
+    }
+]

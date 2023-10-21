@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    hostname: rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest # pragma: allowlist secret
+      RABBITMQ_DEFAULT_VHOST: my_vhost
+      RABBITMQ_QUEUE_NAME: default_queue
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  producer-1:
+    build:
+      dockerfile: producer.Dockerfile
+    depends_on:
+      - rabbitmq
+

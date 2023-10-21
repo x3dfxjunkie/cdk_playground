@@ -1,0 +1,1802 @@
+[
+    {
+        "data": {
+            "CREATE_DTS": "2017-07-10T14:31:00Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S524",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 3 - Weekend ",
+            "UPDT_DTS": "2017-07-10T14:31:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:26.101574Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-11-13T14:15:13Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S299",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 6 A ",
+            "UPDT_DTS": "2017-11-13T14:15:13Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:44.677331Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-09-29T08:26:16Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S295",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 10 A ",
+            "UPDT_DTS": "2017-09-29T08:26:16Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:50.077260Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-09-21T09:44:19Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S634",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 6 A ",
+            "UPDT_DTS": "2017-09-21T09:44:19Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:35.803810Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-09-21T09:44:19Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S883",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 12 A ",
+            "UPDT_DTS": "2017-09-21T09:44:19Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:36.200655Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-09-21T09:44:19Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S634",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 6 A ",
+            "UPDT_DTS": "2017-09-21T09:44:19Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:35.803810Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-03-07T10:47:26Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S136",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 2 - Weekday ",
+            "UPDT_DTS": "2017-03-07T10:47:26Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:12.700265Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-27T10:16:15Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S177",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 4 Hldy2 - All Days ",
+            "UPDT_DTS": "2017-02-27T10:16:15Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:12.003244Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-20T08:34:06Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S613",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 9 - All Days ",
+            "UPDT_DTS": "2017-02-20T08:34:06Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:14:57.879830Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-20T08:34:06Z",
+            "RSRT_TIER_GRP_NM": "Campground",
+            "SEAS_CD": "S625",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 1 - Weekday ",
+            "UPDT_DTS": "2017-02-20T08:34:06Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:14:57.781719Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-12-12T12:37:48Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S24",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 1 B ",
+            "UPDT_DTS": "2017-12-12T12:37:48Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:55.791022Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-12-12T12:37:48Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S47",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 1 A ",
+            "UPDT_DTS": "2017-12-12T12:37:48Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:55.872033Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-03-07T10:47:26Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S55",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 2 - Weekday ",
+            "UPDT_DTS": "2017-03-07T10:47:26Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:12.463346Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-27T10:16:14Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S287",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 3 - Weekend ",
+            "UPDT_DTS": "2017-02-27T10:16:14Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:10.783586Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-21T10:05:00Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S496",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 3 - Weekday ",
+            "UPDT_DTS": "2017-02-21T10:05:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:10.348406Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-06-30T15:45:25Z",
+            "RSRT_TIER_GRP_NM": "Value Resort",
+            "SEAS_CD": "S566",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 8 C ",
+            "UPDT_DTS": "2017-06-30T15:45:25Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:33.498461Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-21T10:05:01Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S349",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 6 - Weekend ",
+            "UPDT_DTS": "2017-02-21T10:05:01Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:04.997400Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-27T10:16:13Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S185",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 4 Hldy1 - All Days ",
+            "UPDT_DTS": "2017-02-27T10:16:13Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:15.349789Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-27T10:16:14Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S342",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "17 Extension Season 1 - Weekday ",
+            "UPDT_DTS": "2017-02-27T10:16:14Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:14.552137Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-09-29T08:26:55Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S550",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 1 A ",
+            "UPDT_DTS": "2017-09-29T08:26:55Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:54.764732Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-07-07T17:44:48Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S564",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 3 - Weekday ",
+            "UPDT_DTS": "2017-07-07T17:44:48Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:12.939125Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-11-08T13:02:07Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S142",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 4 B ",
+            "UPDT_DTS": "2017-11-08T13:02:07Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:57.340647Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-08-16T17:14:38Z",
+            "RSRT_TIER_GRP_NM": "Campground",
+            "SEAS_CD": "S30",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "All Year",
+            "UPDT_DTS": "2017-08-16T17:14:38Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:48.802464Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-12-26T11:33:54Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S101",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 11 A ",
+            "UPDT_DTS": "2017-12-26T11:33:54Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:47.294568Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-21T10:05:01Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S509",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 2 - Weekend ",
+            "UPDT_DTS": "2017-02-21T10:05:01Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:08.518670Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-12-26T16:13:33Z",
+            "RSRT_TIER_GRP_NM": "Value Resort",
+            "SEAS_CD": "S20",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 4 D ",
+            "UPDT_DTS": "2017-12-26T16:13:33Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:56.478466Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-08-03T14:54:09Z",
+            "RSRT_TIER_GRP_NM": "Value Resort",
+            "SEAS_CD": "S25",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "18 Extension Season 1 C ",
+            "UPDT_DTS": "2017-08-03T14:54:09Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:37.402276Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-08-03T14:54:09Z",
+            "RSRT_TIER_GRP_NM": "Value Resort",
+            "SEAS_CD": "S30",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 8 C ",
+            "UPDT_DTS": "2017-08-03T14:54:09Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:37.435989Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-10-17T15:30:58Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S459",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 1 A ",
+            "UPDT_DTS": "2017-10-17T15:30:58Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:53.641612Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-20T08:34:06Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S613",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 9 - All Days ",
+            "UPDT_DTS": "2017-02-20T08:34:06Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:14:57.879830Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-08-17T14:24:39Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S1003",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "18 Extension Season 13 A ",
+            "UPDT_DTS": "2017-08-17T14:24:39Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:41.957917Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-07-10T14:31:00Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S354",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 6 - Weekend ",
+            "UPDT_DTS": "2017-07-10T14:31:00Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:31.123166Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-07-07T17:07:30Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S640",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 6 - Weekday ",
+            "UPDT_DTS": "2017-07-07T17:07:30Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:24.450309Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-07-07T17:44:49Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S186",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 3 - Weekend ",
+            "UPDT_DTS": "2017-07-07T17:44:49Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:20.968762Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-07-07T17:07:30Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S189",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 3 - Weekday ",
+            "UPDT_DTS": "2017-07-07T17:07:30Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:20.528737Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-10-12T11:50:56Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S1514",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 4 E ",
+            "UPDT_DTS": "2017-10-12T11:50:56Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:37.514816Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-11-08T13:02:07Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S350",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 11 A ",
+            "UPDT_DTS": "2017-11-08T13:02:07Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:57.704577Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2018-01-05T13:43:23Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S805",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 4 E ",
+            "UPDT_DTS": "2018-01-05T13:43:23Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:47.823812Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-06-30T15:45:25Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S492",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 4 E ",
+            "UPDT_DTS": "2017-06-30T15:45:25Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:38.697653Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-06-30T15:45:25Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S109",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 6 A ",
+            "UPDT_DTS": "2017-06-30T15:45:25Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:34.169552Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-27T15:08:48Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S189",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 7 - Weekday ",
+            "UPDT_DTS": "2017-02-27T15:08:48Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:13.604907Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-27T15:08:49Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S381",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 7 - Weekday ",
+            "UPDT_DTS": "2017-02-27T15:08:49Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:14.120519Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-27T10:16:14Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S542",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "17 Extension Season 1 - Weekday ",
+            "UPDT_DTS": "2017-02-27T10:16:14Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:14.996940Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-08-16T17:14:38Z",
+            "RSRT_TIER_GRP_NM": "Campground",
+            "SEAS_CD": "S30",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "All Year",
+            "UPDT_DTS": "2017-08-16T17:14:38Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:48.802464Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-12-26T11:33:54Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S101",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 11 A ",
+            "UPDT_DTS": "2017-12-26T11:33:54Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:47.294568Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2018-01-05T13:43:23Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S805",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 4 E ",
+            "UPDT_DTS": "2018-01-05T13:43:23Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:47.823812Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-03-07T15:21:25Z",
+            "RSRT_TIER_GRP_NM": "Value Resort",
+            "SEAS_CD": "S36",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 5 - Weekday ",
+            "UPDT_DTS": "2017-03-07T15:21:25Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:17.766473Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-08-25T17:01:36Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S2",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Regular Season - Weekend",
+            "UPDT_DTS": "2017-08-25T17:01:36Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:57.721391Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-09-29T08:26:15Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S753",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 9 A ",
+            "UPDT_DTS": "2017-09-29T08:26:15Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:45.766762Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-11-13T14:15:13Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S120",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 5 B",
+            "UPDT_DTS": "2017-11-13T14:15:13Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:45.121328Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-20T12:44:55Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S38",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 5 - Weekend ",
+            "UPDT_DTS": "2017-02-20T12:44:55Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:14:58.287650Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-20T12:44:55Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S544",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "17 Extension Season 1 - Weekday ",
+            "UPDT_DTS": "2017-02-20T12:44:55Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:14:58.400278Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-20T09:18:16Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S633",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "17 Extension Season 9 - All Days ",
+            "UPDT_DTS": "2017-02-20T09:18:16Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:14:58.585462Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-11-08T13:02:07Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S177",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 1 C ",
+            "UPDT_DTS": "2017-11-08T13:02:07Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:21:01.224584Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-09-29T08:26:15Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S753",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 9 A ",
+            "UPDT_DTS": "2017-09-29T08:26:15Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:45.766762Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-11-13T14:15:13Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S120",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 5 B",
+            "UPDT_DTS": "2017-11-13T14:15:13Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:45.121328Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-20T08:34:06Z",
+            "RSRT_TIER_GRP_NM": "Campground",
+            "SEAS_CD": "S625",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 1 - Weekday ",
+            "UPDT_DTS": "2017-02-20T08:34:06Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:14:57.781719Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-20T08:34:06Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S613",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 9 - All Days ",
+            "UPDT_DTS": "2017-02-20T08:34:06Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:14:57.879830Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-12-26T16:16:06Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S80",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 6 C ",
+            "UPDT_DTS": "2017-12-26T16:16:06Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:21:00.331595Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-12-26T16:16:06Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S158",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 8 D ",
+            "UPDT_DTS": "2017-12-26T16:16:06Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:59.957461Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-27T10:16:14Z",
+            "RSRT_TIER_GRP_NM": "Value Resort",
+            "SEAS_CD": "S31",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 2 Hldy1 - All Days ",
+            "UPDT_DTS": "2017-02-27T10:16:14Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:16.693876Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-03-07T15:14:51Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S24",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 3 - Weekend ",
+            "UPDT_DTS": "2017-03-07T15:14:51Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:17.377480Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2016-12-08T09:50:47Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S160",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "16 Value Extension Season - Weekday ",
+            "UPDT_DTS": "2016-12-08T09:50:47Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:14:05.823941Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-06-30T15:45:24Z",
+            "RSRT_TIER_GRP_NM": "Value Resort",
+            "SEAS_CD": "S646",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 10 B ",
+            "UPDT_DTS": "2017-06-30T15:45:24Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:29.639898Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-21T10:05:01Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S349",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 6 - Weekend ",
+            "UPDT_DTS": "2017-02-21T10:05:01Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:04.997400Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2016-12-08T09:50:47Z",
+            "RSRT_TIER_GRP_NM": "Value Resort",
+            "SEAS_CD": "S46",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Veterans Day - All Days ",
+            "UPDT_DTS": "2016-12-08T09:50:47Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:14:05.350563Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-09-29T08:26:56Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S847",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 1 A ",
+            "UPDT_DTS": "2017-09-29T08:26:56Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:59.546801Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2016-12-08T09:50:47Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S497",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Fall Season - Weekend ",
+            "UPDT_DTS": "2016-12-08T09:50:47Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:14:07.152392Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-09-29T08:26:57Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S576",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 11 B ",
+            "UPDT_DTS": "2017-09-29T08:26:57Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:21:03.501890Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-06-30T16:12:49Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S448",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "18 Extension Season 1 B ",
+            "UPDT_DTS": "2017-06-30T16:12:49Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:43.203310Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-06-30T15:45:24Z",
+            "RSRT_TIER_GRP_NM": "Value Resort",
+            "SEAS_CD": "S646",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 10 B ",
+            "UPDT_DTS": "2017-06-30T15:45:24Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:29.639898Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-03-07T11:55:15Z",
+            "RSRT_TIER_GRP_NM": "Value Resort",
+            "SEAS_CD": "S27",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 2 - Weekday ",
+            "UPDT_DTS": "2017-03-07T11:55:15Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:21.612999Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-03-07T11:43:02Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S162",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 5 - Weekday ",
+            "UPDT_DTS": "2017-03-07T11:43:02Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:22.508542Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-27T10:16:15Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S274",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 6 - Weekend ",
+            "UPDT_DTS": "2017-02-27T10:16:15Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:11.974080Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-12-22T15:12:18Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S45",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 1 A ",
+            "UPDT_DTS": "2017-12-22T15:12:18Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:21:04.759112Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-07-07T17:07:30Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S640",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 6 - Weekday ",
+            "UPDT_DTS": "2017-07-07T17:07:30Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:24.450309Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2016-12-08T09:50:47Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S222",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Regular Season - Weekend ",
+            "UPDT_DTS": "2016-12-08T09:50:47Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:14:05.295051Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-03-07T14:26:28Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S152",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 1 - Weekend ",
+            "UPDT_DTS": "2017-03-07T14:26:28Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:19.221416Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-03-07T14:26:27Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S175",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 1 - Weekday ",
+            "UPDT_DTS": "2017-03-07T14:26:27Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:18.964269Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-03-07T14:44:04Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S229",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 1 - Weekday ",
+            "UPDT_DTS": "2017-03-07T14:44:04Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:20.450200Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-10T12:57:34Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S79",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 2 - Weekday ",
+            "UPDT_DTS": "2017-02-10T12:57:34Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:14:53.376464Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2016-12-08T09:50:47Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S427",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Fall Season - Weekday ",
+            "UPDT_DTS": "2016-12-08T09:50:47Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:14:07.503358Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-09-08T15:12:44Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S84",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "UK Easter Season - All Days ",
+            "UPDT_DTS": "2017-09-08T15:12:44Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:21:03.286098Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-04-25T15:08:46Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S624",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 4 A ",
+            "UPDT_DTS": "2017-04-25T15:08:46Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:45.273171Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-10-22T06:31:10Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S61",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 5 - Weekend ",
+            "UPDT_DTS": "2017-10-22T06:31:10Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:21:08.221207Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-07-07T17:07:31Z",
+            "RSRT_TIER_GRP_NM": "Value Resort",
+            "SEAS_CD": "S90",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "17 Extension Season 7 - All Days ",
+            "UPDT_DTS": "2017-07-07T17:07:31Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:43.716106Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-09-08T15:09:08Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S105",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "UK Regular Season - All Days ",
+            "UPDT_DTS": "2017-09-08T15:09:08Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:20:58.565838Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-07-07T17:07:31Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S192",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 2 - Weekday ",
+            "UPDT_DTS": "2017-07-07T17:07:31Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:43.687427Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-06-30T16:12:49Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S547",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 1 B ",
+            "UPDT_DTS": "2017-06-30T16:12:49Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:42.879398Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-03-07T16:39:26Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S280",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 7 - Weekend ",
+            "UPDT_DTS": "2017-03-07T16:39:26Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:24.910631Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2016-12-08T10:00:24Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S178",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 1 Hldy2 - All Days ",
+            "UPDT_DTS": "2016-12-08T10:00:24Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:14:10.445783Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-07-07T17:07:31Z",
+            "RSRT_TIER_GRP_NM": "Value Resort",
+            "SEAS_CD": "S89",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 7 - All Days ",
+            "UPDT_DTS": "2017-07-07T17:07:31Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:43.907467Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-06-20T13:24:01Z",
+            "RSRT_TIER_GRP_NM": "Value Resort",
+            "SEAS_CD": "S92",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 1 C ",
+            "UPDT_DTS": "2017-06-20T13:24:01Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:48.613205Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-03-07T11:43:01Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Resort",
+            "SEAS_CD": "S208",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 5 - Weekend ",
+            "UPDT_DTS": "2017-03-07T11:43:01Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:21.977070Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-03-07T11:43:01Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S309",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 2 - Weekday ",
+            "UPDT_DTS": "2017-03-07T11:43:01Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:21.694231Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-03-07T11:43:02Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S118",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 5 - Weekday ",
+            "UPDT_DTS": "2017-03-07T11:43:02Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:23.012783Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-04-25T15:08:46Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S910",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 1 A ",
+            "UPDT_DTS": "2017-04-25T15:08:46Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:16:44.620422Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-11-08T13:02:08Z",
+            "RSRT_TIER_GRP_NM": "Moderate Resort",
+            "SEAS_CD": "S171",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 1 B ",
+            "UPDT_DTS": "2017-11-08T13:02:08Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:21:05.746934Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-02-16T10:10:35Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S158",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "Season 6 - Weekday ",
+            "UPDT_DTS": "2017-02-16T10:10:35Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:15:00.953269Z"
+        }
+    },
+    {
+        "data": {
+            "CREATE_DTS": "2017-09-08T15:40:58Z",
+            "RSRT_TIER_GRP_NM": "Deluxe Villas",
+            "SEAS_CD": "S203",
+            "SEAS_ID": 1234,
+            "SEAS_NM": "UK Summer Season - All Days ",
+            "UPDT_DTS": "2017-09-08T15:40:58Z"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "SEAS_T",
+            "timestamp": "2023-08-26T05:21:07.457407Z"
+        }
+    }
+]

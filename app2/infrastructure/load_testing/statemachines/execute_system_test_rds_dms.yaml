@@ -1,0 +1,80 @@
+Comment: A step function that orchestrates a System Test for rds_dms from locust task
+StartAt: ParseInputString
+States:
+  ParseInputString:
+    Type: Pass
+    Next: Map
+    Result:
+      parsedArray: 
+        - ${dms_stack_extension}
+  Map:
+    Type: Map
+    ItemsPath: $.parsedArray
+    Parameters:
+      item.$: $$.Map.Item.Value
+    ItemProcessor:
+      ProcessorConfig:
+        Mode: INLINE
+      StartAt: list_app_config
+      States:
+        list_app_config:
+          Parameters:
+            FunctionName: ${lambda_list_app_config}
+            Payload:
+              filter_app_id.$: $.item
+          Resource: arn:aws:states:::lambda:invoke
+          ResultPath: $.Output
+          ResultSelector:
+            Payload.$: $.Payload
+          Retry:
+            - BackoffRate: 2
+              ErrorEquals:
+                - Lambda.ServiceException
+                - Lambda.AWSLambdaException
+                - Lambda.SdkClientException
+                - Lambda.TooManyRequestsException
+              IntervalSeconds: 2
+              MaxAttempts: 6
+          Type: Task
+          Next: run_locust_task
+        run_locust_task:
+          End: true
+          Parameters:
+            Cluster: >-
+              ${fargate_cluster_arn}
+            LaunchType: FARGATE
+            NetworkConfiguration:
+              AwsvpcConfiguration:
+                AssignPublicIp: DISABLED
+                SecurityGroups:
+                  - ${security_groups_id}
+                Subnets:
+                  - ${subnets_ids}
+            Overrides:
+              ContainerOverrides:
+                - Command:
+                    - '--config=app/src/load_testing/app/config/config_dms.conf'
+                  Environment:
+                    - Name: LOCUST_USERS
+                      Value: '1'
+                    - Name: LOCUST_SPAWN_RATE
+                      Value: '1'
+                    - Name: prefix
+                      Value: ${prefix}
+                    - Name: limit_records
+                      Value: ${limit_records}
+                    - Name: app_config
+                      Value.$: $.Output.Payload[0]
+                    - Name: stack_extension
+                      Value.$: $.item
+                  Name: ${container_name}
+            ReferenceId.$: $$.Execution.Id
+            Tags:
+              - Key: StartedBy
+                Value.$: $$.Execution.Id
+            TaskDefinition: >-
+              ${task_definition_arn}
+          Resource: arn:aws:states:::ecs:runTask.sync
+          ResultPath: $.output_run_locust_task
+          Type: Task
+    End: true

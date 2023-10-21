@@ -1,0 +1,7 @@
+ownershipStatus:
+  type: string
+  description: Curated status viable to Ownership Paradigm
+  enum:
+    - Active
+    - Inactive
+  example: Active

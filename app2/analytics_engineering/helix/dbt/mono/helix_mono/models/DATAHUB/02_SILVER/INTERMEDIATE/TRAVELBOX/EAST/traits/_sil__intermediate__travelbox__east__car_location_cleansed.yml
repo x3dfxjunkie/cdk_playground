@@ -1,0 +1,372 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__east__car_location_cleansed
+    description: '{{ doc("sil__intermediate__travelbox__east__car_location_cleansed") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_cleansed
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_location_id
+            - metadata_checksum
+
+    columns:
+      - name: data_location_id
+        description: "Location id is saved when the module configuration_x000D_
+&#39;STORE_LOCATION_ID&#39; is enabled, otherwise_x000D_
+-1 | example: 33578"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_supplier_id
+        description: "Not in DSN Scope | example: 29980"
+        meta:
+          checksum: True
+
+      - name: data_location_type
+        description: "Car location type code as defined in car setup | example: DEPO"
+        meta:
+          checksum: True
+
+      - name: data_code
+        description: "The TravelBox code of the board basis | example: JAXT71"
+        meta:
+          checksum: True
+
+      - name: data_name
+        description: "The name of the contract type | example: JACKSONVILLE INTL AIRPORT"
+        meta:
+          checksum: True
+
+      - name: data_address
+        description: "Address of the credit card holder for credit card batch payment | example: JACKSONVILLE INTL AIRPORT"
+        meta:
+          checksum: True
+
+      - name: data_city
+        description: "The TravelBox code of the city for which the rule is defined | example: JAX"
+        meta:
+          checksum: True
+
+      - name: data_state
+        description: "State of the given credit card details address | example: FL"
+        meta:
+          checksum: True
+
+      - name: data_zip_code
+        description: "The zip code of the location | example: 32218"
+        meta:
+          checksum: True
+
+      - name: data_country
+        description: "The TravelBox code of the country for which the rule is defined | example: US"
+        meta:
+          checksum: True
+
+      - name: data_region
+        description: "The TravelBox code of the region where the airport is located | example: NAM"
+        meta:
+          checksum: True
+
+      - name: data_phone
+        description: "Phone number associated with the location | example: (904) 741-4428"
+        meta:
+          checksum: True
+
+      - name: data_fax
+        description: "Fax number associated with the location | example: yOujfSseZEHKdgfSIIbL"
+        meta:
+          checksum: True
+
+      - name: data_email
+        description: "The email address of the user | example: JpMksmjdxeMFdbDQVVDH"
+        meta:
+          checksum: True
+
+      - name: data_seasonal_opening
+        description: "Specifies whether opening hours of a location are seasonal._x000D_
+Then  particular location will be available only during the specific season_x000D_
+Seasonal - 1, Not seasonal - 0 | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_image_path
+        description: "The path on which the main image is saved | example: KsfgDCjjstOGqmmdYHxC"
+        meta:
+          checksum: True
+
+      - name: data_image_width
+        description: "The width of the main image | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_image_height
+        description: "The height of the main image | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_currency
+        description: "The TravelBox code of the currency in which the board basis fares are defined | example: USD"
+        meta:
+          checksum: True
+
+      - name: data_out_of_hour_charge
+        description: "The out of hour charge that is applicable to the location | example: 15296.0"
+        meta:
+          checksum: True
+
+      - name: data_errata_group
+        description: "Refers to the errata_group_id of errata_group table when user adds Free Text Conditions in contract level.  The option is available in &#39;Free Text Conditions&#39; node in contract. | example: 276760"
+        meta:
+          checksum: True
+
+      - name: data_pickup_procedure
+        description: "The description on the pickup procedure associated with location | example: KEoNiOQukusMdVLEzsgD"
+        meta:
+          checksum: True
+
+      - name: data_dropoff_procedure
+        description: "The description on the dropoff procedure associated with location | example: NFsdVMVAjuUXcMEOvESW"
+        meta:
+          checksum: True
+
+      - name: data_default_location
+        description: "whether this is the group default location or not | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_latitude
+        description: "Latitude of the accommodation | example: pQSHcSMLhuBXTBoyFyuR"
+        meta:
+          checksum: True
+
+      - name: data_longitude
+        description: "Latitude of the accommodation | example: fHGQVkLLJgJrinGcENFh"
+        meta:
+          checksum: True
+
+      - name: data_airport
+        description: "Departure airport&#39;s code | example: JAX"
+        meta:
+          checksum: True
+
+      - name: data_modified_on
+        description: "The date on which the contract get modified. If no modifications done after the creation, this field holds the contract created date. | example: 2021-07-25 11:35:00"
+        meta:
+          checksum: True
+
+      - name: data_active
+        description: "Whether 3D secure filter is active or not | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_web_enable
+        description: "Specifies whether the location is enabled for web_x000D_
+Enabled - 1, Not enabled - 0 | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_destination_id
+        description: "System generated - auto incrementing id to identify the ledger destination | example: 2581"
+        meta:
+          checksum: True
+
+      - name: data_h2_h_id
+        description: "Not in DSN Scope | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_created_by
+        description: "A Foreign key which refers to the field USER_ID of the ADM_USER table | example: 15075"
+        meta:
+          checksum: True
+
+      - name: data_created_on
+        description: "Created date time | example: 2019-03-20 14:28:06"
+        meta:
+          checksum: True
+
+      - name: data_modified_by
+        description: "The TravelBox user id of the user who modified the contract. If no modification done after the creation, this field holds the user id of the user who created the contract | example: 15097"
+        meta:
+          checksum: True
+
+      - name: data_verified_by
+        description: "The user id of the user who has done the verification of the location | example: 2518"
+        meta:
+          checksum: True
+
+      - name: data_verified_on
+        description: "The date and time of the verification of the location | example: 2016-04-01 10:59:35"
+        meta:
+          checksum: True
+
+      - name: data_imported_by
+        description: "Deprecated | example: 1481"
+        meta:
+          checksum: True
+
+      - name: data_imported_on
+        description: "Deprecated | example: 2005-11-13 13:14:50"
+        meta:
+          checksum: True
+
+      - name: data_operator
+        description: "Deprecated | example: pRbOOgLUmJoKIcoYIPWg"
+        meta:
+          checksum: True
+
+      - name: data_location_group_code
+        description: "Code of the location group, a particular location is associated with | example: vjQpXyYnmdTkGwiUJnsw"
+        meta:
+          checksum: True
+
+      - name: min_metadata_timestamp
+        description: "The Minimum Metadata Timestamp field is used for updating the version end date of the active record in the target table"
+        tests:
+          - not_null
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

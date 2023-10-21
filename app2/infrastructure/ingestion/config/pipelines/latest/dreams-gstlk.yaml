@@ -1,0 +1,95 @@
+stack_extension: &se dreams-gstlk # 12 Character Limit!
+ingest_pattern: &ip dms # DO NOT UPDATE must = dms for dms pattern
+active: True
+feature_branch: False # set to False unless you want to deploy DMS in ephemeral envs
+pattern_instances:
+  - region: &region-1 us-east-1 # DO NOT UPDATE
+    resources:
+      dms_repl_instance:
+        engine_version: "3.5.1"
+        multi_az: True
+      dms_repl_task: # AWS DMS replication task
+        - &replication_task_definitions
+          replication_task_identifier: full # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          replication_task_settings: '{"Logging": {"EnableLogging": true}, "TargetMetadata": {"ParallelLoadThreads": 10, "ParallelLoadBufferSize": 500, "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500, "ParallelApplyQueuesPerThread": 10}}'
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "gst_lnk"
+                  table-name: "%" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+      source_endpoint: # AWS DMS Source Endpoint.
+        engine_name: mysql # The type of engine for the endpoint, depending on the EndpointType value. Valid values : mysql | oracle | mariadb | kinesis
+        ssl_mode: verify-ca #Enable Secure Sockets Layer (SSL) mode to use for the SSL connection. Allowed values: verify-ca,verify-full
+        settings: # See https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Source.html
+          #server_timezone: UTC # #Specifies the time zone for the target MySQL-compatible database, e.g., US/Eastern, US/Pacific, UTC / remove if UTC
+          secrets_manager_secret_id: arn:aws:secretsmanager:us-east-1:543276908693:secret:lst-use1-dreams-guest-link-secret-8UUHwE #pragma: allowlist secret, The ARN, or display name of the SecretsManagerSecret that contains the MySQL endpoint connection details.
+      source_kms_key: 8058aa75-09a3-4cb8-91fe-f47e5b3421e8 # Update for the secrets_manager_secret_id kms key
+      source_ssl_cert: rds-global-bundle # Update for the appropriate source dms certificate, most AWS DBs will use the rds-global-bundle by default
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_LATEST_LANDING # Needs update to appropriate default routing
+      data_contracts: # This section needs to be updated for all data contracts for the source
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.guest_link.v0.dreams_guest_link_exprnc_media_source_data_contract
+          class_name: DREAMSGuestLinkExprncMediaModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: exprnc_media
+          router_database: &database LATEST_LANDING
+          router_schema: &schema LND_DREAMS_GUEST_LINK
+          router_table: EXPRNC_MEDIA
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.guest_link.v0.dreams_guest_link_gst_lnk_source_data_contract
+          class_name: DREAMSGuestLinkGstLnkModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: gst_lnk
+          router_database: *database
+          router_schema: *schema
+          router_table: GST_LNK
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.guest_link.v0.dreams_guest_link_gst_lnk_txn_gst_source_data_contract
+          class_name: DREAMSGuestLinkGstLnkTxnGstModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: gst_lnk_txn_gst
+          router_database: *database
+          router_schema: *schema
+          router_table: GST_LNK_TXN_GST
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.guest_link.v0.dreams_guest_link_txn_gst_xref_source_data_contract
+          class_name: DREAMSGuestLinkTxnGstXrefModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: txn_gst_xref
+          router_database: *database
+          router_schema: *schema
+          router_table: TXN_GST_XREF
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.guest_link.v0.dreams_guest_link_xband_source_data_contract
+          class_name: DREAMSGuestLinkXbandModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: xband
+          router_database: *database
+          router_schema: *schema
+          router_table: XBAND
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.guest_link.v0.dreams_guest_link_xband_id_source_data_contract
+          class_name: DREAMSGuestLinkXbandIdModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: xband_id
+          router_database: *database
+          router_schema: *schema
+          router_table: XBAND_ID

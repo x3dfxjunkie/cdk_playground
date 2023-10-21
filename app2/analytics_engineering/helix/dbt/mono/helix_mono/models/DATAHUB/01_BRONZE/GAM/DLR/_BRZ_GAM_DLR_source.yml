@@ -1,0 +1,1669 @@
+version: 2
+
+sources:
+  - name: brz_gam_dlr
+    description: ""
+    database: '{{ env_var("DBT_HELIX_MONO_SOURCE_DATABASE", "STAGE_DATAHUB") }}'
+    schema: brz_gam_dlr
+    loader: firehose/snowpipe-microbatch
+    loaded_at_field: LANDING_TIMESTAMP
+    freshness: # default freshness
+      warn_after: {count: 12, period: hour}
+      error_after: {count: 24, period: hour}
+    meta:
+      owner: ""
+      tags: [""]
+      subscribers: ["@data-team"]
+    tables:
+      - name: activity_reservation_activity_reservation_guest_list
+        columns:
+          - name: activity_reservation_id
+            description: "activity_reservation_id (snowflake data type: text)"
+
+          - name: type
+            description: "type (snowflake data type: text)"
+
+          - name: value
+            description: "value (snowflake data type: text)"
+
+      - name: activity_reservation_activity_reservation_transactional_guests
+        columns:
+          - name: activity_reservation_id
+            description: "activity_reservation_id (snowflake data type: text)"
+
+          - name: id_type
+            description: "id_type (snowflake data type: text)"
+
+          - name: id_value
+            description: "id_value (snowflake data type: text)"
+
+          - name: relationship
+            description: "relationship (snowflake data type: variant)"
+
+          - name: role
+            description: "role (snowflake data type: text)"
+
+      - name: activity_reservation_native_guest_ids
+        columns:
+          - name: activity_reservation_id
+            description: "activity_reservation_id (snowflake data type: text)"
+
+          - name: type
+            description: "type (snowflake data type: text)"
+
+          - name: value
+            description: "value (snowflake data type: text)"
+
+      - name: affiliation
+        columns:
+          - name: action
+            description: "action (snowflake data type: text)"
+
+          - name: affiliation_affiliation_ids
+            description: "affiliation_affiliation_ids (snowflake data type: variant)"
+
+          - name: affiliation_category
+            description: "affiliation_category (snowflake data type: text)"
+
+          - name: affiliation_description
+            description: "affiliation_description (snowflake data type: text)"
+
+          - name: affiliation_guest_guest_id_type
+            description: "affiliation_guest_guest_id_type (snowflake data type: text)"
+
+          - name: affiliation_guest_guest_id_value
+            description: "affiliation_guest_guest_id_value (snowflake data type: text)"
+
+          - name: affiliation_id
+            description: "affiliation_id (snowflake data type: text)"
+
+          - name: affiliation_renewable
+            description: "affiliation_renewable (snowflake data type: boolean)"
+
+          - name: affiliation_source
+            description: "affiliation_source (snowflake data type: text)"
+
+          - name: affiliation_status
+            description: "affiliation_status (snowflake data type: text)"
+
+          - name: affiliation_sub_type
+            description: "affiliation_sub_type (snowflake data type: text)"
+
+          - name: affiliation_type
+            description: "affiliation_type (snowflake data type: text)"
+
+          - name: affiliation_validity_end_date
+            description: "affiliation_validity_end_date (snowflake data type: timestamp_ntz)"
+
+          - name: affiliation_validity_start_date
+            description: "affiliation_validity_start_date (snowflake data type: timestamp_ntz)"
+
+          - name: landing_cloudevent_check_sum
+            description: "landing_cloudevent_check_sum (snowflake data type: text)"
+
+          - name: landing_cloudevent_datacontenttype
+            description: "landing_cloudevent_datacontenttype (snowflake data type: text)"
+
+          - name: landing_cloudevent_dataschema
+            description: "landing_cloudevent_dataschema (snowflake data type: text)"
+
+          - name: landing_cloudevent_data_contract_version
+            description: "landing_cloudevent_data_contract_version (snowflake data type: text)"
+
+          - name: landing_cloudevent_exception_error
+            description: "landing_cloudevent_exception_error (snowflake data type: text)"
+
+          - name: landing_cloudevent_id
+            description: "landing_cloudevent_id (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_database
+            description: "landing_cloudevent_router_database (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_schema
+            description: "landing_cloudevent_router_schema (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_table
+            description: "landing_cloudevent_router_table (snowflake data type: text)"
+
+          - name: landing_cloudevent_source
+            description: "landing_cloudevent_source (snowflake data type: text)"
+
+          - name: landing_cloudevent_specversion
+            description: "landing_cloudevent_specversion (snowflake data type: text)"
+
+          - name: landing_cloudevent_stream
+            description: "landing_cloudevent_stream (snowflake data type: text)"
+
+          - name: landing_cloudevent_subject
+            description: "landing_cloudevent_subject (snowflake data type: text)"
+
+          - name: landing_cloudevent_time
+            description: "landing_cloudevent_time (snowflake data type: timestamp_ntz)"
+
+          - name: landing_cloudevent_traceparent
+            description: "landing_cloudevent_traceparent (snowflake data type: text)"
+
+          - name: landing_cloudevent_tracestate
+            description: "landing_cloudevent_tracestate (snowflake data type: text)"
+
+          - name: landing_cloudevent_type
+            description: "landing_cloudevent_type (snowflake data type: text)"
+
+          - name: landing_cloudevent_validated
+            description: "landing_cloudevent_validated (snowflake data type: boolean)"
+
+          - name: landing_file_last_modified
+            description: "landing_file_last_modified (snowflake data type: timestamp_ntz)"
+
+          - name: landing_file_name
+            description: "landing_file_name (snowflake data type: text)"
+
+          - name: landing_file_row_number
+            description: "landing_file_row_number (snowflake data type: number)"
+
+          - name: landing_id
+            description: "landing_id (snowflake data type: text)"
+
+          - name: landing_timestamp
+            description: "landing_timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: timestamp
+            description: "timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: type
+            description: "type (snowflake data type: text)"
+
+      - name: affiliation_affiliation_affiliation_ids
+        columns:
+          - name: affiliation_affiliation_ids_id
+            description: "affiliation_affiliation_ids_id (snowflake data type: text)"
+
+          - name: affiliation_affiliation_ids_type
+            description: "affiliation_affiliation_ids_type (snowflake data type: text)"
+
+          - name: affiliation_id
+            description: "affiliation_id (snowflake data type: text)"
+
+      - name: dining_reservation
+        columns:
+          - name: action
+            description: "action (snowflake data type: text)"
+
+          - name: dining_reservations
+            description: "dining_reservations (snowflake data type: variant)"
+
+          - name: dining_reservation_reservation_number
+            description: "dining_reservation_reservation_number (snowflake data type: text)"
+
+          - name: landing_file_last_modified
+            description: "landing_file_last_modified (snowflake data type: timestamp_ntz)"
+
+          - name: landing_file_name
+            description: "landing_file_name (snowflake data type: text)"
+
+          - name: landing_file_row_number
+            description: "landing_file_row_number (snowflake data type: number)"
+
+          - name: landing_id
+            description: "landing_id (snowflake data type: text)"
+
+          - name: landing_timestamp
+            description: "landing_timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: native_guest_ids
+            description: "native_guest_ids (snowflake data type: variant)"
+
+          - name: type
+            description: "type (snowflake data type: text)"
+
+      - name: dining_reservation_dining_reservations
+        columns:
+          - name: add_on_components
+            description: "add_on_components (snowflake data type: variant)"
+
+          - name: allergies
+            description: "allergies (snowflake data type: variant)"
+
+          - name: booking_date_time
+            description: "booking_date_time (snowflake data type: timestamp_ntz)"
+
+          - name: claimable
+            description: "claimable (snowflake data type: boolean)"
+
+          - name: contact_number
+            description: "contact_number (snowflake data type: text)"
+
+          - name: dining_reservation_id
+            description: "dining_reservation_id (snowflake data type: text)"
+
+          - name: event_dining_dining_policy
+            description: "event_dining_dining_policy (snowflake data type: text)"
+
+          - name: event_dining_enterprise_dining_facility
+            description: "event_dining_enterprise_dining_facility (snowflake data type: text)"
+
+          - name: event_dining_enterprise_product
+            description: "event_dining_enterprise_product (snowflake data type: text)"
+
+          - name: event_dining_party_mix_adult
+            description: "event_dining_party_mix_adult (snowflake data type: text)"
+
+          - name: event_dining_party_mix_child
+            description: "event_dining_party_mix_child (snowflake data type: text)"
+
+          - name: event_dining_party_mix_infant
+            description: "event_dining_party_mix_infant (snowflake data type: text)"
+
+          - name: event_dining_product_id
+            description: "event_dining_product_id (snowflake data type: text)"
+
+          - name: event_dining_product_type
+            description: "event_dining_product_type (snowflake data type: text)"
+
+          - name: event_dining_service_period
+            description: "event_dining_service_period (snowflake data type: text)"
+
+          - name: event_dining_start_date_time
+            description: "event_dining_start_date_time (snowflake data type: text)"
+
+          - name: event_dining_total_prepaid_amount_amount
+            description: "event_dining_total_prepaid_amount_amount (snowflake data type: text)"
+
+          - name: event_dining_total_prepaid_amount_prepaid_amount
+            description: "event_dining_total_prepaid_amount_prepaid_amount (snowflake data type: variant)"
+
+          - name: event_dining_wdpro_dining_policy
+            description: "event_dining_wdpro_dining_policy (snowflake data type: text)"
+
+          - name: event_dining_wdpro_enterprise_dining_facility
+            description: "event_dining_wdpro_enterprise_dining_facility (snowflake data type: text)"
+
+          - name: event_dining_wdpro_enterprise_product
+            description: "event_dining_wdpro_enterprise_product (snowflake data type: text)"
+
+          - name: event_dining_wdpro_service_period
+            description: "event_dining_wdpro_service_period (snowflake data type: text)"
+
+          - name: owner_participant
+            description: "owner_participant (snowflake data type: boolean)"
+
+          - name: party_members
+            description: "party_members (snowflake data type: variant)"
+
+          - name: primary_transactional_guest_guest_id
+            description: "primary_transactional_guest_guest_id (snowflake data type: text)"
+
+          - name: primary_transactional_guest_id_type
+            description: "primary_transactional_guest_id_type (snowflake data type: text)"
+
+          - name: primary_transactional_guest_id_value
+            description: "primary_transactional_guest_id_value (snowflake data type: text)"
+
+          - name: primary_transactional_guest_last_name
+            description: "primary_transactional_guest_last_name (snowflake data type: text)"
+
+          - name: primary_transactional_guest_swid
+            description: "primary_transactional_guest_swid (snowflake data type: text)"
+
+          - name: reservation_number
+            description: "reservation_number (snowflake data type: text)"
+
+          - name: status
+            description: "status (snowflake data type: text)"
+
+          - name: vip_level
+            description: "vip_level (snowflake data type: text)"
+
+      - name: dining_reservation_dining_reservations_add_on_components
+        columns:
+          - name: dining_reservation_dining_reservations_id
+            description: "dining_reservation_dining_reservations_id (snowflake data type: text)"
+
+          - name: enterprise_product_id
+            description: "enterprise_product_id (snowflake data type: text)"
+
+          - name: product_id
+            description: "product_id (snowflake data type: text)"
+
+          - name: quantity
+            description: "quantity (snowflake data type: text)"
+
+      - name: dining_reservation_dining_reservations_allergies
+        columns:
+          - name: allergy
+            description: "allergy (snowflake data type: text)"
+
+          - name: dining_reservation_dining_reservations_id
+            description: "dining_reservation_dining_reservations_id (snowflake data type: text)"
+
+      - name: dining_reservation_dining_reservations_event_dining_total_prepaid_amount_prepaid_amount
+        columns:
+          - name: age_count
+            description: "age_count (snowflake data type: text)"
+
+          - name: age_type
+            description: "age_type (snowflake data type: text)"
+
+          - name: amount
+            description: "amount (snowflake data type: text)"
+
+          - name: dining_reservation_dining_reservations_id
+            description: "dining_reservation_dining_reservations_id (snowflake data type: text)"
+
+      - name: dining_reservation_dining_reservations_party_members
+        columns:
+          - name: age_group
+            description: "age_group (snowflake data type: text)"
+
+          - name: dining_reservation_dining_reservations_id
+            description: "dining_reservation_dining_reservations_id (snowflake data type: text)"
+
+          - name: guest_id
+            description: "guest_id (snowflake data type: text)"
+
+          - name: id_type
+            description: "id_type (snowflake data type: text)"
+
+          - name: id_value
+            description: "id_value (snowflake data type: text)"
+
+          - name: relationship
+            description: "relationship (snowflake data type: variant)"
+
+          - name: role
+            description: "role (snowflake data type: text)"
+
+          - name: transactional_guest_address_list
+            description: "transactional_guest_address_list (snowflake data type: variant)"
+
+          - name: transactional_guest_email_list
+            description: "transactional_guest_email_list (snowflake data type: variant)"
+
+          - name: transactional_guest_external_guest_references
+            description: "transactional_guest_external_guest_references (snowflake data type: variant)"
+
+          - name: transactional_guest_guest_id
+            description: "transactional_guest_guest_id (snowflake data type: text)"
+
+          - name: transactional_guest_name_first_name
+            description: "transactional_guest_name_first_name (snowflake data type: text)"
+
+          - name: transactional_guest_name_last_name
+            description: "transactional_guest_name_last_name (snowflake data type: text)"
+
+          - name: transactional_guest_name_middle_name
+            description: "transactional_guest_name_middle_name (snowflake data type: text)"
+
+          - name: transactional_guest_name_suffix
+            description: "transactional_guest_name_suffix (snowflake data type: text)"
+
+          - name: transactional_guest_name_title
+            description: "transactional_guest_name_title (snowflake data type: text)"
+
+          - name: transactional_guest_phone_list
+            description: "transactional_guest_phone_list (snowflake data type: variant)"
+
+          - name: transactional_guest_role
+            description: "transactional_guest_role (snowflake data type: text)"
+
+      - name: dining_reservation_dining_reservations_party_members_transactional_guest_address_list
+        columns:
+          - name: address_line1
+            description: "address_line1 (snowflake data type: text)"
+
+          - name: city
+            description: "city (snowflake data type: text)"
+
+          - name: country
+            description: "country (snowflake data type: text)"
+
+          - name: dining_reservation_dining_reservations_party_members_id
+            description: "dining_reservation_dining_reservations_party_members_id (snowflake data type: text)"
+
+          - name: postal_code
+            description: "postal_code (snowflake data type: text)"
+
+          - name: state
+            description: "state (snowflake data type: text)"
+
+          - name: type
+            description: "type (snowflake data type: text)"
+
+      - name: dining_reservation_dining_reservations_party_members_transactional_guest_email_list
+        columns:
+          - name: dining_reservation_dining_reservations_party_members_id
+            description: "dining_reservation_dining_reservations_party_members_id (snowflake data type: text)"
+
+          - name: email
+            description: "email (snowflake data type: text)"
+
+      - name: dining_reservation_dining_reservations_party_members_transactional_guest_external_guest_references
+        columns:
+          - name: dining_reservation_dining_reservations_party_members_id
+            description: "dining_reservation_dining_reservations_party_members_id (snowflake data type: text)"
+
+          - name: type
+            description: "type (snowflake data type: text)"
+
+          - name: value
+            description: "value (snowflake data type: text)"
+
+      - name: dining_reservation_dining_reservations_party_members_transactional_guest_phone_list
+        columns:
+          - name: dining_reservation_dining_reservations_party_members_id
+            description: "dining_reservation_dining_reservations_party_members_id (snowflake data type: text)"
+
+          - name: number
+            description: "number (snowflake data type: text)"
+
+          - name: type
+            description: "type (snowflake data type: text)"
+
+      - name: dining_reservation_native_guest_ids
+        columns:
+          - name: dining_reservation_id
+            description: "dining_reservation_id (snowflake data type: text)"
+
+          - name: type
+            description: "type (snowflake data type: text)"
+
+          - name: value
+            description: "value (snowflake data type: text)"
+
+      - name: guest_id
+        columns:
+          - name: action
+            description: "action (snowflake data type: text)"
+
+          - name: added_guest_identifiers
+            description: "added_guest_identifiers (snowflake data type: variant)"
+
+          - name: correlation_id
+            description: "correlation_id (snowflake data type: text)"
+
+          - name: landing_cloudevent_check_sum
+            description: "landing_cloudevent_check_sum (snowflake data type: text)"
+
+          - name: landing_cloudevent_datacontenttype
+            description: "landing_cloudevent_datacontenttype (snowflake data type: text)"
+
+          - name: landing_cloudevent_dataschema
+            description: "landing_cloudevent_dataschema (snowflake data type: text)"
+
+          - name: landing_cloudevent_data_contract_version
+            description: "landing_cloudevent_data_contract_version (snowflake data type: text)"
+
+          - name: landing_cloudevent_exception_error
+            description: "landing_cloudevent_exception_error (snowflake data type: text)"
+
+          - name: landing_cloudevent_id
+            description: "landing_cloudevent_id (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_database
+            description: "landing_cloudevent_router_database (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_schema
+            description: "landing_cloudevent_router_schema (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_table
+            description: "landing_cloudevent_router_table (snowflake data type: text)"
+
+          - name: landing_cloudevent_source
+            description: "landing_cloudevent_source (snowflake data type: text)"
+
+          - name: landing_cloudevent_specversion
+            description: "landing_cloudevent_specversion (snowflake data type: text)"
+
+          - name: landing_cloudevent_stream
+            description: "landing_cloudevent_stream (snowflake data type: text)"
+
+          - name: landing_cloudevent_subject
+            description: "landing_cloudevent_subject (snowflake data type: text)"
+
+          - name: landing_cloudevent_time
+            description: "landing_cloudevent_time (snowflake data type: timestamp_ntz)"
+
+          - name: landing_cloudevent_traceparent
+            description: "landing_cloudevent_traceparent (snowflake data type: text)"
+
+          - name: landing_cloudevent_tracestate
+            description: "landing_cloudevent_tracestate (snowflake data type: text)"
+
+          - name: landing_cloudevent_type
+            description: "landing_cloudevent_type (snowflake data type: text)"
+
+          - name: landing_cloudevent_validated
+            description: "landing_cloudevent_validated (snowflake data type: boolean)"
+
+          - name: landing_file_last_modified
+            description: "landing_file_last_modified (snowflake data type: timestamp_ntz)"
+
+          - name: landing_file_name
+            description: "landing_file_name (snowflake data type: text)"
+
+          - name: landing_file_row_number
+            description: "landing_file_row_number (snowflake data type: number)"
+
+          - name: landing_id
+            description: "landing_id (snowflake data type: text)"
+
+          - name: landing_timestamp
+            description: "landing_timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: previous_guest_identifiers
+            description: "previous_guest_identifiers (snowflake data type: variant)"
+
+          - name: previous_guest_identifiers1
+            description: "previous_guest_identifiers1 (snowflake data type: variant)"
+
+          - name: previous_guest_identifiers2
+            description: "previous_guest_identifiers2 (snowflake data type: variant)"
+
+          - name: removed_guest_identifiers
+            description: "removed_guest_identifiers (snowflake data type: variant)"
+
+          - name: resulting_guest_identifiers
+            description: "resulting_guest_identifiers (snowflake data type: variant)"
+
+          - name: timestamp
+            description: "timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: type
+            description: "type (snowflake data type: text)"
+
+      - name: guest_identifier
+        columns:
+          - name: action
+            description: "action (snowflake data type: text)"
+
+          - name: added_guest_identifiers
+            description: "added_guest_identifiers (snowflake data type: variant)"
+
+          - name: correlation_id
+            description: "correlation_id (snowflake data type: text)"
+
+          - name: landing_cloudevent_check_sum
+            description: "landing_cloudevent_check_sum (snowflake data type: text)"
+
+          - name: landing_cloudevent_datacontenttype
+            description: "landing_cloudevent_datacontenttype (snowflake data type: text)"
+
+          - name: landing_cloudevent_dataschema
+            description: "landing_cloudevent_dataschema (snowflake data type: text)"
+
+          - name: landing_cloudevent_data_contract_version
+            description: "landing_cloudevent_data_contract_version (snowflake data type: text)"
+
+          - name: landing_cloudevent_exception_error
+            description: "landing_cloudevent_exception_error (snowflake data type: text)"
+
+          - name: landing_cloudevent_id
+            description: "landing_cloudevent_id (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_database
+            description: "landing_cloudevent_router_database (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_schema
+            description: "landing_cloudevent_router_schema (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_table
+            description: "landing_cloudevent_router_table (snowflake data type: text)"
+
+          - name: landing_cloudevent_source
+            description: "landing_cloudevent_source (snowflake data type: text)"
+
+          - name: landing_cloudevent_specversion
+            description: "landing_cloudevent_specversion (snowflake data type: text)"
+
+          - name: landing_cloudevent_stream
+            description: "landing_cloudevent_stream (snowflake data type: text)"
+
+          - name: landing_cloudevent_subject
+            description: "landing_cloudevent_subject (snowflake data type: text)"
+
+          - name: landing_cloudevent_time
+            description: "landing_cloudevent_time (snowflake data type: timestamp_ntz)"
+
+          - name: landing_cloudevent_traceparent
+            description: "landing_cloudevent_traceparent (snowflake data type: text)"
+
+          - name: landing_cloudevent_tracestate
+            description: "landing_cloudevent_tracestate (snowflake data type: text)"
+
+          - name: landing_cloudevent_type
+            description: "landing_cloudevent_type (snowflake data type: text)"
+
+          - name: landing_cloudevent_validated
+            description: "landing_cloudevent_validated (snowflake data type: boolean)"
+
+          - name: landing_file_last_modified
+            description: "landing_file_last_modified (snowflake data type: timestamp_ntz)"
+
+          - name: landing_file_name
+            description: "landing_file_name (snowflake data type: text)"
+
+          - name: landing_file_row_number
+            description: "landing_file_row_number (snowflake data type: number)"
+
+          - name: landing_id
+            description: "landing_id (snowflake data type: text)"
+
+          - name: landing_timestamp
+            description: "landing_timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: previous_guest_identifiers
+            description: "previous_guest_identifiers (snowflake data type: variant)"
+
+          - name: previous_guest_identifiers1
+            description: "previous_guest_identifiers1 (snowflake data type: variant)"
+
+          - name: previous_guest_identifiers2
+            description: "previous_guest_identifiers2 (snowflake data type: variant)"
+
+          - name: removed_guest_identifiers
+            description: "removed_guest_identifiers (snowflake data type: variant)"
+
+          - name: resulting_guest_identifiers
+            description: "resulting_guest_identifiers (snowflake data type: variant)"
+
+          - name: timestamp
+            description: "timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: type
+            description: "type (snowflake data type: text)"
+
+      - name: guest_identifier_added_guest_identifiers
+        columns:
+          - name: added_guest_identifiers_type
+            description: "added_guest_identifiers_type (snowflake data type: text)"
+
+          - name: added_guest_identifiers_value
+            description: "added_guest_identifiers_value (snowflake data type: text)"
+
+          - name: guest_identifier_id
+            description: "guest_identifier_id (snowflake data type: text)"
+
+      - name: guest_identifier_previous_guest_identifiers
+        columns:
+          - name: guest_identifier_id
+            description: "guest_identifier_id (snowflake data type: text)"
+
+          - name: previous_guest_identifiers_type
+            description: "previous_guest_identifiers_type (snowflake data type: text)"
+
+          - name: previous_guest_identifiers_value
+            description: "previous_guest_identifiers_value (snowflake data type: text)"
+
+      - name: guest_identifier_previous_guest_identifiers1
+        columns:
+          - name: guest_identifier_previous_guest_identifiers_id
+            description: "guest_identifier_previous_guest_identifiers_id (snowflake data type: text)"
+
+          - name: previous_guest_identifiers1_type
+            description: "previous_guest_identifiers1_type (snowflake data type: text)"
+
+          - name: previous_guest_identifiers1_value
+            description: "previous_guest_identifiers1_value (snowflake data type: text)"
+
+      - name: guest_identifier_previous_guest_identifiers2
+        columns:
+          - name: guest_identifier_previous_guest_identifiers_id
+            description: "guest_identifier_previous_guest_identifiers_id (snowflake data type: text)"
+
+          - name: previous_guest_identifiers2_type
+            description: "previous_guest_identifiers2_type (snowflake data type: text)"
+
+          - name: previous_guest_identifiers2_value
+            description: "previous_guest_identifiers2_value (snowflake data type: text)"
+
+      - name: guest_identifier_removed_guest_identifiers
+        columns:
+          - name: guest_identifier_id
+            description: "guest_identifier_id (snowflake data type: text)"
+
+          - name: removed_guest_identifiers_type
+            description: "removed_guest_identifiers_type (snowflake data type: text)"
+
+          - name: removed_guest_identifiers_value
+            description: "removed_guest_identifiers_value (snowflake data type: text)"
+
+      - name: guest_identifier_resulting_guest_identifiers
+        columns:
+          - name: guest_identifier_id
+            description: "guest_identifier_id (snowflake data type: text)"
+
+          - name: resulting_guest_identifiers_type
+            description: "resulting_guest_identifiers_type (snowflake data type: text)"
+
+          - name: resulting_guest_identifiers_value
+            description: "resulting_guest_identifiers_value (snowflake data type: text)"
+
+      - name: guest_id_added_guest_identifiers
+        columns:
+          - name: added_guest_identifiers_type
+            description: "added_guest_identifiers_type (snowflake data type: text)"
+
+          - name: added_guest_identifiers_value
+            description: "added_guest_identifiers_value (snowflake data type: text)"
+
+          - name: guest_id_id
+            description: "guest_id_id (snowflake data type: text)"
+
+      - name: guest_id_previous_guest_identifiers
+        columns:
+          - name: guest_id_id
+            description: "guest_id_id (snowflake data type: text)"
+
+          - name: previous_guest_identifiers_type
+            description: "previous_guest_identifiers_type (snowflake data type: text)"
+
+          - name: previous_guest_identifiers_value
+            description: "previous_guest_identifiers_value (snowflake data type: text)"
+
+      - name: guest_id_previous_guest_identifiers1
+        columns:
+          - name: guest_id_previous_guest_identifiers_id
+            description: "guest_id_previous_guest_identifiers_id (snowflake data type: text)"
+
+          - name: previous_guest_identifiers1_type
+            description: "previous_guest_identifiers1_type (snowflake data type: text)"
+
+          - name: previous_guest_identifiers1_value
+            description: "previous_guest_identifiers1_value (snowflake data type: text)"
+
+      - name: guest_id_previous_guest_identifiers2
+        columns:
+          - name: guest_id_previous_guest_identifiers_id
+            description: "guest_id_previous_guest_identifiers_id (snowflake data type: text)"
+
+          - name: previous_guest_identifiers2_type
+            description: "previous_guest_identifiers2_type (snowflake data type: text)"
+
+          - name: previous_guest_identifiers2_value
+            description: "previous_guest_identifiers2_value (snowflake data type: text)"
+
+      - name: guest_id_removed_guest_identifiers
+        columns:
+          - name: guest_id_id
+            description: "guest_id_id (snowflake data type: text)"
+
+          - name: removed_guest_identifiers_type
+            description: "removed_guest_identifiers_type (snowflake data type: text)"
+
+          - name: removed_guest_identifiers_value
+            description: "removed_guest_identifiers_value (snowflake data type: text)"
+
+      - name: guest_id_resulting_guest_identifiers
+        columns:
+          - name: guest_id_id
+            description: "guest_id_id (snowflake data type: text)"
+
+          - name: resulting_guest_identifiers_type
+            description: "resulting_guest_identifiers_type (snowflake data type: text)"
+
+          - name: resulting_guest_identifiers_value
+            description: "resulting_guest_identifiers_value (snowflake data type: text)"
+
+      - name: park_reservation
+        columns:
+          - name: action
+            description: "action (snowflake data type: text)"
+
+          - name: entitlement_age_group
+            description: "entitlement_age_group (snowflake data type: text)"
+
+          - name: entitlement_conf_id
+            description: "entitlement_conf_id (snowflake data type: text)"
+
+          - name: entitlement_email
+            description: "entitlement_email (snowflake data type: text)"
+
+          - name: entitlement_exp_date
+            description: "entitlement_exp_date (snowflake data type: date)"
+
+          - name: entitlement_exp_park
+            description: "entitlement_exp_park (snowflake data type: text)"
+
+          - name: entitlement_exp_slot
+            description: "entitlement_exp_slot (snowflake data type: text)"
+
+          - name: entitlement_first_name
+            description: "entitlement_first_name (snowflake data type: text)"
+
+          - name: entitlement_last_name
+            description: "entitlement_last_name (snowflake data type: text)"
+
+          - name: entitlement_product_id
+            description: "entitlement_product_id (snowflake data type: text)"
+
+          - name: entitlement_reservation_origin
+            description: "entitlement_reservation_origin (snowflake data type: text)"
+
+          - name: entitlement_reservation_status
+            description: "entitlement_reservation_status (snowflake data type: text)"
+
+          - name: entitlement_res_id
+            description: "entitlement_res_id (snowflake data type: text)"
+
+          - name: entitlement_sku
+            description: "entitlement_sku (snowflake data type: text)"
+
+          - name: entitlement_slot_start_date_time
+            description: "entitlement_slot_start_date_time (snowflake data type: timestamp_ntz)"
+
+          - name: entitlement_swid
+            description: "entitlement_swid (snowflake data type: text)"
+
+          - name: entitlement_ticket_visual_id
+            description: "entitlement_ticket_visual_id (snowflake data type: text)"
+
+          - name: landing_cloudevent_check_sum
+            description: "landing_cloudevent_check_sum (snowflake data type: text)"
+
+          - name: landing_cloudevent_datacontenttype
+            description: "landing_cloudevent_datacontenttype (snowflake data type: text)"
+
+          - name: landing_cloudevent_dataschema
+            description: "landing_cloudevent_dataschema (snowflake data type: text)"
+
+          - name: landing_cloudevent_data_contract_version
+            description: "landing_cloudevent_data_contract_version (snowflake data type: text)"
+
+          - name: landing_cloudevent_exception_error
+            description: "landing_cloudevent_exception_error (snowflake data type: text)"
+
+          - name: landing_cloudevent_id
+            description: "landing_cloudevent_id (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_database
+            description: "landing_cloudevent_router_database (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_schema
+            description: "landing_cloudevent_router_schema (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_table
+            description: "landing_cloudevent_router_table (snowflake data type: text)"
+
+          - name: landing_cloudevent_source
+            description: "landing_cloudevent_source (snowflake data type: text)"
+
+          - name: landing_cloudevent_specversion
+            description: "landing_cloudevent_specversion (snowflake data type: text)"
+
+          - name: landing_cloudevent_stream
+            description: "landing_cloudevent_stream (snowflake data type: text)"
+
+          - name: landing_cloudevent_subject
+            description: "landing_cloudevent_subject (snowflake data type: text)"
+
+          - name: landing_cloudevent_time
+            description: "landing_cloudevent_time (snowflake data type: timestamp_ntz)"
+
+          - name: landing_cloudevent_traceparent
+            description: "landing_cloudevent_traceparent (snowflake data type: text)"
+
+          - name: landing_cloudevent_tracestate
+            description: "landing_cloudevent_tracestate (snowflake data type: text)"
+
+          - name: landing_cloudevent_type
+            description: "landing_cloudevent_type (snowflake data type: text)"
+
+          - name: landing_cloudevent_validated
+            description: "landing_cloudevent_validated (snowflake data type: boolean)"
+
+          - name: landing_file_last_modified
+            description: "landing_file_last_modified (snowflake data type: timestamp_ntz)"
+
+          - name: landing_file_name
+            description: "landing_file_name (snowflake data type: text)"
+
+          - name: landing_file_row_number
+            description: "landing_file_row_number (snowflake data type: number)"
+
+          - name: landing_id
+            description: "landing_id (snowflake data type: text)"
+
+          - name: landing_timestamp
+            description: "landing_timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: native_guest_ids
+            description: "native_guest_ids (snowflake data type: variant)"
+
+          - name: timestamp
+            description: "timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: type
+            description: "type (snowflake data type: text)"
+
+      - name: park_reservation_native_guest_ids
+        columns:
+          - name: native_guest_ids_type
+            description: "native_guest_ids_type (snowflake data type: text)"
+
+          - name: native_guest_ids_value
+            description: "native_guest_ids_value (snowflake data type: text)"
+
+          - name: park_reservation_id
+            description: "park_reservation_id (snowflake data type: text)"
+
+      - name: planning_party
+        columns:
+          - name: action
+            description: "action (snowflake data type: text)"
+
+          - name: landing_cloudevent_check_sum
+            description: "landing_cloudevent_check_sum (snowflake data type: text)"
+
+          - name: landing_cloudevent_datacontenttype
+            description: "landing_cloudevent_datacontenttype (snowflake data type: text)"
+
+          - name: landing_cloudevent_dataschema
+            description: "landing_cloudevent_dataschema (snowflake data type: text)"
+
+          - name: landing_cloudevent_data_contract_version
+            description: "landing_cloudevent_data_contract_version (snowflake data type: text)"
+
+          - name: landing_cloudevent_exception_error
+            description: "landing_cloudevent_exception_error (snowflake data type: text)"
+
+          - name: landing_cloudevent_id
+            description: "landing_cloudevent_id (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_database
+            description: "landing_cloudevent_router_database (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_schema
+            description: "landing_cloudevent_router_schema (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_table
+            description: "landing_cloudevent_router_table (snowflake data type: text)"
+
+          - name: landing_cloudevent_source
+            description: "landing_cloudevent_source (snowflake data type: text)"
+
+          - name: landing_cloudevent_specversion
+            description: "landing_cloudevent_specversion (snowflake data type: text)"
+
+          - name: landing_cloudevent_stream
+            description: "landing_cloudevent_stream (snowflake data type: text)"
+
+          - name: landing_cloudevent_subject
+            description: "landing_cloudevent_subject (snowflake data type: text)"
+
+          - name: landing_cloudevent_time
+            description: "landing_cloudevent_time (snowflake data type: timestamp_ntz)"
+
+          - name: landing_cloudevent_traceparent
+            description: "landing_cloudevent_traceparent (snowflake data type: text)"
+
+          - name: landing_cloudevent_tracestate
+            description: "landing_cloudevent_tracestate (snowflake data type: text)"
+
+          - name: landing_cloudevent_type
+            description: "landing_cloudevent_type (snowflake data type: text)"
+
+          - name: landing_cloudevent_validated
+            description: "landing_cloudevent_validated (snowflake data type: boolean)"
+
+          - name: landing_file_last_modified
+            description: "landing_file_last_modified (snowflake data type: timestamp_ntz)"
+
+          - name: landing_file_name
+            description: "landing_file_name (snowflake data type: text)"
+
+          - name: landing_file_row_number
+            description: "landing_file_row_number (snowflake data type: number)"
+
+          - name: landing_id
+            description: "landing_id (snowflake data type: text)"
+
+          - name: landing_timestamp
+            description: "landing_timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: planning_party_end_date_time
+            description: "planning_party_end_date_time (snowflake data type: timestamp_ntz)"
+
+          - name: planning_party_id
+            description: "planning_party_id (snowflake data type: text)"
+
+          - name: planning_party_location
+            description: "planning_party_location (snowflake data type: text)"
+
+          - name: planning_party_manager_type
+            description: "planning_party_manager_type (snowflake data type: text)"
+
+          - name: planning_party_manager_value
+            description: "planning_party_manager_value (snowflake data type: text)"
+
+          - name: planning_party_members
+            description: "planning_party_members (snowflake data type: variant)"
+
+          - name: planning_party_removed_guest_identifiers
+            description: "planning_party_removed_guest_identifiers (snowflake data type: variant)"
+
+          - name: planning_party_start_date_time
+            description: "planning_party_start_date_time (snowflake data type: timestamp_ntz)"
+
+          - name: planning_party_type
+            description: "planning_party_type (snowflake data type: text)"
+
+          - name: timestamp
+            description: "timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: type
+            description: "type (snowflake data type: text)"
+
+      - name: planning_party_planning_party_members
+        columns:
+          - name: planning_party_id
+            description: "planning_party_id (snowflake data type: text)"
+
+          - name: planning_party_members_identifier_type
+            description: "planning_party_members_identifier_type (snowflake data type: text)"
+
+          - name: planning_party_members_identifier_value
+            description: "planning_party_members_identifier_value (snowflake data type: text)"
+
+      - name: planning_party_planning_party_removed_guest_identifiers
+        columns:
+          - name: planning_party_id
+            description: "planning_party_id (snowflake data type: text)"
+
+          - name: planning_party_removed_guest_identifiers_type
+            description: "planning_party_removed_guest_identifiers_type (snowflake data type: text)"
+
+          - name: planning_party_removed_guest_identifiers_value
+            description: "planning_party_removed_guest_identifiers_value (snowflake data type: text)"
+
+      - name: registered_guest
+        columns:
+          - name: action
+            description: "action (snowflake data type: text)"
+
+          - name: landing_cloudevent_check_sum
+            description: "landing_cloudevent_check_sum (snowflake data type: text)"
+
+          - name: landing_cloudevent_datacontenttype
+            description: "landing_cloudevent_datacontenttype (snowflake data type: text)"
+
+          - name: landing_cloudevent_dataschema
+            description: "landing_cloudevent_dataschema (snowflake data type: text)"
+
+          - name: landing_cloudevent_data_contract_version
+            description: "landing_cloudevent_data_contract_version (snowflake data type: text)"
+
+          - name: landing_cloudevent_exception_error
+            description: "landing_cloudevent_exception_error (snowflake data type: text)"
+
+          - name: landing_cloudevent_id
+            description: "landing_cloudevent_id (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_database
+            description: "landing_cloudevent_router_database (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_schema
+            description: "landing_cloudevent_router_schema (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_table
+            description: "landing_cloudevent_router_table (snowflake data type: text)"
+
+          - name: landing_cloudevent_source
+            description: "landing_cloudevent_source (snowflake data type: text)"
+
+          - name: landing_cloudevent_specversion
+            description: "landing_cloudevent_specversion (snowflake data type: text)"
+
+          - name: landing_cloudevent_stream
+            description: "landing_cloudevent_stream (snowflake data type: text)"
+
+          - name: landing_cloudevent_subject
+            description: "landing_cloudevent_subject (snowflake data type: text)"
+
+          - name: landing_cloudevent_time
+            description: "landing_cloudevent_time (snowflake data type: timestamp_ntz)"
+
+          - name: landing_cloudevent_traceparent
+            description: "landing_cloudevent_traceparent (snowflake data type: text)"
+
+          - name: landing_cloudevent_tracestate
+            description: "landing_cloudevent_tracestate (snowflake data type: text)"
+
+          - name: landing_cloudevent_type
+            description: "landing_cloudevent_type (snowflake data type: text)"
+
+          - name: landing_cloudevent_validated
+            description: "landing_cloudevent_validated (snowflake data type: boolean)"
+
+          - name: landing_file_last_modified
+            description: "landing_file_last_modified (snowflake data type: timestamp_ntz)"
+
+          - name: landing_file_name
+            description: "landing_file_name (snowflake data type: text)"
+
+          - name: landing_file_row_number
+            description: "landing_file_row_number (snowflake data type: number)"
+
+          - name: landing_id
+            description: "landing_id (snowflake data type: text)"
+
+          - name: landing_timestamp
+            description: "landing_timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: native_guest_ids
+            description: "native_guest_ids (snowflake data type: variant)"
+
+          - name: registered_guest_address_list
+            description: "registered_guest_address_list (snowflake data type: variant)"
+
+          - name: registered_guest_affiliate_name
+            description: "registered_guest_affiliate_name (snowflake data type: text)"
+
+          - name: registered_guest_age_band
+            description: "registered_guest_age_band (snowflake data type: text)"
+
+          - name: registered_guest_client_id
+            description: "registered_guest_client_id (snowflake data type: text)"
+
+          - name: registered_guest_communication_preferences_preferred_language
+            description: "registered_guest_communication_preferences_preferred_language (snowflake data type: text)"
+
+          - name: registered_guest_country_code
+            description: "registered_guest_country_code (snowflake data type: text)"
+
+          - name: registered_guest_date_of_birth
+            description: "registered_guest_date_of_birth (snowflake data type: variant)"
+
+          - name: registered_guest_email
+            description: "registered_guest_email (snowflake data type: text)"
+
+          - name: registered_guest_email_validation_status
+            description: "registered_guest_email_validation_status (snowflake data type: text)"
+
+          - name: registered_guest_gender
+            description: "registered_guest_gender (snowflake data type: text)"
+
+          - name: registered_guest_language_code
+            description: "registered_guest_language_code (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_disney_family_of_business_news_multi
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_disney_family_of_business_news_multi (snowflake data type: boolean)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_disney_family_of_business_news_options
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_disney_family_of_business_news_options (snowflake data type: variant)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_disney_family_of_business_news_type
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_disney_family_of_business_news_type (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_family_and_friends_notifications_multi
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_family_and_friends_notifications_multi (snowflake data type: boolean)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_family_and_friends_notifications_options
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_family_and_friends_notifications_options (snowflake data type: variant)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_family_and_friends_notifications_type
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_family_and_friends_notifications_type (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_itinerary_changes_multi
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_itinerary_changes_multi (snowflake data type: boolean)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_itinerary_changes_options
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_itinerary_changes_options (snowflake data type: variant)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_itinerary_changes_type
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_itinerary_changes_type (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_itinerary_reminders_multi
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_itinerary_reminders_multi (snowflake data type: boolean)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_itinerary_reminders_options
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_itinerary_reminders_options (snowflake data type: variant)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_itinerary_reminders_type
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_itinerary_reminders_type (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_media_alerts_multi
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_media_alerts_multi (snowflake data type: boolean)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_media_alerts_options
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_media_alerts_options (snowflake data type: variant)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_media_alerts_type
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_media_alerts_type (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_offers_multi
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_offers_multi (snowflake data type: boolean)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_offers_options
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_offers_options (snowflake data type: variant)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_offers_type
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_offers_type (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_weekly_disney_insider_newsletter_multi
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_weekly_disney_insider_newsletter_multi (snowflake data type: boolean)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_weekly_disney_insider_newsletter_options
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_weekly_disney_insider_newsletter_options (snowflake data type: variant)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_weekly_disney_insider_newsletter_type
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_weekly_disney_insider_newsletter_type (snowflake data type: text)"
+
+          - name: registered_guest_name_first_name
+            description: "registered_guest_name_first_name (snowflake data type: text)"
+
+          - name: registered_guest_name_last_name
+            description: "registered_guest_name_last_name (snowflake data type: text)"
+
+          - name: registered_guest_name_middle_name
+            description: "registered_guest_name_middle_name (snowflake data type: text)"
+
+          - name: registered_guest_name_suffix
+            description: "registered_guest_name_suffix (snowflake data type: text)"
+
+          - name: registered_guest_name_title
+            description: "registered_guest_name_title (snowflake data type: text)"
+
+          - name: registered_guest_phone_list
+            description: "registered_guest_phone_list (snowflake data type: variant)"
+
+          - name: registered_guest_preferences_avatar_id
+            description: "registered_guest_preferences_avatar_id (snowflake data type: text)"
+
+          - name: registered_guest_preferences_favorite_character_id
+            description: "registered_guest_preferences_favorite_character_id (snowflake data type: text)"
+
+          - name: registered_guest_profile_context
+            description: "registered_guest_profile_context (snowflake data type: text)"
+
+          - name: registered_guest_reference_id
+            description: "registered_guest_reference_id (snowflake data type: text)"
+
+          - name: registered_guest_registration_date
+            description: "registered_guest_registration_date (snowflake data type: timestamp_ntz)"
+
+          - name: registered_guest_status
+            description: "registered_guest_status (snowflake data type: text)"
+
+          - name: registered_guest_swid
+            description: "registered_guest_swid (snowflake data type: text)"
+
+          - name: registered_guest_test_profile_flag
+            description: "registered_guest_test_profile_flag (snowflake data type: text)"
+
+          - name: registered_guest_user_name
+            description: "registered_guest_user_name (snowflake data type: text)"
+
+          - name: type
+            description: "type (snowflake data type: text)"
+
+      - name: registered_guest_native_guest_ids
+        columns:
+          - name: native_guest_ids_type
+            description: "native_guest_ids_type (snowflake data type: text)"
+
+          - name: native_guest_ids_value
+            description: "native_guest_ids_value (snowflake data type: text)"
+
+          - name: registered_guest_id
+            description: "registered_guest_id (snowflake data type: text)"
+
+      - name: registered_guest_registered_guest_address_list
+        columns:
+          - name: registered_guest_address_list_city
+            description: "registered_guest_address_list_city (snowflake data type: text)"
+
+          - name: registered_guest_address_list_country
+            description: "registered_guest_address_list_country (snowflake data type: text)"
+
+          - name: registered_guest_address_list_id
+            description: "registered_guest_address_list_id (snowflake data type: text)"
+
+          - name: registered_guest_address_list_line1
+            description: "registered_guest_address_list_line1 (snowflake data type: text)"
+
+          - name: registered_guest_address_list_line2
+            description: "registered_guest_address_list_line2 (snowflake data type: text)"
+
+          - name: registered_guest_address_list_line3
+            description: "registered_guest_address_list_line3 (snowflake data type: text)"
+
+          - name: registered_guest_address_list_postal_code
+            description: "registered_guest_address_list_postal_code (snowflake data type: text)"
+
+          - name: registered_guest_address_list_state_or_province
+            description: "registered_guest_address_list_state_or_province (snowflake data type: text)"
+
+          - name: registered_guest_address_list_type
+            description: "registered_guest_address_list_type (snowflake data type: text)"
+
+          - name: registered_guest_id
+            description: "registered_guest_id (snowflake data type: text)"
+
+      - name: registered_guest_registered_guest_messaging_preferences_messaging_preferences_form_disney_family_of_business_news_options
+        columns:
+          - name: registered_guest_id
+            description: "registered_guest_id (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_disney_family_of_business_news_options_checked
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_disney_family_of_business_news_options_checked (snowflake data type: boolean)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_disney_family_of_business_news_options_text
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_disney_family_of_business_news_options_text (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_disney_family_of_business_news_options_value
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_disney_family_of_business_news_options_value (snowflake data type: text)"
+
+      - name: registered_guest_registered_guest_messaging_preferences_messaging_preferences_form_family_and_friends_notifications_options
+        columns:
+          - name: registered_guest_id
+            description: "registered_guest_id (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_family_and_friends_notifications_options_checked
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_family_and_friends_notifications_options_checked (snowflake data type: boolean)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_family_and_friends_notifications_options_text
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_family_and_friends_notifications_options_text (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_family_and_friends_notifications_options_value
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_family_and_friends_notifications_options_value (snowflake data type: text)"
+
+      - name: registered_guest_registered_guest_messaging_preferences_messaging_preferences_form_itinerary_changes_options
+        columns:
+          - name: registered_guest_id
+            description: "registered_guest_id (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_itinerary_changes_options_checked
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_itinerary_changes_options_checked (snowflake data type: boolean)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_itinerary_changes_options_text
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_itinerary_changes_options_text (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_itinerary_changes_options_value
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_itinerary_changes_options_value (snowflake data type: text)"
+
+      - name: registered_guest_registered_guest_messaging_preferences_messaging_preferences_form_itinerary_reminders_options
+        columns:
+          - name: registered_guest_id
+            description: "registered_guest_id (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_itinerary_reminders_options_checked
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_itinerary_reminders_options_checked (snowflake data type: boolean)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_itinerary_reminders_options_text
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_itinerary_reminders_options_text (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_itinerary_reminders_options_value
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_itinerary_reminders_options_value (snowflake data type: text)"
+
+      - name: registered_guest_registered_guest_messaging_preferences_messaging_preferences_form_media_alerts_options
+        columns:
+          - name: registered_guest_id
+            description: "registered_guest_id (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_media_alerts_options_checked
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_media_alerts_options_checked (snowflake data type: boolean)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_media_alerts_options_text
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_media_alerts_options_text (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_media_alerts_options_value
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_media_alerts_options_value (snowflake data type: text)"
+
+      - name: registered_guest_registered_guest_messaging_preferences_messaging_preferences_form_offers_options
+        columns:
+          - name: registered_guest_id
+            description: "registered_guest_id (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_offers_options_checked
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_offers_options_checked (snowflake data type: boolean)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_offers_options_text
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_offers_options_text (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_offers_options_value
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_offers_options_value (snowflake data type: text)"
+
+      - name: registered_guest_registered_guest_messaging_preferences_messaging_preferences_form_weekly_disney_insider_newsletter_options
+        columns:
+          - name: registered_guest_id
+            description: "registered_guest_id (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_weekly_disney_insider_newsletter_options_checked
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_weekly_disney_insider_newsletter_options_checked (snowflake data type: boolean)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_weekly_disney_insider_newsletter_options_text
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_weekly_disney_insider_newsletter_options_text (snowflake data type: text)"
+
+          - name: registered_guest_messaging_preferences_messaging_preferences_form_weekly_disney_insider_newsletter_options_value
+            description: "registered_guest_messaging_preferences_messaging_preferences_form_weekly_disney_insider_newsletter_options_value (snowflake data type: text)"
+
+      - name: registered_guest_registered_guest_phone_list
+        columns:
+          - name: registered_guest_id
+            description: "registered_guest_id (snowflake data type: text)"
+
+          - name: registered_guest_phone_list_country_code
+            description: "registered_guest_phone_list_country_code (snowflake data type: text)"
+
+          - name: registered_guest_phone_list_extension
+            description: "registered_guest_phone_list_extension (snowflake data type: text)"
+
+          - name: registered_guest_phone_list_id
+            description: "registered_guest_phone_list_id (snowflake data type: text)"
+
+          - name: registered_guest_phone_list_number
+            description: "registered_guest_phone_list_number (snowflake data type: text)"
+
+          - name: registered_guest_phone_list_type
+            description: "registered_guest_phone_list_type (snowflake data type: text)"
+
+      - name: tickets
+        columns:
+          - name: action
+            description: "action (snowflake data type: text)"
+
+          - name: admission_entitlement_assigned_guest_first_name
+            description: "admission_entitlement_assigned_guest_first_name (snowflake data type: text)"
+
+          - name: admission_entitlement_assigned_guest_last_name
+            description: "admission_entitlement_assigned_guest_last_name (snowflake data type: text)"
+
+          - name: admission_entitlement_assigned_guest_nickname
+            description: "admission_entitlement_assigned_guest_nickname (snowflake data type: text)"
+
+          - name: admission_entitlement_category_id
+            description: "admission_entitlement_category_id (snowflake data type: text)"
+
+          - name: admission_entitlement_category_name
+            description: "admission_entitlement_category_name (snowflake data type: text)"
+
+          - name: admission_entitlement_end_date_time
+            description: "admission_entitlement_end_date_time (snowflake data type: timestamp_ntz)"
+
+          - name: admission_entitlement_exchange_status
+            description: "admission_entitlement_exchange_status (snowflake data type: text)"
+
+          - name: admission_entitlement_feature_ids
+            description: "admission_entitlement_feature_ids (snowflake data type: variant)"
+
+          - name: admission_entitlement_genie_plus
+            description: "admission_entitlement_genie_plus (snowflake data type: boolean)"
+
+          - name: admission_entitlement_government_id_linked
+            description: "admission_entitlement_government_id_linked (snowflake data type: boolean)"
+
+          - name: admission_entitlement_guest_age_group
+            description: "admission_entitlement_guest_age_group (snowflake data type: text)"
+
+          - name: admission_entitlement_main_entrance_pass
+            description: "admission_entitlement_main_entrance_pass (snowflake data type: boolean)"
+
+          - name: admission_entitlement_modifiable
+            description: "admission_entitlement_modifiable (snowflake data type: boolean)"
+
+          - name: admission_entitlement_name
+            description: "admission_entitlement_name (snowflake data type: text)"
+
+          - name: admission_entitlement_options
+            description: "admission_entitlement_options (snowflake data type: variant)"
+
+          - name: admission_entitlement_owner_owner_type
+            description: "admission_entitlement_owner_owner_type (snowflake data type: text)"
+
+          - name: admission_entitlement_owner_partner_id
+            description: "admission_entitlement_owner_partner_id (snowflake data type: text)"
+
+          - name: admission_entitlement_owner_profile_id
+            description: "admission_entitlement_owner_profile_id (snowflake data type: text)"
+
+          - name: admission_entitlement_package_entitlement
+            description: "admission_entitlement_package_entitlement (snowflake data type: boolean)"
+
+          - name: admission_entitlement_park_hopper
+            description: "admission_entitlement_park_hopper (snowflake data type: boolean)"
+
+          - name: admission_entitlement_primary_guest
+            description: "admission_entitlement_primary_guest (snowflake data type: text)"
+
+          - name: admission_entitlement_primary_guest_linked
+            description: "admission_entitlement_primary_guest_linked (snowflake data type: boolean)"
+
+          - name: admission_entitlement_product_instance_id
+            description: "admission_entitlement_product_instance_id (snowflake data type: text)"
+
+          - name: admission_entitlement_product_type_id
+            description: "admission_entitlement_product_type_id (snowflake data type: text)"
+
+          - name: admission_entitlement_remaining_use
+            description: "admission_entitlement_remaining_use (snowflake data type: number)"
+
+          - name: admission_entitlement_renewable
+            description: "admission_entitlement_renewable (snowflake data type: boolean)"
+
+          - name: admission_entitlement_shared
+            description: "admission_entitlement_shared (snowflake data type: boolean)"
+
+          - name: admission_entitlement_skip_renewal
+            description: "admission_entitlement_skip_renewal (snowflake data type: boolean)"
+
+          - name: admission_entitlement_sku
+            description: "admission_entitlement_sku (snowflake data type: text)"
+
+          - name: admission_entitlement_source_lexvas
+            description: "admission_entitlement_source_lexvas (snowflake data type: boolean)"
+
+          - name: admission_entitlement_start_date_time
+            description: "admission_entitlement_start_date_time (snowflake data type: timestamp_ntz)"
+
+          - name: admission_entitlement_status
+            description: "admission_entitlement_status (snowflake data type: text)"
+
+          - name: admission_entitlement_upgradeable
+            description: "admission_entitlement_upgradeable (snowflake data type: boolean)"
+
+          - name: admission_entitlement_use_count
+            description: "admission_entitlement_use_count (snowflake data type: number)"
+
+          - name: admission_entitlement_visual_id
+            description: "admission_entitlement_visual_id (snowflake data type: text)"
+
+          - name: admission_entitlement_voidable
+            description: "admission_entitlement_voidable (snowflake data type: boolean)"
+
+          - name: landing_cloudevent_check_sum
+            description: "landing_cloudevent_check_sum (snowflake data type: text)"
+
+          - name: landing_cloudevent_datacontenttype
+            description: "landing_cloudevent_datacontenttype (snowflake data type: text)"
+
+          - name: landing_cloudevent_dataschema
+            description: "landing_cloudevent_dataschema (snowflake data type: text)"
+
+          - name: landing_cloudevent_data_contract_version
+            description: "landing_cloudevent_data_contract_version (snowflake data type: text)"
+
+          - name: landing_cloudevent_exception_error
+            description: "landing_cloudevent_exception_error (snowflake data type: text)"
+
+          - name: landing_cloudevent_id
+            description: "landing_cloudevent_id (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_database
+            description: "landing_cloudevent_router_database (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_schema
+            description: "landing_cloudevent_router_schema (snowflake data type: text)"
+
+          - name: landing_cloudevent_router_table
+            description: "landing_cloudevent_router_table (snowflake data type: text)"
+
+          - name: landing_cloudevent_source
+            description: "landing_cloudevent_source (snowflake data type: text)"
+
+          - name: landing_cloudevent_specversion
+            description: "landing_cloudevent_specversion (snowflake data type: text)"
+
+          - name: landing_cloudevent_stream
+            description: "landing_cloudevent_stream (snowflake data type: text)"
+
+          - name: landing_cloudevent_subject
+            description: "landing_cloudevent_subject (snowflake data type: text)"
+
+          - name: landing_cloudevent_time
+            description: "landing_cloudevent_time (snowflake data type: timestamp_ntz)"
+
+          - name: landing_cloudevent_traceparent
+            description: "landing_cloudevent_traceparent (snowflake data type: text)"
+
+          - name: landing_cloudevent_tracestate
+            description: "landing_cloudevent_tracestate (snowflake data type: text)"
+
+          - name: landing_cloudevent_type
+            description: "landing_cloudevent_type (snowflake data type: text)"
+
+          - name: landing_cloudevent_validated
+            description: "landing_cloudevent_validated (snowflake data type: boolean)"
+
+          - name: landing_file_last_modified
+            description: "landing_file_last_modified (snowflake data type: timestamp_ntz)"
+
+          - name: landing_file_name
+            description: "landing_file_name (snowflake data type: text)"
+
+          - name: landing_file_row_number
+            description: "landing_file_row_number (snowflake data type: number)"
+
+          - name: landing_id
+            description: "landing_id (snowflake data type: text)"
+
+          - name: landing_timestamp
+            description: "landing_timestamp (snowflake data type: timestamp_ntz)"
+
+          - name: native_guest_ids
+            description: "native_guest_ids (snowflake data type: variant)"
+
+          - name: type
+            description: "type (snowflake data type: text)"
+
+      - name: tickets_admission_entitlement_options
+        columns:
+          - name: admission_entitlement_options_option_type
+            description: "admission_entitlement_options_option_type (snowflake data type: text)"
+
+          - name: admission_entitlement_options_option_value
+            description: "admission_entitlement_options_option_value (snowflake data type: variant)"
+
+          - name: tickets_id
+            description: "tickets_id (snowflake data type: text)"
+
+      - name: tickets_native_guest_ids
+        columns:
+          - name: native_guest_ids_type
+            description: "native_guest_ids_type (snowflake data type: text)"
+
+          - name: native_guest_ids_value
+            description: "native_guest_ids_value (snowflake data type: text)"
+
+          - name: tickets_id
+            description: "tickets_id (snowflake data type: text)"
+

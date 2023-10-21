@@ -1,0 +1,136 @@
+{
+    "GAMWDWFnfFriendsModel": {
+        "data-source-folder": "gam_wdw/v0",
+        "data-contract-name": "gam_wdw_fnf_friends_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360": {
+                "key-path-name": null,
+                "key-path-value": "fnf_friends"
+            }
+        }
+    },
+    "GAMWDWFnfInvitationModel": {
+        "data-source-folder": "gam_wdw/v0",
+        "data-contract-name": "gam_wdw_fnf_invitation_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360": {
+                "key-path-name": null,
+                "key-path-value": "fnf_invitation"
+            }
+        }
+    },
+    "GAMWDWFnfManagedGuestModel": {
+        "data-source-folder": "gam_wdw/v0",
+        "data-contract-name": "gam_wdw_fnf_managed_guest_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360": {
+                "key-path-name": null,
+                "key-path-value": "fnf_managed_guest"
+            }
+        }
+    },
+    "GAMWDWLnsgEntitlementsModel": {
+        "data-source-folder": "gam_wdw/v0",
+        "data-contract-name": "gam_wdw_lnsg_entitlements_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360": {
+                "key-path-name": null,
+                "key-path-value": "lnsg_entitlements"
+            }
+        }
+    },
+    "GAMWDWMagicbandModel": {
+        "data-source-folder": "gam_wdw/v0",
+        "data-contract-name": "gam_wdw_magicband_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360": {
+                "key-path-name": null,
+                "key-path-value": "magicband"
+            }
+        }
+    },
+    "GAMWDWActivityReservationModel": {
+        "data-source-folder": "gam_wdw/v0",
+        "data-contract-name": "gam_wdw_activity_reservation_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360": {
+                "key-path-name": null,
+                "key-path-value": "activity_reservation"
+            }
+        }
+    },
+    "GAMWDWAdmissionsModel": {
+        "data-source-folder": "gam_wdw/v0",
+        "data-contract-name": "gam_wdw_admissions_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360": {
+                "key-path-name": null,
+                "key-path-value": "admissions"
+            }
+        }
+    },
+    "GAMWDWAffiliationModel": {
+        "data-source-folder": "gam_wdw/v0",
+        "data-contract-name": "gam_wdw_affiliation_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360": {
+                "key-path-name": null,
+                "key-path-value": "affiliation"
+            }
+        }
+    },
+    "GAMWDWCelebrationsModel": {
+        "data-source-folder": "gam_wdw/v0",
+        "data-contract-name": "gam_wdw_celebrations_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360": {
+                "key-path-name": null,
+                "key-path-value": "celebrations"
+            }
+        }
+    },
+    "GAMWDWDineModel": {
+        "data-source-folder": "gam_wdw/v0",
+        "data-contract-name": "gam_wdw_dine_source_data_contract",
+        "kinesis-stream": {
+            "guest360-gam-kinesis-gam-dining-guest360-wdw": {
+                "key-path-name": null,
+                "key-path-value": null
+            }
+        }
+    },
+    "GAMWDWEntPsiModel": {
+        "data-source-folder": "gam_wdw/v0",
+        "data-contract-name": "gam_wdw_ent_psi_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360": {
+                "key-path-name": null,
+                "key-path-value": "ent_psi"
+            }
+        }
+    },
+    "GAMWDWGuestIdModel": {
+        "data-source-folder": "gam_wdw/v0",
+        "data-contract-name": "gam_wdw_guest_id_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360": {
+                "key-path-name": null,
+                "key-path-value": "guest_id"
+            }
+        }
+    },
+    "GAMWDWPlanningPartyModel": {
+        "data-source-folder": "gam_wdw/v0",
+        "data-contract-name": "gam_wdw_planning_party_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360": {
+                "key-path-name": null,
+                "key-path-value": "planning_party"
+            }
+        }
+    },
+    "GAMWDWGuestPreferenceModel": {
+        "data-source-folder": "gam_wdw/v0",
+        "data-contract-name": "gam_wdw_guest_preference_source_data_contract"
+    }
+}

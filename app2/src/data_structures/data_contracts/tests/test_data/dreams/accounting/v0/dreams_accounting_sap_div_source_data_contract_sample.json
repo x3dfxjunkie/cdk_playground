@@ -1,0 +1,103 @@
+[
+    {
+        "data": {
+            "SAP_DIV_CD": "10",
+            "SAP_DIV_NM": "Theme Parks",
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:43.240Z"
+        },
+        "metadata": {
+            "timestamp": "2023-05-23T21:37:35.000847Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "SAP_DIV",
+            "transaction-id": 2031637
+        }
+    },
+    {
+        "data": {
+            "SAP_DIV_CD": "11",
+            "SAP_DIV_NM": "Lodging",
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:43.266Z"
+        },
+        "metadata": {
+            "timestamp": "2023-05-23T23:07:55.051097Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "SAP_DIV",
+            "transaction-id": 2031638
+        }
+    },
+    {
+        "data": {
+            "SAP_DIV_CD": "12",
+            "SAP_DIV_NM": "Other Operations",
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:43.272Z"
+        },
+        "metadata": {
+            "timestamp": "2023-05-23T23:08:00.280006Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "SAP_DIV",
+            "transaction-id": 131086
+        }
+    },
+    {
+        "data": {
+            "SAP_DIV_CD": "22",
+            "SAP_DIV_NM": "Administration",
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:43.275Z"
+        },
+        "metadata": {
+            "timestamp": "2023-05-23T23:08:00.288339Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "SAP_DIV",
+            "transaction-id": 2162710
+        }
+    },
+    {
+        "data": {
+            "SAP_DIV_CD": "23",
+            "SAP_DIV_NM": "Ship Operations",
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:43.278Z"
+        },
+        "metadata": {
+            "timestamp": "2023-05-23T23:08:00.368385Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "SAP_DIV",
+            "transaction-id": 589855
+        }
+    },
+    {
+        "data": {
+            "SAP_DIV_CD": "31",
+            "SAP_DIV_NM": "Vacation Ownership",
+            "CREATE_USR_ID_CD": "Initial Load",
+            "CREATE_DTS": "2006-10-18T19:46:43.282Z"
+        },
+        "metadata": {
+            "timestamp": "2023-05-23T23:08:00.378064Z",
+            "record-type": "data",
+            "operation": "update",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "SAP_DIV"
+        }
+    }
+]

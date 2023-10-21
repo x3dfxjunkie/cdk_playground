@@ -1,0 +1,123 @@
+Comment: guest360 state machine to execute all system tests
+StartAt: Choice
+States:
+  Choice:
+    Type: Choice
+    Choices:
+      - Variable: $.limit_time
+        IsPresent: true
+        Next: add_execution_context_with_limit_time
+    Default: add_execution_context
+  add_execution_context_with_limit_time:
+    Type: Pass
+    Next: dynamodb_putitem
+    Parameters:
+      execId.$: $$.Execution.Id
+      execName.$: $$.Execution.Name
+      startTime.$: $$.Execution.StartTime
+      limit_time.$: $$.Execution.Input.limit_time
+    ResultPath: $.executionContext
+  add_execution_context:
+    Next: dynamodb_putitem
+    Parameters:
+      execId.$: $$.Execution.Id
+      execName.$: $$.Execution.Name
+      startTime.$: $$.Execution.StartTime
+      limit_time: ''
+    ResultPath: $.executionContext
+    Type: Pass
+  dynamodb_putitem:
+    Next: get_list_app_config
+    Parameters:
+      Item:
+        execution_name:
+          S.$: $.executionContext.execName
+        execution_state:
+          S: in-progress
+      TableName: ${execution_status_table}
+    Resource: arn:aws:states:::dynamodb:putItem
+    ResultPath: $.Output
+    Type: Task
+  for_each_app_config:
+    Catch:
+      - ErrorEquals:
+          - States.ALL
+        Next: update_status_fail
+        ResultPath: $.error
+    ItemProcessor:
+      ProcessorConfig:
+        Mode: INLINE
+      StartAt: start_system_test_k2k_step_function
+      States:
+        start_system_test_k2k_step_function:
+          End: true
+          Parameters:
+            Input.$: $
+            StateMachineArn: >-
+              ${guest360_execute_load_test_scenario_arn}
+          Resource: arn:aws:states:::states:startExecution.sync:2
+          ResultPath: $
+          Type: Task
+    ItemSelector:
+      app_config.$: $$.Map.Item.Value
+      execution_context:
+        execution_id.$: $.executionContext.execId
+        execution_name.$: $.executionContext.execName
+        limit_time.$: $.executionContext.limit_time
+    ItemsPath: $.Output.Payload
+    MaxConcurrency: 5
+    Next: update_status_success
+    ResultPath: $.Output
+    Type: Map
+  get_list_app_config:
+    Next: for_each_app_config
+    Parameters:
+      FunctionName: ${lambda_get_list_app_config_arn}
+      Payload:
+        filter_app_id.$: $$.Execution.Input.filter_app_id
+    Resource: arn:aws:states:::lambda:invoke
+    ResultPath: $.Output
+    ResultSelector:
+      Payload.$: $.Payload
+    Retry:
+      - BackoffRate: 2
+        ErrorEquals:
+          - Lambda.ServiceException
+          - Lambda.AWSLambdaException
+          - Lambda.SdkClientException
+          - Lambda.TooManyRequestsException
+        IntervalSeconds: 2
+        MaxAttempts: 6
+    Type: Task
+  update_status_fail:
+    End: true
+    Parameters:
+      ExpressionAttributeValues:
+        ':causeRef':
+          S.$: $.error.Cause
+        ':errorRef':
+          S.$: $.error.Error
+        ':myValueRef':
+          S: failed
+      Key:
+        execution_name:
+          S.$: $.executionContext.execName
+      TableName: ${execution_status_table}
+      UpdateExpression: >-
+        SET execution_state = :myValueRef, error_status = :errorRef,
+        cause_status = :causeRef
+    Resource: arn:aws:states:::dynamodb:updateItem
+    Type: Task
+  update_status_success:
+    End: true
+    Parameters:
+      ExpressionAttributeValues:
+        ':myValueRef':
+          S: succeeded
+      Key:
+        execution_name:
+          S.$: $.executionContext.execName
+      TableName: ${execution_status_table}
+      UpdateExpression: SET execution_state = :myValueRef
+    Resource: arn:aws:states:::dynamodb:updateItem
+    Type: Task

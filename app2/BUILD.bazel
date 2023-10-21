@@ -1,0 +1,49 @@
+filegroup(
+    name = "missing_init_files",
+    srcs = glob(
+        [
+            "src/__init__.py",
+        ],
+    ),
+    visibility = ["//visibility:public"],
+)
+
+filegroup(
+    name = "common",
+    srcs = glob(
+        [
+            "configs/stage-environment.yaml",
+        ],
+    ),
+    visibility = ["//visibility:public"],
+)
+
+filegroup(
+    name = "scopemapfile",
+    srcs = glob(
+        [
+            "src/data_service/api_authorizers/api_authorizers/scope_map.py",
+        ],
+    ),
+    visibility = ["//visibility:public"],
+)
+
+filegroup(
+    name = "environment_infra_feature_flags",
+    srcs = glob(
+        [
+            "configs/*.yaml",
+        ],
+    ),
+    visibility = ["//visibility:public"],
+)
+
+filegroup(
+    name = "app_level_conftest_file",
+    srcs = glob(
+        [
+            "conftest.py",
+        ],
+    ),
+    visibility = ["//visibility:public"],
+)

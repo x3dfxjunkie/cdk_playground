@@ -1,0 +1,18 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+py_lambda_library(
+    name = "events",
+    srcs = glob(["*.py"]),
+    data = [
+        "__init__.py",
+        "//app/src/data_structures",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("boto3"),
+        requirement("dataclasses-json"),
+        requirement("opentelemetry-sdk-extension-aws"),
+        requirement("opentelemetry-propagator-aws-xray"),
+    ],
+)

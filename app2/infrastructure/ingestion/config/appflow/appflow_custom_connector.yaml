@@ -1,0 +1,21 @@
+Parameters:
+  custom_connector_label:
+    Type: String
+    Description: "Custom connector Label"
+  custom_lambda_arn:
+    Type: String
+    Description: "Custom connector - Lambda ARN"
+  custom_description:
+    Type: String
+    Description: "Custom connector - Description"
+    Default : "Registered Connector in this account"
+Resources:
+  CustomAppFlowConnector:
+    Type: AWS::AppFlow::Connector
+    Properties: 
+      ConnectorLabel: !Ref custom_connector_label
+      ConnectorProvisioningConfig: 
+        Lambda:
+          LambdaArn: !Ref custom_lambda_arn
+      ConnectorProvisioningType: LAMBDA
+      Description: !Ref custom_description

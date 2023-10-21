@@ -1,0 +1,622 @@
+[
+    {
+        "data": {
+            "ADM_PROD_ID": 52129,
+            "AGE_DEF_ID": 15,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 233,
+            "ORIG_RTL_PRICE_AM": 342.95,
+            "PRGE_DTS": null,
+            "PROD_ATTR": null,
+            "TKT_AM": 288.78,
+            "TKT_CD": "EMW41",
+            "TKT_ID": 4222,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2007-08-05T00:00:00Z",
+            "TKT_TAX_AM": null,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2007-08-05T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:04:00.370006Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": 24071,
+            "AGE_DEF_ID": 15,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 1710,
+            "ORIG_RTL_PRICE_AM": 307.79,
+            "PRGE_DTS": null,
+            "PROD_ATTR": null,
+            "TKT_AM": 236.43,
+            "TKT_CD": "EJ003",
+            "TKT_ID": 3741,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2007-08-05T00:00:00Z",
+            "TKT_TAX_AM": null,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2007-08-05T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": "F"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:03:56.463805Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": 24075,
+            "AGE_DEF_ID": 39,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 2834,
+            "ORIG_RTL_PRICE_AM": 504.81,
+            "PRGE_DTS": null,
+            "PROD_ATTR": "P",
+            "TKT_AM": 464.42,
+            "TKT_CD": "EPW1D",
+            "TKT_ID": 4641,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2006-01-01T00:00:00Z",
+            "TKT_TAX_AM": 28.34,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2007-08-05T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": "F"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:04:03.966930Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": 24073,
+            "AGE_DEF_ID": 39,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 2613,
+            "ORIG_RTL_PRICE_AM": 504.81,
+            "PRGE_DTS": null,
+            "PROD_ATTR": "P",
+            "TKT_AM": 428.17,
+            "TKT_CD": "EOW14",
+            "TKT_ID": 4512,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2006-01-01T00:00:00Z",
+            "TKT_TAX_AM": 26.13,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2007-08-05T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": "F"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:04:02.842732Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": 24072,
+            "AGE_DEF_ID": 39,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 12,
+            "ORIG_RTL_PRICE_AM": 254.54,
+            "PRGE_DTS": null,
+            "PROD_ATTR": null,
+            "TKT_AM": 441.98,
+            "TKT_CD": "ENN1A",
+            "TKT_ID": 4364,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2007-08-05T00:00:00Z",
+            "TKT_TAX_AM": null,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2007-08-05T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:04:01.579064Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": 24074,
+            "AGE_DEF_ID": 39,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 0,
+            "ORIG_RTL_PRICE_AM": 564.45,
+            "PRGE_DTS": null,
+            "PROD_ATTR": "P",
+            "TKT_AM": 449.1,
+            "TKT_CD": "ETM1A",
+            "TKT_ID": 4732,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2006-01-01T00:00:00Z",
+            "TKT_TAX_AM": 0,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2007-08-05T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": "F"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:04:04.793816Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": 2640512,
+            "AGE_DEF_ID": 39,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 2218,
+            "ORIG_RTL_PRICE_AM": 424.94,
+            "PRGE_DTS": null,
+            "PROD_ATTR": null,
+            "TKT_AM": 363.33,
+            "TKT_CD": "FLX1B",
+            "TKT_ID": 5194,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2016-02-15T00:00:00Z",
+            "TKT_TAX_AM": null,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2016-02-15T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": "F"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:04:08.667804Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": 24072,
+            "AGE_DEF_ID": 39,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 12,
+            "ORIG_RTL_PRICE_AM": 254.54,
+            "PRGE_DTS": null,
+            "PROD_ATTR": null,
+            "TKT_AM": 441.98,
+            "TKT_CD": "ENN1A",
+            "TKT_ID": 4364,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2007-08-05T00:00:00Z",
+            "TKT_TAX_AM": null,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2007-08-05T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:04:01.579064Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": 24071,
+            "AGE_DEF_ID": 15,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 1710,
+            "ORIG_RTL_PRICE_AM": 307.79,
+            "PRGE_DTS": null,
+            "PROD_ATTR": null,
+            "TKT_AM": 236.43,
+            "TKT_CD": "EJ003",
+            "TKT_ID": 3741,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2007-08-05T00:00:00Z",
+            "TKT_TAX_AM": null,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2007-08-05T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": "F"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:03:56.463805Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": 24008,
+            "AGE_DEF_ID": 39,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 2168,
+            "ORIG_RTL_PRICE_AM": 415.35,
+            "PRGE_DTS": null,
+            "PROD_ATTR": null,
+            "TKT_AM": 355.13,
+            "TKT_CD": "FKW12",
+            "TKT_ID": 5052,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2007-08-05T00:00:00Z",
+            "TKT_TAX_AM": null,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2007-08-05T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": "F"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:04:07.460927Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": null,
+            "AGE_DEF_ID": 39,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 19,
+            "ORIG_RTL_PRICE_AM": 214.59,
+            "PRGE_DTS": null,
+            "PROD_ATTR": null,
+            "TKT_AM": 214.59,
+            "TKT_CD": "FLA12",
+            "TKT_ID": 5111,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2006-01-01T00:00:00Z",
+            "TKT_TAX_AM": null,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2006-01-01T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:04:07.969107Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": 24073,
+            "AGE_DEF_ID": 39,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 0,
+            "ORIG_RTL_PRICE_AM": 536.76,
+            "PRGE_DTS": null,
+            "PROD_ATTR": "P",
+            "TKT_AM": 453.6,
+            "TKT_CD": "EOM11",
+            "TKT_ID": 4468,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2006-01-01T00:00:00Z",
+            "TKT_TAX_AM": 0,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2007-08-05T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": "F"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:04:02.462731Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": 24073,
+            "AGE_DEF_ID": 39,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 0,
+            "ORIG_RTL_PRICE_AM": 536.76,
+            "PRGE_DTS": null,
+            "PROD_ATTR": "P",
+            "TKT_AM": 453.6,
+            "TKT_CD": "EOM11",
+            "TKT_ID": 4468,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2006-01-01T00:00:00Z",
+            "TKT_TAX_AM": 0,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2007-08-05T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": "F"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:04:02.462731Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": 24163,
+            "AGE_DEF_ID": 15,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 679,
+            "ORIG_RTL_PRICE_AM": 276.37,
+            "PRGE_DTS": null,
+            "PROD_ATTR": null,
+            "TKT_AM": 219,
+            "TKT_CD": "FKFA1",
+            "TKT_ID": 4989,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2007-08-05T00:00:00Z",
+            "TKT_TAX_AM": null,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2007-08-05T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": null
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:04:06.945697Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": 24140,
+            "AGE_DEF_ID": 15,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 1570,
+            "ORIG_RTL_PRICE_AM": 257.2,
+            "PRGE_DTS": null,
+            "PROD_ATTR": "F",
+            "TKT_AM": 257.2,
+            "TKT_CD": "ELF0B",
+            "TKT_ID": 3951,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2006-01-01T00:00:00Z",
+            "TKT_TAX_AM": 15.7,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2007-08-05T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": "F"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:03:58.201585Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": 32755,
+            "AGE_DEF_ID": 15,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 1872,
+            "ORIG_RTL_PRICE_AM": 403.64,
+            "PRGE_DTS": null,
+            "PROD_ATTR": null,
+            "TKT_AM": 306.76,
+            "TKT_CD": "EKWA6",
+            "TKT_ID": 3851,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2007-08-05T00:00:00Z",
+            "TKT_TAX_AM": null,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2007-08-05T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": "F"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:03:57.345879Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": 79443,
+            "AGE_DEF_ID": 39,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 2373,
+            "ORIG_RTL_PRICE_AM": 388.73,
+            "PRGE_DTS": null,
+            "PROD_ATTR": null,
+            "TKT_AM": 388.73,
+            "TKT_CD": "CPZ11",
+            "TKT_ID": 2283,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2007-08-05T00:00:00Z",
+            "TKT_TAX_AM": null,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2007-08-05T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": "F"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:03:44.327976Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": 24140,
+            "AGE_DEF_ID": 15,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 1570,
+            "ORIG_RTL_PRICE_AM": 257.2,
+            "PRGE_DTS": null,
+            "PROD_ATTR": "F",
+            "TKT_AM": 257.2,
+            "TKT_CD": "ELF0B",
+            "TKT_ID": 3951,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2006-01-01T00:00:00Z",
+            "TKT_TAX_AM": 15.7,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2007-08-05T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": "F"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:03:58.201585Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": 32755,
+            "AGE_DEF_ID": 15,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": "N",
+            "JDO_SEQ_NB": 1872,
+            "ORIG_RTL_PRICE_AM": 403.64,
+            "PRGE_DTS": null,
+            "PROD_ATTR": null,
+            "TKT_AM": 306.76,
+            "TKT_CD": "EKWA6",
+            "TKT_ID": 3851,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2007-08-05T00:00:00Z",
+            "TKT_TAX_AM": null,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2007-08-05T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": "F"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:03:57.345879Z"
+        }
+    },
+    {
+        "data": {
+            "ADM_PROD_ID": 32755,
+            "AGE_DEF_ID": 15,
+            "CREATE_DTS": "2006-10-18T15:28:01.578000Z",
+            "DEMOG_INFO_RQD_IN": "N",
+            "EXNL_PRC_IN": null,
+            "JDO_SEQ_NB": 1872,
+            "ORIG_RTL_PRICE_AM": 403.64,
+            "PRGE_DTS": null,
+            "PROD_ATTR": null,
+            "TKT_AM": 306.76,
+            "TKT_CD": "EKWA6",
+            "TKT_ID": 3851,
+            "TKT_SLS_END_DT": null,
+            "TKT_SLS_STRT_DT": "2007-08-05T00:00:00Z",
+            "TKT_TAX_AM": null,
+            "TKT_USG_END_DT": null,
+            "TKT_USG_STRT_DT": "2007-08-05T00:00:00Z",
+            "UPDT_DTS": "2006-10-18T15:28:01.578000Z",
+            "VLD_DT_METH_NM": "F"
+        },
+        "metadata": {
+            "operation": "load",
+            "partition-key-type": "primary-key",
+            "record-type": "data",
+            "schema-name": "PRICING",
+            "table-name": "TKT_T",
+            "timestamp": "2023-08-26T07:03:57.345879Z"
+        }
+    }
+]

@@ -1,0 +1,106 @@
+version: 2
+
+models:
+  - name: sil__guest_experience__magic_band__magic_band_facility_transfer_current
+    description: "{{ doc('sil__guest_experience__magic_band__magic_band_facility_transfer_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=guest_experience
+        - sub_domain=magic_band
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: facility_transfer_id
+        description: ""
+
+      - name: facility_inventory_id
+        description: ""
+
+      - name: inventory_facility_id
+        description: ""
+
+      - name: inventory_facility_name
+        description: ""
+
+      - name: inventory_enterprise_facility_id
+        description: ""
+
+      - name: fulfilled_magic_band_id
+        description: ""
+
+      - name: magic_band_id
+        description: ""
+
+      - name: current_magic_band_status_id
+        description: ""
+
+      - name: current_magic_band_status_category_id
+        description: ""
+
+      - name: current_magic_band_status_category_code
+        description: ""
+
+      - name: current_magic_band_status_category_description
+        description: ""
+
+      - name: current_magic_band_status_code
+        description: ""
+
+      - name: current_magic_band_status_description
+        description: ""
+
+      - name: magic_band_transaction_id
+        description: ""
+
+      - name: facility_inventory_start_datetime
+        description: ""
+
+      - name: facility_inventory_start_date
+        description: ""
+
+      - name: facility_inventory_start_time
+        description: ""
+
+      - name: facility_inventory_end_datetime
+        description: ""
+
+      - name: facility_inventory_end_date
+        description: ""
+
+      - name: facility_inventory_end_time
+        description: ""
+
+      - name: facility_shipment_case_number
+        description: ""
+
+      - name: destination_facility_id
+        description: ""
+
+      - name: destination_facility_name
+        description: ""
+
+      - name: destination_enterprise_facility_id
+        description: ""
+
+      - name: transfer_expected_delivery_date
+        description: ""
+
+      - name: source_system_create_user_id
+        description: ""
+
+      - name: source_system_create_datetime
+        description: ""
+
+      - name: source_system_update_user_id
+        description: ""
+
+      - name: source_system_update_datetime
+        description: ""
+
+      - name: source_system_logical_delete_indicator
+        description: ""

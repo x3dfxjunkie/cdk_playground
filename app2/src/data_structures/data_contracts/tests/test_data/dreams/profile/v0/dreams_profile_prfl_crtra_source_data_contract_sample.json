@@ -1,0 +1,27 @@
+[
+    {
+        "data": {
+            "ALL_FAC_IN": "Y",
+            "ALL_PKG_IN": "Y",
+            "ALL_RSRC_INVTRY_TYP_IN": "Y",
+            "CREATE_DTS": "2023-07-31T09:08:56.499000Z",
+            "CREATE_USR_ID_CD": "MASKED",
+            "DFLT_PRFL_IN": "N",
+            "EXCL_IN": "N",
+            "JDO_SEQ_NB": 0,
+            "PRFL_CRTRA_ID": 123456,
+            "PRFL_ID": 123456,
+            "SLCT_IN": "N",
+            "UPDT_DTS": "2023-07-31T09:08:56.499000Z",
+            "UPDT_USR_ID_CD": "MASKED"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "prfl_mgmt",
+            "table-name": "prfl_crtra",
+            "timestamp": "2023-07-31T13:09:11.753886Z"
+        }
+    }
+]

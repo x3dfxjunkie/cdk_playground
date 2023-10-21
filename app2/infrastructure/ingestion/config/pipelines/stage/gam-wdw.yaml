@@ -1,0 +1,315 @@
+stack_extension: &se gam-wdw
+ingest_pattern: &ip messaging
+active: True
+pattern_instances:
+  - region: &region-1 us-east-1
+    resources:
+      cluster_name: &rcm gam-mq-wdw
+      kinesis: &kinesis
+        stream_name: &stream_name gam-wdw-kinesis
+      ecs:
+        networking:
+          vpc_id: vpc-0deebfda73fc9a9b2
+        ecr:
+          repository_name: guest360/ingestion/rabbitmq_consumer
+        secret_name: &secret_name stg-use1-gam-wdw-ca-rabbitmq-secret
+        s3:
+          bucket_name: *rcm
+        services:
+          - service_name: AFFIL-AFFILIATION-GUEST360-WDW              # Max lenght 34 characters due construct prefixes
+            image_tag: &image v0.2.x
+            desired_count : 1
+            cloudmap: False
+            environment: &environment
+              DEFAULT_BATCH_SIZE : 400                                # Integer value gather than 0  Required: No  Default Value =  400
+              DEFAULT_MAX_RETRY_ATTEMPT : 3                           # Integer value gather than 0  Required: No  Default Value =  3
+              DEFAULT_RETRY_BATCH_SIZE :  5                           # Integer value gather than 0  Required: No  Default Value =  5
+              DEFAULT_MAX_WAIT_MILLISECS : 100                        # Integer value gather than 0  Required: No  Default Value =  1000
+              MAX_BATCH_SIZE : 500                                    # This is batch size limit from Kinesis. # Integer value gather than 0  Required: No  Default Value =  500
+              MAX_WAIT_MILLISECS : 300                                # This is batch size limit from Kinesis. # Integer value gather than 0  Required: No  Default Value =  500
+              LOGLEVEL : INFO                                         # Required: No  , Default Value = INFO  Python logging package severity level. [DEBUG, INFO, WARNING, ERROR, CRITICAL]
+              ENVIRONMENT :  stage                                   # Required: Yes , Default Value = “” ,Environment value (latest,stage,prod)
+              REGION : *region-1                                      # Required: No  , Default Value = us-east-1     , AWS region
+              KINESIS_STREAM :  *stream_name                          # Required: Yes , Default Value = “”, Kinesis stream name
+              KINESIS_PARTITIONS : 10000                              # Required: No  , Default Value =  10000 , Number of distinct unique partition keys generated when sending data to kinesis
+              KINESIS_BATCH_SIZE :   400                              # Required: No  , Default Value =  400 , Max number of records to send in each api put_records request to Kinesis stream
+              KINESIS_RETRY_BATCH_SIZE : 5050                         # Required: No  , Default Value = DEFAULT_RETRY_BATCH_SIZE  , Max number of records to send in each api put_records request to Kinesis stream
+              KINESIS_MAX_WAIT_MILLISECS : 100                        # Required: No  , Default Value = 1000 , Maximum amount to wait send data in batch even when records to be sent are less than batch size
+              FAILED_MSG_BUCKET_NAME : stage-fail-objects-0          # Required: Yes , S3 bucket name to store records after exhausting max retry attempt
+              FAILED_MSG_BUCKET_PATH : /AFFIL-AFFILIATION-GUEST360/   # Required: Yes , Default Value = no have, “/”
+              MAX_RETRY_ATTEMPT :   3                                 # Required: Yes , Default Value =  3  Number of attempts to send record to kinesis before writing to failed records S3 bucket
+              RABBITMQ_SECRET_PATH : *secret_name                     # pragma: allowlist secret # Required: Yes , Secret manager secret path. value is prepended to this path value by connector code , “Secretname”
+              RABBITMQ_HOST :   stage.gam-xi-rmq.wdprapps.disney.com  # Required: Yes , Default Value = “localhost”  RabbitMQ server host name or IP address
+              RABBITMQ_VHOST : gam-xi-rmq-vhl                         # Required: No  , Default Value = “/” RabbitMQ virtual host name
+              RABBITMQ_PORT :  5671                                   # Required: No  , Default Value = 5762  RabbitMQ port
+              RABBITMQ_QUEUE :   AFFIL.AFFILIATION.GUEST360           # Required: Yes , RabbitMQ queue name
+              RABBITMQ_QUEUE_DURABLE : True                           # Required: No  , Default Value = False RabbitMQ queue “durable” flag
+              RABBITMQ_QOS_PREFETCH_COUNT :  65535                    # Required: No  , Default Value = KINESIS_BATCH_SIZE Queue prefetch count value
+              RABBITMQ_ROUTING_KEY :  AFFIL.AFFIL.XI                  # Required: No  , Default Value = RABBITMQ_QUEUE , RabbitMQ routing key
+              RABBITMQ_EXCHANGE :   AFFIL.AFFILIATION.XI              # Required: No  , Default Value =  <empty string>  , RabbitMQ exchange name
+              RABBITMQ_EXCHANGE_TYPE :   topic                        # Required: No  , Default Value = direct  RabbitMQ exchange type. Valid values [direct, fanout, headers, topic]
+              RABBITMQ_EXCHANGE_PASSIVE :   True                      # Required: No  , Default Value = False RabbitMQ exchange config value for passive flag (BOOL)
+              RABBITMQ_EXCHANGE_DURABLE :  True                       # Required: No  , Default Value = False (BOOL)
+              RABBITMQ_EXCHANGE_AUTO_DELETE : True                    # Required: No  , Default Value = False (BOOL)
+              USE_SSL: True
+          - service_name: ENT-PSI-GUEST360-WDW
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /ENT-PSI-GUEST360-WDW/
+              RABBITMQ_QUEUE :   ENT.PSI.GUEST360
+              RABBITMQ_ROUTING_KEY :  ENT.PSI.XI
+              RABBITMQ_EXCHANGE : ENT.PSI
+          - service_name: FNF-FRIENDS-GUEST360-WDW
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /FNF-FRIENDS-GUEST360-WDW/
+              RABBITMQ_QUEUE :   FNF.FRIENDS.GUEST360
+              RABBITMQ_ROUTING_KEY : FNF.FRDS.XI
+              RABBITMQ_EXCHANGE : FNF.FRIENDS.XI
+          - service_name: FNF-INVITATION-GUEST360-WDW
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /FNF-INVITATION-GUEST360-WDW/
+              RABBITMQ_QUEUE :   FNF.INVITATION.GUEST360
+              RABBITMQ_ROUTING_KEY :  FNF.INVT.XI
+              RABBITMQ_EXCHANGE : FNF.INVITATION.XI
+          - service_name: FNF-MANAGEDGUEST-GUEST360-WDW
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /FNF-MANAGEDGUEST-GUEST360-WDW/
+              RABBITMQ_QUEUE :   FNF.MANAGEDGUEST.GUEST360
+              RABBITMQ_ROUTING_KEY :  FNF.MGDGST.XI
+              RABBITMQ_EXCHANGE : FNF.MANAGEDGUEST.XI
+          - service_name: GAM-ACTIVITYRESERVATION-GUEST360-WDW
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /GAM-ACTIVITYRESERVATION-GUEST360-WDW/
+              RABBITMQ_QUEUE :   GAM.ACTIVITYRESERVATION.GUEST360
+              RABBITMQ_ROUTING_KEY :  GAM.ACTRSRV
+              RABBITMQ_EXCHANGE : GAM.ACTIVITYRESERVATION
+          - service_name: GAM-ADMISSIONS-GUEST360-WDW
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /GAM-ADMISSIONS-GUEST360-WDW/
+              RABBITMQ_QUEUE :   GAM.ADMISSIONS.GUEST360
+              RABBITMQ_ROUTING_KEY : GAM.ADMN
+              RABBITMQ_EXCHANGE : GAM.ADMISSIONS
+          - service_name: GAM-CELEBRATIONS-GUEST360
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /GAM-CELEBRATIONS-GUEST360/
+              RABBITMQ_QUEUE :   GAM.CELEBRATIONS.GUEST360
+              RABBITMQ_ROUTING_KEY :  GAM.CELBR
+              RABBITMQ_EXCHANGE : GAM.CELEBRATIONS
+          - service_name: GAM-DINING-GUEST360-WDW
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /GAM-DINING-GUEST360-WDW/
+              RABBITMQ_QUEUE :   GAM.DINING.GUEST360
+              RABBITMQ_ROUTING_KEY :  GAM.DINE
+              RABBITMQ_EXCHANGE : GAM.DINING
+          - service_name: GAM-LNSGENTITLEMENTS-GUEST360-WDW
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /GAM-LNSGENTITLEMENTS-GUEST360-WDW/
+              RABBITMQ_QUEUE :   GAM.LNSGENTITLEMENTS.GUEST360
+              RABBITMQ_ROUTING_KEY :  GAM.LNSG
+              RABBITMQ_EXCHANGE : GAM.LNSGENTITLEMENTS
+          - service_name: GAM-MAGICBAND-GUEST360-WDW
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /GAM-MAGICBAND-GUEST360-WDW/
+              RABBITMQ_QUEUE :   GAM.MAGICBAND.GUEST360
+              RABBITMQ_ROUTING_KEY :  GAM.MBAND
+              RABBITMQ_EXCHANGE : GAM.MAGICBAND
+          - service_name: GAM-PLANNINGPARTY-GUEST360-WDW
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /GAM-PLANNINGPARTY-GUEST360-WDW/
+              RABBITMQ_QUEUE :   GAM.PLANNINGPARTY.GUEST360
+              RABBITMQ_ROUTING_KEY :  GAM.PLNPTY
+              RABBITMQ_EXCHANGE : GAM.PLANNINGPARTY
+          - service_name: GK-GUESTID-GUEST360-WDW
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /GK-GUESTID-GUEST360-WDW/
+              RABBITMQ_QUEUE :   GK.GUESTID.GUEST360
+              RABBITMQ_ROUTING_KEY :  GK.GUESTID
+              RABBITMQ_EXCHANGE : GK.GUESTID
+          - service_name: PREFERENCES-GUESTPREFERENCE-GUEST360-WDW
+            image_tag: *image
+            desired_count : 1
+            cloudmap: False
+            environment:
+              <<: *environment
+              FAILED_MSG_BUCKET_PATH : /PREFERENCES-GUESTPREFERENCE-GUEST360-WDW/
+              RABBITMQ_QUEUE :   PREFERENCES.GUESTPREFERENCE.GUEST360
+              RABBITMQ_ROUTING_KEY :  PREFS.GPF
+              RABBITMQ_EXCHANGE : PREFERENCES.GUESTPREFERENCE
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_STAGE_LANDING # Needs update to appropriate default routing
+      table_path: type
+      data_mapper_type: nested
+      data_contracts: # This section needs to be updated for all data contracts for the source
+        - data_contract: app.src.data_structures.data_contracts.source.gam_wdw.v0.gam_wdw_fnf_managed_guest_source_data_contract
+          class_name: GAMWDWFnfManagedGuestModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "ManagedGuest"
+          router_database: &database STAGE_LANDING
+          router_schema: &schema LND_GAM_WDW
+          router_table: MANAGED_GUEST
+        - data_contract: app.src.data_structures.data_contracts.source.gam_wdw.v0.gam_wdw_affiliation_source_data_contract
+          class_name: GAMWDWAffiliationModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "AFFILIATION"
+          router_database: *database
+          router_schema: *schema
+          router_table: AFFILIATION
+        - data_contract: app.src.data_structures.data_contracts.source.gam_wdw.v0.gam_wdw_guest_id_source_data_contract
+          class_name: GAMWDWGuestIdModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "GuestId"
+          router_database: *database
+          router_schema: *schema
+          router_table: GUEST_ID
+        - data_contract: app.src.data_structures.data_contracts.source.gam_wdw.v0.gam_wdw_dine_source_data_contract
+          class_name: GAMWDWDineModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "Dining Reservation"
+          router_database: *database
+          router_schema: *schema
+          router_table: DINING_RESERVATION
+        - data_contract: app.src.data_structures.data_contracts.source.gam_wdw.v0.gam_wdw_activity_reservation_source_data_contract
+          class_name: GAMWDWActivityReservationModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "Activity Reservation"
+          router_database: *database
+          router_schema: *schema
+          router_table: ACTIVITY_RESERVATION
+        - data_contract: app.src.data_structures.data_contracts.source.gam_wdw.v0.gam_wdw_admissions_source_data_contract
+          class_name: GAMWDWAdmissionsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "ADMISSION"
+          router_database: *database
+          router_schema: *schema
+          router_table: ADMISSIONS
+        - data_contract: app.src.data_structures.data_contracts.source.gam_wdw.v0.gam_wdw_celebrations_source_data_contract
+          class_name: GAMWDWCelebrationsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "CELEBRATION"
+          router_database: *database
+          router_schema: *schema
+          router_table: CELEBRATIONS
+        - data_contract: app.src.data_structures.data_contracts.source.gam_wdw.v0.gam_wdw_ent_psi_source_data_contract
+          class_name: GAMWDWEntPsiModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "PSI"
+          router_database: *database
+          router_schema: *schema
+          router_table: ENT_PSI
+        - data_contract: app.src.data_structures.data_contracts.source.gam_wdw.v0.gam_wdw_fnf_friends_source_data_contract
+          class_name: GAMWDWFnfFriendsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "Friends"
+          router_database: *database
+          router_schema: *schema
+          router_table: FNF_FRIENDS
+        - data_contract: app.src.data_structures.data_contracts.source.gam_wdw.v0.gam_wdw_fnf_invitation_source_data_contract
+          class_name: GAMWDWFnfInvitationModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "Invitation"
+          router_database: *database
+          router_schema: *schema
+          router_table: FNF_INVITATION
+        - data_contract: app.src.data_structures.data_contracts.source.gam_wdw.v0.gam_wdw_lnsg_entitlements_source_data_contract
+          class_name: GAMWDWLnsgEntitlementsModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "LevelN Entitlement"
+          router_database: *database
+          router_schema: *schema
+          router_table: LNSG_ENTITLEMENTS
+        - data_contract: app.src.data_structures.data_contracts.source.gam_wdw.v0.gam_wdw_magicband_source_data_contract
+          class_name: GAMWDWMagicbandModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "Xband"
+          router_database: *database
+          router_schema: *schema
+          router_table: MAGICBAND
+        - data_contract: app.src.data_structures.data_contracts.source.gam_wdw.v0.gam_wdw_planning_party_source_data_contract
+          class_name: GAMWDWPlanningPartyModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "type"
+              value: "PlanningParty"
+          router_database: *database
+          router_schema: *schema
+          router_table: PLANNING_PARTY
+        - data_contract: app.src.data_structures.data_contracts.source.gam_wdw.v0.gam_wdw_guest_preference_source_data_contract
+          class_name: GAMWDWGuestPreferenceModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: "eventType"
+              value: "PREFERENCE_GUEST_SELECTION_UPDATE"
+          router_database: *database
+          router_schema: *schema
+          router_table: GUEST_PREFERENCE

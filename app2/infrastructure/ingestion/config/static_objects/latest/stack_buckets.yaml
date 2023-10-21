@@ -1,0 +1,13 @@
+---
+active: True
+instances:
+  - name: &r raw
+    type: bucket
+    bucket_props:
+      bucket_name: *r
+      auto_delete_objects: true
+      removal_policy: !!python/object/apply:aws_cdk.RemovalPolicy
+        - DESTROY
+      versioned: true
+    permissions:
+...

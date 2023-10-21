@@ -1,0 +1,14 @@
+stack_extension: &se load_test_dms_ingest
+region: &region-1 us-east-1
+resources:
+    execute_system_test_rds_dms:
+      name: "execute_system_test_rds_dms"
+      description: "system test rds statemachine"
+      definition_file: "execute_system_test_rds_dms.yaml"
+      iam:
+        role_name: execute_system_test_kinesis_ingest_sfn_role
+        assumed_by: !!python/object/apply:aws_cdk.aws_iam.ServicePrincipal
+          - states.amazonaws.com
+        description: Statemachine execute_system_test_kinesis_ingest role
+      step_function_parameters:
+        limit_records: "100"

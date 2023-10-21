@@ -1,0 +1,138 @@
+[
+    {
+        "data": {
+            "PST_GRP_ID": 1001,
+            "PST_GRP_NM": "Accounts Receivable Whsl Pkg Adjustment",
+            "PST_GRP_ACTV_IN": "Y",
+            "PST_GRP_TAX_DTRMNT_IN": "N",
+            "PST_GRP_DSPL_SEQ_NB": 1,
+            "CREATE_USR_ID_CD": "SC4_SS_BHM",
+            "CREATE_DTS": "2010-03-02T02:42:00.023Z",
+            "UPDT_USR_ID_CD": "SC5a_S2P_BHM",
+            "UPDT_DTS": "2010-05-24T18:10:58.195Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.431588Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "PST_GRP"
+        }
+    },
+    {
+        "data": {
+            "PST_GRP_ID": 1002,
+            "PST_GRP_NM": "Accounts Receivable Pkg Adjustment",
+            "PST_GRP_ACTV_IN": "Y",
+            "PST_GRP_TAX_DTRMNT_IN": "N",
+            "PST_GRP_DSPL_SEQ_NB": 1,
+            "CREATE_USR_ID_CD": "SC4_SS_BHM",
+            "CREATE_DTS": "2010-03-02T02:42:00.193Z",
+            "UPDT_USR_ID_CD": "SC4_SS_BHM",
+            "UPDT_DTS": "2010-03-02T02:42:00.193Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.460274Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "PST_GRP",
+            "transaction-id": 1264
+        }
+    },
+    {
+        "data": {
+            "PST_GRP_ID": 1003,
+            "PST_GRP_NM": "Accounts Receivable Pkg Correction",
+            "PST_GRP_ACTV_IN": "Y",
+            "PST_GRP_TAX_DTRMNT_IN": "N",
+            "PST_GRP_DSPL_SEQ_NB": 1,
+            "CREATE_USR_ID_CD": "SC4_SS_BHM",
+            "CREATE_DTS": "2010-03-02T02:42:00.335Z",
+            "UPDT_USR_ID_CD": "SC5a_S2P_BHM",
+            "UPDT_DTS": "2010-05-24T18:10:57.871Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.479165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "PST_GRP",
+            "transaction-id": 1297
+        }
+    },
+    {
+        "data": {
+            "PST_GRP_ID": 1004,
+            "PST_GRP_NM": "Accts Receivable Group Deposit Transfer",
+            "PST_GRP_ACTV_IN": "Y",
+            "PST_GRP_TAX_DTRMNT_IN": "N",
+            "PST_GRP_DSPL_SEQ_NB": 1,
+            "CREATE_USR_ID_CD": "SC4_SS_BHM",
+            "CREATE_DTS": "2010-03-02T02:42:00.481Z",
+            "UPDT_USR_ID_CD": "SC4_SS_BHM",
+            "UPDT_DTS": "2010-03-02T02:42:00.481Z",
+            "JDO_SEQ_NB": 0
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.604399Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "PST_GRP",
+            "transaction-id": 12894
+        }
+    },
+    {
+        "data": {
+            "PST_GRP_ID": 1005,
+            "PST_GRP_NM": "Additional Adult",
+            "PST_GRP_ACTV_IN": "N",
+            "PST_GRP_TAX_DTRMNT_IN": "N",
+            "PST_GRP_DSPL_SEQ_NB": 1,
+            "CREATE_USR_ID_CD": "SC4_SS_BHM",
+            "CREATE_DTS": "2010-03-02T02:42:00.623Z",
+            "UPDT_USR_ID_CD": "CLAET001",
+            "UPDT_DTS": "2011-02-28T21:21:32.234Z",
+            "JDO_SEQ_NB": 1
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.479165Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "PST_GRP",
+            "transaction-id": 1297
+        }
+    },
+    {
+        "data": {
+            "PST_GRP_ID": 1006,
+            "PST_GRP_NM": "Admission",
+            "PST_GRP_ACTV_IN": "N",
+            "PST_GRP_TAX_DTRMNT_IN": "N",
+            "PST_GRP_DSPL_SEQ_NB": 1,
+            "CREATE_USR_ID_CD": "SC4_SS_BHM",
+            "CREATE_DTS": "2010-03-02T02:42:00.763Z",
+            "UPDT_USR_ID_CD": "MASOR017",
+            "UPDT_DTS": "2016-12-08T18:54:20.727Z",
+            "JDO_SEQ_NB": 1
+        },
+        "metadata": {
+            "timestamp": "2023-08-22T01:02:11.604399Z",
+            "record-type": "data",
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "schema-name": "ACCTING",
+            "table-name": "PST_GRP"
+        }
+    }
+]

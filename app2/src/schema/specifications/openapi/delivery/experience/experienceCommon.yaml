@@ -1,0 +1,20 @@
+experienceCommon:
+  type: object
+  properties:
+    statusConfidenceLabel:
+      $ref: "../openapi.yaml#/components/schemas/statusConfidenceLabel"
+    created:
+      $ref: "../openapi.yaml#/components/schemas/created"
+    lastModified:
+      $ref: "../openapi.yaml#/components/schemas/lastModified"
+    experienceTimezoneOffSet:
+      type: string
+      description: Solution / Value design in progress, to be determined
+      example: "TBD"
+    destination:
+      $ref: "../openapi.yaml#/components/schemas/destination"
+  required:
+    - created
+    - lastModified
+    - experienceTimezoneOffSet
+    - destination

@@ -1,0 +1,688 @@
+[
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2022-10-11T07:50:53.911+0000"
+                }
+            ],
+            "CorrelationId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DataCommitTimestamp": "2022-10-11T07:50:53.865+0000",
+            "DataId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DispatchTimestamp": "2022-10-11T07:50:53.767+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "MessageTimestamp": "2022-10-11T07:50:53.902+0000",
+            "Namespace": "SnApp.PaymentMethod",
+            "Operation": "Update",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2022-10-11T07:50:53.767+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.9.5.0.22",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "AutoFill": true,
+            "CreditLedgerAccountCode": "2.01.01.01",
+            "CreditLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "CreditLedgerAccountName": "SNAPP CLEARING ACCOUNT",
+            "CustomIconName": null,
+            "DebitLedgerAccountCode": "1.01.03.01",
+            "DebitLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DebitLedgerAccountName": "VOUCHER (CHARGE CODE)",
+            "MaskIDs": "",
+            "MaxChangeAmount": 0,
+            "PaymentCountMessage": null,
+            "PaymentGroupTagId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PaymentMethodCode": "PMT-26",
+            "PluginDefault": false,
+            "PluginEnabled": true,
+            "PluginId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PluginName": "Voucher (Billable)",
+            "PluginSettings": null,
+            "PriorityOrder": 8
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2022-10-29T04:04:58.629+0000"
+                }
+            ],
+            "CorrelationId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DataCommitTimestamp": "2022-10-29T04:04:58.590+0000",
+            "DataId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DispatchTimestamp": "2022-10-29T04:04:58.403+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "MessageTimestamp": "2022-10-29T04:04:58.622+0000",
+            "Namespace": "SnApp.PaymentMethod",
+            "Operation": "Update",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2022-10-29T04:04:58.400+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.9.5.0.22",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "AutoFill": true,
+            "CreditLedgerAccountCode": "2.01.01.01",
+            "CreditLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "CreditLedgerAccountName": "SNAPP CLEARING ACCOUNT",
+            "CustomIconName": null,
+            "DebitLedgerAccountCode": "1.01.03.01",
+            "DebitLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DebitLedgerAccountName": "VOUCHER (CHARGE CODE)",
+            "MaskIDs": "",
+            "MaxChangeAmount": 0,
+            "PaymentCountMessage": null,
+            "PaymentGroupTagId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PaymentMethodCode": "PMT-26",
+            "PluginDefault": false,
+            "PluginEnabled": true,
+            "PluginId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PluginName": "Voucher (Billable)",
+            "PluginSettings": null,
+            "PriorityOrder": 8
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2022-11-02T06:25:00.252+0000"
+                }
+            ],
+            "CorrelationId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DataCommitTimestamp": "2022-11-02T06:25:00.227+0000",
+            "DataId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DispatchTimestamp": "2022-11-02T06:25:00.147+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "MessageTimestamp": "2022-11-02T06:25:00.249+0000",
+            "Namespace": "SnApp.PaymentMethod",
+            "Operation": "Update",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2022-11-02T06:25:00.147+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.9.7.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "AutoFill": true,
+            "CreditLedgerAccountCode": "2.01.01.01",
+            "CreditLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "CreditLedgerAccountName": "SNAPP CLEARING ACCOUNT",
+            "CustomIconName": "paypal.png",
+            "DebitLedgerAccountCode": "1.01.01.01",
+            "DebitLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DebitLedgerAccountName": "ELECTRONIC PAYMENTS - GENERAL",
+            "MaskIDs": "",
+            "MaxChangeAmount": 0,
+            "PaymentCountMessage": null,
+            "PaymentGroupTagId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PaymentMethodCode": "PMT-20",
+            "PluginDefault": false,
+            "PluginEnabled": true,
+            "PluginId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PluginName": "PayPal",
+            "PluginSettings": "{\"Authorizer\":\"2\",\"InputMode\":\"1\",\"SignatureInputMode\":\"\",\"ReceiptTemplateId\":\"BDCD7260-FF4E-4727-9F84-B954664FB130\"}",
+            "PriorityOrder": 12
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2022-11-02T06:25:32.849+0000"
+                }
+            ],
+            "CorrelationId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DataCommitTimestamp": "2022-11-02T06:25:32.820+0000",
+            "DataId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DispatchTimestamp": "2022-11-02T06:25:32.787+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "MessageTimestamp": "2022-11-02T06:25:32.838+0000",
+            "Namespace": "SnApp.PaymentMethod",
+            "Operation": "Update",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2022-11-02T06:25:32.783+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.9.7.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "AutoFill": true,
+            "CreditLedgerAccountCode": "2.01.01.01",
+            "CreditLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "CreditLedgerAccountName": "SNAPP CLEARING ACCOUNT",
+            "CustomIconName": "paypal.png",
+            "DebitLedgerAccountCode": "1.01.01.01",
+            "DebitLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DebitLedgerAccountName": "ELECTRONIC PAYMENTS - GENERAL",
+            "MaskIDs": "",
+            "MaxChangeAmount": 0,
+            "PaymentCountMessage": null,
+            "PaymentGroupTagId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PaymentMethodCode": "PMT-20",
+            "PluginDefault": false,
+            "PluginEnabled": true,
+            "PluginId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PluginName": "PayPal",
+            "PluginSettings": "{\"Authorizer\":\"2\",\"InputMode\":\"1\",\"SignatureInputMode\":\"\",\"ReceiptTemplateId\":\"BDCD7260-FF4E-4727-9F84-B954664FB130\"}",
+            "PriorityOrder": 12
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2022-11-06T04:03:43.653+0000"
+                }
+            ],
+            "CorrelationId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DataCommitTimestamp": "2022-11-06T04:03:43.477+0000",
+            "DataId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DispatchTimestamp": "2022-11-06T04:03:42.457+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "MessageTimestamp": "2022-11-06T04:03:43.662+0000",
+            "Namespace": "SnApp.PaymentMethod",
+            "Operation": "Update",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2022-11-06T04:03:42.453+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.9.7.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "AutoFill": true,
+            "CreditLedgerAccountCode": "2.01.01.01",
+            "CreditLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "CreditLedgerAccountName": "SNAPP CLEARING ACCOUNT",
+            "CustomIconName": null,
+            "DebitLedgerAccountCode": "1.01.03.01",
+            "DebitLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DebitLedgerAccountName": "VOUCHER (CHARGE CODE)",
+            "MaskIDs": "",
+            "MaxChangeAmount": 0,
+            "PaymentCountMessage": null,
+            "PaymentGroupTagId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PaymentMethodCode": "PMT-26",
+            "PluginDefault": false,
+            "PluginEnabled": true,
+            "PluginId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PluginName": "Voucher (Billable)",
+            "PluginSettings": null,
+            "PriorityOrder": 8
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2022-11-09T06:39:18.556+0000"
+                }
+            ],
+            "CorrelationId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DataCommitTimestamp": "2022-11-09T06:39:18.496+0000",
+            "DataId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DispatchTimestamp": "2022-11-09T06:39:18.207+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "MessageTimestamp": "2022-11-09T06:39:18.553+0000",
+            "Namespace": "SnApp.PaymentMethod",
+            "Operation": "Update",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2022-11-09T06:39:18.207+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.9.7.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "AutoFill": true,
+            "CreditLedgerAccountCode": "2.01.01.01",
+            "CreditLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "CreditLedgerAccountName": "SNAPP CLEARING ACCOUNT",
+            "CustomIconName": "paypal.png",
+            "DebitLedgerAccountCode": "1.01.01.01",
+            "DebitLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DebitLedgerAccountName": "ELECTRONIC PAYMENTS - GENERAL",
+            "MaskIDs": "",
+            "MaxChangeAmount": 0,
+            "PaymentCountMessage": null,
+            "PaymentGroupTagId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PaymentMethodCode": "PMT-20",
+            "PluginDefault": false,
+            "PluginEnabled": true,
+            "PluginId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PluginName": "PayPal",
+            "PluginSettings": "{\"Authorizer\":\"2\",\"InputMode\":\"1\",\"SignatureInputMode\":\"\",\"ReceiptTemplateId\":\"BDCD7260-FF4E-4727-9F84-B954664FB130\"}",
+            "PriorityOrder": 12
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2022-11-25T15:25:18.084+0000"
+                }
+            ],
+            "CorrelationId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DataCommitTimestamp": "2022-11-25T15:25:17.913+0000",
+            "DataId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DispatchTimestamp": "2022-11-25T15:25:17.120+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "MessageTimestamp": "2022-11-25T15:25:18.094+0000",
+            "Namespace": "SnApp.PaymentMethod",
+            "Operation": "Update",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2022-11-25T15:25:17.120+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.9.7.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "AutoFill": true,
+            "CreditLedgerAccountCode": "2.01.01.01",
+            "CreditLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "CreditLedgerAccountName": "SNAPP CLEARING ACCOUNT",
+            "CustomIconName": null,
+            "DebitLedgerAccountCode": "1.01.03.01",
+            "DebitLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DebitLedgerAccountName": "VOUCHER (CHARGE CODE)",
+            "MaskIDs": "",
+            "MaxChangeAmount": 0,
+            "PaymentCountMessage": null,
+            "PaymentGroupTagId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PaymentMethodCode": "PMT-26",
+            "PluginDefault": false,
+            "PluginEnabled": true,
+            "PluginId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PluginName": "Voucher (Billable)",
+            "PluginSettings": null,
+            "PriorityOrder": 8
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2022-12-01T15:46:36.896+0000"
+                }
+            ],
+            "CorrelationId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DataCommitTimestamp": "2022-12-01T15:46:36.744+0000",
+            "DataId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DispatchTimestamp": "2022-12-01T15:46:36.140+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "MessageTimestamp": "2022-12-01T15:46:36.904+0000",
+            "Namespace": "SnApp.PaymentMethod",
+            "Operation": "Update",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2022-12-01T15:46:36.137+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.9.7.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "AutoFill": true,
+            "CreditLedgerAccountCode": "2.01.01.01",
+            "CreditLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "CreditLedgerAccountName": "SNAPP CLEARING ACCOUNT",
+            "CustomIconName": null,
+            "DebitLedgerAccountCode": "1.01.03.01",
+            "DebitLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DebitLedgerAccountName": "VOUCHER (CHARGE CODE)",
+            "MaskIDs": "",
+            "MaxChangeAmount": 0,
+            "PaymentCountMessage": null,
+            "PaymentGroupTagId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PaymentMethodCode": "PMT-26",
+            "PluginDefault": false,
+            "PluginEnabled": true,
+            "PluginId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PluginName": "Voucher (Billable)",
+            "PluginSettings": null,
+            "PriorityOrder": 8
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2022-12-29T14:21:15.477+0000"
+                }
+            ],
+            "CorrelationId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DataCommitTimestamp": "2022-12-29T14:21:15.443+0000",
+            "DataId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DispatchTimestamp": "2022-12-29T14:21:15.417+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "MessageTimestamp": "2022-12-29T14:21:15.487+0000",
+            "Namespace": "SnApp.PaymentMethod",
+            "Operation": "Update",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2022-12-29T14:21:15.413+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.9.7.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "AutoFill": true,
+            "CreditLedgerAccountCode": "2.01.01.01",
+            "CreditLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "CreditLedgerAccountName": "SNAPP CLEARING ACCOUNT",
+            "CustomIconName": null,
+            "DebitLedgerAccountCode": "1.01.03.01",
+            "DebitLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DebitLedgerAccountName": "VOUCHER (CHARGE CODE)",
+            "MaskIDs": "",
+            "MaxChangeAmount": 0,
+            "PaymentCountMessage": null,
+            "PaymentGroupTagId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PaymentMethodCode": "PMT-26",
+            "PluginDefault": false,
+            "PluginEnabled": true,
+            "PluginId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PluginName": "Voucher (Billable)",
+            "PluginSettings": null,
+            "PriorityOrder": 8
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-01-02T19:36:15.056+0000"
+                }
+            ],
+            "CorrelationId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DataCommitTimestamp": "2023-01-02T19:36:14.902+0000",
+            "DataId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DispatchTimestamp": "2023-01-02T19:36:14.377+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "MessageTimestamp": "2023-01-02T19:36:15.064+0000",
+            "Namespace": "SnApp.PaymentMethod",
+            "Operation": "Update",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-01-02T19:36:14.373+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.9.7.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "AutoFill": true,
+            "CreditLedgerAccountCode": "2.01.01.01",
+            "CreditLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "CreditLedgerAccountName": "SNAPP CLEARING ACCOUNT",
+            "CustomIconName": null,
+            "DebitLedgerAccountCode": "1.01.03.01",
+            "DebitLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DebitLedgerAccountName": "VOUCHER (CHARGE CODE)",
+            "MaskIDs": "",
+            "MaxChangeAmount": 0,
+            "PaymentCountMessage": null,
+            "PaymentGroupTagId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PaymentMethodCode": "PMT-26",
+            "PluginDefault": false,
+            "PluginEnabled": true,
+            "PluginId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PluginName": "Voucher (Billable)",
+            "PluginSettings": null,
+            "PriorityOrder": 8
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-02-15T16:38:05.736+0000"
+                }
+            ],
+            "CorrelationId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DataCommitTimestamp": "2023-02-15T16:38:05.633+0000",
+            "DataId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DispatchTimestamp": "2023-02-15T16:38:04.890+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "MessageTimestamp": "2023-02-15T16:38:05.736+0000",
+            "Namespace": "SnApp.PaymentMethod",
+            "Operation": "Update",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-02-15T16:38:04.887+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.9.7.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "AutoFill": true,
+            "CreditLedgerAccountCode": "2.01.01.01",
+            "CreditLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "CreditLedgerAccountName": "SNAPP CLEARING ACCOUNT",
+            "CustomIconName": null,
+            "DebitLedgerAccountCode": "1.01.03.01",
+            "DebitLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DebitLedgerAccountName": "VOUCHER (CHARGE CODE)",
+            "MaskIDs": "",
+            "MaxChangeAmount": 0,
+            "PaymentCountMessage": null,
+            "PaymentGroupTagId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PaymentMethodCode": "PMT-26",
+            "PluginDefault": false,
+            "PluginEnabled": true,
+            "PluginId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PluginName": "Voucher (Billable)",
+            "PluginSettings": null,
+            "PriorityOrder": 8
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-02-16T16:58:03.382+0000"
+                }
+            ],
+            "CorrelationId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DataCommitTimestamp": "2023-02-16T16:58:03.271+0000",
+            "DataId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DispatchTimestamp": "2023-02-16T16:58:03.027+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "MessageTimestamp": "2023-02-16T16:58:03.368+0000",
+            "Namespace": "SnApp.PaymentMethod",
+            "Operation": "Update",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-02-16T16:58:03.023+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.9.7.0.6",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "AutoFill": true,
+            "CreditLedgerAccountCode": "2.01.01.01",
+            "CreditLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "CreditLedgerAccountName": "SNAPP CLEARING ACCOUNT",
+            "CustomIconName": null,
+            "DebitLedgerAccountCode": "1.01.03.01",
+            "DebitLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DebitLedgerAccountName": "VOUCHER (CHARGE CODE)",
+            "MaskIDs": "",
+            "MaxChangeAmount": 0,
+            "PaymentCountMessage": null,
+            "PaymentGroupTagId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PaymentMethodCode": "PMT-26",
+            "PluginDefault": false,
+            "PluginEnabled": true,
+            "PluginId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PluginName": "Voucher (Billable)",
+            "PluginSettings": null,
+            "PriorityOrder": 8
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-04-12T05:10:03.465+0000"
+                }
+            ],
+            "CorrelationId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DataCommitTimestamp": "2023-04-12T05:10:03.402+0000",
+            "DataId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DispatchTimestamp": "2023-04-12T05:10:02.967+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "MessageTimestamp": "2023-04-12T05:10:03.468+0000",
+            "Namespace": "SnApp.PaymentMethod",
+            "Operation": "Update",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-04-12T05:10:02.963+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.4",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "AutoFill": true,
+            "CreditLedgerAccountCode": "2.01.01.01",
+            "CreditLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "CreditLedgerAccountName": "SNAPP CLEARING ACCOUNT",
+            "CustomIconName": "paypal.png",
+            "DebitLedgerAccountCode": "1.01.01.01",
+            "DebitLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DebitLedgerAccountName": "ELECTRONIC PAYMENTS - GENERAL",
+            "MaskIDs": "",
+            "MaxChangeAmount": 0,
+            "PaymentCountMessage": null,
+            "PaymentGroupTagId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PaymentMethodCode": "PMT-20",
+            "PluginDefault": false,
+            "PluginEnabled": true,
+            "PluginId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PluginName": "PayPal",
+            "PluginSettings": "{\"Authorizer\":\"2\",\"InputMode\":\"1\",\"SignatureInputMode\":\"\",\"ReceiptTemplateId\":\"BDCD7260-FF4E-4727-9F84-B954664FB130\"}",
+            "PriorityOrder": 12
+        }
+    },
+    {
+        "Header": {
+            "Breadcrumb": [
+                {
+                    "SystemID": "SnApp",
+                    "Timestamp": "2023-05-08T19:09:50.018+0000"
+                }
+            ],
+            "CorrelationId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DataCommitTimestamp": "2023-05-08T19:09:49.854+0000",
+            "DataId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DispatchTimestamp": "2023-05-08T19:09:49.423+0000",
+            "EncryptedRandomSeed": null,
+            "MessageId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "MessageTimestamp": "2023-05-08T19:09:50.035+0000",
+            "Namespace": "SnApp.PaymentMethod",
+            "Operation": "Update",
+            "PayloadEncoding": "JSON",
+            "Recovery": false,
+            "Retransmit": false,
+            "SchemaVersion": "1",
+            "SourceEventDateTime": "2023-05-08T19:09:49.423+0000",
+            "SourceSystemName": "SnApp",
+            "SourceSystemVersion": "8.10.1.0.4",
+            "Suppressed": false,
+            "Version": "1"
+        },
+        "Payload": {
+            "AutoFill": true,
+            "CreditLedgerAccountCode": "2.01.01.01",
+            "CreditLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "CreditLedgerAccountName": "SNAPP CLEARING ACCOUNT",
+            "CustomIconName": null,
+            "DebitLedgerAccountCode": "1.01.03.01",
+            "DebitLedgerAccountId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "DebitLedgerAccountName": "VOUCHER (CHARGE CODE)",
+            "MaskIDs": "",
+            "MaxChangeAmount": 0,
+            "PaymentCountMessage": null,
+            "PaymentGroupTagId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PaymentMethodCode": "PMT-26",
+            "PluginDefault": false,
+            "PluginEnabled": true,
+            "PluginId": "BDCD7260-FF4E-4727-9F84-B954664FB130",
+            "PluginName": "Voucher (Billable)",
+            "PluginSettings": null,
+            "PriorityOrder": 8
+        }
+    }
+]

@@ -1,0 +1,16 @@
+load("@external_python_packages//:requirements.bzl", "requirement")
+load("//app/tools/macros/py_lambda_library:def.bzl", "py_lambda_library")
+
+py_lambda_library(
+    name = "snowflake_static_resources",
+    srcs = glob(["*.py"]),
+    data = [
+        "__init__.py",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        requirement("jinja2"),
+        requirement("jsonref"),
+        requirement("pydantic"),
+    ],
+)

@@ -1,0 +1,1223 @@
+[
+    {
+        "data": {
+            "ENTTL_ID": 10001,
+            "ENTTL_STRT_DTS": "2015-03-17 22:15:00",
+            "ENTTL_END_DTS": "2015-03-28 22:15:00",
+            "TNC_VER": "0.0",
+            "MAX_FP_BOOKING": 6,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-17 14:48:30",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-17 14:48:30",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.811567",
+            "transaction-id": 86792041804060
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10021,
+            "ENTTL_STRT_DTS": "2015-03-17 22:15:00",
+            "ENTTL_END_DTS": "2015-03-24 22:15:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 6,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-17 17:26:38",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-17 17:26:38",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.811693",
+            "transaction-id": 94699458770630
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10022,
+            "ENTTL_STRT_DTS": "2015-03-17 21:43:08",
+            "ENTTL_END_DTS": "2015-03-18 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 12,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-17 17:43:08",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-17 21:43:10",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.811780",
+            "transaction-id": 73373681035575
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10041,
+            "ENTTL_STRT_DTS": "2015-01-12 09:15:59",
+            "ENTTL_END_DTS": "2015-02-12 20:55:23",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 5,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 04:59:38",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 04:59:38",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.811861",
+            "transaction-id": 24896846144796
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10061,
+            "ENTTL_STRT_DTS": "2015-01-12 09:15:59",
+            "ENTTL_END_DTS": "2015-02-12 20:55:23",
+            "TNC_VER": "0.0",
+            "MAX_FP_BOOKING": 5,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 07:13:49",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 07:13:49",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.811941",
+            "transaction-id": 25550051429042
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10082,
+            "ENTTL_STRT_DTS": "2015-03-18 13:30:25",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 6,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 09:30:26",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 09:38:02",
+            "LGCL_DEL_IN": "Y",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.812021",
+            "transaction-id": 59718465893971
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10083,
+            "ENTTL_STRT_DTS": "2015-03-18 13:37:17",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 4,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 09:37:17",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:47:17",
+            "LGCL_DEL_IN": "Y",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.812099",
+            "transaction-id": 14280057474753
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10084,
+            "ENTTL_STRT_DTS": "2015-03-18 13:39:15",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 6,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 09:39:15",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:03:39",
+            "LGCL_DEL_IN": "Y",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.812176",
+            "transaction-id": 74340414052738
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10085,
+            "ENTTL_STRT_DTS": "2015-03-18 13:39:48",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 3,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 09:39:48",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:40:18",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.812253",
+            "transaction-id": 25951070218059
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10086,
+            "ENTTL_STRT_DTS": "2015-03-18 14:00:43",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 5,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:00:43",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:00:43",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.812330",
+            "transaction-id": 81388144923361
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10087,
+            "ENTTL_STRT_DTS": "2015-03-18 14:16:50",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 5,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:16:50",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:16:50",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.812407",
+            "transaction-id": 24444612866304
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10088,
+            "ENTTL_STRT_DTS": "2015-03-18 14:20:46",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 6,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:20:46",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:20:46",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.812484",
+            "transaction-id": 58169714573964
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10089,
+            "ENTTL_STRT_DTS": "2015-03-18 14:22:07",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 6,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:22:07",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:31:15",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.812561",
+            "transaction-id": 19513329109728
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10090,
+            "ENTTL_STRT_DTS": "2015-03-18 14:39:08",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 3,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:39:08",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:46:59",
+            "LGCL_DEL_IN": "Y",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.812639",
+            "transaction-id": 25281861494119
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10091,
+            "ENTTL_STRT_DTS": "2015-03-18 14:48:40",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 3,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:48:40",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:49:53",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.812725",
+            "transaction-id": 40859018553802
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10092,
+            "ENTTL_STRT_DTS": "2015-03-18 14:54:53",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:54:54",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:54:54",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.812802",
+            "transaction-id": 35364413324125
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10093,
+            "ENTTL_STRT_DTS": "2015-03-18 14:56:05",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 6,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:56:05",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:02:23",
+            "LGCL_DEL_IN": "Y",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.812877",
+            "transaction-id": 27992245853418
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10094,
+            "ENTTL_STRT_DTS": "2015-03-18 15:01:38",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 1,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:01:38",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:01:38",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.812954",
+            "transaction-id": 87201631749423
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10095,
+            "ENTTL_STRT_DTS": "2015-03-18 15:01:52",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 5,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:01:52",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:20:01",
+            "LGCL_DEL_IN": "Y",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.813029",
+            "transaction-id": 50338967116695
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10096,
+            "ENTTL_STRT_DTS": "2015-03-18 15:04:18",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 6,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:04:18",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:04:18",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.813105",
+            "transaction-id": 63347809448282
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10097,
+            "ENTTL_STRT_DTS": "2015-03-18 15:15:23",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 34,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:15:23",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:15:23",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.813180",
+            "transaction-id": 43303271070226
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10098,
+            "ENTTL_STRT_DTS": "2015-03-18 15:20:35",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 4,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:20:36",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:20:36",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.813256",
+            "transaction-id": 68897985535477
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10099,
+            "ENTTL_STRT_DTS": "2015-03-18 15:20:57",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 6,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:20:57",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 11:20:57",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.813331",
+            "transaction-id": 17850302004247
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10100,
+            "ENTTL_STRT_DTS": "2015-03-18 15:46:56",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 12,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 11:46:56",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 12:10:40",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.813407",
+            "transaction-id": 95651690879325
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10101,
+            "ENTTL_STRT_DTS": "2015-03-18 16:09:57",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 1,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 12:09:57",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 12:09:57",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.813483",
+            "transaction-id": 14018550009216
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10121,
+            "ENTTL_STRT_DTS": "2015-03-19 22:15:00",
+            "ENTTL_END_DTS": "2015-03-21 22:15:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 6,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 13:15:44",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 13:15:44",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.813558",
+            "transaction-id": 96460576289912
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10122,
+            "ENTTL_STRT_DTS": "2015-03-18 17:42:52",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 4,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 13:42:52",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 14:00:30",
+            "LGCL_DEL_IN": "Y",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.813633",
+            "transaction-id": 34659675540778
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10141,
+            "ENTTL_STRT_DTS": "2015-03-18 18:02:34",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 5,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 14:02:35",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 14:02:35",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.813715",
+            "transaction-id": 46876575387378
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10161,
+            "ENTTL_STRT_DTS": "2015-03-18 22:15:00",
+            "ENTTL_END_DTS": "2015-03-20 22:15:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 6,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 20:46:53",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 20:46:53",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.813792",
+            "transaction-id": 52925910245644
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10181,
+            "ENTTL_STRT_DTS": "2015-03-19 07:14:34",
+            "ENTTL_END_DTS": "2015-03-20 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 5,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 03:14:34",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 13:29:18",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.813866",
+            "transaction-id": 79211607627559
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10201,
+            "ENTTL_STRT_DTS": "2015-03-19 09:10:58",
+            "ENTTL_END_DTS": "2015-03-20 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 4,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 05:10:58",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 05:10:58",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.813941",
+            "transaction-id": 53022499277651
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10221,
+            "ENTTL_STRT_DTS": "2015-03-19 10:09:56",
+            "ENTTL_END_DTS": "2015-03-20 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 5,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 06:09:56",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 06:09:56",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.814017",
+            "transaction-id": 27533800750211
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10241,
+            "ENTTL_STRT_DTS": "2015-03-18 22:15:00",
+            "ENTTL_END_DTS": "2015-03-20 22:15:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 6,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 10:24:13",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 10:24:13",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.814092",
+            "transaction-id": 87567343746590
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10261,
+            "ENTTL_STRT_DTS": "2015-03-19 16:32:37",
+            "ENTTL_END_DTS": "2015-03-20 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 4,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 12:32:37",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 12:32:37",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.814169",
+            "transaction-id": 43461103449740
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10281,
+            "ENTTL_STRT_DTS": "2015-03-19 17:13:07",
+            "ENTTL_END_DTS": "2015-03-20 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 3,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 13:13:08",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 17:04:43",
+            "LGCL_DEL_IN": "Y",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.814245",
+            "transaction-id": 63500932869824
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10282,
+            "ENTTL_STRT_DTS": "2015-03-19 17:26:10",
+            "ENTTL_END_DTS": "2015-03-20 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 6,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 13:26:10",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 14:40:50",
+            "LGCL_DEL_IN": "Y",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.814321",
+            "transaction-id": 48064472910411
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10283,
+            "ENTTL_STRT_DTS": "2015-03-19 17:26:59",
+            "ENTTL_END_DTS": "2015-03-20 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 3,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 13:27:00",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 13:30:15",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.814396",
+            "transaction-id": 23697179116560
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10284,
+            "ENTTL_STRT_DTS": "2015-03-19 17:55:09",
+            "ENTTL_END_DTS": "2015-03-20 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 5,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 13:55:09",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 13:55:09",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.814472",
+            "transaction-id": 29538167779061
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10285,
+            "ENTTL_STRT_DTS": "2015-03-19 18:17:17",
+            "ENTTL_END_DTS": "2015-03-20 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 3,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 14:17:17",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 14:58:00",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.814548",
+            "transaction-id": 17388361895842
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10286,
+            "ENTTL_STRT_DTS": "2015-03-19 18:21:27",
+            "ENTTL_END_DTS": "2015-03-20 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 2,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 14:21:27",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 14:22:29",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.814624",
+            "transaction-id": 12569264572777
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10287,
+            "ENTTL_STRT_DTS": "2015-03-19 18:39:26",
+            "ENTTL_END_DTS": "2015-03-20 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 12,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 14:39:26",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 14:39:26",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.814700",
+            "transaction-id": 64212424969986
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10288,
+            "ENTTL_STRT_DTS": "2015-03-19 18:41:29",
+            "ENTTL_END_DTS": "2015-03-20 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 6,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 14:41:29",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 14:41:44",
+            "LGCL_DEL_IN": "Y",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.814776",
+            "transaction-id": 26719956499494
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10289,
+            "ENTTL_STRT_DTS": "2015-03-19 18:42:05",
+            "ENTTL_END_DTS": "2015-03-20 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 6,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 14:42:05",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 14:52:16",
+            "LGCL_DEL_IN": "Y",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.814857",
+            "transaction-id": 15912471721186
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10301,
+            "ENTTL_STRT_DTS": "2015-03-19 19:40:54",
+            "ENTTL_END_DTS": "2015-03-20 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 6,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 15:40:54",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 15:40:54",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.814939",
+            "transaction-id": 30961603901548
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10321,
+            "ENTTL_STRT_DTS": "2015-03-19 20:37:43",
+            "ENTTL_END_DTS": "2015-03-20 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 3,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 16:37:43",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 16:39:31",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.815016",
+            "transaction-id": 44815639358072
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10322,
+            "ENTTL_STRT_DTS": "2015-03-19 21:15:01",
+            "ENTTL_END_DTS": "2015-03-20 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 2,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 17:15:01",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 17:15:01",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.815092",
+            "transaction-id": 31837565868100
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10323,
+            "ENTTL_STRT_DTS": "2015-03-19 21:18:18",
+            "ENTTL_END_DTS": "2015-03-20 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 3,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-19 17:18:18",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-19 17:18:18",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.815167",
+            "transaction-id": 82021583745013
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10341,
+            "ENTTL_STRT_DTS": "2015-03-20 12:57:51",
+            "ENTTL_END_DTS": "2015-03-21 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 3,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-20 08:57:51",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-20 09:24:46",
+            "LGCL_DEL_IN": "Y",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.815243",
+            "transaction-id": 59669616286773
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10342,
+            "ENTTL_STRT_DTS": "2015-03-20 13:22:16",
+            "ENTTL_END_DTS": "2015-03-21 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 2,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-20 09:22:16",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-20 09:22:53",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.815319",
+            "transaction-id": 95189018864922
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10343,
+            "ENTTL_STRT_DTS": "2015-03-20 13:27:03",
+            "ENTTL_END_DTS": "2015-03-21 08:00:00",
+            "TNC_VER": "v2",
+            "MAX_FP_BOOKING": 1,
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-20 09:27:03",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-20 09:27:03",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.815394",
+            "transaction-id": 72741490875396
+        }
+    },
+    {
+        "data": {
+            "ENTTL_ID": 10092,
+            "ENTTL_STRT_DTS": "2015-03-18 14:54:53",
+            "ENTTL_END_DTS": "2015-03-19 08:00:00",
+            "TNC_VER": "v2",
+            "CREATE_USR_ID": "DASAPP",
+            "CREATE_DTS": "2015-03-18 10:54:54",
+            "UPDT_USR_ID": "DASAPP",
+            "UPDT_DTS": "2015-03-18 10:54:54",
+            "LGCL_DEL_IN": "N",
+            "SITE": "WDW"
+        },
+        "metadata": {
+            "operation": "insert",
+            "partition-key-type": "schema-table",
+            "record-type": "data",
+            "schema-name": "wdw_mmp_das",
+            "table-name": "enttl",
+            "timestamp": "2023-07-14 11:46:46.812802"
+        }
+    }
+]

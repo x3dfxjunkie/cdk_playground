@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__reservation_history_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__reservation_history_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: reservation_history_id
+        description: ""
+
+      - name: travel_plan_segment_id
+        description: ""
+
+      - name: travel_component_group_number
+        description: ""
+
+      - name: travel_component_id
+        description: ""
+
+      - name: reservation_history_procedure_description
+        description: ""
+
+      - name: procedure_datetime
+        description: ""
+
+      - name: procedure_date
+        description: ""
+
+      - name: reservation_history_text
+        description: ""
+
+      - name: travel_plan_segment_arrival_date
+        description: ""
+
+      - name: travel_plan_departure_date
+        description: ""

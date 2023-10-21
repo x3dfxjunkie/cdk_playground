@@ -1,0 +1,121 @@
+version: 2
+
+models:
+  - name: sil__guest_experience__memory_maker__digital_download_entitlement_current
+    description: "{{ doc('sil__guest_experience__memory_maker__digital_download_entitlement_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=guest_experience
+        - sub_domain=memory_maker
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: digital_download_entitlement_id
+        description: ""
+
+      - name: guest_id
+        description: ""
+
+      - name: guest_link_start_datetime
+        description: ""
+
+      - name: guest_link_start_date
+        description: ""
+
+      - name: guest_link_start_time
+        description: ""
+
+      - name: guest_link_end_datetime
+        description: ""
+
+      - name: end_date
+        description: ""
+
+      - name: end_time
+        description: ""
+
+      - name: guest_role_id
+        description: ""
+
+      - name: guest_role_name
+        description: ""
+
+      - name: guest_role_type_id
+        description: ""
+
+      - name: guest_role_type_name
+        description: ""
+
+      - name: guest_role_category_id
+        description: ""
+
+      - name: guest_role_category_name
+        description: ""
+
+      - name: entitlement_type
+        description: ""
+
+      - name: product_content_id
+        description: ""
+
+      - name: enterprise_product_content_type_name
+        description: ""
+
+      - name: enterprise_product_content_id
+        description: ""
+
+      - name: product_content_attribute_name
+        description: ""
+
+      - name: product_content_attribute_value
+        description: ""
+
+      - name: issue_type_id
+        description: ""
+
+      - name: issue_type_description
+        description: ""
+
+      - name: ticket_void_type_code
+        description: ""
+
+      - name: purchase_date
+        description: ""
+
+      - name: expiration_date
+        description: ""
+
+      - name: sales_price
+        description: ""
+
+      - name: sales_tax
+        description: ""
+
+      - name: issue_reason_value
+        description: ""
+
+      - name: resort_reservation_start_date
+        description: ""
+
+      - name: resort_reservation_end_date
+        description: ""
+
+      - name: source_system_create_user_id
+        description: ""
+
+      - name: source_system_create_datetime
+        description: ""
+
+      - name: source_system_update_user_id
+        description: ""
+
+      - name: source_system_update_datetime
+        description: ""
+
+      - name: source_system_logical_delete_indicator
+        description: ""

@@ -1,0 +1,411 @@
+stack_extension: &se dreams-grpmg # 12 Character Limit!
+ingest_pattern: &ip dms # DO NOT UPDATE must = dms for dms pattern
+active: True
+feature_branch: False # set to False unless you want to deploy DMS in ephemeral envs
+pattern_instances:
+  - region: &region-1 us-east-1 # DO NOT UPDATE
+    resources:
+      kinesis_dmz:
+        stream_mode: !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+      kinesis:
+        stream_mode: !!python/object/apply:aws_cdk.aws_kinesis.StreamMode
+          - ON_DEMAND
+        retention_period: &kdr !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.aws_kinesis.days_retention
+          - 30
+      dms_repl_task: # AWS DMS replication task
+        - &replication_task_definitions
+          replication_task_identifier: ful1 # An identifier for the replication task. Constraints: - combination of stack_extension (line 1) + task identifier cannot exceed 16 alphanumeric characters or hyphens. - First character must be a letter. - Cannot end with a hyphen or contain two consecutive hyphens
+          source_endpoint_arn: source_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the source endpoint.
+          target_endpoint_arn: target_arn # placeholder only - DO NOT UPDATE, ARN that uniquely identifies the target endpoint.
+          replication_instance_arn: instance_arn # placeholder only - DO NOT UPDATE, ARN of a replication instance.
+          migration_type: full-load # The migration type. Valid values: full-load | cdc | full-load-and-cdc.
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: "group_mgmt"
+                  table-name: "%" #Table qualifier
+        - <<: *replication_task_definitions # This is an anchor and is repeating what is set in the first task, but allows specific overrides for each of the configuration keys, as shown for the replication_task_identifier and migration_type below
+          replication_task_identifier: cdc1
+          migration_type: cdc #Valid values: full-load,cdc,full-load-and-cdc
+        - <<: *replication_task_definitions 
+          replication_task_identifier: low  #Low volume tables needing data for Contract Creation
+          migration_type: full-load #Valid values: full-load,cdc,full-load-and-cdc
+          table_mappings: # The table mappings for the task, several types of rules to specify the data source, source schema, data, and any transformations that should occur during the task
+            rules:
+              - rule-type: &rule-type selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "1" # Unique numeric value to identify the rule.
+                rule-name: "1" # Unique name to identify the rule.
+                rule-action: &rule_action explicit # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: &schema-name "group_mgmt"
+                  table-name: "age_typ" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "2" # Unique numeric value to identify the rule.
+                rule-name: "2" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "dlvr_meth" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "3" # Unique numeric value to identify the rule.
+                rule-name: "3" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "grp_cnfirm_dest" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "4" # Unique numeric value to identify the rule.
+                rule-name: "4" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "app_sys_secur" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "5" # Unique numeric value to identify the rule.
+                rule-name: "5" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "grp_free_tm_lvl" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "6" # Unique numeric value to identify the rule.
+                rule-name: "6" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "grp_stg" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "7" # Unique numeric value to identify the rule.
+                rule-name: "7" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "grp_dlgt_bkng_meth" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "8" # Unique numeric value to identify the rule.
+                rule-name: "8" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "sync_xref_typ" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "9" # Unique numeric value to identify the rule.
+                rule-name: "9" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "grp_bus_src" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "10" # Unique numeric value to identify the rule.
+                rule-name: "10" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "gro" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "11" # Unique numeric value to identify the rule.
+                rule-name: "11" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "grp_cmt_typ_rte" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "12" # Unique numeric value to identify the rule.
+                rule-name: "12" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "opty_typ" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "13" # Unique numeric value to identify the rule.
+                rule-name: "13" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "grp_prfl_assc" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "14" # Unique numeric value to identify the rule.
+                rule-name: "14" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "grp_mgmt_rl" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "15" # Unique numeric value to identify the rule.
+                rule-name: "15" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "app_sys" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "16" # Unique numeric value to identify the rule.
+                rule-name: "16" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "grp_lnk" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "17" # Unique numeric value to identify the rule.
+                rule-name: "17" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "sync_xref" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "18" # Unique numeric value to identify the rule.
+                rule-name: "18" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "grp_ctrc_rsrt" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "19" # Unique numeric value to identify the rule.
+                rule-name: "19" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "grp_blk_pkg_grid" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "20" # Unique numeric value to identify the rule.
+                rule-name: "20" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "grp_atritn" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "21" # Unique numeric value to identify the rule.
+                rule-name: "21" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "grp_cmt" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "22" # Unique numeric value to identify the rule.
+                rule-name: "22" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "grp_cmt_rte" #Table qualifier
+              - rule-type: *rule-type # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+                rule-id: "23" # Unique numeric value to identify the rule.
+                rule-name: "23" # Unique name to identify the rule.
+                rule-action: *rule_action # Unique name to identify the rule.
+                object-locator: # The name of each schema and table or view to which the rule applies
+                  schema-name: *schema-name
+                  table-name: "blk_fac" #Table qualifier
+      source_endpoint: # AWS DMS Source Endpoint.
+        engine_name: mariadb # The type of engine for the endpoint, depending on the EndpointType value. Valid values : mysql | oracle | mariadb | kinesis
+        ssl_mode: verify-ca #Enable Secure Sockets Layer (SSL) mode to use for the SSL connection. Allowed values: verify-ca,verify-full
+        settings: # See https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Source.html
+#          server_timezone: US/Eastern # #Specifies the time zone for the target MySQL-compatible database, e.g., US/Eastern, US/Pacific, UTC / remove if UTC
+          secrets_manager_secret_id: arn:aws:secretsmanager:us-east-1:920268603720:secret:prd-use1-dreams-group-management-secret-nveVwq #pragma: allowlist secret, The ARN, or display name of the SecretsManagerSecret that contains the MySQL endpoint connection details.
+      source_kms_key: 179d9ff2-1d6d-4fd1-b639-ee1fbeb1bc03 # Update for the secrets_manager_secret_id kms key
+      source_ssl_cert: rds-global-bundle # Update for the appropriate source dms certificate, most AWS DBs will use the rds-global-bundle by default
+    data_pipe:
+      default_router_database: DEFAULT_ROUTER_PROD_LANDING # Needs update to appropriate default routing
+      data_contracts: # This section needs to be updated for all data contracts for the source
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_blk_fac_source_data_contract
+          class_name: DREAMSGroupManagementBlkFacModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: blk_fac
+          router_database: &database PROD_LANDING
+          router_schema: &schema LND_DREAMS_GROUP_MANAGEMENT
+          router_table: BLK_FAC
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_gro_source_data_contract
+          class_name: DREAMSGroupManagementGroModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: gro
+          router_database: *database
+          router_schema: *schema
+          router_table: GRO
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_grp_source_data_contract
+          class_name: DREAMSGroupManagementGrpModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_grp_adt_source_data_contract
+          class_name: DREAMSGroupManagementGrpAdtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_adt
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_ADT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_grp_atritn_source_data_contract
+          class_name: DREAMSGroupManagementGrpAtritnModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_atritn
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_ATRITN
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_grp_blk_source_data_contract
+          class_name: DREAMSGroupManagementGrpBlkModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_blk
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_BLK
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_grp_blk_pkg_chan_source_data_contract
+          class_name: DREAMSGroupManagementGrpBlkPkgChanModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_blk_pkg_chan
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_BLK_PKG_CHAN
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_grp_dlgt_bkng_meth_source_data_contract
+          class_name: DREAMSGroupManagementGrpDlgtBkngMethModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_dlgt_bkng_meth
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_DLGT_BKNG_METH
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_grp_lnk_source_data_contract
+          class_name: DREAMSGroupManagementGrpLnkModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_lnk
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_LNK
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_grp_pty_rl_source_data_contract
+          class_name: DREAMSGroupManagementGrpPtyRlModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_pty_rl
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_PTY_RL
+        #20230807
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_grp_bus_src_source_data_contract
+          class_name: DREAMSGroupManagementGrpBusSrcModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_bus_src
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_BUS_SRC
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_grp_cmt_source_data_contract
+          class_name: DREAMSGroupManagementGrpCmtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_cmt
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_CMT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_grp_cmt_rte_source_data_contract
+          class_name: DREAMSGroupManagementGrpCmtRteModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_cmt_rte
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_CMT_RTE
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_grp_cmt_typ_rte_source_data_contract
+          class_name: DREAMSGroupManagementGrpCmtTypRteModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_cmt_typ_rte
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_CMT_TYP_RTE
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_grp_ctrc_rsrt_source_data_contract
+          class_name: DREAMSGroupManagementGrpCtrcRsrtModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_ctrc_rsrt
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_CTRC_RSRT
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_grp_free_tm_lvl_source_data_contract
+          class_name: DREAMSGroupManagementGrpFreeTmLvlModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_free_tm_lvl
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_FREE_TM_LVL
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_grp_mgmt_rl_source_data_contract
+          class_name: DREAMSGroupManagementGrpMgmtRlModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_mgmt_rl
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_MGMT_RL
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_grp_prfl_assc_source_data_contract
+          class_name: DREAMSGroupManagementGrpPrflAsscModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_prfl_assc
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_PRFL_ASSC
+          #20200816
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_dlvr_meth_source_data_contract
+          class_name: DREAMSGroupManagementDlvrMethModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: dlvr_meth
+          router_database: *database
+          router_schema: *schema
+          router_table: DLVR_METH
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_grp_cnfirm_dest_source_data_contract
+          class_name: DREAMSGroupManagementGrpCnfirmDestModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_cnfirm_dest
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_CNFIRM_DEST
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_grp_stg_source_data_contract
+          class_name: DREAMSGroupManagementGrpStgModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: grp_stg
+          router_database: *database
+          router_schema: *schema
+          router_table: GRP_STG
+        - data_contract: app.src.data_structures.data_contracts.source.dreams.group_management.v0.dreams_group_management_opty_typ_source_data_contract
+          class_name: DREAMSGroupManagementOptyTypModel
+          data_contract_version: 0.0.1
+          key_path:
+            - name: metadata.table-name
+              value: opty_typ
+          router_database: *database
+          router_schema: *schema
+          router_table: OPTY_TYP

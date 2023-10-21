@@ -1,0 +1,151 @@
+[
+	{
+		"data": {
+			"CNCTD_RSRC_ID": 22956,
+			"CNCTG_RSRC_ID": 22957
+		},
+		"metadata": {
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "cnct_rm_lnk",
+			"timestamp": "2023-08-07T17:54:48.772671Z",
+			"transaction-id": 14611554757051
+		}
+	},
+	{
+		"data": {
+			"CNCTD_RSRC_ID": 23276,
+			"CNCTG_RSRC_ID": 23277
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "cnct_rm_lnk",
+			"timestamp": "2023-08-07T17:22:00.007516Z",
+			"transaction-id": 14611536054368
+		}
+	},
+	{
+		"data": {
+			"CNCTD_RSRC_ID": 23641,
+			"CNCTG_RSRC_ID": 23640
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "cnct_rm_lnk",
+			"timestamp": "2023-08-07T17:42:58.505271Z",
+			"transaction-id": 14611546915533
+		}
+	},
+	{
+		"data": {
+			"CNCTD_RSRC_ID": 23640,
+			"CNCTG_RSRC_ID": 23641
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "cnct_rm_lnk",
+			"timestamp": "2023-08-07T17:43:08.639582Z",
+			"transaction-id": 14611547006641
+		}
+	},
+	{
+		"data": {
+			"CNCTD_RSRC_ID": 23629,
+			"CNCTG_RSRC_ID": 23628
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "cnct_rm_lnk",
+			"timestamp": "2023-08-07T16:51:04.751744Z",
+			"transaction-id": 14611518409503
+		}
+	},
+	{
+		"data": {
+			"CNCTD_RSRC_ID": 23631,
+			"CNCTG_RSRC_ID": 23630
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "cnct_rm_lnk",
+			"timestamp": "2023-08-07T16:51:40.239510Z",
+			"transaction-id": 14611518871118
+		}
+	},
+	{
+		"data": {
+			"CNCTD_RSRC_ID": 23630,
+			"CNCTG_RSRC_ID": 23631
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "cnct_rm_lnk",
+			"timestamp": "2023-08-07T16:51:55.522808Z",
+			"transaction-id": 14611519060262
+		}
+	},
+	{
+		"data": {
+			"CNCTD_RSRC_ID": 23275,
+			"CNCTG_RSRC_ID": 23274
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "cnct_rm_lnk",
+			"timestamp": "2023-08-07T17:18:56.289241Z",
+			"transaction-id": 14611534407419
+		}
+	},
+	{
+		"data": {
+			"CNCTD_RSRC_ID": 23274,
+			"CNCTG_RSRC_ID": 23275
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "cnct_rm_lnk",
+			"timestamp": "2023-08-07T17:19:11.598262Z",
+			"transaction-id": 14611534569168
+		}
+	},
+	{
+		"data": {
+			"CNCTD_RSRC_ID": 23277,
+			"CNCTG_RSRC_ID": 23276
+		},
+		"metadata": {
+			"operation": "delete",
+			"partition-key-type": "schema-table",
+			"record-type": "data",
+			"schema-name": "rsrc_inv",
+			"table-name": "cnct_rm_lnk",
+			"timestamp": "2023-08-07T17:19:22.882971Z"
+		}
+	}
+]

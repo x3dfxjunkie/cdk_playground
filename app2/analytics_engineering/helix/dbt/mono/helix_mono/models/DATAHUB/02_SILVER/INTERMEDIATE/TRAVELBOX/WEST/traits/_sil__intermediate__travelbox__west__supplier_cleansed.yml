@@ -1,0 +1,356 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__west__supplier_cleansed
+    description: '{{ doc("sil__intermediate__travelbox__west__supplier_cleansed") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_cleansed
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_supplier_id
+            - metadata_checksum
+
+    columns:
+      - name: data_payment_type
+        description: "PAYMENT_TYPE of the receipt | example: ARC"
+        meta:
+          checksum: True
+
+      - name: data_modified_by
+        description: "The TravelBox user id of the user who modified the contract. If no modification done after the creation, this field holds the user id of the user who created the contract | example: 16180"
+        meta:
+          checksum: True
+
+      - name: data_modified_on
+        description: "The date on which the contract get modified. If no modifications done after the creation, this field holds the contract created date. | example: 1987-10-20 13:47:30"
+        meta:
+          checksum: True
+
+      - name: data_entered_by
+        description: "The TravelBox user id of the user who has entered this accomodation contract in to system | example: 15075"
+        meta:
+          checksum: True
+
+      - name: data_entered_on
+        description: "The date/time on which this accomodation contract is entered into the system | example: 2017-04-07 14:15:31"
+        meta:
+          checksum: True
+
+      - name: data_automatic_notification
+        description: "Deprecated | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_tax_excempt
+        description: "Specifies whether to disable any taxes from being applied to the contract_x000D_
+Disable - 1, Not disable - 0 | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_tax_number
+        description: "The supplier?s Tax number, string value, applied only for Supplier, Accomadation and Cruise Line | example: sDXbdSQDVHBsmhMKoGdZ"
+        meta:
+          checksum: True
+
+      - name: data_tax_override
+        description: "A flag indicating whether the tax is overriden at the contract ( value is 1 ) or not ( value is 0 ) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_cancel_before
+        description: "A time string field which defines the exact time on the booking cancellation date, from when the cancellation charges should apply. Default is 12:00. | example: 12:00"
+        meta:
+          checksum: True
+
+      - name: data_chain
+        description: "A flag indicating the supplier is an accommodation chain ( value is 1 ) or not ( value is 0 ) | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_locale
+        description: "The TravelBox code of the locale | example: en"
+        meta:
+          checksum: True
+
+      - name: data_max_concurrent_user_count
+        description: "Deprecated | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_dedup_order
+        description: "The deduplication order for the search results. This is stored as a string consist of pipe &#39;|&#39; separated codes in the order of sorting principle of the results. | example: BizDAcMYfPQFepbFCDZM"
+        meta:
+          checksum: True
+
+      - name: data_enable
+        description: "Flag to indicate if the Additional Attribute is enable_x000D_
+1 - enable_x000D_
+0 - not enable | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_last_modified_timestamp
+        description: "The time at which the last modification has done. | example: 2005-11-09 13:54:40"
+        meta:
+          checksum: True
+
+      - name: data_supplier_id
+        description: "Not in DSN Scope | example: 29965"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_code
+        description: "The TravelBox code of the board basis | example: AA"
+        meta:
+          checksum: True
+
+      - name: data_identity
+        description: "A char to identify whether it is a Supplier profile(S), Accomadation(A), Flight(F), Cruise(C), Rail(R), All(I), Chain Supplier(N). Determined by the TBX panel. | example: F"
+        meta:
+          checksum: True
+
+      - name: data_name
+        description: "The name of the contract type | example: American Airlines"
+        meta:
+          checksum: True
+
+      - name: data_address
+        description: "Address of the credit card holder for credit card batch payment | example: MBYRrfnvAAuUUlhbwPVL"
+        meta:
+          checksum: True
+
+      - name: data_city
+        description: "The TravelBox code of the city for which the rule is defined | example: OsuaSWcOnKFbLQwBotpV"
+        meta:
+          checksum: True
+
+      - name: data_resort
+        description: "The foreign Key which refers the field CODE of the ACT_ABSORPTION table | example: okPkwvJyArnXGguHERYp"
+        meta:
+          checksum: True
+
+      - name: data_tourist_region
+        description: "The TravelBox code of the destination tourist region for which the contract is applicable | example: XCfLKtDPYFBEEmCvWwHa"
+        meta:
+          checksum: True
+
+      - name: data_post_code
+        description: "Postal code of the credit card holder for credit card batch payment | example: RuqKCBOfXcjSRxahWdWC"
+        meta:
+          checksum: True
+
+      - name: data_currency
+        description: "The TravelBox code of the currency in which the board basis fares are defined | example: USD"
+        meta:
+          checksum: True
+
+      - name: data_notes
+        description: "Notes for the tax invoice | example: jINDBQyKxXzsfhTCMSPE"
+        meta:
+          checksum: True
+
+      - name: data_pay_scheme
+        description: "The TravelBox id of the supplier payment scheme | example: 2753"
+        meta:
+          checksum: True
+
+      - name: data_cancel_scheme
+        description: "The TravelBox id of the supplier cancellation scheme | example: 4460"
+        meta:
+          checksum: True
+
+      - name: data_commission
+        description: "The commission percentage recieved by the tour operator | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_attended_person
+        description: "Deprecated | example: vTpVrATIADSagnfpCDrP"
+        meta:
+          checksum: True
+
+      - name: data_email
+        description: "The email address of the user | example: dummyEmail@codegen.net"
+        meta:
+          checksum: True
+
+      - name: data_fax
+        description: "Fax number associated with the location | example: otoGJLaxilcJKmDsJHqp"
+        meta:
+          checksum: True
+
+      - name: data_telephone
+        description: "The telephone number of the user | example: zJFbADGKzmkmlywzaBaY"
+        meta:
+          checksum: True
+
+      - name: data_default_contact_method
+        description: "Deprecated | example: EMAIL"
+        meta:
+          checksum: True
+
+      - name: data_send_immediately
+        description: "Deprecated | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_web_url
+        description: "Web site of the Airline  supplier  can be specified_x000D_
+for information purposes | example: sCwMOSsmhvFJlgkIsitb"
+        meta:
+          checksum: True
+
+      - name: data_preference
+        description: "Preference priority of the GDS | example: 100"
+        meta:
+          checksum: True
+
+      - name: min_metadata_timestamp
+        description: "The Minimum Metadata Timestamp field is used for updating the version end date of the active record in the target table"
+        tests:
+          - not_null
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

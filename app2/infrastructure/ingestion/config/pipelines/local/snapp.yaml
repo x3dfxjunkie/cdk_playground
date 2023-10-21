@@ -1,0 +1,20 @@
+stack_extension: &se snapp
+ingest_pattern: &ip kinesis2kinesis
+active: True
+pattern_instances:
+  - region: us-east-1
+    resources:
+      kinesis_firehose:
+        enabled: True
+        partitioning:
+          dynamic: 
+            enabled: false
+            keys: null
+          custom_keys:
+            source: *ip 
+            data_entity: *se           
+      cross_account:
+        cross_account_type: &cat target
+        cross_account_id: &id 795965727170 
+        # this role needs to be looked at
+        cross_account_role_name: guest360-local-snapp/lambda/guest360-local-snapp-lambda-latest_role 

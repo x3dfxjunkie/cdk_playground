@@ -1,0 +1,44 @@
+profile:
+  get:
+    tags:
+      - Guest Profile
+    description: Get a guest profile and insights
+    operationId: getGuestProfile
+    parameters:
+      - name: id
+        in: query
+        description: specify the guest identifier for lookup
+        required: true
+        schema:
+          type: string
+      - name: idType
+        in: query
+        description: specify the guest identifier type, ex - swid
+        required: true
+        schema:
+          $ref: "../openapi.yaml#/components/schemas/idTypes"
+        example: swid
+    responses:
+      "200":
+        description: successful operation
+        content:
+          application/json:
+            schema:
+              $ref: "../openapi.yaml#/components/schemas/profile"
+      "400":
+        description: Invalid request
+      "401":
+        description: Unauthorized request
+      "404":
+        description: ID / ID Type not found
+      "405":
+        description: Method not allowed
+    x-amazon-apigateway-integration:
+      credentials: "${ApiGatewayLambdaRole.Arn}"
+      type: aws_proxy
+      httpMethod: POST
+      uri: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${APILambda.Arn}/invocations
+      passthroughBehavior: when_no_templates
+      payloadFormatVersion: "1.0"
+    security:
+      - authz-authorizer: []

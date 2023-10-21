@@ -1,0 +1,119 @@
+[
+	{
+		"data": {
+			"CMP_EXTNL_REF_ID": 122134339,
+			"CHRG_MKT_PKG_ID": 160895839,
+			"EXTNL_SRC_NM": "DREAMS_TC",
+			"CMP_EXTNL_REF_VL": "12092785498",
+			"CREATE_USR_ID_CD": "MOUSM001",
+			"CREATE_DTS": "2023-06-10T16:09:31.169000Z",
+			"UPDT_USR_ID_CD": "MOUSM001",
+			"UPDT_DTS": "2023-06-10T16:09:31.169000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-06-10T20:09:32Z",
+			"transact_seq": "20230610200932000000000000067654493"
+		},
+		"metadata": {
+			"timestamp": "2023-06-11T05:54:34.187391Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CMP_EXTNL_REF",
+			"transaction-id": 720922
+		}
+	},
+	{
+		"data": {
+			"CMP_EXTNL_REF_ID": 122134165,
+			"CHRG_MKT_PKG_ID": 160895665,
+			"EXTNL_SRC_NM": "DREAMS_TC",
+			"CMP_EXTNL_REF_VL": "12092785570",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-06-10T16:09:53.132000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-06-10T16:09:53.132000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-06-10T20:09:54Z",
+			"transact_seq": "20230610200954000000000000067658609"
+		},
+		"metadata": {
+			"timestamp": "2023-06-11T05:54:41.217987Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CMP_EXTNL_REF",
+			"transaction-id": 524321
+		}
+	},
+	{
+		"data": {
+			"CMP_EXTNL_REF_ID": 122134263,
+			"CHRG_MKT_PKG_ID": 160895763,
+			"EXTNL_SRC_NM": "DREAMS_TC",
+			"CMP_EXTNL_REF_VL": "12092785668",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-06-10T16:10:07.721000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-06-10T16:10:07.721000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_seq": "20230610201009000000000000067663353"
+		},
+		"metadata": {
+			"timestamp": "2023-06-11T05:54:49.833280Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CMP_EXTNL_REF",
+			"transaction-id": 131096
+		}
+	},
+	{
+		"data": {
+			"CMP_EXTNL_REF_ID": 122134264,
+			"CHRG_MKT_PKG_ID": 160895764,
+			"EXTNL_SRC_NM": "DREAMS_TC",
+			"CMP_EXTNL_REF_VL": "12092781393",
+			"CREATE_USR_ID_CD": "MOUSM001",
+			"CREATE_DTS": "2023-06-10T16:10:10.335000Z",
+			"UPDT_USR_ID_CD": "MOUSM001",
+			"UPDT_DTS": "2023-06-10T16:10:10.335000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-06-10T20:10:11Z"
+		},
+		"metadata": {
+			"timestamp": "2023-06-11T05:54:51.871890Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CMP_EXTNL_REF",
+			"transaction-id": 458773
+		}
+	},
+	{
+		"data": {
+			"CMP_EXTNL_REF_ID": 122134166,
+			"CHRG_MKT_PKG_ID": 160895666,
+			"EXTNL_SRC_NM": "DREAMS_TC",
+			"CMP_EXTNL_REF_VL": "12092785572",
+			"CREATE_USR_ID_CD": "WDPRO",
+			"CREATE_DTS": "2023-06-10T16:10:20.418000Z",
+			"UPDT_USR_ID_CD": "WDPRO",
+			"UPDT_DTS": "2023-06-10T16:10:20.418000Z",
+			"JDO_SEQ_NB": 0,
+			"transact_commit_timestamp": "2023-06-10T20:10:22Z",
+			"transact_seq": "20230610201022000000000000067666469"
+		},
+		"metadata": {
+			"timestamp": "2023-06-11T05:54:55.450526Z",
+			"record-type": "data",
+			"operation": "insert",
+			"partition-key-type": "schema-table",
+			"schema-name": "FOLIO",
+			"table-name": "CMP_EXTNL_REF"
+		}
+	}
+]

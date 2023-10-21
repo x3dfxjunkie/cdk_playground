@@ -1,0 +1,85 @@
+experienceGateClick:
+  allOf:
+    - $ref: "../openapi.yaml#/components/schemas/experienceCommon"
+    - type: object
+      properties:
+        transactionId:
+          type: string
+          description: unique identifier for the Gate Click experience transaction
+        experienceId:
+          type: string
+          description: Park Enterprise ID.  This can be referenced via Facility APIs for additional facililty metadata
+          example: "80007944"
+        experienceName:
+          type: string
+          description: "Offical name of the experience: Park Entered"
+          example: Magic Kingdom
+        experienceEnterpriseType:
+          allOf:
+            - $ref: "../openapi.yaml#/components/schemas/experienceEnterpriseType"
+            - type: string
+              example: "Water Park"
+        #locationDetails: --- Gate Click experience Id is park, locationDetails is not necessary
+        #  "$ref": "#/components/schemas/locationDetails"
+        experienceCategory:
+          allOf:
+            - $ref: "../openapi.yaml#/components/schemas/experienceCategory"
+            - type: string
+              example: "Gate Click"
+        status:
+          $ref: "../openapi.yaml#/components/schemas/experienceStatus"
+        businessDate:
+          type: string
+          format: date
+          description: Date of the Park Entry that the guest is entitled for
+        experienceStart:
+          type: string
+          format: date-time
+          description: UTC start date/Time when guest enters the corresponding Park
+        experienceEnd:
+          type: string
+          format: date-time
+          description: Currently optional, future enhancement may include UTC end date/Time of the Park Reservation, corresponding to Park Close hours
+      required:
+        - transactionId
+        - experienceId
+        - experienceCategory
+        - status
+        - businessDate
+        - experienceStart
+    - type: object
+      properties:
+        usageDetails:
+          type: object
+          properties:
+            ticketId:
+              type: string
+              example: 25100009999999999
+              description: Ticket ID associated to Gate Click. Also known as TCOD / Ticket Visual ID
+            usageType:
+              type: string
+              description: specifies the type of entry - Entry is the initial park entry, crossover is from Park Hop
+              enum:
+                - Entry
+                - Crossover
+                - Re-Entry
+            totalUsageDays:
+              type: number
+              example: 4
+              description: Total usage days allowed
+            remainingUsageDays:
+              type: number
+              example: 2
+              description: Remaining usage days
+            validateStatus:
+              type: string
+              example: Approved
+              description: Gate entry validation status description
+            validateStatusCode:
+              type: string
+              example: 1
+              description: Gate entry validation status code
+    - type: object
+      properties:
+        productDetails:
+          $ref: "../openapi.yaml#/components/schemas/ticketProductDetails"

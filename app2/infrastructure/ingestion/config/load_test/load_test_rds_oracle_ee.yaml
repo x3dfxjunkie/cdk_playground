@@ -1,0 +1,36 @@
+engine_type: oracle_ee
+resources:
+    rds:
+      engine: !!python/object/apply:app.src.reliability.Guest360YamlHandler.aws_cdk.rds.instance_engine
+        kwds: { engine_name: "ORACLE_EE", version: "19" }
+      database_name: ORCL # Limit 8 characters. The Oracle System ID (SID) of the created DB instance. If you don't specify a value, the default value is ORCL per https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_CreateDBInstance.html
+      iam_authentication: false # must be false for Oracle DB
+    network_config:
+      allowlist:
+        ingress:
+          cidrs:
+            - "10.0.0.0/8"
+            - "127.0.0.0/8"
+    dms_table_mappings: # Ovveride table-mappings from ingestion config file for load-testing if needed; mostly used just for testing purposes
+        rules:
+            - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+              rule-id: "1" # Unique numeric value to identify the rule.
+              rule-name: "1" # Unique name to identify the rule.
+              rule-action: include # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+              object-locator: # The name of each schema and table or view to which the rule applies
+                schema-name: "%"
+                table-name: "%" #Table qualifier
+            - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+              rule-id: "2" # Unique numeric value to identify the rule.
+              rule-name: "2" # Unique name to identify the rule.
+              rule-action: exclude # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+              object-locator: # The name of each schema and table or view to which the rule applies
+                schema-name: "RDSADMIN"
+                table-name: "TRACEFILE_LISTING" #Table qualifier
+            - rule-type: selection # See selection rules and actions: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html
+              rule-id: "3" # Unique numeric value to identify the rule.
+              rule-name: "3" # Unique name to identify the rule.
+              rule-action: exclude # Value that includes or excludes the object or objects selected by the rule. Valid values: include, exclude, explicit
+              object-locator: # The name of each schema and table or view to which the rule applies
+                schema-name: "GSMADMIN_INTERNAL"
+                table-name: "CATALOG_REQUESTS" #Table qualifier

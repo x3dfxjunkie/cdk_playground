@@ -1,0 +1,95 @@
+experienceResortReservation:
+  allOf:
+    - $ref: "../openapi.yaml#/components/schemas/experienceCommon"
+    - type: object
+      properties:
+        transactionId:
+          type: string
+          description: unique identifier for the lightning lane experience transaction
+        experienceId:
+          type: string
+          description: Resort Enterprise ID.  This can be referenced via Facility APIs for additional facililty metadata
+          example: "1"
+        experienceCategory:
+          allOf:
+            - $ref: "../openapi.yaml#/components/schemas/experienceCategory"
+            - type: string
+              example: "Resort Reservation"
+        status:
+          $ref: "../openapi.yaml#/components/schemas/experienceExtendedStatus"
+        experienceStart:
+          type: string
+          format: date-time
+          description: UTC start date/Time when guest may check into the Resort.  If available, the actual check-in time.
+        experienceEnd:
+          type: string
+          format: date-time
+          description: UTC end date/Time when guest needs to check out of the Resort.  If available, the actual checked-out time.
+      required:
+        - transactionId
+        - experienceId
+        - experienceCategory
+        - status
+        - experienceStart
+        - experienceEnd
+    - type: object
+      properties:
+        reservationDetails:
+          type: object
+          description: reservation details
+          properties:
+            guestCount:
+              type: integer
+              example: 5
+            guestPartyMix:
+              $ref: "../openapi.yaml#/components/schemas/guestPartyMix"
+            roomCount:
+              type: integer
+              description: Total rooms reserved.  Typically 1, WDW resort reservation may have multiple rooms per reservation
+              example: 1
+            roomDetails:
+              type: array
+              description: Room details corresponding to reservation
+              items:
+                type: object
+                properties:
+                  roomSequenceNumber:
+                    type: integer
+                    description: Sequence within reservation
+                  roomTypeCode:
+                    type: string
+                    description: Room Type Code
+                    example: JC
+                  suite:
+                    type: boolean
+                    description: if room is a suite
+                  concierge:
+                    type: boolean
+                    description: if room has Club Level Concierge
+                  guestCount:
+                    type: integer
+                    description: guest count within the corresponding room
+                    example: 5
+                  guestPartyMix:
+                    $ref: "../openapi.yaml#/components/schemas/guestPartyMix"
+            bookingChannel:
+              type: string
+              description: The channel used to book the reservation - DVC | Travel Agent | Direct |etc
+              example: "Travel Agent"
+            dvcBooking:
+              type: boolean
+              description: indicates if this is a reservation via DVC
+            travelAgentBooking:
+              type: boolean
+              description: indicates if this is a reservation via Travel Agency
+            onlineCheckIn:
+              type: boolean
+              description: indicates if guest has done online check in
+            checkinTime:
+              type: string
+              format: date-time
+              description: Reservation Check-In Time if available
+            checkoutTime:
+              type: string
+              format: date-time
+              description: Reservation Check-Out Time if available

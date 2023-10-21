@@ -1,0 +1,222 @@
+{
+    "DREAMSGroupManagementBlkFacModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_blk_fac_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "blk_fac"
+            }
+        }
+    },
+    "DREAMSGroupManagementGroModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_gro_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "gro"
+            }
+        }
+    },
+    "DREAMSGroupManagementGrpAdtModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_grp_adt_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp_adt"
+            }
+        }
+    },
+    "DREAMSGroupManagementGrpAtritnModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_grp_atritn_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp_atritn"
+            }
+        }
+    },
+    "DREAMSGroupManagementGrpBlkPkgChanModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_grp_blk_pkg_chan_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp_blk_pkg_chan"
+            }
+        }
+    },
+    "DREAMSGroupManagementGrpBlkModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_grp_blk_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp_blk"
+            }
+        }
+    },
+    "DREAMSGroupManagementGrpModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_grp_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp"
+            }
+        }
+    },
+    "DREAMSGroupManagementGrpDlgtBkngMethModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_grp_dlgt_bkng_meth_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp_dlgt_bkng_meth"
+            }
+        }
+    },
+    "DREAMSGroupManagementGrpLnkModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_grp_lnk_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp_lnk"
+            }
+        }
+    },
+    "DREAMSGroupManagementGrpPtyRlModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_grp_pty_rl_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-resm-stream": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp_pty_rl"
+            }
+        }
+    },
+    "DREAMSGroupManagementGrpBusSrcModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_grp_bus_src_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-grpmg-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp_bus_src"
+            }
+        }
+    },
+    "DREAMSGroupManagementGrpCmtRteModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_grp_cmt_rte_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-grpmg-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp_cmt_rte"
+            }
+        }
+    },
+    "DREAMSGroupManagementGrpCmtModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_grp_cmt_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-grpmg-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp_cmt"
+            }
+        }
+    },
+    "DREAMSGroupManagementGrpCmtTypRteModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_grp_cmt_typ_rte_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-grpmg-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp_cmt_typ_rte"
+            }
+        }
+    },
+    "DREAMSGroupManagementGrpCtrcRsrtModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_grp_ctrc_rsrt_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-grpmg-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp_ctrc_rsrt"
+            }
+        }
+    },
+    "DREAMSGroupManagementGrpFreeTmLvlModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_grp_free_tm_lvl_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-grpmg-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp_free_tm_lvl"
+            }
+        }
+    },
+    "DREAMSGroupManagementGrpMgmtRlModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_grp_mgmt_rl_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-grpmg-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp_mgmt_rl"
+            }
+        }
+    },
+    "DREAMSGroupManagementGrpPrflAsscModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_grp_prfl_assc_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-grpmg-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp_prfl_assc"
+            }
+        }
+    },
+    "DREAMSGroupManagementDlvrMethModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_dlvr_meth_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-grpmg-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "dlvr_meth"
+            }
+        }
+    },
+    "DREAMSGroupManagementGrpCnfirmDestModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_grp_cnfirm_dest_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-grpmg-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp_cnfirm_dest"
+            }
+        }
+    },
+    "DREAMSGroupManagementGrpStgModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_grp_stg_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-grpmg-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "grp_stg"
+            }
+        }
+    },
+    "DREAMSGroupManagementOptyTypModel": {
+        "data-source-folder": "dreams/group_management/v0",
+        "data-contract-name": "dreams_group_management_opty_typ_source_data_contract",
+        "kinesis-stream": {
+            "prd-use1-guest360-dreams-grpmg-kinesis-dmz": {
+                "key-path-name": "metadata.table-name",
+                "key-path-value": "opty_typ"
+            }
+        }
+    }
+}

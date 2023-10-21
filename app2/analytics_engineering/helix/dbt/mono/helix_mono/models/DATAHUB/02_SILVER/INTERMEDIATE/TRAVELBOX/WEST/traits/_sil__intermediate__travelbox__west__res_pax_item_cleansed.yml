@@ -1,0 +1,306 @@
+version: 2
+
+models:
+  - name: sil__intermediate__travelbox__west__res_pax_item_cleansed
+    description: '{{ doc("sil__intermediate__travelbox__west__res_pax_item_cleansed") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_cleansed
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_booking_id
+            - data_item_no
+            - data_pax_item_no
+            - data_product_code
+            - metadata_checksum
+
+    columns:
+      - name: data_external_base_price
+        description: "NaN | example: 98683.0"
+        meta:
+          checksum: True
+
+      - name: data_order_line_item_id
+        description: "NaN | example: cYjIwkTAnnBqPjASZhpn"
+        meta:
+          checksum: True
+
+      - name: data_ext_order_line_item_id
+        description: "NaN | example: BMjFQdGBMFLGvNyvSjnc"
+        meta:
+          checksum: True
+
+      - name: data_ext_price_token_time
+        description: "NaN | example: PXvWHNkKrjYkVOfkPLQd"
+        meta:
+          checksum: True
+
+      - name: data_plu_code
+        description: "NaN | example: aNqmbMzFWvxPQKtZqTbC"
+        meta:
+          checksum: True
+
+      - name: data_ext_base_currency
+        description: "NaN | example: fKtfJwGgMfAYgBVdUDHX"
+        meta:
+          checksum: True
+
+      - name: data_booking_id
+        description: "The system generated id of the booking | example: 14328926"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_product_code
+        description: "Deprecated | example: GEN"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_item_no
+        description: "Deprecated | example: 5"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_pax_item_no
+        description: "Number of the pax that particular car Item | example: 3"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_passenger_no
+        description: "Passnger number of the details entered passenger | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_lead
+        description: "A flag indicating that the passenger is the lead passenger ( value is &#39;1&#39; ) or not ( value is &#39;0&#39; ) | example: 1"
+        meta:
+          checksum: True
+
+      - name: data_type
+        description: "The availbility type (1 = Available 2 = Free Sell) | example: A"
+        meta:
+          checksum: True
+
+      - name: data_departure_time
+        description: "Same column properties as GEN_DEPARTURE_TIME.DEPARTURE_TIME | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_on_request
+        description: "Specifies whether car is On Request or not_x000D_
+On Request - 1, Not - 0 | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_departure_date
+        description: "Departure date for bookings | example: 1979-12-27 20:19:34"
+        meta:
+          checksum: True
+
+      - name: data_inf_seat
+        description: "A flag to indicate whether the pax required an infant seat or not. | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_cost
+        description: "Debit credit note cost amount_x000D_
+- If credit negative value_x000D_
+- If debit positive value | example: 36.25"
+        meta:
+          checksum: True
+
+      - name: data_price
+        description: "Oracle managed system tables used for materialised views | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_tax
+        description: "Total tax for the booking | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_discount
+        description: "Invoice line Discount | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_last_modified_time
+        description: "The time at which the last modification has done. | example: 2006-10-28 20:23:42"
+        meta:
+          checksum: True
+
+      - name: data_travel_with_infant
+        description: "NaN | example: 0"
+        meta:
+          checksum: True
+
+      - name: data_inf_passenger_no
+        description: "NaN | example: -1"
+        meta:
+          checksum: True
+
+      - name: data_commission
+        description: "The commission percentage recieved by the tour operator | example: 0.0"
+        meta:
+          checksum: True
+
+      - name: data_ptc_code
+        description: "NaN | example: zgKduACEiKPBojWJyPcu"
+        meta:
+          checksum: True
+
+      - name: data_special_care
+        description: "NaN | example: KpvPmWcquGfjDrtxlSys"
+        meta:
+          checksum: True
+
+      - name: min_metadata_timestamp
+        description: "The Minimum Metadata Timestamp field is used for updating the version end date of the active record in the target table"
+        tests:
+          - not_null
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp of when the record was sent to the stream | example: 2023-08-11 14:38:01.378618"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "Type of record | example: data"
+
+      - name: metadata_operation
+        description: "Type of operation [insert, delete, update] | example: update"
+
+      - name: metadata_partition_key_type
+        description: "Partition key | example: schema-table"
+
+      - name: metadata_schema_name
+        description: "Name of schema | example: SFLNSMD"
+
+      - name: metadata_table_name
+        description: "Name of table | example: AP_LVL_N_ENTTL_FISCAL_DT"
+
+      - name: metadata_transaction_id
+        description: "Unique Transaction Identifier | example: 59558768559209"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

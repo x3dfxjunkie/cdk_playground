@@ -1,0 +1,133 @@
+version: 2
+
+models:
+  - name: sil__intermediate__das__wdw__destination_versioned
+    description: '{{ doc("sil__intermediate__das__wdw__destination_versioned") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: DSE_QUERY_LST_WH
+        - env: LATEST
+          wh: DSE_QUERY_LST_WH
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: STG_HELIX_DREAMS_MEDIUM_WH
+        - env: PROD
+          wh: PRD_HELIX_DREAMS_LARGE_WH
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_versioned
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_enttl_id
+            - metadata_checksum
+
+    columns:
+      - name: data_enttl_id
+        description: ""
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_enttl_strt_dts
+        description: ""
+
+      - name: data_enttl_end_dts
+        description: ""
+
+      - name: data_tnc_ver
+        description: ""
+
+      - name: data_max_fp_booking
+        description: ""
+
+      - name: data_create_usr_id
+        description: ""
+
+      - name: data_create_dts
+        description: ""
+
+      - name: data_updt_usr_id
+        description: ""
+
+      - name: data_updt_dts
+        description: ""
+
+      - name: data_lgcl_del_in
+        description: ""
+
+      - name: data_site
+        description: ""
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp for when the record was sent in the stream | example: 2023-03-29T15:30:19.109655Z"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "data | example: 2023-03-29T15:30:15Z"
+
+      - name: metadata_operation
+        description: ""
+
+      - name: metadata_partition_key_type
+        description: ""
+
+      - name: metadata_schema_name
+        description: "Name of the schema in snowflake | example: res_mgmt"
+
+      - name: metadata_table_name
+        description: "name of the table in snowflake | example: tc"
+
+      - name: metadata_transaction_id
+        description: "unique ID for the stream record | example: 70974432245344"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: metadata_version_start_datetime
+        description: "Version start datetime"
+        tests:
+          - not_null
+
+      - name: metadata_version_end_datetime
+        description: "Version end datetime"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""

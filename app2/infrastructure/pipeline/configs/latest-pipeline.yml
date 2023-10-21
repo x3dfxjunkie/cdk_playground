@@ -1,0 +1,5 @@
+---
+github_action_role_arn: "arn:aws:iam::795965727170:role/github_runner/ecs/github_runner-ecs-latest_role"
+github_action_role_arn_codebuild: "arn:aws:iam::543276908693:role/g360-orchestrator-codebuild-latest-role"
+promote_bucket: "stg-use1-guest360-build-pipeline-bucket"
+...

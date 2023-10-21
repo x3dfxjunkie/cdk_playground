@@ -1,0 +1,268 @@
+version: 2
+
+models:
+  - name: sil__intermediate__dreams__rooms_reservations__tps_versioned
+    description: '{{ doc("sil__intermediate__dreams__rooms_reservations__tps_versioned") }}'
+
+    meta:
+      environment_wh:
+        - env: LOCAL
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: LATEST
+          wh: HOTEL_LODGING_LATEST_WH_S
+        - env: EPHEMERAL_PR
+          wh: PR_SMALL_WH
+        - env: STAGE
+          wh: HOTEL_LODGING_STAGE_WH_M
+        - env: PROD
+          wh: HOTEL_LODGING_PROD_WH_M
+
+    config:
+      tags:
+        - layer=silver_intermediate
+        - sub_layer=silver_intermediate_versioned
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - data_tps_id
+            - metadata_checksum
+
+    columns:
+      - name: data_tp_id
+        description: "The unique identification of a travel plan. | example: 530620488799"
+
+      - name: data_tps_id
+        description: "A unique numeric identifier for a travel plan segment. | example: 530631525237"
+        tags: ['column_designation=primary_key']
+        tests:
+          - not_null
+
+      - name: data_trvl_sts_nm
+        description: "The name of the state of the Travel Status.  For example, one status is Booked, which means that a reservation has been created for the guest.  Another example is Auto Cancelled, which means that the system cancelled the reservation because deposit requirements were not met. | example: Booked"
+
+      - name: data_vip_lvl_nm
+        description: "Words depicting the relative importance of guests. | example: 0"
+
+      - name: data_trvl_agcy_pty_id
+        description: "The unique identification of the transaction organization who is identified as the travel agency for this travel plan segment. | example: 62605193"
+
+      - name: data_trvl_agt_pty_id
+        description: "The unique identification of the transaction individual who performs the role of travel agent for this travel plan segment. | example: 999486097"
+
+      - name: data_prmy_pty_id
+        description: "The unique identification of the transaction individual / organization who is identified as the primary party for this travel plan segment. | example: 888675291"
+
+      - name: data_tps_guar_in
+        description: ""
+
+      - name: data_tps_secur_vl
+        description: "The amount of freedom from risk associated with a particular Travel Plan Segment.  For example, all TPS originating in a particular system may be NTP (No Touch Please). | example: NTP"
+
+      - name: data_tps_ctct_nm
+        description: "The contact person for a Travel Plan Segment when a formal Party Role is not created.  Example:  If an administrative assistant is booking one or more reservations but is not attending we would simply store her name.  It might only be the first name.  If a group delegate books herself, this element would be null because the Travel Plan Segment Party Role Primary Contact Indicator would be checked. | example: Mouse, Mickey"
+
+      - name: data_tps_cncl_dts
+        description: "The date and time when the complete Travel Plan Segment is cancelled. | example: 2023-05-04T00:00:00Z"
+
+      - name: data_tps_cncl_nb
+        description: "A number that is generated and given to the guest when the entire Travel Plan Segment is cancelled. | example: 212016"
+
+      - name: data_tps_cnfm_updt_dts
+        description: "Determines whether or not a Travel Plan Segment is Deposit Guaranteed.This is indicator which shows if reservation is guaranteed or not. It can be guaranteed by contract or by money . Reservation can be guaranteed if its done by wholesaler/group/travel agency or DVC member. Guest needs to pay deposit to get reservation guaranteed. If reservation is not cancelled according to terms and condition deposit is Forfeit . | example: 2023-05-04T00:00:01Z"
+
+      - name: data_tps_cnfrm_usr_id_cd
+        description: ""
+
+      - name: data_tps_ppty_sync_in
+        description: "The timestamp of when a confirmation was requested. | example:"
+
+      - name: data_src_acct_ctr_id
+        description: "A kind of Accounting Center that ficially owns a particular reservation. This will be used for filtering in the Accounting reports to distinguish Scheduled Event sales from Resort Sales. | example:"
+
+      - name: data_tps_arvl_dt
+        description: "The earliest arrival date of all associated Travel Components. | example: 2023-04-22T17:50:00Z"
+
+      - name: data_tps_dprt_dt
+        description: "The latest departure date of all associated Travel Components. | example: 2023-04-22T17:50:00Z"
+
+      - name: data_tps_est_arvl_tm
+        description: "The time the guest is estimated to arrive on property, captured via the internet pre-arrival process. | example: 2023-05-04T00:00:00Z"
+
+      - name: data_tps_est_dprt_tm
+        description: "The time the guest is estimated to leave property, captured via the internet pre-arrival process. | example: 2023-05-04T00:00:00Z"
+
+      - name: data_onst_phn_nb
+        description: "Local area contact phone number for the primary guest on the travel plan segment | example: 4026129725"
+
+      - name: data_web_txfr_cd
+        description: "The Web Transfer process is used by a Guest who used a certain web site to get to our booking site.  WDPRO currently passes a code to Accovia and this comes out in the &#39;Source of Business&#39; attribute.  In the new process after TAP Migration, WDPRO will pass a code through EAI to DREAMS and stored in this field.  This is an interim solution until further requirements to track multiple sources are identified. | example: INTA"
+
+      - name: data_dnis_nb
+        description: "This is a 4 digit number used to identify the line associated with an inbound call. Usually , but not always, this number is the same as the last four digits of the phone number associated with the line. A DNIS number is assigned to a phone number used for inbound calls. | example: INTA"
+
+      - name: data_trms_cndtns_vers_nb
+        description: "Version number of the terms and conditions card the guest electronically accepted when completing the internet pre-arrival process. | example: 11.27.2012_4_1.0"
+
+      - name: data_syw_opt_in
+        description: ""
+
+      - name: data_create_usr_id_cd
+        description: "The identification value for the user or application that created a row in this table. | example: WDPRO"
+
+      - name: data_create_dts
+        description: "The month day century year hour minute and second when a row was created in this table. | example: 2023-03-29T11:30:10.669000Z"
+
+      - name: data_updt_usr_id_cd
+        description: "The identification value for the user or application that updated this row in this table. | example: WDPRO"
+
+      - name: data_updt_dts
+        description: ""
+
+      - name: data_jdo_seq_nb
+        description: "A Java Data Object structure used to ensure that optimistic locking of rows in the database do not occur. | example: 1"
+
+      - name: data_prge_dts
+        description: ""
+
+      - name: data_onst_msg_in
+        description: "Onsight Manager Indicator | example: Y"
+
+      - name: data_incognito
+        description: ""
+
+      - name: metadata_checksum
+        description: "Metadata Checksum"
+        tests:
+          - not_null
+
+      - name: metadata_timestamp
+        description: "Timestamp for when the record was sent in the stream | example: 2023-03-29T15:30:19.109655Z"
+        tests:
+          - not_null
+
+      - name: metadata_record_type
+        description: "data | example: data"
+
+      - name: metadata_operation
+        description: ""
+
+      - name: metadata_partition_key_type
+        description: ""
+
+      - name: metadata_schema_name
+        description: "Name of the schema in snowflake | example: res_mgmt"
+
+      - name: metadata_table_name
+        description: "name of the table in snowflake | example: tc"
+
+      - name: metadata_transaction_id
+        description: "unique ID for the stream record | example: 70974432245344"
+
+      - name: metadata_transaction_record_id
+        description: "Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_id
+        description: "Previous Transaction ID | example: 70974432245344"
+
+      - name: metadata_prev_transaction_record_id
+        description: "Previous Transaction Record ID | example: 70974432245344"
+
+      - name: metadata_commit_timestamp
+        description: "Commit Timestamp | example: 2023-03-29T15:30:19.109655Z"
+
+      - name: metadata_stream_position
+        description: "Stream Position | example:"
+
+      - name: metadata_insert_datetime
+        description: "This is the current timestamp in UTC when the record is inserted"
+        tests:
+          - not_null
+
+      - name: metadata_batch_user
+        description: "Batch user. Default value will be dbt"
+        tests:
+          - not_null
+
+      - name: metadata_version_start_datetime
+        description: "Version start datetime"
+        tests:
+          - not_null
+
+      - name: metadata_version_end_datetime
+        description: "Version end datetime"
+        tests:
+          - not_null
+
+      - name: landing_id
+        description: ""
+
+      - name: landing_file_name
+        description: ""
+
+      - name: landing_file_row_number
+        description: ""
+
+      - name: landing_file_last_modified
+        description: ""
+
+      - name: landing_timestamp
+        description: ""
+
+      - name: landing_cloudevent_id
+        description: ""
+
+      - name: landing_cloudevent_specversion
+        description: ""
+
+      - name: landing_cloudevent_time
+        description: ""
+
+      - name: landing_cloudevent_source
+        description: ""
+
+      - name: landing_cloudevent_subject
+        description: ""
+
+      - name: landing_cloudevent_stream
+        description: ""
+
+      - name: landing_cloudevent_type
+        description: ""
+
+      - name: landing_cloudevent_dataschema
+        description: ""
+
+      - name: landing_cloudevent_traceparent
+        description: ""
+
+      - name: landing_cloudevent_tracestate
+        description: ""
+
+      - name: landing_cloudevent_check_sum
+        description: ""
+
+      - name: landing_cloudevent_router_database
+        description: ""
+
+      - name: landing_cloudevent_router_schema
+        description: ""
+
+      - name: landing_cloudevent_router_table
+        description: ""
+
+      - name: landing_cloudevent_validated
+        description: ""
+
+      - name: landing_cloudevent_data_contract_version
+        description: ""
+
+      - name: landing_cloudevent_datacontenttype
+        description: ""
+
+      - name: landing_cloudevent_exception_error
+        description: ""

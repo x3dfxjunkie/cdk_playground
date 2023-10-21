@@ -1,0 +1,82 @@
+version: 2
+
+models:
+  - name: sil__hotel_lodging__room_fulfillment_reservations__charge_item_current
+    description: "{{ doc('sil__hotel_lodging__room_fulfillment_reservations__charge_item_current') }}"
+
+    config:
+      tags:
+        - layer=silver_final
+        - domain=hotel_lodging
+        - sub_domain=room_fulfillment_reservations
+        - active=LATEST
+        - active=STAGE
+        - active=LOAD
+        - active=PROD
+
+    columns:
+      - name: charge_item_id
+        description: ""
+
+      - name: charge_id
+        description: ""
+
+      - name: folio_id
+        description: ""
+
+      - name: folio_item_type_name
+        description: ""
+
+      - name: folio_item_amount
+        description: ""
+
+      - name: charge_item_amount
+        description: ""
+
+      - name: charge_item_deposit_amount
+        description: ""
+
+      - name: charge_item_deposit_due_date
+        description: ""
+
+      - name: charge_item_type_name
+        description: ""
+
+      - name: revenue_type_name
+        description: ""
+
+      - name: revenue_type_id
+        description: ""
+
+      - name: data_tax_item_indicator
+        description: ""
+
+      - name: split_charge_item_indicator
+        description: ""
+
+      - name: charge_item_inactive_datetime
+        description: ""
+
+      - name: charge_item_inactive_date
+        description: ""
+
+      - name: charge_item_currency_code
+        description: ""
+
+      - name: create_user_id
+        description: ""
+
+      - name: create_date_time
+        description: ""
+
+      - name: create_date
+        description: ""
+
+      - name: source_update_user_id
+        description: ""
+
+      - name: source_update_datetime
+        description: ""
+
+      - name: source_update_date
+        description: ""
