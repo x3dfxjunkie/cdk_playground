@@ -1,6 +1,7 @@
 ---
 name: PR CodeGuru Example
-on: pull_request
+on:
+  pull_request:
 
 permissions:
   id-token: write
