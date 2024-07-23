@@ -23,3 +23,6 @@ jobs:
           cdk synth 2>&1 | tee -a $GITHUB_STEP_SUMMARY
 
       - run: docker ps
+
+      - run: docker run hello-world
+...
