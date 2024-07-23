@@ -19,5 +19,5 @@ jobs:
         shell: bash
         run: |
           cd iam_role
-          npm -i
+          npm install
           cdk synth 2>&1 | tee -a $GITHUB_STEP_SUMMARY
