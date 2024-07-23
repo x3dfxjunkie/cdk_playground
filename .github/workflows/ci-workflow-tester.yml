@@ -19,4 +19,5 @@ jobs:
         shell: bash
         run: |
           cd iam_role
+          npm -i
           cdk synth 2>&1 | tee -a $GITHUB_STEP_SUMMARY
