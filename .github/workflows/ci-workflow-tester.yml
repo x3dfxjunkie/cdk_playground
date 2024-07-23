@@ -2,15 +2,7 @@
 name: Workflow Testing
 on:
   workflow_dispatch:
-    inputs:
-      test_value_one:
-        description: "Test Value 1"
-        required: false
-        type: string
-      test_value_two:
-        description: "Test Value 2"
-        required: false
-        type: string
+  pull_request:
 
 jobs:
   show-env:
@@ -20,6 +12,9 @@ jobs:
         with:
           node-version: 18
       - run: npm install -g aws-cdk@2
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
       - name: Synth
         shell: bash
         run: |
