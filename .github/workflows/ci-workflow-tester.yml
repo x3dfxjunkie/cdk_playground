@@ -2,11 +2,11 @@
 name: Workflow Testing
 on:
   workflow_dispatch:
-  pull_request:
 
 jobs:
   show-env:
-    runs-on: [ "codebuild-ander134-test-${{ github.run_id }}-${{ github.run_attempt }}" ]
+    # runs-on: [ "codebuild-ander134-test-${{ github.run_id }}-${{ github.run_attempt }}" ]
+    runs-on: [ "ubuntu-latest" ]
     steps:
       - uses: actions/setup-node@v4
         with:
