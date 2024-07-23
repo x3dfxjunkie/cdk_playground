@@ -21,3 +21,5 @@ jobs:
           cd iam_role
           npm install
           cdk synth 2>&1 | tee -a $GITHUB_STEP_SUMMARY
+
+      - run: docker ps
