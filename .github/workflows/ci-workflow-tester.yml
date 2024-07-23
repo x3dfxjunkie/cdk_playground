@@ -27,6 +27,6 @@ jobs:
       - run: docker run hello-world
 
       - run: |
-        cd iam_role
-        docker build .
+          cd iam_role
+          docker build .
 ...
