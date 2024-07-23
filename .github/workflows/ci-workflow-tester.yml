@@ -14,10 +14,14 @@ on:
 
 jobs:
   show-env:
-    runs-on: [ "ubuntu-latest" ]
+    runs-on: [ "codebuild-ander134-test-${{ github.run_id }}-${{ github.run_attempt }}" ]
     steps:
-      - name: Test Step
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - run: npm install -g aws-cdk@2
+      - name: Synth
+        shell: bash
         run: |
-          # This exists as a placeholder for anyone who wants to test action code
-          # before moving it into a pipeline flow.
-          # When modifying this action, please return it to this state before merging your branch.
+          cd iam_role
+          cdk synth 2>&1 | tee -a $GITHUB_STEP_SUMMARY
